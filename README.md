@@ -84,6 +84,15 @@ https://rahakubun.github.io/Quenya-Learning/quenya-web/
 
 > 第 1 课是最初的教学层样板（章节级对照）；第 2–20 课按同一范式逐段重做，均为逐段 1:1 对照 + 练习工作台。
 
+<details>
+<summary>展开看目录页</summary>
+
+<p align="center">
+  <img src="docs/images/catalog.png" width="820" alt="课程目录页：三个总表入口 + 20 课卡片">
+</p>
+
+</details>
+
 ## 每课页面里有什么
 
 | 区块 | 作用 |
