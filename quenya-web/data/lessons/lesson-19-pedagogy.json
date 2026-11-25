@@ -1,0 +1,168 @@
+{
+ "lesson": 19,
+ "schemaVersion": 2,
+ "titleZh": "命令句中的代词、强调代词、疑问词与后置词",
+ "titleEn": "Pronouns in Imperative Phrases. Emphatic Pronouns. Question Words. Postpositions.",
+ "summaryZh": "本课四块。①命令句里的代词：受话人数用词尾标——单数 -t（hecat!「get thee gone!」、a laitat!、áva carit!、á tulit!），复数 -l（hecal!、a laital!、áva caril!、á tulil!）。词尾加在动词干上，不加在 á 上；基础动词在命令句里带 -ë（áva carë!），接词尾时 -ë 回 -i（áva carit!）。宾语／与格代词可独立成词（a laita te），也可前移粘 á：á tirë te ＝ átë tirë!、ámen linda!、ámë tirë!／ávamë tirë!。á 上只能挂一个代词，故两个代词时一个粘 á、一个独立：ánin carë ta! ＝ áta carë nin!（或 ánin caritas!）。②强调代词：由代词词尾的长形式加元音构成，通例 e-（elyë ← -lyë、elmë ← -lmë、elvë ← -lvë），第一人称破例作 i-（inyë ← -nyë，因词根 NI）。用独立代词时动词上相应词尾要删去（Nai hiruvalyë → Nai elyë hiruva），但复数代词后动词仍带 -r（elmë hiruvar，不是 **elmë hiruva）。强调代词接最简格词尾：Emmen／elmen、inyen。所有格一套由词尾派生（elya、erya、elva、elma、inya，但与 inya「female」、erya「sole」撞形），更可靠的一套由与格加 -ya 派生（menya／menyë、ninya、tienya、lenya／lyenya）。③疑问词以 ma- 起首：man「who」（Sí man i yulma nin enquantuva?）、mana「what」（mana i·coimas Eldaron?）、manen「how」（ma- ＋工具格 -nen）；另有属格 mano「whose」、与格 manan「why」，以及外推的 massë／mallo／manna。语序有别：vanda mana?「哪个誓言」vs mana vanda?「誓言是什么」。④后置词：功能同介词但后置——neldë loar yá「三年前」、Andúnë pella「在西方之外」、Elenillor pella「从群星之外」。pella 在草稿里作过介词（i ëa pell' Ëa），但被作者改用 han，故仍宜只作后置词；介词位的「beyond」用 lá。írë 虽注作 when，却是关系副词而非疑问词。",
+ "mindmap": {
+  "rootZh": "第 19 课：命令句代词、强调代词、疑问词、后置词",
+  "branches": [
+   {
+    "labelZh": "命令句里的代词",
+    "sectionId": "ip-intro"
+   },
+   {
+    "labelZh": "hecat／hecal",
+    "sectionId": "ip-subj-t"
+   },
+   {
+    "labelZh": "á 式命令句",
+    "sectionId": "ip-subj-a"
+   },
+   {
+    "labelZh": "-ë 回 -i",
+    "sectionId": "ip-subj-e"
+   },
+   {
+    "labelZh": "宾语代词",
+    "sectionId": "ip-obj"
+   },
+   {
+    "labelZh": "与格粘 á",
+    "sectionId": "ip-dat"
+   },
+   {
+    "labelZh": "两个代词",
+    "sectionId": "ip-two"
+   },
+   {
+    "labelZh": "否定命令 áva",
+    "sectionId": "ip-neg"
+   },
+   {
+    "labelZh": "强调代词",
+    "sectionId": "ep-intro"
+   },
+   {
+    "labelZh": "《Namárië》",
+    "sectionId": "ep-namarie"
+   },
+   {
+    "labelZh": "inyë",
+    "sectionId": "ep-inye"
+   },
+   {
+    "labelZh": "来源",
+    "sectionId": "ep-derive"
+   },
+   {
+    "labelZh": "e- 与 i-",
+    "sectionId": "ep-vowel"
+   },
+   {
+    "labelZh": "emmë → elmë",
+    "sectionId": "ep-extrapolate"
+   },
+   {
+    "labelZh": "elvë",
+    "sectionId": "ep-elve"
+   },
+   {
+    "labelZh": "etyë／eccë",
+    "sectionId": "ep-tforms"
+   },
+   {
+    "labelZh": "第三人称",
+    "sectionId": "ep-third"
+   },
+   {
+    "labelZh": "接格词尾",
+    "sectionId": "ep-cases"
+   },
+   {
+    "labelZh": "删去动词词尾",
+    "sectionId": "ep-drop"
+   },
+   {
+    "labelZh": "复数加 -r",
+    "sectionId": "ep-plural"
+   },
+   {
+    "labelZh": "属格问题",
+    "sectionId": "ep-genitive"
+   },
+   {
+    "labelZh": "elya",
+    "sectionId": "ep-poss"
+   },
+   {
+    "labelZh": "erya／elva／elma",
+    "sectionId": "ep-poss2"
+   },
+   {
+    "labelZh": "撞形",
+    "sectionId": "ep-clash"
+   },
+   {
+    "labelZh": "menya／menyë",
+    "sectionId": "ep-menya"
+   },
+   {
+    "labelZh": "ninya",
+    "sectionId": "ep-ninya"
+   },
+   {
+    "labelZh": "其余形式",
+    "sectionId": "ep-more"
+   },
+   {
+    "labelZh": "疑问元素 ma-",
+    "sectionId": "qw-ma"
+   },
+   {
+    "labelZh": "man",
+    "sectionId": "qw-man"
+   },
+   {
+    "labelZh": "mana",
+    "sectionId": "qw-mana"
+   },
+   {
+    "labelZh": "mana 与指示词",
+    "sectionId": "qw-mana-demon"
+   },
+   {
+    "labelZh": "manen",
+    "sectionId": "qw-manen"
+   },
+   {
+    "labelZh": "介词",
+    "sectionId": "pp-def"
+   },
+   {
+    "labelZh": "yá",
+    "sectionId": "pp-ya"
+   },
+   {
+    "labelZh": "pella",
+    "sectionId": "pp-pella"
+   },
+   {
+    "labelZh": "pell' Ëa",
+    "sectionId": "pp-pella-prep"
+   },
+   {
+    "labelZh": "小结",
+    "sectionId": "summary"
+   },
+   {
+    "labelZh": "练习 A–P",
+    "sectionId": "exercises"
+   },
+   {
+    "labelZh": "词汇",
+    "sectionId": "vocabulary"
+   }
+  ]
+ }
+}

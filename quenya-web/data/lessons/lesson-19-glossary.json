@@ -1,0 +1,78 @@
+{
+ "lesson": 19,
+ "introZh": "本课 12 个词条：两个序数（otsëa、toltëa）、四个强调代词（inyë、elyë、elmë、elvë）、三个疑问词（man、mana、manen）、两个后置词（pella、yá），以及最易误用的 írë。",
+ "entries": [
+  {
+   "word": "otsëa",
+   "posZh": "序数词",
+   "glossZh": "第七",
+   "noteZh": "由 otso「seven」加 -ëa。练习 D「i otsëa auressë」、J「i otsëa sambessë」、N「I otsëa ohtar」。"
+  },
+  {
+   "word": "toltëa",
+   "posZh": "序数词",
+   "glossZh": "第八",
+   "noteZh": "由 tolto「eight」加 -ëa。托尔金晚期把 8 改作 toldo，故另有 toldëa；本课练习用 toltëa。练习 H「i toltëa coassë」、O「I toltëa ando」。"
+  },
+  {
+   "word": "inyë",
+   "posZh": "强调代词",
+   "glossZh": "我（我自己）",
+   "noteZh": "对应长词尾 -nyë；首元音是 i- 而非 e-，因第一人称与词根 NI 关联。Elendil 语「A yonya inyë tye-méla」。练习 A、G 用它。"
+  },
+  {
+   "word": "elyë",
+   "posZh": "强调代词",
+   "glossZh": "你（你本人）",
+   "noteZh": "对应词尾 -lyë；托尔金在《Namárië》里译作 even thou。也可作复数「你们」，此时后随动词带 -r。练习 D、E、G、J、K、O 用它。"
+  },
+  {
+   "word": "elmë",
+   "posZh": "强调代词",
+   "glossZh": "我们（排除式）",
+   "noteZh": "由旧形式 emmë 按词尾 -mmë → -lmë 的修订更新而来，非直接可证。后随动词带 -r：elmë marir、elmë hiruvar。练习 H、O 用它。"
+  },
+  {
+   "word": "elvë",
+   "posZh": "强调代词",
+   "glossZh": "我们（包含式）",
+   "noteZh": "由包含式词尾 -lvë 外推，非直接可证。练习 B「Mana elvë polir carë?」用它。"
+  },
+  {
+   "word": "man",
+   "posZh": "疑问词",
+   "glossZh": "谁",
+   "noteZh": "最可证的疑问词。《Namárië》「Sí man i yulma nin enquantuva?」、《Markirya》「man tiruva fána cirya?」。属格作 mano「谁的」。练习 A、D、I 用它。"
+  },
+  {
+   "word": "mana",
+   "posZh": "疑问词",
+   "glossZh": "什么",
+   "noteZh": "晚期材料里的「what」：mana i·coimas Eldaron?。语序有别：vanda mana?「哪个誓言」vs mana vanda?「誓言是什么」。练习 B、F、J 用它。"
+  },
+  {
+   "word": "manen",
+   "posZh": "疑问词",
+   "glossZh": "如何",
+   "noteZh": "疑问元素 ma- 加工具格词尾 -nen，字面「by what?」。练习 G、P 用它。"
+  },
+  {
+   "word": "pella",
+   "posZh": "后置词",
+   "glossZh": "在……之外",
+   "noteZh": "跟在所连词之后：《Namárië》Andúnë pella、《Markirya》Elenillor pella（接复数离格）。草稿里的介词用法 pell' Ëa 被作者自己改掉，故仍作后置词。练习 F、N、O 用它。"
+  },
+  {
+   "word": "yá",
+   "posZh": "后置词",
+   "glossZh": "……以前",
+   "noteZh": "《词源》YA 条只注「ago」，故假定为后置词：neldë loar yá「三年前」。练习 A「cainen loar yá」、P「otso auri yá」。"
+  },
+  {
+   "word": "írë",
+   "posZh": "连词（关系副词）",
+   "glossZh": "当……的时候",
+   "noteZh": "不是疑问词，尽管英文注作 when。用于引出时间从句（《Fíriel 之歌》例），不能用来问「你什么时候来」。练习 A、G、K 用它。"
+  }
+ ]
+}

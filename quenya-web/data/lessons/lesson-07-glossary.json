@@ -1,0 +1,78 @@
+{
+  "lesson": 7,
+  "introZh": "本课 12 词以名词为主（ilya、rimba、Atan、ohtar、rá、Ambar、hrávë、macil），另有两个动词 fir-、tur- 与介词 or。练习 A–P 几乎全部用这些词，因此「背词」与「做题」在本课是同一件事：把词放进将来时与无定时的句子里。",
+  "entries": [
+    {
+      "word": "enquë",
+      "posZh": "数词",
+      "glossZh": "六",
+      "noteZh": "数词不随名词变复数。练习 C「Enquë neri tiruvar i ando」、P「Enquë rávi mátar hrávë」都把它放在复数名词前作限定语。"
+    },
+    {
+      "word": "ilya",
+      "posZh": "名词／形容词",
+      "glossZh": "全部、每个",
+      "noteZh": "单数名词前＝「每个」（ilya Elda「每个精灵」）；单独出现更像「全部」；复数名词前变 ilyë 表「全部」（ilyë tier、ilyë mahalmar）。练习 G「Ilya elen」、I「Ilya Elda ar ilya Atan」、O「Ilyë rávi」。"
+    },
+    {
+      "word": "rimba",
+      "posZh": "形容词",
+      "glossZh": "众多的（此处作「许多」）",
+      "noteZh": "若像其他形容词那样变格，与复数名词连用大概变 rimbë（如 rimbë rávi「许多狮子」）。练习 A「Rimbë Naucor」、F「rimbë parmar」、L「rimbë ohtari」都用它。"
+    },
+    {
+      "word": "Atan",
+      "posZh": "名词",
+      "glossZh": "人（会死的人，与精灵相对）",
+      "noteZh": "不是「有感知的男性」（那是 nér），而是会死的「人」，与不死的精灵、矮人相对。复数 Atani。练习 D「Ilya Atan firuva」、E「Ilyë Atani firir」、I「ilya Atan」。"
+    },
+    {
+      "word": "ohtar",
+      "posZh": "名词",
+      "glossZh": "战士",
+      "noteZh": "复数 ohtari（加 -i）。练习 L「rimbë ohtari」、N「I ohtar turë macil」。"
+    },
+    {
+      "word": "rá",
+      "posZh": "名词",
+      "glossZh": "狮子",
+      "noteZh": "词干标注 (ráv-)：接词尾时出现 v。复数 rávi。练习 O「Ilyë rávi matir hrávë」、P「Enquë rávi mátar hrávë」。"
+    },
+    {
+      "word": "Ambar",
+      "posZh": "名词",
+      "glossZh": "世界",
+      "noteZh": "首字母大写，原文说这个昆雅词大概不需要冠词 i，被当作专名处理。所以练习 G 是 or Ambar，而不是 or i Ambar；练习 L 的 ilya Ambar 同样不带冠词。"
+    },
+    {
+      "word": "hrávë",
+      "posZh": "名词",
+      "glossZh": "肉",
+      "noteZh": "练习 O、P 都作宾语（matir hrávë／mátar hrávë）。"
+    },
+    {
+      "word": "macil",
+      "posZh": "名词",
+      "glossZh": "剑",
+      "noteZh": "练习 N「I ohtar turë macil」作宾语；tur-「挥动」正适合配「剑」。"
+    },
+    {
+      "word": "fir-",
+      "posZh": "动词",
+      "glossZh": "死、逝去",
+      "noteZh": "基本动词。无定时 firë（复数 firir），将来时 firuva。练习 D 考将来时 firuva，E 考无定时复数 firir——正好一对对照。"
+    },
+    {
+      "word": "tur-",
+      "posZh": "动词",
+      "glossZh": "统治、控制、挥动",
+      "noteZh": "基本动词。无定时 turë（复数 turir），将来时 turuva。练习 L「turë ... ar turuva ...」把无定时与将来时放在同一句里；N「turë macil」是无定时表习惯。"
+    },
+    {
+      "word": "or",
+      "posZh": "介词",
+      "glossZh": "在……之上、高于",
+      "noteZh": "练习 G「or Ambar」（在世界上方）、K「or i Nauco」（跳过那个矮人）。"
+    }
+  ]
+}

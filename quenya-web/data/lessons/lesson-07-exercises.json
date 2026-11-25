@@ -1,0 +1,281 @@
+{
+  "kind": "translation",
+  "introZh": "A–H 为昆雅译英，I–P 为英译昆雅。本课只考两个新时态：将来时（-uva）与无定时（aorist）。B、C、M 三题还考将来时的复数 -r；P 题用现在时 mátar，与 O 题的无定时 matir 构成对照。",
+  "pointMapZh": [
+    {"labelZh": "将来时：基本动词 + -uva", "ruleRef": "rule-uva", "noteZh": "B、C、D、J、L"},
+    {"labelZh": "将来时：A 词干丢 -a", "ruleRef": "rule-a-drop-future", "noteZh": "B（ortuva）、M（cenduvar）"},
+    {"labelZh": "将来时复数加 -r", "ruleRef": "rule-future-plural", "noteZh": "B、C、M"},
+    {"labelZh": "无定时：A 词干＝词干本身", "ruleRef": "rule-a-stem-aorist", "noteZh": "A、F、H、K"},
+    {"labelZh": "无定时：基本动词 -i／-ë", "ruleRef": "rule-final-i-to-e", "noteZh": "E、G、L、N、O"},
+    {"labelZh": "ilya 的单复数", "ruleRef": "rule-ilya", "noteZh": "I、O"},
+    {"labelZh": "现在时 vs 无定时", "ruleRef": "rule-unmarked", "noteZh": "O 对 P"}
+  ],
+  "part1": {
+    "titleZh": "练习一 · 昆雅译英（A–H）",
+    "hintZh": "先判断动词是将来时还是无定时，再看主语单复数。keys 特别指出：A、B、E、F、G 的无定时表「一般真理」，H 的无定时表瞬时的、无持续性的动作。",
+    "items": [
+      {
+        "id": "A",
+        "prompt": "Rimbë Naucor haryar harmar.",
+        "pointZh": "无定时 haryar（A 词干 + 复数 -r）表一般真理",
+        "hintsZh": [
+          "harya-「拥有」是 A 词干，无定时就是词干本身。",
+          "主语 Naucor 复数，所以加 -r 得 haryar。",
+          "rimbë 与复数名词连用＝「许多」；harmar 是 harma「财宝」的复数。"
+        ],
+        "ruleRef": "rule-a-stem-aorist",
+        "ruleLabelZh": "回到规则：A 词干无定时＝词干本身",
+        "answerKey": "Many Dwarves possess treasures.",
+        "answerKeyZh": "许多矮人拥有财宝。",
+        "answerAlt": ["many dwarves possess treasures", "许多矮人拥有财宝", "很多矮人有财宝"],
+        "answerZh": "harya- → harya + -r = haryar（无定时复数）。keys 注明此题的无定时表「一般真理」。keys：\"Many Dwarves possess treasures.\""
+      },
+      {
+        "id": "B",
+        "prompt": "Anar ortuva ar i aiwi linduvar.",
+        "pointZh": "两个将来时：ortuva（A 词干丢 -a）、linduvar（A 词干丢 -a + 复数 -r）",
+        "hintsZh": [
+          "orta-「升起」是 A 词干，将来时要丢 -a 再加 -uva：ortuva。",
+          "linda-「歌唱」同样是 A 词干：linduva。",
+          "主语 aiwi「鸟」是复数，所以再加 -r 得 linduvar。"
+        ],
+        "ruleRef": "rule-a-drop-future",
+        "ruleLabelZh": "回到规则：A 词干丢 -a 再加 -uva",
+        "answerKey": "The sun will rise and the birds will sing.",
+        "answerKeyZh": "太阳将升起，鸟儿将歌唱。",
+        "answerAlt": ["the sun will rise and the birds will sing", "太阳将升起，鸟儿将歌唱", "太阳会升起，鸟会歌唱"],
+        "answerZh": "orta- → ortuva；linda- → linduva → linduvar（复数加 -r）。keys：\"The sun will rise and the birds will sing.\""
+      },
+      {
+        "id": "C",
+        "prompt": "Enquë neri tiruvar i ando.",
+        "pointZh": "将来时复数 tiruvar（tir- + -uva + -r）",
+        "hintsZh": [
+          "tir-「守望」是基本动词，将来时加 -uva 得 tiruva。",
+          "主语 neri「男人」是复数，再加 -r 得 tiruvar。",
+          "enquë「六」放在复数名词前作数词；ando 是「大门」。"
+        ],
+        "ruleRef": "rule-future-plural",
+        "ruleLabelZh": "回到规则：将来时复数加 -r",
+        "answerKey": "Six men will watch (/guard) the gate.",
+        "answerKeyZh": "六个人将看守（／守卫）大门。",
+        "answerAlt": ["six men will watch the gate", "six men will guard the gate", "六个人将看守大门"],
+        "answerZh": "tir- → tiruva → tiruvar（复数加 -r）。keys 的译法保留了 watch／guard 两个义项。keys：\"Six men will watch (/guard) the gate.\""
+      },
+      {
+        "id": "D",
+        "prompt": "Ilya Atan firuva.",
+        "pointZh": "将来时 firuva；ilya + 单数名词＝「每个」",
+        "hintsZh": [
+          "fir-「死」是基本动词，将来时加 -uva 得 firuva。",
+          "主语 Atan 是单数，不加 -r。",
+          "ilya 在单数名词前表示「每个」，不是「全部」。"
+        ],
+        "ruleRef": "rule-uva",
+        "ruleLabelZh": "回到规则：基本动词 + -uva",
+        "answerKey": "Every Man (= non-Elf human) will die.",
+        "answerKeyZh": "每个（会死的）人都会死。",
+        "answerAlt": ["every man will die", "每个人都会死", "每个凡人都将死去"],
+        "answerZh": "fir- → firuva；ilya Atan＝「每个人」。keys 特意注明 Man 指非精灵的人类。keys：\"Every Man (= non-Elf human) will die.\""
+      },
+      {
+        "id": "E",
+        "prompt": "Ilyë Atani firir.",
+        "pointZh": "无定时复数 firir（-i 保留 + -r）",
+        "hintsZh": [
+          "fir- 的无定时单数是 firë（词末 -i → -ë）。",
+          "主语 Atani 复数，词尾 -r 使 -i 不再处于词末，于是保留为 firir。",
+          "ilyë 是 ilya 的复数形，用于复数名词前表「所有」。"
+        ],
+        "ruleRef": "rule-final-i-to-e",
+        "ruleLabelZh": "回到规则：词末 -i → -ë，接词尾保留 -i",
+        "answerKey": "All Men die.",
+        "answerKeyZh": "所有人都会死。",
+        "answerAlt": ["all men die", "所有人都会死", "所有人类都会死"],
+        "answerZh": "fir- → firë（单数）→ firir（复数）。与 D 题对照：D 用将来时 firuva，E 用无定时 firir 表一般真理。keys：\"All Men die.\""
+      },
+      {
+        "id": "F",
+        "prompt": "Saila nér cenda rimbë parmar.",
+        "pointZh": "无定时 cenda（A 词干＝词干本身）",
+        "hintsZh": [
+          "cenda-「读」是 A 词干，无定时就是 cenda，不加任何词尾。",
+          "主语 nér 单数，所以不加 -r。",
+          "saila「智慧的」修饰 nér；rimbë parmar＝「许多书」。"
+        ],
+        "ruleRef": "rule-a-stem-aorist",
+        "ruleLabelZh": "回到规则：A 词干无定时＝词干本身",
+        "answerKey": "A wise man reads many books.",
+        "answerKeyZh": "一个智者读许多书。",
+        "answerAlt": ["a wise man reads many books", "一个智者读许多书", "智慧的人读很多书"],
+        "answerZh": "cenda- → cenda（无定时，A 词干不加词尾）。keys 把此题归入「一般真理」类。keys：\"A wise man reads many books.\""
+      },
+      {
+        "id": "G",
+        "prompt": "Ilya elen silë or Ambar.",
+        "pointZh": "无定时 silë（词末 -i → -ë）；or + Ambar 不带冠词",
+        "hintsZh": [
+          "sil-「照耀」是基本动词，无定时加 -i 得 sili，词末变 -ë → silë。",
+          "主语 elen 单数，不加 -r。",
+          "Ambar 被当作专名，不加冠词 i：or Ambar。"
+        ],
+        "ruleRef": "rule-final-i-to-e",
+        "ruleLabelZh": "回到规则：词末 -i → -ë",
+        "answerKey": "Every star shines above the world.",
+        "answerKeyZh": "每颗星在世界上方照耀。",
+        "answerAlt": ["every star shines above the world", "每颗星在世界上方照耀", "每颗星星都在世界上方闪耀"],
+        "answerZh": "sil- → sili → silë（词末 -i 变 -ë）。or Ambar 不带冠词，因为 Ambar 作专名。keys：\"Every star shines above the world.\""
+      },
+      {
+        "id": "H",
+        "prompt": "I Elda mapa i Nauco.",
+        "pointZh": "无定时 mapa 表瞬时的、无持续性的动作",
+        "hintsZh": [
+          "mapa-「抓住、夺取」是 A 词干，无定时就是 mapa。",
+          "主语 Elda 单数，不加 -r。",
+          "keys 特别说明：此题的无定时不是「一般真理」，而是一瞬的动作。"
+        ],
+        "ruleRef": "rule-unmarked",
+        "ruleLabelZh": "回到规则：无定时对持续不作标记",
+        "answerKey": "The Elf seizes the Dwarf.",
+        "answerKeyZh": "那个精灵抓住那个矮人。",
+        "answerAlt": ["the elf seizes the dwarf", "那个精灵抓住那个矮人", "精灵抓住了矮人"],
+        "answerZh": "mapa- → mapa（无定时）。keys：\"In H, the aorist is used to describe a momentary, duration-less action.\" keys：\"The Elf seizes the Dwarf.\""
+      }
+    ]
+  },
+  "part2": {
+    "titleZh": "练习二 · 英译昆雅（I–P）",
+    "hintZh": "先看动词属将来时还是无定时，再定 A 词干／基本动词，最后看主语单复数。O 与 P 是同一句的两种时态：O 用无定时 matir（一般真理），P 用现在时 mátar（正在进行）。",
+    "items": [
+      {
+        "id": "I",
+        "prompt": "Every Elf and every Man.",
+        "pointZh": "ilya + 单数名词＝「每个」",
+        "hintsZh": [
+          "「每个」用 ilya，后面接单数名词。",
+          "「精灵」Elda，「人」Atan，都保持单数。",
+          "并列用 ar。"
+        ],
+        "ruleRef": "rule-ilya",
+        "ruleLabelZh": "回到规则：ilya 的单复数用法",
+        "answerKey": "Ilya Elda ar ilya Atan.",
+        "answerKeyZh": "每个精灵和每个人。",
+        "answerAlt": ["ilya Elda ar ilya Atan", "Ilya Elda ar Ilya Atan"],
+        "answerZh": "ilya 在单数名词前＝「每个」，所以 Elda、Atan 都不变复数。keys：\"Ilya Elda ar ilya Atan.\""
+      },
+      {
+        "id": "J",
+        "prompt": "The Elf will find the Dwarf.",
+        "pointZh": "将来时 hiruva（hir- + -uva）",
+        "hintsZh": [
+          "hir-「找到」是基本动词，将来时加 -uva 得 hiruva。",
+          "主语 Elda 单数，不加 -r。",
+          "「那个矮人」用 i Nauco。"
+        ],
+        "ruleRef": "rule-uva",
+        "ruleLabelZh": "回到规则：基本动词 + -uva",
+        "answerKey": "I Elda hiruva i Nauco.",
+        "answerKeyZh": "那个精灵将找到那个矮人。",
+        "answerAlt": ["i Elda hiruva i Nauco", "I Elda hiruva i Nauco"],
+        "answerZh": "hir- → hiruva。这正是《Namárië》里 hiruva 的同形。keys：\"I Elda hiruva i Nauco.\""
+      },
+      {
+        "id": "K",
+        "prompt": "The horse jumps over the Dwarf.",
+        "pointZh": "无定时 capë（瞬时动作）；or＝「在……之上／越过」",
+        "hintsZh": [
+          "cap-「跳」是基本动词，无定时加 -i 得 capi，词末变 -ë → capë。",
+          "主语 rocco 单数，不加 -r。",
+          "「跳过」用介词 or。"
+        ],
+        "ruleRef": "rule-final-i-to-e",
+        "ruleLabelZh": "回到规则：词末 -i → -ë",
+        "answerKey": "I rocco capë or i Nauco.",
+        "answerKeyZh": "那匹马跳过那个矮人。",
+        "answerAlt": ["i rocco capë or i Nauco", "I rocco capë or I Nauco"],
+        "answerZh": "cap- → capë（无定时）。keys 注明此题的无定时表瞬时动作。keys：\"I rocco capë or i Nauco.\""
+      },
+      {
+        "id": "L",
+        "prompt": "The king controls many warriors and will control (/rule) all the world.",
+        "pointZh": "同一动词的两个时态：turë（无定时，习惯）＋ turuva（将来时）",
+        "hintsZh": [
+          "tur-「统治」的无定时：加 -i 得 turi，词末变 -ë → turë。",
+          "将来时加 -uva 得 turuva，主语 aran 单数不加 -r。",
+          "「许多战士」rimbë ohtari；「全世界」ilya Ambar（Ambar 不带冠词）。"
+        ],
+        "ruleRef": "rule-primary-i",
+        "ruleLabelZh": "回到规则：基本动词加 -i",
+        "answerKey": "I aran turë rimbë ohtari ar turuva ilya Ambar.",
+        "answerKeyZh": "国王控制许多战士，并将控制（／统治）全世界。",
+        "answerAlt": ["i aran turë rimbë ohtari ar turuva ilya Ambar"],
+        "answerZh": "tur- → turë（无定时，表一般特征）／turuva（将来时）。keys 说 turë 表示国王「一向」控制许多战士。keys：\"I aran turë rimbë ohtari ar turuva ilya Ambar.\""
+      },
+      {
+        "id": "M",
+        "prompt": "The king and the queen will read the book.",
+        "pointZh": "将来时复数 cenduvar（cenda- 丢 -a + -uva + -r）",
+        "hintsZh": [
+          "cenda-「读」是 A 词干，将来时丢 -a 再加 -uva：cenduva。",
+          "主语是「国王与王后」两个人，属复数，再加 -r 得 cenduvar。",
+          "「那本书」i parma。"
+        ],
+        "ruleRef": "rule-future-plural",
+        "ruleLabelZh": "回到规则：将来时复数加 -r",
+        "answerKey": "I aran ar i tári cenduvar i parma.",
+        "answerKeyZh": "国王与王后将读那本书。",
+        "answerAlt": ["i aran ar i tári cenduvar i parma"],
+        "answerZh": "cenda- → cenduva → cenduvar（并列主语算复数）。keys：\"I aran ar i tári cenduvar i parma.\""
+      },
+      {
+        "id": "N",
+        "prompt": "The warrior wields a sword.",
+        "pointZh": "无定时 turë 表个人的一般习惯",
+        "hintsZh": [
+          "tur- 的无定时是 turë（-i → -ë）。",
+          "主语 ohtar 单数，不加 -r。",
+          "「一把剑」不加冠词：macil。"
+        ],
+        "ruleRef": "rule-primary-i",
+        "ruleLabelZh": "回到规则：基本动词加 -i",
+        "answerKey": "I ohtar turë macil.",
+        "answerKeyZh": "那个战士挥动一把剑。",
+        "answerAlt": ["i ohtar turë macil"],
+        "answerZh": "tur- → turë。keys 说此题的无定时表「个人的一般特征或习惯」：战士（一般、习惯性地）挥剑。keys：\"I ohtar turë macil.\""
+      },
+      {
+        "id": "O",
+        "prompt": "All lions eat flesh.",
+        "pointZh": "ilyë + 复数名词；无定时复数 matir（一般真理）",
+        "hintsZh": [
+          "「所有」用于复数名词前，ilya 变复数 ilyë。",
+          "rá 的复数是 rávi。",
+          "mat- 的无定时复数：mati- + -r = matir。"
+        ],
+        "ruleRef": "rule-ilya",
+        "ruleLabelZh": "回到规则：ilya 的复数形 ilyë",
+        "answerKey": "Ilyë rávi matir hrávë.",
+        "answerKeyZh": "所有狮子都吃肉。",
+        "answerAlt": ["ilyë rávi matir hrávë"],
+        "answerZh": "ilya → ilyë（复数）；mat- → matir（无定时复数）。这是「一般真理」。keys：\"Ilyë rávi matir hrávë.\""
+      },
+      {
+        "id": "P",
+        "prompt": "Six lions are eating flesh.",
+        "pointZh": "现在时 mátar（词干元音拉长 + 复数 -r），与 O 的无定时对照",
+        "hintsZh": [
+          "「正在吃」用现在时：mat- 拉长词干元音得 máta。",
+          "主语 rávi 复数，加 -r 得 mátar。",
+          "对比 O 题：matir 是一般真理，mátar 是此刻正在进行。"
+        ],
+        "ruleRef": "rule-unmarked",
+        "ruleLabelZh": "回到规则：现在时明确标记进行",
+        "answerKey": "Enquë rávi mátar hrávë.",
+        "answerKeyZh": "六只狮子正在吃肉。",
+        "answerAlt": ["enquë rávi mátar hrávë"],
+        "answerZh": "mat- → máta（现在时，元音拉长）→ mátar（复数）。keys：\"mátar = 'are eating', describing the ongoing activity of some particular lions\"。keys：\"Enquë rávi mátar hrávë.\""
+      }
+    ]
+  }
+}

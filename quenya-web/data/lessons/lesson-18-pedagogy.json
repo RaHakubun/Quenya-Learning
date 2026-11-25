@@ -1,0 +1,220 @@
+{
+ "lesson": 18,
+ "schemaVersion": 2,
+ "titleZh": "独立代词、无人称动词与 lá",
+ "titleEn": "Independent Pronouns. Impersonal Verbs. U-stem Verbs. The Various Uses of Lá.",
+ "summaryZh": "本课四块。①独立代词：ni「I」（宾格 nye）、le「you」（L 形式，礼貌／复数）、tye「thee」（T 形式，亲昵／单数）、me「we」（排除式，双数 met）、te「them」（接格作 tie-，如 tien）。代词接「单数」格词尾（mello、messë，不是 **mellon），双数加 -t（ment、menta、melto）。L 形式与 T 形式不可混用；托尔金对二者是「礼貌／亲昵」还是「复数／单数」反复改主意，作者折中为「T 本义单数、L 本义复数兼礼貌单数」。格词尾加在最简形式 ni 上，故与格是 nin 而非 **nyen。②无人称动词：句子没有主语，受影响者用与格——orë nin caritas「我感到被推动去做」、óla i venden Eldaron「少女梦见精灵」、mauya nin lelya「我必须去」、ulya「在下雨」。德语 mir ist kalt 是同类构造（nin ná ringa）。③U 词干动词：材料极少，唯一确定的是主动分词（加 -la 并尽量拉长：hlápula、nurrula）；被动分词大概作 ?paluina（参 culuina）；不定式 ?palo；现在时 pálua／nurrua；过去时加 -në（allunë）；完成时 apálië／unurrië；将来时 paluva 或 palúva。④lá 有两义：否定词「not」（置于被否定词前，lá lenden；也可否定不定式 lá caritas）与介词「beyond」（比较式 A calima lá B＝A 比 B 亮）。否定动词 um-＋不定式（Úmen lelya）与 lá＋正常动词（lá lenden）并存，现在时与完成时宜用 lá。",
+ "mindmap": {
+  "rootZh": "第 18 课：独立代词、无人称动词与 lá",
+  "branches": [
+   {
+    "labelZh": "本节标题",
+    "sectionId": "pro-intro"
+   },
+   {
+    "labelZh": "两类代词",
+    "sectionId": "pro-kinds"
+   },
+   {
+    "labelZh": "ni",
+    "sectionId": "pro-ni"
+   },
+   {
+    "labelZh": "ta／tanna",
+    "sectionId": "pro-ta"
+   },
+   {
+    "labelZh": "me／met",
+    "sectionId": "pro-me"
+   },
+   {
+    "labelZh": "le",
+    "sectionId": "pro-le"
+   },
+   {
+    "labelZh": "te",
+    "sectionId": "pro-te"
+   },
+   {
+    "labelZh": "te 的来源",
+    "sectionId": "pro-te-origin"
+   },
+   {
+    "labelZh": "VT43 更新",
+    "sectionId": "pro-vt43"
+   },
+   {
+    "labelZh": "tye",
+    "sectionId": "pro-tye"
+   },
+   {
+    "labelZh": "L 与 T",
+    "sectionId": "pro-two-sets"
+   },
+   {
+    "labelZh": "礼貌说",
+    "sectionId": "pro-polite"
+   },
+   {
+    "labelZh": "单复数说",
+    "sectionId": "pro-conflict"
+   },
+   {
+    "labelZh": "nye 与 ?ti",
+    "sectionId": "pro-nye"
+   },
+   {
+    "labelZh": "ce",
+    "sectionId": "pro-ce"
+   },
+   {
+    "labelZh": "代词小结",
+    "sectionId": "pro-summary"
+   },
+   {
+    "labelZh": "接格词尾",
+    "sectionId": "pro-cases"
+   },
+   {
+    "labelZh": "介词后",
+    "sectionId": "pro-prep"
+   },
+   {
+    "labelZh": "óni",
+    "sectionId": "pro-oni"
+   },
+   {
+    "labelZh": "宾格用法",
+    "sectionId": "pro-object"
+   },
+   {
+    "labelZh": "词序",
+    "sectionId": "pro-order"
+   },
+   {
+    "labelZh": "主语形式",
+    "sectionId": "pro-subject"
+   },
+   {
+    "labelZh": "无人称动词",
+    "sectionId": "imp-def"
+   },
+   {
+    "labelZh": "orë nin",
+    "sectionId": "imp-ore"
+   },
+   {
+    "labelZh": "óla-",
+    "sectionId": "imp-ola"
+   },
+   {
+    "labelZh": "德语类比",
+    "sectionId": "imp-german"
+   },
+   {
+    "labelZh": "mauya-",
+    "sectionId": "imp-mauya"
+   },
+   {
+    "labelZh": "ulya-",
+    "sectionId": "imp-ulya"
+   },
+   {
+    "labelZh": "U 词干动词",
+    "sectionId": "uv-intro"
+   },
+   {
+    "labelZh": "有哪些词",
+    "sectionId": "uv-words"
+   },
+   {
+    "labelZh": "主动分词",
+    "sectionId": "uv-active"
+   },
+   {
+    "labelZh": "被动分词",
+    "sectionId": "uv-passive"
+   },
+   {
+    "labelZh": "不定式",
+    "sectionId": "uv-inf"
+   },
+   {
+    "labelZh": "不定过去时",
+    "sectionId": "uv-aorist"
+   },
+   {
+    "labelZh": "hlapu- 难题",
+    "sectionId": "uv-aorist2"
+   },
+   {
+    "labelZh": "现在时",
+    "sectionId": "uv-present"
+   },
+   {
+    "labelZh": "过去时",
+    "sectionId": "uv-past"
+   },
+   {
+    "labelZh": "完成时",
+    "sectionId": "uv-perfect"
+   },
+   {
+    "labelZh": "将来时",
+    "sectionId": "uv-future"
+   },
+   {
+    "labelZh": "LÁ 的用法",
+    "sectionId": "la-head"
+   },
+   {
+    "labelZh": "lá 与 um-",
+    "sectionId": "la-intro"
+   },
+   {
+    "labelZh": "两种构造",
+    "sectionId": "la-two"
+   },
+   {
+    "labelZh": "何时用 lá",
+    "sectionId": "la-easier"
+   },
+   {
+    "labelZh": "否定辖域",
+    "sectionId": "la-attach"
+   },
+   {
+    "labelZh": "否定不定式",
+    "sectionId": "la-inf"
+   },
+   {
+    "labelZh": "短形式 la",
+    "sectionId": "la-short"
+   },
+   {
+    "labelZh": "两个 lá",
+    "sectionId": "la-clash"
+   },
+   {
+    "labelZh": "比较式",
+    "sectionId": "la-beyond"
+   },
+   {
+    "labelZh": "两义并用",
+    "sectionId": "la-both"
+   },
+   {
+    "labelZh": "小结",
+    "sectionId": "summary"
+   },
+   {
+    "labelZh": "练习 A–P",
+    "sectionId": "exercises"
+   },
+   {
+    "labelZh": "词汇",
+    "sectionId": "vocabulary"
+   }
+  ]
+ }
+}

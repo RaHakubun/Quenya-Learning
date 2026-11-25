@@ -1,0 +1,78 @@
+{
+  "lesson": 8,
+  "introZh": "本课 12 词里 8 个是动词（tul-、lanta-、nurta-、lerya-、metya-、roita-、laita-，外加 -ya 型的 lerya-／metya-），正好用来练完成时；另有一个数词 otso、三个名词与两个虚词 an、imbë。练习 A–P 的完成时几乎全部由这些动词构成。",
+  "entries": [
+    {
+      "word": "otso",
+      "posZh": "数词",
+      "glossZh": "七",
+      "noteZh": "不变复数。练习 E「i otso Naucor」、F「otso parmar」、J、L 都用它作前置数词。"
+    },
+    {
+      "word": "seldo",
+      "posZh": "名词",
+      "glossZh": "男孩",
+      "noteZh": "托尔金未给明确释义，但此词出现在讨论「孩子」诸词的语境里，且看来是阳性形式（《词源》SEL-D- 条）。复数 seldor（练习 K）。"
+    },
+    {
+      "word": "mól",
+      "posZh": "名词",
+      "glossZh": "奴隶、奴仆",
+      "noteZh": "复数 móli（加 -i）。练习 N「ilyë móli」。"
+    },
+    {
+      "word": "an",
+      "posZh": "连词",
+      "glossZh": "因为、由于",
+      "noteZh": "引出说明理由的句子，相当于 for／since／because。练习 N、O 都用它连接后半句理由。"
+    },
+    {
+      "word": "tul-",
+      "posZh": "动词",
+      "glossZh": "来",
+      "noteZh": "完成时 utúlië（增音 u- + 拉长 ú）。练习 I「I nér utúlië」；utúlië 也是 tulya-「带领」的完成时，须靠语境分辨。"
+    },
+    {
+      "word": "lanta-",
+      "posZh": "动词",
+      "glossZh": "落",
+      "noteZh": "A 词干，但词干元音后是 nt 辅音丛，故完成时不拉长：alantië。练习 O「Alantiel」。"
+    },
+    {
+      "word": "nurta-",
+      "posZh": "动词",
+      "glossZh": "藏",
+      "noteZh": "完成时 unurtië（词干元音后是 rt，不拉长）。练习 M「I Nauco unurtië harma」。"
+    },
+    {
+      "word": "lerya-",
+      "posZh": "动词",
+      "glossZh": "释放、（使）自由、放开",
+      "noteZh": "-ya 动词：完成时整个 -ya 脱落，得 elérië。练习 N「elérië ilyë móli」。"
+    },
+    {
+      "word": "metya-",
+      "posZh": "动词",
+      "glossZh": "结束＝给……一个了结",
+      "noteZh": "-ya 动词：完成时 emétië。练习 P「Emétienyes」＝emétië + -nyë + -s。"
+    },
+    {
+      "word": "roita-",
+      "posZh": "动词",
+      "glossZh": "追赶",
+      "noteZh": "含双元音 oi：增音取第一个元音 o，且不拉长，得 oroitië。练习 L「oroitier」。"
+    },
+    {
+      "word": "laita-",
+      "posZh": "动词",
+      "glossZh": "祝福、赞美",
+      "noteZh": "含双元音 ai：完成时 alaitië（增音 a-，不拉长）。练习 N「Alaitien」。"
+    },
+    {
+      "word": "imbë",
+      "posZh": "介词",
+      "glossZh": "在……之间",
+      "noteZh": "练习 K「imbë i aldar」（在树之间）。注意它后面的名词仍带冠词 i。"
+    }
+  ]
+}

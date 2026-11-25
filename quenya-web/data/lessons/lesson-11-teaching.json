@@ -1,0 +1,2838 @@
+{
+ "lesson": 11,
+ "schemaVersion": 2,
+ "oneLineZh": "昆雅名词有八到十个格，英语只剩主格与属格。属格词尾 -o（-a 结尾则吞掉 -a：Vardo；-o 结尾则隐形：ciryamo），复数 -on（aldaron、elenion），双数 -to（ciryato）。属格表来源（róma Oromëo）、部分（elenion ancalima）、地点（Calaciryo míri）、家庭（Híni Ilúvataro）、统治（Aran Sindaron）、关于（Quenta Silmarillion）、充满（quanta neno），但不是所有格；ú「没有」带属格（ú calo）。",
+ "canDoZh": [
+  "能说明什么是格，以及昆雅为何用格词尾代替英语的介词／词序",
+  "能说出主格与（书本昆雅的）宾格的分工",
+  "能由名词构成属格单数、复数、双数",
+  "能处理 -a 脱落、-o 隐形、特殊词干三类情况",
+  "能判断属格表哪种关系（来源／部分／地点／家庭／统治／关于／充满）",
+  "能说明昆雅属格为何不是「所有格」",
+  "能正确安排属格词序，不把 -o 放在 of 的位置",
+  "能处理属格前的冠词与 ú 带属格",
+  "能独立完成练习 A–P，用 keys 核对，并把错题回链到对应规则"
+ ],
+ "conceptMap": [
+  {
+   "labelZh": "格系统",
+   "noteZh": "后半程主线",
+   "sectionId": "case-intro"
+  },
+  {
+   "labelZh": "什么是格",
+   "noteZh": "词序／介词／词形",
+   "sectionId": "case-what"
+  },
+  {
+   "labelZh": "昆雅用词尾",
+   "noteZh": "i Naucon",
+   "sectionId": "case-quenya"
+  },
+  {
+   "labelZh": "介词带格",
+   "noteZh": "from him",
+   "sectionId": "case-govern"
+  },
+  {
+   "labelZh": "主格／宾格",
+   "noteZh": "cirya／ciryá",
+   "sectionId": "case-nom-acc"
+  },
+  {
+   "labelZh": "八格清单",
+   "noteZh": "属格…工具格",
+   "sectionId": "case-list"
+  },
+  {
+   "labelZh": "路线图",
+   "noteZh": "11–16 课",
+   "sectionId": "case-plan"
+  },
+  {
+   "labelZh": "英语两格",
+   "noteZh": "主格＋属格",
+   "sectionId": "gen-nom"
+  },
+  {
+   "labelZh": "'s／-s'",
+   "noteZh": "英语属格形态",
+   "sectionId": "gen-eng-form"
+  },
+  {
+   "labelZh": "来源或拥有",
+   "noteZh": "四种关系",
+   "sectionId": "gen-function"
+  },
+  {
+   "labelZh": "属格链",
+   "noteZh": "逐层加词尾",
+   "sectionId": "gen-chain"
+  },
+  {
+   "labelZh": "定语／谓语",
+   "noteZh": "Peter's",
+   "sectionId": "gen-predicate"
+  },
+  {
+   "labelZh": "of 结构",
+   "noteZh": "英语替代品",
+   "sectionId": "gen-of"
+  },
+  {
+   "labelZh": "两个昆雅格",
+   "noteZh": "属格＋所有格",
+   "sectionId": "gen-quenya-intro"
+  },
+  {
+   "labelZh": "-o",
+   "noteZh": "arano、ciryamo",
+   "sectionId": "gen-form-o"
+  },
+  {
+   "labelZh": "-a 脱落",
+   "noteZh": "Vardo",
+   "sectionId": "gen-form-a"
+  },
+  {
+   "labelZh": "-on",
+   "noteZh": "aldaron、elenion",
+   "sectionId": "gen-plural"
+  },
+  {
+   "labelZh": "Silmarillion",
+   "noteZh": "书名即属格",
+   "sectionId": "gen-silmarillion"
+  },
+  {
+   "labelZh": "-to",
+   "noteZh": "ciryato",
+   "sectionId": "gen-dual"
+  },
+  {
+   "labelZh": "特殊词干",
+   "noteZh": "rávo、nisso",
+   "sectionId": "gen-stems"
+  },
+  {
+   "labelZh": "不是所有格",
+   "noteZh": "WJ:368",
+   "sectionId": "gen-not-possessive"
+  },
+  {
+   "labelZh": "HO",
+   "noteZh": "「从」",
+   "sectionId": "gen-origin"
+  },
+  {
+   "labelZh": "Oiolossëo",
+   "noteZh": "孤例",
+   "sectionId": "gen-from"
+  },
+  {
+   "labelZh": "来源属格",
+   "noteZh": "róma Oromëo",
+   "sectionId": "gen-derivative"
+  },
+  {
+   "labelZh": "部分属格",
+   "noteZh": "elenion ancalima",
+   "sectionId": "gen-partitive"
+  },
+  {
+   "labelZh": "物理部分",
+   "noteZh": "Valion",
+   "sectionId": "gen-partitive2"
+  },
+  {
+   "labelZh": "地点属格",
+   "noteZh": "Calaciryo míri",
+   "sectionId": "gen-location"
+  },
+  {
+   "labelZh": "家庭关系",
+   "noteZh": "Híni Ilúvataro",
+   "sectionId": "gen-family"
+  },
+  {
+   "labelZh": "统治关系",
+   "noteZh": "Aran Sindaron",
+   "sectionId": "gen-ruler"
+  },
+  {
+   "labelZh": "关于",
+   "noteZh": "Quenta Silmarillion",
+   "sectionId": "gen-about"
+  },
+  {
+   "labelZh": "模糊关系",
+   "noteZh": "Heren Istarion",
+   "sectionId": "gen-vague"
+  },
+  {
+   "labelZh": "kingsfoil",
+   "noteZh": "asëa aranion",
+   "sectionId": "gen-tolkien-quote"
+  },
+  {
+   "labelZh": "关联属格",
+   "noteZh": "aranion",
+   "sectionId": "gen-kingsfoil"
+  },
+  {
+   "labelZh": "quanta",
+   "noteZh": "充满＋属格",
+   "sectionId": "gen-full"
+  },
+  {
+   "labelZh": "谓语属格",
+   "noteZh": "ná Saurondo",
+   "sectionId": "gen-predicate2"
+  },
+  {
+   "labelZh": "词序",
+   "noteZh": "前置／后置",
+   "sectionId": "gen-wordorder"
+  },
+  {
+   "labelZh": "常见错误",
+   "noteZh": "i alcaro Aman",
+   "sectionId": "gen-mistake"
+  },
+  {
+   "labelZh": "介词词序",
+   "noteZh": "ve aldaron rámar",
+   "sectionId": "gen-prep-order"
+  },
+  {
+   "labelZh": "冠词",
+   "noteZh": "属格使名词限定",
+   "sectionId": "gen-article"
+  },
+  {
+   "labelZh": "前置＋i",
+   "noteZh": "无据",
+   "sectionId": "gen-article2"
+  },
+  {
+   "labelZh": "ú＋属格",
+   "noteZh": "ú calo",
+   "sectionId": "gen-u"
+  },
+  {
+   "labelZh": "小结",
+   "noteZh": "属格全貌",
+   "sectionId": "summary"
+  },
+  {
+   "labelZh": "词汇",
+   "noteZh": "12 条",
+   "sectionId": "vocabulary"
+  },
+  {
+   "labelZh": "练习",
+   "noteZh": "A–P",
+   "sectionId": "exercises"
+  }
+ ],
+ "pathTitleZh": "本课学习路径",
+ "path": [
+  {
+   "step": 1,
+   "labelZh": "后半程的主题：昆雅的格系统",
+   "sectionId": "case-intro"
+  },
+  {
+   "step": 2,
+   "labelZh": "什么是格：词序、介词，还是词形本身",
+   "sectionId": "case-what"
+  },
+  {
+   "step": 3,
+   "labelZh": "昆雅的选择：用名词形式代替介词",
+   "sectionId": "case-quenya"
+  },
+  {
+   "step": 4,
+   "labelZh": "介词「带」格：英语的 him 就是现成例子",
+   "sectionId": "case-govern"
+  },
+  {
+   "step": 5,
+   "labelZh": "主格与宾格：cirya 对 ciryá",
+   "sectionId": "case-nom-acc"
+  },
+  {
+   "step": 6,
+   "labelZh": "其余八格清单（外加一个神秘的格）",
+   "sectionId": "case-list"
+  },
+  {
+   "step": 7,
+   "labelZh": "路线图：11–16 课怎么走",
+   "sectionId": "case-plan"
+  },
+  {
+   "step": 8,
+   "labelZh": "英语只有两个格，昆雅有九或十个",
+   "sectionId": "gen-nom"
+  },
+  {
+   "step": 9,
+   "labelZh": "英语属格的形态：'s 与 -s'",
+   "sectionId": "gen-eng-form"
+  },
+  {
+   "step": 10,
+   "labelZh": "属格的功能：来源或拥有",
+   "sectionId": "gen-function"
+  },
+  {
+   "step": 11,
+   "labelZh": "属格可以串起来",
+   "sectionId": "gen-chain"
+  },
+  {
+   "step": 12,
+   "labelZh": "定语属格与谓语属格",
+   "sectionId": "gen-predicate"
+  },
+  {
+   "step": 13,
+   "labelZh": "英语更爱 of 结构",
+   "sectionId": "gen-of"
+  },
+  {
+   "step": 14,
+   "labelZh": "昆雅：两个格分担英语的属格与 of",
+   "sectionId": "gen-quenya-intro"
+  },
+  {
+   "step": 15,
+   "labelZh": "属格词尾 -o：arano、tário、vendëo",
+   "sectionId": "gen-form-o"
+  },
+  {
+   "step": 16,
+   "labelZh": "以 -a 结尾：-a 被 -o 吞掉（Vardo）",
+   "sectionId": "gen-form-a"
+  },
+  {
+   "step": 17,
+   "labelZh": "复数属格 -on：aldaron、elenion",
+   "sectionId": "gen-plural"
+  },
+  {
+   "step": 18,
+   "labelZh": "Quenta Silmarillion：属格复数就在书名里",
+   "sectionId": "gen-silmarillion"
+  },
+  {
+   "step": 19,
+   "labelZh": "双数属格 -to：ciryato；以及 Alduto／Alduo 的悬案",
+   "sectionId": "gen-dual"
+  },
+  {
+   "step": 20,
+   "labelZh": "特殊词干：rávo、nisso、rávion、nission",
+   "sectionId": "gen-stems"
+  },
+  {
+   "step": 21,
+   "labelZh": "昆雅属格不是「所有格」",
+   "sectionId": "gen-not-possessive"
+  },
+  {
+   "step": 22,
+   "labelZh": "词源：HO「从、从……之中」",
+   "sectionId": "gen-origin"
+  },
+  {
+   "step": 23,
+   "labelZh": "-o 偶尔就是「从」：Oiolossëo",
+   "sectionId": "gen-from"
+  },
+  {
+   "step": 24,
+   "labelZh": "来源属格：róma Oromëo 不是「Oromë 仍持有的号角」",
+   "sectionId": "gen-derivative"
+  },
+  {
+   "step": 25,
+   "labelZh": "部分属格：Eärendil Elenion Ancalima",
+   "sectionId": "gen-partitive"
+  },
+  {
+   "step": 26,
+   "labelZh": "物理意义上的部分：Valion「众维拉的」",
+   "sectionId": "gen-partitive2"
+  },
+  {
+   "step": 27,
+   "labelZh": "地点属格：Calaciryo míri 与 Elenna·nórëo alcar",
+   "sectionId": "gen-location"
+  },
+  {
+   "step": 28,
+   "labelZh": "家庭关系：vanimálion nostari、Híni Ilúvataro",
+   "sectionId": "gen-family"
+  },
+  {
+   "step": 29,
+   "labelZh": "统治者与被统治者：Aran Sindaron、Heru i Million",
+   "sectionId": "gen-ruler"
+  },
+  {
+   "step": 30,
+   "labelZh": "of＝关于：Quenta Silmarillion、quentalë Noldoron",
+   "sectionId": "gen-about"
+  },
+  {
+   "step": 31,
+   "labelZh": "有时意义就是模糊的",
+   "sectionId": "gen-vague"
+  },
+  {
+   "step": 32,
+   "labelZh": "原文引段：kingsfoil 与 asëa aranion",
+   "sectionId": "gen-tolkien-quote"
+  },
+  {
+   "step": 33,
+   "labelZh": "asëa aranion：属格还能只表「关联」",
+   "sectionId": "gen-kingsfoil"
+  },
+  {
+   "step": 34,
+   "labelZh": "quanta Eruanno：「充满……」＋属格",
+   "sectionId": "gen-full"
+  },
+  {
+   "step": 35,
+   "labelZh": "谓语属格：i corma ná Saurondo",
+   "sectionId": "gen-predicate2"
+  },
+  {
+   "step": 36,
+   "labelZh": "词序：前置（诗体）与后置（常态）",
+   "sectionId": "gen-wordorder"
+  },
+  {
+   "step": 37,
+   "labelZh": "最常见的错误：i alcaro Aman",
+   "sectionId": "gen-mistake"
+  },
+  {
+   "step": 38,
+   "labelZh": "介词 + 属格：Vardo nu luini tellumar 的怪词序",
+   "sectionId": "gen-prep-order"
+  },
+  {
+   "step": 39,
+   "labelZh": "冠词：属格让名词变成限定",
+   "sectionId": "gen-article"
+  },
+  {
+   "step": 40,
+   "labelZh": "前置属格后能不能加 i",
+   "sectionId": "gen-article2"
+  },
+  {
+   "step": 41,
+   "labelZh": "ú「没有」带属格：ú calo",
+   "sectionId": "gen-u"
+  },
+  {
+   "step": 42,
+   "labelZh": "本章小结：原文 Summary 与中文对照",
+   "sectionId": "summary"
+  },
+  {
+   "step": 43,
+   "labelZh": "课末词汇：1 个数词 + 5 个名词 + 3 个动词 + 2 个介词",
+   "sectionId": "vocabulary"
+  },
+  {
+   "step": 44,
+   "labelZh": "练习工作台：A–P 与 keys 核对",
+   "sectionId": "exercises"
+  }
+ ],
+ "modules": [
+  {
+   "sectionId": "case-intro",
+   "sourceSectionId": "cases",
+   "titleZh": "01 · 后半程的主题：昆雅的格系统",
+   "leadZh": "前十课主要讲形容词与动词，名词只讲了复数与双数。从本课起进入昆雅最富特征的语法：格系统——它最清楚地反映托尔金的两个灵感来源，芬兰语与拉丁语。",
+   "objectives": [
+    "能说出前十课名词部分只处理了什么",
+    "能说明格系统为何是昆雅最具特征的语法"
+   ],
+   "rules": [
+    {
+     "id": "rule-case-intro",
+     "headZh": "格系统＝后半程的主线",
+     "bodyZh": "前十课处理形容词与动词，名词只讨论了复数与双数的构成。昆雅名词的屈折远不止此；后半课程主要处理繁复的格系统，这是该语言最具特征的方面。",
+     "en": "The second half of this course will predominantly be concerned with the elaborate case system of Quenya",
+     "zh": "本课程后半部分将主要处理昆雅繁复的格系统。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为名词只需记单数／复数／双数",
+     "right": "那只是主格；格系统还有八个格",
+     "whyZh": "本节明确说「关于名词的屈折还有更多可说」。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "芬兰语与拉丁语两条线",
+     "bodyZh": "芬兰语给昆雅的是「用词尾而非介词」的格系统；拉丁语给的是格的名称与部分功能分类。后面遇到「向格」「离格」「位格」这些名字时，不必被拉丁术语吓住——作者本人说，记形式与功能比记拉丁名重要。"
+    }
+   ],
+   "recapZh": "本课起进入格系统；名词的屈折远不止单复数。",
+   "selfCheckZh": [
+    {
+     "qZh": "前十课名词部分讲了什么？",
+     "aZh": "只讲了复数与双数形式。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "cases",
+    "unitIds": [
+     0
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "case-what",
+   "sourceSectionId": "cases",
+   "titleZh": "02 · 什么是格：词序、介词，还是词形本身",
+   "leadZh": "英语靠词序（the man loves the woman）或介词（to the Dwarf）表明名词功能；有些语言让名词本身变成特殊形式来承担这个任务——这就是格。",
+   "objectives": [
+    "能说明英语标示名词功能的两种手段",
+    "能定义「格」"
+   ],
+   "rules": [
+    {
+     "id": "rule-case-def",
+     "headZh": "格＝标示名词功能的名词形式",
+     "bodyZh": "名词在句中有多种功能。英语可靠词序（谓语前的名词是主语、后的通常是宾语），也可加介词（to the Dwarf）。有些语言不用 to，而让「矮人」以特殊屈折形式出现——这些专门化的名词形式就是格。",
+     "en": "What, linguistically speaking, are cases?",
+     "zh": "从语言学上说，什么是格？",
+     "exampleZh": "the man loves the woman／to the Dwarf"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为英语没有格",
+     "right": "英语名词只剩属格；代词还保留主格／宾格",
+     "whyZh": "本节只谈名词功能如何标示，代词的情况下一节展开。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么从英语讲起",
+     "bodyZh": "作者用英语词序与介词作对照，是为了让「格」这个概念落地：格不是额外装饰，而是承担英语用词序或介词承担的那份工作。后面每学一个格，都可以问：英语这里用什么手段？"
+    }
+   ],
+   "recapZh": "格是名词自身的形式，用来标示它在句中的功能。",
+   "selfCheckZh": [
+    {
+     "qZh": "英语靠什么表明 the man 是主语？",
+     "aZh": "词序——它在谓语动词之前。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "cases",
+    "unitIds": [
+     1
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "case-quenya",
+   "sourceSectionId": "cases",
+   "titleZh": "03 · 昆雅的选择：用名词形式代替介词",
+   "leadZh": "昆雅也有介词（nu、or、imbë、ve、mir），但英语放介词或靠词序的地方，昆雅常用名词的格词尾：i Elda anta anna i Naucon 的 -n 就对应英语 to。",
+   "objectives": [
+    "能举出五个已学介词",
+    "能说明 i Naucon 的 -n 对应什么"
+   ],
+   "rules": [
+    {
+     "id": "rule-case-quenya",
+     "headZh": "昆雅：格词尾承担介词的功能",
+     "bodyZh": "英语常在名词前放介词或仅靠词序；昆雅则用名词的特殊形式本身表明功能。i Elda anta anna i Naucon 里，加在 Nauco 上的 -n 对应英语 to。这个格叫与格，第十三课详谈。",
+     "en": "where the case ending -n added to Nauco \"Dwarf\" corresponds to the English preposition \"to\"",
+     "zh": "其中加在 Nauco「矮人」上的格词尾 -n 对应英语介词 to。",
+     "exampleZh": "i Elda anta anna i Naucon"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为昆雅没有介词",
+     "right": "有（nu、or、imbë、ve、mir），只是格词尾分担了很多介词工作",
+     "whyZh": "本节开头就列出这些介词，并指出 mir 由 mi 构成。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "mir 与 mi 的关系",
+     "bodyZh": "mir「进入」是由更简单的 mi「在……里」构成的——这提示昆雅的介词系统本身也有形态层次。学到向格（allative）时会看到，格词尾与这类介词往往功能重叠。"
+    }
+   ],
+   "recapZh": "昆雅用格词尾表达英语用介词／词序表达的关系（i Naucon 的 -n＝to）。",
+   "selfCheckZh": [
+    {
+     "qZh": "i Naucon 的 -n 是什么格？",
+     "aZh": "与格（第十三课详讲）。"
+    },
+    {
+     "qZh": "mir 由哪个介词构成？",
+     "aZh": "mi「在……里」。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "cases",
+    "unitIds": [
+     2
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "case-govern",
+   "sourceSectionId": "cases",
+   "titleZh": "04 · 介词「带」格：英语的 him 就是现成例子",
+   "leadZh": "有些介词要求后面的词以某个格出现，这叫介词「带」某个格。英语 from him 就是：him 本是宾格，但这里不是句子宾语，只因为 from 要求它。",
+   "objectives": [
+    "能解释「介词带格」",
+    "能用 him 说明英语也有类似现象"
+   ],
+   "rules": [
+    {
+     "id": "rule-govern",
+     "headZh": "介词「带」格",
+     "bodyZh": "某些介词要求其后的名词或代词以某个格的形式出现，有时与该格正常的独立功能无关；这个介词就说「带」这个格。",
+     "en": "The relevant preposition is then said to \"take\" (or \"govern\") this or that case.",
+     "zh": "相关的介词据说「带」某个格。",
+     "exampleZh": "ú + 属格（本课末）；from him"
+    },
+    {
+     "id": "rule-him",
+     "headZh": "英语的 him：宾格被介词「借用」",
+     "bodyZh": "英语名词几乎失去格，但代词保留宾格形式：Peter saw he 错，须 Peter saw him。him 的主要功能是作宾语，可很多介词也要求它：from he 不行，须 from him，尽管这里 him 不是句子宾语。",
+     "en": "it must be \"from him\", though \"him\" is not the object of a sentence here",
+     "zh": "必须是 “from him”，尽管 him 在这里不是句子宾语。",
+     "exampleZh": "from him"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为「介词带格」是昆雅独有的怪现象",
+     "right": "英语 from him 就是同一机制",
+     "whyZh": "原文专门用一整段讲英语的对应现象。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "这条规则为什么必须早讲",
+     "bodyZh": "后面每个格都会出现「某个介词带这个格」的条目（如 ú 带属格）。若不先建立「介词可以强制格形式」的概念，学习者会把 ú calo 里的 -o 误当成普通的「的」。"
+    }
+   ],
+   "recapZh": "介词可强制后接某格；英语 from him 即例。",
+   "selfCheckZh": [
+    {
+     "qZh": "为什么不能说 from he？",
+     "aZh": "from 要求宾格形式 him。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "cases",
+    "unitIds": [
+     3
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "case-nom-acc",
+   "sourceSectionId": "cases",
+   "titleZh": "05 · 主格与宾格：cirya 对 ciryá",
+   "leadZh": "到此的名词形式都是主格（作主语）。宾格是作宾语的形式；现代英语与第三纪昆雅都不再区分。托尔金的「书本昆雅」有独立宾格：cirya 对 ciryá、ciryar 对 ciryai。",
+   "objectives": [
+    "能说明主格的功能",
+    "能说出书本昆雅与第三纪昆雅在宾格上的差别"
+   ],
+   "rules": [
+    {
+     "id": "rule-nominative",
+     "headZh": "主格：作主语（及第三纪的宾语）",
+     "bodyZh": "到此讨论的单数、复数、双数形式都是主格。主格最重要的功能是名词作动词主语时用它；第三纪昆雅里它也兼作宾语。",
+     "en": "The most important grammatical function of the nominative is that this is the form a noun has when it functions as the subject of a verb.",
+     "zh": "主格最重要的语法功能是：名词作动词主语时用这个形式。"
+    },
+    {
+     "id": "rule-accusative",
+     "headZh": "宾格：书本昆雅有，第三纪已失",
+     "bodyZh": "托尔金设想的古体「书本昆雅」有形式上区别于主格的宾格：cirya（复 ciryar）作主语，ciryá（复 ciryai）作宾语。这个独立宾格在中洲口语中消失，cirya 兼作主宾。",
+     "en": "Tolkien imagined an archaic form of Quenya, \"Book Quenya\", that did have an accusative case distinct in form from the nominative.",
+     "zh": "托尔金设想了一种古体的昆雅，「书本昆雅」，确有形式上区别于主格的宾格。",
+     "exampleZh": "cirya／ciryá；ciryar／ciryai"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "在第三纪昆雅里给宾语加 -á",
+     "right": "第三纪已无独立宾格，cirya 兼作主宾",
+     "whyZh": "原文：the distinct accusative disappeared from the language as spoken in Middle-earth。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "两种说法，同一事实",
+     "bodyZh": "作者说「主格与宾格形式合一」或「主格接管了宾格功能」结果完全一样。这不是含糊，而是提醒：语法描述可以选择不同的切分方式，只要覆盖同样的事实。"
+    }
+   ],
+   "recapZh": "主格作主语；书本昆雅另有宾格 ciryá，第三纪已并入主格。",
+   "selfCheckZh": [
+    {
+     "qZh": "书本昆雅的「船」作宾语怎么写？",
+     "aZh": "ciryá（复 ciryai）。"
+    },
+    {
+     "qZh": "第三纪昆雅呢？",
+     "aZh": "仍作 cirya，与主格同形。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "cases",
+    "unitIds": [
+     4
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "case-list",
+   "sourceSectionId": "cases",
+   "titleZh": "06 · 其余八格清单（外加一个神秘的格）",
+   "leadZh": "除主格外还有：属格、所有格、与格、向格、离格、位格、工具格。宾格是流亡昆雅唯一丢失的格。Plotz 信里还列了一个未说明的格。",
+   "objectives": [
+    "能背出八格名称",
+    "知道宾格是唯一丢失的格"
+   ],
+   "rules": [
+    {
+     "id": "rule-case-list",
+     "headZh": "八格清单",
+     "bodyZh": "属格、所有格、与格、向格、离格、位格、工具格，加上主格共八项（作者说昆雅有九或十个格，因为还有 Plotz 信里那个未命名的格，以及术语上的伸缩）。宾格是流亡者昆雅中唯一丢失的格。",
+     "en": "the genitive, the possessive, the dative, the allative, the ablative, the locative, and the instrumental",
+     "zh": "属格、所有格、与格、向格、离格、位格、工具格。"
+    }
+   ],
+   "table": {
+    "captionZh": "本课程将逐课处理的格",
+    "headers": [
+     "格",
+     "主要功能（预告）",
+     "课次"
+    ],
+    "rows": [
+     [
+      "主格",
+      "主语（第三纪兼宾语）",
+      "已学"
+     ],
+     [
+      "属格",
+      "来源、部分、关系",
+      "第 11 课"
+     ],
+     [
+      "所有格",
+      "真正的拥有",
+      "第 12 课"
+     ],
+     [
+      "与格",
+      "「给、对」",
+      "第 13 课"
+     ],
+     [
+      "向格",
+      "「到、向」",
+      "第 14 课"
+     ],
+     [
+      "离格",
+      "「从」",
+      "第 14 课"
+     ],
+     [
+      "位格",
+      "「在」",
+      "第 15 课"
+     ],
+     [
+      "工具格",
+      "「用」",
+      "第 15 课"
+     ]
+    ]
+   },
+   "pitfalls": [
+    {
+     "wrong": "把属格与所有格当同一个格",
+     "right": "昆雅分两个格；属格主要表来源，所有格才表拥有",
+     "whyZh": "下一课会专门讲这个区别，本课末也会强调属格「不是所有格」。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么作者说「别管拉丁名」",
+     "bodyZh": "名称只是索引。真正要掌握的是每个格承担哪些功能、词尾怎么加。后面练习里出现 genitive／possessive 的区分时，回到功能而不是名称去判断。"
+    }
+   ],
+   "recapZh": "八格：属格、所有格、与格、向格、离格、位格、工具格（+主格）；宾格已失。",
+   "selfCheckZh": [
+    {
+     "qZh": "流亡昆雅丢失了哪个格？",
+     "aZh": "宾格。"
+    },
+    {
+     "qZh": "「用……」是哪个格？",
+     "aZh": "工具格。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "cases",
+    "unitIds": [
+     5
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "case-plan",
+   "sourceSectionId": "cases",
+   "titleZh": "07 · 路线图：11–16 课怎么走",
+   "leadZh": "第 11–16 课逐个处理各格的功能与构成。因为有 Plotz 信，这段讨论的立足点比平时稳。",
+   "objectives": [
+    "知道后续课次的安排",
+    "知道 Plotz 信为何重要"
+   ],
+   "rules": [
+    {
+     "id": "rule-plotz",
+     "headZh": "Plotz 信：少见的硬证据",
+     "bodyZh": "第 11–16 课逐个讨论各格。正因为有那封 Plotz 信（托尔金寄给 Dick Plotz 的格词尾表），我们讨论昆雅语法时立足点比平时稳。",
+     "en": "Precisely because we have the blessed Plotz Letter, we are now on somewhat more solid ground",
+     "zh": "正因为有那封可贵的 Plotz 信，我们现在的立足点比平时要稳一些。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为所有格词尾都同样有据",
+     "right": "Plotz 信覆盖的与仅靠推断的，证据等级不同",
+     "whyZh": "作者在每节都会标出「Plotz 信有」还是「推测」。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "证据等级要跟着记",
+     "bodyZh": "后面几课会反复出现「Plotz 信如此」与「大概如此」。做笔记时最好用两种记号分开，否则复习时会把推测当定论。"
+    }
+   ],
+   "recapZh": "11–16 课逐个讲格；Plotz 信提供较硬的证据。",
+   "selfCheckZh": [
+    {
+     "qZh": "Plotz 信是什么？",
+     "aZh": "托尔金寄给 Dick Plotz 的格词尾表。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "cases",
+    "unitIds": [
+     6
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "gen-nom",
+   "sourceSectionId": "the-genitive",
+   "titleZh": "08 · 英语只有两个格，昆雅有九或十个",
+   "leadZh": "英语名词只剩主格与属格。主格是最简单形式：没有词尾恰恰说明它是主格。",
+   "objectives": [
+    "能说明主格为何「无标记」",
+    "知道英语与昆雅格数的差距"
+   ],
+   "rules": [
+    {
+     "id": "rule-gen-nom",
+     "headZh": "主格：无标记即标记",
+     "bodyZh": "英语与流亡昆雅一样，名词作主语或宾语时用主格。主格单数可视为名词最简单的形式：没有特殊词尾来标示「这是主格」，恰恰是这类成分的缺席告诉我们它是什么格。",
+     "en": "Where Quenya has nine or ten noun cases, English has only two: nominative and genitive.",
+     "zh": "昆雅有九或十个格，英语只有两个：主格与属格。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "去找主格的「词尾」",
+     "right": "主格没有词尾；零形式就是主格",
+     "whyZh": "原文：it is the absence of any such element that tells us what case the noun appears in。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "从「无」读出信息",
+     "bodyZh": "这套思路在格系统里会反复用到：某个词尾缺席，本身就是语法信息。学到后面「属格词尾在 -o 结尾名词上隐形」时，道理相同。"
+    }
+   ],
+   "recapZh": "英语两个格；主格无词尾，零形式即主格。",
+   "selfCheckZh": [
+    {
+     "qZh": "主格的词尾是什么？",
+     "aZh": "没有词尾——零形式。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-genitive",
+    "unitIds": [
+     0
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "gen-eng-form",
+   "sourceSectionId": "the-genitive",
+   "titleZh": "09 · 英语属格的形态：'s 与 -s'",
+   "leadZh": "单数加 's（girl's），复数与复数词尾 -s 合并，书写上用撇号提示（girls'）。作者顺带抱怨拼写 genetive。",
+   "objectives": [
+    "能写出英语属格单复数形式",
+    "知道属格拼写不是 genetive"
+   ],
+   "rules": [
+    {
+     "id": "rule-eng-gen",
+     "headZh": "英语属格：'s／-s'",
+     "bodyZh": "单数加 's（girl's）。复数里这个词尾通常与复数词尾 -s 合并，书写上用撇号提示其理论存在（girls'，而非 **girls's）。",
+     "en": "In the singular, it is formed by adding the ending 's to the noun",
+     "zh": "单数由加词尾 's 构成。",
+     "exampleZh": "girl's／girls'"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "拼作 genetive",
+     "right": "genitive",
+     "whyZh": "原文专门加括号抱怨这个常见拼错。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么先讲英语形态",
+     "bodyZh": "英语属格是学习者唯一熟悉的属格，用它作锚点，后面昆雅 -o 的功能与词序才好对比。注意英语属格前置（girl's doll），这一点与本课后面「昆雅属格可后置」形成关键差异。"
+    }
+   ],
+   "recapZh": "英语属格单数 's、复数 -s'。",
+   "selfCheckZh": [
+    {
+     "qZh": "girls 的属格怎么写？",
+     "aZh": "girls'。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-genitive",
+    "unitIds": [
+     1
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "gen-function",
+   "sourceSectionId": "the-genitive",
+   "titleZh": "10 · 属格的功能：来源或拥有",
+   "leadZh": "属格表示「来源或拥有」：the girl's doll（拥有）、the girl's mother（家庭关系）、the architect's drawings（来源）、Britain's finest artists（地点）。",
+   "objectives": [
+    "能区分属格的四种典型关系",
+    "能说明属格不限于严格「拥有」"
+   ],
+   "rules": [
+    {
+     "id": "rule-gen-function",
+     "headZh": "属格：来源或拥有",
+     "bodyZh": "词典定义为「来源或拥有」。the girl's doll 里属格协调两个名词，表明前者是后者的拥有者；但属格也表家庭关系（the girl's mother）、来源（the architect's drawings）、地点（Britain's finest artists）。",
+     "en": "the genitive case is used to indicate \"source or possession\"",
+     "zh": "属格用于表示「来源或拥有」。",
+     "exampleZh": "the girl's doll／the architect's drawings／Britain's finest artists"
+    },
+    {
+     "id": "rule-gen-governed",
+     "headZh": "被属格「支配」的名词",
+     "bodyZh": "属格所连接的那个词（如 doll）有时说被属格「支配」；属格形式本身则说「依附于」那个词——这是托尔金在 UT:317 的用词。",
+     "en": "this is Tolkien's wording in UT:317",
+     "zh": "这是托尔金在 UT:317 的用词。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把属格等同于「拥有」",
+     "right": "来源、家庭、地点都算",
+     "whyZh": "原文用三个例子逐层放宽「拥有」的含义。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "「地点属格」这个提法",
+     "bodyZh": "Britain's finest artists 被作者称为 genitive of location。这条会在本课后面（Calaciryo míri、Menelo eleni）反复出现，也是练习 B、F、I、L 的考点。"
+    }
+   ],
+   "recapZh": "属格表来源或拥有，也表家庭、地点等关系。",
+   "selfCheckZh": [
+    {
+     "qZh": "the architect's drawings 属哪种关系？",
+     "aZh": "来源——图是建筑师画的。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-genitive",
+    "unitIds": [
+     2
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "gen-chain",
+   "sourceSectionId": "the-genitive",
+   "titleZh": "11 · 属格可以串起来",
+   "leadZh": "the queen's sister's house：属格所依附的名词本身也可以是属格。理论上可无限串下去，但讲究文体的人不会推太远。",
+   "objectives": [
+    "能分析多层属格",
+    "知道实际写作不宜过度嵌套"
+   ],
+   "rules": [
+    {
+     "id": "rule-gen-chain",
+     "headZh": "属格链",
+     "bodyZh": "属格所依附的名词本身可以是属格，再指向第三个名词。原则上可串无限多个，但关心文体与可读性的人通常不会推得太远。",
+     "en": "In principle we can string up an infinite number of genitives",
+     "zh": "原则上我们可以串起无限多个属格。",
+     "exampleZh": "the queen's sister's house"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把多层属格的词尾加在同一个词上",
+     "right": "每一层各自带属格",
+     "whyZh": "英语 -'s 逐层附着，昆雅 -o 同理逐层附着。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "昆雅里怎么串",
+     "bodyZh": "昆雅属格可后置，所以「女王的姐妹的房子」可以是 i coa i netto i tário 之类（逐层后置），也可以前置。具体词序见本课后面「词序」一节；这里先建立「每层各自带词尾」的观念。"
+    }
+   ],
+   "recapZh": "属格可层层嵌套，每层各自带词尾。",
+   "selfCheckZh": [
+    {
+     "qZh": "the queen's sister's house 有几层属格？",
+     "aZh": "两层（queen's、sister's）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-genitive",
+    "unitIds": [
+     3
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "gen-predicate",
+   "sourceSectionId": "the-genitive",
+   "titleZh": "12 · 定语属格与谓语属格",
+   "leadZh": "the girl's doll 是定语属格；the book is Peter's 是谓语属格。英语更常用迂回说法（belongs to Peter）。",
+   "objectives": [
+    "能区分定语与谓语用法",
+    "知道英语常用迂回替代谓语属格"
+   ],
+   "rules": [
+    {
+     "id": "rule-gen-attrib",
+     "headZh": "定语属格：直接修饰名词",
+     "bodyZh": "属格像形容词，既可作定语也可作谓语。上面例子都是定语属格，直接与所依附名词搭配。",
+     "en": "genitives can be used both attributively and as predicates",
+     "zh": "属格既可作定语也可作谓语。"
+    },
+    {
+     "id": "rule-gen-pred",
+     "headZh": "谓语属格：the book is Peter's",
+     "bodyZh": "属格作谓语如 the book is Peter's；但英语常改用迂回说法（the book belongs to Peter）。昆雅的对应形式见本课后面（i corma ná Saurondo）。",
+     "en": "A genitive would however function as a predicate in a sentence like the book is Peter's.",
+     "zh": "属格作谓语则如 the book is Peter's。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为英语只能用 's 表所属",
+     "right": "belongs to 等迂回说法更常见",
+     "whyZh": "原文：English often resorts to circumlocutions。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么提「谓语属格」",
+     "bodyZh": "这是为后面 i corma ná Saurondo 埋线：昆雅属格可以直接作 ná 的表语，不需要 belong 之类的动词。"
+    }
+   ],
+   "recapZh": "属格可作定语，也可作谓语（the book is Peter's）。",
+   "selfCheckZh": [
+    {
+     "qZh": "the book is Peter's 里的属格作什么成分？",
+     "aZh": "谓语（表语）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-genitive",
+    "unitIds": [
+     4
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "gen-of",
+   "sourceSectionId": "the-genitive",
+   "titleZh": "13 · 英语更爱 of 结构",
+   "leadZh": "英语常用 of 短语代替属格：the finest artists of Britain 而非 Britain's finest artists；the end of the road 而非 the road's end。",
+   "objectives": [
+    "能说明 of 结构与属格的功能重叠",
+    "知道某些语境 of 更自然"
+   ],
+   "rules": [
+    {
+     "id": "rule-of",
+     "headZh": "of 结构：属格的替代品",
+     "bodyZh": "英语很多时候不用属格而用含介词的短语，主要是 of。某些语境里 of 结构甚至更受偏爱（the end of the road）。",
+     "en": "English does not use a genitive, but instead employs a phrase involving a preposition",
+     "zh": "英语很多时候不用属格，而用含介词的短语。",
+     "exampleZh": "the end of the road"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 of 结构当成「不是属格」",
+     "right": "功能上它就是属格的替身；昆雅用同一个格覆盖两者",
+     "whyZh": "下一节明确说英语属格与 of 结构的功能由昆雅的两个格分担。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "这条对翻译的意义",
+     "bodyZh": "汉译英时看到「……的」不要只想 's；译成昆雅时更不要照 of 的位置去放 -o（本课后半专门警告这个错误）。"
+    }
+   ],
+   "recapZh": "英语 of 结构与属格功能重叠，某些语境 of 更自然。",
+   "selfCheckZh": [
+    {
+     "qZh": "「路的尽头」英语更常说？",
+     "aZh": "the end of the road。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-genitive",
+    "unitIds": [
+     5
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "gen-quenya-intro",
+   "sourceSectionId": "the-genitive",
+   "titleZh": "14 · 昆雅：两个格分担英语的属格与 of",
+   "leadZh": "英语属格与 of 结构的功能，在昆雅由两个格分担；本课讲属格，下一课讲另一个（所有格）。昆雅属格的功能比英语属格窄。",
+   "objectives": [
+    "知道昆雅用两个格覆盖英语一个格的功能",
+    "知道本课只讲其中一个"
+   ],
+   "rules": [
+    {
+     "id": "rule-two-cases",
+     "headZh": "两个昆雅格 vs 一个英语格",
+     "bodyZh": "英语属格与 of 结构的功能，由昆雅的两个名词格分担；另一个格下一课讨论。通常称为昆雅属格的那个格，功能比英语属格窄。",
+     "en": "The functions of English genitives, as well as English \"of\"-constructions, are covered by two Quenya noun cases",
+     "zh": "英语属格与英语 of 结构的功能，由昆雅的两个名词格分担。",
+     "exampleZh": "属格（本课）／所有格（下一课）"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把昆雅属格当英语属格用",
+     "right": "它不表简单拥有；拥有要用所有格",
+     "whyZh": "本课后半（第 21 节起）反复强调这一点。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "先学属格的理由",
+     "bodyZh": "属格在昆雅里出现频率极高（Quenta Silmarillion、Herun i Million 都是），而且词尾 -o 简单规则；先掌握它，再学所有格时才能对比出「来源 vs 拥有」的分工。"
+    }
+   ],
+   "recapZh": "昆雅两个格分担英语属格＋of；本课讲属格。",
+   "selfCheckZh": [
+    {
+     "qZh": "英语 of 结构的功能在昆雅由几个格分担？",
+     "aZh": "两个（属格与所有格）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-genitive",
+    "unitIds": [
+     6
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "gen-form-o",
+   "sourceSectionId": "the-genitive",
+   "titleZh": "15 · 属格词尾 -o：arano、tário、vendëo",
+   "leadZh": "基本词尾 -o：arano「国王的」、tário「女王的」、vendëo「少女的」。以 -o 结尾的名词词尾隐形：ciryamo 既是「水手」也是「水手的」。",
+   "objectives": [
+    "能由名词推出属格",
+    "能说明 -o 结尾名词的「隐形属格」"
+   ],
+   "rules": [
+    {
+     "id": "rule-gen-o",
+     "headZh": "属格＝-o",
+     "bodyZh": "昆雅属格基本词尾是 -o：arano、tário、vendëo。以 -o 结尾的名词，属格词尾通常「隐形」，如 ciryamo 既作主格「水手」也作属格「水手的」；Ulmo 同样两可，须靠语境。",
+     "en": "The basic Quenya genitive ending is -o.",
+     "zh": "昆雅属格的基本词尾是 -o。",
+     "exampleZh": "arano／tário／vendëo／ciryamo"
+    },
+    {
+     "id": "rule-gen-u-stem",
+     "headZh": "-u 词干：curuo",
+     "bodyZh": "以 -o 结尾但有 -u 特殊词干形式的名词（如 curo、curu-「巧具」），属格大概是 curuo。",
+     "en": "we would probably see curuo as the genitive form",
+     "zh": "我们大概会看到 curuo 作为属格形式。",
+     "exampleZh": "curo → curuo"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "给 ciryamo 再加 -o 写成 ciryamoo",
+     "right": "词尾隐形，仍作 ciryamo",
+     "whyZh": "原文：If the noun ends in -o already, the genitive ending normally becomes \"invisible\"。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "「隐形」不是「没有」",
+     "bodyZh": "ciryamo 作属格时并没有少一个成分，只是 -o 与词干末的 -o 重合。判断它是主格还是属格，只能看句法位置（如 Indis i·Ciryamo）。"
+    }
+   ],
+   "recapZh": "属格 -o；-o 结尾名词词尾隐形（ciryamo、Ulmo）。",
+   "selfCheckZh": [
+    {
+     "qZh": "tári 的属格？",
+     "aZh": "tário。"
+    },
+    {
+     "qZh": "ciryamo 作属格时要不要加词尾？",
+     "aZh": "不加，形式不变。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-genitive",
+    "unitIds": [
+     7
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "gen-form-a",
+   "sourceSectionId": "the-genitive",
+   "titleZh": "16 · 以 -a 结尾：-a 被 -o 吞掉（Vardo）",
+   "leadZh": "昆雅音系不允许 ao，故 -a + -o → -o：Vardo 而非 **Vardao。副作用是 anta「脸」与 anto「嘴」的属格都是 anto，须靠语境分辨。",
+   "objectives": [
+    "能说明 -a 结尾名词的属格构成",
+    "能举出属格同形的例子"
+   ],
+   "rules": [
+    {
+     "id": "rule-gen-a",
+     "headZh": "-a + -o → -o",
+     "bodyZh": "以 -a 结尾的名词加属格 -o 时丢掉 -a，因为昆雅不允许 ao 组合，简化为 o。Namárië 证明「Varda 的」是 Vardo，不是 **Vardao。",
+     "en": "Since Quenya phonology does not permit the combination ao, it is simplified to o.",
+     "zh": "因为昆雅音系不允许 ao 组合，它简化为 o。",
+     "exampleZh": "Vardo（不是 **Vardao）"
+    },
+    {
+     "id": "rule-gen-homonym",
+     "headZh": "副作用：属格同形",
+     "bodyZh": "少数本来不同的名词在属格中重合：anta「脸」与 anto「嘴」的属格都是 anto。须结合语境判断指哪个。",
+     "en": "anta \"face\" and anto \"mouth\" both have the genitive form anto",
+     "zh": "anta「脸」与 anto「嘴」的属格都是 anto。",
+     "exampleZh": "anto（脸／嘴）"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 **Vardao",
+     "right": "Vardo",
+     "whyZh": "原文用 ** 标出 **Vardao 为错误形式。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "这条规则在练习里怎么用",
+     "bodyZh": "练习 A 的 ohtaro（ohtar 的属格）、D 的 Atanion、F 的 tário、J 的 arano、K 的 Eldo——凡以 -a 结尾的名词，属格一律少一个 a。看到 Eldo 不要以为是新词，它就是 Elda + -o。"
+    }
+   ],
+   "recapZh": "-a 结尾加 -o 时 -a 脱落（Vardo）；可能造成属格同形。",
+   "selfCheckZh": [
+    {
+     "qZh": "Elda 的属格？",
+     "aZh": "Eldo。"
+    },
+    {
+     "qZh": "为什么不是 Eldao？",
+     "aZh": "昆雅不允许 ao，简化为 o。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-genitive",
+    "unitIds": [
+     8
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "gen-plural",
+   "sourceSectionId": "the-genitive",
+   "titleZh": "17 · 复数属格 -on：aldaron、elenion",
+   "leadZh": "复数属格 -on 加在主格复数（-r 或 -i）上：aldar → aldaron，eleni → elenion。重音随之移动：elenion 重音在 -len-。",
+   "objectives": [
+    "能构成 r 复数与 i 复数的属格",
+    "能说明重音为何移动"
+   ],
+   "rules": [
+    {
+     "id": "rule-gen-plural",
+     "headZh": "复数属格 -on",
+     "bodyZh": "-o 在复数扩展为 -on，加在主格复数上：aldar → aldaron、eleni → elenion。正常重音规则仍适用，故 eleni 重音在第一音节，elenion 重音落在 -len-。",
+     "en": "In the plural, the genitive ending -o is expanded to -on",
+     "zh": "复数里属格词尾 -o 扩展为 -on。",
+     "exampleZh": "aldaron／elenion"
+    }
+   ],
+   "examples": [
+    {
+     "en": "rámar aldaron",
+     "zh": "树的翅膀（＝叶子）",
+     "noteZh": "Namárië 的诗性迂回。"
+    },
+    {
+     "en": "ancalima elenion",
+     "zh": "群星中最明亮的",
+     "noteZh": "Frodo 在 Cirith Ungol 对 Eärendil 的称呼。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 -on 直接加在单数上",
+     "right": "先取主格复数，再加 -on",
+     "whyZh": "原文：This ending -on is added to the simplest (nominative) plural form of the noun。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "重音移动的意义",
+     "bodyZh": "elenion 比 eleni 长一个音节，重音从第一音节移到倒数第三音节 -len-。读的时候若仍重读 e-，听感会不对；这也是判断「词尾是否算独立音节」的线索。"
+    }
+   ],
+   "recapZh": "复数属格 -on：aldaron、elenion；重音随音节数移动。",
+   "selfCheckZh": [
+    {
+     "qZh": "eleni 的属格复数？",
+     "aZh": "elenion。"
+    },
+    {
+     "qZh": "aldar 的属格复数？",
+     "aZh": "aldaron。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-genitive",
+    "unitIds": [
+     9
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "gen-silmarillion",
+   "sourceSectionId": "the-genitive",
+   "titleZh": "18 · Quenta Silmarillion：属格复数就在书名里",
+   "leadZh": "Silmarillion 是 Silmarilli 的属格复数；完整短语是 Quenta Silmarillion「精灵宝钻的历史」。昆雅属格常最好译成 of 结构，而不是 's。",
+   "objectives": [
+    "能拆解 Silmarillion",
+    "知道昆雅属格多译作 of"
+   ],
+   "rules": [
+    {
+     "id": "rule-silmarillion",
+     "headZh": "Silmarillion＝Silmarilli + -on",
+     "bodyZh": "书名来自主格复数 Silmarilli「精灵宝钻」，属格复数 Silmarillion。完整短语 Quenta Silmarillion 意为「精灵宝钻的历史」。昆雅属格常最好译成英语 of 结构，而不是 -'s。",
+     "en": "Quenta Silmarillion, \"The History of the Silmarils\"",
+     "zh": "Quenta Silmarillion「精灵宝钻的历史」。",
+     "exampleZh": "Quenta Silmarillion"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 Silmarillion 当单数属格",
+     "right": "它是复数属格（-on）",
+     "whyZh": "Silmarilli 是复数，故属格为 Silmarillion。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "译法选择的理由",
+     "bodyZh": "作者说 \"Stars' brightest\" 或 \"the Silmarils' History\" 都不是好英语。这不是文体偏好，而是因为昆雅属格覆盖的功能比英语 's 广；用 of 结构才装得下「来源、部分、关于」这些意味。"
+    }
+   ],
+   "recapZh": "Silmarillion＝Silmarilli + -on；Quenta Silmarillion＝精灵宝钻的历史。",
+   "selfCheckZh": [
+    {
+     "qZh": "Silmarillion 是什么形式？",
+     "aZh": "Silmarilli 的属格复数。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-genitive",
+    "unitIds": [
+     10
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "gen-dual",
+   "sourceSectionId": "the-genitive",
+   "titleZh": "19 · 双数属格 -to：ciryato；以及 Alduto／Alduo 的悬案",
+   "leadZh": "双数属格＝-t + -o = -to（ciryato「一对船的」）。但主格双数为 -u 的名词（Aldu）该作 Alduto 还是 Alduo，Plotz 信未答，作者在练习里避开。",
+   "objectives": [
+    "能构成 -t 双数的属格",
+    "能说明 -u 双数的两种可能"
+   ],
+   "rules": [
+    {
+     "id": "rule-gen-dual",
+     "headZh": "双数属格 -to",
+     "bodyZh": "托尔金指出双数属格词尾是 -to，即双数 -t 与属格 -o 的结合；Plotz 信例 ciryato「一对船的」。",
+     "en": "As for dual genitive, Tolkien indicated that its ending is -to",
+     "zh": "至于双数属格，托尔金指出词尾是 -to。",
+     "exampleZh": "ciryato"
+    },
+    {
+     "id": "rule-gen-dual-u",
+     "headZh": "-u 双数：Alduto 还是 Alduo？",
+     "bodyZh": "主格双数为 -u 的名词（Aldu「两棵树」），属格可能是 Alduto（双重双数标记，如有据的 elenion、aldaron 含双重复数标记），也可能是 Alduo（u 取代 t）。已刊材料无法定论，作者在练习中避开。",
+     "en": "should the genitive \"of (the) Two Trees\" be Alduto or Alduo?",
+     "zh": "属格「两棵树的」该是 Alduto 还是 Alduo？",
+     "exampleZh": "Alduto（?）／Alduo（?）"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "在写作中随意选 Alduto 或 Alduo",
+     "right": "这是未定问题；能避开就避开",
+     "whyZh": "原文：published material allows no certain conclusions in this matter。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "「双重标记」的类比",
+     "bodyZh": "支持 Alduto 的理由是：复数属格 elenion 同时含复数 -i 与 -n，说明昆雅容许双重标记叠加。这条类比让 Alduto 不至于荒谬，但仍不足以定案。"
+    }
+   ],
+   "recapZh": "双数属格 -to（ciryato）；-u 双数作 -uto 或 -uo 未定。",
+   "selfCheckZh": [
+    {
+     "qZh": "cirya 的双数属格？",
+     "aZh": "ciryato。"
+    },
+    {
+     "qZh": "Aldu 的属格确定吗？",
+     "aZh": "不确定，可能是 Alduto 或 Alduo。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-genitive",
+    "unitIds": [
+     11
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "gen-stems",
+   "sourceSectionId": "the-genitive",
+   "titleZh": "20 · 特殊词干：rávo、nisso、rávion、nission",
+   "leadZh": "rá（ráv-）→ rávo；nís（niss-）→ nisso；复数属格 rávion、nission。双数或为 ráveto、nisseto（插入 -e- 避免辅音丛）。",
+   "objectives": [
+    "能由特殊词干构成属格",
+    "能解释插入 -e- 的原因"
+   ],
+   "rules": [
+    {
+     "id": "rule-gen-stem",
+     "headZh": "特殊词干 + -o",
+     "bodyZh": "由 rá（ráv-）得属格 rávo，由 nís（niss-）得 nisso；复数属格 rávion、nission（参主格复数 rávi、nissi）。双数或为 ráveto、nisseto，插入 -e- 以免出现不可能的辅音丛。",
+     "en": "From rá (ráv-) \"lion\" we would have the genitive rávo \"lion's\"",
+     "zh": "由 rá（ráv-）「狮」可得属格 rávo「狮子的」。",
+     "exampleZh": "rávo／nisso／rávion／nission"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "用主格词干直接加 -o（写成 ráo 是错的）",
+     "right": "用特殊词干 ráv-：rávo",
+     "whyZh": "原文明确从 ráv-、niss- 出发。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "插入 -e- 是昆雅的常用手法",
+     "bodyZh": "ráveto、nisseto 里的 -e- 不是词义成分，只为避免 vt、st 之类难发的辅音丛。后面几课会遇到更多这类「连接元音」。"
+    }
+   ],
+   "recapZh": "特殊词干加 -o：rávo、nisso；复数 rávion、nission。",
+   "selfCheckZh": [
+    {
+     "qZh": "nís 的属格？",
+     "aZh": "nisso。"
+    },
+    {
+     "qZh": "ráveto 里的 e 有什么用？",
+     "aZh": "避免辅音丛。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-genitive",
+    "unitIds": [
+     12
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "gen-not-possessive",
+   "sourceSectionId": "the-genitive",
+   "titleZh": "21 · 昆雅属格不是「所有格」",
+   "leadZh": "英语属格主要表拥有（the man's house）；昆雅属格通常不表简单拥有。托尔金明确说它「不［用作］『所有格』，也不用如形容词般描述性质」。",
+   "objectives": [
+    "能说明昆雅属格与英语属格的功能差异",
+    "能引用托尔金对属格的界定"
+   ],
+   "rules": [
+    {
+     "id": "rule-not-poss",
+     "headZh": "属格 ≠ 所有格",
+     "bodyZh": "英语属格主要表拥有，昆雅属格通常不表对事物的简单拥有。托尔金明确说这个格「不［用作］『所有格』，也不用如形容词般描述性质」（WJ:368）。",
+     "en": "Tolkien expressly noted that properly, this case was \"not [used] as a 'possessive', or adjectivally to describe qualities\"",
+     "zh": "托尔金明确指出，这个格严格说来「不［用作］『所有格』，也不用如形容词般描述性质」。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把「国王的房子」写成 i arano coa 表拥有",
+     "right": "简单拥有要用所有格（下一课）",
+     "whyZh": "本课与下一课的分工正建立在这条否定上。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么这条最要紧",
+     "bodyZh": "学习者最容易把母语的「的」直接映射成 -o。作者用一整节否定这一点，说明后面所有属格用法（来源、部分、关系、关于）都建立在「不是拥有」这个前提上。"
+    }
+   ],
+   "recapZh": "昆雅属格不表简单拥有；拥有用所有格。",
+   "selfCheckZh": [
+    {
+     "qZh": "昆雅属格能表「拥有」吗？",
+     "aZh": "通常不能，那是所有格的工作。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-genitive",
+    "unitIds": [
+     13
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "gen-origin",
+   "sourceSectionId": "the-genitive",
+   "titleZh": "22 · 词源：HO「从、从……之中」",
+   "leadZh": "属格词尾 -o 源自原始成分 HO（加在名词上作 -hô），基本义「从、从……之中」。昆雅另有介词 ho「从」与动词前缀 hó-（hótuli-「走开」）。",
+   "objectives": [
+    "能说出属格的词源义",
+    "能举出 ho／hó- 的旁证"
+   ],
+   "rules": [
+    {
+     "id": "rule-ho",
+     "headZh": "HO：属格的底层义",
+     "bodyZh": "托尔金说昆雅最常用的「属格」屈折源自古老的副词性／介词性成分，基本义为 from 或 from among；原形 HO，加在名词上作 -hô，是格词尾 -o（复数 -on）的直接来源。",
+     "en": "an ancient adverbial or \"prepositional\" element basically meaning from or from among",
+     "zh": "一个古老的副词性或「介词性」成分，基本义为 from 或 from among。",
+     "exampleZh": "HO → -hô → -o／-on"
+    },
+    {
+     "id": "rule-ho-words",
+     "headZh": "旁证：ho 与 hó-",
+     "bodyZh": "据《词源》，昆雅有规则介词 ho「从」；WJ:368 又提到动词前缀 hó-「从、离开」，如 hótuli-「走开」，字面「从-来」。",
+     "en": "Tolkien mentions hó- \"from, off\" as a verbal prefix",
+     "zh": "托尔金提到动词前缀 hó-「从、离开」。",
+     "exampleZh": "hótuli-「走开」"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 -o 只是「的」的符号",
+     "right": "它的底层义是「从」",
+     "whyZh": "原文把词源作为理解功能的钥匙。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "词源解释功能",
+     "bodyZh": "知道 -o 本是「从」，就能理解为什么属格表来源（róma Oromëo）、部分（elenion ancalima）、地点（Calaciryo míri）——这些都可归到「从某处来／从某群中取」。"
+    }
+   ],
+   "recapZh": "-o 源自 HO「从、从……之中」；ho、hó- 是旁证。",
+   "selfCheckZh": [
+    {
+     "qZh": "属格词尾 -o 的底层义？",
+     "aZh": "「从、从……之中」。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-genitive",
+    "unitIds": [
+     14
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "gen-from",
+   "sourceSectionId": "the-genitive",
+   "titleZh": "23 · -o 偶尔就是「从」：Oiolossëo",
+   "leadZh": "散文体 Namárië：Varda...ortanë máryat Oiolossëo「Varda 从 Oiolossë 举起双手」。这是属格表「从」的唯一例子。",
+   "objectives": [
+    "能分析 Oiolossëo 的功能",
+    "知道这是孤例"
+   ],
+   "rules": [
+    {
+     "id": "rule-gen-from",
+     "headZh": "属格表「从」：孤例",
+     "bodyZh": "散文体 Namárië 有 Varda...ortanë máryat Oiolossëo，译「Varda 从 Oiolossë 举起了双手」。《魔戒》译文作 “from Mount Everwhite”。Oiolossë「永远洁白」是 Taniquetil 之名。",
+     "en": "raised her hands from Oiolossë",
+     "zh": "从 Oiolossë 举起了双手。",
+     "exampleZh": "Oiolossëo"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 -o 当常规的「从」来用",
+     "right": "表「从」通常用离格；Oiolossëo 是孤例",
+     "whyZh": "原文：Oiolossëo is our sole example，且说 for \"from\" Quenya regularly uses another case。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "孤例怎么用",
+     "bodyZh": "孤例的价值在于印证词源（HO＝从），而不是提供可模仿的句型。写作时要表「从」，等学离格；不要因为见过 Oiolossëo 就到处加 -o。"
+    }
+   ],
+   "recapZh": "Oiolossëo 是属格表「从」的唯一例子；常规用离格。",
+   "selfCheckZh": [
+    {
+     "qZh": "Oiolossë 是什么？",
+     "aZh": "Taniquetil 之名，「永远洁白」。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-genitive",
+    "unitIds": [
+     15
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "gen-derivative",
+   "sourceSectionId": "the-genitive",
+   "titleZh": "24 · 来源属格：róma Oromëo 不是「Oromë 仍持有的号角」",
+   "leadZh": "属格可表来源、起源或先前持有者（「来源属格」）。róma Oromëo 指来自 Oromë 的号角；lambë Eldaron 不能译「精灵的语言」，除非整门语言被另一民族采用。",
+   "objectives": [
+    "能说明来源属格与拥有的区别",
+    "能判断 lambë Eldaron 为何不成立"
+   ],
+   "rules": [
+    {
+     "id": "rule-derivative",
+     "headZh": "来源属格",
+     "bodyZh": "昆雅属格可描述来源、起源或先前持有者——「来源属格」（WJ:369）。róma Oromëo 指来自 Oromë 的号角，不是他仍持有或当时仍持有的号角（WJ:168）。",
+     "en": "Tolkien explained that róma Oromëo \"Oromë's horn\" refers to a horn coming from Oromë",
+     "zh": "托尔金解释 róma Oromëo「Oromë 的号角」指来自 Oromë 的号角。",
+     "exampleZh": "róma Oromëo"
+    },
+    {
+     "id": "rule-lambe-eldaron",
+     "headZh": "lambë Eldaron 的限制",
+     "bodyZh": "lambë Eldaron 不能用于「精灵的语言」，因为那会意为「来自精灵的语言」；托尔金说这种说法只在「整门语言被另一民族采用」时才成立（WJ:368-369）。",
+     "en": "such a wording would only be valid \"in a case where the whole language was adopted by another people\"",
+     "zh": "这种说法只在「整门语言被另一民族采用」的情形下才成立。",
+     "exampleZh": "lambë Eldaron（受限）"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 Vardo tellumar 理解为「Varda 拥有的穹顶」",
+     "right": "更可能是她造的、源自她",
+     "whyZh": "原文明确：may not necessarily imply ... owned by Varda, but rather that she made them。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "「来源」与「拥有」的分界",
+     "bodyZh": "这把钥匙能解释本课许多例子：Vardo tellumar（她造的）、asëa aranion（众王用的）、Calaciryo míri（位于该地的）。凡不是「归谁所有」，就想想「从哪来」。"
+    }
+   ],
+   "recapZh": "属格表来源：róma Oromëo 来自 Oromë；lambë Eldaron 只在语言被采用时成立。",
+   "selfCheckZh": [
+    {
+     "qZh": "róma Oromëo 暗示 Oromë 仍持有号角吗？",
+     "aZh": "不，只表示号角来自他。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-genitive",
+    "unitIds": [
+     16
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "gen-partitive",
+   "sourceSectionId": "the-genitive",
+   "titleZh": "25 · 部分属格：Eärendil Elenion Ancalima",
+   "leadZh": "HO 也有「从……之中」义，这见于部分属格：elenion ancalima 意为「群星中最明亮的那一个」——Eärendil 自己就是群星之一。",
+   "objectives": [
+    "能说明部分属格的含义",
+    "能解释 Eärendil 为何用属格"
+   ],
+   "rules": [
+    {
+     "id": "rule-partitive",
+     "headZh": "部分属格：从一群中取一个",
+     "bodyZh": "「从……之中」是 HO 的意义之一，见于部分属格——表示某物某人是其中一部分。Eärendil Elenion Ancalima 中，elenion ancalima 暗示「群星中最明亮的那一个」：变形后的 Eärendil 本身就是群星之一。",
+     "en": "the words elenion ancalima actually imply \"the brightest one among the stars\"",
+     "zh": "elenion ancalima 实际暗示「群星中最明亮的那一个」。",
+     "exampleZh": "Eärendil Elenion Ancalima"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 elenion ancalima 理解为「星星的最亮者」这种拥有的关系",
+     "right": "是「群星之中的最亮者」",
+     "whyZh": "原文用 among 解释，并指出 Eärendil 自己就是星之一。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "最高级与属格的搭配",
+     "bodyZh": "昆雅的最高级常与部分属格连用：「X 之中最 Y 的」＝ Y 形 + 属格复数。练习 J「analta i yulmaron」、N「analta ilyë orontion」都是这个结构。"
+    }
+   ],
+   "recapZh": "部分属格＝「……之中」：elenion ancalima「群星中最明亮的」。",
+   "selfCheckZh": [
+    {
+     "qZh": "elenion ancalima 怎么译？",
+     "aZh": "群星中最明亮的那一个。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-genitive",
+    "unitIds": [
+     17
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "gen-partitive2",
+   "sourceSectionId": "the-genitive",
+   "titleZh": "26 · 物理意义上的部分：Valion「众维拉的」",
+   "leadZh": "《Fíriel 之歌》用 Valion 表「众维拉的」：众维拉的手在物理上就是他们自身的一部分。",
+   "objectives": [
+    "能说明部分属格也可指物理部分",
+    "知道 Vali 是 Valar 的替代复数"
+   ],
+   "rules": [
+    {
+     "id": "rule-valion",
+     "headZh": "物理部分：Valion",
+     "bodyZh": "在译作「众维拉之手」的短语里，《Fíriel 之歌》用复数属格 Valion。众维拉化身时，他们的手在物理上就是自身的一部分。据《词源》BAL 条，Vali 是 Vala 复数的有效替代形式。",
+     "en": "Fíriel's Song uses the plural genitive Valion for \"of the Powers\"",
+     "zh": "《Fíriel 之歌》用复数属格 Valion 表「众维拉的」。",
+     "exampleZh": "Valion"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为部分属格只用于抽象意义",
+     "right": "也可指物理部分（手属于维拉）",
+     "whyZh": "原文：in a wholly physical sense as well。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "从抽象到物理是同一条线",
+     "bodyZh": "「部分」可以是抽象的（群星之一），也可以是物理的（手是身体一部分）。两者都归到 HO 的「从……之中」，不必分成两条规则记。"
+    }
+   ],
+   "recapZh": "部分属格也可指物理部分：Valion「众维拉的」。",
+   "selfCheckZh": [
+    {
+     "qZh": "Valion 是什么形式？",
+     "aZh": "Vala（复 Vali）的属格复数。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-genitive",
+    "unitIds": [
+     18
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "gen-location",
+   "sourceSectionId": "the-genitive",
+   "titleZh": "27 · 地点属格：Calaciryo míri 与 Elenna·nórëo alcar",
+   "leadZh": "地点与位于其中之物可用属格：Calaciryo míri「Calacirya 的宝石」。Elenna·nórëo alcar 若不算「位于」，就得算「自 Elenna 发出」。",
+   "objectives": [
+    "能分析地点属格",
+    "能说明同一短语的两种解读"
+   ],
+   "rules": [
+    {
+     "id": "rule-gen-location",
+     "headZh": "地点属格",
+     "bodyZh": "地点与位于该地之物可用属格表达：Namárië 的 Calaciryo míri「Calacirya 的宝石」（属格 -o 吞掉末尾 -a）。也可分析为部分属格——若位于某地之物被视为该地的一部分。",
+     "en": "Namárië has Calaciryo míri for \"Calacirya's jewels = the jewels of Calacirya\"",
+     "zh": "Namárië 有 Calaciryo míri，意为「Calacirya 的宝石」。",
+     "exampleZh": "Calaciryo míri"
+    },
+    {
+     "id": "rule-elena",
+     "headZh": "Elenna·nórëo alcar：位于还是来自",
+     "bodyZh": "Cirion 誓言中 Elenna·nórëo alcar「Elenna 之地的荣光」。若不把荣光视为「位于」Elenna（＝Númenor），就得视为自 Elenna 发出，于是属格表来源。",
+     "en": "Elenna·nórëo alcar \"the glory of the land of Elenna\"",
+     "zh": "Elenna·nórëo alcar「Elenna 之地的荣光」。",
+     "exampleZh": "Elenna·nórëo alcar"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为同一属格短语只有一个正确解读",
+     "right": "地点与来源两种读法常并存",
+     "whyZh": "原文用 Perhaps this can also be analyzed as ... 给出第二种分析。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "练习里的地点属格",
+     "bodyZh": "B「Menelo eleni」、F「Ambaro lier」、I「Menelo aiwi」、L「i nórëo alta sírë」都是地点属格。判断标准：该名词是否在另一名词所指的地点之内。"
+    }
+   ],
+   "recapZh": "地点属格：Calaciryo míri、Elenna·nórëo alcar。",
+   "selfCheckZh": [
+    {
+     "qZh": "Calaciryo 由什么变来？",
+     "aZh": "Calacirya + -o，末尾 -a 被吞掉。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-genitive",
+    "unitIds": [
+     19
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "gen-family",
+   "sourceSectionId": "the-genitive",
+   "titleZh": "28 · 家庭关系：vanimálion nostari、Híni Ilúvataro",
+   "leadZh": "属格表家庭关系：vanimálion nostari「美之子的父母」、Híni Ilúvataro「Ilúvatar 的子女」、Amillë Eruva lissëo「神圣恩宠之母」。Indis i·Ciryamo 则纯粹是家庭关系。",
+   "objectives": [
+    "能举出三个家庭关系属格",
+    "能说明 Indis i·Ciryamo 为何不能算来源属格"
+   ],
+   "rules": [
+    {
+     "id": "rule-gen-family",
+     "headZh": "家庭关系属格",
+     "bodyZh": "属格表家庭关系：vanimálion nostari「美之子的父母」（Letters:308）、Híni Ilúvataro「Ilúvatar 的子女」、Amillë Eruva lissëo「神圣恩宠之母」（VT44:12）。",
+     "en": "vanimálion nostari, \"parents of beautiful children\"",
+     "zh": "vanimálion nostari「美之子的父母」。",
+     "exampleZh": "Híni Ilúvataro／Amillë Eruva lissëo"
+    },
+    {
+     "id": "rule-indis",
+     "headZh": "Indis i·Ciryamo：纯家庭关系",
+     "bodyZh": "「水手之妻」（UT:8）里的属格无疑只描述家庭关系，因为水手绝不是妻子的来源或起源——这证明属格不能全部还原为来源属格。",
+     "en": "the genitive unquestionably describes a family relationship and nothing else",
+     "zh": "属格无疑只描述家庭关系，别无其他。",
+     "exampleZh": "Indis i·Ciryamo"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把所有家庭关系属格都解释成「来源」",
+     "right": "Indis i·Ciryamo 证明有些只是关系",
+     "whyZh": "原文专门用它反驳「来源属格万能」的读法。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "nostari 的两种译法",
+     "bodyZh": "Letters:308 作「美之子的父母」，SD:73 更字面作「美者的生者」。两种译法对应两种分析：家庭关系，或施动者与对象的关系。作者说两种都说得通。"
+    }
+   ],
+   "recapZh": "属格表家庭关系；Indis i·Ciryamo 说明它不能全归于来源。",
+   "selfCheckZh": [
+    {
+     "qZh": "Híni Ilúvataro 什么意思？",
+     "aZh": "Ilúvatar 的子女。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-genitive",
+    "unitIds": [
+     20
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "gen-ruler",
+   "sourceSectionId": "the-genitive",
+   "titleZh": "29 · 统治者与被统治者：Aran Sindaron、Heru i Million",
+   "leadZh": "属格表统治者与被统治者（人或领土）：Aran Sindaron「Sindar 之王」、Aran Lestanórëo「Doriath 之王」、Heru i Million「众环之主」。",
+   "objectives": [
+    "能分析统治者属格",
+    "能说明 Heru i Million 与 Heru i Cormaron 的差别"
+   ],
+   "rules": [
+    {
+     "id": "rule-gen-ruler",
+     "headZh": "统治者属格",
+     "bodyZh": "属格可表统治者与被统治者：Elwë, Aran Sindaron「Sindar 之王」（WJ:369）；被统治的是区域时作 Aran Lestanórëo。",
+     "en": "Elwë, Aran Sindaron \"Elwë [= Thingol], King of the Sindar [Grey-elves]\"",
+     "zh": "Elwë, Aran Sindaron「Elwë［＝Thingol］，Sindar［灰精灵］之王」。",
+     "exampleZh": "Aran Sindaron／Aran Lestanórëo"
+    },
+    {
+     "id": "rule-heru",
+     "headZh": "Heru i Million：被统治之物",
+     "bodyZh": "托尔金把「Lord of the Rings」译作 Heru i Million（heru + i + millë「环」的属格复数）。《魔戒》正文「环」作 corma，故或该预期 Heru i Cormaron；但此例证实属格可指被统治之物。",
+     "en": "Heru i Million, which is heru \"lord\" + i \"the\"",
+     "zh": "Heru i Million，即 heru「主」+ i「the」+……",
+     "exampleZh": "Heru i Million"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 millë 是《魔戒》正文的「环」",
+     "right": "正文用 corma；millë 只见于此标题",
+     "whyZh": "原文：In the LotR itself, the Quenya word for \"ring\" is given as corma instead。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "三种被统治对象",
+     "bodyZh": "人被统治（Sindaron）、区域被统治（Lestanórëo）、物被统治（Million）——同一属格覆盖三者。这正是作者说属格功能「比英语属格窄、但比拥有宽」的具体表现。"
+    }
+   ],
+   "recapZh": "属格表统治者与被统治者（人、区域、物）。",
+   "selfCheckZh": [
+    {
+     "qZh": "Aran Lestanórëo 什么意思？",
+     "aZh": "Doriath（Lestanórë）之王。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-genitive",
+    "unitIds": [
+     21
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "gen-about",
+   "sourceSectionId": "the-genitive",
+   "titleZh": "30 · of＝关于：Quenta Silmarillion、quentalë Noldoron",
+   "leadZh": "属格最抽象的意义之一是「关于、涉及」：Quenta Silmarillion「关于精灵宝钻的历史」、quentalë Noldoron「Noldor 的历史」。也许还能与 nyar-、quet- 连用。",
+   "objectives": [
+    "能说明「关于」义",
+    "知道与动词连用缺有据例"
+   ],
+   "rules": [
+    {
+     "id": "rule-gen-about",
+     "headZh": "属格＝关于",
+     "bodyZh": "属格可表 of＝about、concerning：Quenta Silmarillion、quentalë Noldoron（VT39:16）。也许还能与 nyar-「讲述」、quet-「说」连用，如 nyarnen i Eldo「我讲了关于那精灵的事」，但缺有据例。",
+     "en": "One of the most abstract meanings the genitive case may take on is of = about, concerning",
+     "zh": "属格可有的最抽象意义之一是 of＝关于、涉及。",
+     "exampleZh": "Quenta Silmarillion／quentalë Noldoron"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 nyarnen i Eldo 当有据形式引用",
+     "right": "它是类推，原文说 We lack attested examples",
+     "whyZh": "原文明确标注缺例。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "练习 K 考的就是这个义",
+     "bodyZh": "「关于星星的十本书」＝ cainen parmar elenion。这里 elenion 不是「星星拥有的」，而是「内容关于星星的」——正属「关于」义。"
+    }
+   ],
+   "recapZh": "属格表「关于」：Quenta Silmarillion、parmar elenion。",
+   "selfCheckZh": [
+    {
+     "qZh": "「关于星星的书」用哪个格？",
+     "aZh": "属格（elenion）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-genitive",
+    "unitIds": [
+     22
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "gen-vague",
+   "sourceSectionId": "the-genitive",
+   "titleZh": "31 · 有时意义就是模糊的",
+   "leadZh": "lúmenn' omentielvo 的属格只表示「相会发生在那个时辰」；Heren Istarion 的属格可同时含创立、归属、组成、控制等数种意味。",
+   "objectives": [
+    "能说明属格意义可叠加",
+    "能分析两个例子"
+   ],
+   "rules": [
+    {
+     "id": "rule-gen-vague",
+     "headZh": "属格：意义可叠加",
+     "bodyZh": "elen síla lúmenn' omentielvo 里属格只协调「相会」与「时辰」；Heren Istarion「巫师教团」的属格 Istarion 可同时暗示创立、归属、组成、控制等。很可能数种意味并存。",
+     "en": "Sometimes the precise meaning of a genitive is difficult to clearly define.",
+     "zh": "有时属格的确切意义难以清楚界定。",
+     "exampleZh": "lúmenn' omentielvo／Heren Istarion"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "非要在数种解读中挑一个「正确」的",
+     "right": "原文说数种意味可能同时存在",
+     "whyZh": "原文：several or all of these shades of meaning could be involved at the same time。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "对翻译的启示",
+     "bodyZh": "遇到属格短语，先问「最可能是哪种关系」，若两种都通就都保留。硬译成一种反而可能丢掉原意——这与本课反复强调的「属格覆盖多种关系」一致。"
+    }
+   ],
+   "recapZh": "属格意义可模糊、可叠加（Heren Istarion）。",
+   "selfCheckZh": [
+    {
+     "qZh": "Heren Istarion 的属格有几种可能解读？",
+     "aZh": "多种，可能同时成立。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-genitive",
+    "unitIds": [
+     23
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "gen-tolkien-quote",
+   "sourceSectionId": "the-genitive",
+   "titleZh": "32 · 原文引段：kingsfoil 与 asëa aranion",
+   "leadZh": "《魔戒》「医疗之屋」里，草药师说 kingsfoil（高等语作 athelas），Aragorn 回答时用了昆雅语 asëa aranion。这段对话是本课后面分析属格用法的语料。",
+   "objectives": [
+    "能读懂这段对话的语境",
+    "能指出 asëa aranion 是昆雅语"
+   ],
+   "rules": [
+    {
+     "id": "rule-kingsfoil-quote",
+     "headZh": "引段的作用",
+     "bodyZh": "草药师称这种草为 kingsfoil（乡民叫法）、athelas（高等语）；Aragorn 说他不介意对方说 asëa aranion 还是 kingsfoil。asëa aranion 即昆雅语说法。",
+     "en": "'Your lordship asked for kingsfoil, as the rustics name it,' he said",
+     "zh": "「大人要的是 kingsfoil，乡民这样叫，」他说。",
+     "exampleZh": "asëa aranion／kingsfoil／athelas"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 athelas 是昆雅语",
+     "right": "athelas 是辛达林语；昆雅是 asëa aranion",
+     "whyZh": "原文：the herb called athelas in Sindarin。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么引一整段小说",
+     "bodyZh": "这段同时给出三种名称（乡民语、辛达林语、昆雅语），是托尔金少见的「同物三名」实例；下一节要分析 aranion 这个属格到底表什么关系，需要完整语境。"
+    }
+   ],
+   "recapZh": "kingsfoil＝athelas（辛达林）＝asëa aranion（昆雅）。",
+   "selfCheckZh": [
+    {
+     "qZh": "athelas 属于哪种语言？",
+     "aZh": "辛达林语。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-genitive",
+    "unitIds": [
+     24,
+     25,
+     26
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "gen-kingsfoil",
+   "sourceSectionId": "the-genitive",
+   "titleZh": "33 · asëa aranion：属格还能只表「关联」",
+   "leadZh": "众王不拥有也不创造 kingsfoil，只使用它。除非算地点属格（用时草就在王手中），否则只能承认属格也可表模糊的「归属」或单纯关联。",
+   "objectives": [
+    "能分析 aranion 的关系类型",
+    "能说明为何这条重要"
+   ],
+   "rules": [
+    {
+     "id": "rule-aranion",
+     "headZh": "aranion：模糊关联",
+     "bodyZh": "asëa aranion 的属格复数 aranion「众王的」不表拥有或来源，只表使用／关联。除非算 Calaciryo míri 式的地点属格（用时草在王手中），否则须承认属格可表相当模糊的「归属」。",
+     "en": "So asëa aranion is the Quenya (or \"Valinorean\") for \"kingsfoil\"",
+     "zh": "所以 asëa aranion 是「kingsfoil」的昆雅（或「Valinorean」）说法。",
+     "exampleZh": "asëa aranion"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "强行把 aranion 解释成「王拥有的」",
+     "right": "它只表关联／使用",
+     "whyZh": "原文明确：The kings didn't own or originate the kingsfoil。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "这条为什么值得单列",
+     "bodyZh": "它是本课最「不守规则」的例子：既非来源、非部分、非家庭、非统治，只是「与王有关」。承认这一点，才不会在翻译时把每个属格都强行归入某类。"
+    }
+   ],
+   "recapZh": "asëa aranion 的属格只表关联，不表拥有。",
+   "selfCheckZh": [
+    {
+     "qZh": "aranion 表什么关系？",
+     "aZh": "模糊的关联／使用，不是拥有。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-genitive",
+    "unitIds": [
+     27
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "gen-full",
+   "sourceSectionId": "the-genitive",
+   "titleZh": "34 · quanta Eruanno：「充满……」＋属格",
+   "leadZh": "「充满某物」＝ quanta + 属格名词：quanta Eruanno「充满神之赐」；quanta neno「充满水」。",
+   "objectives": [
+    "能构造「充满 X」",
+    "能说明 Eruanno 的来源"
+   ],
+   "rules": [
+    {
+     "id": "rule-quanta",
+     "headZh": "quanta + 属格",
+     "bodyZh": "「充满［某物］」用 quanta「充满」+ 属格名词。托尔金把「充满恩宠」译作 quanta Eruanno，字面「充满神之赐」（Eruanno 大概是 Eruanna 的属格，参 anna「礼物」）。同理「充满水」＝ quanta neno（nén，nen-）。",
+     "en": "Tolkien rendered the phrase \"full of grace\" as quanta Eruanno",
+     "zh": "托尔金把「充满恩宠」译作 quanta Eruanno。",
+     "exampleZh": "quanta Eruanno／quanta neno"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "用「所有格」或介词表达「充满」",
+     "right": "quanta + 属格",
+     "whyZh": "原文明确这条属格功能直到 2002 年才为人所知。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "属格功能的又一次扩展",
+     "bodyZh": "「充满」既非来源也非部分，却又用属格——说明 -o 的底层「从……之中」义可以抽象成「内容出自某物」。这条与 asëa aranion 一起，构成本课对「属格万能」的两次警告。"
+    }
+   ],
+   "recapZh": "「充满 X」＝ quanta + 属格（quanta neno）。",
+   "selfCheckZh": [
+    {
+     "qZh": "「充满水」怎么写？",
+     "aZh": "quanta neno。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-genitive",
+    "unitIds": [
+     28
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "gen-predicate2",
+   "sourceSectionId": "the-genitive",
+   "titleZh": "35 · 谓语属格：i corma ná Saurondo",
+   "leadZh": "没有属格作谓语的有据例，但没有理由怀疑 i corma ná Saurondo「这环是 Sauron 的」可行。Sauron 的词干是 Saurond-。",
+   "objectives": [
+    "能构造谓语属格",
+    "知道这是类推而非有据"
+   ],
+   "rules": [
+    {
+     "id": "rule-gen-pred",
+     "headZh": "谓语属格：类推",
+     "bodyZh": "没有昆雅属格作句子谓语的有据例子，但也没理由怀疑「这环是 Sauron 的」可作 i corma ná Saurondo。Sauron 之名大概有词干 Saurond-（Letters:380）。",
+     "en": "We have no attested example of a Quenya genitive form functioning as the predicate of a sentence",
+     "zh": "我们没有昆雅属格作句子谓语的有据例子。",
+     "exampleZh": "i corma ná Saurondo"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把这句当有据形式引用",
+     "right": "它是按英语 the ring is Sauron's 类推的",
+     "whyZh": "原文先说没有有据例，再说没有理由怀疑。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么用 Saurond- 而不是 Sauron-",
+     "bodyZh": "属格词尾加在词干上，而 Sauron 的词干是 Saurond-，故为 Saurondo 而非 Saurono（错）。这条与本课第 20 节「特殊词干」同一道理。"
+    }
+   ],
+   "recapZh": "谓语属格可类推：i corma ná Saurondo。",
+   "selfCheckZh": [
+    {
+     "qZh": "Sauron 的属格？",
+     "aZh": "Saurondo（词干 Saurond-）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-genitive",
+    "unitIds": [
+     29
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "gen-wordorder",
+   "sourceSectionId": "the-genitive",
+   "titleZh": "36 · 词序：前置（诗体）与后置（常态）",
+   "leadZh": "散文体 Namárië 把属格前置（Aldaron rámar），Cirion 誓言亦然；但多数有据属格后置，与英语 of 结构同序（Quenta Silmarillion、Heru i Million）。",
+   "objectives": [
+    "能说出两种词序",
+    "能判断哪种是常态"
+   ],
+   "rules": [
+    {
+     "id": "rule-gen-pre",
+     "headZh": "前置：诗体与誓言体",
+     "bodyZh": "散文体 Namárië 把属格放在所依附名词前：Aldaron rámar、ómaryo lírinen、Calaciryo míri；Cirion 誓言同序：Nórëo alcar、Elendil vorondo voronwë。",
+     "en": "Tolkien placed a genitive in front of the noun it is dependent on",
+     "zh": "托尔金把属格放在它所依附的名词之前。"
+    },
+    {
+     "id": "rule-gen-post",
+     "headZh": "后置：多数有据例的常态",
+     "bodyZh": "多数有据昆雅属格后置，与英语 of 结构同序：Quenta Silmarillion、Heru i Million、lúmenn' omentielvo、asëa aranion、Híni Ilúvataro、mannar Valion、Heren Istarion、Pelóri Valion、aran Sindaron、Aran Lestanórëo、i equessi Rúmilo、lambë Eldaron、Rithil-Anamo。",
+     "en": "Most attested Quenya genitives follow the noun they are dependent on",
+     "zh": "多数有据的昆雅属格跟在所依附名词之后。",
+     "exampleZh": "Quenta Silmarillion／i equessi Rúmilo"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为前置才是「昆雅正宗」",
+     "right": "后置才是多数有据例的常态",
+     "whyZh": "原文列出十多个后置例子，并说这些没有理由视为诗性。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "Rúmilo equessi 与 equessi Rúmilo",
+     "bodyZh": "作者说两者都可用于「Rúmil 的言论」——即前置与后置都合法。差别在语感与上下文，不在语法。写作用后置更稳。"
+    }
+   ],
+   "recapZh": "属格可前置（诗体／誓言）也可后置（常态，同 of 结构）。",
+   "selfCheckZh": [
+    {
+     "qZh": "「Rúmil 的言论」两种写法？",
+     "aZh": "Rúmilo equessi ／ equessi Rúmilo。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-genitive",
+    "unitIds": [
+     30,
+     31
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "gen-mistake",
+   "sourceSectionId": "the-genitive",
+   "titleZh": "37 · 最常见的错误：i alcaro Aman",
+   "leadZh": "有人照英语 of 的位置放 -o，写出 i alcaro Aman，实际意为「荣光的 Aman」。正确是 Amano alcar 或 (i) alcar Amano——词尾要加在「所有者」那个词上。",
+   "objectives": [
+    "能指出 i alcaro Aman 错在哪",
+    "能写出两种正确形式"
+   ],
+   "rules": [
+    {
+     "id": "rule-gen-mistake",
+     "headZh": "词尾加在属格名词上，不是 of 的位置",
+     "bodyZh": "英语 of 结构让人以为 -o 该出现在 of 的位置。i alcaro Aman 实际意为「荣光的 Aman」或「Aman of the glory」。正确是 Amano alcar（想 Aman's glory）或 (i) alcar Amano。",
+     "en": "What we want is either Amano alcar (think \"Aman's glory\") or (i) alcar Amano.",
+     "zh": "我们要的是 Amano alcar（想「Aman's glory」）或 (i) alcar Amano。",
+     "exampleZh": "Amano alcar／(i) alcar Amano"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "i alcaro Aman",
+     "right": "Amano alcar 或 (i) alcar Amano",
+     "whyZh": "原文说 i alcaro Aman 意为「荣光的 Aman」，恰好反了。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么会犯这个错",
+     "bodyZh": "英语 of 是介词，属格在 of 之后的名词上；昆雅 -o 是名词词尾，必须加在「表示来源／所有者」的那个名词上。位置可以前后移，但词尾归属不能移。"
+    }
+   ],
+   "recapZh": "属格词尾加在属格名词上：Amano alcar，不是 i alcaro Aman。",
+   "selfCheckZh": [
+    {
+     "qZh": "「Aman 的荣光」怎么写？",
+     "aZh": "Amano alcar 或 (i) alcar Amano。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-genitive",
+    "unitIds": [
+     32
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "gen-prep-order",
+   "sourceSectionId": "the-genitive",
+   "titleZh": "38 · 介词 + 属格：Vardo nu luini tellumar 的怪词序",
+   "leadZh": "散文体 Namárië 有 Vardo nu luini tellumar「Varda 的 under 蓝色穹顶」，介词跟在属格后；但同书也有 ve aldaron rámar（介词 + 属格 + 名词）。作者建议用后者。",
+   "objectives": [
+    "能描述两种介词词序",
+    "知道作者推荐哪一种"
+   ],
+   "rules": [
+    {
+     "id": "rule-prep-order",
+     "headZh": "介词与属格的词序",
+     "bodyZh": "Vardo nu luini tellumar 字面「Varda 的 under 蓝色穹顶」，介词在属格之后；而 ve aldaron rámar 是介词 + 属格 + 名词。作者说至少现阶段总用后者，并怀疑前者是笔误或极深奥句法。",
+     "en": "Tolkien translated this as \"under Varda's blue domes\"",
+     "zh": "托尔金把这一句译作 “under Varda's blue domes”。",
+     "exampleZh": "ve aldaron rámar（推荐）"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "模仿 Vardo nu luini tellumar 的词序",
+     "right": "用 ve aldaron rámar 式",
+     "whyZh": "原文：At this stage at least, I would always use the \"English-style\" word-order。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "孤例与推荐用法",
+     "bodyZh": "作者没有否定 Vardo nu luini tellumar 的合法性（它出自托尔金手笔），但明确说写作时用另一种。这是本课反复出现的态度：孤例记录在案，仿写取稳妥。"
+    }
+   ],
+   "recapZh": "介词短语用「介词 + 属格 + 名词」：ve aldaron rámar。",
+   "selfCheckZh": [
+    {
+     "qZh": "作者推荐哪种词序？",
+     "aZh": "介词 + 属格 + 名词（ve aldaron rámar）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-genitive",
+    "unitIds": [
+     33
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "gen-article",
+   "sourceSectionId": "the-genitive",
+   "titleZh": "39 · 冠词：属格让名词变成限定",
+   "leadZh": "属格像定冠词一样限定名词：lambë Quendion 是「精灵的语言」，不是「精灵的一种语言」。后置属格时，前面的 i 可用可不用。",
+   "objectives": [
+    "能说明属格的限定作用",
+    "知道 i 在后置属格前可选"
+   ],
+   "rules": [
+    {
+     "id": "rule-gen-definite",
+     "headZh": "属格使名词限定",
+     "bodyZh": "属格像定冠词一样限定所依附名词：Indis i·Ciryamo 意为「水手之妻」，不能解作「一个水手的妻子」，尽管 indis 前没有 i。lambë Quendion 同理，不能解作「精灵的一种语言」。",
+     "en": "A genitive determines the noun it is dependent upon, just like the definite article does",
+     "zh": "属格像定冠词一样限定它所依附的名词。"
+    },
+    {
+     "id": "rule-gen-article-optional",
+     "headZh": "后置属格前的 i 可选",
+     "bodyZh": "属格后置时，前面名词的定冠词显然可选：i arani Eldaron 与 arani Eldaron、i equessi Rúmilo 与 equessi Rúmilo 意义相同。",
+     "en": "the use of the definite article before this noun is apparently optional",
+     "zh": "该名词前定冠词的使用显然是可选的。",
+     "exampleZh": "i arani Eldaron／arani Eldaron"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为没有 i 就是不定指",
+     "right": "属格已使它限定，i 只是可选",
+     "whyZh": "原文：a Quenya noun connecting with a following genitive is always determined, whether or not the article i is used。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "与英语的异同",
+     "bodyZh": "英语 the Elves' language 里 language 前没有 the，但仍是限定；昆雅同理。作者说体系其实相同，只多一个复杂：昆雅属格可后置，容易让人误以为是 of 结构（因而不是限定）——其实照样限定。"
+    }
+   ],
+   "recapZh": "属格使名词限定；后置属格前的 i 可选。",
+   "selfCheckZh": [
+    {
+     "qZh": "lambë Quendion 能译「精灵的一种语言」吗？",
+     "aZh": "不能，属格已限定。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-genitive",
+    "unitIds": [
+     34,
+     35
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "gen-article2",
+   "sourceSectionId": "the-genitive",
+   "titleZh": "40 · 前置属格后能不能加 i",
+   "leadZh": "没有前置属格后接冠词的有据例。Rúmilo equessi 有效；Rúmilo i equessi 则不确定，作者会避开。",
+   "objectives": [
+    "知道这是无据构造",
+    "能给出稳妥写法"
+   ],
+   "rules": [
+    {
+     "id": "rule-gen-article2",
+     "headZh": "Rúmilo i equessi：不确定",
+     "bodyZh": "没有前置属格后接冠词的有据例子。Rúmilo equessi「Rúmil 的言论」当然有效，但 Rúmilo i equessi 是否可行无人知道，可能像英语 “Rúmil's the sayings” 一样怪；作者会避开。",
+     "en": "No attested example of a preceding genitive is followed by an article.",
+     "zh": "没有前置属格后接冠词的有据例子。",
+     "exampleZh": "Rúmilo equessi（稳妥）"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 Rúmilo i equessi",
+     "right": "写 Rúmilo equessi",
+     "whyZh": "原文说这是 uncertain and unattested construction。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "可选与不可选",
+     "bodyZh": "后置属格前的 i 可选（有据），前置属格后的 i 无据。两者不对称，原因大概是：前置时属格已占据限定位置，再加 i 就重复了。"
+    }
+   ],
+   "recapZh": "前置属格后不加 i：Rúmilo equessi。",
+   "selfCheckZh": [
+    {
+     "qZh": "「Rúmil 的言论」稳妥写法？",
+     "aZh": "Rúmilo equessi（或 equessi Rúmilo）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-genitive",
+    "unitIds": [
+     36
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "gen-u",
+   "sourceSectionId": "the-genitive",
+   "titleZh": "41 · ú「没有」带属格：ú calo",
+   "leadZh": "少数介词带属格，ú「没有」是其一：ú calo「没有光」，calo 是 cala「光」的属格。练习 E、M、O、P 都考这条。",
+   "objectives": [
+    "能构造 ú + 属格",
+    "能由 cala 推出 calo"
+   ],
+   "rules": [
+    {
+     "id": "rule-u-gen",
+     "headZh": "ú + 属格",
+     "bodyZh": "据说 ú「没有」通常后接属格。托尔金举 ú calo「没有光」（VT39:14）；calo 是 cala「光」的属格（参 Calaquendi、Calacirya）。",
+     "en": "It is said that ú \"without\" is normally followed by genitive",
+     "zh": "据说 ú「没有」通常后接属格。",
+     "exampleZh": "ú calo／ú talamion／ú anto／ú rasseto"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "ú 后接主格",
+     "right": "ú 后接属格",
+     "whyZh": "原文明确 normally followed by genitive，练习 E、M、O、P 都据此。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "练习里的四个 ú",
+     "bodyZh": "E「ú talamion」、M「ú anto」（anto 本身以 -o 结尾，属格隐形）、O「ú altë lamnion」、P「ú rasseto」（双数属格）。四题合起来正好把 ú 的三种属格形态练全。"
+    }
+   ],
+   "recapZh": "ú「没有」带属格：ú calo、ú talamion、ú rasseto。",
+   "selfCheckZh": [
+    {
+     "qZh": "「没有光」怎么写？",
+     "aZh": "ú calo。"
+    },
+    {
+     "qZh": "ú 后面用什么格？",
+     "aZh": "属格。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-genitive",
+    "unitIds": [
+     37
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "summary",
+   "kind": "summary",
+   "sourceSectionId": "the-genitive",
+   "titleZh": "42 · 本章小结：原文 Summary 与中文对照",
+   "leadZh": "左侧是 less-c.rtf 第 11 课 Summary 原文（未删节），右侧是等价中文翻译。",
+   "objectives": [
+    "能复述属格的词尾、复数与双数形式",
+    "能列出属格的主要功能",
+    "能说明词序与冠词的处理"
+   ],
+   "summaryEn": "Summary of Lesson Eleven: The Quenya noun is inflected for a number of cases, special noun-forms which clarify what function a noun has in a sentence. The forms so far discussed are examples of the nominative case, used when a noun is the subject or the object of a sentence (a distinct \"object\" case, the accusative, had formerly occurred but fell out of use in Exilic Quenya). The Quenya genitive case has the ending -o (displacing a final -a, where such is present); the plural form is -on (added to the nominative plural), whereas dual genitives receive the ending -to (but nouns with nominative dual forms in -u would possibly have genitive duals in -uo rather than -uto). The noun governed by the genitive can come either before or after it; Rúmilo equessi and (i) equessi Rúmilo would work equally well for \"Rúmil's sayings/the sayings of Rúmil\". The Quenya genitive properly indicates source or origin (including former possessors), but also covers most relationships between people (like family relationships), as well as the relationship between a ruler and the ruled (people or territory). \"Xo Y\" or \"Y Xo\"  may also imply \"Y of X\" in the sense of Y being a physical part of X, or (if X is a plural word) Y being one of X. Thus Eärendil is said to be elenion ancalima \"stars' brightest\" = \"the brightest one of (/among) stars\". The relationship between a place and something located in that place may also be expressed by means of a genitive: Calaciryo míri \"the jewels of Calacirya\". A genitive can also express \"of = about, concerning\", as in Quenta Silmarillion \"the History of the Silmarils\". Furthermore, the preposition ú \"without\" normally takes the genitive case.",
+   "summaryZh": "第十一课小结：昆雅名词按若干格屈折，这些特殊名词形式澄清名词在句中的功能。到此讨论的形式都是主格，用于名词作句子主语或宾语时（曾有一个独立的「宾语」格——宾格，但在流亡昆雅中已废弃）。昆雅属格词尾是 -o（若末尾有 -a 则取代之）；复数形式是 -on（加在主格复数上），双数属格则加词尾 -to（但主格双数为 -u 的名词，其双数属格可能是 -uo 而非 -uto）。被属格支配的名词可在属格之前或之后；Rúmilo equessi 与 (i) equessi Rúmilo 都可用于「Rúmil 的言论」。昆雅属格严格表示来源或起源（包括先前持有者），也涵盖人与人之间大多数关系（如家庭关系），以及统治者与被统治者（人或领土）的关系。“Xo Y” 或 “Y Xo” 还可表示「Y 是 X 的一部分」，或（若 X 是复数词）「Y 是 X 之一」。故 Eärendil 被称为 elenion ancalima「群星中最明亮者」＝「群星中（／之间）最明亮的一个」。地点与位于该地之物之间的关系也可用属格表达：Calaciryo míri「Calacirya 的宝石」。属格还可表「of＝关于」，如 Quenta Silmarillion。此外，介词 ú「没有」通常带属格。",
+   "formulaZh": [
+    "属格单数：-o；-a 结尾时 -a 脱落（Vardo）；-o 结尾时词尾隐形（ciryamo）。",
+    "属格复数：主格复数 + -on（aldaron、elenion）；特殊词干 rávion、nission。",
+    "属格双数：-to（ciryato）；-u 双数或作 -uto／-uo（未定）。",
+    "功能：来源（róma Oromëo）、部分（elenion ancalima）、地点（Calaciryo míri）、家庭（Híni Ilúvataro）、统治（Aran Sindaron）、关于（Quenta Silmarillion）、充满（quanta neno）、模糊关联（asëa aranion）。",
+    "不是所有格：简单拥有用所有格（下一课）。",
+    "词序：前置（诗体／誓言）与后置（常态）都合法；词尾加在属格名词上，不照 of 的位置。",
+    "冠词：属格使名词限定；后置属格前的 i 可选，前置属格后不加 i。",
+    "介词 ú「没有」带属格（ú calo）。"
+   ],
+   "selfCheckZh": [
+    {
+     "qZh": "Elda 与 cirya 的属格各是什么？",
+     "aZh": "Eldo、ciryo（-a 脱落）。"
+    },
+    {
+     "qZh": "eleni 的属格复数？",
+     "aZh": "elenion。"
+    },
+    {
+     "qZh": "「Aman 的荣光」怎么写？",
+     "aZh": "Amano alcar 或 (i) alcar Amano。"
+    }
+   ]
+  },
+  {
+   "sectionId": "vocabulary",
+   "sourceSectionId": "vocabulary",
+   "titleZh": "43 · 课末词汇：1 个数词 + 5 个名词 + 3 个动词 + 2 个介词",
+   "leadZh": "本课词汇集中服务属格练习：cainen、laman、yulma、limpë、rassë、toron、Menel、sírë、cilya、anto 都用来造属格短语，ulya- 复习 -ya 动词的两副过去时，ú 直接带属格。",
+   "objectives": [
+    "能默写 12 条并标出词性",
+    "能写出各名词的属格形式",
+    "能说明 ú 为何带属格"
+   ],
+   "rules": [
+    {
+     "id": "rule-vocab-cainen",
+     "headZh": "cainen「十」",
+     "bodyZh": "数词 cainen「十」不变。练习 H「I cainen rávi」、I「cainen ohtari」、K「cainen parmar」都用它。",
+     "en": "cainen \"ten\"",
+     "zh": "cainen「十」。",
+     "exampleZh": "cainen ohtari"
+    },
+    {
+     "id": "rule-vocab-stems",
+     "headZh": "特殊词干：laman（lamn-）、toron（torn-）",
+     "bodyZh": "laman 的词干是 lamn-（故属格复数 lamnion，练习 G、O）；toron 的词干是 torn-（故属格复数 tornion 之类）。属格词尾加在词干上。",
+     "en": "laman (lamn-) \"animal\"",
+     "zh": "laman（lamn-）「动物」。",
+     "exampleZh": "lamnion"
+    },
+    {
+     "id": "rule-vocab-ulya",
+     "headZh": "ulya-「倾倒」：ulyanë 与 ullë",
+     "bodyZh": "ulya- 及物过去时 ulyanë（练习 J 倒酒），不及物 ullë（练习 L 河流泻入峡谷）。这正是上一课的规则。",
+     "en": "ulya- \"to pour\" (transitive past tense ulyanë, intransitive ullë)",
+     "zh": "ulya-「倾倒」（及物过去时 ulyanë，不及物 ullë）。",
+     "exampleZh": "ulyanë／ullë"
+    },
+    {
+     "id": "rule-vocab-u",
+     "headZh": "ú「没有」带属格",
+     "bodyZh": "介词 ú「没有」通常后接属格：练习 E「ú talamion」、M「ú anto」、O「ú altë lamnion」、P「ú rasseto」。",
+     "en": "ú preposition \"without\" (normally followed by genitive)",
+     "zh": "ú 介词「没有」（通常后接属格）。",
+     "exampleZh": "ú talamion"
+    }
+   ],
+   "table": {
+    "captionZh": "12 条与属格形式",
+    "headers": [
+     "课末词",
+     "词性 / 释义",
+     "属格（单数／复数）"
+    ],
+    "rows": [
+     [
+      "cainen",
+      "数词「十」",
+      "—"
+     ],
+     [
+      "laman (lamn-)",
+      "名词「动物」",
+      "lamno／lamnion"
+     ],
+     [
+      "yulma",
+      "名词「杯子」",
+      "yulmo／yulmaron"
+     ],
+     [
+      "limpë",
+      "名词「酒」",
+      "limpeo／limpion（?）"
+     ],
+     [
+      "rassë",
+      "名词「角」",
+      "rasso／rassion；双数 rasseto"
+     ],
+     [
+      "toron (torn-)",
+      "名词「兄弟」",
+      "torno／tornion"
+     ],
+     [
+      "Menel",
+      "名词「天空」",
+      "Menelo"
+     ],
+     [
+      "ulya-",
+      "动词「倾倒」",
+      "—（过去时 ulyanë／ullë）"
+     ],
+     [
+      "sírë",
+      "名词「河」",
+      "síro／sírion"
+     ],
+     [
+      "cilya",
+      "名词「峡谷」",
+      "cilyo／cilyaron"
+     ],
+     [
+      "anto",
+      "名词「嘴」",
+      "anto（词尾隐形）"
+     ],
+     [
+      "ú",
+      "介词「没有」",
+      "后接属格"
+     ]
+    ]
+   },
+   "pitfalls": [
+    {
+     "wrong": "把 laman 的属格复数写成 lamanion",
+     "right": "lamnion（词干 lamn-）",
+     "whyZh": "词汇表明确词干为 lamn-，练习 O 的 keys 作 lamnion。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么这些词都选得「刚好」",
+     "bodyZh": "yulma、sírë、cilya 是 -a 结尾（练 -a 脱落），anto 是 -o 结尾（练隐形词尾），rassë 用来练双数属格 rasseto，laman 用来练特殊词干 lamnion，ú 用来练介词带格。背词时顺手写属格，等于把本课规则各过一遍。"
+    }
+   ],
+   "recapZh": "12 条：cainen、laman、yulma、limpë、rassë、toron、Menel、ulya-、sírë、cilya、anto、ú。",
+   "selfCheckZh": [
+    {
+     "qZh": "laman 的属格复数？",
+     "aZh": "lamnion。"
+    },
+    {
+     "qZh": "anto 的属格？",
+     "aZh": "anto（词尾隐形）。"
+    },
+    {
+     "qZh": "rassë 的双数属格？",
+     "aZh": "rasseto。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "vocabulary",
+    "unitIds": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "exercises",
+   "sourceSectionId": "exercises",
+   "titleZh": "44 · 练习工作台：A–P 与 keys 核对",
+   "leadZh": "A–H 昆雅译英，I–P 英译昆雅。本课只考一个格——属格：-o／-on／-to、-a 脱落、-o 结尾隐形、特殊词干、以及 ú 带属格。",
+   "objectives": [
+    "独立完成 A–P，不先展开答案",
+    "能指出每题属格表哪种关系（来源／部分／地点／家庭／统治／关于）",
+    "核对后能把错题回链到对应规则卡"
+   ],
+   "workflowZh": [
+    "第一遍：遮住答案，先找句中的属格短语",
+    "判断关系：来源？部分？地点？家庭？统治？关于？",
+    "核对词尾：-a 结尾是否脱落、-o 结尾是否隐形、复数是否 -on",
+    "看到 ú 先想到「后接属格」",
+    "ulya- 先判断及物性（ulyanë／ullë）",
+    "点「核对」比对 keys 原文答案",
+    "错题按「回到本课规则」跳回规则卡",
+    "最后展开 keys 全文与 EXERCISES 原文复核"
+   ],
+   "teachingNoteZh": "keys 每题都注明属格的关系类型：A 先前持有者、B 地点、C 部分、D 统治、E 介词 ú、F 家庭＋地点、G 部分、H 来源。I–P 多给两种词序（前置／后置），J 另给 mir i yulmaron analta 的变体。H 的 rocco 以 -o 结尾，故属格单数与主格同形。P 的 rasseto 是双数属格，keys 附注：若双数取 -u 形式（如 rassu），属格或作 rassuo，托尔金的意图无法完全重建。",
+   "bilingual": {
+    "sectionId": "exercises",
+    "unitIds": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17
+    ],
+    "labelZh": "课文"
+   }
+  }
+ ]
+}

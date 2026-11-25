@@ -1,0 +1,3809 @@
+{
+ "lesson": 14,
+ "schemaVersion": 2,
+ "oneLineZh": "向格 -nna（复数 -nnar、双数 -nta）表「朝向」，可引申为 upon、into；离格 -llo（复数 -llon／-llor、双数 -lto）表「from」，可引申为 out of 与无运动用法；辅音后单数插 -e-、复数插 -i-，同辅音可缩合（Elenna、Rómello）。equë 无时态、不加 -r、只用于专名或独立代词＋后置引语；auta- 有两套时态（oantë／oantië 物理离开，vánë／avánië 消失逝去）。所有格代词词尾由主语词尾把 -ë 改 -a 而得：-nya、-lya、-lva（包含）、-lma（排除），加在名词上，先代词词尾后格词尾（tielyanna），连接元音单数 -e-、复数 -i-，唯 -nya 一律 -i-（atarinya）。",
+ "canDoZh": [
+  "能构成向格与离格的单数、复数、双数形式",
+  "能处理辅音结尾名词的连接元音与缩合",
+  "能判断向格表 upon／into、离格表 out of／无运动的情形，并用 mir／et 消歧",
+  "能说明 equë 的无时态用法，并判断何时改用 quet-",
+  "能区分 auta- 的两套过去／完成形式及其意义",
+  "能由主语词尾推出全部所有格代词词尾",
+  "能给带所有格词尾的名词继续加数与格词尾（sambelya 全表）",
+  "能解释 omentielmo → omentielvo 的三层解释与最终取舍",
+  "能独立完成练习 A–P 及附加练习 a–z，用 keys 核对"
+ ],
+ "conceptMap": [
+  {
+   "labelZh": "向格 -nna",
+   "noteZh": "ciryanna",
+   "sectionId": "all-intro"
+  },
+  {
+   "labelZh": "-wards",
+   "noteZh": "Eldanna",
+   "sectionId": "all-wards"
+  },
+  {
+   "labelZh": "复数 -nnar",
+   "noteZh": "ciryannar",
+   "sectionId": "all-plural"
+  },
+  {
+   "labelZh": "离格 -llo",
+   "noteZh": "ciryallo",
+   "sectionId": "abl-intro"
+  },
+  {
+   "labelZh": "-llon／-llor",
+   "noteZh": "elenillor",
+   "sectionId": "abl-plural"
+  },
+  {
+   "labelZh": "双数 -nta／-lto",
+   "noteZh": "ciryanta",
+   "sectionId": "all-dual"
+  },
+  {
+   "labelZh": "引申义",
+   "noteZh": "upon、into",
+   "sectionId": "all-shades"
+  },
+  {
+   "labelZh": "无运动",
+   "noteZh": "Idril of Gondolin",
+   "sectionId": "abl-nomotion"
+  },
+  {
+   "labelZh": "upon",
+   "noteZh": "falmalinnar",
+   "sectionId": "all-upon"
+  },
+  {
+   "labelZh": "into／out of",
+   "noteZh": "cilyanna",
+   "sectionId": "all-into"
+  },
+  {
+   "labelZh": "mir／et",
+   "noteZh": "消歧",
+   "sectionId": "all-ambig"
+  },
+  {
+   "labelZh": "插 -e-",
+   "noteZh": "Elendilenna",
+   "sectionId": "cons-e"
+  },
+  {
+   "labelZh": "复数 -i-",
+   "noteZh": "elenillor",
+   "sectionId": "cons-i"
+  },
+  {
+   "labelZh": "缩合",
+   "noteZh": "Elenna",
+   "sectionId": "contract"
+  },
+  {
+   "labelZh": "方位词",
+   "noteZh": "Rómello",
+   "sectionId": "directions"
+  },
+  {
+   "labelZh": "equë",
+   "noteZh": "*ekwê",
+   "sectionId": "eque-what"
+  },
+  {
+   "labelZh": "语序",
+   "noteZh": "equë 在前",
+   "sectionId": "eque-use"
+  },
+  {
+   "labelZh": "不加 -r",
+   "noteZh": "复数主语",
+   "sectionId": "eque-plural"
+  },
+  {
+   "labelZh": "equen",
+   "noteZh": "例外",
+   "sectionId": "eque-suffix"
+  },
+  {
+   "labelZh": "何时用 quet-",
+   "noteZh": "三条判据",
+   "sectionId": "eque-vs-quet"
+  },
+  {
+   "labelZh": "auta-",
+   "noteZh": "Auta i lómë",
+   "sectionId": "auta-intro"
+  },
+  {
+   "labelZh": "anwë",
+   "noteZh": "古语",
+   "sectionId": "auta-past"
+  },
+  {
+   "labelZh": "oantë／oantië",
+   "noteZh": "物理离开",
+   "sectionId": "auta-oat"
+  },
+  {
+   "labelZh": "vánë／avánië",
+   "noteZh": "消失逝去",
+   "sectionId": "auta-van"
+  },
+  {
+   "labelZh": "avánier",
+   "noteZh": "Namárië",
+   "sectionId": "auta-meaning"
+  },
+  {
+   "labelZh": "vanwa",
+   "noteZh": "gone／lost",
+   "sectionId": "auta-vanwa"
+  },
+  {
+   "labelZh": "vanya-",
+   "noteZh": "旧线索",
+   "sectionId": "auta-note1"
+  },
+  {
+   "labelZh": "autanë",
+   "noteZh": "「发明」那个",
+   "sectionId": "auta-note2"
+  },
+  {
+   "labelZh": "-nya",
+   "noteZh": "coanya",
+   "sectionId": "pos-intro"
+  },
+  {
+   "labelZh": "-ë→-a",
+   "noteZh": "-lva／-lma",
+   "sectionId": "pos-a"
+  },
+  {
+   "labelZh": "-nta",
+   "noteZh": "他们的（未证）",
+   "sectionId": "pos-nta"
+  },
+  {
+   "labelZh": "组合",
+   "noteZh": "sambelyar",
+   "sectionId": "pos-explode"
+  },
+  {
+   "labelZh": "全表",
+   "noteZh": "六格三数",
+   "sectionId": "pos-paradigm"
+  },
+  {
+   "labelZh": "词序",
+   "noteZh": "tielyanna",
+   "sectionId": "pos-order"
+  },
+  {
+   "labelZh": "omentielvo",
+   "noteZh": "名句",
+   "sectionId": "pos-omentielvo"
+  },
+  {
+   "labelZh": "第一版",
+   "noteZh": "omentielmo",
+   "sectionId": "pos-first"
+  },
+  {
+   "labelZh": "双数说",
+   "noteZh": "Carpenter",
+   "sectionId": "pos-carpenter"
+  },
+  {
+   "labelZh": "Plotz 自白",
+   "noteZh": "omentilmo",
+   "sectionId": "pos-plotz"
+  },
+  {
+   "labelZh": "包含／排除",
+   "noteZh": "实质解释",
+   "sectionId": "pos-plotz2"
+  },
+  {
+   "labelZh": "VT43",
+   "noteZh": "-lm-→-lv-",
+   "sectionId": "pos-vt43"
+  },
+  {
+   "labelZh": "正典之争",
+   "noteZh": "Welden",
+   "sectionId": "pos-welden"
+  },
+  {
+   "labelZh": "atarelya",
+   "noteZh": "插 -e-",
+   "sectionId": "pos-cons"
+  },
+  {
+   "labelZh": "复数 -i-",
+   "noteZh": "atarilmar",
+   "sectionId": "pos-i-plural"
+  },
+  {
+   "labelZh": "-nya 恒 -i-",
+   "noteZh": "atarinya",
+   "sectionId": "pos-nya"
+  },
+  {
+   "labelZh": "órenya",
+   "noteZh": "反例",
+   "sectionId": "pos-orenya"
+  },
+  {
+   "labelZh": "aranya",
+   "noteZh": "缩合",
+   "sectionId": "pos-contract"
+  },
+  {
+   "labelZh": "yonya",
+   "noteZh": "称呼用",
+   "sectionId": "pos-yonya"
+  },
+  {
+   "labelZh": "小结",
+   "noteZh": "三块",
+   "sectionId": "summary"
+  },
+  {
+   "labelZh": "练习 A–P",
+   "noteZh": "工作台",
+   "sectionId": "exercises"
+  },
+  {
+   "labelZh": "练习三",
+   "noteZh": "a–z",
+   "sectionId": "ex-p3"
+  },
+  {
+   "labelZh": "练习四",
+   "noteZh": "a–z",
+   "sectionId": "ex-p4"
+  },
+  {
+   "labelZh": "词汇",
+   "noteZh": "12 条",
+   "sectionId": "vocabulary"
+  }
+ ],
+ "pathTitleZh": "学习路径",
+ "path": [
+  {
+   "step": 1,
+   "labelZh": "与格的 to 太抽象，昆雅另有一个 -nna",
+   "sectionId": "all-intro"
+  },
+  {
+   "step": 2,
+   "labelZh": "-wards：Eldanna、Elenna、Americanna",
+   "sectionId": "all-wards"
+  },
+  {
+   "step": 3,
+   "labelZh": "复数 -nnar：lassennar、ciryannar",
+   "sectionId": "all-plural"
+  },
+  {
+   "step": 4,
+   "labelZh": "from 也有词尾：-llo",
+   "sectionId": "abl-intro"
+  },
+  {
+   "step": 5,
+   "labelZh": "复数离格：-llor 还是 -llon",
+   "sectionId": "abl-plural"
+  },
+  {
+   "step": 6,
+   "labelZh": "双数：-nta 与 -lto",
+   "sectionId": "all-dual"
+  },
+  {
+   "step": 7,
+   "labelZh": "两个格不止「去」和「来」",
+   "sectionId": "all-shades"
+  },
+  {
+   "step": 8,
+   "labelZh": "没有运动的离格：Itarildë Ondolindello",
+   "sectionId": "abl-nomotion"
+  },
+  {
+   "step": 9,
+   "labelZh": "表 upon 的向格：Mornië caita i falmalinnar",
+   "sectionId": "all-upon"
+  },
+  {
+   "step": 10,
+   "labelZh": "强化义：into 与 out of",
+   "sectionId": "all-into"
+  },
+  {
+   "step": 11,
+   "labelZh": "歧义与消歧：mir／minna、et",
+   "sectionId": "all-ambig"
+  },
+  {
+   "step": 12,
+   "labelZh": "辅音结尾：插入 -e-（Elendilenna）",
+   "sectionId": "cons-e"
+  },
+  {
+   "step": 13,
+   "labelZh": "复数用 -i-：elenillor、mindoninnar",
+   "sectionId": "cons-i"
+  },
+  {
+   "step": 14,
+   "labelZh": "缩合：Mindonnar、Elenna、Menello",
+   "sectionId": "contract"
+  },
+  {
+   "step": 15,
+   "labelZh": "四个方位词：Rómenna、Rómello",
+   "sectionId": "directions"
+  },
+  {
+   "step": 16,
+   "labelZh": "equë 的来历：一个没有时态的古词",
+   "sectionId": "eque-what"
+  },
+  {
+   "step": 17,
+   "labelZh": "用法：语序是 equë 在主语前",
+   "sectionId": "eque-use"
+  },
+  {
+   "step": 18,
+   "labelZh": "复数主语也不加 -r",
+   "sectionId": "eque-plural"
+  },
+  {
+   "step": 19,
+   "labelZh": "极少接词尾，但 equen 存在",
+   "sectionId": "eque-suffix"
+  },
+  {
+   "step": 20,
+   "labelZh": "何时改用 quet-",
+   "sectionId": "eque-vs-quet"
+  },
+  {
+   "step": 21,
+   "labelZh": "auta-：pass、go away",
+   "sectionId": "auta-intro"
+  },
+  {
+   "step": 22,
+   "labelZh": "过去时不是 autanë：anwë 与鼻音插入",
+   "sectionId": "auta-past"
+  },
+  {
+   "step": 23,
+   "labelZh": "物理离开：oantë 与 oantië",
+   "sectionId": "auta-oat"
+  },
+  {
+   "step": 24,
+   "labelZh": "消失逝去：vánë 与 avánië",
+   "sectionId": "auta-van"
+  },
+  {
+   "step": 25,
+   "labelZh": "avánier 在《Namárië》里",
+   "sectionId": "auta-meaning"
+  },
+  {
+   "step": 26,
+   "labelZh": "vanwa：算分词还是形容词",
+   "sectionId": "auta-vanwa"
+  },
+  {
+   "step": 27,
+   "labelZh": "注 1：vanya- 与 avánier",
+   "sectionId": "auta-note1"
+  },
+  {
+   "step": 28,
+   "labelZh": "注 2：另一个 auta-「发明」",
+   "sectionId": "auta-note2"
+  },
+  {
+   "step": 29,
+   "labelZh": "从主语词尾到所有格词尾",
+   "sectionId": "pos-intro"
+  },
+  {
+   "step": 30,
+   "labelZh": "一条转换规则：-ë 变 -a",
+   "sectionId": "pos-a"
+  },
+  {
+   "step": 31,
+   "labelZh": "-nta「他们的」：合理但未证",
+   "sectionId": "pos-nta"
+  },
+  {
+   "step": 32,
+   "labelZh": "组合爆炸，但词尾不多",
+   "sectionId": "pos-explode"
+  },
+  {
+   "step": 33,
+   "labelZh": "sambelya 全表：六格 × 三数",
+   "sectionId": "pos-paradigm"
+  },
+  {
+   "step": 34,
+   "labelZh": "词序：代词词尾在前，格词尾在后",
+   "sectionId": "pos-order"
+  },
+  {
+   "step": 35,
+   "labelZh": "omentielvo：一句名问候的全解剖",
+   "sectionId": "pos-omentielvo"
+  },
+  {
+   "step": 36,
+   "labelZh": "第一版作 omentielmo",
+   "sectionId": "pos-first"
+  },
+  {
+   "step": 37,
+   "labelZh": "双数说：作者的第一版解释",
+   "sectionId": "pos-carpenter"
+  },
+  {
+   "step": 38,
+   "labelZh": "Plotz 的自白",
+   "sectionId": "pos-plotz"
+  },
+  {
+   "step": 39,
+   "labelZh": "Plotz 的实质解释：包含 vs 排除",
+   "sectionId": "pos-plotz2"
+  },
+  {
+   "step": 40,
+   "labelZh": "VT43：系统重构（-lm- → -lv-）",
+   "sectionId": "pos-vt43"
+  },
+  {
+   "step": 41,
+   "labelZh": "Welden 的正典之争与作者的取舍",
+   "sectionId": "pos-welden"
+  },
+  {
+   "step": 42,
+   "labelZh": "辅音结尾：atarelya、ataremma",
+   "sectionId": "pos-cons"
+  },
+  {
+   "step": 43,
+   "labelZh": "复数连接元音 -i-：elenilyar、atarilmar",
+   "sectionId": "pos-i-plural"
+  },
+  {
+   "step": 44,
+   "labelZh": "-nya 的例外：一律偏好 -i-",
+   "sectionId": "pos-nya"
+  },
+  {
+   "step": 45,
+   "labelZh": "反例：órenya 而非 órinya",
+   "sectionId": "pos-orenya"
+  },
+  {
+   "step": 46,
+   "labelZh": "缩合：aranya「my king」",
+   "sectionId": "pos-contract"
+  },
+  {
+   "step": 47,
+   "labelZh": "yonya 与 hinya：称呼用的缩合",
+   "sectionId": "pos-yonya"
+  },
+  {
+   "step": 48,
+   "labelZh": "本课小结",
+   "sectionId": "summary"
+  },
+  {
+   "step": 49,
+   "labelZh": "练习工作台（A–P）",
+   "sectionId": "exercises"
+  },
+  {
+   "step": 50,
+   "labelZh": "附加练习三：单词译短语（a–z）",
+   "sectionId": "ex-p3"
+  },
+  {
+   "step": 51,
+   "labelZh": "附加练习四：短语译单词（a–z）",
+   "sectionId": "ex-p4"
+  },
+  {
+   "step": 52,
+   "labelZh": "课末词汇（12 条＋专名）",
+   "sectionId": "vocabulary"
+  }
+ ],
+ "modules": [
+  {
+   "sectionId": "all-intro",
+   "sourceSectionId": "the-allative-and-ablative-cases",
+   "titleZh": "01 · 与格的 to 太抽象，昆雅另有一个 -nna",
+   "leadZh": "与格 -n 也能译 to，但那只是抽象用法（enyalien ＝ to recall）。表示「朝向」的实义 to，昆雅用向格 -nna。",
+   "objectives": [
+    "能区分与格的抽象 to 与向格的实义 to",
+    "知道向格词尾 -nna"
+   ],
+   "rules": [
+    {
+     "id": "r-all-i1",
+     "headZh": "与格的 to 是抽象的",
+     "bodyZh": "与格 -n 有时对应 to，尤其加在 gerund 上（enyalien）。但这是抽象的 to；它也可能译作 for，或靠词序表达。",
+     "en": "Yet this is a rather abstract kind of \"to\"",
+     "zh": "但这个 to 相当抽象。"
+    },
+    {
+     "id": "r-all-i2",
+     "headZh": "向格 -nna",
+     "bodyZh": "昆雅另有专门的格表示「朝向、对着」，拉丁术语是 allative。词尾 -nna，Christopher Tolkien 在 UT 索引里把它定为「表示朝某物运动的后缀」。",
+     "en": "the Latin term for such a case is allative",
+     "zh": "这种格的拉丁术语是 allative（向格）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把所有 to 都写成 -n",
+     "right": "实义「朝向」用 -nna；抽象 to／for 用 -n",
+     "whyZh": "原文先说与格的 to 抽象，再说昆雅「does have a special case form implying to in the more basic sense of towards」。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "三个 to 的分工",
+     "bodyZh": "本课把英语的 to 拆成三层：与格 -n（抽象，如 enyalien）、向格 -nna（朝某处）、以及目的 gerund 的 -n（cenien）。判断先看语义，再看词尾。"
+    }
+   ],
+   "recapZh": "向格 -nna ＝「朝向」；与格 -n 的 to 是抽象的。",
+   "selfCheckZh": [
+    {
+     "qZh": "向格词尾是什么？",
+     "aZh": "-nna。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-allative-and-ablative-cases",
+    "unitIds": [
+     0,
+     1
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "all-wards",
+   "sourceSectionId": "the-allative-and-ablative-cases",
+   "titleZh": "02 · -wards：Eldanna、Elenna、Americanna",
+   "leadZh": "Eldanna「向精灵方」被努门诺尔人用作海湾名；-nna 有时可译 -wards，但英语的 -wards 不能自由加在任何名词上。",
+   "objectives": [
+    "能举 Eldanna、Elenna 为例",
+    "知道英语 -wards 与昆雅 -nna 的自由度不同"
+   ],
+   "rules": [
+    {
+     "id": "r-all-w1",
+     "headZh": "Eldanna 与 Endorenna",
+     "bodyZh": "Eldanna 可译「Elfwards」，是努门诺尔西岸海湾之名。Elendil 宣言里 Endorenna「to Middle-earth」带完整 to 的力量与运动义。",
+     "en": "Et Eärello Endorenna utúlien",
+     "zh": "我出大海，来到中土。"
+    },
+    {
+     "id": "r-all-w2",
+     "headZh": "自由度不同",
+     "bodyZh": "昆雅 -nna 可加在任何名词上；英语 -wards 不能。作者调侃：若哪天「Columbus went Americawards」被接受，英语就有了活的向格。",
+     "en": "the English ending \"-wards\" cannot be freely applied to any noun",
+     "zh": "英语的 -wards 不能像昆雅词尾那样自由加在任何名词上。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 -nna 只等于 -wards",
+     "right": "-wards 只是偶可对应的译法；核心是「朝向」",
+     "whyZh": "原文：While the ending -nna may sometimes be rendered \"-wards\" in English ... the English ending cannot be freely applied。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "地名是最好的语料",
+     "bodyZh": "Eldanna、Elenna、Rómenna 都是地名，却各自示范了 -nna 的一种用法（方向、合并、方位词）。读地名往往比读例句更有收获。"
+    }
+   ],
+   "recapZh": "Eldanna、Endorenna；-nna 比 -wards 自由。",
+   "selfCheckZh": [
+    {
+     "qZh": "Endorenna 是什么意思？",
+     "aZh": "to Middle-earth（到中土）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-allative-and-ablative-cases",
+    "unitIds": [
+     2
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "all-plural",
+   "sourceSectionId": "the-allative-and-ablative-cases",
+   "titleZh": "03 · 复数 -nnar：lassennar、ciryannar",
+   "leadZh": "复数向格是 -nnar，末尾的 -r 就是主格复数那个 -r。",
+   "objectives": [
+    "能构成 -nnar 复数向格",
+    "知道 -r 是复数标记"
+   ],
+   "rules": [
+    {
+     "id": "r-all-p1",
+     "headZh": "-nnar",
+     "bodyZh": "复数向格 -nnar：lassennar「to leaves」、ciryannar「to ships」，如 lelyuvan i ciryannar「我要去那些船上」。",
+     "en": "lelyuvan i ciryannar",
+     "zh": "我要去那些船上。"
+    },
+    {
+     "id": "r-all-p2",
+     "headZh": "-r 的来源",
+     "bodyZh": "末尾的 -r 就是 Eldar、ciryar 里熟悉的那个复数成分。",
+     "en": "the same plural element that we are familiar with from nominative forms",
+     "zh": "我们在主格形式里熟悉的那个复数成分。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 ciryanna 表复数",
+     "right": "复数用 ciryannar",
+     "whyZh": "原文：In the plural, the ending -nna changes to -nnar。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "两个复数标记并存",
+     "bodyZh": "向格复数用 -r（-nnar），离格复数却用 -n（-llon）。同一门语言里两种复数标记，靠格来分配——这正是后面 -llor／-llon 之争的背景。"
+    }
+   ],
+   "recapZh": "复数向格 -nnar。",
+   "selfCheckZh": [
+    {
+     "qZh": "「到那些船上」怎么写？",
+     "aZh": "i ciryannar。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-allative-and-ablative-cases",
+    "unitIds": [
+     3
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "abl-intro",
+   "sourceSectionId": "the-allative-and-ablative-cases",
+   "titleZh": "04 · from 也有词尾：-llo",
+   "leadZh": "既有 to 的格，就有 from 的格：离格 -llo。lassello「from a leaf」、ciryallo「from a ship」。",
+   "objectives": [
+    "知道离格词尾 -llo",
+    "能举 tulin i ciryallo、métima hrestallo"
+   ],
+   "rules": [
+    {
+     "id": "r-abl-i1",
+     "headZh": "-llo",
+     "bodyZh": "离格（ablative）词尾 -llo：lassello「from a leaf」、ciryallo「from a ship」，重音同样落在倒数第二音节。",
+     "en": "tulin i ciryallo",
+     "zh": "我从船上来。"
+    },
+    {
+     "id": "r-abl-i2",
+     "headZh": "两格同现",
+     "bodyZh": "telmello talmanna「from hood to base」即「从头到脚」，一句里同时用离格与向格。",
+     "en": "telmello talmanna",
+     "zh": "从头到脚。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 Oiolossëo 当唯一的 from 表达",
+     "right": "属格 -o 偶尔表 from，但常规手段是离格 -llo",
+     "whyZh": "原文：the idea of \"from\" is more regularly expressed by the ablative case。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "telmello 的笔误",
+     "bodyZh": "原文指出 LR 所载《词源》引作 telmello telmanna 是笔误，据 TAL 条目应为 talmanna。这类校勘说明：读旧材料要交叉核对同源条目。"
+    }
+   ],
+   "recapZh": "离格 -llo；telmello talmanna。",
+   "selfCheckZh": [
+    {
+     "qZh": "离格词尾？",
+     "aZh": "-llo。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-allative-and-ablative-cases",
+    "unitIds": [
+     4,
+     5
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "abl-plural",
+   "sourceSectionId": "the-allative-and-ablative-cases",
+   "titleZh": "05 · 复数离格：-llor 还是 -llon",
+   "leadZh": "语料给 -llor（elenillor、raxellor），Plotz 信给 -llon。作者取 -llon，但承认 -llor 有效。",
+   "objectives": [
+    "知道 -llor 与 -llon 两种复数离格",
+    "知道作者为何取 -llon"
+   ],
+   "rules": [
+    {
+     "id": "r-abl-p1",
+     "headZh": "-llor 的语料",
+     "bodyZh": "《Markirya》诗用 elenillor「from stars」；《Sub Tuum Praesidium》译本作 ilya raxellor「from all dangers」。",
+     "en": "elenillor",
+     "zh": "from stars（从众星）。"
+    },
+    {
+     "id": "r-abl-p2",
+     "headZh": "-llon 的依据",
+     "bodyZh": "Plotz 信说复数离格用 -llon，其中的 -n 就是复数属格 -on 里的复数标记 -n。作者取 -llon，因为 Plotz 信是最好的晚期资料。",
+     "en": "the plural ablative is to have the ending in -llon",
+     "zh": "复数离格的词尾是 -llon。"
+    },
+    {
+     "id": "r-abl-p3",
+     "headZh": "两可",
+     "bodyZh": "托尔金较早的格表把 -llor 与 -llon 都列为可能，所以「I come from the ships」可作 ciryallor 或 ciryallon。",
+     "en": "I generally prefer -llon",
+     "zh": "我一般偏好 -llon。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "认为 -llor 是错的",
+     "right": "-llor 有效，只是作者偏好 -llon",
+     "whyZh": "原文：-llor must be considered a valid alternative。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "取舍要有理由",
+     "bodyZh": "作者没有和稀泥，而是给出理由：Plotz 信是格系统最好的晚期来源。这种「择一而标明依据」的做法，比列出两个形式不解释更有用。"
+    }
+   ],
+   "recapZh": "复数离格 -llon（作者取）／-llor（有效）。",
+   "selfCheckZh": [
+    {
+     "qZh": "「from stars」语料作？",
+     "aZh": "elenillor。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-allative-and-ablative-cases",
+    "unitIds": [
+     6,
+     7
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "all-dual",
+   "sourceSectionId": "the-allative-and-ablative-cases",
+   "titleZh": "06 · 双数：-nta 与 -lto",
+   "leadZh": "双数向格 -nta、双数离格 -lto，由双数成分 -t 替换 -nna／-llo 中的一个辅音而来。",
+   "objectives": [
+    "能构成 ciryanta、ciryalto",
+    "知道 -u 双数可能只用 -nna／-llo"
+   ],
+   "rules": [
+    {
+     "id": "r-all-d1",
+     "headZh": "-nta／-lto",
+     "bodyZh": "ciryat「两艘船」对应 ciryanta「to a couple of ships」与 ciryalto「from a couple of ships」。",
+     "en": "ciryanta",
+     "zh": "to(wards) a couple of ships。"
+    },
+    {
+     "id": "r-all-d2",
+     "headZh": "-u 双数存疑",
+     "bodyZh": "Aldu 的向格该作 Aldunta 还是 Aldunna？离格该作 Aldulto 还是 Aldullo？作者倾向前者不用、后者更可能，但缺例证。",
+     "en": "Aldunna, Aldullo",
+     "zh": "（作者倾向的）Aldunna、Aldullo。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 -nta 当唯一的双数向格",
+     "right": "-u 双数可能直接用 -nna",
+     "whyZh": "原文：it is uncertain whether the same endings would be suffixed to a noun that forms its nominative dual in -u。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "与上一课的双数与格同构",
+     "bodyZh": "与格双数 -nt、向格双数 -nta、离格双数 -lto，都以 -t 收尾或含 -t。记住「双数 = 带 t」，三个格一起记。"
+    }
+   ],
+   "recapZh": "双数向格 -nta、离格 -lto。",
+   "selfCheckZh": [
+    {
+     "qZh": "ciryat 的离格？",
+     "aZh": "ciryalto。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-allative-and-ablative-cases",
+    "unitIds": [
+     8
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "all-shades",
+   "sourceSectionId": "the-allative-and-ablative-cases",
+   "titleZh": "07 · 两个格不止「去」和「来」",
+   "leadZh": "向格与离格还有别的意义层次：upon、into、out of，以及不含运动的情形。",
+   "objectives": [
+    "知道两格有引申义",
+    "带着问题读下面五段"
+   ],
+   "rules": [
+    {
+     "id": "r-sh1",
+     "headZh": "引申义的预告",
+     "bodyZh": "主要含义是 to(wards) 与 from，但两格还可能有其他意义层次。接下来几段分别讲：无运动的离格、表 upon 的向格、表 into／out of 的强化。",
+     "en": "they may have other shades of meaning as well",
+     "zh": "它们也可能有其他含义层次。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 -nna 只能译 to",
+     "right": "也可表 on／upon、into",
+     "whyZh": "原文随即展开 on, upon 与 into 两种用法。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么先给这句预告",
+     "bodyZh": "原文用一句话把后面五段的结构交代清楚。读原著时抓住这类「路标句」，比逐段硬啃有效。"
+    }
+   ],
+   "recapZh": "两格各有引申义：upon、into、out of、无运动。",
+   "selfCheckZh": [
+    {
+     "qZh": "向格除 to 还能表什么？",
+     "aZh": "on／upon、into。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-allative-and-ablative-cases",
+    "unitIds": [
+     9
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "abl-nomotion",
+   "sourceSectionId": "the-allative-and-ablative-cases",
+   "titleZh": "08 · 没有运动的离格：Itarildë Ondolindello",
+   "leadZh": "离格不一定含实际离开。Itarildë Ondolindello 英语最好译作 Idril of Gondolin，未必意味着她真的离开了。",
+   "objectives": [
+    "能用 Itarildë Ondolindello 说明无运动用法",
+    "知道 ruc- 与离格搭配"
+   ],
+   "rules": [
+    {
+     "id": "r-abl-n1",
+     "headZh": "居住地的离格",
+     "bodyZh": "Itarildë Ondolindello 英语作 Idril of Gondolin，只是认定她住在那里；昆雅措辞未必含「已离开」。",
+     "en": "Itarildë Ondolindello",
+     "zh": "Itarildë from Ondolindë（＝Idril of Gondolin）。"
+    },
+    {
+     "id": "r-abl-n2",
+     "headZh": "ruc- 接离格",
+     "bodyZh": "托尔金说 ruc-「感到恐惧」与所怕之物的 from 搭配。故「我怕那怪物」大概作 rucin i ulundollo。",
+     "en": "rucin i ulundollo",
+     "zh": "我怕那怪物（字面：我从怪物感到恐惧）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 Ondolindello 理解为「已离开刚多林」",
+     "right": "只表示「来自／居于」",
+     "whyZh": "原文：the Quenya wording may not necessarily imply that Idril had actually left Gondolin。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "英语的 of 与 from 在此重合",
+     "bodyZh": "英语用 of 表来源／所属，昆雅用离格。这说明离格与属格在「来源」义上有重叠——上一课 -o 偶尔表 from 正是同一现象。"
+    }
+   ],
+   "recapZh": "离格可无运动：Idril of Gondolin；rucin i ulundollo。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我怕那怪物」怎么写？",
+     "aZh": "rucin i ulundollo。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-allative-and-ablative-cases",
+    "unitIds": [
+     10
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "all-upon",
+   "sourceSectionId": "the-allative-and-ablative-cases",
+   "titleZh": "09 · 表 upon 的向格：Mornië caita i falmalinnar",
+   "leadZh": "靠在某物上也是「朝向」它施压，所以向格可表 on／upon。caita-「躺」是典型动词。",
+   "objectives": [
+    "能用 falmalinnar 分析 -li- 与 -nnar",
+    "知道 caita- 与向格搭配"
+   ],
+   "rules": [
+    {
+     "id": "r-all-u1",
+     "headZh": "upon 的理据",
+     "bodyZh": "靠在某物「之上」的物体同时「朝向」它施压，虽无实际运动。故向格可表 on、upon。",
+     "en": "an object that rests \"upon\" something also presses \"towards\" it",
+     "zh": "靠在某物之上的物体同时也朝向它施压。"
+    },
+    {
+     "id": "r-all-u2",
+     "headZh": "falmalinnar 的解剖",
+     "bodyZh": "Mornië caita i falmalinnar：falma-li-nnar ＝「foaming waves-many-upon」。这里同时有部分复数 -li 与复数向格 -nnar。",
+     "en": "Mornië caita i falmalinnar",
+     "zh": "黑暗躺在泛沫的浪上。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 -nnar 直接加在 falma 上",
+     "right": "先加部分复数 -li，再加 -nnar",
+     "whyZh": "原文：Tolkien analyzed falma-li-nnar as \"foaming waves-many-upon\"。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "-li 是「部分复数」",
+     "bodyZh": "-li 表示「许多、部分」，在此暗示浪极多。它与 -nnar 叠加，构成三层结构：词干＋数量＋格。读长词就按这个层次剥。"
+    }
+   ],
+   "recapZh": "向格可表 upon；falma-li-nnar。",
+   "selfCheckZh": [
+    {
+     "qZh": "falmalinnar 里的 -li- 表示什么？",
+     "aZh": "部分复数「许多」。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-allative-and-ablative-cases",
+    "unitIds": [
+     11
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "all-into",
+   "sourceSectionId": "the-allative-and-ablative-cases",
+   "titleZh": "10 · 强化义：into 与 out of",
+   "leadZh": "向格可强化为「进入」（cilyanna、mannar Valion），离格可强化为「从……之中出来」（sindanóriello）。",
+   "objectives": [
+    "能举 into／out of 的例子",
+    "知道这是基本义的强化而非另一格"
+   ],
+   "rules": [
+    {
+     "id": "r-all-in1",
+     "headZh": "into",
+     "bodyZh": "ëari lantier cilyanna「seas fell into a chasm」、mannar Valion「into the hands of the Valar」。",
+     "en": "mannar Valion",
+     "zh": "into the hands of the Valar。"
+    },
+    {
+     "id": "r-all-in2",
+     "headZh": "out of",
+     "bodyZh": "sindanóriello 托尔金译「out of a grey country」，逐词分析作 sinda-nórie-llo。",
+     "en": "sindanóriello",
+     "zh": "out of a grey country。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 into 需要另一个词尾",
+     "right": "仍是 -nna，只是意义强化",
+     "whyZh": "原文：the allative may also suggest motion \"into\" it。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "强化带来歧义",
+     "bodyZh": "既然 -nna 可读 to 也可读 into，lenden i coanna 就有两解。下一段正是处理这个歧义。"
+    }
+   ],
+   "recapZh": "into／out of 仍是 -nna／-llo 的强化。",
+   "selfCheckZh": [
+    {
+     "qZh": "sindanóriello 怎么译？",
+     "aZh": "out of a grey country。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-allative-and-ablative-cases",
+    "unitIds": [
+     12
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "all-ambig",
+   "sourceSectionId": "the-allative-and-ablative-cases",
+   "titleZh": "11 · 歧义与消歧：mir／minna、et",
+   "leadZh": "lenden i coanna 可读 to 或 into。要明确「进入」用 mir／minna；要明确「出自」用 et ＋ 离格。",
+   "objectives": [
+    "知道 mir／minna 的用法",
+    "知道 et 可放在离格前消歧"
+   ],
+   "rules": [
+    {
+     "id": "r-all-a1",
+     "headZh": "mir／minna",
+     "bodyZh": "若想要「into」，最好用独立词 mir（或 minna）：Lenden mir/minna i coa。",
+     "en": "Lenden mir/minna i coa",
+     "zh": "我走进了那房子。"
+    },
+    {
+     "id": "r-all-a2",
+     "headZh": "et ＋ 离格",
+     "bodyZh": "Elendil 宣言表明 et「out」可放在离格前澄清「out of」：Et Eärello...utúlien。有人把 et 分析为支配离格的介词。",
+     "en": "Et Eärello",
+     "zh": "out of the Great Sea（出大海）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "用 i coanna 表达「进入」而不加说明",
+     "right": "要明确就用 mir／minna",
+     "whyZh": "原文：Where confusion may arise, it is probably best to use the independent word mir (or minna)。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "屈折语的代价",
+     "bodyZh": "格词尾简洁，但也带来歧义；昆雅的对策是必要时加独立词（mir、et）。这说明「高度屈折」与「完全无歧义」不是一回事。"
+    }
+   ],
+   "recapZh": "mir／minna 表 into；et ＋ 离格表 out of。",
+   "selfCheckZh": [
+    {
+     "qZh": "「走出大海」怎么写？",
+     "aZh": "et Eärello。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-allative-and-ablative-cases",
+    "unitIds": [
+     13
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "cons-e",
+   "sourceSectionId": "the-allative-and-ablative-cases",
+   "titleZh": "12 · 辅音结尾：插入 -e-（Elendilenna）",
+   "leadZh": "-nna、-llo 不能直接加在辅音结尾的名词上。Elendilnna 不合法，故作 Elendilenna。",
+   "objectives": [
+    "知道 -nna／-llo 不能直接贴辅音",
+    "能举 Elendilenna、Eärello、Endorenna"
+   ],
+   "rules": [
+    {
+     "id": "r-cons-e1",
+     "headZh": "不可能的形式",
+     "bodyZh": "向格「to Elendil」不能是 Elendilnna，因为昆雅音系不允许 lnn。实际形式 Elendilenna 表明插入连接元音 e。",
+     "en": "Elendilenna",
+     "zh": "to Elendil（到 Elendil）。"
+    },
+    {
+     "id": "r-cons-e2",
+     "headZh": "Eärello 与 Endorenna 的保留",
+     "bodyZh": "Eärello、Endorenna 里的 e 也可能是名词本身的一部分（Eär 亦作 Eärë，Endor 源自 Endórë），故不能确证；但 Elendilenna 几乎肯定含连接元音。",
+     "en": "Eärello",
+     "zh": "out of the Great Sea。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 Elendilnna",
+     "right": "Elendilenna",
+     "whyZh": "原文：Quenya phonology does not permit the group \"lnn\"。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "证据强度的区分",
+     "bodyZh": "作者把 Elendilenna 当确证，把 Eärello 当存疑——因为后者的名词本身可能以 -ë 结尾。这种分级判断是本课反复出现的方法。"
+    }
+   ],
+   "recapZh": "辅音后插 -e-：Elendilenna。",
+   "selfCheckZh": [
+    {
+     "qZh": "Elendil 的向格？",
+     "aZh": "Elendilenna。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-allative-and-ablative-cases",
+    "unitIds": [
+     14
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "cons-i",
+   "sourceSectionId": "the-allative-and-ablative-cases",
+   "titleZh": "13 · 复数用 -i-：elenillor、mindoninnar",
+   "leadZh": "复数需要连接元音时用 -i- 而非 -e-：elenillor 是把 -llor 加在主格复数 eleni 上。",
+   "objectives": [
+    "知道复数连接元音是 -i-",
+    "能分析 elenillor 的层次"
+   ],
+   "rules": [
+    {
+     "id": "r-cons-i1",
+     "headZh": "-i- 用于复数",
+     "bodyZh": "elenillor 实际上就是把复数离格 -llor 加到主格复数 eleni 上；mindoninnar 同理，加在 mindoni 上。",
+     "en": "elenillor",
+     "zh": "from stars。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "用 -e- 作复数连接元音",
+     "right": "复数用 -i-（elenillor）",
+     "whyZh": "原文：in the case of a plural noun requiring a connecting vowel, it seems that -i- rather than -e- is preferred。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "同一条规则的两个版本",
+     "bodyZh": "单数插 -e-，复数插 -i-。这不是两条规则，而是「连接元音随数变化」的一条规则。下一节的 -nya 例外正是从这条规则里长出来的。"
+    }
+   ],
+   "recapZh": "复数连接元音 -i-：elenillor。",
+   "selfCheckZh": [
+    {
+     "qZh": "复数需要连接元音时用哪个元音？",
+     "aZh": "-i-。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-allative-and-ablative-cases",
+    "unitIds": [
+     15
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "contract",
+   "sourceSectionId": "the-allative-and-ablative-cases",
+   "titleZh": "14 · 缩合：Mindonnar、Elenna、Menello",
+   "leadZh": "另一种办法是让名词末辅音与词尾首辅音合并：mindon-nnar → Mindonnar，Elen-nna → Elenna。",
+   "objectives": [
+    "知道缩合的条件与例子",
+    "能判断 Menello 优于 Menelello"
+   ],
+   "rules": [
+    {
+     "id": "r-con1",
+     "headZh": "末辅音与词尾首辅音相同",
+     "bodyZh": "mindon 的末 -n 与 -nnar 的首个 n 合并，得 Mindonnar（托尔金先写 mindoninnar，后改）。",
+     "en": "Mindonnar",
+     "zh": "upon towers（在众塔上）。"
+    },
+    {
+     "id": "r-con2",
+     "headZh": "Elenna",
+     "bodyZh": "Elen-nna → Elenna，努门诺尔之名，意为 Starwards；Elenna·nórë ＝「the land named Starwards」。",
+     "en": "Elenna",
+     "zh": "Starwards（向星方）。"
+    },
+    {
+     "id": "r-con3",
+     "headZh": "Menello",
+     "bodyZh": "同理，Menel 的离格可以甚至应该作 Menello（＝Menel-llo）而非 Menelello。",
+     "en": "Menello",
+     "zh": "from heaven（从天）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "一律插 -e- 而不考虑缩合",
+     "right": "末辅音与词尾首辅音相同时可合并",
+     "whyZh": "原文：these two consonants may simply merge。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "两条路，一条更常见",
+     "bodyZh": "插元音与缩合都能消掉非法辅音丛。作者在方位词那里说缩合「似乎是常态」——说明选择取决于词类，不是自由变体。"
+    }
+   ],
+   "recapZh": "缩合：Mindonnar、Elenna、Menello。",
+   "selfCheckZh": [
+    {
+     "qZh": "Elenna 由什么缩合而来？",
+     "aZh": "Elen + -nna。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-allative-and-ablative-cases",
+    "unitIds": [
+     16
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "directions",
+   "sourceSectionId": "the-allative-and-ablative-cases",
+   "titleZh": "15 · 四个方位词：Rómenna、Rómello",
+   "leadZh": "Formen、Hyarmen、Rómen、Númen 的末 -n 在接向格／离格／位格词尾前规律脱落。",
+   "objectives": [
+    "知道四个方位词的末 -n 会脱落",
+    "能举 Rómenna、Rómello"
+   ],
+   "rules": [
+    {
+     "id": "r-dir1",
+     "headZh": "Rómenna",
+     "bodyZh": "努门诺尔东部港湾 Rómenna 字面「Eastwards」，因为船从那里向东航行。",
+     "en": "Rómenna",
+     "zh": "Eastwards（向东）。"
+    },
+    {
+     "id": "r-dir2",
+     "headZh": "Rómello",
+     "bodyZh": "《Namárië》作 Rómello「from the East」。这里末 -n 必是被省掉，以避免不可能的 Rómenllo。",
+     "en": "Rómello",
+     "zh": "from the East（从东方）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 Rómenllo",
+     "right": "Rómello",
+     "whyZh": "原文：the final -n has been omitted to avoid the impossible form **Rómenllo。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "方位词是特例还是通则",
+     "bodyZh": "作者说这对四个方位词「相当规律」，即近乎通则。但它与 Menello 的缩合是同一种机制，只是发生得更彻底（整个 -n 消失）。"
+    }
+   ],
+   "recapZh": "Rómenna、Rómello：方位词末 -n 脱落。",
+   "selfCheckZh": [
+    {
+     "qZh": "「从东方」怎么写？",
+     "aZh": "Rómello。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-allative-and-ablative-cases",
+    "unitIds": [
+     17
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "eque-what",
+   "sourceSectionId": "the-allative-and-ablative-cases",
+   "titleZh": "16 · equë 的来历：一个没有时态的古词",
+   "leadZh": "WJ:392 引 *ekwê：昆雅 eque，帖勒瑞林 epe。它没有时态形式，主要用于专名或独立代词之前。",
+   "objectives": [
+    "知道 equë 的原始形式与对应形式",
+    "知道它没有时态、用于引出引语"
+   ],
+   "rules": [
+    {
+     "id": "r-eq-w1",
+     "headZh": "三个同源形式",
+     "bodyZh": "原始 *ekwê，昆雅 eque，帖勒瑞林 epe。托尔金称它是「a curious and evidently archaic form」只保存在阿门洲的语言里。",
+     "en": "a curious and evidently archaic form that survives only in the languages of Aman",
+     "zh": "一个奇特而显然古老的形式，只保存在阿门洲的语言里。"
+    },
+    {
+     "id": "r-eq-w2",
+     "headZh": "无时态",
+     "bodyZh": "它没有时态形式，主要用于专名（单数或复数）或完整独立代词之前，意为 say／says 或 said；随后跟引语。",
+     "en": "It has no tense forms",
+     "zh": "它没有时态形式。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "给 equë 加时态词尾",
+     "right": "它本就没有时态形式",
+     "whyZh": "原文引托尔金：It has no tense forms。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一个词撑起一段语法史",
+     "bodyZh": "equë 的价值不在用法复杂，而在它保留了原始形式 *ekwê。这类「化石词」是历史语言学最直接的证据。"
+    }
+   ],
+   "recapZh": "equë ← *ekwê；无时态，引引语。",
+   "selfCheckZh": [
+    {
+     "qZh": "equë 有过去时形式吗？",
+     "aZh": "没有时态形式。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-allative-and-ablative-cases",
+    "unitIds": [
+     18,
+     19,
+     20
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "eque-use",
+   "sourceSectionId": "the-allative-and-ablative-cases",
+   "titleZh": "17 · 用法：语序是 equë 在主语前",
+   "leadZh": "equë 可读 said 也可读 say(s)，甚至可能涵盖将来。词序上它位于主语之前。",
+   "objectives": [
+    "知道 equë 的时态靠语境定",
+    "知道 equë 位于主语前"
+   ],
+   "rules": [
+    {
+     "id": "r-eq-u1",
+     "headZh": "时态靠语境",
+     "bodyZh": "equë 可解作过去时 said 或现在时 say(s)，依语境而定，或许甚至能涵盖 shall say。",
+     "en": "equë may be interpreted either as a past tense \"said\" or as present tense \"say(s)\"",
+     "zh": "equë 可依语境解作过去时 said 或现在时 say(s)。"
+    },
+    {
+     "id": "r-eq-u2",
+     "headZh": "语序",
+     "bodyZh": "托尔金所示的词序是 equë 在主语之前：Equë Elendil: \"...\"。",
+     "en": "Equë Elendil",
+     "zh": "Elendil 说……"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写成 Elendil equë",
+     "right": "equë 在前：Equë Elendil",
+     "whyZh": "原文：The word equë comes before its subject。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "作者明说这是构造",
+     "bodyZh": "原文说托尔金没给含 equë 的实际句子，例句是按他提供的信息构造的。引用时该说明这一点。"
+    }
+   ],
+   "recapZh": "equë ＋ 主语 ＋ 引语。",
+   "selfCheckZh": [
+    {
+     "qZh": "equë 与主语谁在前？",
+     "aZh": "equë 在前。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-allative-and-ablative-cases",
+    "unitIds": [
+     21,
+     22,
+     23
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "eque-plural",
+   "sourceSectionId": "the-allative-and-ablative-cases",
+   "titleZh": "18 · 复数主语也不加 -r",
+   "leadZh": "equë 即使主语是复数或不止一个，也不接 -r。故 Equë Altariel ar Teleporno。",
+   "objectives": [
+    "知道 equë 不接复数 -r",
+    "能分析 Utúliemmë 的双数 -mmë"
+   ],
+   "rules": [
+    {
+     "id": "r-eq-p1",
+     "headZh": "不加 -r",
+     "bodyZh": "英语 say 须理解为复数，但 equë 不像普通动词那样接 -r。托尔金说它用于专名「单数或复数」之前。",
+     "en": "equë does not receive the ending -r",
+     "zh": "equë 不接词尾 -r。"
+    },
+    {
+     "id": "r-eq-p2",
+     "headZh": "例句",
+     "bodyZh": "Equë Altariel ar Teleporno: \"Utúliemmë Valinorello.\"——注意引语里 Utúliemmë 用双数「我们」词尾 -mmë。",
+     "en": "Equë Altariel ar Teleporno",
+     "zh": "Galadriel 与 Celeborn 说……"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 equër",
+     "right": "equë 不变",
+     "whyZh": "原文：unlike normal verbs, equë does not receive the ending -r even where it has a plural subject。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "无屈折的极端",
+     "bodyZh": "equë 是全书最简的动词：无时态、无复数、极少接词尾。它把「语法信息靠语境」推到极致，正好与高度屈折的常规形成对照。"
+    }
+   ],
+   "recapZh": "equë 不加 -r；Utúliemmë 用 -mmë。",
+   "selfCheckZh": [
+    {
+     "qZh": "equë 的主语是复数时要加 -r 吗？",
+     "aZh": "不加。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-allative-and-ablative-cases",
+    "unitIds": [
+     24,
+     25,
+     26
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "eque-suffix",
+   "sourceSectionId": "the-allative-and-ablative-cases",
+   "titleZh": "19 · 极少接词尾，但 equen 存在",
+   "leadZh": "托尔金说 equë 极少接任何词尾，通常连代词词尾都不接，不过 equen「said I」也可能出现。",
+   "objectives": [
+    "知道 equë 通常不接词尾",
+    "知道 equen 是例外"
+   ],
+   "rules": [
+    {
+     "id": "r-eq-s1",
+     "headZh": "通常不接",
+     "bodyZh": "equë 极少接任何词尾，通常连代词词尾都不接（WJ:392）。",
+     "en": "equë rarely received suffixes of any kind",
+     "zh": "equë 极少接任何词尾。"
+    },
+    {
+     "id": "r-eq-s2",
+     "headZh": "equen 的例外",
+     "bodyZh": "不过 equen「said I」这类形式也可能出现（WJ:415）。",
+     "en": "equen",
+     "zh": "said I（我说）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "认为 equë 绝不接词尾",
+     "right": "通常不接，但 equen 有证",
+     "whyZh": "原文：though forms like equen \"said I\" may also occur。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "「通常」与「绝不」",
+     "bodyZh": "原文用 rarely，不是 never，并立即给出反例。读语法描述时要盯住这类副词：rarely、presumably、may well 都是程度不同的保留。"
+    }
+   ],
+   "recapZh": "equë 通常无词尾；equen 例外。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我说」可作？",
+     "aZh": "equen。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-allative-and-ablative-cases",
+    "unitIds": [
+     27
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "eque-vs-quet",
+   "sourceSectionId": "the-allative-and-ablative-cases",
+   "titleZh": "20 · 何时改用 quet-",
+   "leadZh": "用 quet- 替换 equë 绝不会错。主语不是专名或独立代词时，通常应用 quet-；说话者出现在引语之后时也用 quet-。",
+   "objectives": [
+    "能判断 equë 与 quet- 的分工",
+    "能改写两种语序"
+   ],
+   "rules": [
+    {
+     "id": "r-eq-q1",
+     "headZh": "替换不会错",
+     "bodyZh": "用 quet- 的完整屈折形式替换 equë 绝不会错：Elendil quetë／quentë、Altariel ar Teleporno quetir／quenter。",
+     "en": "It cannot be wrong to replace equë with a form of the verb quet-",
+     "zh": "用 quet- 的形式替换 equë 绝不会错。"
+    },
+    {
+     "id": "r-eq-q2",
+     "headZh": "普通名词用 quet-",
+     "bodyZh": "主语不是专名或完整独立代词时，通常优先用 quet-：I nís quentë「the woman said」。",
+     "en": "I nís quentë",
+     "zh": "那女人说……"
+    },
+    {
+     "id": "r-eq-q3",
+     "headZh": "语序决定",
+     "bodyZh": "equë 用于引出一个随后的引语；若说话者与说话行为出现在引语之后，最好用 quet-：\"Utúlien,\" Elendil quentë。",
+     "en": "Elendil quentë",
+     "zh": "Elendil 说。"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Equë Elendil: \"Utúlien.\"",
+     "zh": "Elendil 说：「我来了。」",
+     "noteZh": "引语在后 → equë。"
+    },
+    {
+     "en": "\"Utúlien,\" Elendil quentë",
+     "zh": "「我来了，」Elendil 说。",
+     "noteZh": "说话者在后 → quentë。"
+    },
+    {
+     "en": "Sin Quentë Quendingoldo Elendilenna",
+     "zh": "Quendingoldo 如此对 Elendil 说",
+     "noteZh": "无引语 → quentë。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "对普通名词用 equë",
+     "right": "用 quet-（I nís quentë）",
+     "whyZh": "原文：Where the subject is not a proper name or a full independent pronoun, ... a form of quet- is usually to be preferred。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "三条判据",
+     "bodyZh": "①主语是专名或独立代词？②引语在后面？③句中有引语？三者都满足才用 equë，否则用 quet-。这是本课最可操作的一条规则。"
+    }
+   ],
+   "recapZh": "专名＋引语在后 → equë；否则 quet-。",
+   "selfCheckZh": [
+    {
+     "qZh": "「那女人说」用 equë 还是 quentë？",
+     "aZh": "quentë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-allative-and-ablative-cases",
+    "unitIds": [
+     28,
+     29,
+     30,
+     31,
+     32
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "auta-intro",
+   "sourceSectionId": "the-allative-and-ablative-cases",
+   "titleZh": "21 · auta-：pass、go away",
+   "leadZh": "auta- 意为「过去、离开」。《精灵宝钻》第 20 章的战斗口号 Auta i lómë! 就是它。",
+   "objectives": [
+    "知道 auta- 的基本义",
+    "能背 Auta i lómë"
+   ],
+   "rules": [
+    {
+     "id": "r-au-i1",
+     "headZh": "基本义",
+     "bodyZh": "auta- 意为 pass，或 go away、leave（离开说话人思路的出发点）。",
+     "en": "Auta i lómë!",
+     "zh": "The night is passing!（夜正在过去！）"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 auta- 只当「离开某地」",
+     "right": "它也可指「逝去、消失」——这正是两套过去时的由来",
+     "whyZh": "原文：This verb means \"pass\" or \"go away, leave\"。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "口号里的语法",
+     "bodyZh": "Auta i lómë 用的是现在／不定过去时，却表达「正在过去」。这句口号是 auta- 最著名的用例，也是理解两套时态义的入口。"
+    }
+   ],
+   "recapZh": "auta- ＝ pass／go away；Auta i lómë。",
+   "selfCheckZh": [
+    {
+     "qZh": "Auta i lómë 什么意思？",
+     "aZh": "夜正在过去。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-allative-and-ablative-cases",
+    "unitIds": [
+     33
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "auta-past",
+   "sourceSectionId": "the-allative-and-ablative-cases",
+   "titleZh": "22 · 过去时不是 autanë：anwë 与鼻音插入",
+   "leadZh": "按规则该是 autanë，但实际有多个形式。anwë 由原始词根 AWA 鼻音插入构成，只见于古语。",
+   "objectives": [
+    "知道 autanë 不是 auta- 的过去时",
+    "知道 anwë 的来历与限制"
+   ],
+   "rules": [
+    {
+     "id": "r-au-p1",
+     "headZh": "不规则",
+     "bodyZh": "按本课程规则 auta- 相当不规则；托尔金却称其形式为「regular forms」。过去时不是 autanë。",
+     "en": "the past tense of auta- is not",
+     "zh": "auta- 的过去时不是……"
+    },
+    {
+     "id": "r-au-p2",
+     "headZh": "anwë",
+     "bodyZh": "anwë 由原始词根 AWA 鼻音插入构成，auta- 里的 -ta 完全不出现。但它「only found in archaic language」。",
+     "en": "anwë",
+     "zh": "（古语）过去了。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "用 autanë 作 auta-「离开」的过去时",
+     "right": "用 oantë／vánë；autanë 属另一个 auta-「发明」",
+     "whyZh": "见注 2：auta-「to invent」的过去时也许才是 autanë。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "托尔金的「规则」与我们的规则不同",
+     "bodyZh": "作者说「按本课程规则不规则」，托尔金却说「regular forms」——因为托尔金的规则是历史音变规则，不是共时类推规则。这个差别值得记住。"
+    }
+   ],
+   "recapZh": "auta- 的过去时不是 autanë；anwë 属古语。",
+   "selfCheckZh": [
+    {
+     "qZh": "anwë 为什么只见于古语？",
+     "aZh": "它是鼻音插入的古老形式，现代语不用。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-allative-and-ablative-cases",
+    "unitIds": [
+     34
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "auta-oat",
+   "sourceSectionId": "the-allative-and-ablative-cases",
+   "titleZh": "23 · 物理离开：oantë 与 oantië",
+   "leadZh": "纯物理意义的「离开去别处」用 oantë（过去）与 oantië（完成）。oantië 的 n 是从过去时「潜入」的。",
+   "objectives": [
+    "知道 oantë／oantië 的用法",
+    "知道 oantië 的 n 属例外"
+   ],
+   "rules": [
+    {
+     "id": "r-au-o1",
+     "headZh": "oantë",
+     "bodyZh": "物理意义上「离开一地前往另一地」用 oantë。据托尔金这是「regular for a -ta verb of this class」，源自 awantê。",
+     "en": "oantë",
+     "zh": "went away（去了别处）。"
+    },
+    {
+     "id": "r-au-o2",
+     "headZh": "oantië 的 n",
+     "bodyZh": "完成时 oantië 显然受过去时影响；托尔金指出它显示「intrusion of n from the past」。通常完成时并无鼻音插入。",
+     "en": "intrusion of n from the past",
+     "zh": "过去时的 n 潜入。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 oantië 的 n 是常规",
+     "right": "它是从过去时 oantë 类推来的例外",
+     "whyZh": "原文：Normally, nasal-infixion does not occur in the perfect tense。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "两套形式的分工",
+     "bodyZh": "oantë／oantië 管物理离开，vánë／avánië 管消失逝去。分工的依据不是时态，而是意义——这是本段最要紧的一点。"
+    }
+   ],
+   "recapZh": "物理离开：oantë／oantië。",
+   "selfCheckZh": [
+    {
+     "qZh": "「（物理上）去了别处」的完成时？",
+     "aZh": "oantië。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-allative-and-ablative-cases",
+    "unitIds": [
+     35
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "auta-van",
+   "sourceSectionId": "the-allative-and-ablative-cases",
+   "titleZh": "24 · 消失逝去：vánë 与 avánië",
+   "leadZh": "另一套是 vánë（过去）与 avánië（完成）。vánë 的首音节来自词干 wâ，-në 是正常过去时词尾。",
+   "objectives": [
+    "知道 vánë／avánië 的构成",
+    "知道完成时同样受过去时影响"
+   ],
+   "rules": [
+    {
+     "id": "r-au-v1",
+     "headZh": "vánë",
+     "bodyZh": "vánë 的首音节是词干 wâ 的昆雅后裔，-në 是正常过去时词尾。",
+     "en": "vánë",
+     "zh": "disappeared／passed（消失了、过去了）。"
+    },
+    {
+     "id": "r-au-v2",
+     "headZh": "avánië",
+     "bodyZh": "完成时 avánië 同样受过去时影响——vánë 的 n 潜入完成时。",
+     "en": "avánië",
+     "zh": "has passed（已经逝去）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 vánë 当「去了别处」",
+     "right": "它指消失、逝去",
+     "whyZh": "原文：Vánë does not mean \"went away (to another place)\", but rather \"disappeared\", \"passed\"。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "同一动词，两套时态",
+     "bodyZh": "auta- 有两套过去／完成形式，区别在意义而非语法。这在昆雅里少见，值得单独记：oantë 物理，vánë 抽象。"
+    }
+   ],
+   "recapZh": "消失逝去：vánë／avánië。",
+   "selfCheckZh": [
+    {
+     "qZh": "avánië 属哪一套？",
+     "aZh": "「消失、逝去」那一套。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-allative-and-ablative-cases",
+    "unitIds": [
+     36
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "auta-meaning",
+   "sourceSectionId": "the-allative-and-ablative-cases",
+   "titleZh": "25 · avánier 在《Namárië》里",
+   "leadZh": "yéni ve lintë yuldar avánier：漫长岁月如疾饮般逝去。这里显然不是「去了别处」，否则该用 oantier。",
+   "objectives": [
+    "能引用 avánier 这一句",
+    "能用它说明两套形式的差别"
+   ],
+   "rules": [
+    {
+     "id": "r-au-m1",
+     "headZh": "语料",
+     "bodyZh": "yéni ve lintë yuldar avánier「long years have passed like swift draughts」。",
+     "en": "yéni ve lintë yuldar avánier",
+     "zh": "漫长岁月如疾饮般逝去。"
+    },
+    {
+     "id": "r-au-m2",
+     "headZh": "反证",
+     "bodyZh": "意思显然不是岁月去了别处（那就该用 oantier），而是岁月只是过去了、如今已不在。若主语更具体，vánë／avánië 便意味着消失、失去、死去。",
+     "en": "now they are gone",
+     "zh": "如今它们已不在。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 avánier 译成「去了别处」",
+     "right": "译「逝去、已不在」",
+     "whyZh": "原文：obviously the meaning is not that the yéni ... have gone away to another place。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "诗句即语法证据",
+     "bodyZh": "这一行诗同时给出了形式（avánier）与意义（have passed），因此能反过来确定两套过去时的分工。诗歌在昆雅研究里常是最硬的证据。"
+    }
+   ],
+   "recapZh": "avánier ＝ have passed，不是「去了别处」。",
+   "selfCheckZh": [
+    {
+     "qZh": "「岁月去了别处」该用哪个完成时？",
+     "aZh": "oantier。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-allative-and-ablative-cases",
+    "unitIds": [
+     37
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "auta-vanwa",
+   "sourceSectionId": "the-allative-and-ablative-cases",
+   "titleZh": "26 · vanwa：算分词还是形容词",
+   "leadZh": "vanwa「gone、lost、past and over」被托尔金称为 auta- 的过去分词，但它与 -na／-ina 分词无关。",
+   "objectives": [
+    "知道 vanwa 的意义与两处用例",
+    "知道「分词／形容词」之争无关紧要"
+   ],
+   "rules": [
+    {
+     "id": "r-au-vw1",
+     "headZh": "vanwa 的意义",
+     "bodyZh": "vanwa 意为 gone、lost、vanished、past and over，受它影响，vánë／avánië 才有「消失」义。",
+     "en": "Sí vanwa ná, Rómello vanwa, Valimar",
+     "zh": "如今 Valimar 已失，对东方来的人而言已失。"
+    },
+    {
+     "id": "r-au-vw2",
+     "headZh": "术语无关紧要",
+     "bodyZh": "托尔金称它为「past participle」，但它显然与 -na／-ina 构成的分词无关。叫分词还是叫动词性形容词，实际差别不大。",
+     "en": "it matters little whether we call vanwa a participle",
+     "zh": "把 vanwa 叫分词与否差别不大。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 vanwa 是 -na 分词",
+     "right": "它是独立形容词性的形式",
+     "whyZh": "原文：it obviously has no connection with the past or passive participles ... constructed with the ending -na or -ina。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "词源影响意义",
+     "bodyZh": "vánë／avánië 的「消失」义不是从 auta- 来的，而是从 vanwa 染上的。这说明词族内部的意义会互相牵引。"
+    }
+   ],
+   "recapZh": "vanwa ＝ gone／lost；术语之争无关紧要。",
+   "selfCheckZh": [
+    {
+     "qZh": "vanwa 与 -na 分词有关吗？",
+     "aZh": "没有关系。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-allative-and-ablative-cases",
+    "unitIds": [
+     38
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "auta-note1",
+   "sourceSectionId": "the-allative-and-ablative-cases",
+   "titleZh": "27 · 注 1：vanya- 与 avánier",
+   "leadZh": "托尔金写《Namárië》时，可能把 avánier 想作 vanya-「go, depart, disappear」的完成时。",
+   "objectives": [
+    "知道 vanya- 这条旧线索",
+    "知道 vanwa 从 1915 年就有"
+   ],
+   "rules": [
+    {
+     "id": "r-au-n1",
+     "headZh": "旧线索",
+     "bodyZh": "托尔金写《Namárië》时可能把 avánier 当作《词源》里 vanya-「go, depart, disappear」的完成时。",
+     "en": "vanya-",
+     "zh": "go, depart, disappear（去、离开、消失）。"
+    },
+    {
+     "id": "r-au-n2",
+     "headZh": "仍取后期说法",
+     "bodyZh": "我们仍应接受托尔金 LotR 之后关于 auta- 的想法，因为它出现在《精灵宝钻》这样的首要资料里。",
+     "en": "We should still accept Tolkien's post-LotR ideas about the verb auta-",
+     "zh": "我们仍应接受托尔金 LotR 之后关于 auta- 的想法。"
+    },
+    {
+     "id": "r-au-n3",
+     "headZh": "vanwa 的古老",
+     "bodyZh": "vanwa 早在 1915 年的《Qenya 词汇表》里就有，并在各阶段一直保留。",
+     "en": "vanwa",
+     "zh": "gone, lost, over（已去、已失、已终）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 avánier 一定是 vanya- 的完成时",
+     "right": "那是旧构想；本书取 auta- 的后期说法",
+     "whyZh": "原文用 it may well be 表推测，并明说仍接受 post-LotR 的想法。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "两种真，选一个用",
+     "bodyZh": "旧构想与后期说法都能自圆其说，作者选后期，理由是《精灵宝钻》的地位。这是「证据权重」的又一次应用。"
+    }
+   ],
+   "recapZh": "avánier 旧说属 vanya-；本书取 auta-。",
+   "selfCheckZh": [
+    {
+     "qZh": "本书采信哪套说法？",
+     "aZh": "托尔金 LotR 之后关于 auta- 的说法。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-allative-and-ablative-cases",
+    "unitIds": [
+     39
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "auta-note2",
+   "sourceSectionId": "the-allative-and-ablative-cases",
+   "titleZh": "28 · 注 2：另一个 auta-「发明」",
+   "leadZh": "《词源》GAWA 条目另有一个 auta-「to invent」，其过去时也许就是 autanë。",
+   "objectives": [
+    "知道有两个 auta-",
+    "知道 autanë 属「发明」那个"
+   ],
+   "rules": [
+    {
+     "id": "r-au-n4",
+     "headZh": "两个 auta-",
+     "bodyZh": "《词源》GAWA 条目列出相当不同的 auta-「to invent」。看来托尔金写 Etym 时，后来那个 auta-「go away」还不存在。",
+     "en": "auta- \"to invent\"",
+     "zh": "auta-「发明」。"
+    },
+    {
+     "id": "r-au-n5",
+     "headZh": "autanë 的归属",
+     "bodyZh": "若承认两个动词都有效，可在某些时态上区分：auta-「发明」的过去时也许就是最简单的 autanë。",
+     "en": "autanë",
+     "zh": "（发明的）过去时。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 autanë 当 auta-「离开」的规则过去时",
+     "right": "它属 auta-「发明」",
+     "whyZh": "原文：for auta- \"to invent\" may perhaps have the simplest past tense form autanë。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "同形异源",
+     "bodyZh": "两个 auta- 同形却无关。读旧材料遇到「不规则」时，先问：是不是另一个同形词？这条思路能解决不少困惑。"
+    }
+   ],
+   "recapZh": "autanë 属 auta-「发明」。",
+   "selfCheckZh": [
+    {
+     "qZh": "autanë 是哪个动词的过去时？",
+     "aZh": "auta-「发明」。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-allative-and-ablative-cases",
+    "unitIds": [
+     40
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pos-intro",
+   "sourceSectionId": "possessive-pronominal-endings",
+   "titleZh": "29 · 从主语词尾到所有格词尾",
+   "leadZh": "已学的代词词尾都加在动词上作主语。所有格词尾逻辑上加在名词上：-nya「我的」，coanya「我的房子」。",
+   "objectives": [
+    "复习主语代词词尾",
+    "知道 -nya 与重音位置"
+   ],
+   "rules": [
+    {
+     "id": "r-po-i1",
+     "headZh": "加在名词上",
+     "bodyZh": "所有格代词词尾逻辑上加在名词上，而非动词上。「我的」是 -nya：coanya「我的房子」、nórenya「我的土地」。",
+     "en": "the ending for \"my\" is -nya",
+     "zh": "「我的」的词尾是 -nya。"
+    },
+    {
+     "id": "r-po-i2",
+     "headZh": "重音随词尾移动",
+     "bodyZh": "重音落在代词词尾前的音节：co-A-nya、nó-RE-nya。因为所有词尾都以辅音丛开头。",
+     "en": "The accent now falls on the syllable before the pronominal ending",
+     "zh": "重音现在落在代词词尾前的音节上。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 -nya 加在动词上",
+     "right": "它加在名词上表所属",
+     "whyZh": "原文：these endings are logically added to nouns, not to verbs。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "两组词尾，一套逻辑",
+     "bodyZh": "主语词尾（-nyë）加动词，所有格词尾（-nya）加名词；两者只差末元音。抓住这条对应，后面整张表都好记。"
+    }
+   ],
+   "recapZh": "-nya「我的」；coanya、nórenya。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我的土地」怎么写？",
+     "aZh": "nórenya。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "possessive-pronominal-endings",
+    "unitIds": [
+     0,
+     1
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pos-a",
+   "sourceSectionId": "possessive-pronominal-endings",
+   "titleZh": "30 · 一条转换规则：-ë 变 -a",
+   "leadZh": "主语词尾都以 -ë 结尾，所有格词尾把末元音改成 -a：-nyë→-nya、-lyë→-lya、-lvë→-lva、-lmë→-lma。",
+   "objectives": [
+    "能默写四对词尾",
+    "知道 coalva 与 coalma 英译相同但意义不同"
+   ],
+   "rules": [
+    {
+     "id": "r-po-a1",
+     "headZh": "-ë → -a",
+     "bodyZh": "所有格词尾只需把主语词尾的末元音 -ë 改成 -a。这是全书最省力的一条记忆规则。",
+     "en": "by changing the final vowel to -a",
+     "zh": "把末元音改成 -a。"
+    },
+    {
+     "id": "r-po-a2",
+     "headZh": "四对",
+     "bodyZh": "-nyë／-nya、-lyë／-lya、-lvë／-lva、-lmë／-lma。故 coalya「你的房子」，coalva 与 coalma 都译「我们的房子」。",
+     "en": "coalya",
+     "zh": "你的房子。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 coalva 与 coalma 同义可换",
+     "right": "一为包含、一为排除",
+     "whyZh": "原文说两者英译相同，但对应 -lvë（包含）与 -lmë（排除）。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "英译掩盖了区分",
+     "bodyZh": "coalva 与 coalma 在英语里都是 our house，但昆雅区分听众是否在内。这正是上一课「我们」的区分搬到了名词上。"
+    }
+   ],
+   "recapZh": "-ë→-a：-nya、-lya、-lva、-lma。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我们的房子」（排除）怎么写？",
+     "aZh": "coalma。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "possessive-pronominal-endings",
+    "unitIds": [
+     2,
+     3,
+     4,
+     5,
+     6,
+     7
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pos-nta",
+   "sourceSectionId": "possessive-pronominal-endings",
+   "titleZh": "31 · -nta「他们的」：合理但未证",
+   "leadZh": "-ntë「他们」的对应形式应是 -nta，但未见于已刊材料。它与双数向格 -nta 同形，靠语境分辨。",
+   "objectives": [
+    "知道 -nta 是推得形式",
+    "知道同形不构成障碍"
+   ],
+   "rules": [
+    {
+     "id": "r-po-nta1",
+     "headZh": "推得的形式",
+     "bodyZh": "-ntë「他们」的对应形式应是 -nta「他们的」，但未见于已刊材料。",
+     "en": "though the latter suffix is not attested in published material",
+     "zh": "尽管后者未见于已刊材料。"
+    },
+    {
+     "id": "r-po-nta2",
+     "headZh": "同形可分辨",
+     "bodyZh": "它虽与双数向格 -nta 同形，语境里不难分辨 ciryanta 是「to a couple of ships」还是「their ship」。甚至可叠加：ciryantanta「to their couple of ships」。",
+     "en": "ciryantanta",
+     "zh": "to their couple of ships。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "在正式写作里随意用 -nta",
+     "right": "它未证；作者只推荐给写作者",
+     "whyZh": "原文：I won't construct any exercises involving the unattested ending -nta。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "同形不是问题",
+     "bodyZh": "作者判断同形可接受，理由是语境足够。这与上一课 tárin 兼单复数的思路一致：昆雅容许一定的形式重合。"
+    }
+   ],
+   "recapZh": "-nta「他们的」（未证，可推荐）。",
+   "selfCheckZh": [
+    {
+     "qZh": "-nta 在已刊材料里有证吗？",
+     "aZh": "没有。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "possessive-pronominal-endings",
+    "unitIds": [
+     8
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pos-explode",
+   "sourceSectionId": "possessive-pronominal-endings",
+   "titleZh": "32 · 组合爆炸，但词尾不多",
+   "leadZh": "代词词尾与格、数词尾结合，形式数量爆炸；但既然只是组合，词尾本身不多，记忆负担没那么大。",
+   "objectives": [
+    "理解「组合」而非「新词尾」",
+    "知道 sambelya 按普通 -a 名词处理"
+   ],
+   "rules": [
+    {
+     "id": "r-po-e1",
+     "headZh": "组合而已",
+     "bodyZh": "数百种可能形式，但涉及的词尾并不多，记忆负担其实不大。",
+     "en": "they are just that – combinations",
+     "zh": "它们只是组合。"
+    },
+    {
+     "id": "r-po-e2",
+     "headZh": "按普通 -a 名词处理",
+     "bodyZh": "sambelya「你的房间」按任何 -a 名词加数与格词尾即可。一个后果是它有了 -r 复数 sambelyar，而 sambë 本身是 i 复数 sambi。",
+     "en": "sambelyar",
+     "zh": "your rooms（你的房间们）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 sambelya 的复数是 sambeli",
+     "right": "是 sambelyar（带词尾的词按 -a 名词变）",
+     "whyZh": "原文：the word now has a plural in -r (sambelyar), though sambë ... would be an i-plural。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一条元规则",
+     "bodyZh": "名词一旦带上所有格词尾，就变成以 -a 结尾的新词干，此后一切照普通 -a 名词办。这条元规则省掉整张表。"
+    }
+   ],
+   "recapZh": "带词尾后按 -a 名词变：sambelyar。",
+   "selfCheckZh": [
+    {
+     "qZh": "sambelya 的复数？",
+     "aZh": "sambelyar。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "possessive-pronominal-endings",
+    "unitIds": [
+     9,
+     10
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pos-paradigm",
+   "sourceSectionId": "possessive-pronominal-endings",
+   "titleZh": "33 · sambelya 全表：六格 × 三数",
+   "leadZh": "把 sambelya 按六格三数铺开。表里没有一个形式是新的——全是已学词尾的组合。",
+   "objectives": [
+    "能默写 sambelya 的六格三数",
+    "能指出属格 -o 取代末 -a"
+   ],
+   "table": {
+    "captionZh": "sambelya「你的房间」六格三数",
+    "headers": [
+     "格",
+     "单数",
+     "双数",
+     "复数"
+    ],
+    "rows": [
+     [
+      "主格／宾格",
+      "sambelya",
+      "sambelyat",
+      "sambelyar"
+     ],
+     [
+      "属格",
+      "sambelyo",
+      "sambelyato",
+      "sambelyaron"
+     ],
+     [
+      "所有格",
+      "sambelyava",
+      "?sambelyatwa",
+      "sambelyaiva"
+     ],
+     [
+      "与格",
+      "sambelyan",
+      "sambelyant",
+      "sambelyain"
+     ],
+     [
+      "向格",
+      "sambelyanna",
+      "sambelyanta",
+      "sambelyannar"
+     ],
+     [
+      "离格",
+      "sambelyallo",
+      "sambelyalto",
+      "sambelyallon（或 -llor）"
+     ]
+    ]
+   },
+   "rules": [
+    {
+     "id": "r-po-p1",
+     "headZh": "属格吞掉末 -a",
+     "bodyZh": "属格词尾 -o 照例取代 sambelya 的末 -a，即使那个 -a 本身是另一个词尾的一部分：sambelyo。",
+     "en": "the genitive ending -o regularly displacing the final -a",
+     "zh": "属格词尾 -o 照例取代末 -a。"
+    },
+    {
+     "id": "r-po-p2",
+     "headZh": "双数与复数",
+     "bodyZh": "双数 -t、复数 -r／-n 依次叠加；向格 -nna、离格 -llo 与前面讲的完全一致。",
+     "en": "sambelyalto",
+     "zh": "from your couple of rooms。"
+    },
+    {
+     "id": "r-po-p3",
+     "headZh": "重音",
+     "bodyZh": "向格与离格的重音落在格词尾前的元音上，如 sambelyAllo。",
+     "en": "sambelyAllo",
+     "zh": "（重音在 A）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把属格写成 sambelyao",
+     "right": "sambelyo（-o 取代 -a）",
+     "whyZh": "原文：the genitive ending -o regularly displacing the final -a of sambelya。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "表的用法",
+     "bodyZh": "不要背表，要会生成：先写 sambelya，再按 -a 名词加词尾。表只是生成的检验清单。所有格双数带问号（?sambelyatwa），说明这一格本就少用。"
+    }
+   ],
+   "recapZh": "sambelyo、sambelyan、sambelyanna、sambelyallo。",
+   "selfCheckZh": [
+    {
+     "qZh": "「你的房间们」的属格？",
+     "aZh": "sambelyaron。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "possessive-pronominal-endings",
+    "unitIds": [
+     11,
+     12,
+     13,
+     14,
+     15,
+     16
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pos-order",
+   "sourceSectionId": "possessive-pronominal-endings",
+   "titleZh": "34 · 词序：代词词尾在前，格词尾在后",
+   "leadZh": "「from your room」是 sambelyallo 而非 sambellolya。tielyanna 是托尔金自造的同类例子。",
+   "objectives": [
+    "记住词尾顺序",
+    "能分析 tielyanna"
+   ],
+   "rules": [
+    {
+     "id": "r-po-o1",
+     "headZh": "顺序",
+     "bodyZh": "所有格代词词尾先加，数与格词尾加在其后。故 sambelyallo，而非 sambellolya。",
+     "en": "sambelyallo rather than sambellolya",
+     "zh": "是 sambelyallo 而非 sambellolya。"
+    },
+    {
+     "id": "r-po-o2",
+     "headZh": "tielyanna",
+     "bodyZh": "Anar caluva tielyanna「the Sun shall shine upon your path」：tië ＋ -lya ＋ -nna。",
+     "en": "Anar caluva tielyanna",
+     "zh": "太阳将照在你的路上。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写成 tiennalya 并当标准",
+     "right": "标准顺序是代词词尾在前（tielyanna）",
+     "whyZh": "原文承认相反顺序也出现过，但「pronominal ending first, case ending second」是最正典的系统。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "反序也存在",
+     "bodyZh": "原文说托尔金身后刊布的文本里也有 tiennalya 这样的反序。但本课程统一用正序，因为它在语料里更一致。"
+    }
+   ],
+   "recapZh": "先代词词尾，后格词尾：tielyanna。",
+   "selfCheckZh": [
+    {
+     "qZh": "「在你的路上」怎么写？",
+     "aZh": "tielyanna。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "possessive-pronominal-endings",
+    "unitIds": [
+     17
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pos-omentielvo",
+   "sourceSectionId": "possessive-pronominal-endings",
+   "titleZh": "35 · omentielvo：一句名问候的全解剖",
+   "leadZh": "Elen síla lúmenn' omentielvo。omentië ＋ -lva ＋ -o ＝ omentielvo，-o 取代末 -a。",
+   "objectives": [
+    "能逐词解剖这句问候",
+    "知道 omentielvo 的 -lva 是包含式"
+   ],
+   "rules": [
+    {
+     "id": "r-po-om1",
+     "headZh": "逐词",
+     "bodyZh": "Elen「星」、síla「正照耀」、lúmenn'（＝lúmenna，lúmë ＋ -nna「在……之上」）、omentielvo。",
+     "en": "Elen síla lúmenn' omentielvo",
+     "zh": "一颗星照在我们相遇的时刻。"
+    },
+    {
+     "id": "r-po-om2",
+     "headZh": "omentielvo 的构成",
+     "bodyZh": "omentië「相遇」＋ -lva（包含式「我们的」）＋ -o（属格），-o 取代末 -a，故 omentielvo。",
+     "en": "omentielvo",
+     "zh": "of our meeting（我们相遇的）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 -lva 当排除式",
+     "right": "它是包含式「我们的」",
+     "whyZh": "原文：the ending -lva for inclusive \"our\" (so far only attested here)。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么这句是本课的终点",
+     "bodyZh": "它同时用到向格（lúmenna）、所有格代词词尾（-lva）与属格（-o）。作者说「到本课我们终于给出了全部语法」——这句就是验收题。"
+    }
+   ],
+   "recapZh": "omentië + -lva + -o → omentielvo。",
+   "selfCheckZh": [
+    {
+     "qZh": "omentielvo 里的 -lva 是什么？",
+     "aZh": "包含式「我们的」。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "possessive-pronominal-endings",
+    "unitIds": [
+     18
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pos-first",
+   "sourceSectionId": "possessive-pronominal-endings",
+   "titleZh": "36 · 第一版作 omentielmo",
+   "leadZh": "第一版（1954–55）作 omentielmo，1966 修订版改为 omentielvo。Carpenter 的注释提到「双数屈折」。",
+   "objectives": [
+    "知道两版的差别",
+    "知道 Carpenter 注的说法"
+   ],
+   "rules": [
+    {
+     "id": "r-po-f1",
+     "headZh": "两版",
+     "bodyZh": "第一版作 omentielmo，托尔金在 1966 修订版改为 omentielvo。",
+     "en": "omentielmo",
+     "zh": "我们的相遇（第一版）。"
+    },
+    {
+     "id": "r-po-f2",
+     "headZh": "Carpenter 的注",
+     "bodyZh": "Carpenter 引托尔金说昆雅双数屈折取决于涉及人数，未能理解这点是「a mistake generally made by mortals」。",
+     "en": "a mistake generally made by mortals",
+     "zh": "凡人常犯的错误。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 omentielmo 只是拼写错误",
+     "right": "它涉及包含／排除的重新划分",
+     "whyZh": "下一段起作者逐条比较三种解释。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一个词，三种解释",
+     "bodyZh": "接下来作者并列 Carpenter（双数说）、Plotz（包含／排除说）、VT43（系统重构说）。读这一段要像读考据文章，注意谁说了什么。"
+    }
+   ],
+   "recapZh": "第一版 omentielmo；修订版 omentielvo。",
+   "selfCheckZh": [
+    {
+     "qZh": "哪一版作 omentielmo？",
+     "aZh": "1954–55 第一版。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "possessive-pronominal-endings",
+    "unitIds": [
+     19,
+     20
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pos-carpenter",
+   "sourceSectionId": "possessive-pronominal-endings",
+   "titleZh": "37 · 双数说：作者的第一版解释",
+   "leadZh": "作者曾据 Carpenter 的注推测：Frodo 该用双数「我们的」却用了复数。但此说难自圆其说。",
+   "objectives": [
+    "知道双数说的内容",
+    "知道它为何站不住"
+   ],
+   "rules": [
+    {
+     "id": "r-po-c1",
+     "headZh": "双数说",
+     "bodyZh": "作者第一版解释：Frodo 对 Gildor 说话，只涉及两人，本该用双数「我们的」，却错用复数。",
+     "en": "ought to have used a dual \"our\"",
+     "zh": "本该用双数「我们的」。"
+    },
+    {
+     "id": "r-po-c2",
+     "headZh": "难自圆其说",
+     "bodyZh": "但说「our meeting」时，Frodo 完全可以指自己一方与精灵一方的相遇，人数远超两个，复数反而恰当。所以此说不牢。",
+     "en": "the number of persons involved would far exceed two",
+     "zh": "涉及人数会远超两个。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把双数说当定论",
+     "right": "作者自己指出它难自圆其说",
+     "whyZh": "原文：this would not seem to be a particularly glaring mistake。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "作者公开修正自己",
+     "bodyZh": "原文说「在本课程第一版里，我这样解释」，然后指出问题。这种自我修正的写法，本身就是读学术文本的好示范。"
+    }
+   ],
+   "recapZh": "双数说：作者旧解，已难成立。",
+   "selfCheckZh": [
+    {
+     "qZh": "双数说的问题在哪？",
+     "aZh": "「相遇」可涉及两方多人，复数也恰当。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "possessive-pronominal-endings",
+    "unitIds": [
+     21
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pos-plotz",
+   "sourceSectionId": "possessive-pronominal-endings",
+   "titleZh": "38 · Plotz 的自白",
+   "leadZh": "Plotz 把 omentielvo 当错误去「改正」，结果引入 omentilmo 这个无意义形式。",
+   "objectives": [
+    "知道 Plotz 改错的过程",
+    "知道 omentilmo 无意义"
+   ],
+   "rules": [
+    {
+     "id": "r-po-pl1",
+     "headZh": "改错",
+     "bodyZh": "Plotz 以为 omentielvo 是错误，说服 Ballantine 去「改正」，结果产生 omentilmo，据他所知毫无意义。",
+     "en": "omentilmo",
+     "zh": "（讹形）无意义。"
+    },
+    {
+     "id": "r-po-pl2",
+     "headZh": "正误",
+     "bodyZh": "ommentielvo 才是对的；ommentielmo 含排除式「我们的」，在此不恰当。",
+     "en": "But omentielvo is correct",
+     "zh": "但 omentielvo 才是对的。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "沿用 omentilmo",
+     "right": "正确形式是 omentielvo",
+     "whyZh": "Plotz 自白：omentilmo ... means nothing at all。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一段难得的自白",
+     "bodyZh": "这段引文是当事人认错，价值极高：它同时说明了讹形的来源与正确形式。作者全文照引，不加删削。"
+    }
+   ],
+   "recapZh": "omentilmo 是讹形；ommentielvo 正确。",
+   "selfCheckZh": [
+    {
+     "qZh": "ommentilmo 有意义吗？",
+     "aZh": "没有。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "possessive-pronominal-endings",
+    "unitIds": [
+     22,
+     23
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pos-plotz2",
+   "sourceSectionId": "possessive-pronominal-endings",
+   "titleZh": "39 · Plotz 的实质解释：包含 vs 排除",
+   "leadZh": "ommentielvo 含包含式「我们的」（正确），ommentielmo 含排除式（不恰当，因为 Frodo 把精灵包含在内）。",
+   "objectives": [
+    "能说明包含／排除在此的分野",
+    "知道 Plotz 说其解释源自托尔金来信"
+   ],
+   "rules": [
+    {
+     "id": "r-po-pl3",
+     "headZh": "实质解释",
+     "bodyZh": "ommentielvo 含包含式「我们的」，ommentielmo 含托尔金最终认定为排除式的「我们的」。Frodo 说「our meeting」时显然把对话的精灵包含在内，故须用包含式。",
+     "en": "he obviously includes the Elves he is talking to",
+     "zh": "他显然把正在对话的精灵包含在内。"
+    },
+    {
+     "id": "r-po-pl4",
+     "headZh": "来源",
+     "bodyZh": "Plotz 暗示其解释基于托尔金来信，但此信已不存。",
+     "en": "this letter is apparently no longer extant",
+     "zh": "此信显然已不存。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 Carpenter 的双数说与 Plotz 说混为一谈",
+     "right": "两者解释不同：一为双数，一为包含／排除",
+     "whyZh": "原文：This is not the explanation Carpenter hinted at。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "证据链的缺口",
+     "bodyZh": "Plotz 说源自托尔金来信，但信不存。作者如实标出这个缺口，而不是把它当作已证事实。"
+    }
+   ],
+   "recapZh": "ommentielvo＝包含式；ommentielmo＝排除式。",
+   "selfCheckZh": [
+    {
+     "qZh": "为什么 omentielmo 在此不恰当？",
+     "aZh": "它是排除式，而 Frodo 把精灵包含在内。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "possessive-pronominal-endings",
+    "unitIds": [
+     24
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pos-vt43",
+   "sourceSectionId": "possessive-pronominal-endings",
+   "titleZh": "40 · VT43：系统重构（-lm- → -lv-）",
+   "leadZh": "VT43 说修订版前代词系统重构：-lm- 转为 -lv- 作复数包含式标记，-lm- 反成排除式，-mm- 变双数。",
+   "objectives": [
+    "知道 -lm- → -lv- 的转变",
+    "知道 -mm- 变双数"
+   ],
+   "rules": [
+    {
+     "id": "r-po-vt1",
+     "headZh": "核心改动",
+     "bodyZh": "「the shift of -lm- to -lv- as the marker」of plural inclusive we／our。",
+     "en": "the shift of -lm- to -lv-",
+     "zh": "-lm- 转为 -lv-。"
+    },
+    {
+     "id": "r-po-vt2",
+     "headZh": "三者重排",
+     "bodyZh": "原先 -mm- 排除、-lm- 包含；现在 -lm- 改作排除，-lv- 作新包含式取代 -mm-，而 -mm- 据 VT43:6 变为双数。",
+     "en": "now Tolkien made -lm- exclusive instead",
+     "zh": "现在托尔金反把 -lm- 定为排除式。"
+    },
+    {
+     "id": "r-po-vt3",
+     "headZh": "Christopher 的感叹",
+     "bodyZh": "作者引 Christopher Tolkien 在 SD:440 的话：他父亲无休止的修订「often frustrating to those who study these languages」。",
+     "en": "often frustrating to those who study these languages",
+     "zh": "常令研究这些语言的人沮丧。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "用第一版格局读修订版文本",
+     "right": "按 VT43 的新格局读",
+     "whyZh": "原文明确：本课程现版本采用 VT43 与 Plotz 呈现的系统。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一次改动，三个词尾换位",
+     "bodyZh": "-lm- 从包含变排除、-lv- 新出、-mm- 从排除变双数。三者同时挪位，所以只记一个词尾的变化不够，要记整张表。"
+    }
+   ],
+   "recapZh": "-lv- 包含、-lm- 排除、-mm- 双数。",
+   "selfCheckZh": [
+    {
+     "qZh": "修订后包含式「我们的」是？",
+     "aZh": "-lva。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "possessive-pronominal-endings",
+    "unitIds": [
+     25
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pos-welden",
+   "sourceSectionId": "possessive-pronominal-endings",
+   "titleZh": "41 · Welden 的正典之争与作者的取舍",
+   "leadZh": "Welden 认为 Plotz 的叙述是正典，Carpenter 的不是。作者举反例说明书信也未必终局，但最终采用 VT43＋Plotz 的系统。",
+   "objectives": [
+    "知道 Welden 的论证",
+    "知道作者为何仍可能不采书信说法"
+   ],
+   "rules": [
+    {
+     "id": "r-po-w1",
+     "headZh": "Welden 的论证",
+     "bodyZh": "Carpenter 的叙述未经托尔金参与，只是从笔记里摘出，可能只是临时想法；Plotz 的叙述是托尔金主动寄出的，故为正典。",
+     "en": "Carpenter's account is not canon",
+     "zh": "Carpenter 的叙述不是正典。"
+    },
+    {
+     "id": "r-po-w2",
+     "headZh": "作者的反例",
+     "bodyZh": "1958 年托尔金写信说众维拉没有自己的语言，但一年后的《Quendi and Eldar》却引了许多维拉语的词。可见书信说法也可能被后来自我推翻。",
+     "en": "the Valar had no language of their own, not needing one",
+     "zh": "众维拉没有自己的语言，也不需要。"
+    },
+    {
+     "id": "r-po-w3",
+     "headZh": "最终取舍",
+     "bodyZh": "本课程采用 VT43 与 Plotz 的系统：-lva 包含、-lma 排除、-mma 双数（含／排不明）。",
+     "en": "-lva",
+     "zh": "包含式「我们的」。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把「托尔金信里说的」一律当终局",
+     "right": "他后来可能推翻；要看证据权重",
+     "whyZh": "原文以 1958 年维拉语之例说明书信说法也可能被放弃。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "正典不是一条线",
+     "bodyZh": "这一段展示学术判断的实况：正典性、时间先后、文本性质三者互相牵制。作者给出取舍，也给出取舍的代价。"
+    }
+   ],
+   "recapZh": "采 VT43＋Plotz：-lva／-lma／-mma。",
+   "selfCheckZh": [
+    {
+     "qZh": "本书「我们的」（排除）用？",
+     "aZh": "-lma。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "possessive-pronominal-endings",
+    "unitIds": [
+     26,
+     27,
+     28
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pos-cons",
+   "sourceSectionId": "possessive-pronominal-endings",
+   "titleZh": "40a · 辅音结尾：atarelya、ataremma",
+   "leadZh": "必要时在代词词尾前插 -e-：atarelya「你的父亲」。ataremma 是可证的「我们的父亲」，属早期 -mma 阶段。",
+   "objectives": [
+    "知道 atarelya 的 -e-",
+    "知道 ataremma 的阶段与 átaremma"
+   ],
+   "rules": [
+    {
+     "id": "r-po-cs1",
+     "headZh": "插 -e-",
+     "bodyZh": "atar ＋ -lya 大概产生 atarelya，因为 atarlya 不是可能的昆雅词。",
+     "en": "atarelya",
+     "zh": "your father（你的父亲）。"
+    },
+    {
+     "id": "r-po-cs2",
+     "headZh": "ataremma",
+     "bodyZh": "「我们的父亲」可证作 ataremma（VT43:8），属早期 -mma 阶段；后来的版本作 átaremma，首元音拉长，也许是 a Ataremma 的缩合。",
+     "en": "ataremma",
+     "zh": "our father（我们的父亲）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 atarlya",
+     "right": "atarelya",
+     "whyZh": "原文：since **atarlya is not a possible Quenya word。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "同一原则，两处出现",
+     "bodyZh": "格词尾前插 -e-（Elendilenna）与代词词尾前插 -e-（atarelya）是同一条音系原则。学一条，用两处。"
+    }
+   ],
+   "recapZh": "atarelya、ataremma。",
+   "selfCheckZh": [
+    {
+     "qZh": "「你的父亲」怎么写？",
+     "aZh": "atarelya。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "possessive-pronominal-endings",
+    "unitIds": [
+     29
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pos-i-plural",
+   "sourceSectionId": "possessive-pronominal-endings",
+   "titleZh": "43 · 复数连接元音 -i-：elenilyar、atarilmar",
+   "leadZh": "复数名词需要连接元音时用 -i-：elenilyar「your stars」、atarilmar「our fathers」。",
+   "objectives": [
+    "知道复数用 -i-",
+    "能分析 hildinyar"
+   ],
+   "rules": [
+    {
+     "id": "r-po-ip1",
+     "headZh": "复数 -i-",
+     "bodyZh": "与格词尾同理，复数名词接代词词尾时用 -i-：elenilyar、atarilmar（而非 atarelmar）。",
+     "en": "elenilyar",
+     "zh": "your stars（你的众星）。"
+    },
+    {
+     "id": "r-po-ip2",
+     "headZh": "hildinyar",
+     "bodyZh": "hildinyar「my heirs」也许就是一例，若「heir」是 ?hil、词干 hild-，复数 hildi。",
+     "en": "hildinyar",
+     "zh": "my heirs（我的继承人）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "复数也用 -e-",
+     "right": "复数用 -i-（atarilmar）",
+     "whyZh": "原文：\"our (excl.) fathers\" should evidently be atarilmar rather than atarelmar。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "数决定元音",
+     "bodyZh": "单数 -e-、复数 -i-。这条规则在格词尾与代词词尾上完全一致，是音系层面的，不是形态层面的特例。"
+    }
+   ],
+   "recapZh": "复数 -i-：elenilyar、atarilmar。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我们的众父」怎么写？",
+     "aZh": "atarilmar。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "possessive-pronominal-endings",
+    "unitIds": [
+     30
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pos-nya",
+   "sourceSectionId": "possessive-pronominal-endings",
+   "titleZh": "44 · -nya 的例外：一律偏好 -i-",
+   "leadZh": "-nya 无论单复数都偏好 -i-：Anarinya「my Sun」、atarinya「my father」。因为这个 i 来自原始词根 NI²。",
+   "objectives": [
+    "知道 -nya 的 -i- 偏好",
+    "能用 Anarinya、atarinya 举例"
+   ],
+   "rules": [
+    {
+     "id": "r-po-ny1",
+     "headZh": "一律 -i-",
+     "bodyZh": "-nya 需要连接元音时总偏好 -i-，无论名词单复数。这个 i 反映产生第一人称代词的原始词根 NI²。",
+     "en": "Anarinya",
+     "zh": "my Sun（我的太阳）。"
+    },
+    {
+     "id": "r-po-ny2",
+     "headZh": "atarinya",
+     "bodyZh": "「my father」是 atarinya（LR:61），而非 ?atarenya。复数 atarinyar，单复数仍可区分。",
+     "en": "atarinya",
+     "zh": "my father（我的父亲）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 atarenya",
+     "right": "atarinya",
+     "whyZh": "原文：\"my father\" is atarinya (LR:61) rather than ?atarenya。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一个例外，一条历史",
+     "bodyZh": "-nya 的 -i- 不是任意例外，而是词根元音的残留。音系规则背后常有历史原因，这类例外最好连着词源一起记。"
+    }
+   ],
+   "recapZh": "-nya 一律用 -i-：atarinya、Anarinya。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我的父亲」怎么写？",
+     "aZh": "atarinya。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "possessive-pronominal-endings",
+    "unitIds": [
+     31
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pos-orenya",
+   "sourceSectionId": "possessive-pronominal-endings",
+   "titleZh": "45 · 反例：órenya 而非 órinya",
+   "leadZh": "-ë 结尾的名词不需要连接元音，故 órenya「my heart」。lassennar 同理，不是 lassinnar。",
+   "objectives": [
+    "知道 -ë 结尾不需连接元音",
+    "能用 órenya、lassennar 反驳「-ë 变 -i」说"
+   ],
+   "rules": [
+    {
+     "id": "r-po-or1",
+     "headZh": "órenya",
+     "bodyZh": "有人提出 -nya 加到 -ë 结尾名词上会把 -ë 换成 -i-，但 VT41:11 作 órenya 而非 órinya。",
+     "en": "órenya",
+     "zh": "my heart（我的心）。"
+    },
+    {
+     "id": "r-po-or2",
+     "headZh": "lassennar",
+     "bodyZh": "Plotz 信作 lassennar 而非 lassinnar，尽管主格复数是 lassi。可见 -ë 结尾本就不需要连接元音。",
+     "en": "lassennar",
+     "zh": "to leaves（到众叶）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 órinya",
+     "right": "órenya",
+     "whyZh": "原文：VT41:11 has órenya, not **órinya。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一条反例推翻一条类推",
+     "bodyZh": "órenya 一个形式就否掉了「-ë 变 -i」的类推。这是语言学里常见的：类推看似合理，但一个反例就够。"
+    }
+   ],
+   "recapZh": "órenya、lassennar：-ë 结尾不需连接元音。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我的心」怎么写？",
+     "aZh": "órenya。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "possessive-pronominal-endings",
+    "unitIds": [
+     32
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pos-contract",
+   "sourceSectionId": "possessive-pronominal-endings",
+   "titleZh": "46 · 缩合：aranya「my king」",
+   "leadZh": "末辅音与词尾首辅音相同时可合并：aran-nya → aranya。mindonyar 同理。",
+   "objectives": [
+    "知道 aranya 的缩合",
+    "知道与 mindonnar 同理"
+   ],
+   "rules": [
+    {
+     "id": "r-po-ct1",
+     "headZh": "aranya",
+     "bodyZh": "UT:193 的 aranya 未译，但显然意为「my king」，由 aran ＋ -nya 缩合，不可能的形式 arannya 简化为 aranya。",
+     "en": "aranya",
+     "zh": "my king（我的王）。"
+    },
+    {
+     "id": "r-po-ct2",
+     "headZh": "mindonyar",
+     "bodyZh": "与格词尾处的合并同理：mindonnar 而非 mindoninnar；也许「my towers」作 mindonyar。",
+     "en": "mindonyar",
+     "zh": "my towers（我的众塔）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 arannya",
+     "right": "aranya",
+     "whyZh": "原文：the impossible form **arannya being simplified to aranya。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "缩合与插音的选择",
+     "bodyZh": "同是消掉非法辅音丛：插 -e- 得 atarelya，缩合得 aranya。选择取决于末辅音是否与词尾首辅音相同。"
+    }
+   ],
+   "recapZh": "aranya、mindonyar：同辅音合并。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我的王」怎么写？",
+     "aZh": "aranya。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "possessive-pronominal-endings",
+    "unitIds": [
+     33
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pos-yonya",
+   "sourceSectionId": "possessive-pronominal-endings",
+   "titleZh": "47 · yonya 与 hinya：称呼用的缩合",
+   "leadZh": "yondonya 是规则形式，但当面称呼儿子时用缩合的 yonya。hina 作称呼时也缩合成 hinya。",
+   "objectives": [
+    "知道 yonya 的使用场合",
+    "知道 hinya 的来历"
+   ],
+   "rules": [
+    {
+     "id": "r-po-y1",
+     "headZh": "yonya",
+     "bodyZh": "「my son」大可直接作 yondonya，但 LR:61 里 Elendil 称其子为 yonya，是 yondonya 的缩合变体，也许主要用于当面称呼。",
+     "en": "yonya",
+     "zh": "my son（我的儿子，称呼用）。"
+    },
+    {
+     "id": "r-po-y2",
+     "headZh": "hinya",
+     "bodyZh": "hina 只用于称呼（年幼的）孩子；作称呼时常见 hinya「my child」，是 hinanya 的缩合。",
+     "en": "hinya",
+     "zh": "my child（我的孩子，称呼用）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 yonya 是唯一形式",
+     "right": "yondonya 才是规则形式；yonya 是称呼用缩合",
+     "whyZh": "原文：\"my son\" might simply be yondonya ... Yet ... Elendil addresses his son as yonya。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "称呼语有自己的形态",
+     "bodyZh": "yonya、hinya 都是呼语专用。昆雅在称呼场合容许更多缩合——这与许多语言（如呼格的缩短）相通。"
+    }
+   ],
+   "recapZh": "yondonya／yonya；hinanya／hinya。",
+   "selfCheckZh": [
+    {
+     "qZh": "当面叫儿子「我的儿子」用？",
+     "aZh": "yonya。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "possessive-pronominal-endings",
+    "unitIds": [
+     34
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "summary",
+   "sourceSectionId": "possessive-pronominal-endings",
+   "kind": "summary",
+   "titleZh": "48 · 本课小结",
+   "leadZh": "向格／离格、两个怪动词、所有格代词词尾，三块收成一张清单。英文小结逐字取自原文。",
+   "objectives": [
+    "能复述两格与双数／复数词尾",
+    "能说出 equë 与 auta- 的特殊处",
+    "能默写所有格代词词尾"
+   ],
+   "summaryEn": "Summary of Lesson Fourteen: The Quenya allative case has the ending -nna (plural -nnar) and expresses the basic idea of \"to, toward\", e.g. ciryanna \"to a ship\". In certain contexts, this case may also express \"on, upon\" or \"into\". The ablative case has the ending -llo (plural -llon, or alternatively -llor) and signifies \"from\", e.g. ciryallo \"from a ship\"; sometimes the ablative may also imply \"out of\". The dual forms of the allative and ablative endings are -nta and -lto, respectively (at least in the case of nouns with nominative dual forms in -t; it may be that nouns with nominative dual forms in -u would rather have the basic endings -nna or -llo following this vowel). If a noun ending in a consonant is to receive the case ending for allative or ablative, a connecting vowel (in the singular -e-, in the plural -i-) may be inserted before the case ending to avoid an impossible consonant cluster; otherwise, a contracted form is used (e.g. Rómello \"from the East\", for Rómen-llo). – The verb equë is a peculiar form that is not inflected for tense and rarely receives endings of any kind; it means \"said\" or \"says\" and is used to introduce quotations where the subject (which follows the verb equë and precedes the quotation) is a proper name or an independent pronoun. – The verb auta- \"pass, go away, leave\" has rather surprising past and perfect forms: oantë or oantië if the verb refers to physically leaving one place (and going to another), but vánë and avánië if the verb refers to disappearing, being lost, or dying off. – Quenya possessive pronouns are normally expressed as endings added to the relevant noun (the thing that is owned). These suffixes include -nya \"my\", -lya \"your\", -lva \"our\" (inclusive), and -lma \"our\" (exclusive). The endings for \"we\" underwent certain revisions in the sixties, but this seems to be the final resolution. Notice that these possessive endings correspond to the subject pronominal endings suffixed to verbs, the former ending in -a whereas the latter end in -ë (therefore the unattested ending for \"their\" may well be -nta, corresponding to -ntë \"they\"). There is also an ending for dual our, evidently -mma after Tolkien's revisions, though it is unclear whether this ending is inclusive (\"thy and my\") or exclusive (\"his/her and my\"). Where required, connecting vowels may be fitted in before the noun and the pronominal ending, probably by much the same rules that apply to the case endings -nna and -llo, except that the ending -nya \"my\" seems to consistently prefer the connecting vowel -i-. Once a noun has received a possessive pronominal ending, this noun may be further inflected for number or case just like a regular noun in -a would be.",
+   "summaryZh": "第十四课小结：昆雅向格词尾是 -nna（复数 -nnar），表「to、toward」的基本概念，如 ciryanna「to a ship」。在某些语境里，这个格也可表「on、upon」或「into」。离格词尾是 -llo（复数 -llon，或 -llor），表「from」，如 ciryallo「from a ship」；离格有时也可含「out of」。向格与离格的双数词尾分别是 -nta 与 -lto（至少对主格双数为 -t 的名词如此；主格双数为 -u 的名词也许在该元音后直接用基本词尾 -nna 或 -llo）。若以辅音结尾的名词要接向格或离格词尾，可在格词尾前插入连接元音（单数 -e-，复数 -i-）以避免不可能的辅音丛；否则就用缩合形式（如 Rómello「from the East」，＝Rómen-llo）。——动词 equë 是个奇特形式，不作时态屈折，也极少接任何词尾；它意为「said」或「says」，用于引出引语，其主语（位于动词 equë 之后、引语之前）是专名或独立代词。——动词 auta-「pass、go away、leave」有相当出人意料的过去时与完成时：若指物理上离开一地（并前往另一地），用 oantë 或 oantië；若指消失、失去或死去，用 vánë 与 avánië。——昆雅物主代词通常以加在相关名词（被拥有之物）上的词尾表示。这些后缀包括 -nya「我的」、-lya「你的」、-lva「我们的」（包含）、-lma「我们的」（排除）。「我们」的词尾在六十年代经历若干修订，但这似乎是最终结论。注意这些所有格词尾与加在动词后的主语代词词尾相应：前者以 -a 结尾，后者以 -ë 结尾（故未证的「他们的」词尾很可能是 -nta，对应 -ntë「他们」）。另有一个双数「我们的」词尾，按托尔金修订后显然是 -mma，但不清楚它是包含式（「你和我」）还是排除式（「他／她和我」）。必要时可在名词与代词词尾之间插入连接元音，规则大概与格词尾 -nna、-llo 大致相同，唯 -nya「我的」似乎一贯偏好连接元音 -i-。名词一旦带上所有格代词词尾，就可像普通 -a 名词那样继续作数或格屈折。",
+   "formulaZh": [
+    "向格：-nna（ciryanna）；复数 -nnar（ciryannar）；双数 -nta（ciryanta）。",
+    "离格：-llo（ciryallo）；复数 -llon／-llor（ciryallon）；双数 -lto（ciryalto）。",
+    "引申义：向格表 upon（falmalinnar）、into（cilyanna）；离格表 out of（sindanóriello）、无运动（Ondolindello）。",
+    "消歧：into 用 mir／minna；out of 用 et ＋ 离格。",
+    "辅音后：单数插 -e-（Elendilenna），复数插 -i-（elenillor），同辅音可缩合（Mindonnar、Elenna、Menello）。",
+    "equë：无时态、不加 -r、极少接词尾；专名或独立代词＋引语在后时用。否则用 quet-。",
+    "auta-：物理离开 oantë／oantië；消失逝去 vánë／avánië；形容词 vanwa。",
+    "所有格词尾：-nya、-lya、-lva（包含）、-lma（排除）、-nta（他们的，未证）、-mma（双数）。",
+    "-ë → -a 对应：-nyë→-nya、-lyë→-lya、-lvë→-lva、-lmë→-lma。",
+    "顺序：先代词词尾后格词尾（tielyanna）；连接元音单数 -e-、复数 -i-，唯 -nya 一律 -i-。"
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 -nna 与与格 -n 混用",
+     "right": "实义「朝向」用 -nna；抽象 to／for 用 -n",
+     "whyZh": "原文：与格的 to「a rather abstract kind of to」，向格才是「towards」。"
+    }
+   ],
+   "recapZh": "两格＋两动词＋一组词尾：-nna／-llo；equë／auta-；-nya、-lya、-lva、-lma。",
+   "selfCheckZh": [
+    {
+     "qZh": "「从船上来」怎么写？",
+     "aZh": "tulin i ciryallo。"
+    },
+    {
+     "qZh": "「我的王」怎么写？",
+     "aZh": "aranya。"
+    }
+   ]
+  },
+  {
+   "sectionId": "exercises",
+   "sourceSectionId": "exercises",
+   "titleZh": "49 · 练习工作台（A–P）",
+   "leadZh": "A–H 昆雅译英，I–P 英译昆雅。答案逐字取自 keys.rtf。",
+   "objectives": [
+    "独立完成 A–P",
+    "用 keys 核对并把错题回链到规则"
+   ],
+   "bilingual": {
+    "sectionId": "exercises",
+    "unitIds": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17
+    ],
+    "labelZh": "练习"
+   },
+   "workflowZh": [
+    "先标出每个名词短语的格：向格？离格？与格？",
+    "看到 from／out of → 离格 -llo；看到 to／towards／upon → 向格 -nna",
+    "辅音结尾：先想插 -e-（单数）或 -i-（复数），再看能否缩合",
+    "名词带所有格词尾时，先加代词词尾，再加格词尾",
+    "ruc- 的宾语用离格（rucin i ulundollo）",
+    "auta- 先判意义：物理离开还是消失逝去",
+    "点「核对」比对 keys 原文答案",
+    "错题按「回到本课规则」跳回规则卡"
+   ],
+   "teachingNoteZh": "keys 对多数题给了注释：A 题提醒也可读作 out of／into；G 题的 rávillon 说明 rá (ráv-) 的复数离格需插 -i-；I 题的 et 可省；J 题指出「to our world」在此宜用与格而非向格；K 题的 mólinya 展示 -nya 一律用 -i-，ohtarilyar 展示复数 -i-；M 题的 sambenta 是双数向格、ambollon 是复数离格、quétala 是主动分词；N 题指出 equë 即使多主语也不加 -r；O 题指出普通名词不用 equë；P 题的 torninyan 是 -nya 加与格。",
+   "pitfalls": [
+    {
+     "wrong": "G 题把 rá 的复数离格写成 rávllon",
+     "right": "rávillon（插 -i-）",
+     "whyZh": "keys：rávllon 不是可能的词，故复数离格插 -i- 作 rávillon。"
+    }
+   ],
+   "recapZh": "先定格，再定连接元音；ruc- 用离格。",
+   "selfCheckZh": [
+    {
+     "qZh": "ruc- 的宾语用什么格？",
+     "aZh": "离格。"
+    }
+   ]
+  },
+  {
+   "sectionId": "ex-p3",
+   "sourceSectionId": "exercises",
+   "titleZh": "50 · 附加练习三：单词译短语（a–z）",
+   "leadZh": "把单个昆雅词一眼读成短语，是熟练的标志。下表给出 keys 的答案。",
+   "objectives": [
+    "能把带两层词尾的单词拆开",
+    "能用 keys 核对"
+   ],
+   "bilingual": {
+    "sectionId": "exercises",
+    "unitIds": [
+     18,
+     19,
+     20,
+     21
+    ],
+    "labelZh": "附加练习三"
+   },
+   "table": {
+    "captionZh": "练习三答案（keys 逐字）",
+    "headers": [
+     "题号",
+     "昆雅词",
+     "英译"
+    ],
+    "rows": [
+     [
+      "a",
+      "Coalvallon",
+      "From our (incl.) houses"
+     ],
+     [
+      "b",
+      "Hroanyan",
+      "For my body"
+     ],
+     [
+      "c",
+      "Hroalvain",
+      "For our (incl.) bodies"
+     ],
+     [
+      "d",
+      "Lambelvar",
+      "Our (incl.) tongues (nominative)"
+     ],
+     [
+      "e",
+      "Nórelyanna",
+      "To your land"
+     ],
+     [
+      "f",
+      "Engwelmar",
+      "Our (excl.) things (nominative)"
+     ],
+     [
+      "g",
+      "Aranelyallo",
+      "From your king"
+     ],
+     [
+      "h",
+      "Mólinyo",
+      "Of my thrall"
+     ],
+     [
+      "i",
+      "Mólinyaron",
+      "Of my thralls"
+     ],
+     [
+      "j",
+      "Ostolvannar",
+      "To our (incl.) cities"
+     ],
+     [
+      "k",
+      "Lielmo",
+      "Of our people"
+     ],
+     [
+      "l",
+      "Yondolyava",
+      "Of your son"
+     ],
+     [
+      "m",
+      "Sambelmat",
+      "Our (excl.) two-room apartment (nominative)"
+     ],
+     [
+      "n",
+      "Sambenyant",
+      "For my two-room apartment"
+     ],
+     [
+      "o",
+      "Sambelyato",
+      "Of your two-room apartment"
+     ],
+     [
+      "p",
+      "Sambelvanta",
+      "To our (incl.) two-room apartment"
+     ],
+     [
+      "q",
+      "Sambelyalto",
+      "From your two-room apartment"
+     ],
+     [
+      "r",
+      "Lienyava",
+      "Of my people"
+     ],
+     [
+      "s",
+      "Yondolvaiva",
+      "Of our (incl.) sons"
+     ],
+     [
+      "t",
+      "Tárilyan",
+      "For your queen"
+     ],
+     [
+      "u",
+      "Lielmaiva",
+      "Of our (excl.) peoples"
+     ],
+     [
+      "v",
+      "Nerinyaiva",
+      "Of my men"
+     ],
+     [
+      "w",
+      "Nerinyava",
+      "Of my man"
+     ],
+     [
+      "x",
+      "Seldonyain",
+      "For my boys"
+     ],
+     [
+      "y",
+      "Ciryalmalto",
+      "From our (excl.) [two sister] ships (dual)"
+     ],
+     [
+      "z",
+      "Yondommo",
+      "Of our (dual incl.) son"
+     ]
+    ]
+   },
+   "rules": [
+    {
+     "id": "r-p3-1",
+     "headZh": "一眼读词的窍门",
+     "bodyZh": "熟练者把 ostolvallon 直接读成「from our cities」，而不必拆成 osto-lva-llo-n。练习的目标就是这个速度。",
+     "en": "without having to consciously break this down",
+     "zh": "不必自觉拆解。"
+    },
+    {
+     "id": "r-p3-2",
+     "headZh": "拆解的次序",
+     "bodyZh": "从右往左：先认格词尾（-llo、-nna、-n、-o、-va），再认代词词尾（-lva、-lma、-lya、-nya），剩下是词干。",
+     "en": "osto-lva-llo-n",
+     "zh": "city-our-from-plural。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 -n 一律当与格",
+     "right": "也可能是复数标记（-llon、-ron、-ion）",
+     "whyZh": "原文把 ostolvallon 拆作 osto-lva-llo-n，末 -n 是复数标记。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么单列这一节",
+     "bodyZh": "前面所有规则都在这里接受检验：一个词里两层甚至三层词尾。做错时回看是哪一层认错了，比整句重译更有效。"
+    }
+   ],
+   "recapZh": "从右往左剥：格 → 代词 → 词干。",
+   "selfCheckZh": [
+    {
+     "qZh": "Ostolvannar 怎么读？",
+     "aZh": "To our (incl.) cities。"
+    }
+   ]
+  },
+  {
+   "sectionId": "ex-p4",
+   "sourceSectionId": "exercises",
+   "titleZh": "51 · 附加练习四：短语译单词（a–z）",
+   "leadZh": "反方向：把英语短语压成一个昆雅词。下表给出 keys 的答案。",
+   "objectives": [
+    "能按格、数、代词三层组装单词",
+    "能用 keys 核对"
+   ],
+   "bilingual": {
+    "sectionId": "exercises",
+    "unitIds": [
+     22,
+     23,
+     24,
+     25,
+     26,
+     27,
+     28,
+     29,
+     30
+    ],
+    "labelZh": "附加练习四"
+   },
+   "table": {
+    "captionZh": "练习四答案（keys 逐字）",
+    "headers": [
+     "题号",
+     "英译",
+     "昆雅词"
+    ],
+    "rows": [
+     [
+      "a",
+      "To your hills",
+      "Ambolyannar"
+     ],
+     [
+      "b",
+      "For our (excl.) peace",
+      "Sérelman"
+     ],
+     [
+      "c",
+      "Your two-volume book",
+      "Parmalyat"
+     ],
+     [
+      "d",
+      "To your tower / towers",
+      "Mindonelyanna / mindonilyannar"
+     ],
+     [
+      "e",
+      "Of (poss.) our (excl.) queen",
+      "Tárilmava"
+     ],
+     [
+      "f",
+      "Of (poss.) my sisters",
+      "Sellinyaiva"
+     ],
+     [
+      "g",
+      "From my sister",
+      "Sellinyallo"
+     ],
+     [
+      "h",
+      "Of (gen.) our (incl.) gifts",
+      "Annalvaron"
+     ],
+     [
+      "i",
+      "Of (gen.) our (incl.) gold",
+      "Maltalvo"
+     ],
+     [
+      "j",
+      "For our (incl.) joy",
+      "Alasselvan"
+     ],
+     [
+      "k",
+      "Of (gen.) your wine",
+      "Limpelyo"
+     ],
+     [
+      "l",
+      "From your world",
+      "Ambarelyallo"
+     ],
+     [
+      "m",
+      "Of (gen.) my sun",
+      "Anarinyo"
+     ],
+     [
+      "n",
+      "For my king",
+      "Aranyan"
+     ],
+     [
+      "o",
+      "Of (poss.) our (excl.) son",
+      "Yondolmava"
+     ],
+     [
+      "p",
+      "Of (gen.) our (excl.) cups",
+      "Yulmalmaron"
+     ],
+     [
+      "q",
+      "For your pair of birds",
+      "Aiwelyant"
+     ],
+     [
+      "r",
+      "To our (excl.) double walls",
+      "Rambalmanta"
+     ],
+     [
+      "s",
+      "From our (incl.) double walls",
+      "Rambalvalto"
+     ],
+     [
+      "t",
+      "From your lands",
+      "Nórelyallon"
+     ],
+     [
+      "u",
+      "Of (gen.) my twin sisters",
+      "Sellinyato"
+     ],
+     [
+      "v",
+      "Of (gen.) our (excl.) treasures",
+      "Harmalmaron"
+     ],
+     [
+      "w",
+      "To our (incl.) horses",
+      "Roccolvannar"
+     ],
+     [
+      "x",
+      "For our (dual) house",
+      "Coamman"
+     ],
+     [
+      "y",
+      "For my brother",
+      "Torninyan"
+     ],
+     [
+      "z",
+      "To our (excl.) trees",
+      "Aldalmannar"
+     ]
+    ]
+   },
+   "rules": [
+    {
+     "id": "r-p4-1",
+     "headZh": "组装顺序",
+     "bodyZh": "词干 → 代词词尾 → 数／格词尾。故 ambo + -lya + -nnar ＝ Ambolyannar。",
+     "en": "4. Translate into single Quenya words",
+     "zh": "4. 译成单个昆雅词。"
+    },
+    {
+     "id": "r-p4-2",
+     "headZh": "-e- 与 -i- 的分工",
+     "bodyZh": "单数用 -e-（Mindonelyanna），复数用 -i-（mindonilyannar）。keys 特意点出这一对比。",
+     "en": "translate the sg. and pl. separately",
+     "zh": "单数与复数分别译出。"
+    },
+    {
+     "id": "r-p4-3",
+     "headZh": "-nya 一律 -i-",
+     "bodyZh": "Sellinyallo、Anarinyo、Torninyan 都用 -i-，无论单复数。keys 反复提醒这一点。",
+     "en": "y) For my brother",
+     "zh": "y) 为我的兄弟。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "单数也用 -i-（mindonilyanna）",
+     "right": "单数 -e-、复数 -i-；但 -nya 例外",
+     "whyZh": "keys d：-e- functions as a connecting vowel in the singular, whereas -i- is used in the plural。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "三层都要对",
+     "bodyZh": "这类题错一个字母就整词错。检查顺序：①词干对不对（torn- 而非 toron-）②连接元音对不对 ③格词尾对不对。"
+    }
+   ],
+   "recapZh": "词干＋代词＋格；单数 -e-、复数 -i-、-nya 恒 -i-。",
+   "selfCheckZh": [
+    {
+     "qZh": "「为我的兄弟」怎么写？",
+     "aZh": "Torninyan。"
+    }
+   ]
+  },
+  {
+   "sectionId": "vocabulary",
+   "sourceSectionId": "vocabulary",
+   "titleZh": "52 · 课末词汇（12 条＋专名）",
+   "leadZh": "本课开始引入序数词 minya；动词里 equë 与 auta- 是本课重点，ruc- 要配离格。",
+   "objectives": [
+    "记住 12 条课末词",
+    "掌握 ruc- 配离格、auta- 两套时态"
+   ],
+   "bilingual": {
+    "sectionId": "vocabulary",
+    "unitIds": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13
+    ],
+    "labelZh": "词汇"
+   },
+   "table": {
+    "captionZh": "12 条课末词与要点",
+    "headers": [
+     "课末词",
+     "词性 / 释义",
+     "要点"
+    ],
+    "rows": [
+     [
+      "minya",
+      "序数「第一」",
+      "minë ＋ -ya；Minyar"
+     ],
+     [
+      "equë",
+      "无时态动词「说」",
+      "引引语，不加 -r"
+     ],
+     [
+      "auta-",
+      "「离开、逝去」",
+      "oantë／oantië 对 vánë／avánië"
+     ],
+     [
+      "menta-",
+      "「派、送」",
+      "D 题 mentien"
+     ],
+     [
+      "ruc-",
+      "「怕」",
+      "宾语用离格"
+     ],
+     [
+      "ambo",
+      "「丘、山」",
+      "G 题 i ambollon"
+     ],
+     [
+      "mindon",
+      "「大塔」",
+      "A 题 i mindonello"
+     ],
+     [
+      "Númen",
+      "「西」",
+      "F 题 Númello"
+     ],
+     [
+      "sambë",
+      "「房间」",
+      "P 题 sambenyallo"
+     ],
+     [
+      "yondo",
+      "「儿子」",
+      "H 题 Yondonya"
+     ],
+     [
+      "haira",
+      "「远的」",
+      "D 题 haira nórenna"
+     ],
+     [
+      "et",
+      "「出」",
+      "et ＋ 离格"
+     ]
+    ]
+   },
+   "rules": [
+    {
+     "id": "r-v14-1",
+     "headZh": "minya 的构成",
+     "bodyZh": "minya「第一」由数词 minë ＋ 形容词词尾 -ya 构成；第一宗族本名 Minyar，字面「Firsts」。",
+     "en": "minya",
+     "zh": "first（第一）。"
+    },
+    {
+     "id": "r-v14-2",
+     "headZh": "ruc- 配离格",
+     "bodyZh": "ruc-「怕」与所怕之物的 from 搭配，即宾语用离格。",
+     "en": "constructed with \"from\" of the object feared",
+     "zh": "与所怕之物的 from 搭配。"
+    },
+    {
+     "id": "r-v14-3",
+     "headZh": "Númen 作专名",
+     "bodyZh": "基本方位名被当作专名，首字母大写且不需冠词；故 Rómello 译「from the East」而昆雅无 i。",
+     "en": "Rómello",
+     "zh": "from the East（从东方）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 ruc- 的宾语写成宾格",
+     "right": "用离格（rucin i ulundollo）",
+     "whyZh": "原文：constructed with \"from\" of the object feared。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "专名的构词法",
+     "bodyZh": "词汇末段讲 -(n)dil「朋友」与 -a→-ë 的女名规则，于是有了 Calandil 与 Nessimë。这些名字不是托尔金自造，而是按他的原则新造的——练习里用到它们。"
+    }
+   ],
+   "recapZh": "minya、equë、auta-、ruc-（离格）、et。",
+   "selfCheckZh": [
+    {
+     "qZh": "「怕那怪物」怎么写？",
+     "aZh": "rucin i ulundollo。"
+    },
+    {
+     "qZh": "minya 由什么构成？",
+     "aZh": "minë ＋ -ya。"
+    }
+   ]
+  }
+ ]
+}

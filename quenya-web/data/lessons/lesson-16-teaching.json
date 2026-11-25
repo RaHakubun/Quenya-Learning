@@ -1,0 +1,3421 @@
+{
+ "lesson": 16,
+ "schemaVersion": 2,
+ "oneLineZh": "工具格＝与格＋-en（-nen／-inen／-nten），表工具（ómainen）、原因（súrinen）与被动分词后的施事（ambartanen），但「和……一起」必须用 as；-ta 使役动词过去时 -tánë、被动分词 -nta（airitánë、envinyanta）；命令式用 á（否定 áva），祝愿式用 nai ＋ 将来时（Nai hiruvalyë Valimar!）。",
+ "canDoZh": [
+  "能用「与格＋-en」推出工具格的单数、复数、双数形式",
+  "能处理 -n／-r／-m 词干与辅音丛词干的插音问题",
+  "能区分工具格的 with 与伴随格的 with（as）",
+  "能说明工具格的三种功能：工具、原因、施事",
+  "能写出 -ta 使役动词的过去时（-tánë）与被动分词（-nta）",
+  "能判断 -tá- 何时拉长、何时不拉长",
+  "能用 á／áva 造肯定与否定命令句",
+  "能用 nai ＋ 将来时造句，并知道它不能配其他时态（未证）"
+ ],
+ "conceptMap": [
+  {
+   "labelZh": "最后一个未讲的格：-s／-is",
+   "noteZh": "形式",
+   "sectionId": "ins-mystery"
+  },
+  {
+   "labelZh": "一条规则：与格加 -en",
+   "noteZh": "总公式",
+   "sectionId": "ins-rule"
+  },
+  {
+   "labelZh": "以 -n、-r 结尾的名词",
+   "noteZh": "-n、-r 直接加",
+   "sectionId": "ins-nr"
+  },
+  {
+   "labelZh": "词干里藏着的旧元音：ambartanen",
+   "noteZh": "ambartanen",
+   "sectionId": "ins-stem"
+  },
+  {
+   "labelZh": "复数 -inen：双元音、长 í 与重音",
+   "noteZh": "-a／-o／-u 后成双元音",
+   "sectionId": "ins-plural"
+  },
+  {
+   "labelZh": "双数 -nten 与 Aldunen",
+   "noteZh": "-nten 的构成",
+   "sectionId": "ins-dual"
+  },
+  {
+   "labelZh": "功能：标出「工具」",
+   "noteZh": "核心功能",
+   "sectionId": "ins-func"
+  },
+  {
+   "labelZh": "反例：with an Elf 不能译成 Eldanen",
+   "noteZh": "不能这样写",
+   "sectionId": "ins-with"
+  },
+  {
+   "labelZh": "MacTane 的两句对照",
+   "noteZh": "术语",
+   "sectionId": "ins-mactane"
+  },
+  {
+   "labelZh": "《Namárië》的两个工具格",
+   "noteZh": "súrinen",
+   "sectionId": "ins-namarie"
+  },
+  {
+   "labelZh": "lestanen「in measure」",
+   "noteZh": "lestanen",
+   "sectionId": "ins-measure"
+  },
+  {
+   "labelZh": "双翼：rámainen 与 rámanten",
+   "noteZh": "复数",
+   "sectionId": "ins-wing"
+  },
+  {
+   "labelZh": "ambartanen：唯一出自《Silmarillion》的工具格",
+   "noteZh": "句子",
+   "sectionId": "ins-ambar"
+  },
+  {
+   "labelZh": "怪形式 turún[a]",
+   "noteZh": "推定",
+   "sectionId": "ins-turun"
+  },
+  {
+   "labelZh": "被动分词后的施事用工具格",
+   "noteZh": "规则",
+   "sectionId": "ins-agent"
+  },
+  {
+   "labelZh": "关系代词 ya- 的工具格",
+   "noteZh": "单数",
+   "sectionId": "ins-rel"
+  },
+  {
+   "labelZh": "mányanen：工具格＋所有格词尾",
+   "noteZh": "mányanen",
+   "sectionId": "ins-pron"
+  },
+  {
+   "labelZh": "tiriénen：工具格＋gerund",
+   "noteZh": "by doing",
+   "sectionId": "ins-ger"
+  },
+  {
+   "labelZh": "小标题：元音不带重音＋-ta 的动词",
+   "noteZh": "标题",
+   "sectionId": "ins-ta-head"
+  },
+  {
+   "labelZh": "次要子类",
+   "noteZh": "材料限制",
+   "sectionId": "ins-ta-intro"
+  },
+  {
+   "labelZh": "car- ＋形容词：一个英语习语？",
+   "noteZh": "自认",
+   "sectionId": "ins-caus"
+  },
+  {
+   "labelZh": "-ta 的使役义：tulta-、airita-",
+   "noteZh": "使役义",
+   "sectionId": "ins-tulta"
+  },
+  {
+   "labelZh": "airitánë：一份未刊手稿里的过去时",
+   "noteZh": "出处",
+   "sectionId": "ins-airita"
+  },
+  {
+   "labelZh": "规则：-ta 何时拉长成 -tá-",
+   "noteZh": "规则",
+   "sectionId": "ins-tata"
+  },
+  {
+   "labelZh": "ninquitá-：第二个同类动词",
+   "noteZh": "来源",
+   "sectionId": "ins-ninquita"
+  },
+  {
+   "labelZh": "转折：被动分词怎么构成",
+   "noteZh": "过渡",
+   "sectionId": "ins-part"
+  },
+  {
+   "labelZh": "Envinyatar：「复兴者」",
+   "noteZh": "头衔",
+   "sectionId": "ins-envinyatar"
+  },
+  {
+   "labelZh": "Arda Envinyanta：鼻音插入的分词",
+   "noteZh": "形式",
+   "sectionId": "ins-envinyanta"
+  },
+  {
+   "labelZh": "类推：airinta、ninquinta",
+   "noteZh": "airinta",
+   "sectionId": "ins-airinta"
+  },
+  {
+   "labelZh": "主动分词 -la：airitála",
+   "noteZh": "主动分词",
+   "sectionId": "ins-active"
+  },
+  {
+   "labelZh": "该不该自己造词：alyatánë 与一场争论",
+   "noteZh": "示范",
+   "sectionId": "ins-derive"
+  },
+  {
+   "labelZh": "命令式是什么",
+   "noteZh": "定义",
+   "sectionId": "imp-intro"
+  },
+  {
+   "labelZh": "原始小品词 â 与两个化石感叹词",
+   "noteZh": "原始小品词",
+   "sectionId": "imp-prime"
+  },
+  {
+   "labelZh": "后置成词尾 -a：tira!",
+   "noteZh": "构法",
+   "sectionId": "imp-a"
+  },
+  {
+   "labelZh": "前置小品词：a laita、á vala",
+   "noteZh": "前置",
+   "sectionId": "imp-particle"
+  },
+  {
+   "labelZh": "á 还是 a？作者的取舍",
+   "noteZh": "一种解释",
+   "sectionId": "imp-long"
+  },
+  {
+   "labelZh": "否定命令：áva",
+   "noteZh": "áva",
+   "sectionId": "imp-neg"
+  },
+  {
+   "labelZh": "祝愿式：不是命令，是希望",
+   "noteZh": "用途",
+   "sectionId": "nai-intro"
+  },
+  {
+   "labelZh": "《Namárië》：Nai hiruvalyë Valimar",
+   "noteZh": "原句",
+   "sectionId": "nai-namarie"
+  },
+  {
+   "labelZh": "Cirion 的誓言：Nai tiruvantes",
+   "noteZh": "出处",
+   "sectionId": "nai-cirion"
+  },
+  {
+   "labelZh": "nai 的词源：nâ-i「be it that」",
+   "noteZh": "来源",
+   "sectionId": "nai-etym"
+  },
+  {
+   "labelZh": "用法：放在将来时句子前",
+   "noteZh": "位置",
+   "sectionId": "nai-use"
+  },
+  {
+   "labelZh": "例一：Nai Elda tuluva coalvanna!",
+   "noteZh": "对照",
+   "sectionId": "nai-ex1"
+  },
+  {
+   "labelZh": "例二：Nai hiruvan i malta!",
+   "noteZh": "对照",
+   "sectionId": "nai-ex2"
+  },
+  {
+   "labelZh": "例三：nai caruvantes!",
+   "noteZh": "对照",
+   "sectionId": "nai-ex3"
+  },
+  {
+   "labelZh": "电影里的 nai：Saruman 的咒语",
+   "noteZh": "句子",
+   "sectionId": "nai-film"
+  },
+  {
+   "labelZh": "nai 能否配别的时态？",
+   "noteZh": "证据量",
+   "sectionId": "nai-tense"
+  },
+  {
+   "labelZh": "本课小结",
+   "noteZh": "",
+   "sectionId": "summary"
+  },
+  {
+   "labelZh": "练习 A–P",
+   "noteZh": "本课考点",
+   "sectionId": "exercises"
+  },
+  {
+   "labelZh": "课末词汇",
+   "noteZh": "á 与 áva",
+   "sectionId": "vocabulary"
+  }
+ ],
+ "pathTitleZh": "学习路径",
+ "path": [
+  {
+   "step": 1,
+   "labelZh": "最后一个未讲的格：-s／-is",
+   "sectionId": "ins-mystery"
+  },
+  {
+   "step": 2,
+   "labelZh": "一条规则：与格加 -en",
+   "sectionId": "ins-rule"
+  },
+  {
+   "step": 3,
+   "labelZh": "以 -n、-r 结尾的名词",
+   "sectionId": "ins-nr"
+  },
+  {
+   "step": 4,
+   "labelZh": "词干里藏着的旧元音：ambartanen",
+   "sectionId": "ins-stem"
+  },
+  {
+   "step": 5,
+   "labelZh": "复数 -inen：双元音、长 í 与重音",
+   "sectionId": "ins-plural"
+  },
+  {
+   "step": 6,
+   "labelZh": "双数 -nten 与 Aldunen",
+   "sectionId": "ins-dual"
+  },
+  {
+   "step": 7,
+   "labelZh": "功能：标出「工具」",
+   "sectionId": "ins-func"
+  },
+  {
+   "step": 8,
+   "labelZh": "反例：with an Elf 不能译成 Eldanen",
+   "sectionId": "ins-with"
+  },
+  {
+   "step": 9,
+   "labelZh": "MacTane 的两句对照",
+   "sectionId": "ins-mactane"
+  },
+  {
+   "step": 10,
+   "labelZh": "《Namárië》的两个工具格",
+   "sectionId": "ins-namarie"
+  },
+  {
+   "step": 11,
+   "labelZh": "lestanen「in measure」",
+   "sectionId": "ins-measure"
+  },
+  {
+   "step": 12,
+   "labelZh": "双翼：rámainen 与 rámanten",
+   "sectionId": "ins-wing"
+  },
+  {
+   "step": 13,
+   "labelZh": "ambartanen：唯一出自《Silmarillion》的工具格",
+   "sectionId": "ins-ambar"
+  },
+  {
+   "step": 14,
+   "labelZh": "怪形式 turún[a]",
+   "sectionId": "ins-turun"
+  },
+  {
+   "step": 15,
+   "labelZh": "被动分词后的施事用工具格",
+   "sectionId": "ins-agent"
+  },
+  {
+   "step": 16,
+   "labelZh": "关系代词 ya- 的工具格",
+   "sectionId": "ins-rel"
+  },
+  {
+   "step": 17,
+   "labelZh": "mányanen：工具格＋所有格词尾",
+   "sectionId": "ins-pron"
+  },
+  {
+   "step": 18,
+   "labelZh": "tiriénen：工具格＋gerund",
+   "sectionId": "ins-ger"
+  },
+  {
+   "step": 19,
+   "labelZh": "小标题：元音不带重音＋-ta 的动词",
+   "sectionId": "ins-ta-head"
+  },
+  {
+   "step": 20,
+   "labelZh": "次要子类",
+   "sectionId": "ins-ta-intro"
+  },
+  {
+   "step": 21,
+   "labelZh": "car- ＋形容词：一个英语习语？",
+   "sectionId": "ins-caus"
+  },
+  {
+   "step": 22,
+   "labelZh": "-ta 的使役义：tulta-、airita-",
+   "sectionId": "ins-tulta"
+  },
+  {
+   "step": 23,
+   "labelZh": "airitánë：一份未刊手稿里的过去时",
+   "sectionId": "ins-airita"
+  },
+  {
+   "step": 24,
+   "labelZh": "规则：-ta 何时拉长成 -tá-",
+   "sectionId": "ins-tata"
+  },
+  {
+   "step": 25,
+   "labelZh": "ninquitá-：第二个同类动词",
+   "sectionId": "ins-ninquita"
+  },
+  {
+   "step": 26,
+   "labelZh": "转折：被动分词怎么构成",
+   "sectionId": "ins-part"
+  },
+  {
+   "step": 27,
+   "labelZh": "Envinyatar：「复兴者」",
+   "sectionId": "ins-envinyatar"
+  },
+  {
+   "step": 28,
+   "labelZh": "Arda Envinyanta：鼻音插入的分词",
+   "sectionId": "ins-envinyanta"
+  },
+  {
+   "step": 29,
+   "labelZh": "类推：airinta、ninquinta",
+   "sectionId": "ins-airinta"
+  },
+  {
+   "step": 30,
+   "labelZh": "主动分词 -la：airitála",
+   "sectionId": "ins-active"
+  },
+  {
+   "step": 31,
+   "labelZh": "该不该自己造词：alyatánë 与一场争论",
+   "sectionId": "ins-derive"
+  },
+  {
+   "step": 32,
+   "labelZh": "命令式是什么",
+   "sectionId": "imp-intro"
+  },
+  {
+   "step": 33,
+   "labelZh": "原始小品词 â 与两个化石感叹词",
+   "sectionId": "imp-prime"
+  },
+  {
+   "step": 34,
+   "labelZh": "后置成词尾 -a：tira!",
+   "sectionId": "imp-a"
+  },
+  {
+   "step": 35,
+   "labelZh": "前置小品词：a laita、á vala",
+   "sectionId": "imp-particle"
+  },
+  {
+   "step": 36,
+   "labelZh": "á 还是 a？作者的取舍",
+   "sectionId": "imp-long"
+  },
+  {
+   "step": 37,
+   "labelZh": "否定命令：áva",
+   "sectionId": "imp-neg"
+  },
+  {
+   "step": 38,
+   "labelZh": "祝愿式：不是命令，是希望",
+   "sectionId": "nai-intro"
+  },
+  {
+   "step": 39,
+   "labelZh": "《Namárië》：Nai hiruvalyë Valimar",
+   "sectionId": "nai-namarie"
+  },
+  {
+   "step": 40,
+   "labelZh": "Cirion 的誓言：Nai tiruvantes",
+   "sectionId": "nai-cirion"
+  },
+  {
+   "step": 41,
+   "labelZh": "nai 的词源：nâ-i「be it that」",
+   "sectionId": "nai-etym"
+  },
+  {
+   "step": 42,
+   "labelZh": "用法：放在将来时句子前",
+   "sectionId": "nai-use"
+  },
+  {
+   "step": 43,
+   "labelZh": "例一：Nai Elda tuluva coalvanna!",
+   "sectionId": "nai-ex1"
+  },
+  {
+   "step": 44,
+   "labelZh": "例二：Nai hiruvan i malta!",
+   "sectionId": "nai-ex2"
+  },
+  {
+   "step": 45,
+   "labelZh": "例三：nai caruvantes!",
+   "sectionId": "nai-ex3"
+  },
+  {
+   "step": 46,
+   "labelZh": "电影里的 nai：Saruman 的咒语",
+   "sectionId": "nai-film"
+  },
+  {
+   "step": 47,
+   "labelZh": "nai 能否配别的时态？",
+   "sectionId": "nai-tense"
+  },
+  {
+   "step": 48,
+   "labelZh": "本课小结",
+   "sectionId": "summary"
+  },
+  {
+   "step": 49,
+   "labelZh": "练习 A–P",
+   "sectionId": "exercises"
+  },
+  {
+   "step": 50,
+   "labelZh": "课末词汇",
+   "sectionId": "vocabulary"
+  }
+ ],
+ "modules": [
+  {
+   "sectionId": "ins-mystery",
+   "sourceSectionId": "_preamble",
+   "titleZh": "01 · 最后一个未讲的格：-s／-is",
+   "leadZh": "Plotz 信件里还剩两个格。第一个连名字都没有，作者只把它当位格的短形式，且不为它设练习。",
+   "objectives": [
+    "知道神秘格的形式 -s／-is",
+    "知道 coas／coais 与 coassë／coassen 的关系",
+    "知道作者为何不为它设练习"
+   ],
+   "rules": [
+    {
+     "id": "r-in-m1",
+     "headZh": "形式",
+     "bodyZh": "托尔金没给这个格命名，也没说明功能。词尾是 -s，复数 -is。",
+     "en": "The relevant ending is -s, plural -is.",
+     "zh": "相关词尾是 -s，复数 -is。"
+    },
+    {
+     "id": "r-in-m2",
+     "headZh": "Plotz 的排列",
+     "bodyZh": "Plotz 把它排在同一位格形式下方的括号里，暗示它只是位格较短的替代版：coas、复数 coais 可替 coassë、coassen。",
+     "en": "a shorter, alternative version of the locative",
+     "zh": "位格的一个较短的替代版本。",
+     "exampleZh": "coas／coais 替 coassë／coassen"
+    },
+    {
+     "id": "r-in-m3",
+     "headZh": "不设练习",
+     "bodyZh": "因为功能无法确定，作者明言不为这个格设计任何练习。",
+     "en": "I will not construct any exercises involving it",
+     "zh": "我不会为它设计任何涉及它的练习。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 -s 当成独立的第七个格去背",
+     "right": "先按「位格短式」理解，且不要主动使用",
+     "whyZh": "原文：since we cannot be entirely confident regarding the function of this case, I will not construct any exercises involving it。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么先讲这个「不算格」的格",
+     "bodyZh": "作者用一段把它交代掉，是为了让昆雅的格清单完整。它在本课不承担教学任务，只承担「交代清楚」的任务。"
+    }
+   ],
+   "recapZh": "-s／-is 是位格的短式，功能不明，不用。",
+   "selfCheckZh": [
+    {
+     "qZh": "coas 是什么？",
+     "aZh": "coassë 的短式，复数 coais。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "_preamble",
+    "unitIds": [
+     0
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ins-rule",
+   "sourceSectionId": "the-instrumental-case",
+   "titleZh": "02 · 一条规则：与格加 -en",
+   "leadZh": "工具格的形式可以一句话讲完：在与格形式后面再加 -en。这条规则把整课的形式问题压缩成三步。",
+   "objectives": [
+    "能写出 -nen／-inen／-nten",
+    "能由与格推出工具格"
+   ],
+   "rules": [
+    {
+     "id": "r-in-f1",
+     "headZh": "总公式",
+     "bodyZh": "工具格 ＝ 与格 ＋ -en。与格 -n → 工具格 -nen；复数 -in → -inen；双数 -nt → -nten。",
+     "en": "Just add -en to the dative form!",
+     "zh": "只要在与格形式上再加 -en！",
+     "exampleZh": "cirya → ciryanna → ciryanen"
+    },
+    {
+     "id": "r-in-f2",
+     "headZh": "为什么这样设计",
+     "bodyZh": "这不是历史语言学结论，而是作者为教学方便给的捷径：先学一套与格，工具格就几乎不用另记。",
+     "en": "for pedagogical purposes",
+     "zh": "为了教学目的。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 -nen 直接背成「另一个词尾」，与与格脱钩",
+     "right": "记住「与格＋en」，出错时能自查",
+     "whyZh": "原文把这条规则限定为 for pedagogical purposes，但它确实能生成全部单数形式。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "本课的结构",
+     "bodyZh": "接下来四段先补形式细节（-n／-r 结尾、词干、复数、双数），第六段起才讲功能。形式在前、功能在后，是本课的顺序，不要颠倒。"
+    }
+   ],
+   "recapZh": "工具格＝与格＋-en：-nen／-inen／-nten。",
+   "selfCheckZh": [
+    {
+     "qZh": "cirya 的工具格？",
+     "aZh": "ciryanen。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-instrumental-case",
+    "unitIds": [
+     0
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ins-nr",
+   "sourceSectionId": "the-instrumental-case",
+   "titleZh": "03 · 以 -n、-r 结尾的名词",
+   "leadZh": "-nen 可直接加在 -n、-r 后：elennen、Anarnen。词干带 -m- 的作 -mnen：talamnen。再往后作者就开始打问号。",
+   "objectives": [
+    "能写 elennen、Anarnen、olornen、talamnen",
+    "知道 nat、nís 的形式只是推测"
+   ],
+   "rules": [
+    {
+     "id": "r-in-n1",
+     "headZh": "-n、-r 直接加",
+     "bodyZh": "elen「星」→ elennen，Anar「太阳」→ Anarnen。重音落在倒数第二音节，因为其后跟着 -nn- 或 -rn- 辅音丛。",
+     "en": "elennen as the instrumental form of elen",
+     "zh": "elen 的工具格 elennen。",
+     "exampleZh": "elennen"
+    },
+    {
+     "id": "r-in-n2",
+     "headZh": "词干 -r-／-m-",
+     "bodyZh": "olos、olor-「梦」→ olornen；talan、talam-「地板」→ talamnen。",
+     "en": "talamnen as the instrumental form of talan",
+     "zh": "talan 的工具格 talamnen。",
+     "exampleZh": "talamnen"
+    },
+    {
+     "id": "r-in-n3",
+     "headZh": "ln → ld",
+     "bodyZh": "estel「信任、希望」的工具格也许作 ?estelden，因为 ln 在昆雅中规律地变成 ld。",
+     "en": "?estelden for older estelnen",
+     "zh": "较早的 estelnen 应作 ?estelden。"
+    },
+    {
+     "id": "r-in-n4",
+     "headZh": "-t 结尾最难",
+     "bodyZh": "nat「东西」不能作 natnen；可能经 tn > nt 换位成 ?nanten，也可能插 -e- 成 natenen。作者不给答案。",
+     "en": "**natnen is not a possible Quenya form",
+     "zh": "natnen 不是可能的昆雅形式。"
+    },
+    {
+     "id": "r-in-n5",
+     "headZh": "辅音丛词干",
+     "bodyZh": "词干以辅音丛结尾时必须在 -nen 前插连接元音；nís（niss-）「女人」也许是 nissenen。",
+     "en": "nissenen",
+     "zh": "nís 的工具格也许是 nissenen。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 natenen 当成定论",
+     "right": "原文给的是问号形式（?nanten 或 natenen）",
+     "whyZh": "原文：would it turn into ?nanten with metathesis tn > nt, or would a connecting vowel (possibly -e-) materialize to produce a form like natenen? ——两个都是猜测。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "问号也是知识点",
+     "bodyZh": "这一段里作者连续给出 ?estelden、?nanten、natenen、nissenen。带问号的形式在考试里不该当答案，但在阅读原文时要知道：这正是「材料不足」的地方，不是作者偷懒。"
+    }
+   ],
+   "recapZh": "elennen、Anarnen、olornen、talamnen；nat／nís 只有推测形式。",
+   "selfCheckZh": [
+    {
+     "qZh": "talan 的工具格？",
+     "aZh": "talamnen。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-instrumental-case",
+    "unitIds": [
+     1
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ins-stem",
+   "sourceSectionId": "the-instrumental-case",
+   "titleZh": "04 · 词干里藏着的旧元音：ambartanen",
+   "leadZh": "ambar「命运」的工具格是 ambartanen，比词干多出 -ta-。这 -ta- 是原始语末元音与 -t 的残迹。",
+   "objectives": [
+    "能解释 ambartanen 里的 -ta-",
+    "知道 ambart(a)- 这个写法"
+   ],
+   "rules": [
+    {
+     "id": "r-in-s1",
+     "headZh": "ambartanen",
+     "bodyZh": "ambar「fate, doom」的工具格作 ambartanen。词干可写作 ambart(a)-。",
+     "en": "ambartanen",
+     "zh": "by doom（被命运）。",
+     "exampleZh": "ambartanen"
+    },
+    {
+     "id": "r-in-s2",
+     "headZh": "残迹",
+     "bodyZh": "这个词在原始精灵语里大概以 -rta 结尾；除了被语法词尾遮护时，末元音与后来的 -t 都已丢失。",
+     "en": "The stem of ambar may be given as ambart(a)-",
+     "zh": "ambar 的词干可写作 ambart(a)-。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 ambartanen 是例外、要单独背",
+     "right": "它是「词干形式」的常规表现：格词尾前词干复原",
+     "whyZh": "原文：except when shielded by grammatical endings, the final vowel and (later) the -t had been lost。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么单独讲一个词",
+     "bodyZh": "因为 ambartanen 是本课后半段（Níniel 的呼喊）的关键词，也是「词干形式」这个概念最清楚的例子。先在这里把它拆开，后面读诗时才不会卡。"
+    }
+   ],
+   "recapZh": "ambartanen；词干 ambart(a)-。",
+   "selfCheckZh": [
+    {
+     "qZh": "ambartanen 里的 -ta- 从哪来？",
+     "aZh": "原始语词尾 -rta 的残迹，只在格词尾前出现。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-instrumental-case",
+    "unitIds": [
+     2
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ins-plural",
+   "sourceSectionId": "the-instrumental-case",
+   "titleZh": "05 · 复数 -inen：双元音、长 í 与重音",
+   "leadZh": "-inen 加在 -a、-o、-u 后合成双元音（ómainen）；加在 -ë 后经 ei > í 变成长 í（lassínen）；-i 结尾的 tári 则得 tárínen。",
+   "objectives": [
+    "能写 ómainen、lassínen、tárínen、lírínen",
+    "能说清 tárínen 与 tárinen 的重音差别"
+   ],
+   "rules": [
+    {
+     "id": "r-in-p1",
+     "headZh": "-a／-o／-u 后成双元音",
+     "bodyZh": "óma「声音」→ 复数工具格 ómainen，重音在 -ai-；因为新的倒数第二音节是双元音，自然吸引重音。",
+     "en": "ómainen as the plural instrumental form of óma",
+     "zh": "óma 的复数工具格 ómainen。",
+     "exampleZh": "ómainen"
+    },
+    {
+     "id": "r-in-p2",
+     "headZh": "-ë 后：ei > í",
+     "bodyZh": "lassë「叶」曾是 lasseinen（重音在 ei），但昆雅的 ei 最终变成单元音长 í，Plotz 信件指向现行形式 lassínen。",
+     "en": "lassínen as the current form",
+     "zh": "lassínen 是现行形式。",
+     "exampleZh": "lassínen"
+    },
+    {
+     "id": "r-in-p3",
+     "headZh": "-i 结尾：两个 i 合一",
+     "bodyZh": "tári「女王」＋ -inen → tárínen，两个短 i 合并成一个长 í；重音在 í，与单数 tárinen（重音在 tár-）相对。",
+     "en": "tárínen",
+     "zh": "tári 的复数工具格 tárínen。",
+     "exampleZh": "tárinen（单数）／tárínen（复数）"
+    },
+    {
+     "id": "r-in-p4",
+     "headZh": "词干 -i 的 -ë 名词",
+     "bodyZh": "líre、líri-「歌」的单数工具格可证作 lírinen（＝líri+nen）；复数也许是 lírínen（＝líri+inen）。",
+     "en": "lírinen",
+     "zh": "歌的工具格 lírinen。",
+     "exampleZh": "lírínen"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 lassë 的复数工具格是 lasseinen",
+     "right": "那是较早阶段的形式，现行作 lassínen",
+     "whyZh": "原文：in Quenya, older ei eventually turned into a long í, and the Plotz letter points to lassínen as the current form。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一条音变，两种结果",
+     "bodyZh": "同样是「-i- 与词尾元音相遇」，-a／-o／-u 走「合成双元音」的路（ómainen），-ë 走「ei > í」的路（lassínen），-i 走「两个短 i 合一」的路（tárínen）。三条路的结果都是长音或双元音落在倒数第二音节，重音随之而来。"
+    }
+   ],
+   "recapZh": "ómainen、lassínen、tárínen、lírínen。",
+   "selfCheckZh": [
+    {
+     "qZh": "tárinen 与 tárínen 差在哪？",
+     "aZh": "前者单数（重音 tár-），后者复数（重音 í）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-instrumental-case",
+    "unitIds": [
+     3
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ins-dual",
+   "sourceSectionId": "the-instrumental-case",
+   "titleZh": "06 · 双数 -nten 与 Aldunen",
+   "leadZh": "双数工具格按 Plotz 作 -nten，但作者认为这只是 -t 侵入 -nen。主格双数为 -u 的名词大概只加 -nen：Aldunen。",
+   "objectives": [
+    "知道 -nten 的构成",
+    "知道 Aldunen 与 ?Aldunten 之争"
+   ],
+   "rules": [
+    {
+     "id": "r-in-d1",
+     "headZh": "-nten 的构成",
+     "bodyZh": "双数成分 t 侵入最简单的工具格词尾 -nen，得 -nten。",
+     "en": "the dual element is obviously the t, intruding into the simplest instrumental ending -nen",
+     "zh": "双数成分显然是 t，它侵入最简单的工具格词尾 -nen。"
+    },
+    {
+     "id": "r-in-d2",
+     "headZh": "-u 双数只加 -nen",
+     "bodyZh": "主格双数为 -u 的名词（如 Aldu「两棵树」）宁可直接加 -nen：Aldunen，而非 ?Aldunten。",
+     "en": "Aldunen rather than ?Aldunten",
+     "zh": "作 Aldunen 而非 ?Aldunten。",
+     "exampleZh": "Aldunen"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "对所有双数一律加 -nten",
+     "right": "-t 双数用 -nten，-u 双数用 -nen",
+     "whyZh": "原文：So is the ending -nten peculiar to nouns with nominative dual forms in -t...? I tend to think so。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "与第 14、15 课同一套逻辑",
+     "bodyZh": "向格 -nta／离格 -lto／位格 -tsë 都是「-t 双数」的形式；工具格 -nten 属于同一族。而 -u 双数在每一格里都倾向「只加基本词尾」。这条线索贯穿第 14–16 课。"
+    }
+   ],
+   "recapZh": "-nten（-t 双数）；-nen（-u 双数，Aldunen）。",
+   "selfCheckZh": [
+    {
+     "qZh": "Aldu 的工具格？",
+     "aZh": "Aldunen。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-instrumental-case",
+    "unitIds": [
+     4
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ins-func",
+   "sourceSectionId": "the-instrumental-case",
+   "titleZh": "07 · 功能：标出「工具」",
+   "leadZh": "工具格标出完成动作所凭借的工具（广义）。标准例句是 i carir quettar ómainen。",
+   "objectives": [
+    "能说出工具格的核心功能",
+    "知道它只对应意为 using 的 with"
+   ],
+   "rules": [
+    {
+     "id": "r-in-u1",
+     "headZh": "核心功能",
+     "bodyZh": "工具格标出达成某动作所凭借的「工具」（广义）。",
+     "en": "the function of the instrumental case is to identify the \"instrument\"",
+     "zh": "工具格的功能是标出「工具」。"
+    },
+    {
+     "id": "r-in-u2",
+     "headZh": "标准例句",
+     "bodyZh": "i carir quettar ómainen「those who make words with voices」（WJ:391），用 óma 的复数工具格把声音标为造词的手段。",
+     "en": "i carir quettar ómainen",
+     "zh": "那些用声音造词者。",
+     "exampleZh": "i carir quettar ómainen"
+    },
+    {
+     "id": "r-in-u3",
+     "headZh": "只对应 using 的 with",
+     "bodyZh": "工具格只在英语 with 意为 using／by means of 时对应它；不是所有 with。",
+     "en": "only where this preposition means \"using\" or \"by means of\"",
+     "zh": "只在这个介词意为 using 或 by means of 时。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "见到英语 with 就用工具格",
+     "right": "先判断这个 with 是「用」还是「和……一起」",
+     "whyZh": "原文把对应条件明确限定为 using／by means of，下一段即讲反例。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "本课的边界感",
+     "bodyZh": "作者在这两段里反复设限：工具格不等于英语的 with。这种「先说清对应条件、再讲反例」的写法，是全书处理格词尾的一贯做法，也是避免误用的关键。"
+    }
+   ],
+   "recapZh": "工具格＝手段；只对应 using 义的 with。",
+   "selfCheckZh": [
+    {
+     "qZh": "ómainen 怎么译？",
+     "aZh": "with voices（用声音）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-instrumental-case",
+    "unitIds": [
+     5
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ins-with",
+   "sourceSectionId": "the-instrumental-case",
+   "titleZh": "08 · 反例：with an Elf 不能译成 Eldanen",
+   "leadZh": "「我和一个精灵看见了他们」若用工具格，意思会变成「精灵是我看见他们的工具」。这正是伴随格与工具格的分界。",
+   "objectives": [
+    "能判断 with 的两义",
+    "知道伴随格用 as"
+   ],
+   "rules": [
+    {
+     "id": "r-in-w1",
+     "headZh": "不能这样写",
+     "bodyZh": "I saw them with an Elf 几乎不能译作 cennenyet Eldanen；即使讲得通，也意味着精灵是「我看见他们」的工具。",
+     "en": "cennenyet Eldanen",
+     "zh": "（误）用精灵看见他们。"
+    },
+    {
+     "id": "r-in-w2",
+     "headZh": "可以这样写",
+     "bodyZh": "I saw them with my binoculars 就可以用工具格，因为望远镜确实是手段。",
+     "en": "I saw them with my binoculars",
+     "zh": "我用望远镜看见了他们。"
+    },
+    {
+     "id": "r-in-w3",
+     "headZh": "伴随格用 as",
+     "bodyZh": "「和……一起」的 with 要用介词 as，不用工具格词尾。",
+     "en": "For the comitative \"with\", use the preposition as",
+     "zh": "伴随格的 with 要用介词 as。",
+     "exampleZh": "as Elda「和一个精灵一起」"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "用 Eldanen 表「和精灵一起」",
+     "right": "用 as Elda",
+     "whyZh": "原文：some writers have actually misapplied the Quenya instrumental case in such a way!"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一个玩笑，一条规则",
+     "bodyZh": "作者用「望远镜」的玩笑说明界线：工具必须真的是手段。这句话同时也承认了昆雅词汇的缺口——托尔金没给「望远镜」这个词。"
+    }
+   ],
+   "recapZh": "工具格＝手段；伴随用 as。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我和一个精灵来了」怎么写？",
+     "aZh": "Tullen sinomë as Elda。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-instrumental-case",
+    "unitIds": [
+     6
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ins-mactane",
+   "sourceSectionId": "the-instrumental-case",
+   "titleZh": "09 · MacTane 的两句对照",
+   "leadZh": "Kai MacTane 用一对最小对比句把工具格与伴随格钉死：Tullen as Elda 对 I ulundo palpanë i Nauco Eldanen。",
+   "objectives": [
+    "能复述这一对对比句",
+    "能说明两句意思的差别"
+   ],
+   "rules": [
+    {
+     "id": "r-in-k1",
+     "headZh": "术语",
+     "bodyZh": "工具格的 with（即 using）不同于伴随格的 with（即 alongside, together with）。",
+     "en": "not the comitative \"with\"",
+     "zh": "不是伴随格的 with。"
+    },
+    {
+     "id": "r-in-k2",
+     "headZh": "伴随：as",
+     "bodyZh": "Tullen sinomë as Elda「I came here with an Elf」——我刚到这里，一个精灵和我一起来了。",
+     "en": "Tullen sinomë as Elda",
+     "zh": "我和一个精灵来到了这里。",
+     "exampleZh": "as Elda"
+    },
+    {
+     "id": "r-in-k3",
+     "headZh": "工具：-nen",
+     "bodyZh": "I ulundo palpanë i Nauco Eldanen「The monster battered the Dwarf with an Elf」——怪物真的把整个精灵抓起来当武器。",
+     "en": "I ulundo palpanë i Nauco Eldanen",
+     "zh": "怪物用一个精灵揍了矮人。",
+     "exampleZh": "Eldanen"
+    },
+    {
+     "id": "r-in-k4",
+     "headZh": "不要混",
+     "bodyZh": "作者借 MacTane 的话收尾：两者是「两种好味道，绝不该混淆」。",
+     "en": "two great tastes that should never be confused",
+     "zh": "两种好味道，绝不该混淆。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为两句只差一个词尾、意思差不多",
+     "right": "一句是同行，一句是拿人当棍子",
+     "whyZh": "原文对第二句的解说：the monster literally picked up the entire Elf and used it to administer a smackdown。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "最小对比句的用法",
+     "bodyZh": "同一个动词、同一个宾语、只换「with」的表达方式，意义天差地别。学习格词尾时，最有效的记忆单位就是这种成对例句，而不是孤立的词尾表。"
+    }
+   ],
+   "recapZh": "as Elda（一起）／Eldanen（用它）。",
+   "selfCheckZh": [
+    {
+     "qZh": "「怪物用一个精灵揍了矮人」用哪个形式？",
+     "aZh": "Eldanen（工具格）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-instrumental-case",
+    "unitIds": [
+     7,
+     8,
+     9,
+     10,
+     11
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ins-namarie",
+   "sourceSectionId": "the-instrumental-case",
+   "titleZh": "10 · 《Namárië》的两个工具格",
+   "leadZh": "托尔金把 súrinen 译作 in the wind、把 lírinen 译作 by the song，但两者都是工具格：风与歌是「使之发生者」。",
+   "objectives": [
+    "能解释 súrinen 为何译作 in",
+    "知道工具格可表原因"
+   ],
+   "rules": [
+    {
+     "id": "r-in-v1",
+     "headZh": "súrinen",
+     "bodyZh": "Ai! laurië lantar lassi súrinen 译作「like gold fall the leaves in the wind」，但风其实是使叶落的手段。",
+     "en": "Ai! laurië lantar lassi súrinen",
+     "zh": "如金般，叶子在风中落下。",
+     "exampleZh": "súrinen"
+    },
+    {
+     "id": "r-in-v2",
+     "headZh": "工具格可表原因",
+     "bodyZh": "in the wind 实际意味着 by means of the wind，或干脆 because of the wind。",
+     "en": "because of the wind",
+     "zh": "因为风。"
+    },
+    {
+     "id": "r-in-v3",
+     "headZh": "lírinen",
+     "bodyZh": "ómaryo lírinen ＝「her voice's song-by」：Varda 声音之歌是使群星闪烁者。",
+     "en": "ómaryo lírinen",
+     "zh": "以她声音之歌。",
+     "exampleZh": "ómaryo lírinen"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "看到托尔金译作 in 就以为这是位格",
+     "right": "形式是工具格 -nen，in 只是英译的权宜",
+     "whyZh": "原文：yet it is clear from the context that the instrumental does not really intrude on the area otherwise covered by the locative。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "翻译会骗人，形式不会",
+     "bodyZh": "这是本课最重要的一次方法论示范：判断一个形式属于哪个格，要看词尾，不要看托尔金的英译。英译为了通顺可以借介词，语法标签不能跟着借。"
+    }
+   ],
+   "recapZh": "súrinen（因风）、lírinen（以歌）：工具格可表原因。",
+   "selfCheckZh": [
+    {
+     "qZh": "súrinen 是哪个格？",
+     "aZh": "工具格（-nen），尽管英译作 in the wind。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-instrumental-case",
+    "unitIds": [
+     12
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ins-measure",
+   "sourceSectionId": "the-instrumental-case",
+   "titleZh": "11 · lestanen「in measure」",
+   "leadZh": "《Fíriel 之歌》里 Valar 以 lestanen 分发礼物。这个工具格名词说明动作是如何完成的。",
+   "objectives": [
+    "知道 lestanen 的用法",
+    "理解「方式」这一层意义"
+   ],
+   "rules": [
+    {
+     "id": "r-in-l1",
+     "headZh": "lestanen",
+     "bodyZh": "Valar 以 lestanen ＝ in measure 把 Ilúvatar 的礼物给了每个人；工具格名词说明言语动作如何完成。",
+     "en": "lestanen = \"in measure\"",
+     "zh": "lestanen＝「按分量」。",
+     "exampleZh": "lestanen"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把工具格只理解成「用某物」",
+     "right": "它也能表「以某种方式／尺度」",
+     "whyZh": "原文：the instrumental noun tells us something about how the verbal action was accomplished。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "第三种译法",
+     "bodyZh": "到这里工具格已出现三种英译：with（ómainen）、in（súrinen、lestanen）、by（ambartanen）。同一个词尾，三种介词——这正是作者反复提醒「别按英译判断格」的原因。"
+    }
+   ],
+   "recapZh": "lestanen＝按分量、以某种尺度。",
+   "selfCheckZh": [
+    {
+     "qZh": "lestanen 表达哪一层意义？",
+     "aZh": "方式／尺度。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-instrumental-case",
+    "unitIds": [
+     13
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ins-wing",
+   "sourceSectionId": "the-instrumental-case",
+   "titleZh": "12 · 双翼：rámainen 与 rámanten",
+   "leadZh": "《Markirya》把船帆称作「翼」，用复数工具格 rámainen；谈单只鸟则用双数 rámanten。",
+   "objectives": [
+    "能区分复数 -inen 与双数 -nten 的用法",
+    "能造 aiwi vilir rámainen"
+   ],
+   "rules": [
+    {
+     "id": "r-in-g1",
+     "headZh": "复数",
+     "bodyZh": "ráma「翼」的复数工具格 rámainen：wilwarin wilwa...rámainen elvië「像蝴蝶般扑动……以星般的翼」。",
+     "en": "rámainen",
+     "zh": "以（众）翼。",
+     "exampleZh": "rámainen"
+    },
+    {
+     "id": "r-in-g2",
+     "headZh": "双数",
+     "bodyZh": "谈单只鸟用双数工具格：aiwë vilë rámanten「a bird flies with [a pair of] wings」。",
+     "en": "aiwë vilë rámanten",
+     "zh": "一只鸟以双翼飞翔。",
+     "exampleZh": "rámanten"
+    },
+    {
+     "id": "r-in-g3",
+     "headZh": "自造例句",
+     "bodyZh": "同一形式可造朴素例句：aiwi vilir rámainen「birds fly with (or, using) wings」。",
+     "en": "aiwi vilir rámainen",
+     "zh": "鸟以翼飞行。",
+     "exampleZh": "aiwi vilir rámainen"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 rámainen 与 rámanten 当同义",
+     "right": "一个是复数（多翼／众鸟），一个是双数（一对翼）",
+     "whyZh": "原文用「单只鸟」明确点出双数场合。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "从诗到练习",
+     "bodyZh": "作者先引诗，再自己造一个朴素例句，最后给一个双数版。这个「诗例 → 平实例 → 变体」的三步，是本课程把语料转成练习的标准做法。"
+    }
+   ],
+   "recapZh": "rámainen（复数）／rámanten（双数）。",
+   "selfCheckZh": [
+    {
+     "qZh": "「一只鸟以双翼飞翔」？",
+     "aZh": "Aiwë vilë rámanten。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-instrumental-case",
+    "unitIds": [
+     14
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ins-ambar",
+   "sourceSectionId": "the-instrumental-case",
+   "titleZh": "13 · ambartanen：唯一出自《Silmarillion》的工具格",
+   "leadZh": "Níniel 称图林为 Turambar turun ambartanen「被命运征服的命运之主」。这个词背后有一场 ambar 与 umbar 的争论。",
+   "objectives": [
+    "能读 turún' ambartanen",
+    "知道 ambar／umbar 的关系"
+   ],
+   "rules": [
+    {
+     "id": "r-in-a1",
+     "headZh": "句子",
+     "bodyZh": "Turambar turun ambartanen「master of doom by doom mastered」；UT:138 指出更正确的读法是 Turambar turún' ambartanen。",
+     "en": "Turambar turún' ambartanen",
+     "zh": "被命运征服的命运之主。",
+     "exampleZh": "turún' ambartanen"
+    },
+    {
+     "id": "r-in-a2",
+     "headZh": "ambar 与 umbar",
+     "bodyZh": "「doom」在此是 ambar，词干 ambart(a)-；其他材料指向 umbar 才是昆雅「fate, doom」之词。ambar 通常意为「世界」。",
+     "en": "Other sources point to umbar as the Quenya word for \"fate, doom\"",
+     "zh": "其他材料指向 umbar 为昆雅「命运」之词。"
+    },
+    {
+     "id": "r-in-a3",
+     "headZh": "辛达林影响",
+     "bodyZh": "ambar「doom」可能是流亡昆雅中受辛达林 ammarth／amarth 影响而出现的变体。",
+     "en": "influence from the corresponding Sindarin word",
+     "zh": "受辛达林对应词影响。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 ambar「命运」与 ambar「世界」当同一个词",
+     "right": "两者词干不同（ambart(a)- 对 ambar-）",
+     "whyZh": "原文：ambar \"doom\" only partially coincides with this noun, since the stem-form ambart(a)- is distinct。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "作者的态度",
+     "bodyZh": "面对矛盾，作者不强行调和，而是给出可能解释并收在「我们必须有信心：也许托尔金在某份未刊笔记里解释了这些矛盾」。这种写法在本课出现多次，是阅读原文时必须习惯的语气。"
+    }
+   ],
+   "recapZh": "turún' ambartanen；ambar「命运」／umbar；ambar「世界」。",
+   "selfCheckZh": [
+    {
+     "qZh": "ambartanen 意为？",
+     "aZh": "by doom（被命运）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-instrumental-case",
+    "unitIds": [
+     15
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ins-turun",
+   "sourceSectionId": "the-instrumental-case",
+   "titleZh": "14 · 怪形式 turún[a]",
+   "leadZh": "turun 译作 mastered，应是被动分词 turúna 的末元音脱落。但按第十课的规则，tur- 的分词该是 turna。",
+   "objectives": [
+    "知道 turún[a] 的推定来源",
+    "知道它与 turna／túrina 不符"
+   ],
+   "rules": [
+    {
+     "id": "r-in-t1",
+     "headZh": "推定",
+     "bodyZh": "turun（更正确 turún'）译作 mastered，完整形式必是 turúna，末 -a 因下一词以同元音开头而脱落。",
+     "en": "turun or more properly turún'",
+     "zh": "turun，更正确地 turún'。"
+    },
+    {
+     "id": "r-in-t2",
+     "headZh": "不合规则",
+     "bodyZh": "按第十课，tur- 的被动分词该是 turna（参 carna），或较不可能的 túrina（参 rácina）；turún[a] 两者都不是。",
+     "en": "the participle of tur- ought to be turna",
+     "zh": "tur- 的分词该是 turna。"
+    },
+    {
+     "id": "r-in-t3",
+     "headZh": "如何处理",
+     "bodyZh": "作者判断它可能属于托尔金演变中某个被放弃的实验，并提醒：身后刊布的材料不能一律当作定论。",
+     "en": "an experiment later abandoned",
+     "zh": "一个后来被放弃的实验。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 turúna 当成 tur- 的标准分词",
+     "right": "标准是 turna；turún[a] 属孤例",
+     "whyZh": "原文：The form turún[a] is quite perplexing. It could belong to some peculiar phase in Tolkien's evolution of Quenya。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "孤例的读法",
+     "bodyZh": "这一段的示范意义大于知识意义：遇到与已知规则冲突的孤例，正确做法是标注「存疑」，而不是改写规则去迁就它。"
+    }
+   ],
+   "recapZh": "turún[a]「mastered」是孤例；常规分词是 turna。",
+   "selfCheckZh": [
+    {
+     "qZh": "tur- 的常规被动分词？",
+     "aZh": "turna。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-instrumental-case",
+    "unitIds": [
+     16
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ins-agent",
+   "sourceSectionId": "the-instrumental-case",
+   "titleZh": "15 · 被动分词后的施事用工具格",
+   "leadZh": "从 Níniel 的呼喊能读出一条真规则：被动分词之后，造成该状态的行为者用工具格引出。",
+   "objectives": [
+    "能造 i parma técina i Eldanen",
+    "知道 técina quessenen 的两种读法"
+   ],
+   "rules": [
+    {
+     "id": "r-in-e1",
+     "headZh": "规则",
+     "bodyZh": "被动分词之后，造成所述状态的行为者可用工具格名词引出。",
+     "en": "the agent who brought about the condition described can be introduced as a noun in the instrumental case",
+     "zh": "造成所述状态的行为者可用工具格名词引出。"
+    },
+    {
+     "id": "r-in-e2",
+     "headZh": "例句",
+     "bodyZh": "i parma técina i Eldanen「the book written by the Elf」。",
+     "en": "i parma técina i Eldanen",
+     "zh": "精灵写的书。",
+     "exampleZh": "i parma técina i Eldanen"
+    },
+    {
+     "id": "r-in-e3",
+     "headZh": "也可表工具",
+     "bodyZh": "分词后工具格也能回到基本功能：técina quessenen「written with a feather [pen]」。",
+     "en": "técina quessenen",
+     "zh": "用羽毛笔写的。",
+     "exampleZh": "técina quessenen"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把被动句的施事也用与格",
+     "right": "被动分词后用工具格",
+     "whyZh": "原文把这条明确称为 one important grammatical rule。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "从一个孤例里挖规则",
+     "bodyZh": "上一段说 turún[a] 形式可疑，这一段却从同一句里挖出一条可靠规则。作者的判断标准很清楚：形式可疑，句法可用。"
+    }
+   ],
+   "recapZh": "被动分词＋工具格＝施事（或工具）。",
+   "selfCheckZh": [
+    {
+     "qZh": "「精灵写的书」？",
+     "aZh": "i parma técina i Eldanen。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-instrumental-case",
+    "unitIds": [
+     17
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ins-rel",
+   "sourceSectionId": "the-instrumental-case",
+   "titleZh": "16 · 关系代词 ya- 的工具格",
+   "leadZh": "ya- 也能接工具格：yanen／yainen／yanten，意为「凭它／靠它们」。",
+   "objectives": [
+    "能写 yanen、yainen、yanten",
+    "能造 i cirya yanen... 这类句子"
+   ],
+   "rules": [
+    {
+     "id": "r-in-r1",
+     "headZh": "单数",
+     "bodyZh": "i cirya yanen lenden amba i sírë「the ship by which I went up the river」（amba＝up）。",
+     "en": "i cirya yanen lenden amba i sírë",
+     "zh": "我乘以上溯那条河的船。",
+     "exampleZh": "yanen"
+    },
+    {
+     "id": "r-in-r2",
+     "headZh": "复数与双数",
+     "bodyZh": "复数 i ciryar yainen...「the ships by which...」；双数 i ciryat yanten...「the couple of ships by which...」。",
+     "en": "i ciryat yanten",
+     "zh": "那一对船（凭它们）。",
+     "exampleZh": "yainen／yanten"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 ya- 只接方位格",
+     "right": "第 15 课已列全六格，本课补工具格",
+     "whyZh": "原文：there is no reason to doubt that also instrumental endings can be combined with the relative pronoun。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "把第 15 课接上",
+     "bodyZh": "第 15 课给了 ya 的 yassë、yanna、yallo、yan、yo、yava。本段补上 yanen，关系代词的格表就齐了。"
+    }
+   ],
+   "recapZh": "yanen／yainen／yanten。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我用来写字的笔」中的「用来」用哪个形式？",
+     "aZh": "关系代词 ya 的工具格 yanen。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-instrumental-case",
+    "unitIds": [
+     18
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ins-pron",
+   "sourceSectionId": "the-instrumental-case",
+   "titleZh": "17 · mányanen：工具格＋所有格词尾",
+   "leadZh": "工具格词尾也能接在所有格代词词尾之后：má-nya-nen「hand-my-with」。",
+   "objectives": [
+    "能拆解 mányanen",
+    "知道词尾顺序"
+   ],
+   "rules": [
+    {
+     "id": "r-in-o1",
+     "headZh": "mányanen",
+     "bodyZh": "má-nya-nen「hand-my-with」，即「with my hand」「using my hand」。",
+     "en": "mányanen",
+     "zh": "用我的手。",
+     "exampleZh": "mányanen"
+    },
+    {
+     "id": "r-in-o2",
+     "headZh": "顺序",
+     "bodyZh": "先所有格代词词尾，后格词尾——与第 14 课的 sambelyallo、tielyanna 同一条规则。",
+     "en": "producing forms like mányanen",
+     "zh": "产生 mányanen 这样的形式。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写成 má-nen-nya",
+     "right": "代词词尾在内、格词尾在外",
+     "whyZh": "原文把结构标为 má-nya-nen。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一条老规则的新例子",
+     "bodyZh": "第 14 课讲 -lya、-lva 时已经确立「代词词尾先、格词尾后」。本段只是把它用到工具格上，没有新规则。"
+    }
+   ],
+   "recapZh": "má-nya-nen＝用我的手。",
+   "selfCheckZh": [
+    {
+     "qZh": "mányanen 怎么拆？",
+     "aZh": "má ＋ -nya ＋ -nen。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-instrumental-case",
+    "unitIds": [
+     19
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ins-ger",
+   "sourceSectionId": "the-instrumental-case",
+   "titleZh": "18 · tiriénen：工具格＋gerund",
+   "leadZh": "工具格加在 -ië 结尾的 gerund 上，表「靠做某事」：tiriénen「by watching」。元音要拉长以保住重音。",
+   "objectives": [
+    "能写 tiriénen、tyaliénen",
+    "能解释为何不是 ?tirienen"
+   ],
+   "rules": [
+    {
+     "id": "r-in-x1",
+     "headZh": "by doing",
+     "bodyZh": "工具格与 gerund（-ië）结合可表 by doing so and so：tiriénen「by watching」。",
+     "en": "tiriénen",
+     "zh": "靠观察。",
+     "exampleZh": "tiriénen"
+    },
+    {
+     "id": "r-in-x2",
+     "headZh": "为何拉长",
+     "bodyZh": "加词尾时 -ië 的元音拉长以取得重音，避免 ?tirienen 那种重音落在第二个 i 的别扭型。",
+     "en": "Hence I go for tiriénen rather than ?tirienen",
+     "zh": "所以我取 tiriénen 而非 ?tirienen。"
+    },
+    {
+     "id": "r-in-x3",
+     "headZh": "旁证",
+     "bodyZh": "可比托尔金把 tyalië「play」的所有格作 tyaliéva；工具格大概作 tyaliénen。",
+     "en": "tyaliénen",
+     "zh": "以游戏、靠玩耍。",
+     "exampleZh": "tyaliéva／tyaliénen"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 tiriénen 的重音放在 ti-",
+     "right": "重音在 -é-",
+     "whyZh": "原文说 ?tirienen 会「have to be accented on the second i」，正是要避免的。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "重音驱动形态",
+     "bodyZh": "这一段第一次明说：元音拉长不只是音变，而是为了得到悦耳的重音型。这条线索直接通向下一节的 -tá-。"
+    }
+   ],
+   "recapZh": "tiriénen「靠观察」；tyaliénen。",
+   "selfCheckZh": [
+    {
+     "qZh": "「靠观察发现」怎么说？",
+     "aZh": "用 tiriénen。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-instrumental-case",
+    "unitIds": [
+     20
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ins-ta-head",
+   "sourceSectionId": "the-instrumental-case",
+   "titleZh": "19 · 小标题：元音不带重音＋-ta 的动词",
+   "leadZh": "原文此处换了一个小标题。它标记本课的第二条主线：由形容词派生的使役动词。",
+   "objectives": [
+    "知道这一节讲什么",
+    "知道它与工具格无直接关系"
+   ],
+   "rules": [
+    {
+     "id": "r-in-h1",
+     "headZh": "标题",
+     "bodyZh": "小标题作 VERBS WITH AN UNACCENTED VOWEL + -TA，即「词尾 -ta 前元音不带重音的动词」。",
+     "en": "VERBS WITH AN UNACCENTED VOWEL + -TA",
+     "zh": "元音不带重音＋-ta 的动词。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把这一节当成工具格的继续",
+     "right": "这是新话题：-ta 使役动词",
+     "whyZh": "小标题本身即宣告换题；下文全部围绕 airita-、envinyata-、ninquitá- 展开。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么放在这里",
+     "bodyZh": "上一段讲 tiriénen 时提到「为避免累赘重音型而拉长元音」，作者顺势把同一个音系动因带进动词领域。结构上是过渡，不是硬接。"
+    }
+   ],
+   "recapZh": "本节：-ta 前元音不带重音的动词。",
+   "selfCheckZh": [
+    {
+     "qZh": "这一节的主题？",
+     "aZh": "带 -ta 的使役动词及其过去时、分词。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-instrumental-case",
+    "unitIds": [
+     21
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ins-ta-intro",
+   "sourceSectionId": "the-instrumental-case",
+   "titleZh": "20 · 次要子类",
+   "leadZh": "昆雅动词还有若干次要子类，各有特点，但材料极少。本课只处理其中一个。",
+   "objectives": [
+    "知道昆雅动词分类并不完整",
+    "知道本课只讲一类"
+   ],
+   "rules": [
+    {
+     "id": "r-in-i1",
+     "headZh": "材料限制",
+     "bodyZh": "还有若干次要子类，但知识极有限，因为例子太少。",
+     "en": "There are some minor sub-groups of verbs that may have their own peculiar features",
+     "zh": "还有一些次要子类可能有自己的特点。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为昆雅动词分类已经完备",
+     "right": "作者明说知识极有限",
+     "whyZh": "原文：our knowledge is very limited since ... we have so few examples。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一句免责声明",
+     "bodyZh": "这类句子在全书中反复出现。它提醒读者：下面给出的规则都是「据现有材料的最佳推测」，不是完整语法。"
+    }
+   ],
+   "recapZh": "本课只讲 -ta 使役动词一类。",
+   "selfCheckZh": [
+    {
+     "qZh": "为什么只讲一类？",
+     "aZh": "因为其他子类材料太少。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-instrumental-case",
+    "unitIds": [
+     22
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ins-caus",
+   "sourceSectionId": "the-instrumental-case",
+   "titleZh": "21 · car- ＋形容词：一个英语习语？",
+   "leadZh": "作者承认自己把 car- 与形容词搭配是英语式用法，托尔金没有这样的例子。昆雅更可能用使役动词。",
+   "objectives": [
+    "知道 car- ＋形容词属自造",
+    "知道昆雅有专门的使役动词"
+   ],
+   "rules": [
+    {
+     "id": "r-in-c1",
+     "headZh": "自认",
+     "bodyZh": "Hiritaryas carnë lierya alya 这类搭配没有托尔金的例子，作者承认可能是在把英语习语强加给昆雅。",
+     "en": "Hiritaryas carnë lierya alya",
+     "zh": "他发现它使他的族人富有。",
+     "exampleZh": "carnë ... alya"
+    },
+    {
+     "id": "r-in-c2",
+     "headZh": "更地道的路",
+     "bodyZh": "昆雅词汇里有由形容词派生的使役动词；完全地道的昆雅大概宁用这类构造。",
+     "en": "causative verbs derived from adjectives",
+     "zh": "由形容词派生的使役动词。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 carnë ... alya 当成标准昆雅",
+     "right": "它是教学用的临时构造",
+     "whyZh": "原文：we have no Tolkien-made example of an adjective being combined with car- in such a way。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "诚实的分寸",
+     "bodyZh": "作者对自己造的例句标注得很清楚。读这本书时要留意这种自我标注，它决定了哪些形式可以放心使用、哪些只能看懂。"
+    }
+   ],
+   "recapZh": "car- ＋形容词是自造；昆雅本有使役动词。",
+   "selfCheckZh": [
+    {
+     "qZh": "「使族人富有」更地道的写法方向？",
+     "aZh": "用形容词派生的使役动词（如 alyata-）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-instrumental-case",
+    "unitIds": [
+     23
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ins-tulta",
+   "sourceSectionId": "the-instrumental-case",
+   "titleZh": "22 · -ta 的使役义：tulta-、airita-",
+   "leadZh": "-ta 常只是动词词尾，但有时带使役义：tul-「来」对 tulta-「召来」；airë「圣洁」对 airita-「使圣洁」。",
+   "objectives": [
+    "能举 tulta- 与 airita- 两个例子",
+    "知道 airë 的 -ë 在词尾前变 -i-"
+   ],
+   "rules": [
+    {
+     "id": "r-in-t4",
+     "headZh": "使役义",
+     "bodyZh": "-ta 有时带使役义：tul-「to come」对 tulta-「to summon」，即「使来」。",
+     "en": "the derived verb tulta-",
+     "zh": "派生动词 tulta-。",
+     "exampleZh": "tul- → tulta-"
+    },
+    {
+     "id": "r-in-t5",
+     "headZh": "加在形容词上",
+     "bodyZh": "加到形容词上时，-ta 同样可派生使役动词：airë「holy」→ airita-「to hallow」，即「使圣洁」。",
+     "en": "airita-",
+     "zh": "使圣洁。",
+     "exampleZh": "airë → airita-"
+    },
+    {
+     "id": "r-in-t6",
+     "headZh": "-ë → -i-",
+     "bodyZh": "airë 的末 -ë 在 airita- 中作 -i-，因为它源自原始语的 -i，只在词末才变 -ë；可比 silë／silir。",
+     "en": "silë \"shines\", but with a plural subject silir",
+     "zh": "silë「闪耀」，但复数主语作 silir。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写成 airë-ta 或 aireta",
+     "right": "airita-（-ë 变 -i-）",
+     "whyZh": "原文用 silë／silir 的类比专门解释了这一点。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "两个层次",
+     "bodyZh": "tulta- 说明 -ta 本身可以带使役义；airita- 说明这条路径能系统地从形容词造动词。前者是词例，后者才是本课的规则。"
+    }
+   ],
+   "recapZh": "tulta-、airita-；-ë 在词尾前变 -i-。",
+   "selfCheckZh": [
+    {
+     "qZh": "airita- 由哪个形容词来？",
+     "aZh": "airë（词干 airi-）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-instrumental-case",
+    "unitIds": [
+     24
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ins-airita",
+   "sourceSectionId": "the-instrumental-case",
+   "titleZh": "23 · airitánë：一份未刊手稿里的过去时",
+   "leadZh": "airita- 唯一可证的形式是过去时 airitánë，出自一份 1966 年前后的未刊手稿，由 VT#32 转引。",
+   "objectives": [
+    "知道 airitánë 的出处",
+    "知道 -ta- 在 -në 前拉长"
+   ],
+   "rules": [
+    {
+     "id": "r-in-t7",
+     "headZh": "出处",
+     "bodyZh": "据 VT#32（1993 年 11 月）第 7 页脚注，该手稿页「约作于 1966 年」，将刊于《Vinyar Tengwar》。",
+     "en": "dates to c. 1966",
+     "zh": "约作于 1966 年。"
+    },
+    {
+     "id": "r-in-t8",
+     "headZh": "形式",
+     "bodyZh": "过去时作 airitánë：词尾 -ta- 的元音在加 -në 时拉长，使 -tá- 吸引重音。",
+     "en": "airitánë",
+     "zh": "（他）使圣洁了。",
+     "exampleZh": "airitánë"
+    },
+    {
+     "id": "r-in-t9",
+     "headZh": "动机",
+     "bodyZh": "不拉长的 airitanë 重音会落在 -rit-，相当别扭；拉长正是为避免这种重音型。",
+     "en": "**Airitanë with no lengthening would have a rather awkward stress-pattern",
+     "zh": "不拉长的 airitanë 会有相当别扭的重音型。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写成 airitanë",
+     "right": "过去时作 airitánë（长 á）",
+     "whyZh": "原文说 **Airitanë 的重音会落在 -rit-，正是要避免的。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一段学术八卦",
+     "bodyZh": "作者在这里忍不住抱怨「十年、十二期 VT 之后仍在等这份文献」。这类插话不影响语法，但说明 airitánë 的证据链有多薄——它是转引，不是原文刊布。"
+    }
+   ],
+   "recapZh": "airitánë（长 á）；出处 VT#32 转引。",
+   "selfCheckZh": [
+    {
+     "qZh": "airita- 的过去时？",
+     "aZh": "airitánë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-instrumental-case",
+    "unitIds": [
+     25
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ins-tata",
+   "sourceSectionId": "the-instrumental-case",
+   "titleZh": "24 · 规则：-ta 何时拉长成 -tá-",
+   "leadZh": "只要过去时不接会移动重音的词尾，-ta 就拉长为 -tá-；一旦重音被后面的词尾带走，就不拉长。",
+   "objectives": [
+    "能判断何时拉长",
+    "能写 airitáner／airitánes／airitánen／airitanenyë"
+   ],
+   "rules": [
+    {
+     "id": "r-in-t10",
+     "headZh": "规则",
+     "bodyZh": "只要过去时不再接可能移动重音的词尾，-ta 就拉长为 -tá-：airitánë。",
+     "en": "the ending -ta is lengthened to -tá-",
+     "zh": "词尾 -ta 拉长为 -tá-。"
+    },
+    {
+     "id": "r-in-t11",
+     "headZh": "不移动重音的词尾",
+     "bodyZh": "airitáner（复数主语）、airitánes（他／她）、airitánen（我）都保留长 á，因为重音仍受威胁。",
+     "en": "Airitáner",
+     "zh": "（他们）使圣洁了。",
+     "exampleZh": "airitáner／airitánes／airitánen"
+    },
+    {
+     "id": "r-in-t12",
+     "headZh": "移动重音则不拉长",
+     "bodyZh": "若用较长的「我」词尾，该作 airitanenyë：重音落到 -ne-，-ta- 全无重音。",
+     "en": "airitanenyë",
+     "zh": "（我）使圣洁了。",
+     "exampleZh": "airitanenyë"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 -tá- 永远拉长",
+     "right": "重音被后面的词尾带走时就不拉长",
+     "whyZh": "原文：it should be airitanenyë with no lengthening of -tá- if you use the longer form of the ending for \"I\"。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "重音是原因，不是结果",
+     "bodyZh": "这一段把「为什么拉长」讲透了：不是为了标记时态，而是为了不让重音落到 -rit-。理解了动因，就能类推到没见过的词。"
+    }
+   ],
+   "recapZh": "-tá- 拉长取决于重音是否受威胁。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我们使圣洁了」用长词尾时怎么写？",
+     "aZh": "airitanelvë（不拉长）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-instrumental-case",
+    "unitIds": [
+     26
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ins-ninquita",
+   "sourceSectionId": "the-instrumental-case",
+   "titleZh": "25 · ninquitá-：第二个同类动词",
+   "leadZh": "《词源》NIK-W- 条给出 ninquitá-「使白」，由 ninquë「白」派生；过去时当是 ninquitánë。",
+   "objectives": [
+    "知道 ninquitá- 的来源",
+    "能类推过去时"
+   ],
+   "rules": [
+    {
+     "id": "r-in-t13",
+     "headZh": "来源",
+     "bodyZh": "NIK-W- 条：ninquitá-「whiten」，由形容词「白」派生；ninquë 词干 ninqui-，原始形式 ninkwi。",
+     "en": "ninquitá-",
+     "zh": "使白。",
+     "exampleZh": "ninquë → ninquitá-"
+    },
+    {
+     "id": "r-in-t14",
+     "headZh": "过去时",
+     "bodyZh": "托尔金写作 ninquitá- 已暗示末元音为长，过去时当是 ninquitánë。",
+     "en": "ninquitánë",
+     "zh": "（他）使白了。",
+     "exampleZh": "ninquitánë"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写成 ninquita-（短 a）",
+     "right": "词典条即作 ninquitá-",
+     "whyZh": "原文：By writing ninquitá-, Tolkien obviously suggested that the final vowel is often long。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么这个词重要",
+     "bodyZh": "airita- 只有一个过去时可证，ninquitá- 则连词条都写成 -tá-。两个词互证，这条规则才站得住。"
+    }
+   ],
+   "recapZh": "ninquitá-／ninquitánë。",
+   "selfCheckZh": [
+    {
+     "qZh": "ninquë 的使役动词？",
+     "aZh": "ninquitá-。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-instrumental-case",
+    "unitIds": [
+     27
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ins-part",
+   "sourceSectionId": "the-instrumental-case",
+   "titleZh": "26 · 转折：被动分词怎么构成",
+   "leadZh": "这类动词的被动分词证据散在各处。作者用一句过渡把话题从过去时转到分词。",
+   "objectives": [
+    "知道本节转向分词",
+    "知道证据分散"
+   ],
+   "rules": [
+    {
+     "id": "r-in-t15",
+     "headZh": "过渡",
+     "bodyZh": "这类动词的被动（或「过去」）分词如何构成，还能再说一件事，但证据散得很。",
+     "en": "how the passive (or \"past\") participle is formed",
+     "zh": "被动（或「过去」）分词如何构成。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为分词形式已经确定",
+     "right": "原文说证据 widely scattered",
+     "whyZh": "紧接的三段分别来自《王者归来》与 MR，正是「散」的体现。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "结构提示",
+     "bodyZh": "下面三段是一条链：Envinyatar 给出动词 → Arda Envinyanta 给出分词 → hastaina 给出对照。读的时候把这三段当一组。"
+    }
+   ],
+   "recapZh": "分词证据分散，需三段合看。",
+   "selfCheckZh": [
+    {
+     "qZh": "这一节要解决什么问题？",
+     "aZh": "-ta 动词的被动分词形式。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-instrumental-case",
+    "unitIds": [
+     28
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ins-envinyatar",
+   "sourceSectionId": "the-instrumental-case",
+   "titleZh": "27 · Envinyatar：「复兴者」",
+   "leadZh": "Aragorn 的头衔 Envinyatar 指向动词 envinyata-「复兴」。en-「再」＋ vinya「新」＋ -ta。",
+   "objectives": [
+    "能拆解 Envinyatar",
+    "知道 envinyata- 的构成"
+   ],
+   "rules": [
+    {
+     "id": "r-in-t16",
+     "headZh": "头衔",
+     "bodyZh": "Aragorn 自称 Elessar 与 Envinyatar「the Renewer」；末 -r 是施事词尾，指向动词 envinyata-。",
+     "en": "Envinyatar",
+     "zh": "复兴者。",
+     "exampleZh": "Envinyatar"
+    },
+    {
+     "id": "r-in-t17",
+     "headZh": "构成",
+     "bodyZh": "en- 意为「re-」，vinya 是「new」，故 envinyata- 又是一个由形容词经 -ta 派生的动词。",
+     "en": "The prefix en- means \"re-\", and vinya is the Quenya adjective \"new\"",
+     "zh": "前缀 en- 意为「再」，vinya 是形容词「新」。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 Envinyatar 当独立词根",
+     "right": "它是 envinyata- ＋施事 -r",
+     "whyZh": "原文：Envinyatar \"Renewer\" points to an underlying verb envinyata-。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "从专名反推动词",
+     "bodyZh": "这是本书常用的论证方式：先用一个可证的派生名词（Envinyatar）确定动词存在，再用同一文本里的分词（Envinyanta）确定分词形式。"
+    }
+   ],
+   "recapZh": "Envinyatar＝envinyata- ＋ -r。",
+   "selfCheckZh": [
+    {
+     "qZh": "envinyata- 由哪两部分加 -ta 构成？",
+     "aZh": "en- ＋ vinya。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-instrumental-case",
+    "unitIds": [
+     29
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ins-envinyanta",
+   "sourceSectionId": "the-instrumental-case",
+   "titleZh": "28 · Arda Envinyanta：鼻音插入的分词",
+   "leadZh": "MR:405 的 Arda Envinyanta 译作「Arda Healed」，字面是「Arda Renewed」。分词靠鼻音插入：envinyanta。",
+   "objectives": [
+    "能写 envinyanta",
+    "知道它与 -taina 型分词不同"
+   ],
+   "rules": [
+    {
+     "id": "r-in-t18",
+     "headZh": "形式",
+     "bodyZh": "envinyata- 的被动分词是 envinyanta：在词尾 -ta 的 t 前插入鼻音。",
+     "en": "Arda Envinyanta",
+     "zh": "复兴的阿尔达。",
+     "exampleZh": "envinyanta"
+    },
+    {
+     "id": "r-in-t19",
+     "headZh": "对照",
+     "bodyZh": "「正常」-ta 动词的分词似作 -taina，如 hastaina「marred」；两种型出现在同一文本，故确属同一版昆雅。",
+     "en": "hastaina",
+     "zh": "被毁损的。",
+     "exampleZh": "hastaina"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 envinyanta 当 -taina 型",
+     "right": "它是鼻音插入型：envinyan-ta",
+     "whyZh": "原文：by nasal-infixion intruding before the t of the ending -ta。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么强调「同一文本」",
+     "bodyZh": "若两种分词出自不同时期的文本，人们可以说其中一种是旧版。作者特意指出二者同在 MR:405，正是为了堵住这个退路——这是很讲究的证据意识。"
+    }
+   ],
+   "recapZh": "envinyanta（鼻音插入）；对照 hastaina。",
+   "selfCheckZh": [
+    {
+     "qZh": "envinyata- 的被动分词？",
+     "aZh": "envinyanta。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-instrumental-case",
+    "unitIds": [
+     30
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ins-airinta",
+   "sourceSectionId": "the-instrumental-case",
+   "titleZh": "29 · 类推：airinta、ninquinta",
+   "leadZh": "若 envinyanta 成立，airita- 的分词当是 airinta，ninquitá- 的当是 ninquinta；过去时则作 envinyatánë。",
+   "objectives": [
+    "能类推三个形式",
+    "知道它们随数变化"
+   ],
+   "rules": [
+    {
+     "id": "r-in-t20",
+     "headZh": "airinta",
+     "bodyZh": "airita-「使圣洁」的被动分词当是 airinta，而非 ?airitaina（后者也许也可接受）。",
+     "en": "airinta",
+     "zh": "被祝圣的。",
+     "exampleZh": "airinta"
+    },
+    {
+     "id": "r-in-t21",
+     "headZh": "envinyatánë",
+     "bodyZh": "若 airita- 的过去时拉长，envinyata- 的过去时当作 envinyatánë。",
+     "en": "envinyatánë",
+     "zh": "（他）复兴了。",
+     "exampleZh": "envinyatánë"
+    },
+    {
+     "id": "r-in-t22",
+     "headZh": "ninquinta",
+     "bodyZh": "ninquitá-「使白」的分词「whitened」很可能是 ninquinta。",
+     "en": "ninquinta",
+     "zh": "被使白的。",
+     "exampleZh": "ninquinta"
+    },
+    {
+     "id": "r-in-t23",
+     "headZh": "随数变化",
+     "bodyZh": "envinyanta、airinta、ninquinta 像 -a 形容词一样变复数，末元音改 -ë。",
+     "en": "changing this final vowel to -ë in the plural",
+     "zh": "复数把末元音改成 -ë。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 airinta 当唯一可能",
+     "right": "作者说 ?airitaina 也许也可接受",
+     "whyZh": "原文括注：rather than ?airitaina, though perhaps this form would also be acceptable。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "类推的边界",
+     "bodyZh": "三个形式全部由 envinyanta 推出，没有一个直接可证。作者用 may plausibly assume／probably 标明把握程度——读的时候要把这些词圈出来。"
+    }
+   ],
+   "recapZh": "airinta、envinyatánë、ninquinta。",
+   "selfCheckZh": [
+    {
+     "qZh": "ninquitá- 的被动分词？",
+     "aZh": "ninquinta。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-instrumental-case",
+    "unitIds": [
+     31
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ins-active",
+   "sourceSectionId": "the-instrumental-case",
+   "titleZh": "30 · 主动分词 -la：airitála",
+   "leadZh": "同一类动词的 -la 主动分词大概也拉长 -ta：airitála「祝圣着」、envinyatála「复兴着」。",
+   "objectives": [
+    "能写 airitála、envinyatála",
+    "知道理由同样是重音"
+   ],
+   "rules": [
+    {
+     "id": "r-in-t24",
+     "headZh": "主动分词",
+     "bodyZh": "主动分词 -la 前几乎肯定也拉长 -ta：airitála「hallowing」、envinyatála「renewing」。",
+     "en": "airitála",
+     "zh": "正在祝圣的。",
+     "exampleZh": "airitála／envinyatála"
+    },
+    {
+     "id": "r-in-t25",
+     "headZh": "理由",
+     "bodyZh": "拉长的动机同样是得到悦耳的重音型。",
+     "en": "to achieve euphonic stress-patterns",
+     "zh": "为得到悦耳的重音型。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为只有过去时才拉长",
+     "right": "-la 分词同样拉长",
+     "whyZh": "原文：we would almost certainly see the same lengthening of the ending -ta。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一条音系动因贯穿全节",
+     "bodyZh": "从 tiriénen 到 airitánë 再到 airitála，三次拉长都是同一个理由：别让重音落到难听的位置。抓住这条线，整节就不再是零散形式。"
+    }
+   ],
+   "recapZh": "airitála、envinyatála。",
+   "selfCheckZh": [
+    {
+     "qZh": "airita- 的主动分词？",
+     "aZh": "airitála。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-instrumental-case",
+    "unitIds": [
+     32
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ins-derive",
+   "sourceSectionId": "the-instrumental-case",
+   "titleZh": "31 · 该不该自己造词：alyatánë 与一场争论",
+   "leadZh": "作者示范把 alya「富」变成 alyata-「使富」，随即提出一个更大的问题：后人到底有多大自由造昆雅词？",
+   "objectives": [
+    "能写 alyatánë、alyanta",
+    "能复述两种立场的分歧"
+   ],
+   "rules": [
+    {
+     "id": "r-in-t26",
+     "headZh": "示范",
+     "bodyZh": "hiritaryas carnë lierya alya 也许更该作 hiritaryas alyatánë lierya：alya- → alyata-「make rich」，过去时 alyatánë，分词 alyanta。",
+     "en": "alyatánë",
+     "zh": "（他）使富了。",
+     "exampleZh": "alyata-／alyatánë／alyanta"
+    },
+    {
+     "id": "r-in-t27",
+     "headZh": "两种立场",
+     "bodyZh": "一派只用托尔金提供的词，必要时绕长路；一派主张按已知原则造新词，但可能被视为用「假」元素稀释原著。",
+     "en": "Some post-Tolkien creativity must unquestionably be allowed",
+     "zh": "某种后托尔金的创造无疑必须被允许。"
+    },
+    {
+     "id": "r-in-t28",
+     "headZh": "作者的态度",
+     "bodyZh": "他承认没有容易的答案：要把昆雅发展成堪用的语言，创造不可避免，但界线难划。",
+     "en": "there are no easy answers here",
+     "zh": "这里没有容易的答案。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为「按规则造词」就是正确昆雅",
+     "right": "造出来的词是后托尔金的，需标明",
+     "whyZh": "原文把这种做法的风险讲得很清楚：perceived as diluting Tolkien's actual linguistic output with \"fake\" elements。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "全书的元问题",
+     "bodyZh": "这一段的重量超出语法：它问的是「学一门死语言，能走多远」。作者没有给答案，只把两种代价摆出来。读到这里，前面的所有「?形式」就都能理解了。"
+    }
+   ],
+   "recapZh": "alyata-／alyatánë／alyanta；造词自由是个开放问题。",
+   "selfCheckZh": [
+    {
+     "qZh": "alya- 的使役动词与过去时？",
+     "aZh": "alyata-、alyatánë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-instrumental-case",
+    "unitIds": [
+     33
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "imp-intro",
+   "sourceSectionId": "the-imperative",
+   "titleZh": "32 · 命令式是什么",
+   "leadZh": "命令式表达命令或请求，但不等于粗鲁。主祷文里的「救我们脱离凶恶」就是命令式，而它只是祈祷。",
+   "objectives": [
+    "知道命令式的定义",
+    "知道命令式不等于生硬命令"
+   ],
+   "rules": [
+    {
+     "id": "r-imp1",
+     "headZh": "定义",
+     "bodyZh": "命令式是用于表达命令或请求的动词形式。",
+     "en": "The imperative is a form of the verb used to express commands or requests",
+     "zh": "命令式是用于表达命令或请求的动词形式。"
+    },
+    {
+     "id": "r-imp2",
+     "headZh": "语气",
+     "bodyZh": "命令式本身不必然是生硬的命令；「deliver us from evil」这样的祈祷正是命令式，却只是祈祷。",
+     "en": "a prayer, not an attempt to order God around",
+     "zh": "是祈祷，不是想对上帝发号施令。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为命令式一律失礼",
+     "right": "英语加 please、昆雅加语境，都可缓和",
+     "whyZh": "原文：an imperative form as such is not necessarily to be taken as a blunt order。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么先讲语气",
+     "bodyZh": "因为后面要读主祷文与《LotR》的欢呼句。若不先松开「命令＝粗鲁」这个误解，读到 á vala Manwë! 会以为精灵在呵斥神。"
+    }
+   ],
+   "recapZh": "命令式＝命令或请求，未必粗鲁。",
+   "selfCheckZh": [
+    {
+     "qZh": "主祷文里有命令式吗？",
+     "aZh": "有，如「救我们脱离凶恶」。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-imperative",
+    "unitIds": [
+     0
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "imp-prime",
+   "sourceSectionId": "the-imperative",
+   "titleZh": "33 · 原始小品词 â 与两个化石感叹词",
+   "leadZh": "原始精灵语有命令小品词 â，「原初独立且位置可变」。它有时后置成词尾 -a，留下 heca!、ela! 两个化石。",
+   "objectives": [
+    "知道 â 的来源与可变位置",
+    "能举 heca!、ela!"
+   ],
+   "rules": [
+    {
+     "id": "r-imp3",
+     "headZh": "原始小品词",
+     "bodyZh": "原始精灵语有命令小品词 â，可与动词词干连用；它「原初独立且位置可变」（WJ:365）。",
+     "en": "originally independent and variable in place",
+     "zh": "原初独立且位置可变。"
+    },
+    {
+     "id": "r-imp4",
+     "headZh": "heca!",
+     "bodyZh": "heca!「be gone!」「stand aside!」来自原始短语 hek(e) â（WJ:364）。",
+     "en": "heca!",
+     "zh": "走开！",
+     "exampleZh": "heca!"
+    },
+    {
+     "id": "r-imp5",
+     "headZh": "ela!",
+     "bodyZh": "原始感叹词 el-â「lo!」「look!」是精灵在 Cuiviénen 醒来初见星辰时说的第一句话；昆雅作 ela!（WJ:360、362）。",
+     "en": "ela!",
+     "zh": "看哪！",
+     "exampleZh": "ela!"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 heca、ela 当成常规命令式范式",
+     "right": "它们可能是化石形式",
+     "whyZh": "原文：exclamations like heca and ela are to be taken as \"fossilized\" forms。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "两个层次并存",
+     "bodyZh": "这一段同时给出「历史来源」（â）与「现存形式」（heca、ela）。全书讲语法时常这样双轨并置：来源解释为什么，现存形式告诉你怎么用。"
+    }
+   ],
+   "recapZh": "â 位置可变；heca!、ela! 是化石形式。",
+   "selfCheckZh": [
+    {
+     "qZh": "ela! 什么意思？",
+     "aZh": "看哪！（指示可见之物）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-imperative",
+    "unitIds": [
+     1
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "imp-a",
+   "sourceSectionId": "the-imperative",
+   "titleZh": "34 · 后置成词尾 -a：tira!",
+   "leadZh": "若小品词后置，在昆雅里就成了词尾 -a：tir- → tira!「看！」。注意它与 tíra「正在看」只差一个长音。",
+   "objectives": [
+    "能由动词词干造 -a 命令式",
+    "能区分 tira 与 tíra"
+   ],
+   "rules": [
+    {
+     "id": "r-imp6",
+     "headZh": "构法",
+     "bodyZh": "小品词后置时成词尾 -a：tir-「to watch」→ tira!「watch!」，代表原始 tir-â 或 tir(i) â。",
+     "en": "tira!",
+     "zh": "看！",
+     "exampleZh": "tira!"
+    },
+    {
+     "id": "r-imp7",
+     "headZh": "长短之别",
+     "bodyZh": "命令式 tira 与现在／持续体 tíra「is watching」有别，因为后者词干元音拉长。",
+     "en": "the imperative tira \"watch!\" would be distinct from the present/continuative form tíra",
+     "zh": "命令式 tira 与现在持续体 tíra 不同。",
+     "exampleZh": "tira!／tíra"
+    },
+    {
+     "id": "r-imp8",
+     "headZh": "旁证",
+     "bodyZh": "对应的辛达林形式 tiro! 实际可证。",
+     "en": "tiro!",
+     "zh": "（辛达林）看！",
+     "exampleZh": "tiro!"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 tira! 与 tíra 混为一谈",
+     "right": "短 i 是命令，长 í 是「正在看」",
+     "whyZh": "原文专门用一句话点出这个区别。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一个长音的分量",
+     "bodyZh": "昆雅里长短元音的区分常承担语法功能。这里 tira／tíra 是最干净的一对例子，值得记住。"
+    }
+   ],
+   "recapZh": "tira!（命令）／tíra（正在看）。",
+   "selfCheckZh": [
+    {
+     "qZh": "「看！」怎么写？",
+     "aZh": "tira!"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-imperative",
+    "unitIds": [
+     2
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "imp-particle",
+   "sourceSectionId": "the-imperative",
+   "titleZh": "35 · 前置小品词：a laita、á vala",
+   "leadZh": "更「现代」的做法是把小品词放在动词前：a laita te「赞美他们」、á vala Manwë「愿曼威定夺」。",
+   "objectives": [
+    "能读 a laita、á vala",
+    "知道命令式主语可后置"
+   ],
+   "rules": [
+    {
+     "id": "r-imp9",
+     "headZh": "前置",
+     "bodyZh": "小品词的后裔仍作独立词，放在动词词干之前：a laita te...「bless them...」（Letters:308）。",
+     "en": "a laita te",
+     "zh": "赞美他们。",
+     "exampleZh": "a laita te"
+    },
+    {
+     "id": "r-imp10",
+     "headZh": "长形式 á",
+     "bodyZh": "长形式 á 直接来自原始 â：á vala Manwë!「may Manwë order it!」（WJ:404）。",
+     "en": "á vala Manwë!",
+     "zh": "愿曼威定夺！",
+     "exampleZh": "á vala Manwë!"
+    },
+    {
+     "id": "r-imp11",
+     "headZh": "主语可后置",
+     "bodyZh": "这个例子表明命令式的主语可在命令短语之后明说。",
+     "en": "may be explicitly mentioned after the imperative phrase proper",
+     "zh": "命令式的主语可在命令短语之后明说。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 á 当感叹词而忽略其语法作用",
+     "right": "á 是命令小品词，决定整句语气",
+     "whyZh": "原文把它与 laita- 的组合称为 imperative phrase。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "两条并存的路",
+     "bodyZh": "后置成 -a（tira!）与前置成 á（á lelya!）都成立。作者在后面建议一律用前置式，理由是 -a 型可能只是化石。"
+    }
+   ],
+   "recapZh": "a laita te；á vala Manwë!；主语可后置。",
+   "selfCheckZh": [
+    {
+     "qZh": "á vala Manwë 的字面意思？",
+     "aZh": "「（你）统治吧，曼威」——命令式＋主语。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-imperative",
+    "unitIds": [
+     3
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "imp-long",
+   "sourceSectionId": "the-imperative",
+   "titleZh": "36 · á 还是 a？作者的取舍",
+   "leadZh": "有人猜 á 在长音节前缩短为 a（a laita），但无法确证。作者宁用长形式 á，以免与称呼小品词 a 混淆。",
+   "objectives": [
+    "知道 á／a 的争论",
+    "知道 a vanimar 是称呼语"
+   ],
+   "rules": [
+    {
+     "id": "r-imp12",
+     "headZh": "一种解释",
+     "bodyZh": "有人提出 á 在长音节前（如 lai-）缩短为 a，但不能确定；也可能只是随意变异。",
+     "en": "It has been suggested that á is shortened to a",
+     "zh": "有人提出 á 缩短为 a。"
+    },
+    {
+     "id": "r-imp13",
+     "headZh": "作者的取舍",
+     "bodyZh": "作者通常宁用长形式 á，以免与称呼小品词 a（如英语 o）混淆。",
+     "en": "I would normally prefer the long form á",
+     "zh": "我通常宁用长形式 á。"
+    },
+    {
+     "id": "r-imp14",
+     "headZh": "称呼语",
+     "bodyZh": "a vanimar「o beautiful ones」是 Treebeard 的问候语（Letters:308），这里的 a 不是命令。",
+     "en": "a vanimar",
+     "zh": "哦，美的人们。",
+     "exampleZh": "a vanimar"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 a vanimar 的 a 当命令小品词",
+     "right": "那是称呼语，相当于英语 o",
+     "whyZh": "原文明确指出这是 particle of address，并说混淆正是要避免的。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "作者的建议",
+     "bodyZh": "这是一条可直接照做的建议：写昆雅命令句时用 á，别用 a。它不解决学术争论，但解决了使用问题。"
+    }
+   ],
+   "recapZh": "用 á；a vanimar 的 a 是称呼语。",
+   "selfCheckZh": [
+    {
+     "qZh": "「走吧！」怎么写？",
+     "aZh": "Á lelya!"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-imperative",
+    "unitIds": [
+     4
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "imp-neg",
+   "sourceSectionId": "the-imperative",
+   "titleZh": "37 · 否定命令：áva",
+   "leadZh": "á 与否定词 vá 合成 áva：Áva carë!「别做！」基本动词在命令短语里带词尾 -ë，与不定式同形。",
+   "objectives": [
+    "能造 áva ＋ -ë 的否定命令",
+    "知道基本动词在命令短语里带 -ë"
+   ],
+   "rules": [
+    {
+     "id": "r-imp15",
+     "headZh": "áva",
+     "bodyZh": "命令小品词 á 与否定词 vá 合成 áva，用于否定命令：Áva carë!「Don't do [it]!」（WJ:371）。",
+     "en": "Áva carë!",
+     "zh": "别做！",
+     "exampleZh": "Áva carë!"
+    },
+    {
+     "id": "r-imp16",
+     "headZh": "基本动词带 -ë",
+     "bodyZh": "基本动词在命令短语里带词尾 -ë，与不定式、无词尾不定过去时同形：á tirë!、áva tirë!。",
+     "en": "á tirë!",
+     "zh": "（你）看着！",
+     "exampleZh": "á tirë!／áva tirë!"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写成 áva car- 或 áva cara",
+     "right": "áva carë（带 -ë）",
+     "whyZh": "原文：they appear with the ending -ë, just like they do when they are used as infinitives。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "否定命令的构成",
+     "bodyZh": "áva 不是新词，而是 á ＋ 否定词。理解这一点，就不必单独记它——记「命令＋否定」即可。"
+    }
+   ],
+   "recapZh": "áva ＋ -ë 形式：Áva carë!、Áva tirë!",
+   "selfCheckZh": [
+    {
+     "qZh": "「别看！」？",
+     "aZh": "Áva tirë!"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-imperative",
+    "unitIds": [
+     5
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "nai-intro",
+   "sourceSectionId": "the-nai-formula",
+   "titleZh": "38 · 祝愿式：不是命令，是希望",
+   "leadZh": "不想发命令、只想表达希望某事发生，昆雅有专门的「祝愿式」：nai。",
+   "objectives": [
+    "知道 nai 的用途",
+    "知道它与命令式的区别"
+   ],
+   "rules": [
+    {
+     "id": "r-nai1",
+     "headZh": "用途",
+     "bodyZh": "若不发命令而只表达希望某事将被做或发生，昆雅有一个专门的祝愿式。",
+     "en": "Quenya has a special \"wishing formula\"",
+     "zh": "昆雅有一个专门的祝愿式。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 nai 当命令式",
+     "right": "命令用 á，祝愿用 nai",
+     "whyZh": "原文把它与「发命令」明确对立：If one does not want to issue a command ... but is merely expressing a wish。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "本节的读法",
+     "bodyZh": "接下来两段各给一个语料例（《Namárië》《Cirion 的誓言》），然后讲词源，最后给造句练习。语料在前、词源在中、造句在后。"
+    }
+   ],
+   "recapZh": "nai＝祝愿式，不是命令。",
+   "selfCheckZh": [
+    {
+     "qZh": "祝愿用哪个词？",
+     "aZh": "nai。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-nai-formula",
+    "unitIds": [
+     0
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "nai-namarie",
+   "sourceSectionId": "the-nai-formula",
+   "titleZh": "39 · 《Namárië》：Nai hiruvalyë Valimar",
+   "leadZh": "托尔金先译作 maybe，后来改口：nai「表达的与其说是希望，不如说是愿望」，应译「愿你能找到」。",
+   "objectives": [
+    "能读 Nai hiruvalyë Valimar",
+    "知道 maybe 这个旧译为何误导"
+   ],
+   "rules": [
+    {
+     "id": "r-nai2",
+     "headZh": "原句",
+     "bodyZh": "Nai hiruvalyë Valimar! Nai elyë hiruva!《LotR》译作「maybe thou wilt find Valimar...」。",
+     "en": "Nai hiruvalyë Valimar",
+     "zh": "愿你能找到维利玛！",
+     "exampleZh": "Nai hiruvalyë Valimar!"
+    },
+    {
+     "id": "r-nai3",
+     "headZh": "托尔金的更正",
+     "bodyZh": "他注明 nai「expresses rather a wish than a hope」，更贴切的译法是「may it be that」，而非「maybe」。",
+     "en": "expresses rather a wish than a hope",
+     "zh": "表达的与其说是希望，不如说是愿望。"
+    },
+    {
+     "id": "r-nai4",
+     "headZh": "最终读法",
+     "bodyZh": "他对这句的最终解释是「be it that thou wilt find Valimar」或「may thou find Valimar」。",
+     "en": "be it that thou wilt find Valimar",
+     "zh": "愿你能找到维利玛。"
+    },
+    {
+     "id": "r-nai5",
+     "headZh": "elyë",
+     "bodyZh": "elyë「even thou」是对应词尾 -lyë 的强调独立代词；Valimar 是 Valinor 的替代说法。",
+     "en": "elyë",
+     "zh": "甚至你（强调）。",
+     "exampleZh": "Nai elyë hiruva!"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "照《LotR》译成 maybe",
+     "right": "按托尔金后来的说明译作「愿／但愿」",
+     "whyZh": "原文引 RGEO:68 的说明，并说 maybe 是 misleading translation。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "作者为何保留旧译",
+     "bodyZh": "他推测这里有「概念演变」——托尔金改变了对已发表文本的看法。这类情形在全书里被如实记录，而不是抹平。"
+    }
+   ],
+   "recapZh": "nai＝「愿……」；elyë＝「甚至你」。",
+   "selfCheckZh": [
+    {
+     "qZh": "Nai hiruvalyë Valimar 怎么译？",
+     "aZh": "愿你能找到维利玛。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-nai-formula",
+    "unitIds": [
+     1
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "nai-cirion",
+   "sourceSectionId": "the-nai-formula",
+   "titleZh": "40 · Cirion 的誓言：Nai tiruvantes",
+   "leadZh": "第二例来自 Cirion 的誓言：Nai tiruvantes「愿他们守护它」，托尔金注明相当于 may they guard it。",
+   "objectives": [
+    "知道第二例的出处",
+    "能读 nai ＋ 将来时 ＋ -s"
+   ],
+   "rules": [
+    {
+     "id": "r-nai6",
+     "headZh": "出处",
+     "bodyZh": "Cirion 表达希望 Valar 守护此誓：Nai tiruvantes（UT:305、317）。",
+     "en": "Nai tiruvantes",
+     "zh": "愿他们守护它。",
+     "exampleZh": "Nai tiruvantes"
+    },
+    {
+     "id": "r-nai7",
+     "headZh": "译法",
+     "bodyZh": "托尔金注明它相当于「may they guard it」。",
+     "en": "may they guard it",
+     "zh": "愿他们守护它。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 -s 只当「他／她」",
+     "right": "此处 -s 指 they（Valar）之外的单数宾语「它」",
+     "whyZh": "原文译作 guard it，宾语是誓言本身。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "两例互证",
+     "bodyZh": "《Namárië》与《Cirion 的誓言》都作「nai ＋ 将来时」。两例一致，才让作者敢说 nai 配将来时是常规。"
+    }
+   ],
+   "recapZh": "Nai tiruvantes＝愿他们守护它。",
+   "selfCheckZh": [
+    {
+     "qZh": "Nai tiruvantes 的 nai 译作？",
+     "aZh": "愿（may it be that）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-nai-formula",
+    "unitIds": [
+     2
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "nai-etym",
+   "sourceSectionId": "the-nai-formula",
+   "titleZh": "41 · nai 的词源：nâ-i「be it that」",
+   "leadZh": "托尔金把 nai 追溯到 nâ-i：nâ 是「be!」，i 对应 that，并与冠词 i 相关。",
+   "objectives": [
+    "能拆解 nai",
+    "知道 ná 与 nai 的关系"
+   ],
+   "rules": [
+    {
+     "id": "r-nai8",
+     "headZh": "来源",
+     "bodyZh": "昆雅 nai 来自较早的 nâ-i（RGEO:68）。",
+     "en": "He derived Quenya nai from earlier nâ-i",
+     "zh": "他把昆雅 nai 追溯到较早的 nâ-i。"
+    },
+    {
+     "id": "r-nai9",
+     "headZh": "nâ 与 i",
+     "bodyZh": "nâ 意为「be!」，与系词 ná「is」密切相关；末 i 对应 that，并与冠词 i「the」相关。",
+     "en": "the Quenya copula ná \"is\"",
+     "zh": "昆雅系词 ná「是」。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 nai 当不可分析的语气词",
+     "right": "它是 nâ ＋ i 的组合",
+     "whyZh": "原文给出了完整词源拆解。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "词源解释用法",
+     "bodyZh": "知道 nai ＝「be it that」，就能理解它为什么后面接完整句子：它是一个引导「that 从句」的成分，而不是副词。"
+    }
+   ],
+   "recapZh": "nai ← nâ-i；nâ「be!」＋ i「that」。",
+   "selfCheckZh": [
+    {
+     "qZh": "nai 的字面意思？",
+     "aZh": "be it that（愿……）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-nai-formula",
+    "unitIds": [
+     3
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "nai-use",
+   "sourceSectionId": "the-nai-formula",
+   "titleZh": "42 · 用法：放在将来时句子前",
+   "leadZh": "nai 可放在任何含将来时动词的句子前，把陈述变成祝愿。",
+   "objectives": [
+    "知道 nai 的位置",
+    "知道它改变的是语气而非时态"
+   ],
+   "rules": [
+    {
+     "id": "r-nai10",
+     "headZh": "位置",
+     "bodyZh": "nai 可放在任何含将来时动词的句子前面，把关于未来的陈述变成祝愿。",
+     "en": "put in front of any sentence including a future-tense verb",
+     "zh": "放在任何含将来时动词的句子前面。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 nai 会把动词变成虚拟式",
+     "right": "动词仍是将来时，只加祝愿语气",
+     "whyZh": "原文说 nai 只是 turning a simple statement about the future into a wish，动词形式未变。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "三条示范",
+     "bodyZh": "下面三段是三组「陈述 → 祝愿」的对照。读的时候注意动词形式一点没变，变的只是句首多了 nai。"
+    }
+   ],
+   "recapZh": "nai ＋ 将来时陈述句＝祝愿。",
+   "selfCheckZh": [
+    {
+     "qZh": "nai 会改变动词形式吗？",
+     "aZh": "不会，只加语气。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-nai-formula",
+    "unitIds": [
+     4
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "nai-ex1",
+   "sourceSectionId": "the-nai-formula",
+   "titleZh": "43 · 例一：Nai Elda tuluva coalvanna!",
+   "leadZh": "Elda tuluva coalvanna「一个精灵会来我们家」→ 加 nai 成祝愿「愿一个精灵来我们家」。",
+   "objectives": [
+    "能照此改造句子",
+    "知道 coalvanna 是向格"
+   ],
+   "rules": [
+    {
+     "id": "r-nai11",
+     "headZh": "对照",
+     "bodyZh": "Elda tuluva coalvanna → Nai Elda tuluva coalvanna!「愿一个精灵来我们家！」",
+     "en": "Nai Elda tuluva coalvanna!",
+     "zh": "愿一个精灵来我们家！",
+     "exampleZh": "Nai Elda tuluva coalvanna!"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 nai 放句末",
+     "right": "nai 一律前置",
+     "whyZh": "原文三条示范全部前置。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么用将来时",
+     "bodyZh": "祝愿的对象是「尚未发生的事」，所以用将来时最自然。这也解释了为什么可证的三例全是将来时。"
+    }
+   ],
+   "recapZh": "Nai Elda tuluva coalvanna!",
+   "selfCheckZh": [
+    {
+     "qZh": "「愿一个精灵来」怎么写？",
+     "aZh": "Nai Elda tuluva。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-nai-formula",
+    "unitIds": [
+     5
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "nai-ex2",
+   "sourceSectionId": "the-nai-formula",
+   "titleZh": "44 · 例二：Nai hiruvan i malta!",
+   "leadZh": "Hiruvan i malta「我会找到金子」→ Nai hiruvan i malta!「愿我找到金子」。",
+   "objectives": [
+    "能照此改造第一人称句",
+    "知道 nai 不限主语人称"
+   ],
+   "rules": [
+    {
+     "id": "r-nai12",
+     "headZh": "对照",
+     "bodyZh": "Hiruvan i malta → Nai hiruvan i malta!「愿我找到金子！」",
+     "en": "Nai hiruvan i malta!",
+     "zh": "愿我找到金子！",
+     "exampleZh": "Nai hiruvan i malta!"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 nai 只能用于第三人称祝愿",
+     "right": "第一、第三人称都可以",
+     "whyZh": "本段即第一人称例。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "三条示范的分布",
+     "bodyZh": "三条分别用第三人称、第一人称、复数第三人称，正是为了说明 nai 与人称无关。"
+    }
+   ],
+   "recapZh": "Nai hiruvan i malta!",
+   "selfCheckZh": [
+    {
+     "qZh": "「愿我找到金子」？",
+     "aZh": "Nai hiruvan i malta!"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-nai-formula",
+    "unitIds": [
+     6
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "nai-ex3",
+   "sourceSectionId": "the-nai-formula",
+   "titleZh": "45 · 例三：nai caruvantes!",
+   "leadZh": "Caruvantes「他们会做」→ nai caruvantes!「愿他们做」。原文此处 nai 小写，可见它只是句首成分。",
+   "objectives": [
+    "能照此改造复数句",
+    "注意到原文的小写 nai"
+   ],
+   "rules": [
+    {
+     "id": "r-nai13",
+     "headZh": "对照",
+     "bodyZh": "Caruvantes → nai caruvantes!「愿他们做！」",
+     "en": "nai caruvantes!",
+     "zh": "愿他们做！",
+     "exampleZh": "nai caruvantes!"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 nai 必须大写",
+     "right": "原文此例小写，大小写不承载语法",
+     "whyZh": "前两例作 Nai，此例作 nai，仅是排版差异。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "细节",
+     "bodyZh": "作者三条示范里唯一用小写的一处，正好提醒读者：原文的排版不总是严格，判断要看形式与位置。"
+    }
+   ],
+   "recapZh": "nai caruvantes!",
+   "selfCheckZh": [
+    {
+     "qZh": "「愿他们做」？",
+     "aZh": "Nai caruvantes!"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-nai-formula",
+    "unitIds": [
+     7
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "nai-film",
+   "sourceSectionId": "the-nai-formula",
+   "titleZh": "46 · 电影里的 nai：Saruman 的咒语",
+   "leadZh": "Jackson 电影里 Saruman 念 Nai yarvaxëa rasselya taltuva notto-carinnar，是一个真实的 nai 用例。",
+   "objectives": [
+    "知道这个电影用例",
+    "能读出它的结构"
+   ],
+   "rules": [
+    {
+     "id": "r-nai14",
+     "headZh": "句子",
+     "bodyZh": "Nai yarvaxëa rasselya taltuva notto-carinnar!「愿你那染血的角崩落在敌人们的头上！」",
+     "en": "Nai yarvaxëa rasselya taltuva notto-carinnar",
+     "zh": "愿你染血的角崩落到敌人头上。",
+     "exampleZh": "Nai ... taltuva ..."
+    },
+    {
+     "id": "r-nai15",
+     "headZh": "一个句子",
+     "bodyZh": "演员在 taltuva 前停顿，但这是一个句子而非两个：nai 引导整句。",
+     "en": "he was uttering a single sentence rather than two",
+     "zh": "他说的是一个句子而非两个。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把停顿当成句读",
+     "right": "nai 之后整段都是被祝愿的内容",
+     "whyZh": "原文明确指出这是 single sentence。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "影视语料的地位",
+     "bodyZh": "这是全书少数引用电影的地方。作者用它，不是因为电影有权威，而是因为它提供了一个自然语境下的 nai 实例。"
+    }
+   ],
+   "recapZh": "Nai ... taltuva ...：一个句子。",
+   "selfCheckZh": [
+    {
+     "qZh": "Saruman 那句的 nai 管到哪？",
+     "aZh": "管到句末 notto-carinnar。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-nai-formula",
+    "unitIds": [
+     8
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "nai-tense",
+   "sourceSectionId": "the-nai-formula",
+   "titleZh": "47 · nai 能否配别的时态？",
+   "leadZh": "可证三例全是将来时，但这不排除 nai 也能配现在、过去、完成时。作者给出三个推测句，练习里仍只用将来时。",
+   "objectives": [
+    "知道证据只有三例",
+    "知道推测句不是可证形式"
+   ],
+   "rules": [
+    {
+     "id": "r-nai16",
+     "headZh": "证据量",
+     "bodyZh": "可证例子只有三例（甚至可说两例，因为《Namárië》两句极相似），故不能排除 nai 配其他时态。",
+     "en": "it certainly cannot be ruled out that nai may be used in conjunction with other tenses",
+     "zh": "当然不能排除 nai 也能与其他时态连用。"
+    },
+    {
+     "id": "r-nai17",
+     "headZh": "推测句",
+     "bodyZh": "作者试拟 nai tíras「愿他正在看」、nai hirnentes「愿他们找到了」、nai utúlies「愿他来了」。",
+     "en": "nai tíras",
+     "zh": "愿他正在看。",
+     "exampleZh": "nai tíras／nai hirnentes／nai utúlies"
+    },
+    {
+     "id": "r-nai18",
+     "headZh": "练习的界限",
+     "bodyZh": "练习里 nai 只与将来时结合，与可证例子一致。",
+     "en": "in the exercises below, nai is only combined with the future tense",
+     "zh": "下面的练习里 nai 只与将来时结合。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "在练习里用 nai tíras 这类推测形式",
+     "right": "练习只考将来时",
+     "whyZh": "原文明确把练习范围限定为将来时。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "推测与可证的界线",
+     "bodyZh": "作者给推测句，是为了展示可能性；把练习限定在可证范围，是为了不让学习者背错。这条界线在全书反复出现，值得记住。"
+    }
+   ],
+   "recapZh": "可证三例皆将来时；其余为推测。",
+   "selfCheckZh": [
+    {
+     "qZh": "练习里 nai 配哪个时态？",
+     "aZh": "将来时。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-nai-formula",
+    "unitIds": [
+     9
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "summary",
+   "sourceSectionId": "the-nai-formula",
+   "kind": "summary",
+   "titleZh": "48 · 本课小结",
+   "leadZh": "四块收成一张清单：工具格、-ta 使役动词、命令式、nai。英文小结逐字取自原文。",
+   "objectives": [
+    "能复述工具格的形式与三种功能",
+    "能复述 -ta 动词的过去时与分词",
+    "能复述命令式与 nai 的构造"
+   ],
+   "summaryEn": "Summary of Lesson Sixteen: The instrumental case has the basic ending -nen, plural -inen, dual -nten (at least in the case of nouns with nominative dual forms in -t; nouns with dual forms in -u may just add the simplest ending -nen to this vowel). The instrumental ending is added to nouns denoting the \"instrument\" or means by which some action is done or accomplished, as when Elves are described as making words ómainen = \"with voices\" (óma \"voice\"). The instrumental ending may correspond to such English prepositions as \"with\" or \"by\" where these words mean \"using\", \"by means of\". Sometimes the instrumental ending may mark a noun simply indicating what makes something happen, as when the first line of Namárië says leaves fall súrinen = \"in the wind\", i.e., because of the wind. Following a passive participle, a noun in the instrumental case may indicate who or what brought about the situation described, as when Túrin is described as turún' ambartanen, \"mastered by doom\". – Verbs including an unaccented vowel + the ending -ta seem to have past-tense forms in -tánë (notice the long á) and passive participles in -nta. Attested examples include airitánë, past tense of airita- \"to hallow\", and envinyanta, passive participle of envinyata- \"to renew, heal\". These verbs are causative formations derived from adjectives by means of the ending -ta, as when airë (airi-) \"holy\" is the basis of the causative verb airita- \"to make holy\" = \"to hallow\". – Quenya imperatives are marked by the particle á (variant a, negative áva \"don't\"), which is placed in front of the verbal stem: A laita = \"(do) praise!\", á vala \"(do) rule!\" In this grammatical context, the stem of primary verbs assume the ending -ë, as in the negative command áva carë \"don't do [it]!\" A few (old, fossilized?) imperative forms are seen to replace the independent imperative particle á or a with the corresponding ending -a (ela \"lo! behold!\", heca! \"be gone!\") – The word nai, meaning \"be it that...\", can be placed at the beginning of a sentence to express a wish: Nai tiruvantes \"be it that they will guard it\" or \"may they guard it\" (cf. tiruvantes \"they will guard/watch it\"). In our attested examples, nai is placed in front of sentences including a future-tense verb; whether nai can be combined with other tenses is unclear.",
+   "summaryZh": "第十六课小结：工具格基本词尾 -nen，复数 -inen，双数 -nten（至少对主格双数为 -t 的名词如此；双数为 -u 的名词可只在该元音后加最简单的词尾 -nen）。工具格词尾加在表示「工具」或完成某动作之手段的名词上，如精灵被描述为 ómainen ＝「with voices」地造词（óma「声音」）。工具格词尾可对应英语介词 with 或 by，只要这些词意为 using、by means of。有时工具格词尾只标出「使某事发生者」，如《Namárië》首行说叶子以 súrinen ＝「in the wind」飘落，即 because of the wind。被动分词之后，工具格名词可指出造成所述状况者，如 Túrin 被描述为 turún' ambartanen「mastered by doom」。——含「不带重音的元音＋词尾 -ta」的动词，过去时似作 -tánë（注意长 á），被动分词似作 -nta。可证的例子包括 airita-「to hallow」的过去时 airitánë，与 envinyata-「to renew, heal」的被动分词 envinyanta。这些动词是由形容词经词尾 -ta 派生的使役构造，如 airë（airi-）「holy」是使役动词 airita-「to make holy」即「to hallow」的基础。——昆雅命令式由小品词 á（变体 a，否定 áva「don't」）标记，置于动词词干之前：A laita ＝「(do) praise!」，á vala「(do) rule!」在这个语法环境里，基本动词的词干带词尾 -ë，如否定命令 áva carë「don't do [it]!」少数（古老、化石化的？）命令形式则以相应词尾 -a 取代独立命令小品词 á 或 a（ela「lo! behold!」、heca!「be gone!」）。——nai 一词意为「be it that...」，可置于句首表达愿望：Nai tiruvantes「be it that they will guard it」或「may they guard it」（参 tiruvantes「they will guard/watch it」）。在我们可证的例子里，nai 置于含将来时动词的句子前；nai 能否与其他时态结合则不清楚。",
+   "formulaZh": [
+    "工具格＝与格＋-en：-nen（单）／-inen（复）／-nten（-t 双数）；-u 双数只加 -nen（Aldunen）。",
+    "复数 -inen：ómainen、lassínen、tárínen、lírínen。",
+    "三种功能：工具（ómainen）、原因（súrinen）、施事（ambartanen）；方式用 lestanen。",
+    "伴随的 with 用 as，不用工具格：Tullen as Elda 对 I ulundo palpanë i Nauco Eldanen。",
+    "关系代词：yanen／yainen／yanten；代词词尾在内：mányanen；gerund：tiriénen。",
+    "-ta 使役动词：airita-／airitánë／airinta；envinyata-／envinyatánë／envinyanta；ninquitá-／ninquitánë／ninquinta。",
+    "拉长规则：重音受威胁则 -tá-（airitáner、airitánes、airitánen）；重音被带走则不拉长（airitanenyë、airitanelvë）。",
+    "命令式：á ＋ 词干（á lelya!）；基本动词带 -ë（á tirë!）；否定 áva carë!；化石 -a 型 tira!、heca!、ela!。",
+    "nai ＋ 将来时陈述句＝祝愿：Nai hiruvalyë Valimar!、Nai tiruvantes、Nai Elda tuluva coalvanna!"
+   ],
+   "pitfalls": [
+    {
+     "wrong": "用 Eldanen 表「和精灵一起」",
+     "right": "用 as Elda",
+     "whyZh": "原文：It is highly unlikely that the endings marking the instrumental case can be used for English \"with\" in the sense of \"together with\"。"
+    },
+    {
+     "wrong": "写成 airitanë、airitaina",
+     "right": "airitánë、airinta",
+     "whyZh": "原文：**Airitanë with no lengthening would have a rather awkward stress-pattern。"
+    }
+   ],
+   "recapZh": "工具格 -nen／-inen／-nten；-tá-／-nta；á／áva；nai＋将来时。",
+   "selfCheckZh": [
+    {
+     "qZh": "「用声音造词」怎么写？",
+     "aZh": "quettar ómainen。"
+    },
+    {
+     "qZh": "airita- 的过去时与被动分词？",
+     "aZh": "airitánë、airinta。"
+    },
+    {
+     "qZh": "「别做！」？",
+     "aZh": "Áva carë!"
+    },
+    {
+     "qZh": "「愿他们守护它」？",
+     "aZh": "Nai tiruvantes。"
+    }
+   ]
+  },
+  {
+   "sectionId": "exercises",
+   "sourceSectionId": "exercises",
+   "titleZh": "49 · 练习 A–P",
+   "leadZh": "A–H 译成英语，I–P 译成昆雅。答案逐字取自 keys.rtf，可用工作台核对。",
+   "objectives": [
+    "能独立完成 A–P",
+    "能用 keys 逐题核对"
+   ],
+   "rules": [
+    {
+     "id": "r-ex16-1",
+     "headZh": "本课考点",
+     "bodyZh": "A–H 覆盖工具格（rocconen、ehtenen、annalyanen、Naucoinen、rassenten）、命令式（Áva matë、Á carë）、nai（nai úvas firë、Nai varyuvalyë）与 -ta 动词（envinyanta）。",
+     "en": "Áva matë yondonya!",
+     "zh": "别吃，我的儿子！",
+     "exampleZh": "Áva matë yondonya!"
+    },
+    {
+     "id": "r-ex16-2",
+     "headZh": "翻译方向",
+     "bodyZh": "I–P 一律用独立命令小品词，不用可能只出现在化石形式里的词尾 -a。",
+     "en": "consistently using the independent imperative particle rather than the ending -a",
+     "zh": "一律使用独立命令小品品词，而非词尾 -a。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "I–P 用 tira! 这类 -a 型命令",
+     "right": "用 á tirë!",
+     "whyZh": "题目明确要求 consistently using the independent imperative particle。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "做题顺序",
+     "bodyZh": "先做 A–H 的英译，确认工具格与命令式都认得出；再做 I–P 的昆译，注意每题考的是哪一条规则（见下方考点对照）。"
+    }
+   ],
+   "recapZh": "A–H 英译、I–P 昆译；命令一律用 á。",
+   "selfCheckZh": [
+    {
+     "qZh": "I 题为什么用 Á racë 而不是 raca?",
+     "aZh": "题目要求用独立小品词 á，不用 -a 词尾。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "exercises",
+    "unitIds": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "vocabulary",
+   "sourceSectionId": "vocabulary",
+   "titleZh": "50 · 课末词汇",
+   "leadZh": "本课 12 个词：序数、命令小品词、-ta 动词、器物与方位。",
+   "objectives": [
+    "能读 nelya、á、áva",
+    "能读 rac-、envinyata-、airita-、harna-",
+    "能读 namba、ehtë、yána、nilmë、Rómen"
+   ],
+   "rules": [
+    {
+     "id": "r-v16-1",
+     "headZh": "á 与 áva",
+     "bodyZh": "á 是命令小品词（变体 a）；áva 是 á ＋ 否定词，意为 don't。",
+     "en": "áva \"don't!\"",
+     "zh": "áva「别！」。",
+     "exampleZh": "á／áva"
+    },
+    {
+     "id": "r-v16-2",
+     "headZh": "三个 -ta 动词",
+     "bodyZh": "envinyata-「复兴」、airita-「祝圣」、harna-「使受伤」——前两个是本课 -ta 使役动词的例词。",
+     "en": "envinyata- \"to renew\"",
+     "zh": "envinyata-「复兴」。",
+     "exampleZh": "envinyata-／airita-"
+    },
+    {
+     "id": "r-v16-3",
+     "headZh": "Rómen 与 orta-",
+     "bodyZh": "Rómen「东方」的开头 ró- 与动词 orta-「升起」的 or- 同源，因为太阳从东方升起。",
+     "en": "the initial ró- is ultimately related to the or- of the verb orta- \"rise\"",
+     "zh": "开头的 ró- 与动词 orta-「升起」的 or- 同源。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 harna 只当动词",
+     "right": "harna 也是「受伤的」这个被动分词／形容词",
+     "whyZh": "原文：the passive participle is evidently also harna, defined as \"wounded\"。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "词汇与语法的接口",
+     "bodyZh": "本课词汇里 envinyata-、airita-、harna- 三个都直接参与语法讲解；nelya 则回指第 15 课的 tatya。背词时顺手把它们的语法角色一起记住。"
+    }
+   ],
+   "recapZh": "nelya、á、áva、rac-、envinyata-、airita-、harna-、namba、ehtë、yána、nilmë、Rómen。",
+   "selfCheckZh": [
+    {
+     "qZh": "「东方」怎么写？",
+     "aZh": "Rómen。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "vocabulary",
+    "unitIds": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ],
+    "labelZh": "课文"
+   }
+  }
+ ]
+}

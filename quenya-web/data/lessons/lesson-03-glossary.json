@@ -1,0 +1,78 @@
+{
+  "lesson": 3,
+  "introZh": "以下 12 词来自 less-a.rtf 第 3 课课末 VOCABULARY；中文列为教学释义，「总表」一行由 q-vocab.rtf 昆雅→英语表自动交叉引用。按双数判据分组记忆：含 t / d 用 -u（hen、ando、alda、oron、sar、talan），不含用 -t（cirya、aiwë），另有两个词是数词与「成对器官」的核心（atta、ranco）。带词干标注的六个词要连词干一起记。",
+  "entries": [
+    {
+      "word": "atta",
+      "posZh": "数词",
+      "glossZh": "二",
+      "noteZh": "与双数词尾 -t 同源（-t 代表古老要素 ata）。用法关键：只是偶然凑在一起的两个事物，用 atta + 常规复数，不用双数——atta ciryar「两条船」、atta aiwi「两只鸟」（练习 I、O）。"
+    },
+    {
+      "word": "hen",
+      "posZh": "名词（带词干）",
+      "glossZh": "眼睛",
+      "noteZh": "词干 hend-（接词尾时 -nd- 才出现），复数 hendi，双数 hendu。练习 A 的 Hendu 就考这一对天然器官。WJ:337 的复合词 hendumaica「目光锐利的」可能含此双数。"
+    },
+    {
+      "word": "ranco",
+      "posZh": "名词",
+      "glossZh": "手臂",
+      "noteZh": "无特殊词干。双数指一个人的一对手臂，作者推测为 rancu（明确标注无传世例证），依据是「成对器官用 -u」的倾向；练习 K 就考这一点。"
+    },
+    {
+      "word": "ando",
+      "posZh": "名词",
+      "glossZh": "门",
+      "noteZh": "无特殊词干，复数 andor。双数 andu：词中含 d，按悦耳判据改用 -u 并顶掉词尾 -o；练习 M「双重大门」即此。"
+    },
+    {
+      "word": "cirya",
+      "posZh": "名词",
+      "glossZh": "船",
+      "noteZh": "无特殊词干，复数 ciryar。双数 ciryat（Plotz Letter 作 a couple of ships）：词中无 t / d，取首选词尾 -t。练习 I 与 J 正是 atta ciryar 与 ciryat 的对照。"
+    },
+    {
+      "word": "aiwë",
+      "posZh": "名词",
+      "glossZh": "鸟",
+      "noteZh": "无特殊词干；以 -ë 结尾，复数 aiwi（用 -i 替换 -ë）。双数 aiwet（练习 N）：无 t / d，取 -t；任意两只鸟则说 atta aiwi（练习 O）。"
+    },
+    {
+      "word": "talan",
+      "posZh": "名词（带词干）",
+      "glossZh": "地板",
+      "noteZh": "词干 talam-（原始词根 TALAM，LR:390）：m 不允许出现在词末，独立时变 n，接词尾时保留。复数 talami，不是 **talani。"
+    },
+    {
+      "word": "nér",
+      "posZh": "名词（带词干）",
+      "glossZh": "男人（任何有智能种族的成年男性——精灵、凡人或其他）",
+      "noteZh": "词干 ner-：单音节词的长元音在带词尾后缩短，复数 neri（MR:213/LR:354）。练习 E 的 minë nér 用单数。"
+    },
+    {
+      "word": "nís",
+      "posZh": "名词（带词干）",
+      "glossZh": "女人（同理：任何有智能种族的成年女性）",
+      "noteZh": "词干 niss-：独立时写作 nis 或带长元音的 nís，双写 S 在词尾前保留，复数 nissi（LR:377、MR:213）。练习 P 的 nissi 即此。"
+    },
+    {
+      "word": "sar",
+      "posZh": "名词（带词干）",
+      "glossZh": "石头（一块小石头——不是作为物质或材料的「石料」）",
+      "noteZh": "词干 sard-，复数 sardi（练习 F「I sardi」即「那些石头」）。注意释义限定：指单个小石块，不指石料。"
+    },
+    {
+      "word": "alda",
+      "posZh": "名词",
+      "glossZh": "树",
+      "noteZh": "无特殊词干，复数 aldar。双数 aldu（含 d，用 -u 并顶掉词尾 -a），专指维林诺的双圣树时写作 Aldu。练习 C、D 就是 Aldu 与 atta aldar 的对照。"
+    },
+    {
+      "word": "oron",
+      "posZh": "名词（带词干）",
+      "glossZh": "山",
+      "noteZh": "词干 oront-（接词尾时 t 出现），复数 oronti（练习 H）。双数 orontu：词干含 t，按判据改用 -u；练习 L 的「双峰」即此。"
+    }
+  ]
+}

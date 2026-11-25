@@ -1,0 +1,16 @@
+各类附注
+填补若干细节
+
+注 #1：紧接格尾之前的元音 lengthening：留心的学生已注意到，有时在添加尾 -va 时，名词末元音会加长。例如 Eldalië + va 产生 Eldaliéva，é 须长读并承受重音。Oroméva、tyaliéva 分别为 Oromë、tyalië 的领属形式。Eldalië、Oromë、tyalië 均以两个短音节结尾（无辅音丛、无双元音或长元音）。若直接加 -va 而不另作变化，多出的音节会使重音移到距词尾第三音节（参第一课重音规则），读音颇别扭：**orOMeva、**eldaLIeva、**tyaLIeva。因此在至少三音节、以元音结尾、末两音节皆短的名词上加 -va 时，末音节元音显然会加长以确保重音落在该处：oroMÉva、eldaliÉva、tyaliÉva。若名词以辅音结尾则无需加长：加 -wa 会形成辅音丛，重音自然前移至新丛前的元音。例如 Menelmacar（猎户座）自然重第三音节；领属 Menelmacarwa 重 -arw-，因 rw 使倒数第二音节变「长」。
+
+课程初版曾写：「末两音节皆短的名词在 -va 前加长末元音——若该词仅由这两个短音节构成，此规则是否仍有效，不明。」笔者亦表示直觉上此种情况不加长。2002 年 6 月 VT44:12 例证 Eruva（Eru 的领属）已证实：Eru 虽末两音节皆短，却不见 **Erúva，因两短音节即整词。加长规则仅适用于超过两音节的词。
+
+Huinéva（而非 **huineva）为 huinë「阴影、幽暗」的领属，令人费解：此处确见末 -ë 加长为 -é-。一度以为凡 -va 前末 -ë 皆加长，但 Plotz 信表明 lassë「叶」的领属为 lasseva（非 **lasséva）。若将 huinë 的 ui 计为两音节 u-i 而非双元音，则符合上文规则：hu-i-në 加 -va 时末元音加长得 huinéva。但托尔金明确说昆雅 ui 为双元音——一「长」音节而非两短音节——故此说难成立。ui 在辛达语亦为双元音，唯有一诗因格律需两音节而出现 ui。或许 ui 虽为双元音却某种程度「过长」，有时算两音节而耳听仍为一音节。底线：第二倒数音节含 ui 的名词，加 -va 前末音节元音显然会加长；故 cuilë「生命」、tuima「嫩芽」的领属应为 cuiléva、tuimáva。
+
+属格尾 -o 在末两短音节名词上无类似加长：Oromë 属格档 Oromëo，非 **Oroméo（对照领属 Oroméva）。Oromëo 重 -rom-。似 -o 加于 huinë 等词也无 special 变化（属格大概 huinëo，难说 ?huinéo）。但尚不清楚 -o 加于末两元音 hiatus（最常见 -ië，如 Valië「女 Vala」）时如何：?Valiëo 须重 i，颇别扭；复数 ?Valieron 亦然。怀疑此种情形 -o 前音节元音会加长以吸重音：Valiéo、Valiéron。仍无确证，须待更多出版。
+
+注 #2：名词特殊词干形：有专词条干的名词，加属格 -o 时总用词条干。nís（niss-）「女子」、talan（talam-）「地板」的属格为 nisso、talamo。领属 -va/-wa 有时更复杂：talam- + -wa 大概得 talanwa 而非 **talamwa，因 mw 在昆雅中常作 nw。filit（filic-）「鸟」+ -wa 得 filicwa，按惯例拼 filiqua。nís（niss-）的领属不确定：**Nisswa 非可能昆雅词；或许见 nisseva，在不可能辅音丛前插入 e，且元音后常规为 -va 非 -wa。某些名词词条干仅为缩略，如 fern- 为 feren「山毛榉」的词干。属格应为 ferno；领属或仍为 ferenwa 无缩略，因缩略不出现在辅音丛前（**fernwa 不可能）。当然也可插入 e 得 ?ferneva，但 ferenwa 更可信。
+
+注 #3：可安心忽略的一条托尔金规则（！）：WJ:407 托尔金称加 -va 所得格从未失去强烈形容词色彩；他说它「曾是且仍是形容词」。对照主祷文译文中 Eruva 作「神圣的」而非「神的」。诚第四课所学，-a 形容词复数 -ë（古 -ai）。据 WJ:407，领属 -va 修饰复数名词时须像形容词一样在数上一致，-va 变 -vë。故 WJ:369 用 i arani Eldaivë「精灵诸王」：Eldaiva 依复数 arani 变 Eldaivë（古 Eldaivai）。
+
+然或为托尔金修订语法时未觉与已刊材料矛盾。LotR Namárië 有 yuldar...lisse-miruvóreva「甘蜜酒之饮」，托尔金在 RGEO 中确认；yuldar「饮」为复数，按 WJ:407 应为 lisse-miruvórevë。「外部」解释大概是新规则与已刊矛盾。「内部」可假设领属式在古老时期仍被视作派生形容词而依数一致；随中土岁月推移，-va 形式更严格视为名词格，至第三纪末加拉德瑞尔作挽歌时形容词式数一致已废。本课练习不用此一致。

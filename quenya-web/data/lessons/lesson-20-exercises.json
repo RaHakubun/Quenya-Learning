@@ -1,0 +1,190 @@
+{
+ "kind": "translation",
+ "introZh": "请先在文稿框中写出译文，再点「核对」比对 keys.rtf；也可直接「显示答案」。",
+ "part1": {
+  "titleZh": "练习一 · 译成中文（或你使用的语言）",
+  "hintZh": "昆雅 → 目标语；对照词汇表与正文例句。",
+  "items": [
+   {
+    "id": "A",
+    "prompt": "Elyë Nauco, lá Elda.",
+    "glossZh": "",
+    "answerKey": "You [or, emphatic you] are a Dwarf, not an Elf. (Elyë Nauco: the copula \"are\" is left out and understood. Evidently nalyë Nauco would have been a possible alternative.)",
+    "answerZh": "keys：You [or, emphatic you] are a Dwarf, not an Elf. (Elyë Nauco: the copula \"are\" is left out and understood. Evidently nalyë Nauco would have been a possible alternative.)"
+   },
+   {
+    "id": "B",
+    "prompt": "Cennen sa i nero ranco né rácina.",
+    "glossZh": "",
+    "answerKey": "I saw that the man's arm was broken.",
+    "answerZh": "keys：I saw that the man's arm was broken."
+   },
+   {
+    "id": "C",
+    "prompt": "I aran né taura, mal i tári né saila lá i aran.",
+    "glossZh": "",
+    "answerKey": "The king was mighty, but the queen was wiser than the king.",
+    "answerZh": "keys：The king was mighty, but the queen was wiser than the king."
+   },
+   {
+    "id": "D",
+    "prompt": "Ma sintelyë sa nu i coa ëa nurtaina harma?",
+    "glossZh": "",
+    "answerKey": "Did you know that under the house [there] is a hidden treasure?",
+    "answerZh": "keys：Did you know that under the house [there] is a hidden treasure?"
+   },
+   {
+    "id": "E",
+    "prompt": "Ma lertan lelya nómë sinallo?",
+    "glossZh": "",
+    "answerKey": "May I leave [literally, go from] this place?",
+    "answerZh": "keys：May I leave [literally, go from] this place?"
+   },
+   {
+    "id": "F",
+    "prompt": "Áva sucë, an ëa sangwa yulmalyassë!",
+    "glossZh": "",
+    "answerKey": "Don't drink, for [there] is poison in your cup!",
+    "answerZh": "keys：Don't drink, for [there] is poison in your cup!"
+   },
+   {
+    "id": "G",
+    "prompt": "Ma engelyë sinomë i quainëa auressë írë tullentë?",
+    "glossZh": "",
+    "answerKey": "Were you here on the tenth day when they came?",
+    "answerZh": "keys：Were you here on the tenth day when they came?"
+   },
+   {
+    "id": "H",
+    "prompt": "Istalmë sa ëa nulda sambë coa sinassë, mal lá ihírielmes, ar tenna hirilmes úvalmë ista mana ëa i sambessë.",
+    "glossZh": "",
+    "answerKey": "We (excl.) know that [there] is a secret room in this house, but we have not found it, and until we find it we shall not know what is in the room.",
+    "answerZh": "keys：We (excl.) know that [there] is a secret room in this house, but we have not found it, and until we find it we shall not know what is in the room."
+   }
+  ]
+ },
+ "part2": {
+  "titleZh": "练习二 · 译成昆雅",
+  "hintZh": "目标语 → 昆雅；注意复数、冠词 i、词序。",
+  "items": [
+   {
+    "id": "I",
+    "prompt": "I was rich [several possible translations].",
+    "glossZh": "",
+    "answerKey": "\"I was rich\" can be translated in several ways. The \"safest\" solution would perhaps be to leave out the copula and use an independent pronoun (ni or inyë) for \"I\": Ni alya or inyë alya. Of course, this may just as well mean \"I am rich\", since there is no tense-marker. If we want to include one, we must use the not entirely well-attested form né \"was\". Adding the ending -n or -nyë for \"I\" might result in a form something like nen(yë); if so, \"I was rich\" could be rendered nen alya or nenye alya.",
+    "answerZh": "keys：\"I was rich\" can be translated in several ways. The \"safest\" solution would perhaps be to leave out the copula and use an independent pronoun (ni or inyë) for \"I\": Ni alya or inyë alya. Of course, this may just as well mean \"I am rich\", since there is no tense-marker. If we want to include one, we must use the not entirely well-attested form né \"was\". Adding the ending -n or -nyë for \"I\" might result in a form something like nen(yë); if so, \"I was rich\" could be rendered nen alya or nenye alya."
+   },
+   {
+    "id": "J",
+    "prompt": "The king said: \"You may not go to the place whence [yallo] you have come\", but I know that I will go thither [tanna].",
+    "glossZh": "",
+    "answerKey": "I aran quentë [or perhaps equë]: \"Lá lertal(yë) lelya i nómenna yallo utúliel(yë)\", mal istan(yë) sa lelyuvan(yë) tanna. (Alternative translation of \"you may not go\": umil(yë) lerta lelya.)",
+    "answerZh": "keys：I aran quentë [or perhaps equë]: \"Lá lertal(yë) lelya i nómenna yallo utúliel(yë)\", mal istan(yë) sa lelyuvan(yë) tanna. (Alternative translation of \"you may not go\": umil(yë) lerta lelya.)"
+   },
+   {
+    "id": "K",
+    "prompt": "I can [= know how to] read, but I cannot read in the darkness.",
+    "glossZh": "",
+    "answerKey": "Istan(yë) cenda, mal lá polin(yë) cenda i morniessë. (Alternative translation of \"I cannot read\": umin(yë) polë cenda. Notice the difference between ista- \"can\" = \"know how to\" and pol- \"can\" = \"be physically able to\": The speaker knows how to read, but is unable to read in the dark.)",
+    "answerZh": "keys：Istan(yë) cenda, mal lá polin(yë) cenda i morniessë. (Alternative translation of \"I cannot read\": umin(yë) polë cenda. Notice the difference between ista- \"can\" = \"know how to\" and pol- \"can\" = \"be physically able to\": The speaker knows how to read, but is unable to read in the dark.)"
+   },
+   {
+    "id": "L",
+    "prompt": "We (incl.) know that Elves exist.",
+    "glossZh": "",
+    "answerKey": "Istalvë sa Eldar ëar.",
+    "answerZh": "keys：Istalvë sa Eldar ëar."
+   },
+   {
+    "id": "M",
+    "prompt": "Did they dwell [mar-] here until the ninth year when the warriors came?",
+    "glossZh": "",
+    "answerKey": "Ma marnentë sinomë tenna i nertëa loa írë i ohtari tuller?",
+    "answerZh": "keys：Ma marnentë sinomë tenna i nertëa loa írë i ohtari tuller?"
+   },
+   {
+    "id": "N",
+    "prompt": "We (excl.) know that the men could speak the Elven-tongue [Eldalambë], but not the Dwarf-tongue [Naucolambë].",
+    "glossZh": "",
+    "answerKey": "Istalmë sa i neri sinter quetë i Eldalambë, mal lá i Naucolambë.",
+    "answerZh": "keys：Istalmë sa i neri sinter quetë i Eldalambë, mal lá i Naucolambë."
+   },
+   {
+    "id": "O",
+    "prompt": "The women said that you have seen the great worm [ango] that was in the mountain.",
+    "glossZh": "",
+    "answerKey": "I nissi quenter sa ecéniel(yë) i alta ango i engë i orontessë.",
+    "answerZh": "keys：I nissi quenter sa ecéniel(yë) i alta ango i engë i orontessë."
+   },
+   {
+    "id": "P",
+    "prompt": "On the tenth day the Sun was bright.",
+    "glossZh": "",
+    "answerKey": "I quainëa auressë Anar né calima.",
+    "answerZh": "keys：I quainëa auressë Anar né calima."
+   }
+  ]
+ },
+ "pointMapZh": [
+  {
+   "labelZh": "无系词判断句",
+   "ruleRef": "r-be42",
+   "noteZh": "A（Elyë Nauco）、I（Ni alya／inyë alya）"
+  },
+  {
+   "labelZh": "né「was」与 ner",
+   "ruleRef": "r-be47",
+   "noteZh": "B（né rácina）、C（né taura／saila）、G（engelyë 之外）、P（Anar né calima）"
+  },
+  {
+   "labelZh": "ëa 表存在／位置",
+   "ruleRef": "r-ea31",
+   "noteZh": "D（nu i coa ëa）、F（ëa sangwa）、H（ëa nulda sambë）、L（Eldar ëar）、O（i engë i orontessë）"
+  },
+  {
+   "labelZh": "engë 作 ëa 的过去时",
+   "ruleRef": "r-ea39",
+   "noteZh": "G（Ma engelyë sinomë?）、O（i engë i orontessë）"
+  },
+  {
+   "labelZh": "是非问：句首加 ma",
+   "ruleRef": "r-ma22",
+   "noteZh": "D、E、G、M（Ma …?）"
+  },
+  {
+   "labelZh": "sa 引出名词性从句",
+   "ruleRef": "r-sa23",
+   "noteZh": "B（Cennen sa …）、D（sintelyë sa …）、H（Istalmë sa …）、L（Istalvë sa …）、N（Istalmë sa …）、O（quenter sa …）"
+  },
+  {
+   "labelZh": "三个「can」的分工",
+   "ruleRef": "r-v20-8",
+   "noteZh": "E（lertan）、K（istan／polin）、N（sinter quetë）"
+  },
+  {
+   "labelZh": "ista- 的过去时 sintë",
+   "ruleRef": "r-v20-6",
+   "noteZh": "D（sintelyë）、N（sinter）"
+  },
+  {
+   "labelZh": "lerta-「被允许」",
+   "ruleRef": "r-v20-7",
+   "noteZh": "E（lertan lelya）、J（lá lertal lelya）"
+  },
+  {
+   "labelZh": "mal「但是」",
+   "ruleRef": "r-v20-5",
+   "noteZh": "C（mal i tári）、H（mal lá ihírielmes）"
+  },
+  {
+   "labelZh": "tenna 与时间短语",
+   "ruleRef": "r-v20-3",
+   "noteZh": "H（tenna hirilmes）、M（tenna i nertëa loa）"
+  },
+  {
+   "labelZh": "序数 nertëa／quainëa",
+   "ruleRef": "r-v20-1",
+   "noteZh": "G（quainëa auressë）、M（nertëa loa）、P（quainëa auressë）"
+  }
+ ]
+}

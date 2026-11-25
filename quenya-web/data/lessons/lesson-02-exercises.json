@@ -1,0 +1,344 @@
+{
+  "kind": "translation",
+  "introZh": "先在作答框写出译文，再点「核对」比对 keys.rtf 原文答案（含可接受的替代译法与中文等价答案）；拿不准时先点每题的「分步提示」。核对后可用「回到本课规则」链接跳回规则卡。",
+  "pointMapZh": [
+    {
+      "labelZh": "-a / -i / -o / -u → 加 -r",
+      "ruleRef": "rule-plural-r",
+      "noteZh": "A、D、J"
+    },
+    {
+      "labelZh": "-ië → -ier（去两点）",
+      "ruleRef": "rule-ie-spelling",
+      "noteZh": "L"
+    },
+    {
+      "labelZh": "-ë → -i（替换）",
+      "ruleRef": "rule-plural-i",
+      "noteZh": "H、O"
+    },
+    {
+      "labelZh": "辅音 → 加 -i",
+      "ruleRef": "rule-consonant-i",
+      "noteZh": "E、I、K"
+    },
+    {
+      "labelZh": "i = the；无不定冠词",
+      "ruleRef": "rule-article-i",
+      "noteZh": "C、D、G、K、M、O"
+    },
+    {
+      "labelZh": "光杆名词即不定",
+      "ruleRef": "rule-no-indefinite",
+      "noteZh": "B、F、N"
+    },
+    {
+      "labelZh": "专有名词不加 i",
+      "ruleRef": "rule-proper-name",
+      "noteZh": "P"
+    },
+    {
+      "labelZh": "整个民族不加 i",
+      "ruleRef": "rule-whole-people",
+      "noteZh": "J"
+    },
+    {
+      "labelZh": "练习词都走常规规则",
+      "ruleRef": "rule-exercise-boundary",
+      "noteZh": "遇到「例外」先复查词尾"
+    }
+  ],
+  "part1": {
+    "titleZh": "练习一 · 昆雅 → 英语／中文（A–H）",
+    "hintZh": "先切出词干最后一个字母判断复数词尾，再看句首有没有 i；最后按目标语习惯补不补「一／a」。",
+    "items": [
+      {
+        "id": "A",
+        "prompt": "Roccor",
+        "pointZh": "-o 结尾的常规复数；光杆名词",
+        "hintsZh": [
+          "词干 rocco 以 -o 结尾，属于四个元音之一。",
+          "按规则加 -r，得 roccor。",
+          "前面没有 i，所以不是「那些马」。"
+        ],
+        "ruleRef": "rule-plural-r",
+        "ruleLabelZh": "回到规则：-a/-i/-o/-u → -r",
+        "answerKey": "Horses",
+        "answerKeyZh": "马（复数）／马群",
+        "answerAlt": [
+          "horses",
+          "马",
+          "马群",
+          "众马"
+        ],
+        "answerZh": "rocco「马」以 -o 结尾，复数加 -r → roccor。句中没有 i，故只是不定／泛指的复数「马」，不是「那些马」。"
+      },
+      {
+        "id": "B",
+        "prompt": "Aran (two possible English translations!)",
+        "pointZh": "无不定冠词 → 答案不唯一",
+        "hintsZh": [
+          "aran 是光杆单数，前面没有 i。",
+          "昆雅没有 a/an，光杆名词本身即可是不定的。",
+          "所以英文里按上下文既可译「国王」也可译「一位国王」。"
+        ],
+        "ruleRef": "rule-no-indefinite",
+        "ruleLabelZh": "回到规则：无不定冠词",
+        "answerKey": "Either just \"king\", or \"a king\" with an indefinite article, depending on what English grammar demands in the context where the word occurs.",
+        "answerKeyZh": "「国王」或「一位国王」",
+        "answerAlt": [
+          "king",
+          "a king",
+          "国王",
+          "一位国王"
+        ],
+        "answerZh": "keys 特意说明有两种译法：只写 king，或按英语语法需要补不定冠词写 a king。这正是「无冠词即不定」的直接后果；别把它当成题目有歧义。"
+      },
+      {
+        "id": "C",
+        "prompt": "I rocco.",
+        "pointZh": "i + 单数",
+        "hintsZh": [
+          "首词 i 是定冠词，对应英语 the。",
+          "rocco 是单数，没有复数词尾。",
+          "合起来是「那匹马」。"
+        ],
+        "ruleRef": "rule-article-i",
+        "ruleLabelZh": "回到规则：i = the",
+        "answerKey": "The horse",
+        "answerKeyZh": "那匹马",
+        "answerAlt": [
+          "the horse",
+          "那匹马"
+        ],
+        "answerZh": "i 恒定不变形；数由名词表达。这里 rocco 是单数，所以是「那匹马」而非「那些马」。"
+      },
+      {
+        "id": "D",
+        "prompt": "I roccor.",
+        "pointZh": "i + 复数 -r 同现",
+        "hintsZh": [
+          "i 表确定，与单复数无关。",
+          "roccor 是 rocco 加 -r 的复数。",
+          "两部分各自承担不同信息，合起来是「那些马」。"
+        ],
+        "ruleRef": "rule-plural-r",
+        "ruleLabelZh": "回到规则：-o → -r",
+        "answerKey": "The horses",
+        "answerKeyZh": "那些马",
+        "answerAlt": [
+          "the horses",
+          "那些马"
+        ],
+        "answerZh": "i 只管「确定」，-r 只管「多于一个」，两者互不干涉。与 A 题对照：A 无 i 所以是「马」，D 有 i 所以是「那些马」。"
+      },
+      {
+        "id": "E",
+        "prompt": "Arani.",
+        "pointZh": "辅音结尾 → 加 -i",
+        "hintsZh": [
+          "aran 以辅音 -n 结尾。",
+          "辅音结尾直接加 -i，不是加 -r。",
+          "前面没有 i（冠词），所以是不定的复数。"
+        ],
+        "ruleRef": "rule-consonant-i",
+        "ruleLabelZh": "回到规则：辅音 → -i",
+        "answerKey": "Kings",
+        "answerKeyZh": "国王们／诸王",
+        "answerAlt": [
+          "kings",
+          "国王们",
+          "诸王"
+        ],
+        "answerZh": "aran → arani。注意词首的 a 不是冠词：昆雅冠词是独立的 i，aran 是一个整词。"
+      },
+      {
+        "id": "F",
+        "prompt": "Minë lië nu minë aran.",
+        "pointZh": "数词 + 光杆名词 + 介词 nu",
+        "hintsZh": [
+          "minë 是数词「一」，本课新词；lië 是「族民／民族」。",
+          "nu 是介词「在……之下」，放在名词前。",
+          "两个名词都是光杆单数，没有 i。"
+        ],
+        "ruleRef": "rule-no-indefinite",
+        "ruleLabelZh": "回到规则：光杆名词即不定",
+        "answerKey": "One people under one king.",
+        "answerKeyZh": "一族在一王之下／一个民族处于一位国王之下",
+        "answerAlt": [
+          "one people under one king",
+          "一族在一王之下",
+          "一个民族处于一位国王之下"
+        ],
+        "answerZh": "逐词：minë「一」+ lië「族民」+ nu「在……下」+ minë「一」+ aran「国王」。lië 在这里是单数，别因为它译作「民族／人们」就误写成复数 lier。"
+      },
+      {
+        "id": "G",
+        "prompt": "I aran ar i tári.",
+        "pointZh": "并列名词各自带 i；ar 是连词",
+        "hintsZh": [
+          "ar 是连词「和」，连接两个名词。",
+          "两个名词前各有一个 i，都要译出。",
+          "aran「国王」、tári「女王」都是单数。"
+        ],
+        "ruleRef": "rule-article-i",
+        "ruleLabelZh": "回到规则：i = the",
+        "answerKey": "The king and the queen.",
+        "answerKeyZh": "那位国王与那位女王",
+        "answerAlt": [
+          "the king and the queen",
+          "国王与女王",
+          "那位国王与那位女王"
+        ],
+        "answerZh": "注意 i 要重复：i aran ar i tári，不是 **i aran ar tári。冠词与连词是两套成分，ar 本身不是冠词。"
+      },
+      {
+        "id": "H",
+        "prompt": "Vendi.",
+        "pointZh": "-ë → -i 的替换式复数",
+        "hintsZh": [
+          "单数 vendë「少女」以 -ë 结尾。",
+          "复数用 -i 替换词末 -ë，不是叠加。",
+          "没有 i 冠词，故译不定的复数。"
+        ],
+        "ruleRef": "rule-plural-i",
+        "ruleLabelZh": "回到规则：-ë → -i",
+        "answerKey": "Maidens",
+        "answerKeyZh": "少女们",
+        "answerAlt": [
+          "maidens",
+          "少女们"
+        ],
+        "answerZh": "vendë → vendi。若把 -i 当成追加而非替换，就等于没有遵守原著「replaces the final -ë」的说明；这个形式在 O 题里还会以 i vendi 再出现一次。"
+      }
+    ]
+  },
+  "part2": {
+    "titleZh": "练习二 · 英语／中文 → 昆雅（I–P）",
+    "hintZh": "反向翻译最容易多写词：中文的「一／a」不要译出来；先定词尾，再决定该不该写 i。",
+    "items": [
+      {
+        "id": "I",
+        "prompt": "Willows.",
+        "pointZh": "tasar 是辅音结尾的单数，词末 -r 属词干",
+        "hintsZh": [
+          "课末词汇：tasar「柳树」，不是 **tasa。",
+          "它以辅音 -r 结尾，复数直接加 -i。",
+          "没有「那些」，所以不加 i。"
+        ],
+        "ruleRef": "rule-consonant-i",
+        "ruleLabelZh": "回到规则：辅音 → -i",
+        "answerKey": "Tasari",
+        "answerAlt": [],
+        "answerZh": "tasar → tasari。若把词末 -r 误认成复数词尾，就会倒推出并不存在的单数 **tasa；课末词汇表专门提醒过这一点。"
+      },
+      {
+        "id": "J",
+        "prompt": "Elves.",
+        "pointZh": "Elda → Eldar；课程约定用 Elda，不用 Quendë",
+        "hintsZh": [
+          "课末词汇：Elda「精灵」，以 -a 结尾。",
+          "-a 结尾加 -r，得 Eldar。",
+          "指整个族群时前面通常不加 i；本句也没有「那些」。"
+        ],
+        "ruleRef": "rule-plural-r",
+        "ruleLabelZh": "回到规则：-a → -r",
+        "answerKey": "Eldar",
+        "answerAlt": [],
+        "answerZh": "别写 Quendi：NOTE 里作者明确说练习一律用 Elda 译 Elf，避开神话里的专门含义。也别写 Eldali，-li 是功能未定、本课不练的部分复数。"
+      },
+      {
+        "id": "K",
+        "prompt": "The kings.",
+        "pointZh": "i + 辅音结尾复数",
+        "hintsZh": [
+          "「那些」→ 定冠词 i。",
+          "aran「国王」以辅音结尾，复数加 -i → arani。",
+          "冠词与词尾各管一件事，合起来是 i arani。"
+        ],
+        "ruleRef": "rule-article-i",
+        "ruleLabelZh": "回到规则：i = the",
+        "answerKey": "I arani",
+        "answerAlt": [],
+        "answerZh": "与 E 题 Arani 对照：同样的复数形式，加了 i 就从「国王们」变成「那些国王」。"
+      },
+      {
+        "id": "L",
+        "prompt": "Peoples.",
+        "pointZh": "-ië → -ier，去两点加 -r",
+        "hintsZh": [
+          "lië「族民、民族」以 -ië 结尾。",
+          "-ië 整体走 -r，且分音符要去掉。",
+          "结果 lier；若照搬「-ë → -i」会得到双 i 相连的形式（参原著 **tii）。"
+        ],
+        "ruleRef": "rule-ie-spelling",
+        "ruleLabelZh": "回到规则：-ië → -ier",
+        "answerKey": "Lier",
+        "answerAlt": [],
+        "answerZh": "lië → lier，与 tië → tier 同理。若照搬「-ë → -i」会得到双 i 相连的形式（参原著 **tii）。"
+      },
+      {
+        "id": "M",
+        "prompt": "The horse under (or, below) the willow.",
+        "pointZh": "两个 i + 介词 nu 的位置",
+        "hintsZh": [
+          "「那匹马」= i rocco；「那棵柳树」= i tasar。",
+          "「在……之下」用介词 nu，放在名词之前。",
+          "按昆雅语序拼成 i rocco nu i tasar。"
+        ],
+        "ruleRef": "rule-article-i",
+        "ruleLabelZh": "回到规则：i = the",
+        "answerKey": "I rocco nu i tasar.",
+        "answerAlt": [],
+        "answerZh": "两个被限定的名词都要带 i；nu 是独立介词，不是词尾。这里也再次说明 tasar 是单数。"
+      },
+      {
+        "id": "N",
+        "prompt": "A maiden and a queen.",
+        "pointZh": "中文／英文的 a 不要译进昆雅",
+        "hintsZh": [
+          "「一位」不是昆雅成分，直接写光杆名词。",
+          "vendë「少女」、tári「女王」都用单数。",
+          "用 ar 连接：Vendë ar tári。"
+        ],
+        "ruleRef": "rule-no-indefinite",
+        "ruleLabelZh": "回到规则：无不定冠词",
+        "answerKey": "Vendë ar tári.",
+        "answerAlt": [],
+        "answerZh": "若给两个名词都加上 i，意思就变成「那位少女与那位女王」了。B 题的两种译法在这里反向成立：a 是目标语补出来的。"
+      },
+      {
+        "id": "O",
+        "prompt": "The queen and the maidens.",
+        "pointZh": "i 重复 + -ë → -i 复数",
+        "hintsZh": [
+          "「那位女王」= i tári（单数不变）。",
+          "「那些少女」= i + vendë 的复数 vendi。",
+          "用 ar 连接：I tári ar i vendi。"
+        ],
+        "ruleRef": "rule-article-i",
+        "ruleLabelZh": "回到规则：i = the",
+        "answerKey": "I tári ar i vendi.",
+        "answerAlt": [],
+        "answerZh": "前半是单数、后半是复数，正好检验「i 不随数变形」：变的只有名词词尾。"
+      },
+      {
+        "id": "P",
+        "prompt": "The Sun and the Moon (I promised you that one...)",
+        "pointZh": "专有名词不加 i（keys 在答案后附了理由）",
+        "hintsZh": [
+          "英语写 the Sun / the Moon，但昆雅里 Anar、Isil 被当作专有名词。",
+          "专有名词前不加定冠词。",
+          "用 ar 连接：Anar ar Isil。"
+        ],
+        "ruleRef": "rule-proper-name",
+        "ruleLabelZh": "回到规则：专有名词不加 i",
+        "answerKey": "Anar ar Isil (probably not i Anar ar i Isil, since in Quenya the words denoting these celestial bodies seem to count as proper names, requiring no definite article)",
+        "answerAlt": [
+          "Anar ar Isil"
+        ],
+        "answerZh": "keys 的答案括注直接给出理由：这两个天体名在昆雅里似作专有名词，不需要定冠词。作者类比英语不会说 the Mars。若写 **i Anar ar i Isil 就把英语习惯带进了昆雅。"
+      }
+    ]
+  }
+}

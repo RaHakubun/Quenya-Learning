@@ -1,0 +1,72 @@
+{
+  "lesson": 3,
+  "schemaVersion": 2,
+  "titleZh": "双数与词干变化",
+  "titleEn": "Dual number. Stem variation.",
+  "summaryZh": "双数指构成天然或逻辑一对的两个事物，由 -u 或 -t 构成：-t 是首选，词中已含 t 或 d 时改用 -u（-u 会顶掉词尾元音，故 alda → aldu）。只是偶然相关的两个事物不用双数，改用 atta + 常规复数。veru、peu 等化石双数不按语音判据；成对的身体部位倾向用 -u。词干是接词尾时使用的形式，本身不单独出现：有的复原更早的词形（talan → talami、hen → hendi、filit → filici），有的是独立形被缩短（meren → merendi、Silmaril → Silmarilli、Sindel → Sindeldi），有的是缩合（feren → ferni、seler → selli）；词尾 -ë、-o 有时在接词尾时复原为 -i-、-u-（lómë → lómi-）。",
+  "mindmap": {
+    "rootZh": "第 3 课",
+    "branches": [
+      {
+        "labelZh": "双数是什么",
+        "sectionId": "dual-basics"
+      },
+      {
+        "labelZh": "-u 与天然成对",
+        "sectionId": "dual-u-pair"
+      },
+      {
+        "labelZh": "-u 顶掉词尾元音",
+        "sectionId": "dual-u-displacement"
+      },
+      {
+        "labelZh": "-t 与「纯计数」",
+        "sectionId": "dual-t-numerative"
+      },
+      {
+        "labelZh": "选 -t 还是 -u",
+        "sectionId": "dual-choice"
+      },
+      {
+        "labelZh": "化石双数与身体部位",
+        "sectionId": "dual-fossils"
+      },
+      {
+        "labelZh": "什么是词干",
+        "sectionId": "stem-what"
+      },
+      {
+        "labelZh": "词干与更早的词形",
+        "sectionId": "stem-history"
+      },
+      {
+        "labelZh": "独立形是缩短形",
+        "sectionId": "stem-fuller"
+      },
+      {
+        "labelZh": "缩合型词干",
+        "sectionId": "stem-contraction"
+      },
+      {
+        "labelZh": "词尾元音复原",
+        "sectionId": "stem-vowel-shift"
+      },
+      {
+        "labelZh": "别慌：多数词很规矩",
+        "sectionId": "stem-perspective"
+      },
+      {
+        "labelZh": "本章小结",
+        "sectionId": "summary"
+      },
+      {
+        "labelZh": "课末词汇",
+        "sectionId": "vocabulary"
+      },
+      {
+        "labelZh": "练习与答案",
+        "sectionId": "exercises"
+      }
+    ]
+  }
+}

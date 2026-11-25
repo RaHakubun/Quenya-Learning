@@ -1,0 +1,377 @@
+{
+ "kind": "translation",
+ "introZh": "A–H 为昆雅译英，I–P 为英译昆雅。本课同时用属格（-o／-on）与所有格（-va／-iva）：拥有、材料、特征用 -va；来源、部分、关于、动名词主语用 -o；动名词宾语用 -va。A 题专门让你比较同一短语的两种格。",
+ "pointMapZh": [
+  {
+   "labelZh": "所有格 -va（拥有）",
+   "ruleRef": "rule-poss-own",
+   "noteZh": "C（i rocco i Eldava）、E（i coar … neriva）、F（i coa … selerwa）、G（i macil i aranwa）、H（i harmar i minquë Naucoiva）、J（seldoiva、táriva）"
+  },
+  {
+   "labelZh": "材料用法",
+   "ruleRef": "rule-poss-material",
+   "noteZh": "B（yulma maltava）、E（rambar ondova）、I（síri limpeva）、K（harma maltava）、N（ramba muiléva）"
+  },
+  {
+   "labelZh": "特征用法",
+   "ruleRef": "rule-poss-descr",
+   "noteZh": "D（neri séreva）、M（nórë altë aldaiva）、O（nórë morniéva、rimbë vanyë engwíva）"
+  },
+  {
+   "labelZh": "属格 -o（来源／部分／关于）",
+   "ruleRef": "rule-gen-o",
+   "noteZh": "A（Eldaron）、G（i mólion）、H（i vendëo）、I（i nero）、J（i seldoron）、P（Eldaron）"
+  },
+  {
+   "labelZh": "属格复数 -on",
+   "ruleRef": "rule-gen-plural",
+   "noteZh": "A（Eldaron）、G（mólion）、H（orontion）、J（seldoron）、P（Eldaron）"
+  },
+  {
+   "labelZh": "拉长规则",
+   "ruleRef": "rule-lengthen",
+   "noteZh": "N（muiléva）、O（morniéva、engwíva）"
+  },
+  {
+   "labelZh": "动名词 -lë",
+   "ruleRef": "rule-vn-le",
+   "noteZh": "P（hostalë）"
+  },
+  {
+   "labelZh": "主语属格",
+   "ruleRef": "rule-subj-gen",
+   "noteZh": "P（sello hostalë）"
+  },
+  {
+   "labelZh": "宾语属格用 -va",
+   "ruleRef": "rule-obj-gen",
+   "noteZh": "P（parmaiva）"
+  }
+ ],
+ "part1": {
+  "titleZh": "练习一 · 昆雅译英（A–H）",
+  "hintZh": "先判断每个短语是「拥有」「材料」「特征」还是「来源／部分／关于」；再核对词尾。A 题两短语英译相同，必须说清差别。",
+  "items": [
+   {
+    "id": "A",
+    "prompt": "I limpë Eldaron vs. i limpë Eldaiva",
+    "pointZh": "属格表来源，所有格表当前拥有",
+    "hintsZh": [
+     "Eldaron 是属格复数（Elda + -on）。",
+     "Eldaiva 是所有格复数（Elda + -iva）。",
+     "两短语都可译「精灵的酒」，但一个强调来源，一个强调当前归属。"
+    ],
+    "ruleRef": "rule-poss-own",
+    "ruleLabelZh": "回到规则：当前拥有用 -va",
+    "answerKey": "Both phrases may be rendered \"the wine of the Elves\".",
+    "answerKeyZh": "两个短语都可译作「精灵的酒」。",
+    "answerAlt": [
+     "both phrases may be rendered \"the wine of the elves\"",
+     "两个短语都可译作「精灵的酒」"
+    ],
+    "answerZh": "i limpë Eldaron（属格）暗示「来自精灵的酒」——酒源自或得自精灵；i limpë Eldaiva（所有格）暗示「精灵拥有的酒」，不管酒从哪来。keys 原文即作此区分。"
+   },
+   {
+    "id": "B",
+    "prompt": "Haryalyë yulma maltava.",
+    "pointZh": "maltava 是材料用法",
+    "hintsZh": [
+     "harya- + -lyë = haryalyë「你拥有」。",
+     "malta「金」+ -va = maltava。",
+     "这里是「由金制成」的材料义。"
+    ],
+    "ruleRef": "rule-poss-material",
+    "ruleLabelZh": "回到规则：材料用法",
+    "answerKey": "You have (/possess) a cup of gold.",
+    "answerKeyZh": "你有一只金杯。",
+    "answerAlt": [
+     "you have a cup of gold",
+     "you possess a cup of gold",
+     "你有一只金杯"
+    ],
+    "answerZh": "haryalyë + yulma maltava。keys 注明：这是所有-形容词格的「组合」义，表某物由什么制成。"
+   },
+   {
+    "id": "C",
+    "prompt": "I rocco i Eldava alantië mir i núra cilya.",
+    "pointZh": "i Eldava 表当前拥有",
+    "hintsZh": [
+     "Elda + -va = Eldava「精灵的」。",
+     "alantië 是 lanta-「落」的完成时。",
+     "núra「深的」+ cilya「峡谷」。"
+    ],
+    "ruleRef": "rule-poss-own",
+    "ruleLabelZh": "回到规则：当前拥有",
+    "answerKey": "The horse of the Elf [/the Elf's horse] has fallen into the deep gorge.",
+    "answerKeyZh": "精灵的马掉进了深谷。",
+    "answerAlt": [
+     "the horse of the elf has fallen into the deep gorge",
+     "the elf's horse has fallen into the deep gorge",
+     "精灵的马掉进了深谷"
+    ],
+    "answerZh": "i rocco i Eldava。keys 注明这是当前拥有，并打趣说若按托尔金笔下精灵与马的亲密关系，也可用属格 i rocco i Eldo。"
+   },
+   {
+    "id": "D",
+    "prompt": "Neri séreva úvar ohtari.",
+    "pointZh": "séreva 表永久特征",
+    "hintsZh": [
+     "sérë「和平」+ -va = séreva。",
+     "neri「男人们」是复数主语。",
+     "úvar 是否定动词将来时复数「将不」。"
+    ],
+    "ruleRef": "rule-poss-descr",
+    "ruleLabelZh": "回到规则：特征用法",
+    "answerKey": "Men of peace will not be warriors.",
+    "answerKeyZh": "和平之人不会成为战士。",
+    "answerAlt": [
+     "men of peace will not be warriors",
+     "和平之人不会成为战士"
+    ],
+    "answerZh": "neri séreva；úvar + ohtari。keys 注明：所有-形容词格表永久特征。"
+   },
+   {
+    "id": "E",
+    "prompt": "Altë rambar ondova nurtaner i coar i cainen analyë neriva i osto.",
+    "pointZh": "ondova 材料；neriva 拥有；osto 属格隐形",
+    "hintsZh": [
+     "ondo「石」+ -va = ondova（材料）。",
+     "neri「男人」+ -iva = neriva（拥有）。",
+     "osto 以 -o 结尾，属格 i osto 词尾隐形。"
+    ],
+    "ruleRef": "rule-poss-material",
+    "ruleLabelZh": "回到规则：材料用法",
+    "answerKey": "Great walls of stone hid the houses of the ten richest men of the city.",
+    "answerKeyZh": "巨大的石墙遮住了城里最富有的十个人的房子。",
+    "answerAlt": [
+     "great walls of stone hid the houses of the ten richest men of the city",
+     "巨大的石墙遮住了城里最富有的十个人的房子"
+    ],
+    "answerZh": "rambar ondova（材料）；i coar … neriva（拥有）；i osto（地点属格，词尾隐形）。keys 逐段注明。"
+   },
+   {
+    "id": "F",
+    "prompt": "I coa i arano selerwa ná carnë.",
+    "pointZh": "arano 家庭属格；selerwa 拥有",
+    "hintsZh": [
+     "i arano「国王的」是属格（家庭关系）。",
+     "seler（sell-）+ -wa = selerwa「姐妹的」。",
+     "ná carnë「是红色的」。"
+    ],
+    "ruleRef": "rule-poss-article",
+    "ruleLabelZh": "回到规则：属格＋所有格套叠",
+    "answerKey": "The house of the king's sister [or, the king's sister's house] is red.",
+    "answerKeyZh": "国王的姐妹的房子是红色的。",
+    "answerAlt": [
+     "the house of the king's sister is red",
+     "the king's sister's house is red",
+     "国王的姐妹的房子是红色的"
+    ],
+    "answerZh": "i coa i arano selerwa：属格 i arano 依附 selerwa，selerwa 再指向 i coa。keys 说更清楚的写法是 i coa i selerwa i arano。"
+   },
+   {
+    "id": "G",
+    "prompt": "Minë i mólion amápië i macil i aranwa.",
+    "pointZh": "mólion 部分属格；aranwa 当前拥有",
+    "hintsZh": [
+     "minë i mólion「奴隶之一」是部分属格。",
+     "amápië 是 mapa-「抓」的完成时。",
+     "i macil i aranwa「国王的剑」用所有格。"
+    ],
+    "ruleRef": "rule-poss-own",
+    "ruleLabelZh": "回到规则：当前拥有",
+    "answerKey": "One of the thralls has seized the sword of the king.",
+    "answerKeyZh": "奴隶中的一个已经抓住了国王的剑。",
+    "answerAlt": [
+     "one of the thralls has seized the sword of the king",
+     "奴隶中的一个已经抓住了国王的剑"
+    ],
+    "answerZh": "minë i mólion（部分属格）；i macil i aranwa（当前拥有）。keys 打趣：奴隶若带剑逃走，剑就成了 i macil i arano。"
+   },
+   {
+    "id": "H",
+    "prompt": "I vendëo toron hirnë ilyë i harmar i minquë Naucoiva imbë i canta rassi i ninqui orontion.",
+    "pointZh": "vendëo 家庭属格；Naucoiva 拥有；orontion 部分／地点属格",
+    "hintsZh": [
+     "vendë「少女」+ -o = vendëo（家庭关系）。",
+     "Nauco + -iva = Naucoiva（拥有）。",
+     "orontion 是 oron「山」的属格复数。"
+    ],
+    "ruleRef": "rule-poss-plural",
+    "ruleLabelZh": "回到规则：所有格复数 -iva",
+    "answerKey": "The maiden's brother found all the treasures of the eleven Dwarves between the four horns of the white mountains.",
+    "answerKeyZh": "那少女的兄弟在白山的四只角之间找到了那十一个矮人的全部财宝。",
+    "answerAlt": [
+     "the maiden's brother found all the treasures of the eleven dwarves between the four horns of the white mountains",
+     "那少女的兄弟在白山的四只角之间找到了那十一个矮人的全部财宝"
+    ],
+    "answerZh": "i vendëo toron（家庭属格）；i harmar i minquë Naucoiva（拥有）；i canta rassi i ninqui orontion（部分或地点属格）。"
+   }
+  ]
+ },
+ "part2": {
+  "titleZh": "练习二 · 英译昆雅（I–P）",
+  "hintZh": "先定关系再选格：拥有／材料／特征 → -va；来源／部分／关于 → -o；动名词主语 → -o，宾语 → -va。注意 ulya- 的不及物过去时与 -va 前的拉长。",
+  "items": [
+   {
+    "id": "I",
+    "prompt": "Rivers of wine poured into the man's mouth.",
+    "pointZh": "limpeva 材料；nero 部分属格；uller 不及物过去时",
+    "hintsZh": [
+     "sírë「河」复数 síri；limpë + -va = limpeva（材料）。",
+     "nér「男人」+ -o = nero；anto「嘴」是身体一部分（部分属格）。",
+     "「流进」是不及物，ulya- 过去时用 uller。"
+    ],
+    "ruleRef": "rule-poss-material",
+    "ruleLabelZh": "回到规则：材料用法",
+    "answerKey": "Síri limpeva uller mir i nero anto [or, mir (i) anto i nero].",
+    "answerKeyZh": "酒之河流进了那人的嘴里。",
+    "answerAlt": [
+     "síri limpeva uller mir i nero anto",
+     "síri limpeva uller mir i anto i nero",
+     "酒之河流进了那人的嘴里"
+    ],
+    "answerZh": "síri limpeva（材料）；i nero anto（部分属格）；uller（不及物）。keys 特别提醒不是 ulyaner。"
+   },
+   {
+    "id": "J",
+    "prompt": "The boys' sister gathered the things of the boys and went into the house of the queen.",
+    "pointZh": "seldoron 家庭属格；seldoiva／táriva 拥有",
+    "hintsZh": [
+     "seldo「男孩」的属格复数是 seldoron。",
+     "seldo + -iva = seldoiva；tári + -va = táriva。",
+     "lendë 是 lelya- 的过去时。"
+    ],
+    "ruleRef": "rule-poss-own",
+    "ruleLabelZh": "回到规则：当前拥有",
+    "answerKey": "I seldoron seler [or, (i) seler i seldoron] hostanë (i) engwi i seldoiva ar lendë mir (i) coa i táriva.",
+    "answerKeyZh": "男孩们的姐妹聚集了男孩们的东西，然后走进了女王的房子。",
+    "answerAlt": [
+     "i seldoron seler hostanë i engwi i seldoiva ar lendë mir i coa i táriva",
+     "i seler i seldoron hostanë i engwi i seldoiva ar lendë mir i coa i táriva",
+     "男孩们的姐妹聚集了男孩们的东西，然后走进了女王的房子"
+    ],
+    "answerZh": "i seldoron seler（家庭属格）；i engwi i seldoiva、i coa i táriva（当前拥有）；lendë。"
+   },
+   {
+    "id": "K",
+    "prompt": "The secrecy of the women protected a great treasure of gold.",
+    "pointZh": "muilë 的属格／所有格；maltava 材料",
+    "hintsZh": [
+     "muilë「隐秘」；nissi「女人们」的所有格 nissiva。",
+     "harma maltava「金子的财宝」（材料）。",
+     "varya- 过去时 varyanë。"
+    ],
+    "ruleRef": "rule-poss-attribute",
+    "ruleLabelZh": "回到规则：永久属性用 -va",
+    "answerKey": "(I) muilë i nissiva varyanë alta harma maltava.",
+    "answerKeyZh": "女人们的隐秘保护了一大笔金子。",
+    "answerAlt": [
+     "muilë i nissiva varyanë alta harma maltava",
+     "i muilë i nissiva varyanë alta harma maltava",
+     "女人们的隐秘保护了一大笔金子"
+    ],
+    "answerZh": "(i) muilë i nissiva（所有格，表较永久的特征）；harma maltava（材料）；varyanë。keys 说也可用属格 i nission muilë，侧重某时。"
+   },
+   {
+    "id": "L",
+    "prompt": "The eleven warriors could not protect the peace of the city, for a great darkness fell.",
+    "pointZh": "sérë i osto 属格（地点／属性）；mornië 主语",
+    "hintsZh": [
+     "minquë「十一」+ ohtari「战士们」。",
+     "úmer polë varya「不能保护」；sérë i osto（属格，osto 词尾隐形）。",
+     "lantanë 是 lanta- 的过去时；mornië「黑暗」。"
+    ],
+    "ruleRef": "rule-gen-location",
+    "ruleLabelZh": "回到规则：属格（属性／地点）",
+    "answerKey": "I minquë ohtari úmer polë varya (i) sérë i osto [or, i osto sérë], an alta mornië lantanë.",
+    "answerKeyZh": "那十一个战士无法保护城市的和平，因为一片巨大的黑暗降临了。",
+    "answerAlt": [
+     "i minquë ohtari úmer polë varya i sérë i osto, an alta mornië lantanë",
+     "i minquë ohtari úmer polë varya i osto sérë, an alta mornië lantanë",
+     "那十一个战士无法保护城市的和平，因为一片巨大的黑暗降临了"
+    ],
+    "answerZh": "úmer polë varya；sérë i osto（属格，osto 词尾隐形）；alta mornië lantanë。keys 说若用所有格 i ostova，则强调和平是城市的永久属性，与本句「和平并不永久」的意思不合。"
+   },
+   {
+    "id": "M",
+    "prompt": "They will go through a land of great trees and many rocks, for they want to see the city of the mighty warrior.",
+    "pointZh": "aldaiva、ondoiva 特征；ohtarwa 拥有",
+    "hintsZh": [
+     "nórë「土地」+ altë aldaiva ar rimbë ondoiva（特征）。",
+     "lelya- 将来复数 lelyuvantë。",
+     "i osto i taura ohtarwa（当前拥有）。"
+    ],
+    "ruleRef": "rule-poss-descr",
+    "ruleLabelZh": "回到规则：特征用法",
+    "answerKey": "Lelyuvantë ter nórë altë aldaiva ar rimbë ondoiva, an merintë cenë (i) osto i taura ohtarwa.",
+    "answerKeyZh": "他们将穿过一片有大树与许多岩石的土地，因为他们想看见那位强大战士的城市。",
+    "answerAlt": [
+     "lelyuvantë ter nórë altë aldaiva ar rimbë ondoiva, an merintë cenë i osto i taura ohtarwa",
+     "lelyuvantë ter nórë altë aldaiva ar rimbë ondoiva, an merintë cenë osto i taura ohtarwa",
+     "他们将穿过一片有大树与许多岩石的土地，因为他们想看见那位强大战士的城市。"
+    ],
+    "answerZh": "nórë altë aldaiva ar rimbë ondoiva（特征）；lelyuvantë；i osto i taura ohtarwa。keys 说若战士已死或是建城者，也可用属格 i taura ohtaro。"
+   },
+   {
+    "id": "N",
+    "prompt": "A wall of secrecy protected the hidden gold of the city, and I did not find it.",
+    "pointZh": "muiléva 材料（拉长）；osto 属格；úmen 否定过去",
+    "hintsZh": [
+     "muilë + -va = muiléva（ui 后拉长）。",
+     "nurtaina「被藏起来的」；i osto 属格隐形。",
+     "「我没有找到」用 úmen hiritas。"
+    ],
+    "ruleRef": "rule-lengthen",
+    "ruleLabelZh": "回到规则：拉长规则",
+    "answerKey": "Ramba muiléva varyanë (i) nurtaina malta i osto [or, i osto nurtaina malta], ar úmen hiritas.",
+    "answerKeyZh": "一道隐秘之墙保护着城市隐藏的金子，而我没有找到它。",
+    "answerAlt": [
+     "ramba muiléva varyanë i nurtaina malta i osto, ar úmen hiritas",
+     "ramba muiléva varyanë i osto nurtaina malta, ar úmen hiritas",
+     "一道隐秘之墙保护着城市隐藏的金子，而我没有找到它"
+    ],
+    "answerZh": "ramba muiléva（材料，注意拉长）；i nurtaina malta i osto（地点属格）；úmen hiritas。"
+   },
+   {
+    "id": "O",
+    "prompt": "The land of the Elves is a land of many beautiful things; a land without Elves is a land of darkness, for the Men (Atani) of the land do not hear the rich language of the Elves.",
+    "pointZh": "Eldaiva 拥有；engwíva／morniéva 特征；ú Eldaron 属格",
+    "hintsZh": [
+     "nórë i Eldaiva（拥有）；nórë rimbë vanyë engwíva（特征，ei → í）。",
+     "nórë morniéva（特征，末 -ë 拉长）。",
+     "ú「没有」带属格：ú Eldaron。"
+    ],
+    "ruleRef": "rule-poss-plural",
+    "ruleLabelZh": "回到规则：所有格复数 -iva",
+    "answerKey": "(I) nórë (i) Eldaiva ná nórë rimbë vanyë engwíva; nórë ú Eldaron ná nórë morniéva, an i Atani i nórëo [or, i nórëo Atani] umir hlarë (i) alya lambë (i) Eldaiva.",
+    "answerKeyZh": "精灵的土地是一片有许多美好事物的土地；没有精灵的土地是黑暗之地，因为那片土地的人类听不见精灵丰富的语言。",
+    "answerAlt": [
+     "nórë i eldaiva ná nórë rimbë vanyë engwíva; nórë ú eldaron ná nórë morniéva, an i atani i nórëo umir hlarë i alya lambë i eldaiva",
+     "nórë eldaiva ná nórë rimbë vanyë engwíva; nórë ú eldaron ná nórë morniéva, an i atani i nórëo umir hlarë alya lambë eldaiva",
+     "精灵的土地是一片有许多美好事物的土地；没有精灵的土地是黑暗之地，因为那片土地的人类听不见精灵丰富的语言。"
+    ],
+    "answerZh": "nórë i Eldaiva（拥有）；engwíva（ei → í）、morniéva（拉长）；ú Eldaron（介词带属格）；i Atani i nórëo（地点属格）。keys 注明 engwíva 与 morniéva 的长元音来源不同。"
+   },
+   {
+    "id": "P",
+    "prompt": "The king's sister's gathering of books about Elves.",
+    "pointZh": "sello 家庭属格；hostalë 动名词；parmaiva 宾语属格；Eldaron 关于",
+    "hintsZh": [
+     "i arano sello「国王的姐妹的」：先属格再属格。",
+     "hosta- + -lë = hostalë「聚集」。",
+     "parmaiva「书的」用 -va（动名词的宾语）；Eldaron 用 -o（关于）。"
+    ],
+    "ruleRef": "rule-subj-gen",
+    "ruleLabelZh": "回到规则：主语属格",
+    "answerKey": "I arano sello hostalë parmaiva Eldaron.",
+    "answerKeyZh": "国王的姐妹对关于精灵的书的聚集。",
+    "answerAlt": [
+     "i arano sello hostalë parmaiva eldaron",
+     "国王的姐妹对关于精灵的书的聚集"
+    ],
+    "answerZh": "i arano sello（家庭属格）；sello hostalë（主语属格：姐妹是「聚集」的主语）；parmaiva（宾语属格用 -va）；Eldaron（「关于」义属格）。keys 逐项注明，是全课规则的集大成题。"
+   }
+  ]
+ }
+}

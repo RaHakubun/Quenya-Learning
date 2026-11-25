@@ -1,0 +1,78 @@
+{
+  "lesson": 4,
+  "introZh": "以下 12 词来自 less-a.rtf 第 4 课课末 VOCABULARY。前两项不是形容词：neldë 是数词、ná 是系词（复数 nar）。其余 10 个形容词按词尾分三组：-a 类（vanya、alta、calima、taura、saila）、-ëa 类（úmëa）、-ë 类（carnë、ninquë、morë）、-in 类（firin）。「总表」一行由 q-vocab.rtf 昆雅→英语表自动交叉引用。",
+  "entries": [
+    {
+      "word": "neldë",
+      "posZh": "数词",
+      "glossZh": "三",
+      "noteZh": "本课新增数词。练习 C「Neldë firini neri」与 L「neldë ninqui sardi」都考它；数词本身不变复数。"
+    },
+    {
+      "word": "ná",
+      "posZh": "系词",
+      "glossZh": "是（复数 nar）",
+      "noteZh": "系词，不表存在。单数 ná、复数 nar，须与主语数一致：I neri nar hallë。可省略（零系词），也可置于句末；本课程统一用「主语 + ná/nar + 形容词」。短形式 na 另有别的含义，写作时仍用 ná。"
+    },
+    {
+      "word": "vanya",
+      "posZh": "形容词",
+      "glossZh": "美的、美丽的",
+      "noteZh": "-a 类，复数 vanyë（练习 D：Vanyë aiwi）。注意区分：作名词指「一个凡雅」时，全族称 Vanyar——这是名词式复数 -ar，不是形容词复数。"
+    },
+    {
+      "word": "alta",
+      "posZh": "形容词",
+      "glossZh": "大的（只用于物理尺寸）",
+      "noteZh": "-a 类，复数 altë（练习 F：nar altë）。语义限定很硬：只指物理尺寸大，不能用来表示「伟大、重大」。"
+    },
+    {
+      "word": "calima",
+      "posZh": "形容词",
+      "glossZh": "明亮的",
+      "noteZh": "-a 类，复数 calimë。练习 B 的 Calimë 修饰双数名词 hendu，仍取常规复数形式——形容词没有专门的双数形式。"
+    },
+    {
+      "word": "taura",
+      "posZh": "形容词",
+      "glossZh": "强大的",
+      "noteZh": "-a 类，复数 taurë（练习 M：taurë neri）。练习 G「Aran taura」两解都靠它：定语「一个强大的国王」或谓语「国王是强大的」。"
+    },
+    {
+      "word": "saila",
+      "posZh": "形容词",
+      "glossZh": "智慧的",
+      "noteZh": "-a 类，复数 sailë（练习 H、M）。本词采用晚期材料的形式；《魔戒》之前的材料作 saira。"
+    },
+    {
+      "word": "úmëa",
+      "posZh": "形容词",
+      "glossZh": "邪恶的",
+      "noteZh": "-ëa 类，复数 úmië（不是 úmëe）。练习 N 的 nar úmië 即此。注意早期 Qenya 中 úmëa 意为「众多的」（《Narqelion》的 sangar úmëai）。"
+    },
+    {
+      "word": "carnë",
+      "posZh": "形容词",
+      "glossZh": "红的",
+      "noteZh": "-ë 类（颜色形容词典型词尾），复数 carni。练习 K「I talan ná carnë」用单数，与单数主语 talan 一致。"
+    },
+    {
+      "word": "ninquë",
+      "posZh": "形容词",
+      "glossZh": "白的",
+      "noteZh": "-ë 类，复数 ninqui（练习 L：neldë ninqui sardi）。练习 I「I ninquë ando」用单数，与单数名词 ando 一致。"
+    },
+    {
+      "word": "morë",
+      "posZh": "形容词",
+      "glossZh": "黑的",
+      "noteZh": "-ë 类，复数 mori。练习 A「Morë rocco」与 L「Minë morë sar」都用单数。参辛达语 Mordor＝Black Land 的第一成分。"
+    },
+    {
+      "word": "firin",
+      "posZh": "形容词",
+      "glossZh": "死的",
+      "noteZh": "-in 类（＝-ina 缩短形），复数按传统假定作 firini（练习 C：firini neri）。作者说明这条只是「传统假定」，因 -in 可能是 -ina 的缩短形，复数也可能作 firinë。"
+    }
+  ]
+}

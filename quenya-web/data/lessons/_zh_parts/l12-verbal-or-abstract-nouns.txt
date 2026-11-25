@@ -1,0 +1,30 @@
+动词性名词与抽象名词
+及其与属格、领属格的互动
+
+我们先称名词表「物」、动词表「行动」，亦曾暗示语言学家会觉得此类定义过于简化。有些名词表行动，称动词性名词。它们与属格、领属格互动特殊，故在此引入。
+
+动词性名词源于动词词干；英语以 -ing 为尾（与主动分词形式相同，但分词为形容词非名词）。singing 对应 sing；singing 即你 sing 时所为之行动。
+
+昆雅部分词干以 -më 造抽象，有些原为动词性名词。动词 mel-「爱」，名词 melmë「爱/喜爱」。部分义专门化：carmë「艺术」（UT:439）本为 car-「做」之动词性名词，字面「制作」（另见 oiencarmë）。
+
+词干亦可加 -ië：tyal-「玩」> tyalië「游戏」（名词；见 Mar Vanwa Tyaliéva）。A 词干动词加 -ië 时末 -a 脱落：naina-「悲叹」> nainië「悲歌」。
+
+又一常见造法：主要动词词干元音加长加 -ë：ser-「休息」> sérë「休息、安宁、和平」。此类名词常稍具象：sir-「流」> sírë 本义「流动」，亦指「河流」。nútë 与 nut-「系」相关，由抽象「系绑」发展为「结」。lir-「唱」> lírë 指「歌」而非仅「歌唱」。然动词性名词之旨仍可辨。
+
+部分 A 词干（尤其 -ta）词干本身可作抽象，无附加：vanta-「走」，vanta 亦「一次步行」。lanta-「落」> lanta「跌落」；亦可 lantë，如 Noldolantë「诺多之陨」。多数抽象名词以 -ë 结尾，单用或作较长后缀一部分。
+
+ -lë 似为最 versatile 的昆雅抽象后缀之一，原则上可加于任何 A 词干动词，得动词性名词。laita-「祝福/赞美」（LotR Cormallen）> laitalë「赞美/颂扬」（UT:166, 436，Erulaitalë「赞美埃ru」）。早课 nurta-「藏」实为仅见动词性 nurtalë「隐藏」（见 Nurtalë Valinóreva）。
+
+回到属格与领属格。动词性名词（或仍明显连于动词的抽象）与属格结合，暗示该名词为相应动词之「主语」。存例 Altariello nainië「加拉德瑞尔之挽歌」（RGEO:66）；属格 Altariello 支配 nainië，示加拉德瑞尔为悲叹者：主语属格。i equessi Rúmilo「鲁米尔的言说」（WJ:398）亦或作此析。Oiencarmë Eruo「太一之永创」（MR:471）：埃ru 为「永创」者，Eruo 为主语属格。
+
+第二课指出刊名 Parma Eldalamberon 应作 Parma Eldalambion；现挑剔 Tyalië Tyelelliéva 刊名。意为「Tyelellië 之游戏」，然 Tyelellië 为 tyalië「游戏」之主语，或应用属格：Tyalië Tyelelliéo。
+
+主语属格已述；宾语属格呢？英语常以 of 结构替代：「美洲的发现」= 以美洲为发现之宾语。主宾语属格可并见：「哥伦布对美洲的发现」。
+
+昆雅宾语属格唯一存例似表明用 -va 格。《精灵宝钻》第11章末 Nurtalë Valinóreva「维林诺之隐藏」（Valinóreva 自 Valinórë）。维拉藏起维林诺，故维林诺为 nurtalë 之宾语。若用属格 Nurtalë Valinórëo 或变作主语属格——维林诺非能「隐藏」者。反过来 oiencarmë Eruo 不可作「太一之被产出」之宾语意，若 Eru 为被产对象，应见 oiencarmë Eruva。
+
+故或同一短语内以 -o 作主语属格、-va 作宾语属格；主语属格宜在动词性名词前。Nurtalë Valinóreva 可展为 Valaron nurtalë Valinóreva「维拉的维林诺之隐藏」。自制例：
+
+Eruo melmë Ataniva =「神对人类之爱」
+
+Atanion melmë Eruva =「人对神之爱」

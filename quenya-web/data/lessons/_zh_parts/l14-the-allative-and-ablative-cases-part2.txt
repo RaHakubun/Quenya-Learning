@@ -1,0 +1,51 @@
+双数向格与离格：向、离双数尾含 familiar 双数元 -t，替换 -nna/-llo 中一辅音，得 -nta、-lto。nom. ciryat「一对船」→ ciryanta、ciryalto（Plotz）。名义 -u 双数者是否同尾不确定：Aldu「两树」，to 为 Aldunta 或 Aldunna？from 为 Aldulto 或 Aldullo？笔者倾 Aldunna、Aldullo，无确证（见课程附录）。
+
+向格、离格额外义项：基本 toward/from，亦有他 shade。未必总有实际空间运动。J.R.R. Tolkien – Artist and Illustrator 有 Itarildë Ondolindello，英宜 Idril of Gondolin；不必意味她已离刚多林。离格或可他无运动用法。ruc-「惊惧」据 WJ:415 与所惧对象之 from 合用，ulundo「怪物」句或 rucin i ulundollo，比 I'm afraid of the monster。
+
+向格不总 toward，亦可 on/upon：物「靠上」亦 toward 而无位移。多与 caita-「躺」共现，Namárië 散文 Mornië caita i falmalinnar「黑暗躺在波涛之上」（falma；带 -nnar 与 partitive -li；RGEO falma-li-nnar）。Markirya：atalantië mindoninnar/mindonnar，axor ilcalannar。
+
+学生留意：无物理运动时 toward/from 亦可加强为 into/out of：ëari lantier cilyanna（LR:56），mannar Valion（Fíriel）；Namárië sindanóriello「自灰色国」= out of（RGEO sinda-nórie-llo）。
+
+歧义：lenden i coanna「去屋」抑或「进屋」？歧义处 into 用 mir/minna；out of 用 et + 离格，如 Et Eärello...（et 或视作辖离格的介词，如 ú 辖属格）。
+
+辅音尾加向/离尾：-nna/-llo 及其双复变体不可直缀辅音尾以免 **lnn 等。allative to Elendil = Elendilenna（PM:401）。宣言 Eärello、Endorenna；Eär 亦有 Eärë，Endor 来自 Endórë，故 e 或属名词或连接。Elendilenna 几乎肯定为连接 e。主要策略：缀尾前插 -e-。
+
+复数需连接时似偏好 -i-：elenillor（eleni + -llor）；Markirya 初稿 mindoninnar（mindoni + -nnar），后改 mindonnar。
+
+NOTE：-ë 名、复数 -i 者，加 -nnar/-llon 前不将 -ë 改 -i：Plotz lassennar、lassellon；raxellor 非 **raxillor（VT44:5）。向/离复数尾直缀未屈折 -ë 形。此与属格不同：lassië 复属 lassion。
+
+若不插元音，可删名末辅音或合并：mindonnar = mindon-nnar；Elenna = Elen-nna 为努门诺尔名 Starwards（Akallabêth；UT:317 Elenna·nórë）。Menello = Menel-llo 非 Menelello。
+
+NOTE：特殊词干：talan/talam- 向 talamenna 或 talanna？taron/torn- tornenna 或 toronna？此阶段不知 Tolkien 好恶，皆不无可能。
+
+四方 Formen/Hyarmen/Rómen/Númen 向/离/方位前 -n 常脱落：Rómenna；Rómen-nna > Rómenna。Namárië Rómello，避 **Rómenllo；Rómenello 或亦有效，但方向词多用缩约。
+
+EQUË 与 AUTA：两特殊动词
+
+¤ equë：先说 quet-（aor. quetë, pres. quéta, past quentë）。亦有专引语录者。WJ:392：*ekwê > Q eque/equë, T epe；无时态，多在专名（单/复列举）或全称独立代词前，义 say/says/said，后接直接或较少见间接引语。
+
+就变位，equë 或为最简单动词：无时态，语境定 said/say(s)/shall say。主语为全称代词或专名（非常名）。语序：equë 在主体前。无刊句，然须可能：
+
+Equë Elendil: "Et Eärello Endorenna utúlien."
+
+equë 亦 gloss say（复数义）；不像常动词，复数主/多并列专名时亦不缀 -r。Equë Altariel ar Teleporno: "Utúliemmë Valinorello."（-mmë dual we）
+
+ equë 罕接后缀（WJ:392），亦有 equen「said I」（WJ:415）。可用 quet- 全变位替之。非常名/非全称代词作主语多 prefer quet-：I nís quentë...。equë 引述在前；说话者与行为在后则 better quet-：
+
+Equë Elendil: "Utúlien."  vs  "Utúlien," Elendil quentë。
+
+无直/间接引语之句 probably quet-。Sin Quentë Quendingoldo Elendilenna（PM:401）；或 equë 能否替换不确。
+
+¤ auta-（WJ:366）pass、go away、leave（离开谈话焦点）。《精灵宝钻》20 Auta i lómë!「夜逝！」
+
+按迄今规则颇 irregular，托尔金称有 regular forms。past 非 **autanë。archaic nasal-infixion anwë（AWA），auta- 之 -ta 于此不见；anwë 仅古语。
+
+现代两セット past/perfect，义不同。纯物理「往他处去」：past oantë（此类 -ta 动词 regular？多数 -ta 仅 + -në），源 awantê/awatâ > oantë、auta（awa > oa，比照 hroa）。同义完成 oantië，受 oantë 影响，perfect 中 n 侵入（WJ:366）。
+
+另一套 vánë/avánië；vánë 首音节来自 wâ/AWA，-në 为常 past 尾。perfect 亦受 past 影响。vánë/avánië 较 abstract：非「往别处」而「消失、逝去」。Namárië yéni ve lintë yuldar avánier——年非 oantier 他迁，而是岁月流逝已逝。具体主语则暗示失踪、亡佚等。
+
+vánë/avánië 受 vanwa「gone,lost,vanished」影响；Namárië Sí vanwa ná, Rómello vanwa, Valimar。WJ:366 称 vanwa 为 auta- 的 past participle，却与第十课 -na/-ina 分词无形式关联；罕 -nwa 分词。谓 participle 或动词形容词无大 practical 差别（Martsch）。
+
+NOTE 1：第八课言 Namárië avánier 或曾来自 Etym vanya-（WAN）。仍以后期 auta- 为准（Silmarillion 例）。vanwa 1915 QL:99 即有，历各阶段。
+
+NOTE 2：Etym GAWA auta-「发明」。写 Etym 时或尚无「离去」auta；若同期并存，发明义 past 或 autanë 可区分。

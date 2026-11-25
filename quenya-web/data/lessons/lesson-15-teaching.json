@@ -1,0 +1,3983 @@
+{
+ "lesson": 15,
+ "schemaVersion": 2,
+ "oneLineZh": "所有格 -rya 兼表 his／her／its（samberya、ómaryo）；双数接代词词尾时改用 -t（máryat、péryat），-u 只作连接元音（taluryat，推测）。长元音在辅音丛前缩短（mannar），却在 ry、ly、ny、ty 前不缩短（márya），这是未解的矛盾。位格 -ssë（复数 -ssen、双数 -tsë），-l／-n 后作 -dë（meneldë），-r 后作 -ssë（Ambassë）。关系代词 ya 可按 -a 名词变格（yassen、yanna、yallo、yan、yo、yava），i 作关系代词不可变格（i Eru i ëa），i ＋动词表「那……的人」（i carir quettar）。第三人称 -s 通性（eques），-ro／-rë 属早期材料，-ryë 属外推。",
+ "canDoZh": [
+  "能用 -rya 构成所有格并接格、数词尾",
+  "能处理双数接代词词尾时的 -t／-u 问题",
+  "能说明长元音缩短规则的例外与其未解之处",
+  "能构成位格的单数、复数、双数，并处理辅音结尾",
+  "能用 ya 造各类关系句，并知道 i 不可变格",
+  "能判断 i 作关系代词与作冠词的区别",
+  "能说明第三人称 -s、-ro／-rë、-ryë 的证据强度",
+  "能独立完成练习 A–P，用 keys 核对，并把错题回链到对应规则"
+ ],
+ "conceptMap": [
+  {
+   "labelZh": "-rya",
+   "noteZh": "ómaryo",
+   "sectionId": "ry-intro"
+  },
+  {
+   "labelZh": "全套形式",
+   "noteZh": "samberya",
+   "sectionId": "ry-forms"
+  },
+  {
+   "labelZh": "兼表 his",
+   "noteZh": "coarya",
+   "sectionId": "ry-his"
+  },
+  {
+   "labelZh": "双数 -t",
+   "noteZh": "máryat",
+   "sectionId": "dual-t"
+  },
+  {
+   "labelZh": "péryat",
+   "noteZh": "taluryat？",
+   "sectionId": "dual-u"
+  },
+  {
+   "labelZh": "ry 是辅音丛",
+   "noteZh": "重音证据",
+   "sectionId": "ry-cluster"
+  },
+  {
+   "labelZh": "长元音不缩短",
+   "noteZh": "矛盾",
+   "sectionId": "ry-long"
+  },
+  {
+   "labelZh": "malva／malma",
+   "noteZh": "对照",
+   "sectionId": "ry-explain"
+  },
+  {
+   "labelZh": "五个词",
+   "noteZh": "má、cú、pé",
+   "sectionId": "ry-words"
+  },
+  {
+   "labelZh": "分音节",
+   "noteZh": "fan/yar",
+   "sectionId": "ry-split"
+  },
+  {
+   "labelZh": "怎么念",
+   "noteZh": "三种可能",
+   "sectionId": "ry-pronounce"
+  },
+  {
+   "labelZh": "caritalya",
+   "noteZh": "-ta 不定式",
+   "sectionId": "inf-ta"
+  },
+  {
+   "labelZh": "tulierya",
+   "noteZh": "gerund ＋词尾",
+   "sectionId": "inf-ger"
+  },
+  {
+   "labelZh": "mi／mí",
+   "noteZh": "in the",
+   "sectionId": "loc-intro"
+  },
+  {
+   "labelZh": "-ssë",
+   "noteZh": "coanyassë",
+   "sectionId": "loc-sse"
+  },
+  {
+   "labelZh": "-ssë 抽象",
+   "noteZh": "Lótessë",
+   "sectionId": "loc-note1"
+  },
+  {
+   "labelZh": "upon",
+   "noteZh": "ciryassë",
+   "sectionId": "loc-note2"
+  },
+  {
+   "labelZh": "-ssen",
+   "noteZh": "mahalmassen",
+   "sectionId": "loc-plural"
+  },
+  {
+   "labelZh": "-tsë",
+   "noteZh": "sambetsë",
+   "sectionId": "loc-dual"
+  },
+  {
+   "labelZh": "辅音结尾",
+   "noteZh": "elenessë",
+   "sectionId": "loc-cons"
+  },
+  {
+   "labelZh": "-dë",
+   "noteZh": "meneldë",
+   "sectionId": "loc-new"
+  },
+  {
+   "labelZh": "简化系统",
+   "noteZh": "插 -e-",
+   "sectionId": "loc-simple"
+  },
+  {
+   "labelZh": "Aldussë？",
+   "noteZh": "双数 -u",
+   "sectionId": "loc-dual-u"
+  },
+  {
+   "labelZh": "súmaryassë",
+   "noteZh": "位格＋词尾",
+   "sectionId": "loc-pron"
+  },
+  {
+   "labelZh": "ya",
+   "noteZh": "关系代词",
+   "sectionId": "rel-intro"
+  },
+  {
+   "labelZh": "合并两句",
+   "noteZh": "i harma ya",
+   "sectionId": "rel-example"
+  },
+  {
+   "labelZh": "i 作关系代词",
+   "noteZh": "i Eru i ëa",
+   "sectionId": "rel-i"
+  },
+  {
+   "labelZh": "i 也指物",
+   "noteZh": "i hamil mára",
+   "sectionId": "rel-vt42"
+  },
+  {
+   "labelZh": "主宾之争",
+   "noteZh": "不成立",
+   "sectionId": "rel-subjobj"
+  },
+  {
+   "labelZh": "i 不变格",
+   "noteZh": "硬差别",
+   "sectionId": "rel-decl"
+  },
+  {
+   "labelZh": "yar",
+   "noteZh": "to whom",
+   "sectionId": "rel-yar"
+  },
+  {
+   "labelZh": "yan／yain",
+   "noteZh": "与格",
+   "sectionId": "rel-dat"
+  },
+  {
+   "labelZh": "yo／yaron",
+   "noteZh": "属格",
+   "sectionId": "rel-gen"
+  },
+  {
+   "labelZh": "yava",
+   "noteZh": "所有格",
+   "sectionId": "rel-poss"
+  },
+  {
+   "labelZh": "yanna",
+   "noteZh": "向格",
+   "sectionId": "rel-all"
+  },
+  {
+   "labelZh": "yallo",
+   "noteZh": "离格",
+   "sectionId": "rel-abl"
+  },
+  {
+   "labelZh": "yassë",
+   "noteZh": "位格",
+   "sectionId": "rel-loc"
+  },
+  {
+   "labelZh": "ya／yar",
+   "noteZh": "主格",
+   "sectionId": "rel-nom"
+  },
+  {
+   "labelZh": "双数 yat",
+   "noteZh": "yant、yatsë",
+   "sectionId": "rel-dual"
+  },
+  {
+   "labelZh": "可省格词尾",
+   "noteZh": "lómissë ya",
+   "sectionId": "rel-omit"
+  },
+  {
+   "labelZh": "冠词可省",
+   "noteZh": "lúmessë ya",
+   "sectionId": "rel-article"
+  },
+  {
+   "labelZh": "i ＋动词",
+   "noteZh": "i carir quettar",
+   "sectionId": "rel-free"
+  },
+  {
+   "labelZh": "三个例句",
+   "noteZh": "I túla ná nís",
+   "sectionId": "rel-free-ex"
+  },
+  {
+   "labelZh": "旧版设想",
+   "noteZh": "i 指人",
+   "sectionId": "rel-old"
+  },
+  {
+   "labelZh": "教学约定",
+   "noteZh": "ya＝which",
+   "sectionId": "rel-muddy"
+  },
+  {
+   "labelZh": "词序",
+   "noteZh": "非德语式",
+   "sectionId": "rel-order"
+  },
+  {
+   "labelZh": "动词紧跟",
+   "noteZh": "yassen tintilar",
+   "sectionId": "rel-namarie"
+  },
+  {
+   "labelZh": "-ryë",
+   "noteZh": "外推",
+   "sectionId": "tp-intro"
+  },
+  {
+   "labelZh": "-ro",
+   "noteZh": "antaváro",
+   "sectionId": "tp-ro"
+  },
+  {
+   "labelZh": "laustanéro",
+   "noteZh": "拉长条件",
+   "sectionId": "tp-ro2"
+  },
+  {
+   "labelZh": "-so／-se",
+   "noteZh": "来历",
+   "sectionId": "tp-origin"
+  },
+  {
+   "labelZh": "eques",
+   "noteZh": "-s 通性",
+   "sectionId": "tp-post"
+  },
+  {
+   "labelZh": "tulis",
+   "noteZh": "三解",
+   "sectionId": "tp-tulis"
+  },
+  {
+   "labelZh": "-s／-ryë",
+   "noteZh": "交替",
+   "sectionId": "tp-rye"
+  },
+  {
+   "labelZh": "练习只用 -s",
+   "noteZh": "安全区",
+   "sectionId": "tp-practice"
+  },
+  {
+   "labelZh": "小结",
+   "noteZh": "五块",
+   "sectionId": "summary"
+  },
+  {
+   "labelZh": "练习 A–P",
+   "noteZh": "工作台",
+   "sectionId": "exercises"
+  },
+  {
+   "labelZh": "原文地址",
+   "noteZh": "附录",
+   "sectionId": "ex-url"
+  },
+  {
+   "labelZh": "词汇",
+   "noteZh": "12 条",
+   "sectionId": "vocabulary"
+  }
+ ],
+ "pathTitleZh": "学习路径",
+ "path": [
+  {
+   "step": 1,
+   "labelZh": "最后一个代词词尾：-rya",
+   "sectionId": "ry-intro"
+  },
+  {
+   "step": 2,
+   "labelZh": "全套：samberya、samberyan、samberyat",
+   "sectionId": "ry-forms"
+  },
+  {
+   "step": 3,
+   "labelZh": "三十年后：-rya 也表「他的」",
+   "sectionId": "ry-his"
+  },
+  {
+   "step": 4,
+   "labelZh": "双数 -t 何时取代 -u",
+   "sectionId": "dual-t"
+  },
+  {
+   "step": 5,
+   "labelZh": "máryat、péryat、aldaryat、taluryat",
+   "sectionId": "dual-u"
+  },
+  {
+   "step": 6,
+   "labelZh": "ry 是辅音丛：ómaryo 的重音证明",
+   "sectionId": "ry-cluster"
+  },
+  {
+   "step": 7,
+   "labelZh": "可是长元音不缩短：máryat",
+   "sectionId": "ry-long"
+  },
+  {
+   "step": 8,
+   "labelZh": "没有解释，只有对照：malva／malma",
+   "sectionId": "ry-explain"
+  },
+  {
+   "step": 9,
+   "labelZh": "只有五个词受影响",
+   "sectionId": "ry-words"
+  },
+  {
+   "step": 10,
+   "labelZh": "反证：RGEO:76 的分音节",
+   "sectionId": "ry-split"
+  },
+  {
+   "step": 11,
+   "labelZh": "到底怎么念：三个选项",
+   "sectionId": "ry-pronounce"
+  },
+  {
+   "step": 12,
+   "labelZh": "不定式加代词词尾：caritalya(s)",
+   "sectionId": "inf-ta"
+  },
+  {
+   "step": 13,
+   "labelZh": "与 gerund 的关系",
+   "sectionId": "inf-ger"
+  },
+  {
+   "step": 14,
+   "labelZh": "mi 与 mí",
+   "sectionId": "loc-intro"
+  },
+  {
+   "step": 15,
+   "labelZh": "位格 -ssë：coassë、coanyassë",
+   "sectionId": "loc-sse"
+  },
+  {
+   "step": 16,
+   "labelZh": "-ssë 不只是位格：alassë、caimassë、Lótessë",
+   "sectionId": "loc-note1"
+  },
+  {
+   "step": 17,
+   "labelZh": "位格与向格都可译 upon",
+   "sectionId": "loc-note2"
+  },
+  {
+   "step": 18,
+   "labelZh": "复数 -ssen：mahalmassen",
+   "sectionId": "loc-plural"
+  },
+  {
+   "step": 19,
+   "labelZh": "双数 -tsë：sambetsë",
+   "sectionId": "loc-dual"
+  },
+  {
+   "step": 20,
+   "labelZh": "辅音结尾：旧版的推测",
+   "sectionId": "loc-cons"
+  },
+  {
+   "step": 21,
+   "labelZh": "新证据：Cemessë、meneldë、cemendë",
+   "sectionId": "loc-new"
+  },
+  {
+   "step": 22,
+   "labelZh": "简化系统：-e- 到处可用",
+   "sectionId": "loc-simple"
+  },
+  {
+   "step": 23,
+   "labelZh": "Aldu 的位格：Aldussë？",
+   "sectionId": "loc-dual-u"
+  },
+  {
+   "step": 24,
+   "labelZh": "位格 ＋ 代词词尾：súmaryassë",
+   "sectionId": "loc-pron"
+  },
+  {
+   "step": 25,
+   "labelZh": "ya：关系代词",
+   "sectionId": "rel-intro"
+  },
+  {
+   "step": 26,
+   "labelZh": "合并两句：i harma ya hirnelyë",
+   "sectionId": "rel-example"
+  },
+  {
+   "step": 27,
+   "labelZh": "i 也能作关系代词：i Eru i or ilyë mahalmar ëa",
+   "sectionId": "rel-i"
+  },
+  {
+   "step": 28,
+   "labelZh": "反例：i hamil mára",
+   "sectionId": "rel-vt42"
+  },
+  {
+   "step": 29,
+   "labelZh": "主语／宾语之争也站不住",
+   "sectionId": "rel-subjobj"
+  },
+  {
+   "step": 30,
+   "labelZh": "唯一确定的差别：i 不可变格",
+   "sectionId": "rel-decl"
+  },
+  {
+   "step": 31,
+   "labelZh": "yar「to whom」与 yassen",
+   "sectionId": "rel-yar"
+  },
+  {
+   "step": 32,
+   "labelZh": "与格：yan／yain",
+   "sectionId": "rel-dat"
+  },
+  {
+   "step": 33,
+   "labelZh": "属格：yo／yaron",
+   "sectionId": "rel-gen"
+  },
+  {
+   "step": 34,
+   "labelZh": "所有格：yava／yaiva",
+   "sectionId": "rel-poss"
+  },
+  {
+   "step": 35,
+   "labelZh": "向格：yanna／yannar",
+   "sectionId": "rel-all"
+  },
+  {
+   "step": 36,
+   "labelZh": "离格：yallo／yallon",
+   "sectionId": "rel-abl"
+  },
+  {
+   "step": 37,
+   "labelZh": "位格：yassë／yassen",
+   "sectionId": "rel-loc"
+  },
+  {
+   "step": 38,
+   "labelZh": "主格：ya／yar；i 不变",
+   "sectionId": "rel-nom"
+  },
+  {
+   "step": 39,
+   "labelZh": "双数：yat、yant、yato…",
+   "sectionId": "rel-dual"
+  },
+  {
+   "step": 40,
+   "labelZh": "可省的格词尾：lómissë ya",
+   "sectionId": "rel-omit"
+  },
+  {
+   "step": 41,
+   "labelZh": "冠词可省：lúmessë ya firuvammë",
+   "sectionId": "rel-article"
+  },
+  {
+   "step": 42,
+   "labelZh": "i ＋动词＝「那……的人」",
+   "sectionId": "rel-free"
+  },
+  {
+   "step": 43,
+   "labelZh": "三个例句",
+   "sectionId": "rel-free-ex"
+  },
+  {
+   "step": 44,
+   "labelZh": "旧版设想：i 指人、ya 指物",
+   "sectionId": "rel-old"
+  },
+  {
+   "step": 45,
+   "labelZh": "后来的材料搅乱了，但练习仍维持区分",
+   "sectionId": "rel-muddy"
+  },
+  {
+   "step": 46,
+   "labelZh": "词序：德语式？不是",
+   "sectionId": "rel-order"
+  },
+  {
+   "step": 47,
+   "labelZh": "动词紧跟关系代词：yassen tintilar i eleni",
+   "sectionId": "rel-namarie"
+  },
+  {
+   "step": 48,
+   "labelZh": "「他／她」的主语词尾是什么",
+   "sectionId": "tp-intro"
+  },
+  {
+   "step": 49,
+   "labelZh": "-ro「他」：antaváro",
+   "sectionId": "tp-ro"
+  },
+  {
+   "step": 50,
+   "labelZh": "laustanéro：-ro 的又一例",
+   "sectionId": "tp-ro2"
+  },
+  {
+   "step": 51,
+   "labelZh": "-ro 与 -rë 的来历：-so、-se",
+   "sectionId": "tp-origin"
+  },
+  {
+   "step": 52,
+   "labelZh": "后期证据：eques 的 -s",
+   "sectionId": "tp-post"
+  },
+  {
+   "step": 53,
+   "labelZh": "tulis 的三解与长短词尾的关系",
+   "sectionId": "tp-tulis"
+  },
+  {
+   "step": 54,
+   "labelZh": "-s 与 -ryë 交替？",
+   "sectionId": "tp-rye"
+  },
+  {
+   "step": 55,
+   "labelZh": "练习只用 -s 与 -rya",
+   "sectionId": "tp-practice"
+  },
+  {
+   "step": 56,
+   "labelZh": "本课小结",
+   "sectionId": "summary"
+  },
+  {
+   "step": 57,
+   "labelZh": "练习工作台（A–P）",
+   "sectionId": "exercises"
+  },
+  {
+   "step": 58,
+   "labelZh": "原文末尾的下载地址",
+   "sectionId": "ex-url"
+  },
+  {
+   "step": 59,
+   "labelZh": "课末词汇（12 条）",
+   "sectionId": "vocabulary"
+  }
+ ],
+ "modules": [
+  {
+   "sectionId": "ry-intro",
+   "sourceSectionId": "more-about-possessive-pronominal-endings",
+   "titleZh": "01 · 最后一个代词词尾：-rya",
+   "leadZh": "上一课讲完 -nya、-lya、-lva、-lma，只剩 -rya。它在《Namárië》里出现两次。",
+   "objectives": [
+    "知道 -rya 的基本意义",
+    "能举 ómaryo 为例"
+   ],
+   "rules": [
+    {
+     "id": "r-ry1",
+     "headZh": "-rya 与它的属格",
+     "bodyZh": "《Namárië》第一次出现时 -rya 后接属格，照例产生 -ryo：ómaryo「of her voice」，即 ómarya「她的声音」的属格。",
+     "en": "ómaryo",
+     "zh": "of her voice（她的声音的）。"
+    },
+    {
+     "id": "r-ry2",
+     "headZh": "óma 可单证",
+     "bodyZh": "óma「声音」一词别处可证（《词源》OM 条目；VT39:16），所以这不是孤证。",
+     "en": "The word óma \"voice\" is attested by itself elsewhere",
+     "zh": "óma「声音」一词别处可证。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 -rya 只表「她的」",
+     "right": "1994 年后已知它兼表「他的」",
+     "whyZh": "下一段即讲 WJ:369 的 coarya。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "本课的读法",
+     "bodyZh": "接下来四段是「一个词尾引出两场争论」：一场关于双数 -u／-t，一场关于 ry 是不是辅音丛。抓住这两条线，本课就不散。"
+    }
+   ],
+   "recapZh": "-rya「她的（他的）」；ómaryo。",
+   "selfCheckZh": [
+    {
+     "qZh": "ómaryo 是什么形式？",
+     "aZh": "ómarya 的属格。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "more-about-possessive-pronominal-endings",
+    "unitIds": [
+     0,
+     1
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ry-forms",
+   "sourceSectionId": "more-about-possessive-pronominal-endings",
+   "titleZh": "02 · 全套：samberya、samberyan、samberyat",
+   "leadZh": "《Namárië》第二次出现时 -rya 后接双数 -t：máryat「她的双手」。可见 -rya 能像其他词尾一样接格、数。",
+   "objectives": [
+    "能类推 samberya 的全套形式",
+    "知道 máryat 的 -t 是双数"
+   ],
+   "rules": [
+    {
+     "id": "r-ry3",
+     "headZh": "máryat",
+     "bodyZh": "máryat 译作「her hands」，指天然成对的手。má「手」也可单证。",
+     "en": "máryat",
+     "zh": "her hands（她的双手）。"
+    },
+    {
+     "id": "r-ry4",
+     "headZh": "全套类推",
+     "bodyZh": "-rya 能与其他词尾结合：samberya、samberyan、samberyanna、samberyallo、samberyo／samberyava；复数 samberyar、双数 samberyat。",
+     "en": "samberyanna",
+     "zh": "to her room（到她的房间）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 -rya 不能接格词尾",
+     "right": "它与 -nya、-lya 完全同构",
+     "whyZh": "原文列出整套形式，并说 it can be used and combined with other endings just like any of the other pronominal suffixes。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一个词尾，两类问题",
+     "bodyZh": "máryat 同时引出双数 -t 与 ry 的性质两个问题。作者正是从这一个词展开后面六段讨论的。"
+    }
+   ],
+   "recapZh": "samberya 全套；máryat 双数。",
+   "selfCheckZh": [
+    {
+     "qZh": "「到她的房间」怎么写？",
+     "aZh": "samberyanna。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "more-about-possessive-pronominal-endings",
+    "unitIds": [
+     2
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ry-his",
+   "sourceSectionId": "more-about-possessive-pronominal-endings",
+   "titleZh": "03 · 三十年后：-rya 也表「他的」",
+   "leadZh": "1954–1994 年间 -rya 只知表「她的」。1994 年 WJ 刊布 coarya「his house」，证明它兼表 his。",
+   "objectives": [
+    "知道 coarya 的证据",
+    "知道昆雅不分 his／her"
+   ],
+   "rules": [
+    {
+     "id": "r-ry5",
+     "headZh": "coarya",
+     "bodyZh": "WJ:369（那里拼作 köarya）表明 coarya 是「the house of him」即「his house」。",
+     "en": "Coarya",
+     "zh": "his house（他的房子）。"
+    },
+    {
+     "id": "r-ry6",
+     "headZh": "不分 his／her",
+     "bodyZh": "coarya 也可意为「她的房子」，máryat／ómaryo 也可意为「他的」。结论：昆雅根本不在 his 与 her 之间作区分。",
+     "en": "Quenya simply does not make a distinction between \"his\" and \"her\"",
+     "zh": "昆雅根本不在「他的」与「她的」之间作区分。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 coarya 固定译成「她的房子」",
+     "right": "依语境可译 his 或 her",
+     "whyZh": "原文：the form coarya as such could just as well mean \"her house\"。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "三十年的一小步",
+     "bodyZh": "从 1954 到 1994，同一个词尾的含义扩了一倍。这不是托尔金改主意，而是材料陆续刊布的结果——语法描述随之修订。"
+    }
+   ],
+   "recapZh": "-rya 兼表 his／her（或许也 its）。",
+   "selfCheckZh": [
+    {
+     "qZh": "coarya 只能译「她的房子」吗？",
+     "aZh": "不是，也可译「他的房子」。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "more-about-possessive-pronominal-endings",
+    "unitIds": [
+     3
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "dual-t",
+   "sourceSectionId": "more-about-possessive-pronominal-endings",
+   "titleZh": "04 · 双数 -t 何时取代 -u",
+   "leadZh": "第三课说 -t 是常规双数，只在语音需要时用 -u；但成对的身体部位用「化石化的」-u。本段把这条线索接上。",
+   "objectives": [
+    "回忆 -t／-u 的分工",
+    "知道「身体部位用 -u」这条旧说"
+   ],
+   "rules": [
+    {
+     "id": "r-du1",
+     "headZh": "-t 是常规",
+     "bodyZh": "-t 是常规双数词尾，只在语音需要时（如词本身含 t／d）由 -u 替代（Letters:427 脚注）。",
+     "en": "ordinarily replaced by -u only where euphonic concerns demand this",
+     "zh": "只在语音需要时才由 -u 替代。"
+    },
+    {
+     "id": "r-du2",
+     "headZh": "化石化的 -u",
+     "bodyZh": "第三课从 peu「（一对）唇」论证：成对的身体部位用化石化的双数，总接 -u——反映只有 -u 表示天然成对的旧系统。",
+     "en": "reflecting the older system in which only -u denoted a natural or logical pair",
+     "zh": "反映只有 -u 表示天然或逻辑成对的旧系统。"
+    },
+    {
+     "id": "r-du3",
+     "headZh": "第三课的伏笔",
+     "bodyZh": "第三课曾预告：「若某些其他词尾插在双数词尾本身之前，另一个词尾 -t 仍可使用；后面某课会回到这一点。」本课就是那一课。",
+     "en": "we will return to this in a later lesson",
+     "zh": "我们将在后面某课回到这一点。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 má 的双数一定是 mau",
+     "right": "接代词词尾时双数改用 -t（máryat）",
+     "whyZh": "原文说双数 -u 在接代词后缀时被抑制，改由 -t 表示。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "规则与例外的次序",
+     "bodyZh": "先立常规（-t），再立例外（身体部位 -u），最后给出例外的例外（接代词词尾时又回 -t）。三层结构要分清。"
+    }
+   ],
+   "recapZh": "-t 常规、-u 化石；接代词词尾时回 -t。",
+   "selfCheckZh": [
+    {
+     "qZh": "「她的双手」为什么不是 máu？",
+     "aZh": "接代词词尾时双数改用 -t：máryat。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "more-about-possessive-pronominal-endings",
+    "unitIds": [
+     4
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "dual-u",
+   "sourceSectionId": "more-about-possessive-pronominal-endings",
+   "titleZh": "05 · máryat、péryat、aldaryat、taluryat",
+   "leadZh": "接代词词尾时，双数 -u 被抑制，改由 -t 表示；但 -u 也许能作连接元音，于是有 taluryat 这种「双标记」。",
+   "objectives": [
+    "能构造 péryat、aldaryat",
+    "知道 taluryat 的推测性"
+   ],
+   "rules": [
+    {
+     "id": "r-du4",
+     "headZh": "从单数加起",
+     "bodyZh": "「她的（两片）唇」由 pé 加 -rya 再加 -t，作 péryat；属格 péryato、与格 péryant、向格 péryanta、离格 péryalto。",
+     "en": "péryat",
+     "zh": "her (two) lips（她的两片唇）。"
+    },
+    {
+     "id": "r-du5",
+     "headZh": "aldaryat",
+     "bodyZh": "Aldu 是常规双数「一对树」，但「她的那对树」大概由单数 alda 加后缀构成：aldaryat。",
+     "en": "aldaryat",
+     "zh": "her pair of trees（她的那对树）。"
+    },
+    {
+     "id": "r-du6",
+     "headZh": "taluryat 的双标记",
+     "bodyZh": "tál (tal-)「脚」需连接元音，故「她的那对脚」也许是 taluryat，带 -u- 与 -t 双重双数标记——与 talilmar 的双重复数标记（-i- 与 -r）平行。",
+     "en": "taluryat",
+     "zh": "her pair of feet（她的那对脚，推测）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 taluryat 当已证形式",
+     "right": "它是推测；作者明说缺例证",
+     "whyZh": "原文：As usual, we lack attested examples。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "双标记不是重复，是分工",
+     "bodyZh": "-u- 在这里其实是连接元音，-t 才是双数标记。看似「双数写两遍」，实为一个音系成分＋一个形态成分。"
+    }
+   ],
+   "recapZh": "péryat、aldaryat；taluryat 属推测。",
+   "selfCheckZh": [
+    {
+     "qZh": "「她的两片唇」怎么写？",
+     "aZh": "péryat。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "more-about-possessive-pronominal-endings",
+    "unitIds": [
+     5
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ry-cluster",
+   "sourceSectionId": "more-about-possessive-pronominal-endings",
+   "titleZh": "06 · ry 是辅音丛：ómaryo 的重音证明",
+   "leadZh": "ómaryo 重音在倒数第二音节的 a 上。若 ry 是单辅音，重音该落在倒数第三音节——所以 ry 必是辅音丛。",
+   "objectives": [
+    "能用重音证明 ry 是辅音丛",
+    "知道托尔金标过全诗重音"
+   ],
+   "rules": [
+    {
+     "id": "r-cl1",
+     "headZh": "重音证据",
+     "bodyZh": "托尔金反复指出 ómaryo 重读倒数第二音节的 a（RGEO 的转写标出全诗主次重音，另有录音可听）。这要求 ry 算辅音丛。",
+     "en": "ómaryo is accented on the a in the second-to-last syllable",
+     "zh": "ómaryo 重音在倒数第二音节的 a 上。"
+    },
+    {
+     "id": "r-cl2",
+     "headZh": "反推",
+     "bodyZh": "若 ry 是单个辅音，重音不会落在它前面的元音上，而会落在倒数第三音节。",
+     "en": "the stress would not land on the vowel before it",
+     "zh": "重音不会落在它前面的元音上。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 ry 当单辅音",
+     "right": "重音证据表明它是辅音丛",
+     "whyZh": "原文：For ómaryo to be accented in such a way, ry must count as a consonant cluster。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "重音是硬证据",
+     "bodyZh": "音系判断常靠间接证据，而重音位置是最硬的一种：它由音节结构决定，不能随意。托尔金的录音更把它钉死。"
+    }
+   ],
+   "recapZh": "ry 算辅音丛（重音证据）。",
+   "selfCheckZh": [
+    {
+     "qZh": "ómaryo 重音在哪？",
+     "aZh": "倒数第二音节的 a。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "more-about-possessive-pronominal-endings",
+    "unitIds": [
+     6
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ry-long",
+   "sourceSectionId": "more-about-possessive-pronominal-endings",
+   "titleZh": "07 · 可是长元音不缩短：máryat",
+   "leadZh": "辅音丛前不能有长元音，故 mannar（不是 mánnar）。但 máryat 里的 á 不缩短——矛盾出现了。",
+   "objectives": [
+    "知道 mannar 的缩短",
+    "能陈述这个矛盾"
+   ],
+   "rules": [
+    {
+     "id": "r-lg1",
+     "headZh": "缩短规则",
+     "bodyZh": "昆雅辅音丛前不能有长元音：má 的复数向格作 mannar「into hands」（《Fíriel 之歌》）。",
+     "en": "mannar",
+     "zh": "into hands（进入双手）。"
+    },
+    {
+     "id": "r-lg2",
+     "headZh": "矛盾",
+     "bodyZh": "Mánnar 不会是可能的昆雅词。那么若 ry 也是辅音丛，为什么 máryat 的 á 不缩短？为什么不见 ?maryat？",
+     "en": "**Mánnar would not be a possible Quenya word",
+     "zh": "Mánnar 不会是可能的昆雅词。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为所有辅音丛前都缩短",
+     "right": "ry、ly、ny、ty 前不缩短",
+     "whyZh": "原文承认这是未解的矛盾，并把它留到下一段处理。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "矛盾要留住，不要抹平",
+     "bodyZh": "作者没有硬造解释，而是把矛盾原样摆出：「Frankly, I can't think of any obvious explanation.」这种诚实是读原著时最该学的。"
+    }
+   ],
+   "recapZh": "mannar 缩短；máryat 不缩短——矛盾。",
+   "selfCheckZh": [
+    {
+     "qZh": "「进入双手」怎么写？",
+     "aZh": "mannar。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "more-about-possessive-pronominal-endings",
+    "unitIds": [
+     7
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ry-explain",
+   "sourceSectionId": "more-about-possessive-pronominal-endings",
+   "titleZh": "08 · 没有解释，只有对照：malva／malma",
+   "leadZh": "作者坦承想不出解释。可对照的是：márya、mánya、málya 保留长元音，而 malva、malma 必须缩短。",
+   "objectives": [
+    "知道作者承认无解",
+    "能用 malva／malma 作对照"
+   ],
+   "rules": [
+    {
+     "id": "r-ex1",
+     "headZh": "保留长元音",
+     "bodyZh": "márya「他／她的手」、mánya「我的手」、málya「你的手」都保留前面的长元音。",
+     "en": "mánya",
+     "zh": "my hand（我的手）。"
+    },
+    {
+     "id": "r-ex2",
+     "headZh": "必须缩短",
+     "bodyZh": "在其他代词后缀前必须缩短，因为这些词尾无疑引入辅音丛：malva、malma「我们的手」。Málva、málma 几乎不可能是昆雅词。",
+     "en": "malva and malma",
+     "zh": "our hand（包含／排除）。"
+    },
+    {
+     "id": "r-ex3",
+     "headZh": "与 vammë／ványë 平行",
+     "bodyZh": "vá 在 vammë 里缩短（mm 是辅音丛），在 ványë 里保留。可见 mm 是辅音丛，而 ny 可能是单个腭化辅音（像西班牙语 ñ）。",
+     "en": "vammë",
+     "zh": "we won't（我们不干）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 málva",
+     "right": "malva（-lva 前缩短）",
+     "whyZh": "原文：**Málva, **málma would hardly be possible Quenya words。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "两个层次的「辅音丛」",
+     "bodyZh": "重音层面 ry 算辅音丛，元音缩短层面它又不像辅音丛。作者的处理是：承认两个层面可能不一致，而不是强行统一。"
+    }
+   ],
+   "recapZh": "márya／mánya／málya 保留；malva／malma 缩短。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我们的手」（包含）怎么写？",
+     "aZh": "malva。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "more-about-possessive-pronominal-endings",
+    "unitIds": [
+     8
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ry-words",
+   "sourceSectionId": "more-about-possessive-pronominal-endings",
+   "titleZh": "09 · 只有五个词受影响",
+   "leadZh": "以长元音结尾的单音节词只有 má、cú、pé、ré、lú。它们接格词尾时同样缩短。",
+   "objectives": [
+    "能列出这五个词",
+    "知道 mályannar 不缩短"
+   ],
+   "rules": [
+    {
+     "id": "r-wd1",
+     "headZh": "五个词",
+     "bodyZh": "má「手」、cú「弓」、pé「唇」、ré「日（24 小时）」、lú「时间、时机」——只有这几个单音节长元音词会受影响。",
+     "en": "má \"hand\", only cú \"bow\", pé \"lip\"",
+     "zh": "má「手」、cú「弓」、pé「唇」。"
+    },
+    {
+     "id": "r-wd2",
+     "headZh": "格词尾前缩短，ly 前不缩短",
+     "bodyZh": "接格词尾时缩短（mannar）；但「into your hands」是 mályannar、双数 mályanta，因为 ly、ny、ry、ty 在此不算辅音丛。",
+     "en": "mályannar",
+     "zh": "into your hands（进入你的双手）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为所有长元音词都要缩短",
+     "right": "只有这五个单音节词涉及此问题",
+     "whyZh": "原文：There are only a handful of nouns that can be affected by these variations。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "范围小，规则才敢细",
+     "bodyZh": "正因为只有五个词，作者才敢把规则讲得这么细。遇到「规则很多」的章节，先看它管多少词——范围越小，越可能是真的。"
+    }
+   ],
+   "recapZh": "má、cú、pé、ré、lú；mályannar。",
+   "selfCheckZh": [
+    {
+     "qZh": "「进入你的双手」怎么写？",
+     "aZh": "mályannar。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "more-about-possessive-pronominal-endings",
+    "unitIds": [
+     9
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ry-split",
+   "sourceSectionId": "more-about-possessive-pronominal-endings",
+   "titleZh": "10 · 反证：RGEO:76 的分音节",
+   "leadZh": "托尔金把 ómaryo 分成 -ar- 与 -yo，把 fanyar 分成 fan/yar——仿佛 ry、ny 真是辅音丛。",
+   "objectives": [
+    "知道 RGEO:76 的分音节证据",
+    "知道这与缩短问题冲突"
+   ],
+   "rules": [
+    {
+     "id": "r-sp1",
+     "headZh": "分音节",
+     "bodyZh": "RGEO:76 的手稿把 ómaryo 分音节，似乎表示 -ar- 与 -yo 分开；fanyar 分作 fan/yar、ilyë 分作 il/yë。",
+     "en": "fanyar",
+     "zh": "clouds（云）。"
+    },
+    {
+     "id": "r-sp2",
+     "headZh": "两难",
+     "bodyZh": "若这些组合真是辅音丛，就能解释重音；但长元音不缩短的问题仍在。",
+     "en": "why long vowels are not shortened before these combinations",
+     "zh": "为什么这些组合前长元音不缩短。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为分音节就解决了全部问题",
+     "right": "只解释了重音，没解释元音长度",
+     "whyZh": "原文：But then we are left with the problem of why long vowels are not shortened。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "两个证据，一个结论",
+     "bodyZh": "重音证据与分音节证据都指向「辅音丛」，但元音长度证据指向「非辅音丛」。作者的处理是并列，而不是择一。"
+    }
+   ],
+   "recapZh": "RGEO:76 分作 fan/yar、il/yë。",
+   "selfCheckZh": [
+    {
+     "qZh": "fanyar 被分成？",
+     "aZh": "fan/yar。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "more-about-possessive-pronominal-endings",
+    "unitIds": [
+     10
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ry-pronounce",
+   "sourceSectionId": "more-about-possessive-pronominal-endings",
+   "titleZh": "11 · 到底怎么念：三个选项",
+   "leadZh": "单腭化辅音、长腭化辅音、单辅音＋独立 y——三种可能都无法排除。作者倾向第三种。",
+   "objectives": [
+    "能说出三种可能读法",
+    "知道作者倾向前者不用"
+   ],
+   "rules": [
+    {
+     "id": "r-pr1",
+     "headZh": "三种可能",
+     "bodyZh": "是单个统一的腭化辅音、长腭化辅音，还是单辅音后跟独立的 y？根据已刊材料无法定论。",
+     "en": "we can't reach any definite answer",
+     "zh": "我们无法得出确定答案。"
+    },
+    {
+     "id": "r-pr2",
+     "headZh": "作者的倾向",
+     "bodyZh": "若带独立的 y，这些组合也许不算常规辅音丛，因为 y 是「半元音」而非完全「正规」的辅音。",
+     "en": "y is a \"semi-vowel\" rather than a quite \"proper\" consonant",
+     "zh": "y 是半元音，而非完全正规的辅音。"
+    },
+    {
+     "id": "r-pr3",
+     "headZh": "词首必须单辅音",
+     "bodyZh": "ny、ty 这类腭音在词首时必须读作单个统一辅音，因为昆雅词首不能有辅音丛（SD:416-417）。",
+     "en": "Quenya cannot have consonant clusters at the beginning of words",
+     "zh": "昆雅词首不能有辅音丛。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "断言 ny 一定读作两个音",
+     "right": "词首必为单辅音；词中无定论",
+     "whyZh": "原文说词首「must always be pronounced as single, unitary consonants」，词中则无法定论。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "未解之处也是知识",
+     "bodyZh": "这一段没有结论，但它把选项列清楚了。知道「有哪几种可能、各自代价是什么」，比记住一个武断答案更有用。"
+    }
+   ],
+   "recapZh": "三种读法并存；作者倾向带独立 y。",
+   "selfCheckZh": [
+    {
+     "qZh": "词首的 ny 怎么读？",
+     "aZh": "单个统一的腭化辅音。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "more-about-possessive-pronominal-endings",
+    "unitIds": [
+     11
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "inf-ta",
+   "sourceSectionId": "more-about-possessive-pronominal-endings",
+   "titleZh": "12 · 不定式加代词词尾：caritalya(s)",
+   "leadZh": "-ta 扩展不定式可接表宾语的词尾（caritas），也可接表主语的代词词尾（caritalya）。",
+   "objectives": [
+    "能拆解 caritalyas",
+    "能造 merin tiritalyat"
+   ],
+   "rules": [
+    {
+     "id": "r-inf1",
+     "headZh": "-ta 扩展",
+     "bodyZh": "第十课讲过：不定式接表宾语代词后缀时用 -ta 扩展形式，carë (cari-) → caritas「to do it」。",
+     "en": "caritas",
+     "zh": "to do it／doing it。"
+    },
+    {
+     "id": "r-inf2",
+     "headZh": "表主语的词尾",
+     "bodyZh": "扩展不定式还能接表动作主语的所有格代词词尾：caritalya(s)，托尔金译「your doing (it)」（VT41:17）。",
+     "en": "caritalya(s)",
+     "zh": "your doing (it)（你做它）。"
+    },
+    {
+     "id": "r-inf3",
+     "headZh": "再接宾语",
+     "bodyZh": "词末可再加第二个表宾语的词尾：caritalyas「your doing it」、tiritanyat「my watching them」。",
+     "en": "tiritanyat",
+     "zh": "my watching them（我看它们）。"
+    }
+   ],
+   "examples": [
+    {
+     "en": "merin tiritalyat",
+     "zh": "我想让你看它们（字面：我要你的看它们）",
+     "noteZh": "-lya 主语，-t 宾语。"
+    },
+    {
+     "en": "merin tiritalya i seldor",
+     "zh": "我想让你看那些男孩",
+     "noteZh": "宾语也可以是独立词。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 caritalya 的 -lya 当宾语",
+     "right": "它是主语「你的」；宾语另加 -s",
+     "whyZh": "原文：\"You\" is here the subject of the verbal action ... expressed as a possessive pronominal ending -lya。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "两个代词，一前一后",
+     "bodyZh": "caritalyas 里 -lya 是主语、-s 是宾语，顺序固定：主语词尾在前，宾语词尾在后。这与格词尾的顺序逻辑一致。"
+    }
+   ],
+   "recapZh": "caritas、caritalya(s)、caritalyas。",
+   "selfCheckZh": [
+    {
+     "qZh": "caritalyas 里的 -s 是什么？",
+     "aZh": "宾语「它」。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "more-about-possessive-pronominal-endings",
+    "unitIds": [
+     12
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "inf-ger",
+   "sourceSectionId": "more-about-possessive-pronominal-endings",
+   "titleZh": "13 · 与 gerund 的关系",
+   "leadZh": "这类 -ta 不定式在意义上很接近 gerund，大概与辛达林 gerund（-ad／-ed）相关。",
+   "objectives": [
+    "知道 -ta 不定式与 gerund 的关系",
+    "知道 ?carieryas 不确定"
+   ],
+   "rules": [
+    {
+     "id": "r-ing1",
+     "headZh": "接近 gerund",
+     "bodyZh": "按意义，这类不定式非常接近 gerund；昆雅 -ta 形式大概与辛达林 gerund（-ad／-ed）相关。",
+     "en": "these Quenya forms in -ta are probably meant to be related to Sindarin gerunds",
+     "zh": "这些昆雅 -ta 形式大概与辛达林 gerund 相关。"
+    },
+    {
+     "id": "r-ing2",
+     "headZh": "gerund 也能接代词词尾",
+     "bodyZh": "常规 gerund（-ië）也能接所有格代词词尾，如 tulierya「his coming」。但能否再接表宾语的第二个词尾（?carieryas）则不确定。",
+     "en": "tulierya",
+     "zh": "his coming（他的到来）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "用 ?carieryas 当已证形式",
+     "right": "它带问号，不确定",
+     "whyZh": "原文：It is, however, uncertain whether a second pronominal ending ... may then be suffixed。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "形态的连续谱",
+     "bodyZh": "不定式（-ta）与 gerund（-ië）在意义与句法上重叠，只在能否再接宾语上有差别。这提示昆雅的「动词性名词」是一个连续谱，而非两个格子。"
+    }
+   ],
+   "recapZh": "tulierya；?carieryas 不确定。",
+   "selfCheckZh": [
+    {
+     "qZh": "「他的到来」怎么写？",
+     "aZh": "tulierya。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "more-about-possessive-pronominal-endings",
+    "unitIds": [
+     13
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "loc-intro",
+   "sourceSectionId": "the-locative-case",
+   "titleZh": "14 · mi 与 mí",
+   "leadZh": "mi「in」，与冠词结合成 mí「in the」。《Namárië》的 mí oromardi 是一例（LotR 文本作 mi）。",
+   "objectives": [
+    "知道 mi 与 mí 的区别",
+    "知道 LotR 文本与 RGEO 的差异"
+   ],
+   "rules": [
+    {
+     "id": "r-lo1",
+     "headZh": "mi ＋ i ＝ mí",
+     "bodyZh": "介词 mi「in」有时与定冠词结合成 mí「in the」，见于《Namárië》的 mí oromardi「in the high halls」。",
+     "en": "mí oromardi",
+     "zh": "in the high halls（在高堂中）。"
+    },
+    {
+     "id": "r-lo2",
+     "headZh": "文本差异",
+     "bodyZh": "LotR 文本作短元音的 mi，那应是单纯「in」、未并入冠词，其译文也正作「in lofty halls」。",
+     "en": "in lofty halls",
+     "zh": "in lofty halls（在高堂中）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 mi 一定含冠词",
+     "right": "mi 是「in」，mí 才是「in the」",
+     "whyZh": "原文区分 mí（含冠词）与 LotR 文本的 mi（不含冠词）。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一个元音符号的差别",
+     "bodyZh": "mí 与 mi 只差长音符号，却决定有没有冠词。这类细节正是昆雅校勘的日常。"
+    }
+   ],
+   "recapZh": "mi「in」；mí「in the」。",
+   "selfCheckZh": [
+    {
+     "qZh": "mí 等于什么？",
+     "aZh": "mi + i（in the）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-locative-case",
+    "unitIds": [
+     0
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "loc-sse",
+   "sourceSectionId": "the-locative-case",
+   "titleZh": "15 · 位格 -ssë：coassë、coanyassë",
+   "leadZh": "昆雅常用格形式而非介词。位格词尾 -ssë（大概受芬兰语启发）表 in／on。",
+   "objectives": [
+    "能构成 coassë、coanyassë",
+    "知道位格也用于时间"
+   ],
+   "rules": [
+    {
+     "id": "r-lo2b",
+     "headZh": "位格 -ssë",
+     "bodyZh": "「in a house」＝ coassë，「in the house」＝ i coassë，「in my house」＝ coanyassë。",
+     "en": "coanyassë",
+     "zh": "in my house（在我的房子里）。"
+    },
+    {
+     "id": "r-lo3",
+     "headZh": "重音前移",
+     "bodyZh": "重音移到紧邻格词尾前的元音上，因为词尾以辅音丛开头。",
+     "en": "the stress moves to the vowel immediately preceding the case ending",
+     "zh": "重音移到紧邻格词尾前的元音上。"
+    },
+    {
+     "id": "r-lo4",
+     "headZh": "时间也可",
+     "bodyZh": "位格可指空间，也可指时间：问候语早期版本里 lúmë「时刻」用位格 lúmessë（RS:324）。",
+     "en": "lúmessë",
+     "zh": "in the hour（在那时刻）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 -ssë 只当空间",
+     "right": "也可表时间（lúmessë）",
+     "whyZh": "原文：The locative can refer to \"location\" in time as well as space。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么用格不用介词",
+     "bodyZh": "昆雅有 mi，却更常用 -ssë。这是全书的一贯倾向：屈折优先。理解这一点，就不会一见「in」就想 mi。"
+    }
+   ],
+   "recapZh": "位格 -ssë；coanyassë、lúmessë。",
+   "selfCheckZh": [
+    {
+     "qZh": "「在我房子里」怎么写？",
+     "aZh": "coanyassë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-locative-case",
+    "unitIds": [
+     1
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "loc-note1",
+   "sourceSectionId": "the-locative-case",
+   "titleZh": "16 · -ssë 不只是位格：alassë、caimassë、Lótessë",
+   "leadZh": "-ssë 也作抽象名词词尾（alassë、entulessë），或保留方位含义（aicassë），还出现在月名里（Lótessë）。",
+   "objectives": [
+    "知道 -ssë 的多重身分",
+    "知道 Lótessë 的意思"
+   ],
+   "rules": [
+    {
+     "id": "r-lo5",
+     "headZh": "抽象词尾",
+     "bodyZh": "-ssë 有时作抽象词尾：alassë「快乐」；Entulessë 是船名，意为「Return」。",
+     "en": "Entulessë",
+     "zh": "Return（返回）。"
+    },
+    {
+     "id": "r-lo6",
+     "headZh": "保留方位义",
+     "bodyZh": "caimassë 既可是 caima「床」的位格，也用作名词「卧床」＝「病」，并构成 caimassëa「卧病的」。aicassë「山峰」由 aica「尖的」派生，指某种「尖之处」。",
+     "en": "aicassë",
+     "zh": "mountain peak（山峰）。"
+    },
+    {
+     "id": "r-lo7",
+     "headZh": "月名",
+     "bodyZh": "Lótessë 与 lótë「花」相关，基本上意为「In Flower」，正合五月；Víressë 意义不明。",
+     "en": "Lótessë",
+     "zh": "In Flower（花开之月，约五月）。"
+    },
+    {
+     "id": "r-lo8",
+     "headZh": "-ssë 名词加位格",
+     "bodyZh": "给已以 -ssë 结尾的名词加位格很笨重（Lótessessë），不如用 mi：Mi Lótessë。但 Plotz 表似允许 lassessë。",
+     "en": "lassessë",
+     "zh": "in a leaf（在叶中）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把每个 -ssë 都当位格",
+     "right": "先看它是不是抽象名词词尾",
+     "whyZh": "原文：the ending -ssë is not always a locative marker。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "同形词尾的辨认",
+     "bodyZh": "看到 -ssë 先问：这个词是名词还是「名词＋格」？caimassë 恰好两解并存，是最清楚的例子。"
+    }
+   ],
+   "recapZh": "-ssë 也作抽象词尾：alassë、Lótessë。",
+   "selfCheckZh": [
+    {
+     "qZh": "Lótessë 大致是哪个月？",
+     "aZh": "五月（In Flower）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-locative-case",
+    "unitIds": [
+     2
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "loc-note2",
+   "sourceSectionId": "the-locative-case",
+   "titleZh": "17 · 位格与向格都可译 upon",
+   "leadZh": "caitan caimanyassë 与 caitan caimanyanna 意义几乎相同。托尔金有时用 upon 译位格：ciryassë。",
+   "objectives": [
+    "知道位格与向格在此重叠",
+    "能举 ciryassë 为例"
+   ],
+   "rules": [
+    {
+     "id": "r-lo9",
+     "headZh": "两格重叠",
+     "bodyZh": "某些语境里位格与向格都可用而意义几乎相同：caitan caimanyassë「I lie in my bed」／caitan caimanyanna「I lie on my bed」。",
+     "en": "caitan caimanyassë",
+     "zh": "I lie in my bed（我躺在床上）。"
+    },
+    {
+     "id": "r-lo10",
+     "headZh": "upon 的译法",
+     "bodyZh": "托尔金有时用 upon 译昆雅位格：ciryassë「upon a ship」（MC:216，拼作 kiryasse）。",
+     "en": "ciryassë",
+     "zh": "upon a ship（在船上）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为位格只能译 in",
+     "right": "也可译 on／upon",
+     "whyZh": "原文：Tolkien sometimes translated a Quenya locative form using the English preposition \"upon\"。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "英语介词不够分",
+     "bodyZh": "in、on、upon 在英语里分工清楚，昆雅却用一个 -ssë 覆盖。翻译时要按语境挑，而不是按词尾定。"
+    }
+   ],
+   "recapZh": "位格可译 in／on／upon；ciryassë。",
+   "selfCheckZh": [
+    {
+     "qZh": "ciryassë 怎么译？",
+     "aZh": "upon a ship。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-locative-case",
+    "unitIds": [
+     3
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "loc-plural",
+   "sourceSectionId": "the-locative-case",
+   "titleZh": "18 · 复数 -ssen：mahalmassen",
+   "leadZh": "复数位格用 -n 扩展：-ssen。《Cirion 的誓言》的 mahalmassen 是名例。",
+   "objectives": [
+    "能构成 -ssen",
+    "能引用 mahalmassen"
+   ],
+   "rules": [
+    {
+     "id": "r-lo11",
+     "headZh": "-ssen",
+     "bodyZh": "复数位格以 -ssen 结尾，其中的 -n 与复数属格 -on、复数离格 -llon 的 -n 相同。",
+     "en": "mahalmassen",
+     "zh": "upon thrones（在众王座上）。"
+    },
+    {
+     "id": "r-lo12",
+     "headZh": "语料",
+     "bodyZh": "《Cirion 的誓言》里众维拉被称作 i hárar mahalmassen mi Númen「those who sit upon thrones in the West」。",
+     "en": "i hárar mahalmassen mi Númen",
+     "zh": "坐在西方众王座上的那些。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 mahalmasse 表复数",
+     "right": "mahalmassen",
+     "whyZh": "原文：plural locative forms end in -ssen。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "同一个 -n 出现在三处",
+     "bodyZh": "属格 -on、离格 -llon、位格 -ssen 都用 -n 表复数。记住这个「复数 -n」，三个格一起记。"
+    }
+   ],
+   "recapZh": "复数位格 -ssen。",
+   "selfCheckZh": [
+    {
+     "qZh": "mahalma 的复数位格？",
+     "aZh": "mahalmassen。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-locative-case",
+    "unitIds": [
+     4
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "loc-dual",
+   "sourceSectionId": "the-locative-case",
+   "titleZh": "19 · 双数 -tsë：sambetsë",
+   "leadZh": "双数位格把 -ssë 的第一个 s 换成 t，得 -tsë。未见于实际作品，但 Plotz 信列了它。",
+   "objectives": [
+    "知道 -tsë 的构成",
+    "知道 -tssë 不合法"
+   ],
+   "rules": [
+    {
+     "id": "r-lo13",
+     "headZh": "-tsë",
+     "bodyZh": "双数位格 -tsë 未见于托尔金任何实际昆雅作品，但他在 Plotz 信里列了它：sambetsë「in a two-room apartment」。",
+     "en": "sambetsë",
+     "zh": "in a two-room apartment（在两居室里）。"
+    },
+    {
+     "id": "r-lo14",
+     "headZh": "简化理由",
+     "bodyZh": "可看作 sambet ＋ -ssë，简化为 -së 以避免不可能的 -tssë 组合。",
+     "en": "**-tssë",
+     "zh": "-tssë（不可能的组合）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 sambetssë",
+     "right": "sambetsë",
+     "whyZh": "原文：it is simplified to -së to avoid the impossible combination **-tssë。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "又一次音系优先",
+     "bodyZh": "与 -nnar、-llon 的处理一致：音系禁止什么，形态就让路（合并或简化）。这是本课程反复出现的主题。"
+    }
+   ],
+   "recapZh": "双数位格 -tsë；sambetsë。",
+   "selfCheckZh": [
+    {
+     "qZh": "sambet 的位格？",
+     "aZh": "sambetsë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-locative-case",
+    "unitIds": [
+     5
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "loc-cons",
+   "sourceSectionId": "the-locative-case",
+   "titleZh": "20 · 辅音结尾：旧版的推测",
+   "leadZh": "辅音结尾不能直接加 -ssë。作者原版推测：单数插 -e-、复数插 -i-，方位词掉 -n。",
+   "objectives": [
+    "知道旧版的三条推测",
+    "能举 elenessë、Formessë"
+   ],
+   "rules": [
+    {
+     "id": "r-lo15",
+     "headZh": "插元音",
+     "bodyZh": "按向格与离格的同一规则：单数插 -e-、复数插 -i-。故 elenessë「in a star」、elenissen「in stars」。",
+     "en": "elenessë",
+     "zh": "in a star（在星中）。"
+    },
+    {
+     "id": "r-lo16",
+     "headZh": "缩合与方位词",
+     "bodyZh": "也可能出现缩合：elessë ＝ elen-ssë。四个方位词在位格里也会掉末 -n：Formessë「in the North」。",
+     "en": "Formessë",
+     "zh": "in the North（在北方）。"
+    },
+    {
+     "id": "r-lo17",
+     "headZh": "Númessier",
+     "bodyZh": "《Fíriel 之歌》有 Númessier「they are in the west」，含 -ië「is」、-ier「are」，托尔金后来大概弃用。",
+     "en": "Númessier",
+     "zh": "they are in the west（他们在西方）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 Formen 的位格写成 Formenessë",
+     "right": "Formessë（末 -n 脱落）",
+     "whyZh": "原文：The directions ... would almost certainly surrender their final -n in the locative。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "「引自己」的写法",
+     "bodyZh": "原文用「(Unquote myself.)」标明这一段是旧版原文。下一段就是修订。这种自我引用的结构，读时要留意哪句是新结论。"
+    }
+   ],
+   "recapZh": "elenessë、Formessë、Númessier。",
+   "selfCheckZh": [
+    {
+     "qZh": "「在北方」怎么写？",
+     "aZh": "Formessë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-locative-case",
+    "unitIds": [
+     6,
+     7
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "loc-new",
+   "sourceSectionId": "the-locative-case",
+   "titleZh": "21 · 新证据：Cemessë、meneldë、cemendë",
+   "leadZh": "新刊材料显示 -l、-n 结尾的名词位格可作 -dë（meneldë、cemendë），-s、-t 后可作 -së。",
+   "objectives": [
+    "知道 -dë 的来历（ls>lz>ld、ns>nz>nd）",
+    "知道 z 音不属于第三纪昆雅"
+   ],
+   "rules": [
+    {
+     "id": "r-lo18",
+     "headZh": "Cemessë",
+     "bodyZh": "Cemessë「on earth」（VT43:16）可看作 cemen 的位格，末 -n 在 -ssë 前脱落；但也可能是 cemen-së 经同化。",
+     "en": "Cemessë",
+     "zh": "on earth（在地上）。"
+    },
+    {
+     "id": "r-lo19",
+     "headZh": "menelzë／cemenzë 不可用",
+     "bodyZh": "一个版本作 menelzë、cemenzë，但 z 音在第三纪昆雅里不出现（LotR 附录 E），故不可能。",
+     "en": "the z-sound did not occur in contemporary Quenya",
+     "zh": "z 音在当代昆雅里不出现。"
+    },
+    {
+     "id": "r-lo20",
+     "headZh": "最终：-dë",
+     "bodyZh": "托尔金最终定 meneldë、cemendë（VT43:11, 12），暗示 ls>lz>ld、ns>nz>nd。故 -l、-n 结尾名词位格作 -dë，复数大概 -den。",
+     "en": "meneldë",
+     "zh": "in heaven（在天上）。"
+    },
+    {
+     "id": "r-lo21",
+     "headZh": "-r 结尾",
+     "bodyZh": "以 -r 结尾的词预期作 -ssë（rs 历史上变 ss），如 Ambassë 作 Ambar 的位格；Nessa 之名据说源自 neresâ。",
+     "en": "Ambassë",
+     "zh": "in the world（在世界中）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "用 menelzë",
+     "right": "meneldë",
+     "whyZh": "原文：forms like menelzë, cemenzë cannot belong to the kind of Quenya used in Middle-earth。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "音变链决定词尾",
+     "bodyZh": "ls>lz>ld、ns>nz>nd、rs>ss——三条音变链解释了 -dë 与 -ssë 的分布。记词尾不如记音变。"
+    }
+   ],
+   "recapZh": "meneldë、cemendë、Ambassë。",
+   "selfCheckZh": [
+    {
+     "qZh": "menel 的位格？",
+     "aZh": "meneldë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-locative-case",
+    "unitIds": [
+     8
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "loc-simple",
+   "sourceSectionId": "the-locative-case",
+   "titleZh": "22 · 简化系统：-e- 到处可用",
+   "leadZh": "另一个更简单的系统：-ssë 到处可用，前面插 -e-。menelessëa 就是证据。",
+   "objectives": [
+    "知道 menelessë 的来源",
+    "能列出 elen 的三种位格"
+   ],
+   "rules": [
+    {
+     "id": "r-lo22",
+     "headZh": "menelessë",
+     "bodyZh": "《主祷文》一个版本把「in heaven」译作形容词 menelessëa，显然基于 menelessë——menel 的又一个位格（VT43:9, 13）。",
+     "en": "menelessëa",
+     "zh": "（形容词）在天上的。"
+    },
+    {
+     "id": "r-lo23",
+     "headZh": "elen 的三种位格",
+     "bodyZh": "elessë（掉末辅音）、elenessë（插 -e-）、elendë（用 -dë）——三种大致同样有效。",
+     "en": "elenessë",
+     "zh": "in a star（在星中）。"
+    },
+    {
+     "id": "r-lo24",
+     "headZh": "Ambaressë 优于 Ambassë",
+     "bodyZh": "为清楚起见，Ambar 的位格该作 Ambaressë，因为 Ambassë 同样可由一个 Amba 构成。",
+     "en": "Ambaressë",
+     "zh": "in the world（在世界中）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "一律用 -ssë 而不顾歧义",
+     "right": "可能歧义时用 Ambaressë 这类形式",
+     "whyZh": "原文：For the sake of clarity, the locative form of a noun like Ambar should probably be Ambaressë。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "三种都行的场合",
+     "bodyZh": "作者允许写作者自选，但给出偏好：后两种较好。这类「多解并存、择一推荐」的段落，要记推荐项而非全部。"
+    }
+   ],
+   "recapZh": "elessë／elenessë／elendë；Ambaressë。",
+   "selfCheckZh": [
+    {
+     "qZh": "Ambar 的位格推荐写法？",
+     "aZh": "Ambaressë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-locative-case",
+    "unitIds": [
+     9
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "loc-dual-u",
+   "sourceSectionId": "the-locative-case",
+   "titleZh": "23 · Aldu 的位格：Aldussë？",
+   "leadZh": "双数 -u 名词的位格该用 -ssë、-tsë 还是双重标记？作者倾向 Aldussë，但希望见到例证。",
+   "objectives": [
+    "知道三种可能",
+    "知道作者的倾向"
+   ],
+   "rules": [
+    {
+     "id": "r-lo25",
+     "headZh": "三种可能",
+     "bodyZh": "Aldussë（最简单 -ssë，双数已由 -u 表示）、Aldatsë（由 alda 构成）、Aldutsë（双重标记 -u 与 -t-）。",
+     "en": "Aldussë",
+     "zh": "in the Two Trees（在两棵树中）。"
+    },
+    {
+     "id": "r-lo26",
+     "headZh": "作者倾向",
+     "bodyZh": "作者倾向前者 Aldussë，但希望能见到托尔金自造的例子。",
+     "en": "I lean toward Aldussë",
+     "zh": "我倾向前者 Aldussë。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 Aldutsë 当标准",
+     "right": "作者倾向 Aldussë",
+     "whyZh": "原文：Personally I lean toward Aldussë, but I would like to see a Tolkien-made example。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "推测的三种形态",
+     "bodyZh": "这与上一课 Alduen 的处境相同：无例证时，作者给出倾向与理由，而不假装确定。"
+    }
+   ],
+   "recapZh": "Aldussë（倾向）／Aldatsë／Aldutsë。",
+   "selfCheckZh": [
+    {
+     "qZh": "作者倾向 Aldu 的位格作？",
+     "aZh": "Aldussë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-locative-case",
+    "unitIds": [
+     10
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "loc-pron",
+   "sourceSectionId": "the-locative-case",
+   "titleZh": "24 · 位格 ＋ 代词词尾：súmaryassë",
+   "leadZh": "《Markirya》的 ringa súmaryassë「in her cold bosom」：súma ＋ -rya ＋ -ssë。",
+   "objectives": [
+    "能拆解 súmaryassë",
+    "知道这里「她的」指船"
+   ],
+   "rules": [
+    {
+     "id": "r-lo27",
+     "headZh": "拆解",
+     "bodyZh": "ringa「冷的」、súma「胸」；súmaryassë ＝ súma ＋ -rya ＋ -ssë。",
+     "en": "ringa súmaryassë",
+     "zh": "in her cold bosom（在她冰冷的胸中）。"
+    },
+    {
+     "id": "r-lo28",
+     "headZh": "指船",
+     "bodyZh": "这里「她的胸」指船的胸——所以 -rya 在此也可译 its。",
+     "en": "the reference is to the \"bosom\" of a ship",
+     "zh": "这里指船的「胸」。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 súmarya 固定译「她的」",
+     "right": "指船时可译 its",
+     "whyZh": "原文指出此处指船，故 its bosom 同样恰当。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "词尾顺序再次确认",
+     "bodyZh": "súma-rya-ssë：代词词尾在前、格词尾在后，与上一课 tielyanna 完全一致。这条顺序在本课得到又一次印证。"
+    }
+   ],
+   "recapZh": "súma + -rya + -ssë ＝ súmaryassë。",
+   "selfCheckZh": [
+    {
+     "qZh": "súmaryassë 里的 -ssë 是什么？",
+     "aZh": "位格词尾。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-locative-case",
+    "unitIds": [
+     11
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "rel-intro",
+   "sourceSectionId": "relative-sentences",
+   "titleZh": "25 · ya：关系代词",
+   "leadZh": "LotR 里唯一的昆雅位格是 yassen。ya「which」是关系代词，可把两句合成一句。",
+   "objectives": [
+    "知道 yassen 的出处",
+    "理解关系代词的作用"
+   ],
+   "rules": [
+    {
+     "id": "r-re1",
+     "headZh": "yassen",
+     "bodyZh": "复数位格 -ssen 出现在《Namárië》：Vardo tellumar..., yassen tintilar i eleni「wherein the stars twinkle」。",
+     "en": "yassen tintilar i eleni",
+     "zh": "in which the stars twinkle（其中众星闪烁）。"
+    },
+    {
+     "id": "r-re2",
+     "headZh": "关系代词的作用",
+     "bodyZh": "关系句是嵌入其他句子的描述性短语。「the treasure is great」＋「you found it」→「the treasure which you found is great」，其中 it 被 which 取代。",
+     "en": "a relative pronoun",
+     "zh": "关系代词。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 yassen 当独立介词",
+     "right": "它是 ya ＋ 复数位格 -ssen",
+     "whyZh": "原文：The word ya \"which\", here appearing with the locative ending -ssen。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一句诗撑起一节",
+     "bodyZh": "整个关系从句部分都从 yassen 这一个词展开。这是原著的一贯做法：先给可证形式，再建系统。"
+    }
+   ],
+   "recapZh": "ya「which」；yassen「in which」。",
+   "selfCheckZh": [
+    {
+     "qZh": "yassen 由什么构成？",
+     "aZh": "ya + -ssen（复数位格）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "relative-sentences",
+    "unitIds": [
+     0,
+     1
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "rel-example",
+   "sourceSectionId": "relative-sentences",
+   "titleZh": "26 · 合并两句：i harma ya hirnelyë",
+   "leadZh": "I harma ná alta ＋ hirnelyes → i harma ya hirnelyë ná alta。英语也可用 that。",
+   "objectives": [
+    "能复现这个合并过程",
+    "知道英语 that 同用"
+   ],
+   "rules": [
+    {
+     "id": "r-re3",
+     "headZh": "合并",
+     "bodyZh": "i harma ya hirnelyë ná alta：ya 取代原来的 it（-s），并回指 harma。",
+     "en": "i harma ya hirnelyë ná alta",
+     "zh": "the treasure which you found is great。"
+    },
+    {
+     "id": "r-re4",
+     "headZh": "that",
+     "bodyZh": "英语也可用 that 作关系代词：the treasure that you found。",
+     "en": "the treasure that you found",
+     "zh": "the treasure that you found。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "保留原来的 -s 代词",
+     "right": "用 ya 取代它",
+     "whyZh": "原文：the pronoun \"it\" ... is replaced by \"which\"。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "两步操作",
+     "bodyZh": "①把被修饰名词提到句首；②用 ya 取代原句里指它的代词。所有关系句都可这样生成。"
+    }
+   ],
+   "recapZh": "i harma ya hirnelyë ná alta。",
+   "selfCheckZh": [
+    {
+     "qZh": "关系句里原来的 it 怎么处理？",
+     "aZh": "换成 ya。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "relative-sentences",
+    "unitIds": [
+     2,
+     3,
+     4,
+     5
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "rel-i",
+   "sourceSectionId": "relative-sentences",
+   "titleZh": "27 · i 也能作关系代词：i Eru i or ilyë mahalmar ëa",
+   "leadZh": "德语冠词兼作关系代词，昆雅 i 亦然。《Cirion 的誓言》末句 i 先作冠词、再作关系代词。",
+   "objectives": [
+    "能分析 i Eru i ... 的两个 i",
+    "知道 i 不能用于疑问"
+   ],
+   "rules": [
+    {
+     "id": "r-re5",
+     "headZh": "两个 i",
+     "bodyZh": "i Eru i or ilyë mahalmar ëa tennoio：第一个 i 是冠词，第二个是关系代词「who」。",
+     "en": "i Eru i or ilyë mahalmar ëa tennoio",
+     "zh": "the One who is above all thrones forever。"
+    },
+    {
+     "id": "r-re6",
+     "headZh": "who 而非 which",
+     "bodyZh": "Eru 是人而非物，故关系代词须译 who。",
+     "en": "the relative pronoun must here be translated \"who\"",
+     "zh": "关系代词在此须译 who。"
+    },
+    {
+     "id": "r-re7",
+     "headZh": "与疑问词无关",
+     "bodyZh": "这些注释与疑问词 who／which 无关：i 不能用于「who are you?」。疑问的「who」是 man。",
+     "en": "The Quenya word for \"who\" in this sense is quite different",
+     "zh": "这个意义的「who」在昆雅里完全是另一个词。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "用 i 造疑问句「谁」",
+     "right": "疑问用 man",
+     "whyZh": "原文：The word i cannot be used for \"who\" in a question。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "冠词与关系代词同形",
+     "bodyZh": "德语 der／das／die 兼作关系代词，昆雅 i 亦然。这类「同形兼职」在屈折语里很常见，判断靠位置。"
+    }
+   ],
+   "recapZh": "i 可作关系代词（who）；疑问用 man。",
+   "selfCheckZh": [
+    {
+     "qZh": "「who are you?」的 who 用 i 吗？",
+     "aZh": "不用，用 man。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "relative-sentences",
+    "unitIds": [
+     6
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "rel-vt42",
+   "sourceSectionId": "relative-sentences",
+   "titleZh": "28 · 反例：i hamil mára",
+   "leadZh": "VT42:33 的 lá caritas i hamil mára 译作「not to do what you judge good」——i 也可指物。",
+   "objectives": [
+    "知道这条反例",
+    "知道它推翻了「i 只指人」说"
+   ],
+   "rules": [
+    {
+     "id": "r-re8",
+     "headZh": "反例",
+     "bodyZh": "i hamil mára 译作「what you judge good」，字面「[that] which you judge good」。按旧理论该用 ya，但这里用了 i。",
+     "en": "i hamil mára",
+     "zh": "what you judge good（你所判断为好的）。"
+    },
+    {
+     "id": "r-re9",
+     "headZh": "结论",
+     "bodyZh": "i 也可指物或情境（which），不只指人（who）。",
+     "en": "i as well may refer to a thing or a situation",
+     "zh": "i 也可指物或情境。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "坚持「i 只指人」",
+     "right": "i 也可指物",
+     "whyZh": "原文：it seems that i as well may refer to a thing or a situation。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一个反例推翻一条规则",
+     "bodyZh": "上一段刚立的「i 指人、ya 指物」，这一段就被 VT42 推翻。作者照实修正，没有掩盖。"
+    }
+   ],
+   "recapZh": "i hamil mára：i 也可指物。",
+   "selfCheckZh": [
+    {
+     "qZh": "i 只能指人吗？",
+     "aZh": "不是，也可指物。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "relative-sentences",
+    "unitIds": [
+     7
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "rel-subjobj",
+   "sourceSectionId": "relative-sentences",
+   "titleZh": "29 · 主语／宾语之争也站不住",
+   "leadZh": "另一种解释是「主语用 i、宾语用 ya」。但 i 主宾皆可，故两词大概无显著差别。",
+   "objectives": [
+    "知道主宾说的内容",
+    "知道它为何不成立"
+   ],
+   "rules": [
+    {
+     "id": "r-re10",
+     "headZh": "主宾说",
+     "bodyZh": "一说：关系代词作主语用 i，作宾语用 ya。故 Elda i tirë Nauco「an Elf who watches a Dwarf」，而 Elda ya tirë Nauco「an Elf whom a Dwarf watches」。",
+     "en": "Elda i tirë Nauco",
+     "zh": "an Elf who watches a Dwarf。"
+    },
+    {
+     "id": "r-re11",
+     "headZh": "不成立",
+     "bodyZh": "i 主宾皆可（主语 i Eru i ëa；宾语 lá caritas i hamil mára），故两词大概无显著意义差别。",
+     "en": "We need more examples before we can pick the right interpretation with confidence",
+     "zh": "我们需要更多例子才能有把握地选定解释。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "用主宾区分 i 与 ya",
+     "right": "两者大体可互换",
+     "whyZh": "原文：there may be no significant distinction in meaning between i and ya。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "作者原话的引用",
+     "bodyZh": "作者引用自己第一版的谨慎警告，再说明新证据如何推翻它。这种「自我引用＋修正」是本课反复出现的写法。"
+    }
+   ],
+   "recapZh": "i 与 ya 大体可互换。",
+   "selfCheckZh": [
+    {
+     "qZh": "Elda ya tirë Nauco 什么意思？",
+     "aZh": "一个被矮人看着的精灵。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "relative-sentences",
+    "unitIds": [
+     8
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "rel-decl",
+   "sourceSectionId": "relative-sentences",
+   "titleZh": "30 · 唯一确定的差别：i 不可变格",
+   "leadZh": "i 是「indeclinable article」，不能接格词尾；ya 可以（yassen）。",
+   "objectives": [
+    "知道 i 不可变格",
+    "能对比 yassë／yassen"
+   ],
+   "rules": [
+    {
+     "id": "r-re12",
+     "headZh": "i 不可变格",
+     "bodyZh": "i 是「indeclinable article 'the'」，不能接任何格词尾；作关系代词时亦然。",
+     "en": "indeclinable article",
+     "zh": "不可变格的冠词。"
+    },
+    {
+     "id": "r-re13",
+     "headZh": "ya 可变格",
+     "bodyZh": "ya 完全能接格词尾：yassen「in which」（复数，因回指 tellumar）；单数则 yassë。",
+     "en": "coa yassë",
+     "zh": "a house in which（一所……的房子）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "给 i 加格词尾",
+     "right": "需要格词尾时改用 ya",
+     "whyZh": "原文：i = \"the\" cannot be declined; it cannot receive any case endings。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "唯一硬差别",
+     "bodyZh": "i 与 ya 的差别不在意义，而在能否变格。所以规则可简化为一句：要接格词尾就用 ya。"
+    }
+   ],
+   "recapZh": "i 不变格；要格词尾用 ya。",
+   "selfCheckZh": [
+    {
+     "qZh": "「in which」怎么写？",
+     "aZh": "yassen（复数）／yassë（单数）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "relative-sentences",
+    "unitIds": [
+     9
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "rel-yar",
+   "sourceSectionId": "relative-sentences",
+   "titleZh": "31 · yar「to whom」与 yassen",
+   "leadZh": "MC:215 的 yar「to whom」里的 -r 是古向格（如 mir）。可见格词尾总加在 ya- 上。",
+   "objectives": [
+    "知道 yar 的古向格 -r",
+    "知道 ya 按 -a 名词变格"
+   ],
+   "rules": [
+    {
+     "id": "r-re14",
+     "headZh": "yar",
+     "bodyZh": "tanya wende...yar i vilya anta miqilis「that maiden...to whom the air gives kisses」，yar 的 -r 是古向格，如 mir「into」。",
+     "en": "yar",
+     "zh": "to whom（对她）。"
+    },
+    {
+     "id": "r-re15",
+     "headZh": "总加在 ya- 上",
+     "bodyZh": "yassen 与 yar 表明：关系代词要接格词尾时，词尾总加在 ya- 上；ya 按 -a 名词变格。",
+     "en": "such endings are always attached to ya-",
+     "zh": "这些词尾总是加在 ya- 上。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 yar 一律当复数",
+     "right": "yar「to whom」是古向格，不是复数",
+     "whyZh": "原文特意提醒 yar「to whom」不应与复数 yar 混淆（见后文）。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "同形两源",
+     "bodyZh": "yar 既可能是「to whom」（古向格 -r），也可能是 ya 的复数（-r）。这是本课要留意的同形陷阱。"
+    }
+   ],
+   "recapZh": "yar「to whom」（古向格 -r）。",
+   "selfCheckZh": [
+    {
+     "qZh": "yar「to whom」的 -r 是什么？",
+     "aZh": "古向格词尾。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "relative-sentences",
+    "unitIds": [
+     10
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "rel-dat",
+   "sourceSectionId": "relative-sentences",
+   "titleZh": "32 · 与格：yan／yain",
+   "leadZh": "i nér yan ánen annanya「the man to whom I gave my gift」。作者认为 yan 优于 yar。",
+   "objectives": [
+    "能造 yan／yain",
+    "知道为何 prefer yan"
+   ],
+   "rules": [
+    {
+     "id": "r-re16",
+     "headZh": "yan",
+     "bodyZh": "i nér yan ánen annanya；复数 i neri yain...。",
+     "en": "i nér yan ánen annanya",
+     "zh": "the man to whom I gave my gift。"
+    },
+    {
+     "id": "r-re17",
+     "headZh": "为何用 yan",
+     "bodyZh": "yar 虽在「给」的语境里承担类似与格的功能，但它本是古向格，故一般用 yan、复数 yain 更可取。",
+     "en": "generally I think yan, pl. yain, is to be preferred",
+     "zh": "一般而言我认为 yan、复数 yain 更可取。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "用 yar 作与格",
+     "right": "用 yan／yain",
+     "whyZh": "原文：yar is properly an archaic allative。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "语料与系统的冲突",
+     "bodyZh": "语料只有 yar，系统却要求 yan。作者选择系统，并说明理由。这类取舍在昆雅写作里很常见。"
+    }
+   ],
+   "recapZh": "yan、yain（优于 yar）。",
+   "selfCheckZh": [
+    {
+     "qZh": "「给谁」的关系代词用？",
+     "aZh": "yan（复数 yain）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "relative-sentences",
+    "unitIds": [
+     11
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "rel-gen",
+   "sourceSectionId": "relative-sentences",
+   "titleZh": "33 · 属格：yo／yaron",
+   "leadZh": "ya ＋ -o → yo：i nís yo yondo cennen「the woman whose son I saw」。",
+   "objectives": [
+    "能构成 yo／yaron",
+    "知道 -a 被 -o 取代"
+   ],
+   "rules": [
+    {
+     "id": "r-re18",
+     "headZh": "yo",
+     "bodyZh": "ya ＋ 属格 -o 产生 yo（末 -a 照例被取代）：i nís yo yondo cennen。",
+     "en": "i nís yo yondo cennen",
+     "zh": "the woman whose son I saw。"
+    },
+    {
+     "id": "r-re19",
+     "headZh": "yaron",
+     "bodyZh": "复数作 yaron，参 aldaron 作 alda 的复数属格。",
+     "en": "yaron",
+     "zh": "whose（复数）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 yao",
+     "right": "yo（-ao 简化为 -o）",
+     "whyZh": "原文：a final -a being displaced as usual；P 题 keys 也说 the group -ao being simplified to -o。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "「whose」的两种来源",
+     "bodyZh": "英语 whose 既可是 who 的属格，也可是 which 的属格。昆雅统一用 yo，因为 ya 已涵盖两者。"
+    }
+   ],
+   "recapZh": "yo（单数）／yaron（复数）。",
+   "selfCheckZh": [
+    {
+     "qZh": "「whose son」怎么写？",
+     "aZh": "yo yondo。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "relative-sentences",
+    "unitIds": [
+     12
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "rel-poss",
+   "sourceSectionId": "relative-sentences",
+   "titleZh": "34 · 所有格：yava／yaiva",
+   "leadZh": "i aran yava malta mapuvan「the king whose gold I will seize」。",
+   "objectives": [
+    "能构成 yava／yaiva",
+    "知道与 yo 的分工"
+   ],
+   "rules": [
+    {
+     "id": "r-re20",
+     "headZh": "yava",
+     "bodyZh": "所有格用 yava：i aran yava malta mapuvan；复数 i arani yaiva...。",
+     "en": "yava",
+     "zh": "whose（所有格）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 yava 与 yo 混用",
+     "right": "yo 属格、yava 所有格，分工同 -o 与 -va",
+     "whyZh": "本节按属格／所有格分列两种形式，与第 12 课的格分工一致。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "格的分工照搬",
+     "bodyZh": "关系代词接格词尾时，完全照普通名词的格系统走：yo 属格、yava 所有格。没有特殊规则。"
+    }
+   ],
+   "recapZh": "yava／yaiva（所有格）。",
+   "selfCheckZh": [
+    {
+     "qZh": "「whose gold」怎么写？",
+     "aZh": "yava malta。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "relative-sentences",
+    "unitIds": [
+     13
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "rel-all",
+   "sourceSectionId": "relative-sentences",
+   "titleZh": "35 · 向格：yanna／yannar",
+   "leadZh": "i coa yanna lenden「the house to which I went」。",
+   "objectives": [
+    "能构成 yanna／yannar",
+    "知道英语三种译法"
+   ],
+   "rules": [
+    {
+     "id": "r-re21",
+     "headZh": "yanna",
+     "bodyZh": "i coa yanna lenden 可译 the house to which I went／whither I went／that I went to。",
+     "en": "i coa yanna lenden",
+     "zh": "the house to which I went。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "用 yasse 表「到」",
+     "right": "向格用 yanna",
+     "whyZh": "本节按格分列，向格 -nna → yanna。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "英语三种说法，昆雅一种",
+     "bodyZh": "to which、whither、that...to 在英语里是三种说法，昆雅只用 yanna。这体现屈折语的简洁。"
+    }
+   ],
+   "recapZh": "yanna／yannar。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我去的房子」怎么写？",
+     "aZh": "i coa yanna lenden。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "relative-sentences",
+    "unitIds": [
+     14
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "rel-abl",
+   "sourceSectionId": "relative-sentences",
+   "titleZh": "36 · 离格：yallo／yallon",
+   "leadZh": "i coa yallo tullen「the house from which I came」。",
+   "objectives": [
+    "能构成 yallo／yallon",
+    "知道 yallon 也可作 yallor"
+   ],
+   "rules": [
+    {
+     "id": "r-re22",
+     "headZh": "yallo",
+     "bodyZh": "i coa yallo tullen 可译 from which／whence／that I came from；复数 yallon（或 yallor）。",
+     "en": "i coa yallo tullen",
+     "zh": "the house from which I came。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "只记 yallon",
+     "right": "yallor 也是有效替代",
+     "whyZh": "原文：plural i coar yallon [alternatively, yallor]。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "-llon／-llor 之争的延伸",
+     "bodyZh": "上一课的 -llon／-llor 选择在此重现。关系代词接离格时同样两可，说明这不是特例。"
+    }
+   ],
+   "recapZh": "yallo／yallon（yallor）。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我来的房子」怎么写？",
+     "aZh": "i coa yallo tullen。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "relative-sentences",
+    "unitIds": [
+     15
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "rel-loc",
+   "sourceSectionId": "relative-sentences",
+   "titleZh": "37 · 位格：yassë／yassen",
+   "leadZh": "i coa yassë marin「the house in which I live」。",
+   "objectives": [
+    "能构成 yassë／yassen",
+    "知道英语三种译法"
+   ],
+   "rules": [
+    {
+     "id": "r-re23",
+     "headZh": "yassë",
+     "bodyZh": "i coa yassë marin 可译 in which I live／that I live in／where I live；复数 yassen。",
+     "en": "i coa yassë marin",
+     "zh": "the house in which I live。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 yassen 只能用于 Namárië",
+     "right": "它是常规复数位格",
+     "whyZh": "本节把 yassë／yassen 列为常规范式。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "回到起点",
+     "bodyZh": "yassen 是本节的起点，到这里终于被放回完整范式。这种「先例证、后系统」的结构，读完全节才闭合。"
+    }
+   ],
+   "recapZh": "yassë／yassen。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我住的房子」怎么写？",
+     "aZh": "i coa yassë marin。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "relative-sentences",
+    "unitIds": [
+     16
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "rel-nom",
+   "sourceSectionId": "relative-sentences",
+   "titleZh": "38 · 主格：ya／yar；i 不变",
+   "leadZh": "i parma ya etécien「the book which I have written」。复数 yar，但 i 作关系代词时不加 -r。",
+   "objectives": [
+    "能区分两种 yar",
+    "知道 i 不加复数词尾"
+   ],
+   "rules": [
+    {
+     "id": "r-re24",
+     "headZh": "ya／yar",
+     "bodyZh": "主格单数用 ya：i parma ya etécien；复数作 yar（加 -r）：i parmar yar...。",
+     "en": "i parma ya etécien",
+     "zh": "the book which I have written。"
+    },
+    {
+     "id": "r-re25",
+     "headZh": "区分 yar",
+     "bodyZh": "要与可证的 yar「to whom」区分，后者含古向格 -r，不是复数。",
+     "en": "Distinguish the attested relative pronoun yar",
+     "zh": "要与可证关系代词 yar 区分。"
+    },
+    {
+     "id": "r-re26",
+     "headZh": "i 不加 -r",
+     "bodyZh": "i 作关系代词时不接复数词尾，因为不可变格：Eldar i lindar「Elves who sing」。",
+     "en": "Eldar i lindar",
+     "zh": "Elves who sing（唱歌的精灵）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 i lindar 写成 ir lindar",
+     "right": "i 不变",
+     "whyZh": "原文：Where i is used as a relative pronoun, it receives no plural ending。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "两个 yar 必须分清",
+     "bodyZh": "一个是复数主格「which」，一个是古向格「to whom」。同形不同源，只能靠语境与句法判断。"
+    }
+   ],
+   "recapZh": "ya／yar（复数）；i 不加 -r。",
+   "selfCheckZh": [
+    {
+     "qZh": "Eldar i lindar 里的 i 加复数词尾了吗？",
+     "aZh": "没有。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "relative-sentences",
+    "unitIds": [
+     17
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "rel-dual",
+   "sourceSectionId": "relative-sentences",
+   "titleZh": "39 · 双数：yat、yant、yato…",
+   "leadZh": "双数形式大概规则：yat、yant、yato、yatwa（？）、yanta、yalto、yatsë。",
+   "objectives": [
+    "能列出双数关系代词",
+    "知道 yatwa 存疑"
+   ],
+   "rules": [
+    {
+     "id": "r-re27",
+     "headZh": "双数一套",
+     "bodyZh": "yat（主格）、yant（与格）、yato（属格）、yatwa（所有格，？）、yanta（向格）、yalto（离格）、yatsë（位格）。",
+     "en": "i peu yat",
+     "zh": "the [pair of] lips that（那对……的唇）。"
+    },
+    {
+     "id": "r-re28",
+     "headZh": "例句",
+     "bodyZh": "i sambet yanta/yalto/yatsë...「the two-room apartment to/from/in which...」。",
+     "en": "i sambet yanta/yalto/yatsë",
+     "zh": "the two-room apartment to/from/in which（那套……的两居室：去／从／在其中）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为双数形式一定不规则",
+     "right": "它们只是 ya ＋ 常规双数词尾",
+     "whyZh": "原文：they would presumably be quite regular。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一套词尾，全部继承",
+     "bodyZh": "ya 既按 -a 名词变格，双数自然继承 -t 系统。学到这里，关系代词已完全并入普通名词的范式。"
+    }
+   ],
+   "recapZh": "yat、yant、yato、yanta、yalto、yatsë。",
+   "selfCheckZh": [
+    {
+     "qZh": "「其中」的双数怎么写？",
+     "aZh": "yatsë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "relative-sentences",
+    "unitIds": [
+     18
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "rel-omit",
+   "sourceSectionId": "relative-sentences",
+   "titleZh": "40 · 可省的格词尾：lómissë ya",
+   "leadZh": "lómissë yassë cennenyes 也可作 lómissë ya cennenyes，如英语 the night that I saw it。",
+   "objectives": [
+    "知道格词尾可省",
+    "知道昆雅倾向保留位格"
+   ],
+   "rules": [
+    {
+     "id": "r-re29",
+     "headZh": "可省",
+     "bodyZh": "lómissë yassë cennenyes 也可作 Lómissë ya cennenyes，与英语 in the night that I saw it 平行。",
+     "en": "Lómissë ya cennenyes",
+     "zh": "in the night that I saw it。"
+    },
+    {
+     "id": "r-re30",
+     "headZh": "但倾向保留",
+     "bodyZh": "英语常省掉开头的 in，但昆雅里位格词尾大概该保留。",
+     "en": "in Quenya the locative ending should probably be included",
+     "zh": "昆雅里位格词尾大概该保留。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "照英语习惯全省格词尾",
+     "right": "昆雅倾向保留（lómissë）",
+     "whyZh": "原文：in Quenya the locative ending should probably be included。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "省的是关系代词的格，不是名词的格",
+     "bodyZh": "可省的是 ya 上的格词尾（yassë → ya），而前面的 lómissë 仍带位格。这一点容易看错。"
+    }
+   ],
+   "recapZh": "lómissë ya（可省 ya 上的格词尾）。",
+   "selfCheckZh": [
+    {
+     "qZh": "Lómissë ya cennenyes 里哪个词带位格？",
+     "aZh": "lómissë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "relative-sentences",
+    "unitIds": [
+     19
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "rel-article",
+   "sourceSectionId": "relative-sentences",
+   "titleZh": "41 · 冠词可省：lúmessë ya firuvammë",
+   "leadZh": "第一个名词前的冠词可省，因为后面的关系短语已充分限定。托尔金《圣母经》译本即用此法。",
+   "objectives": [
+    "知道冠词可省的理由",
+    "能引用 lúmessë ya firuvammë"
+   ],
+   "rules": [
+    {
+     "id": "r-re31",
+     "headZh": "冠词可省",
+     "bodyZh": "lómissë 前的冠词可省，因为它已由后面的关系短语充分限定。",
+     "en": "it is perhaps sufficiently determined by the following relative phrase",
+     "zh": "它也许已由后面的关系短语充分限定。"
+    },
+    {
+     "id": "r-re32",
+     "headZh": "语料",
+     "bodyZh": "托尔金把「in the hour of our death」改说成「in [the] hour that we shall die」：lúmessë ya firuvammë（VT43:28）。",
+     "en": "lúmessë ya firuvammë",
+     "zh": "in the hour that we shall die。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为冠词必须出现",
+     "right": "关系短语已限定时可省",
+     "whyZh": "原文：the article may in such a case be dropped before the first noun。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "改写的自由",
+     "bodyZh": "托尔金把「死亡的时刻」改说成「我们将死的那时刻」，用关系句替代属格短语。这说明翻译可以重构句法，而不只是换词。"
+    }
+   ],
+   "recapZh": "lúmessë ya firuvammë（冠词可省）。",
+   "selfCheckZh": [
+    {
+     "qZh": "lúmessë ya firuvammë 怎么译？",
+     "aZh": "在我们将死的那时刻。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "relative-sentences",
+    "unitIds": [
+     20
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "rel-free",
+   "sourceSectionId": "relative-sentences",
+   "titleZh": "42 · i ＋动词＝「那……的人」",
+   "leadZh": "i carir quettar「those who form words」。i 放在动词前，单数表「the one who」，复数表「those who」。",
+   "objectives": [
+    "能造 i ＋动词的结构",
+    "能引用 Cirion 的誓言"
+   ],
+   "rules": [
+    {
+     "id": "r-re33",
+     "headZh": "i ＋动词",
+     "bodyZh": "i carir quettar 被引作对精灵的描述（WJ:391）。i 放在动词前表「the one who」（单数）或「those who」（复数，带 -r）。",
+     "en": "i carir quettar",
+     "zh": "those who form words（造词的那些）。"
+    },
+    {
+     "id": "r-re34",
+     "headZh": "另一例",
+     "bodyZh": "《Cirion 的誓言》的 i hárar mahalmassen mi Númen「those who sit upon thrones in the West」。",
+     "en": "i hárar mahalmassen mi Númen",
+     "zh": "坐在西方众王座上的那些。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 i 后面必须是名词",
+     "right": "i 可直接放动词前",
+     "whyZh": "原文：i can be put in front of a verb to express \"the one who\"。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "没有先行词的关系句",
+     "bodyZh": "通常关系代词回指一个名词；这里没有先行词，i 自己承担「那……的人」。这是关系代词的名词化用法。"
+    }
+   ],
+   "recapZh": "i ＋动词 ＝「那……的人」。",
+   "selfCheckZh": [
+    {
+     "qZh": "i hárar 什么意思？",
+     "aZh": "坐着的那些（those who sit）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "relative-sentences",
+    "unitIds": [
+     21
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "rel-free-ex",
+   "sourceSectionId": "relative-sentences",
+   "titleZh": "43 · 三个例句",
+   "leadZh": "I túla ná nís、I hirner i malta nar alyë、Hiruvan i suncer limpenya。",
+   "objectives": [
+    "能分析三个例句",
+    "知道单复数靠 -r 区分"
+   ],
+   "rules": [
+    {
+     "id": "r-re35",
+     "headZh": "例句",
+     "bodyZh": "I túla ná nís「[the one] who is coming is a woman」；I hirner i malta nar alyë「[the ones] who found the gold are rich」。",
+     "en": "I túla ná nís",
+     "zh": "正在来的那个人是个女人。"
+    },
+    {
+     "id": "r-re36",
+     "headZh": "单复数",
+     "bodyZh": "Hiruvan i suncer limpenya「I will find [the ones] who drank my wine」；单数作 i suncë limpenya。",
+     "en": "Hiruvan i suncer limpenya",
+     "zh": "我要找到喝了我酒的那些人。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "忘记复数 -r",
+     "right": "复数动词带 -r（hirner、suncer）",
+     "whyZh": "原文：if the verb is plural, marked by the ending -r。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "i 的双重身分",
+     "bodyZh": "同一个 i 既可作冠词、又可作关系代词、还可作「那……的人」。三者靠位置与后接成分区分。"
+    }
+   ],
+   "recapZh": "I túla ná nís；i suncer limpenya。",
+   "selfCheckZh": [
+    {
+     "qZh": "「喝了我酒的那些人」怎么写？",
+     "aZh": "i suncer limpenya。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "relative-sentences",
+    "unitIds": [
+     22,
+     23,
+     24
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "rel-old",
+   "sourceSectionId": "relative-sentences",
+   "titleZh": "44 · 旧版设想：i 指人、ya 指物",
+   "leadZh": "作者原版设想 ecénien i túla「我见过正在来的人」对 ecénien ya túla「我见过正在来的东西」。",
+   "objectives": [
+    "知道旧版设想",
+    "知道它已被材料动摇"
+   ],
+   "rules": [
+    {
+     "id": "r-re37",
+     "headZh": "旧版设想",
+     "bodyZh": "ecénien i túla「I have seen [the one] who is coming」对 ecénien ya túla「I have seen what is coming」。",
+     "en": "ecénien ya túla",
+     "zh": "I have seen what is coming。"
+    },
+    {
+     "id": "r-re38",
+     "headZh": "另一例",
+     "bodyZh": "「what I want is wine」也许译作 ya merin ná limpë（＝「[that] which I want is wine」）。",
+     "en": "ya merin ná limpë",
+     "zh": "what I want is wine。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把旧版设想当定论",
+     "right": "下一段即说明它被新材料动摇",
+     "whyZh": "原文紧接着说：Later publications have muddied this nice little scenario。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "旧版的价值",
+     "bodyZh": "作者保留旧版设想，不是因为它对，而是因为它展示了「若区分成立会怎样」。这种反事实的说明，对理解区分本身很有用。"
+    }
+   ],
+   "recapZh": "旧版：i 指人、ya 指物。",
+   "selfCheckZh": [
+    {
+     "qZh": "ecénien ya túla 旧版怎么译？",
+     "aZh": "我见过正在来的东西。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "relative-sentences",
+    "unitIds": [
+     25,
+     26
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "rel-muddy",
+   "sourceSectionId": "relative-sentences",
+   "titleZh": "45 · 后来的材料搅乱了，但练习仍维持区分",
+   "leadZh": "i 与 ya 大体可互换。但练习与 keys 仍维持 ya＝which、i＝who(m) 的区分。",
+   "objectives": [
+    "知道练习采用的约定",
+    "知道这只是教学约定"
+   ],
+   "rules": [
+    {
+     "id": "r-re39",
+     "headZh": "教学约定",
+     "bodyZh": "练习与 keys 维持：ya 用于非人称 which，i 指人 who(m)（除非要接词尾，那时必须用 ya-）。",
+     "en": "I have however maintained the distinction",
+     "zh": "我仍维持这一区分。"
+    },
+    {
+     "id": "r-re40",
+     "headZh": "承认是人为的",
+     "bodyZh": "作者说这「会是个有用的区分，即使托尔金没想到」。",
+     "en": "even if Tolkien didn't think of it",
+     "zh": "即使托尔金没想到。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把练习的约定当托尔金的规则",
+     "right": "那是教学约定，材料本身不分",
+     "whyZh": "原文：it now appears that i and ya may be largely interchangeable。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "教学约定要标明",
+     "bodyZh": "作者明确说这是自己定的约定。读教材时要分清「材料的结论」与「作者的教学选择」，后者不该被当作事实引用。"
+    }
+   ],
+   "recapZh": "练习约定：ya＝which、i＝who(m)。",
+   "selfCheckZh": [
+    {
+     "qZh": "练习里 ya 用于什么？",
+     "aZh": "非人称的 which。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "relative-sentences",
+    "unitIds": [
+     27
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "rel-order",
+   "sourceSectionId": "relative-sentences",
+   "titleZh": "46 · 词序：德语式？不是",
+   "leadZh": "德语动词居末（der Mann der dort steht）。昆雅的 ëa 接近句末，但并非绝对居末。",
+   "objectives": [
+    "知道德语与昆雅的差别",
+    "能分析 ëa 的位置"
+   ],
+   "rules": [
+    {
+     "id": "r-re41",
+     "headZh": "德语动词居末",
+     "bodyZh": "德语坚持动词居末：der Mann der dort steht「the man who there stands」。",
+     "en": "the man who there stands",
+     "zh": "站在那里的人。"
+    },
+    {
+     "id": "r-re42",
+     "headZh": "昆雅不绝对居末",
+     "bodyZh": "ëa 出现在关系句接近末尾处，但并非绝对居末；完全德语式会要求「who over all thrones forever is」。",
+     "en": "i or ilyë mahalmar ëa tennoio",
+     "zh": "who over all thrones is forever。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把昆雅关系句当德语式",
+     "right": "动词位置较自由，不必居末",
+     "whyZh": "原文：the verb is not absolutely final。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "从一个词的位置推规则",
+     "bodyZh": "作者用 ëa 的位置检验「昆雅是否德语式」。结论是否定的，但方法值得学：用可证形式检验假说。"
+    }
+   ],
+   "recapZh": "昆雅关系句动词不必居末。",
+   "selfCheckZh": [
+    {
+     "qZh": "i or ilyë mahalmar ëa tennoio 里 ëa 在句末吗？",
+     "aZh": "不在最末（tennoio 在后）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "relative-sentences",
+    "unitIds": [
+     28
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "rel-namarie",
+   "sourceSectionId": "relative-sentences",
+   "titleZh": "47 · 动词紧跟关系代词：yassen tintilar i eleni",
+   "leadZh": "《Namárië》里动词紧跟关系代词。作者建议模仿：I osto yassë marë i nér。",
+   "objectives": [
+    "知道这条建议",
+    "能造三个例句"
+   ],
+   "rules": [
+    {
+     "id": "r-re43",
+     "headZh": "动词紧跟",
+     "bodyZh": "yassen tintilar i eleni 字面「in which twinkle the stars」。托尔金在散文版里也未改动。",
+     "en": "yassen tintilar i eleni",
+     "zh": "wherein the stars twinkle。"
+    },
+    {
+     "id": "r-re44",
+     "headZh": "模仿",
+     "bodyZh": "作者建议在 yasse(n)、yanna(r)、yallo(n) 后让动词紧跟：I osto yassë marë i nér「the city in which the man dwells」。",
+     "en": "I osto yassë marë i nér",
+     "zh": "the city in which the man dwells。"
+    },
+    {
+     "id": "r-re45",
+     "headZh": "不制定硬规则",
+     "bodyZh": "除此之外，作者不为关系句词序制定硬性规则。",
+     "en": "I will not try to make out any hard-and-fast rules",
+     "zh": "我不打算制定硬性规则。"
+    }
+   ],
+   "examples": [
+    {
+     "en": "I osto yassë marë i nér",
+     "zh": "那人住的城市",
+     "noteZh": "动词紧跟 yassë。"
+    },
+    {
+     "en": "i tol yanna círar i ciryar",
+     "zh": "众船正驶向的岛",
+     "noteZh": "动词紧跟 yanna。"
+    },
+    {
+     "en": "i nóri yallon tulir i ohtari",
+     "zh": "众战士来自的诸地",
+     "noteZh": "动词紧跟 yallon。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把词序当硬规则",
+     "right": "只是模仿可证例子的建议",
+     "whyZh": "原文：I will not try to make out any hard-and-fast rules。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "诗歌词序未必是诗意的",
+     "bodyZh": "托尔金在散文版里保留了同样的词序，说明这不是诗歌特权。这一点对写作很有用：可以放心模仿。"
+    }
+   ],
+   "recapZh": "动词紧跟关系代词（建议）。",
+   "selfCheckZh": [
+    {
+     "qZh": "I osto yassë marë i nér 什么意思？",
+     "aZh": "那人住的城市。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "relative-sentences",
+    "unitIds": [
+     29
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "tp-intro",
+   "sourceSectionId": "third-person-obscurities",
+   "titleZh": "48 · 「他／她」的主语词尾是什么",
+   "leadZh": "由 -rya 外推得 -ryë「她」，Nancy Martsch 通篇用它。既然 -rya 兼表 his，-ryë 大概也兼表 he。",
+   "objectives": [
+    "知道 -ryë 是外推形式",
+    "知道它可能兼表 he／she"
+   ],
+   "rules": [
+    {
+     "id": "r-tp1",
+     "headZh": "外推",
+     "bodyZh": "既然 -lya 对应 -lyë，许多研究者从 -rya 外推出未证后缀 -ryë＝「她」。故 hiruvalyë 对应 hiruvaryë。",
+     "en": "hiruvaryë",
+     "zh": "she will find（她将找到）。"
+    },
+    {
+     "id": "r-tp2",
+     "headZh": "兼表 he",
+     "bodyZh": "既然 -rya 兼表 his 与 her，-ryë 大概同样兼表 he 与 she。",
+     "en": "we would have to assume that -ryë may similarly signify \"he\"",
+     "zh": "我们得假定 -ryë 同样可表 he。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 -ryë 当已证形式",
+     "right": "它是外推，未见于语料",
+     "whyZh": "原文用 extrapolated an unattested suffix 描述它。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "本节的基调",
+     "bodyZh": "第三人称是代词表里最晦涩的一块。作者的态度是：列出各说、标明证据强度，练习只用最稳的 -s。读时要带着这个预期。"
+    }
+   ],
+   "recapZh": "-ryë（外推）＝ he／she。",
+   "selfCheckZh": [
+    {
+     "qZh": "hiruvaryë 什么意思？",
+     "aZh": "她将找到（外推形式）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "third-person-obscurities",
+    "unitIds": [
+     0,
+     1
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "tp-ro",
+   "sourceSectionId": "third-person-obscurities",
+   "titleZh": "49 · -ro「他」：antaváro",
+   "leadZh": "Fíriel 之歌相关材料里，-ro 是「他」：e man antaváro?「他究竟会给什么？」注意 -ro 前的元音拉长。",
+   "objectives": [
+    "知道 antaváro 的出处",
+    "知道 -ro 引起前元音拉长"
+   ],
+   "rules": [
+    {
+     "id": "r-tp3",
+     "headZh": "-ro",
+     "bodyZh": "e man antaváro?「what will he give indeed?」（LR:63）里 -ro 表「他」。",
+     "en": "e man antaváro?",
+     "zh": "他究竟会给什么？"
+    },
+    {
+     "id": "r-tp4",
+     "headZh": "前元音拉长",
+     "bodyZh": "加 -ro 时 antáva 变 antaváro，原长元音缩短以避免 antáváro。",
+     "en": "antaváro",
+     "zh": "he will give（他将给）。"
+    },
+    {
+     "id": "r-tp5",
+     "headZh": "是否更新",
+     "bodyZh": "按后期系统将来时该是 antuva，故也许该作 antuváro。",
+     "en": "antuváro",
+     "zh": "（LotR 式）he will give。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "直接引用 antaváro 作标准昆雅",
+     "right": "它是较早材料；后期宜作 antuváro",
+     "whyZh": "原文：This may not be quite LotR-style Quenya ... the future tense of anta- should perhaps be antuva。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "长元音的怪现象",
+     "bodyZh": "-ro 让前元音拉长，却又要避免两个长元音相邻。这说明重音与元音长度在此互相牵制，规则不是单向的。"
+    }
+   ],
+   "recapZh": "antaváro（-ro 引起拉长）。",
+   "selfCheckZh": [
+    {
+     "qZh": "antaváro 里的 á 为什么拉长？",
+     "aZh": "因为加了 -ro。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "third-person-obscurities",
+    "unitIds": [
+     2
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "tp-ro2",
+   "sourceSectionId": "third-person-obscurities",
+   "titleZh": "50 · laustanéro：-ro 的又一例",
+   "leadZh": "MC:220 的 súru laustanéro「风急驰而过」，-ro 加在过去时 -në 后，同样拉长前元音。",
+   "objectives": [
+    "能拆解 laustanéro",
+    "知道「元音本长」说"
+   ],
+   "rules": [
+    {
+     "id": "r-tp6",
+     "headZh": "拆解",
+     "bodyZh": "laustanéro ＝ lausta-「发出风声」＋ -në（过去时）＋ -ro「他」。",
+     "en": "laustanéro",
+     "zh": "he rushed（他急驰）。"
+    },
+    {
+     "id": "r-tp7",
+     "headZh": "「元音本长」说",
+     "bodyZh": "有人提出元音在此仍长，是因托尔金设想它在原始精灵语里本就长。若如此，tulin 的 -i- 就不该拉长（?tuliro）。",
+     "en": "?tuliro",
+     "zh": "（推测）he comes。"
+    },
+    {
+     "id": "r-tp8",
+     "headZh": "作者的倾向",
+     "bodyZh": "作者现在倾向于：-ro 加到「以两个短音节结尾」的词上时才拉长；故「he made」大概作 carnero 而非 carnéro。",
+     "en": "carnero",
+     "zh": "he made（他做了，推测）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 -ro 前一律拉长",
+     "right": "只在特定词形下发生",
+     "whyZh": "原文：I now tend to think that there would be no lengthening when -ro is added to a word of such a shape。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "规则的条件",
+     "bodyZh": "「拉长」不是 -ro 的固有属性，而是重音调整的结果。理解条件（词形），才不会把它当无条件规则。"
+    }
+   ],
+   "recapZh": "laustanéro；carnero（推测）。",
+   "selfCheckZh": [
+    {
+     "qZh": "laustanéro 由哪三部分构成？",
+     "aZh": "lausta- + -në + -ro。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "third-person-obscurities",
+    "unitIds": [
+     3
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "tp-origin",
+   "sourceSectionId": "third-person-obscurities",
+   "titleZh": "51 · -ro 与 -rë 的来历：-so、-se",
+   "leadZh": "《词源》S- 条目：原始 -so（他）、-se（她）。元音间 -s- 浊化为 -z- 再变 -r-，故 -so → -ro、-se → -rë。",
+   "objectives": [
+    "知道 -so → -ro 的音变",
+    "能举 kalliére 为例"
+   ],
+   "rules": [
+    {
+     "id": "r-tp9",
+     "headZh": "原始词尾",
+     "bodyZh": "原始词「他」sô／so，「cf. -so inflection of verbs」；「她」sê／se，「cf. -se inflexion of verbs」。",
+     "en": "cf. -so inflection of verbs",
+     "zh": "参动词的 -so 屈折。"
+    },
+    {
+     "id": "r-tp10",
+     "headZh": "音变",
+     "bodyZh": "昆雅里元音间 -s- 浊化为 -z-，后变 -r-（z 与原有 r 合并）。故 -so → -ro、-se → -rë。",
+     "en": "-s- occurring between vowels was normally voiced to -z-",
+     "zh": "元音间的 -s- 通常浊化为 -z-。"
+    },
+    {
+     "id": "r-tp11",
+     "headZh": "kalliére",
+     "bodyZh": "kirya kalliére「the ship shone」可能是 -rë 的直接例证，字面「[the] ship, she shone」。",
+     "en": "kirya kalliére",
+     "zh": "船闪耀了（她闪耀）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 -ro 与 -rë 是原生词尾",
+     "right": "它们由 -so／-se 音变而来",
+     "whyZh": "原文：This -so could be the origin of the Quenya ending -ro。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "音变解释同形",
+     "bodyZh": "-s- → -z- → -r- 这条链同时解释了为什么「他」的词尾以 r 开头。历史音变常是形态之谜的钥匙。"
+    }
+   ],
+   "recapZh": "-so → -ro；-se → -rë。",
+   "selfCheckZh": [
+    {
+     "qZh": "-ro 的来源？",
+     "aZh": "原始 -so 经 -z- 变来。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "third-person-obscurities",
+    "unitIds": [
+     4
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "tp-post",
+   "sourceSectionId": "third-person-obscurities",
+   "titleZh": "52 · 后期证据：eques 的 -s",
+   "leadZh": "WJ:414 的 eques「said he/she」表明 LotR 之后 -s 是通性第三人称词尾，也涵盖 it。",
+   "objectives": [
+    "知道 eques 的证据",
+    "知道 -s 兼主语与宾语"
+   ],
+   "rules": [
+    {
+     "id": "r-tp12",
+     "headZh": "eques",
+     "bodyZh": "托尔金举 equen「said I」与 eques「said he / she」（WJ:414）或「said he, said someone」（WJ:392）。",
+     "en": "eques",
+     "zh": "said he/she（他说／她说）。"
+    },
+    {
+     "id": "r-tp13",
+     "headZh": "涵盖 it",
+     "bodyZh": "-s 必定也涵盖 it，因为它难与宾语位置的 -s 分开：tiruvantes「they will keep it」、caritalyas「your doing it」。",
+     "en": "tiruvantes",
+     "zh": "they will keep it（他们将保留它）。"
+    },
+    {
+     "id": "r-tp14",
+     "headZh": "宾语也可指人",
+     "bodyZh": "反过来 -s 在宾语位置大概也可指人：tiruvantes 也许也意为「they will keep him/her」。",
+     "en": "him/her",
+     "zh": "他／她（宾语）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 -s 只表 it",
+     "right": "它是整个第三人称单数的通性词尾",
+     "whyZh": "原文：-s is a general ending covering the entire 3rd person singular, as subject or object。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "最稳的一条",
+     "bodyZh": "本课推测很多，但 -s 是可证的。所以练习只用它——这是作者在不确定中划出的安全区。"
+    }
+   ],
+   "recapZh": "eques：-s 通性第三人称。",
+   "selfCheckZh": [
+    {
+     "qZh": "eques 什么意思？",
+     "aZh": "他说／她说。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "third-person-obscurities",
+    "unitIds": [
+     5
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "tp-tulis",
+   "sourceSectionId": "third-person-obscurities",
+   "titleZh": "53 · tulis 的三解与长短词尾的关系",
+   "leadZh": "tulis 可译 he／she／it comes。原始 tuli-so 与 tuli-se 在昆雅合并为 tulis。",
+   "objectives": [
+    "能解释 tulis 的合并",
+    "知道长短词尾可能的分工"
+   ],
+   "rules": [
+    {
+     "id": "r-tp15",
+     "headZh": "三解",
+     "bodyZh": "tulis 须依语境译作 he comes、she comes 或 it comes。",
+     "en": "tulis",
+     "zh": "（他／她／它）来。"
+    },
+    {
+     "id": "r-tp16",
+     "headZh": "合并",
+     "bodyZh": "原始词末短 -o、-e 在昆雅丢失，故 tuli-so 与 tuli-se 合并为 tulis。",
+     "en": "tuli-so",
+     "zh": "he comes（原始形式）。"
+    },
+    {
+     "id": "r-tp17",
+     "headZh": "长短词尾",
+     "bodyZh": "长词尾 -ro、-rë 也许来自 -sô、-sê；它们可能用于 -s 不够明确的场合，也可能被彻底放弃。",
+     "en": "we can't even rule out the possibility that the long endings",
+     "zh": "我们甚至不能排除长词尾被彻底放弃的可能。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 tulis 只能译一个性别",
+     "right": "三种都可能，靠语境",
+     "whyZh": "原文：would have to be translated either \"he comes\", \"she comes\", or \"it comes\" depending on the context。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "合并造成歧义",
+     "bodyZh": "原始语的性别区分在昆雅音变中消失了，于是 -s 变成通性。这是「音变消灭形态区别」的典型例子。"
+    }
+   ],
+   "recapZh": "tulis ＝ he／she／it comes。",
+   "selfCheckZh": [
+    {
+     "qZh": "为什么 tulis 不分性别？",
+     "aZh": "原始 -so 与 -se 的末元音丢失后合并。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "third-person-obscurities",
+    "unitIds": [
+     6
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "tp-rye",
+   "sourceSectionId": "third-person-obscurities",
+   "titleZh": "54 · -s 与 -ryë 交替？",
+   "leadZh": "-s 与 -ryë 也许像 -n／-nyë、-l／-lyë 一样交替。-ryë 来自较早 -sye（sy→zy→ry）。",
+   "objectives": [
+    "知道交替的类比",
+    "知道 -ryë 何时用"
+   ],
+   "rules": [
+    {
+     "id": "r-tp18",
+     "headZh": "交替类比",
+     "bodyZh": "-s 与 -ryë 也许交替，如「我」可作 -n 或 -nyë，「你」可作 -l（hamil）或 -lyë。",
+     "en": "hamil",
+     "zh": "you judge（你判断）。"
+    },
+    {
+     "id": "r-tp19",
+     "headZh": "-ryë 的来源",
+     "bodyZh": "-ryë 来自较早 -sye：元音后 sy 变 zy 再变 ry。参《词源》SUS 条目，surya 源自 susyâ。",
+     "en": "surya",
+     "zh": "spirant consonant（擦音）。"
+    },
+    {
+     "id": "r-tp20",
+     "headZh": "使用场合",
+     "bodyZh": "较长的 -ryë 主要用于还要再加宾语词尾时：tiriryet「(s)he watches them」；单独「(s)he watches」更常用 tiris。",
+     "en": "tiriryet",
+     "zh": "(s)he watches them（他／她看它们）。"
+    },
+    {
+     "id": "r-tp21",
+     "headZh": "替代方案",
+     "bodyZh": "想避开 -ryë 的写作者可用 -ro／-rë 加连接元音：tirirot、tiriret。",
+     "en": "tirirot",
+     "zh": "he watches them（他看它们）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "在正式文本里随意用 -ryë",
+     "right": "它未证；练习只用 -s",
+     "whyZh": "原文：writers who want to avoid the unattested ending -ryë may opt for ... -ro and -rë。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "交替系统的逻辑",
+     "bodyZh": "短词尾用于简单场合，长词尾用于再接宾语时——这与 -n／-nyë 的分工一致。系统是统一的，只是证据不足。"
+    }
+   ],
+   "recapZh": "tiriryet／tirirot（推测）。",
+   "selfCheckZh": [
+    {
+     "qZh": "-ryë 来自什么？",
+     "aZh": "较早的 -sye。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "third-person-obscurities",
+    "unitIds": [
+     7
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "tp-practice",
+   "sourceSectionId": "third-person-obscurities",
+   "titleZh": "55 · 练习只用 -s 与 -rya",
+   "leadZh": "练习避开一切推测形式，只用可证的 -s（he/she/it）与 -rya（his/her/its）。",
+   "objectives": [
+    "知道练习的取舍",
+    "知道 ringa súmaryassë 的 its"
+   ],
+   "rules": [
+    {
+     "id": "r-tp22",
+     "headZh": "只用可证形式",
+     "bodyZh": "练习与 keys 只用 -s 与 -rya；长词尾 -ro、-rë 不用，因为它们在 LotR 式昆雅里地位略不确定。",
+     "en": "The long endings -ro and -rë are not used in the exercises or the keys",
+     "zh": "长词尾 -ro 与 -rë 不用于练习或 keys。"
+    },
+    {
+     "id": "r-tp23",
+     "headZh": "-rya 也表 its",
+     "bodyZh": "ringa súmaryassë 里指船，故 its bosom 同样恰当。",
+     "en": "its",
+     "zh": "它的。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "在练习里用 -ro／-rë",
+     "right": "只用 -s",
+     "whyZh": "原文明确：we will avoid all speculative endings and constructions。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "安全区的划法",
+     "bodyZh": "作者把「可证」与「推测」分开，只在可证范围内出题。这是教材诚实性的体现，也提醒读者：能用的不等于已证的。"
+    }
+   ],
+   "recapZh": "练习：-s 与 -rya。",
+   "selfCheckZh": [
+    {
+     "qZh": "练习里「他／她」用什么词尾？",
+     "aZh": "-s。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "third-person-obscurities",
+    "unitIds": [
+     8
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "summary",
+   "sourceSectionId": "third-person-obscurities",
+   "kind": "summary",
+   "titleZh": "56 · 本课小结",
+   "leadZh": "五块收成一张清单：-rya、-ta 不定式、长元音、位格、关系代词、第三人称。英文小结逐字取自原文。",
+   "objectives": [
+    "能复述 -rya 与双数处理",
+    "能复述位格与关系代词系统",
+    "能说明第三人称的不确定处"
+   ],
+   "summaryEn": "Summary of Lesson Fifteen: The Quenya pronominal possessive ending for \"his, her\" is -rya, behaving like the other endings of this kind (endings for number or case may be added after it). If a dual noun is to receive a pronominal ending, its duality is indicated by -t added to this ending (cf. máryat \"her [pair of] hands\" in Namárië), apparently even in the case of nouns that would otherwise receive the alternative dual marker -u instead. – The extended infinitives in -ta which may receive pronominal endings denoting the object (e.g. caritas \"to do it\") may also receive possessive pronominal endings denoting the subject, e.g. caritalya(s) \"your doing (it)\". – Nouns ending in a long vowel, e.g. má \"hand\", would shorten this vowel before a consonant cluster; thus the plural allative is attested as mannar (for the impossible form **mánnar). Curiously, long vowels are not shortened before ry, ly, ny, ty, though these combinations do count as consonant clusters for the purpose of stress. – The Quenya locative case has the basic ending -ssë, plural -ssen, and dual -tsë (at least in the case of nouns with nominative dual forms in -t; nouns with nominative dual forms in -u may simply add -ssë). When added to a noun that ends in a consonant, the locative ending may appear as -dë following -l and -n, and perhaps as -së following -s and -t. (However, a final consonant may also be dropped before the ending -ssë is attached, or a connecting vowel may be slipped in before the ending.) These endings express the idea of \"in\", \"on\", \"upon\", e.g. ciryassë \"(up)on a ship\", coassen \"in houses\". – Quenya relative sentences may be formed using the relative pronoun ya \"which, that\". Ya may also receive endings for case and number, cf. the plural locative yassen \"in which\" or \"wherein\" occurring in Namárië (plural because it refers back to a plural word). The article i \"the\" may also be used as a relative pronoun, cf. i Eru i or ilyë mahalmar ëa tennoio, \"the One who is above all thrones\" in Cirion's Oath, but i apparently cannot receive endings for case or number. In front of a verb, i can be used by itself to express \"the one(s) who do(es)\" whatever the verb expresses, e.g., i carir quettar \"the ones/those who form words\". – The pronominal endings for \"he\" and \"she\" are somewhat uncertain. Early material contains verbs with the endings -ro \"he\" and apparently -rë \"she\". In post-LotR material, we have one attestation of -s as an ending covering both \"he\" and \"she\", and since the same ending is attested with the meaning \"it\" elsewhere (as object), we may assume that -s is a general ending covering the entire 3rd person singular, as subject or object. One educated guess has it that this -s alternates with a longer form -ryë (plausibly extrapolated from the possessive ending -rya \"his/her\"), but only the attested ending -s is used in the exercises below.",
+   "summaryZh": "第十五课小结：昆雅「他的、她的」所有格代词词尾是 -rya，行为与其他同类词尾一样（其后可加数或格词尾）。若双数名词要接代词词尾，其双数性由加在该词尾后的 -t 表示（参《Namárië》máryat「her [pair of] hands」），看来即使对本来会用另一个双数标记 -u 的名词也如此。——可接表宾语代词词尾的 -ta 扩展不定式（如 caritas「to do it」）也能接表主语的所有格代词词尾，如 caritalya(s)「your doing (it)」。——以长元音结尾的名词（如 má「手」）在辅音丛前会缩短该元音；故复数向格可证作 mannar（而非不可能的 mánnar）。奇怪的是，长元音在 ry、ly、ny、ty 前不缩短，尽管这些组合在重音方面确实算辅音丛。——昆雅位格基本词尾是 -ssë，复数 -ssen，双数 -tsë（至少对主格双数为 -t 的名词如此；主格双数为 -u 的名词也许直接加 -ssë）。加到以辅音结尾的名词上时，位格词尾在 -l、-n 后可作 -dë，在 -s、-t 后也许作 -së。（不过末辅音也可在接 -ssë 前丢掉，或在词尾前插入连接元音。）这些词尾表「in」「on」「upon」，如 ciryassë「(up)on a ship」、coassen「in houses」。——昆雅关系句可用关系代词 ya「which, that」构成。ya 也能接格与数词尾，参《Namárië》的复数位格 yassen「in which」或「wherein」（复数是因为回指复数词）。冠词 i「the」也可作关系代词，参《Cirion 的誓言》i Eru i or ilyë mahalmar ëa tennoio「the One who is above all thrones」，但 i 显然不能接格或数词尾。在动词前，i 可单独用来表示「做该动词所述之事的人／那些人」，如 i carir quettar「the ones/those who form words」。——「他」与「她」的代词词尾有些不确定。早期材料含带 -ro「他」与看来带 -rë「她」的动词。LotR 之后的材料里，我们有一例 -s 涵盖「他」与「她」，而同一词尾在别处（宾语位置）可证表「它」，故可假定 -s 是整个第三人称单数的通性词尾，主宾皆可。一个有根据的猜测是：这个 -s 与较长的 -ryë（有理地由所有格 -rya「his/her」外推）交替，但下面练习只用可证的 -s。",
+   "formulaZh": [
+    "所有格 -rya：samberya、samberyo、samberyava；兼表 his／her／its。",
+    "双数：接代词词尾时用 -t（máryat、péryat、aldaryat）；taluryat 属推测。",
+    "-ta 不定式：caritas、caritalya(s)、caritalyas、tiritanyat。",
+    "长元音：mannar（缩短）；márya、mánya、málya（不缩短）；malva、malma（缩短）。",
+    "位格：-ssë／-ssen／-tsë；-l、-n 后作 -dë（meneldë、cemendë）；-r 后作 -ssë（Ambassë）；插 -e- 亦可（elenessë）。",
+    "关系代词 ya：yassë／yassen、yanna／yannar、yallo／yallon、yan／yain、yo／yaron、yava／yaiva。",
+    "i 作关系代词不可变格：i Eru i ëa；i ＋动词＝「那……的人」（i carir quettar）。",
+    "第三人称：-s（he／she／it，主宾皆可）；-ro／-rë 属早期材料；-ryë 属外推。"
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 -rya 只当「她的」",
+     "right": "兼表 his 与 its",
+     "whyZh": "原文：Quenya simply does not make a distinction between \"his\" and \"her\"。"
+    }
+   ],
+   "recapZh": "-rya；-t 双数；位格 -ssë；ya 变格、i 不变格；第三人称 -s。",
+   "selfCheckZh": [
+    {
+     "qZh": "「她的双手」怎么写？",
+     "aZh": "máryat。"
+    },
+    {
+     "qZh": "「in which」（复数）怎么写？",
+     "aZh": "yassen。"
+    }
+   ]
+  },
+  {
+   "sectionId": "exercises",
+   "sourceSectionId": "exercises",
+   "titleZh": "57 · 练习工作台（A–P）",
+   "leadZh": "A–H 昆雅译英，I–P 英译昆雅。-s 的英译要看语境。答案逐字取自 keys.rtf。",
+   "objectives": [
+    "独立完成 A–P",
+    "用 keys 核对并把错题回链到规则"
+   ],
+   "bilingual": {
+    "sectionId": "exercises",
+    "unitIds": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17
+    ],
+    "labelZh": "练习"
+   },
+   "workflowZh": [
+    "先看 -s：是主语「他／她／它」还是宾语「它」？",
+    "看到 in／on → 位格 -ssë；看到 from → 离格 -llo；看到 to → 向格 -nna",
+    "关系句先找先行词，再决定 ya 的数与格",
+    "长元音词（má、pé）注意接词尾时的缩短与否",
+    "双数接代词词尾时用 -t（máryat、péryat）",
+    "点「核对」比对 keys 原文答案",
+    "错题按「回到本课规则」跳回规则卡"
+   ],
+   "teachingNoteZh": "keys 对多数题给了注释：F 题的 massë 说明 má 在辅音丛前缩短；G 题提醒第二个 i 是关系代词而非冠词，yar 是复数而非「to whom」；H 题说明 ya 回指双数词时用 yat、与格 yant；J 题再次提醒 i 作关系代词；L 题示范动词紧跟 yannar 的词序；M 题指出 sucitarya 也可作 sucierya；O 题讨论 polë cenë 的词序；P 题说明 yo 由 -ao 简化为 -o。",
+   "pitfalls": [
+    {
+     "wrong": "G 题把 yar 当「to whom」",
+     "right": "这里的 yar 是 ya 的复数主格",
+     "whyZh": "keys：This yar should not be confused with the attested form yar \"to whom\"。"
+    }
+   ],
+   "recapZh": "先定 -s 的身分；关系句先找先行词。",
+   "selfCheckZh": [
+    {
+     "qZh": "G 题的 yar 是什么？",
+     "aZh": "ya 的复数主格（回指 engwi）。"
+    }
+   ]
+  },
+  {
+   "sectionId": "ex-url",
+   "sourceSectionId": "exercises",
+   "titleZh": "58 · 原文末尾的下载地址",
+   "leadZh": "原文末尾给出后续课程的下载地址，属原著内容，一并保留。",
+   "objectives": [
+    "知道原文的出处链接"
+   ],
+   "bilingual": {
+    "sectionId": "exercises",
+    "unitIds": [
+     18,
+     19
+    ],
+    "labelZh": "原文附录"
+   },
+   "rules": [
+    {
+     "id": "r-url1",
+     "headZh": "出处",
+     "bodyZh": "原文在此给出 Further Lessons 的下载地址，本页原样保留，不改写、不加链接。",
+     "en": "Further Lessons may be downloaded from this URL",
+     "zh": "后续课程可从该网址下载。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把它当成本站的链接",
+     "right": "它是原著文本，本站不提供该文件",
+     "whyZh": "本页不含 fetch 或外部脚本，仅为文字保留。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么保留",
+     "bodyZh": "原著未删节是本项目的基本约束。地址虽已过时，仍属原文，故原样呈现而不改写成可点击链接。"
+    }
+   ],
+   "recapZh": "原文地址原样保留。",
+   "selfCheckZh": [
+    {
+     "qZh": "这个地址在本站可点吗？",
+     "aZh": "不，它只是原文文字。"
+    }
+   ]
+  },
+  {
+   "sectionId": "vocabulary",
+   "sourceSectionId": "vocabulary",
+   "titleZh": "59 · 课末词汇（12 条）",
+   "leadZh": "本课词汇以 mar-、ya、má、pé 为核心：它们分别对应位格、关系从句、长元音三个主题。",
+   "objectives": [
+    "记住 12 条课末词",
+    "掌握 má／pé 的双数与长短元音"
+   ],
+   "bilingual": {
+    "sectionId": "vocabulary",
+    "unitIds": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ],
+    "labelZh": "词汇"
+   },
+   "table": {
+    "captionZh": "12 条课末词与要点",
+    "headers": [
+     "课末词",
+     "词性 / 释义",
+     "要点"
+    ],
+    "rows": [
+     [
+      "tatya",
+      "序数「第二」",
+      "Tatyar；变体 atya"
+     ],
+     [
+      "mar-",
+      "「居住」",
+      "maris、marir、maruva"
+     ],
+     [
+      "ya",
+      "关系代词「which」",
+      "可变格；yassen"
+     ],
+     [
+      "aurë",
+      "「白天」",
+      "非 24 小时"
+     ],
+     [
+      "veru",
+      "「夫妇」",
+      "古双数，无单数"
+     ],
+     [
+      "má",
+      "「手」",
+      "双数接词尾用 -t：máryat"
+     ],
+     [
+      "pé",
+      "「唇」",
+      "双数 peu；接词尾 péryat"
+     ],
+     [
+      "mallë",
+      "「路、街」",
+      "复数 maller"
+     ],
+     [
+      "hrívë",
+      "「冬」",
+      "B、D 题的 hrívessë"
+     ],
+     [
+      "apa",
+      "介词「在……之后」",
+      "M、N 题"
+     ],
+     [
+      "Hyarmen",
+      "「南」",
+      "Hyarmessë／Hyarmendë"
+     ],
+     [
+      "hyarya",
+      "「左的」",
+      "F、J 题"
+     ]
+    ]
+   },
+   "rules": [
+    {
+     "id": "r-v15-1",
+     "headZh": "tatya 与 attëa",
+     "bodyZh": "tatya 是古体「第二」，后来作 attëa；变体 atya 与 atta「二」联系更清楚。",
+     "en": "tatya",
+     "zh": "second（第二）。"
+    },
+    {
+     "id": "r-v15-2",
+     "headZh": "má 与 pé 的双数",
+     "bodyZh": "má 双数接代词词尾用 -t（máryat）；pé 的双数是 peu，但接词尾作 péryat。",
+     "en": "peu",
+     "zh": "(pair of) lips（一对唇）。"
+    },
+    {
+     "id": "r-v15-3",
+     "headZh": "mallë 的复数",
+     "bodyZh": "以 -lë 结尾的名词复数常作 -ler：maller（LR:47, 56；SD:310）。",
+     "en": "maller",
+     "zh": "roads（众路）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 aurë 当 24 小时",
+     "right": "aurë 只是白天时段",
+     "whyZh": "原文：the actual daylight period, not a full 24-hour cycle。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "词汇与语法呼应",
+     "bodyZh": "这 12 个词几乎逐个对应本课的一个语法点：mar- 配位格、ya 配关系句、má／pé 配长元音与双数、apa 配时间。记词时连同它的语法一起记，效率最高。"
+    }
+   ],
+   "recapZh": "tatya、mar-、ya、má、pé、mallë、apa。",
+   "selfCheckZh": [
+    {
+     "qZh": "「一对唇」怎么写？",
+     "aZh": "peu。"
+    },
+    {
+     "qZh": "mallë 的复数？",
+     "aZh": "maller。"
+    }
+   ]
+  }
+ ]
+}

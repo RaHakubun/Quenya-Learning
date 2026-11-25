@@ -1,0 +1,78 @@
+{
+ "lesson": 11,
+ "introZh": "本课 12 个词几乎都为属格练习服务：cainen 是数词；laman、yulma、limpë、rassë、toron、Menel、sírë、cilya、anto 是名词，正好覆盖 -a 结尾、-o 结尾、特殊词干、双数四类属格形态；ulya- 复习 -ya 动词的两副过去时；ú 直接带属格。",
+ "entries": [
+  {
+   "word": "cainen",
+   "posZh": "数词",
+   "glossZh": "十",
+   "noteZh": "不变。练习 H「I cainen rávi」、I「cainen ohtari」、K「cainen parmar」。"
+  },
+  {
+   "word": "laman",
+   "posZh": "名词",
+   "glossZh": "动物（词干 lamn-）",
+   "noteZh": "词干形式也可作 laman-，本课程用 lamn-，故属格复数 lamnion。练习 G「i lamnion」、O「altë lamnion」、P「laman」。"
+  },
+  {
+   "word": "yulma",
+   "posZh": "名词",
+   "glossZh": "杯子",
+   "noteZh": "-a 结尾，属格 yulmo、属格复数 yulmaron。练习 J「analta i yulmaron」。"
+  },
+  {
+   "word": "limpë",
+   "posZh": "名词",
+   "glossZh": "酒",
+   "noteZh": "神话中是精灵或维拉的特殊饮料，《词源》LIP 条也给释义 “wine”。练习 J「ulyanë limpë」。"
+  },
+  {
+   "word": "rassë",
+   "posZh": "名词",
+   "glossZh": "角",
+   "noteZh": "「尤指活物身上的，也用于山」（《词源》RAS 条）。双数属格 rasseto。练习 G「I rassi i lamnion」、P「ú rasseto」。"
+  },
+  {
+   "word": "toron",
+   "posZh": "名词",
+   "glossZh": "兄弟（词干 torn-）",
+   "noteZh": "词干 torn-，属格单数 torno、属格复数 tornion。练习 K「I Eldo toron」、F「torni」用主格与复数。"
+  },
+  {
+   "word": "Menel",
+   "posZh": "名词",
+   "glossZh": "苍穹、天空、天",
+   "noteZh": "单数，专名，通常不加冠词。属格 Menelo。练习 B「Menelo eleni」、I「Menelo aiwi」、N「nu Menel」。"
+  },
+  {
+   "word": "ulya-",
+   "posZh": "动词",
+   "glossZh": "倾倒",
+   "noteZh": "及物过去时 ulyanë（练习 J 倒酒），不及物 ullë（练习 L 河流泻入峡谷）。上一课的规则在此复现。"
+  },
+  {
+   "word": "sírë",
+   "posZh": "名词",
+   "glossZh": "河",
+   "noteZh": "-a 结尾？不，-ë 结尾；属格 síro，复数 síri。练习 I「i altë síri」、L「alta sírë i nórëo」。"
+  },
+  {
+   "word": "cilya",
+   "posZh": "名词",
+   "glossZh": "裂隙、峡谷",
+   "noteZh": "也作 cirya（如 Calacirya），但 cirya 又意为「船」，故课程用 cilya。练习 L「mir cilya」。"
+  },
+  {
+   "word": "anto",
+   "posZh": "名词",
+   "glossZh": "嘴",
+   "noteZh": "可能来自较早 amatô、amto，或与 mat-「吃」同根。-o 结尾，属格与主格同形。练习 M「Nér ú anto」。"
+  },
+  {
+   "word": "ú",
+   "posZh": "介词",
+   "glossZh": "没有",
+   "noteZh": "通常后接属格。练习 E「ú talamion」、M「ú anto」、O「ú altë lamnion」、P「ú rasseto」。"
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+祈使语气
+
+表命令/请求；英语 please 表礼貌，祈使本身不必是粗暴命令。托尔金主祷文译本含祈使，「救我们脱离罪恶」是祈求，非命上帝。
+
+原始精灵语有祈使粒子 â，本为独立、位置可变（WJ:365）。有时置于词干后，昆雅化作尾 -a。WJ:364 heca!「走开！」源自 hek(e) â；WJ:365 下一页 primitive el-â「看！」> ela!，精灵于 Cuiviénen 醒来初见星时首言（WJ:360），指引目光于可见对象。
+
+若从 heca、ela 推绎，主要动词或 stem + -a：tir- > tira!「看！」= primitive tirâ；辛达 tiro! 有证。tira 与 continuative tíra 不同。heca/ela 或属化石。
+
+「现代」常用后代粒子 â 于词干前。LotR Cormallen a laita te... a laita tárienna!（Letters:308）。laita- 前 a 成祈使。á vala Manwë!（WJ:404）=「愿曼威行此事！」/「曼威啊，治理！」
+
+a 在长音节（如 lai-）前或缩短为 a，无确证；或随机变体。通常 prefer 长形 á，免与呼格 a（a vanimar「啊，美丽者们」）混淆。lelya- > á lelya!「走！」
+
+á 与 vá 否定合为 áva：Áva carë!「别做！」（WJ:371）。此处主要动词 -ë，如不定式：á tirë!/áva tirë!

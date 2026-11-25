@@ -1,0 +1,188 @@
+{
+ "lesson": 17,
+ "schemaVersion": 2,
+ "titleZh": "指示词、末位变格与 U 词干",
+ "titleEn": "Quenya Demonstratives. Inflecting the \"Last Declinable Word\". U-stem Nouns. Ordinals.",
+ "summaryZh": "本课四块。①指示词：sina「这」（唯一正文可证，vanda sina，词序「名词＋指示词」）、tana「那」（用 tana 不用早期 tanya，因与 sina 构成 -na 对）、enta「那边那」（《词源》EN 条，词根 EN＝over there，时间上可指未来）、yana「从前那」（YA 条，注明 the former，指过去）。复数无证，但按形容词把 -a 改 -ë：sinë、tanë、entë、yanë；这些 -ë 代表古 -ai（sinâi → sinai → sinë）。独立用法存疑：PM:401 的 sin 可能是「this」，ta 是「that」的独立式；练习只考定语用法。②末位可变化词变格：名词后跟定语形容词时，格词尾可加在短语末词——Elendil Vorondo（属格）、Elendil Vorondanna（向格）、isilmë ilcalassë、axor ilcalannar（名词只带裸复数 -r）、vendi lindalaiva、Aldu caltalanta。但这不是硬规则：rámainen elvië、ondolissë mornë 把词尾加在名词上，因为形容词的复数变化会与格变化冲突（?elviëinen、**elvínen）。VT43:37 的 fairë aistan 与 MR:258 的 Namna Finwë Míriello 是并列项只变末位的新证。③U 词干：词末 -u 变 -o，非词末保留 -u（ango／angu-、ranco／rancu-、rusco／ruscu-、curo／curu-）；主格复数 -i 使 u 变 w，得 -ngwi／-nqui（angwi、ranqui、rusqui），连带 rusquin／rusquion；ruscuitë 提示所有格与工具格复数可能不作 -qui-，故存疑；其余各格把末 -o 改 -u（angunnar、angullon、angussen、angulyar）。④序数词：多数以 -ëa 取代基数词末元音（cantëa、lempëa、enquëa、otsëa、toltëa、nertëa）；lempëa 取代旧的 lemenya／lepenya；attëa 已取代 (t)atya，neldëa 可与 nelya 并存；「第十」有 quainëa 与 cainenya／cainëa 两套，?cainenëa 不可。",
+ "mindmap": {
+  "rootZh": "第 17 课：指示词、末位变格与 U 词干",
+  "branches": [
+   {
+    "labelZh": "指示词是什么",
+    "sectionId": "dem-intro"
+   },
+   {
+    "labelZh": "sina",
+    "sectionId": "dem-sina"
+   },
+   {
+    "labelZh": "tana",
+    "sectionId": "dem-tana"
+   },
+   {
+    "labelZh": "enta",
+    "sectionId": "dem-enta"
+   },
+   {
+    "labelZh": "三度远近",
+    "sectionId": "dem-degree"
+   },
+   {
+    "labelZh": "yana",
+    "sectionId": "dem-yana"
+   },
+   {
+    "labelZh": "复数 -ë",
+    "sectionId": "dem-plural"
+   },
+   {
+    "labelZh": "四组对照",
+    "sectionId": "dem-ex"
+   },
+   {
+    "labelZh": "-ai 来源",
+    "sectionId": "dem-ai"
+   },
+   {
+    "labelZh": "sin 与 ta",
+    "sectionId": "dem-indep"
+   },
+   {
+    "labelZh": "末位变格",
+    "sectionId": "lw-intro"
+   },
+   {
+    "labelZh": "Elendil Voronda",
+    "sectionId": "lw-elendil"
+   },
+   {
+    "labelZh": "Vorondo",
+    "sectionId": "lw-gen"
+   },
+   {
+    "labelZh": "Vorondanna",
+    "sectionId": "lw-all"
+   },
+   {
+    "labelZh": "mallë téra",
+    "sectionId": "lw-common"
+   },
+   {
+    "labelZh": "Markirya",
+    "sectionId": "lw-markirya"
+   },
+   {
+    "labelZh": "isilmë 系列",
+    "sectionId": "lw-isilme"
+   },
+   {
+    "labelZh": "诗意译法",
+    "sectionId": "lw-poetic"
+   },
+   {
+    "labelZh": "axor ilcalannar",
+    "sectionId": "lw-axor"
+   },
+   {
+    "labelZh": "复数与双数",
+    "sectionId": "lw-plural"
+   },
+   {
+    "labelZh": "反例",
+    "sectionId": "lw-counter"
+   },
+   {
+    "labelZh": "两个反例",
+    "sectionId": "lw-two"
+   },
+   {
+    "labelZh": "为何加名词",
+    "sectionId": "lw-why"
+   },
+   {
+    "labelZh": "fairë aistan",
+    "sectionId": "lw-faire"
+   },
+   {
+    "labelZh": "指示词接格",
+    "sectionId": "lw-dem"
+   },
+   {
+    "labelZh": "i／u 词干",
+    "sectionId": "u-intro"
+   },
+   {
+    "labelZh": "ango",
+    "sectionId": "u-ango"
+   },
+   {
+    "labelZh": "-ngwi／-nqui",
+    "sectionId": "u-plural"
+   },
+   {
+    "labelZh": "urco",
+    "sectionId": "u-urco"
+   },
+   {
+    "labelZh": "lango／lanco",
+    "sectionId": "u-lango"
+   },
+   {
+    "labelZh": "ranco",
+    "sectionId": "u-ranco"
+   },
+   {
+    "labelZh": "rusco",
+    "sectionId": "u-rusco"
+   },
+   {
+    "labelZh": "curo",
+    "sectionId": "u-curo"
+   },
+   {
+    "labelZh": "rusquin",
+    "sectionId": "u-cases"
+   },
+   {
+    "labelZh": "其余各格",
+    "sectionId": "u-rest"
+   },
+   {
+    "labelZh": "序数词",
+    "sectionId": "ord-intro"
+   },
+   {
+    "labelZh": "四到九",
+    "sectionId": "ord-table"
+   },
+   {
+    "labelZh": "lempëa",
+    "sectionId": "ord-lempea"
+   },
+   {
+    "labelZh": "attëa／neldëa",
+    "sectionId": "ord-replace"
+   },
+   {
+    "labelZh": "第十",
+    "sectionId": "ord-ten"
+   },
+   {
+    "labelZh": "后续安排",
+    "sectionId": "ord-next"
+   },
+   {
+    "labelZh": "小结",
+    "sectionId": "summary"
+   },
+   {
+    "labelZh": "练习 A–P",
+    "sectionId": "exercises"
+   },
+   {
+    "labelZh": "词汇",
+    "sectionId": "vocabulary"
+   }
+  ]
+ }
+}

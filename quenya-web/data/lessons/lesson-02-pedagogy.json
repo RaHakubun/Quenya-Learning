@@ -1,0 +1,23 @@
+{
+  "lesson": 2,
+  "schemaVersion": 2,
+  "titleZh": "名词、复数与定冠词",
+  "titleEn": "Nouns. Plural form. The article.",
+  "summaryZh": "复数词尾 -li 的功能尚未弄清，本课搁置。常规复数：以 -a、-i、-o、-u 或 -ië 结尾加 -r；以 -ë 结尾（不含 -ië）用 -i 替换词末 -ë；辅音结尾加 -i。定冠词 i 对应英语 the，没有不定冠词；专有名词与指整个民族的复数前通常不加 i。",
+  "mindmap": {
+    "rootZh": "第 2 课",
+    "branches": [
+      {"labelZh": "名词与屈折观", "sectionId": "nouns-and-forms"},
+      {"labelZh": "两种复数", "sectionId": "two-plurals"},
+      {"labelZh": "常规复数 -r", "sectionId": "plural-r"},
+      {"labelZh": "常规复数 -i", "sectionId": "plural-i"},
+      {"labelZh": "例外与史料", "sectionId": "plural-exceptions"},
+      {"labelZh": "「精灵」诸词", "sectionId": "elf-words"},
+      {"labelZh": "定冠词 i", "sectionId": "article-i"},
+      {"labelZh": "冠词省略", "sectionId": "article-omission"},
+      {"labelZh": "本章小结", "sectionId": "summary"},
+      {"labelZh": "课末词汇", "sectionId": "vocabulary"},
+      {"labelZh": "练习与答案", "sectionId": "exercises"}
+    ]
+  }
+}

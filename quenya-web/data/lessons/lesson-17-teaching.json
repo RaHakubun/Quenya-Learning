@@ -1,0 +1,3184 @@
+{
+ "lesson": 17,
+ "schemaVersion": 2,
+ "oneLineZh": "指示词 sina／tana／enta／yana 跟在名词之后，复数把 -a 改成 -ë（vandar sinë）；格词尾可加在短语末词（Elendil Vorondo、axor ilcalannar、isilmë ilcalassë），也可加在名词上（rámainen elvië）；U 词干 ango／angu- 的主格复数作 angwi、ranqui，其余各格把 -o 改 -u；序数词用 -ëa（cantëa、lempëa）。",
+ "canDoZh": [
+  "能区分 sina／tana／enta／yana 的四种指认",
+  "能写出指示词与名词的单复数配合",
+  "能用「末位可变化词」规则给短语加格词尾",
+  "能判断何时该把格词尾加在名词上（反例）",
+  "能说明 U 词干在词末与非词末的 -o／-u 交替",
+  "能写出 -ngwi／-nqui 的主格复数与 rusquin／rusquion",
+  "能用 -ëa 造「第四」到「第九」的序数",
+  "知道 attëa／neldëa 与旧形式 atya／nelya 的关系"
+ ],
+ "conceptMap": [
+  {
+   "labelZh": "什么是指示词",
+   "noteZh": "定义",
+   "sectionId": "dem-intro"
+  },
+  {
+   "labelZh": "sina：唯一在正文里可证的指示词",
+   "noteZh": "唯一可证",
+   "sectionId": "dem-sina"
+  },
+  {
+   "labelZh": "tana：为什么不用 tanya",
+   "noteZh": "早期形式",
+   "sectionId": "dem-tana"
+  },
+  {
+   "labelZh": "enta：那边那个",
+   "noteZh": "enta",
+   "sectionId": "dem-enta"
+  },
+  {
+   "labelZh": "三种远近？一个未证的理论",
+   "noteZh": "两度与三度",
+   "sectionId": "dem-degree"
+  },
+  {
+   "labelZh": "yana：从前那个",
+   "noteZh": "yana",
+   "sectionId": "dem-yana"
+  },
+  {
+   "labelZh": "复数：把 -a 改成 -ë",
+   "noteZh": "无证",
+   "sectionId": "dem-plural"
+  },
+  {
+   "labelZh": "四组单复数对照",
+   "noteZh": "第一组",
+   "sectionId": "dem-ex"
+  },
+  {
+   "labelZh": "-ë 的老底：-ai",
+   "noteZh": "古形式",
+   "sectionId": "dem-ai"
+  },
+  {
+   "labelZh": "能不能单独用？sin 与 ta",
+   "noteZh": "问题",
+   "sectionId": "dem-indep"
+  },
+  {
+   "labelZh": "格词尾不一定加在名词上",
+   "noteZh": "原则",
+   "sectionId": "lw-intro"
+  },
+  {
+   "labelZh": "Elendil Voronda：名字加称号",
+   "noteZh": "例子",
+   "sectionId": "lw-elendil"
+  },
+  {
+   "labelZh": "Elendil Vorondo：属格加在形容词上",
+   "noteZh": "短语",
+   "sectionId": "lw-gen"
+  },
+  {
+   "labelZh": "各格通用：Elendil Vorondanna",
+   "noteZh": "单独",
+   "sectionId": "lw-all"
+  },
+  {
+   "labelZh": "普通名词也适用吗：mallë téra",
+   "noteZh": "例子",
+   "sectionId": "lw-common"
+  },
+  {
+   "labelZh": "《Markirya》的 isilmë 系列",
+   "noteZh": "结构",
+   "sectionId": "lw-markirya"
+  },
+  {
+   "labelZh": "三个位格形式",
+   "noteZh": "第一例",
+   "sectionId": "lw-isilme"
+  },
+  {
+   "labelZh": "托尔金自己的译法",
+   "noteZh": "诗意译法",
+   "sectionId": "lw-poetic"
+  },
+  {
+   "labelZh": "axor ilcalannar：复数向格的难题",
+   "noteZh": "短语",
+   "sectionId": "lw-axor"
+  },
+  {
+   "labelZh": "复数与双数怎么放",
+   "noteZh": "-i 复数",
+   "sectionId": "lw-plural"
+  },
+  {
+   "labelZh": "反例：词尾也可以加在名词上",
+   "noteZh": "不是硬规则",
+   "sectionId": "lw-counter"
+  },
+  {
+   "labelZh": "两个反例：rámainen elvië、ondolissë mornë",
+   "noteZh": "第一例",
+   "sectionId": "lw-two"
+  },
+  {
+   "labelZh": "为什么不加在形容词上",
+   "noteZh": "冲突",
+   "sectionId": "lw-why"
+  },
+  {
+   "labelZh": "新证据：fairë aistan 与 Namna Finwë Míriello",
+   "noteZh": "fairë aistan",
+   "sectionId": "lw-faire"
+  },
+  {
+   "labelZh": "指示词能不能接格词尾",
+   "noteZh": "单数",
+   "sectionId": "lw-dem"
+  },
+  {
+   "labelZh": "i 词干与 u 词干：同一个音变",
+   "noteZh": "音变",
+   "sectionId": "u-intro"
+  },
+  {
+   "labelZh": "ango「蛇」：u 词干的标准例",
+   "noteZh": "词干",
+   "sectionId": "u-ango"
+  },
+  {
+   "labelZh": "主格复数 -ngwi／-nqui",
+   "noteZh": "通常情况",
+   "sectionId": "u-plural"
+  },
+  {
+   "labelZh": "urco：-qui 复数的例子",
+   "noteZh": "形式",
+   "sectionId": "u-urco"
+  },
+  {
+   "labelZh": "lango 与 lanco：一个被换掉的词",
+   "noteZh": "普查结果",
+   "sectionId": "u-lango"
+  },
+  {
+   "labelZh": "ranco「臂」：双数的两难",
+   "noteZh": "确定",
+   "sectionId": "u-ranco"
+  },
+  {
+   "labelZh": "rusco「狐」",
+   "noteZh": "形式",
+   "sectionId": "u-rusco"
+  },
+  {
+   "labelZh": "curo：不以 -co／-go 结尾的 u 词干",
+   "noteZh": "curo",
+   "sectionId": "u-curo"
+  },
+  {
+   "labelZh": "-qui 复数的其余各格",
+   "noteZh": "与格、属格",
+   "sectionId": "u-cases"
+  },
+  {
+   "labelZh": "其余各格：把 -o 改成 -u",
+   "noteZh": "规则",
+   "sectionId": "u-rest"
+  },
+  {
+   "labelZh": "三个老序数与 -ëa 新规则",
+   "noteZh": "三个旧序数",
+   "sectionId": "ord-intro"
+  },
+  {
+   "labelZh": "四到九：六组对照",
+   "noteZh": "四",
+   "sectionId": "ord-table"
+  },
+  {
+   "labelZh": "lempëa 取代了 lemenya",
+   "noteZh": "出处",
+   "sectionId": "ord-lempea"
+  },
+  {
+   "labelZh": "attëa 与 neldëa",
+   "noteZh": "attëa",
+   "sectionId": "ord-replace"
+  },
+  {
+   "labelZh": "「第十」的争议：quainëa 与 cainen",
+   "noteZh": "quainëa",
+   "sectionId": "ord-ten"
+  },
+  {
+   "labelZh": "接下来三课",
+   "noteZh": "预告",
+   "sectionId": "ord-next"
+  },
+  {
+   "labelZh": "本课小结",
+   "noteZh": "",
+   "sectionId": "summary"
+  },
+  {
+   "labelZh": "练习 A–P",
+   "noteZh": "本课考点",
+   "sectionId": "exercises"
+  },
+  {
+   "labelZh": "课末词汇",
+   "noteZh": "四个指示词",
+   "sectionId": "vocabulary"
+  }
+ ],
+ "pathTitleZh": "学习路径",
+ "path": [
+  {
+   "step": 1,
+   "labelZh": "什么是指示词",
+   "sectionId": "dem-intro"
+  },
+  {
+   "step": 2,
+   "labelZh": "sina：唯一在正文里可证的指示词",
+   "sectionId": "dem-sina"
+  },
+  {
+   "step": 3,
+   "labelZh": "tana：为什么不用 tanya",
+   "sectionId": "dem-tana"
+  },
+  {
+   "step": 4,
+   "labelZh": "enta：那边那个",
+   "sectionId": "dem-enta"
+  },
+  {
+   "step": 5,
+   "labelZh": "三种远近？一个未证的理论",
+   "sectionId": "dem-degree"
+  },
+  {
+   "step": 6,
+   "labelZh": "yana：从前那个",
+   "sectionId": "dem-yana"
+  },
+  {
+   "step": 7,
+   "labelZh": "复数：把 -a 改成 -ë",
+   "sectionId": "dem-plural"
+  },
+  {
+   "step": 8,
+   "labelZh": "四组单复数对照",
+   "sectionId": "dem-ex"
+  },
+  {
+   "step": 9,
+   "labelZh": "-ë 的老底：-ai",
+   "sectionId": "dem-ai"
+  },
+  {
+   "step": 10,
+   "labelZh": "能不能单独用？sin 与 ta",
+   "sectionId": "dem-indep"
+  },
+  {
+   "step": 11,
+   "labelZh": "格词尾不一定加在名词上",
+   "sectionId": "lw-intro"
+  },
+  {
+   "step": 12,
+   "labelZh": "Elendil Voronda：名字加称号",
+   "sectionId": "lw-elendil"
+  },
+  {
+   "step": 13,
+   "labelZh": "Elendil Vorondo：属格加在形容词上",
+   "sectionId": "lw-gen"
+  },
+  {
+   "step": 14,
+   "labelZh": "各格通用：Elendil Vorondanna",
+   "sectionId": "lw-all"
+  },
+  {
+   "step": 15,
+   "labelZh": "普通名词也适用吗：mallë téra",
+   "sectionId": "lw-common"
+  },
+  {
+   "step": 16,
+   "labelZh": "《Markirya》的 isilmë 系列",
+   "sectionId": "lw-markirya"
+  },
+  {
+   "step": 17,
+   "labelZh": "三个位格形式",
+   "sectionId": "lw-isilme"
+  },
+  {
+   "step": 18,
+   "labelZh": "托尔金自己的译法",
+   "sectionId": "lw-poetic"
+  },
+  {
+   "step": 19,
+   "labelZh": "axor ilcalannar：复数向格的难题",
+   "sectionId": "lw-axor"
+  },
+  {
+   "step": 20,
+   "labelZh": "复数与双数怎么放",
+   "sectionId": "lw-plural"
+  },
+  {
+   "step": 21,
+   "labelZh": "反例：词尾也可以加在名词上",
+   "sectionId": "lw-counter"
+  },
+  {
+   "step": 22,
+   "labelZh": "两个反例：rámainen elvië、ondolissë mornë",
+   "sectionId": "lw-two"
+  },
+  {
+   "step": 23,
+   "labelZh": "为什么不加在形容词上",
+   "sectionId": "lw-why"
+  },
+  {
+   "step": 24,
+   "labelZh": "新证据：fairë aistan 与 Namna Finwë Míriello",
+   "sectionId": "lw-faire"
+  },
+  {
+   "step": 25,
+   "labelZh": "指示词能不能接格词尾",
+   "sectionId": "lw-dem"
+  },
+  {
+   "step": 26,
+   "labelZh": "i 词干与 u 词干：同一个音变",
+   "sectionId": "u-intro"
+  },
+  {
+   "step": 27,
+   "labelZh": "ango「蛇」：u 词干的标准例",
+   "sectionId": "u-ango"
+  },
+  {
+   "step": 28,
+   "labelZh": "主格复数 -ngwi／-nqui",
+   "sectionId": "u-plural"
+  },
+  {
+   "step": 29,
+   "labelZh": "urco：-qui 复数的例子",
+   "sectionId": "u-urco"
+  },
+  {
+   "step": 30,
+   "labelZh": "lango 与 lanco：一个被换掉的词",
+   "sectionId": "u-lango"
+  },
+  {
+   "step": 31,
+   "labelZh": "ranco「臂」：双数的两难",
+   "sectionId": "u-ranco"
+  },
+  {
+   "step": 32,
+   "labelZh": "rusco「狐」",
+   "sectionId": "u-rusco"
+  },
+  {
+   "step": 33,
+   "labelZh": "curo：不以 -co／-go 结尾的 u 词干",
+   "sectionId": "u-curo"
+  },
+  {
+   "step": 34,
+   "labelZh": "-qui 复数的其余各格",
+   "sectionId": "u-cases"
+  },
+  {
+   "step": 35,
+   "labelZh": "其余各格：把 -o 改成 -u",
+   "sectionId": "u-rest"
+  },
+  {
+   "step": 36,
+   "labelZh": "三个老序数与 -ëa 新规则",
+   "sectionId": "ord-intro"
+  },
+  {
+   "step": 37,
+   "labelZh": "四到九：六组对照",
+   "sectionId": "ord-table"
+  },
+  {
+   "step": 38,
+   "labelZh": "lempëa 取代了 lemenya",
+   "sectionId": "ord-lempea"
+  },
+  {
+   "step": 39,
+   "labelZh": "attëa 与 neldëa",
+   "sectionId": "ord-replace"
+  },
+  {
+   "step": 40,
+   "labelZh": "「第十」的争议：quainëa 与 cainen",
+   "sectionId": "ord-ten"
+  },
+  {
+   "step": 41,
+   "labelZh": "接下来三课",
+   "sectionId": "ord-next"
+  },
+  {
+   "step": 42,
+   "labelZh": "本课小结",
+   "sectionId": "summary"
+  },
+  {
+   "step": 43,
+   "labelZh": "练习 A–P",
+   "sectionId": "exercises"
+  },
+  {
+   "step": 44,
+   "labelZh": "课末词汇",
+   "sectionId": "vocabulary"
+  }
+ ],
+ "modules": [
+  {
+   "sectionId": "dem-intro",
+   "sourceSectionId": "quenya-demonstratives",
+   "titleZh": "01 · 什么是指示词",
+   "leadZh": "指示词就是 this／that 这一类词，比冠词 the 意义更强。它们可与名词连用，构成「this house」这样的短语。",
+   "objectives": [
+    "知道指示词与冠词的区别",
+    "知道冠词常由指示词磨损而来"
+   ],
+   "rules": [
+    {
+     "id": "r-dm1",
+     "headZh": "定义",
+     "bodyZh": "指示词即 this、that（复数 these、those）这类词，意义比单纯的冠词 the 更强。",
+     "en": "they have a stronger meaning than the mere article the",
+     "zh": "它们的意义比单纯的冠词 the 更强。"
+    },
+    {
+     "id": "r-dm2",
+     "headZh": "冠词的来历",
+     "bodyZh": "世界各语言里，许多定冠词正是从被过度使用、意义磨损的旧指示词演变而来。",
+     "en": "many definitive articles descend from older demonstratives that were overused so that their meaning faded",
+     "zh": "许多定冠词源自被过度使用、意义磨损的旧指示词。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 sina 当成冠词 i",
+     "right": "sina 是「这个」，比 i 更强",
+     "whyZh": "原文第一句即把二者对立：a stronger meaning than the mere article the。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "本节的四条线",
+     "bodyZh": "接下来讲四个指示词：sina「这」、tana「那」、enta「那边那」、yana「从前那」。它们不只是同义词，而是按空间与时间分工。读的时候把「近／远／未来／过去」四个维度记在心上。"
+    }
+   ],
+   "recapZh": "指示词＝this／that 类，强于冠词。",
+   "selfCheckZh": [
+    {
+     "qZh": "指示词与冠词 the 有何不同？",
+     "aZh": "指示词意义更强，指认具体对象。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "quenya-demonstratives",
+    "unitIds": [
+     0
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "dem-sina",
+   "sourceSectionId": "quenya-demonstratives",
+   "titleZh": "02 · sina：唯一在正文里可证的指示词",
+   "leadZh": "Cirion 的誓言以 vanda sina 开头，译作「this oath」。昆雅词序是「oath this」。",
+   "objectives": [
+    "能读 vanda sina",
+    "知道 SI- 词根与「此地此刻」有关"
+   ],
+   "rules": [
+    {
+     "id": "r-dm3",
+     "headZh": "唯一可证",
+     "bodyZh": "LotR 风格的昆雅里，实际文本中可证的指示词只有一个：vanda sina「this oath」。",
+     "en": "vanda sina",
+     "zh": "这个誓言。",
+     "exampleZh": "vanda sina"
+    },
+    {
+     "id": "r-dm4",
+     "headZh": "词序",
+     "bodyZh": "昆雅词序是「oath this」，指示词跟在名词之后。",
+     "en": "The Quenya word order is actually \"oath this\"",
+     "zh": "昆雅词序实际是「誓言 这」。"
+    },
+    {
+     "id": "r-dm5",
+     "headZh": "词根 SI-",
+     "bodyZh": "词根 SI- 与时间或空间上的当前位置有关：sí「now」、sinomë「in this place」＝「here」。",
+     "en": "has to do with present position in time or space",
+     "zh": "词根 SI- 与时间或空间上的当前位置有关。",
+     "exampleZh": "sí／sinomë"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写成 sina vanda",
+     "right": "Cirion 的誓言作 vanda sina（名词在前）",
+     "whyZh": "原文明确指出昆雅词序是 oath this，且练习一律采用这个语序。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一个词撑起一节",
+     "bodyZh": "整个指示词系统的讨论都从 vanda sina 这两个词出发。作者的做法是：先钉住唯一可证的例子，再由此外推其余。读这一节要记住这个次序。"
+    }
+   ],
+   "recapZh": "vanda sina；词序「名词＋指示词」。",
+   "selfCheckZh": [
+    {
+     "qZh": "「这个誓言」怎么写？",
+     "aZh": "vanda sina。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "quenya-demonstratives",
+    "unitIds": [
+     1
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "dem-tana",
+   "sourceSectionId": "quenya-demonstratives",
+   "titleZh": "03 · tana：为什么不用 tanya",
+   "leadZh": "早期「Qenya」文本有 tanya wende「that maiden」，但《词源》给的昆雅词是 tana，与 sina 完美对应。",
+   "objectives": [
+    "知道 tanya 与 tana 的取舍",
+    "能写 vanda tana、vendë tana"
+   ],
+   "rules": [
+    {
+     "id": "r-dm6",
+     "headZh": "早期形式",
+     "bodyZh": "MC:215 的早期「Qenya」文本有 tanya wende「that maiden」，词序是英语式（指示词在前）。",
+     "en": "tanya wende",
+     "zh": "那个少女。",
+     "exampleZh": "tanya wende"
+    },
+    {
+     "id": "r-dm7",
+     "headZh": "取舍",
+     "bodyZh": "《词源》TA 条把昆雅实际的「that」给作 tana，与 sina 完美对应，故本书用 tana。",
+     "en": "we will here use tana rather than tanya as the word for \"that\"",
+     "zh": "我们这里用 tana 而非 tanya 作「that」。",
+     "exampleZh": "tana"
+    },
+    {
+     "id": "r-dm8",
+     "headZh": "落实词序",
+     "bodyZh": "既然 vanda sina 是「this oath」，「that oath」就该是 vanda tana；tanya wende 应更新为 vendë tana。",
+     "en": "vanda tana",
+     "zh": "那个誓言。",
+     "exampleZh": "vendë tana"
+    },
+    {
+     "id": "r-dm9",
+     "headZh": "回指",
+     "bodyZh": "《词源》TA 条把 tana 描述为回指词，即回指已提到过的东西。",
+     "en": "Tolkien actually described tana an anaphoric word for \"that\"",
+     "zh": "托尔金把 tana 描述为「that」的回指词。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 tanya 是 LotR 风格的昆雅",
+     "right": "它出自早期「Qenya」材料，本书改用 tana",
+     "whyZh": "原文：we cannot be quite certain that the word tanya is still valid in LotR-style Quenya。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么换词",
+     "bodyZh": "不是因为 tanya 错了，而是因为 tana 与 sina 构成整齐的 -na 对。作者选词的标准是「系统一致性」，这在全书反复出现。"
+    }
+   ],
+   "recapZh": "tana（不用 tanya）；vanda tana、vendë tana。",
+   "selfCheckZh": [
+    {
+     "qZh": "「那个少女」用本书的写法？",
+     "aZh": "vendë tana。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "quenya-demonstratives",
+    "unitIds": [
+     2
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "dem-enta",
+   "sourceSectionId": "quenya-demonstratives",
+   "titleZh": "04 · enta：那边那个",
+   "leadZh": "enta 出自《词源》EN 条，释作「that yonder」。词根 EN 意为「over there, yonder」。",
+   "objectives": [
+    "能写 coa enta",
+    "知道 enta 侧重空间距离"
+   ],
+   "rules": [
+    {
+     "id": "r-dm10",
+     "headZh": "enta",
+     "bodyZh": "enta 见于《词源》EN 条，描述为形容词，意为「that yonder」。",
+     "en": "enta",
+     "zh": "那边那个。",
+     "exampleZh": "coa enta"
+    },
+    {
+     "id": "r-dm11",
+     "headZh": "词根 EN",
+     "bodyZh": "词根 EN 被说成「element or prefix = over there, yonder」。",
+     "en": "element or prefix = over there, yonder",
+     "zh": "成分或前缀＝在那边、那边。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 enta 当 tana 的同义替换",
+     "right": "enta 强调「离说话者有物理距离」",
+     "whyZh": "原文：enta clearly connotes the idea of \"over there\"。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "三个「that」的分工",
+     "bodyZh": "tana 是一般的「那」，enta 是「那边那」，yana 是「从前那」。英语只有一个 that，昆雅有三个——这正是本节的难点。"
+    }
+   ],
+   "recapZh": "enta＝that yonder；coa enta。",
+   "selfCheckZh": [
+    {
+     "qZh": "「那边那所房子」？",
+     "aZh": "coa enta。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "quenya-demonstratives",
+    "unitIds": [
+     3
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "dem-degree",
+   "sourceSectionId": "quenya-demonstratives",
+   "titleZh": "05 · 三种远近？一个未证的理论",
+   "leadZh": "有些语言区分三度远近：近说话者、近听者、离两者皆远。作者猜测 tana 对 enta 可能如此，但明说证据不足。",
+   "objectives": [
+    "知道三度远近的假设",
+    "知道这个假设未证"
+   ],
+   "rules": [
+    {
+     "id": "r-dm12",
+     "headZh": "两度与三度",
+     "bodyZh": "英语通常只分两度（this／that）；有些语言还考虑听者位置，因而有两个「that」。",
+     "en": "in some languages, the position of the listener is also considered",
+     "zh": "在有些语言里，听者的位置也被考虑。"
+    },
+    {
+     "id": "r-dm13",
+     "headZh": "假设",
+     "bodyZh": "会不会 tana 指靠近被称呼者的东西，而 enta 指远离双方的东西？",
+     "en": "There is presently little or no evidence to back up such a theory",
+     "zh": "目前支持这种理论的证据极少甚至没有。"
+    },
+    {
+     "id": "r-dm14",
+     "headZh": "确定的部分",
+     "bodyZh": "至少可以确定 enta 含有「over there」「that yonder」之意，即被物理距离隔开。",
+     "en": "enta clearly connotes the idea of \"over there\"",
+     "zh": "enta 清楚含有「在那边」之意。"
+    },
+    {
+     "id": "r-dm15",
+     "headZh": "辛达林旁证",
+     "bodyZh": "辛达林 ennas「there」被认为代表较早的位格，可对应昆雅 entassë「in yonder place」。",
+     "en": "entassë",
+     "zh": "在那边（地方）。",
+     "exampleZh": "ennas／entassë"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把「tana＝近听者、enta＝远离双方」当定论",
+     "right": "这只是作者的猜测",
+     "whyZh": "原文用 little or no evidence 明确标注了证据强度。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "如何读「假设段」",
+     "bodyZh": "这一段大半是推测，但作者把「可确定」与「不可确定」分得很清：enta 含「那边」义可确定，三度对立不可确定。读原文时要抓住这个分界。"
+    }
+   ],
+   "recapZh": "三度远近属假设；enta 的「那边」义可确定。",
+   "selfCheckZh": [
+    {
+     "qZh": "tana 与 enta 的三度对立有证据吗？",
+     "aZh": "几乎没有，只是猜测。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "quenya-demonstratives",
+    "unitIds": [
+     4
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "dem-yana",
+   "sourceSectionId": "quenya-demonstratives",
+   "titleZh": "06 · yana：从前那个",
+   "leadZh": "yana 出自《词源》YA 条，释作「that」并注明「the former」。词根 YA 指过去，EN 指未来。",
+   "objectives": [
+    "能写 aran yana、aurë yana、aurë enta",
+    "知道 YA 与 EN 的时间对立"
+   ],
+   "rules": [
+    {
+     "id": "r-dm16",
+     "headZh": "yana",
+     "bodyZh": "《词源》YA 条在释义「that」后注明「(the former)」：aran yana 意为「那位（前）王」。",
+     "en": "aran yana",
+     "zh": "那位前王。",
+     "exampleZh": "aran yana"
+    },
+    {
+     "id": "r-dm17",
+     "headZh": "时间对立",
+     "bodyZh": "词根 YA 意为「there, over there; of time, ago」；EN「of time points to the future」。",
+     "en": "of time points to the future",
+     "zh": "在时间上指向未来。"
+    },
+    {
+     "id": "r-dm18",
+     "headZh": "两例",
+     "bodyZh": "aurë enta 指尚未到来的某日；aurë yana 指过去的某日。中性说法是 aurë tana。",
+     "en": "aurë yana",
+     "zh": "（过去）那一天。",
+     "exampleZh": "aurë enta／aurë yana／aurë tana"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 yana 与 enta 互换",
+     "right": "yana 指过去，enta 可指未来",
+     "whyZh": "原文：\"that day\" may translate as aurë enta if we are talking about some future day... whereas aurë yana is \"that day\" with reference to some day in the past。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "时间维度的指示",
+     "bodyZh": "英语的 that day 不分过去未来，昆雅却用 enta／yana 区分。这一层对汉语读者尤其陌生，但练习 O、P 正是考它。"
+    }
+   ],
+   "recapZh": "yana＝从前那；enta 可指未来；tana 中性。",
+   "selfCheckZh": [
+    {
+     "qZh": "「（将来）那一天」用哪个？",
+     "aZh": "aurë enta。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "quenya-demonstratives",
+    "unitIds": [
+     5
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "dem-plural",
+   "sourceSectionId": "quenya-demonstratives",
+   "titleZh": "07 · 复数：把 -a 改成 -ë",
+   "leadZh": "复数指示词没有可证形式，但这些词形似形容词（-na 词尾），故可按形容词变复数：-a → -ë。",
+   "objectives": [
+    "知道复数化的方法",
+    "知道 enta 被明确称作形容词"
+   ],
+   "rules": [
+    {
+     "id": "r-dm19",
+     "headZh": "无证",
+     "bodyZh": "these／those 没有可证的昆雅形式。",
+     "en": "we have no attested Quenya forms",
+     "zh": "我们没有可证的（复数）形式。"
+    },
+    {
+     "id": "r-dm20",
+     "headZh": "按形容词处理",
+     "bodyZh": "sina、tana、yana 形似形容词（-na 是形容词或分词词尾），enta 被托尔金明确指为形容词。",
+     "en": "-na being an adjectival or participial ending",
+     "zh": "-na 是形容词或分词词尾。"
+    },
+    {
+     "id": "r-dm21",
+     "headZh": "规则",
+     "bodyZh": "把这些词按形容词变格，复数只需把末 -a 改成 -ë。",
+     "en": "we can derive their plural forms simply by changing the final -a to -ë",
+     "zh": "复数形式只需把末 -a 改成 -ë。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为复数要加 -r",
+     "right": "指示词按形容词变，-a → -ë",
+     "whyZh": "原文给出的四组例子全部是 -ë 结尾（sinë、tanë、entë、yanë）。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么敢外推",
+     "bodyZh": "依据有两条：词形像形容词，且 enta 被明确称作形容词。作者把推理链摆出来，读者可以自己判断强弱。"
+    }
+   ],
+   "recapZh": "复数：sinë、tanë、entë、yanë。",
+   "selfCheckZh": [
+    {
+     "qZh": "sina 的复数？",
+     "aZh": "sinë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "quenya-demonstratives",
+    "unitIds": [
+     6
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "dem-ex",
+   "sourceSectionId": "quenya-demonstratives",
+   "titleZh": "08 · 四组单复数对照",
+   "leadZh": "vandar sinë、nissi tanë、coar entë、auri yanë——四组例子把「名词＋指示词」的单复数都走了一遍。",
+   "objectives": [
+    "能写四组单复数",
+    "注意名词与指示词都要变复数"
+   ],
+   "rules": [
+    {
+     "id": "r-dm22",
+     "headZh": "第一组",
+     "bodyZh": "vanda sina「this oath」／vandar sinë「these oaths」。",
+     "en": "vandar sinë",
+     "zh": "这些誓言。",
+     "exampleZh": "vanda sina／vandar sinë"
+    },
+    {
+     "id": "r-dm23",
+     "headZh": "第二组",
+     "bodyZh": "nís tana「that woman」／nissi tanë「those women」。",
+     "en": "nissi tanë",
+     "zh": "那些女人。",
+     "exampleZh": "nís tana／nissi tanë"
+    },
+    {
+     "id": "r-dm24",
+     "headZh": "第三组",
+     "bodyZh": "coa enta「that house over there」／coar entë「those houses」。",
+     "en": "coar entë",
+     "zh": "那些（那边的）房子。",
+     "exampleZh": "coa enta／coar entë"
+    },
+    {
+     "id": "r-dm25",
+     "headZh": "第四组",
+     "bodyZh": "aurë yana「that day in the past」／auri yanë「those days」。",
+     "en": "auri yanë",
+     "zh": "那些（过去的）日子。",
+     "exampleZh": "aurë yana／auri yanë"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "只把指示词变复数、名词不变",
+     "right": "两边都要变：vandar sinë",
+     "whyZh": "四组例子中名词与指示词全部一致变化。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一致性",
+     "bodyZh": "指示词像形容词，所以要与名词在数上一致。这一点与英语 these oaths 相同，区别只在于昆雅的复数词尾随名词类别而变（-r 或 -i）。"
+    }
+   ],
+   "recapZh": "vandar sinë、nissi tanë、coar entë、auri yanë。",
+   "selfCheckZh": [
+    {
+     "qZh": "「那些女人」？",
+     "aZh": "nissi tanë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "quenya-demonstratives",
+    "unitIds": [
+     7,
+     8,
+     9,
+     10
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "dem-ai",
+   "sourceSectionId": "quenya-demonstratives",
+   "titleZh": "09 · -ë 的老底：-ai",
+   "leadZh": "这些 -ë 复数代表古形式 -ai：sinai → sinë。摩瑞亚之门上的 i thiw hin 是间接旁证。",
+   "objectives": [
+    "知道 -ë ← -ai 的音变",
+    "知道 sinâi → sinai → sinë"
+   ],
+   "rules": [
+    {
+     "id": "r-dm26",
+     "headZh": "古形式",
+     "bodyZh": "与 -a 结尾的普通形容词一样，-ë 复数代表以 -ai 结尾的古形式（vandar sinai 等）。",
+     "en": "the plural forms in -ë would represent archaic forms in -ai",
+     "zh": "-ë 复数代表以 -ai 结尾的古形式。"
+    },
+    {
+     "id": "r-dm27",
+     "headZh": "旁证",
+     "bodyZh": "摩瑞亚之门铭文的辛达林 i thiw hin「these runes」，托尔金本意应代表较早的 in teñwâi sinâi。",
+     "en": "i thiw hin",
+     "zh": "这些符文。",
+     "exampleZh": "i thiw hin"
+    },
+    {
+     "id": "r-dm28",
+     "headZh": "音变链",
+     "bodyZh": "昆雅古老的复数指示词 sinâi「these」先变成 sinai，再变成 sinë。",
+     "en": "would first become sinai and then sinë",
+     "zh": "先变成 sinai，再变成 sinë。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 sinë 当成新造的复数",
+     "right": "它是 sinâi 经两声音变的结果",
+     "whyZh": "原文给出了 sinâi → sinai → sinë 的完整链条。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么要讲音变",
+     "bodyZh": "因为 -ë 复数是全书反复出现的模式（形容词、指示词皆然）。知道它来自 -ai，就能理解为什么不是 -i 也不是 -r。"
+    }
+   ],
+   "recapZh": "sinâi → sinai → sinë。",
+   "selfCheckZh": [
+    {
+     "qZh": "sinë 的古形式？",
+     "aZh": "sinâi（经 sinai）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "quenya-demonstratives",
+    "unitIds": [
+     11
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "dem-indep",
+   "sourceSectionId": "quenya-demonstratives",
+   "titleZh": "10 · 能不能单独用？sin 与 ta",
+   "leadZh": "指示词能否独立使用并不清楚。PM:401 的 sin quentë Quendingoldo 提示 sin 可能是独立的「this」。",
+   "objectives": [
+    "知道 sin 与 ta 这两个独立形式",
+    "知道本书练习只考形容词性用法"
+   ],
+   "rules": [
+    {
+     "id": "r-dm29",
+     "headZh": "问题",
+     "bodyZh": "上面这些指示词能否单独出现、不只与名词连用，并不清楚。",
+     "en": "It is not clear whether the demonstratives discussed above could occur by themselves",
+     "zh": "这些指示词能否单独出现并不清楚。"
+    },
+    {
+     "id": "r-dm30",
+     "headZh": "sin",
+     "bodyZh": "PM:401 有 sin quentë Quendingoldo，可解作「this Quendingoldo said」或「thus spoke Quendingoldo」。",
+     "en": "sin quentë Quendingoldo",
+     "zh": "这位 Quendingoldo 说／如此说。",
+     "exampleZh": "sin"
+    },
+    {
+     "id": "r-dm31",
+     "headZh": "ta",
+     "bodyZh": "ta 是「that」的「独立」形式，对应形容词 tana（《词源》TA 条）。",
+     "en": "ta as an \"independent\" form of \"that\"",
+     "zh": "ta 是「that」的独立形式。",
+     "exampleZh": "ta"
+    },
+    {
+     "id": "r-dm32",
+     "headZh": "练习范围",
+     "bodyZh": "其他独立形式所知极少，练习只考与名词连用的形容词性指示词 sina、tana、enta、yana。",
+     "en": "we will concentrate on the adjectival demonstratives",
+     "zh": "我们集中于形容词性指示词。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "在练习里用 sin 或 ta 独立成句",
+     "right": "练习只考 sina／tana／enta／yana 作定语",
+     "whyZh": "原文明确划定了练习范围。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "两种解释并存",
+     "bodyZh": "sin 可作「this」也可作「thus」，作者不裁决，只把两种可能都摆出来。这种处理方式在本课出现多次。"
+    }
+   ],
+   "recapZh": "sin（this?／thus?）、ta（that 独立式）；练习只用定语用法。",
+   "selfCheckZh": [
+    {
+     "qZh": "练习考哪几个指示词？",
+     "aZh": "sina、tana、enta、yana（作定语）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "quenya-demonstratives",
+    "unitIds": [
+     12
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "lw-intro",
+   "sourceSectionId": "inflecting-the-quot-last-declinable-word-quot",
+   "titleZh": "11 · 格词尾不一定加在名词上",
+   "leadZh": "名词是较长短语的一部分时（比如后面跟着定语形容词），格词尾可以加在短语的最后一个词上。",
+   "objectives": [
+    "知道「末位可变化词」这一原则",
+    "知道它适用于各格"
+   ],
+   "rules": [
+    {
+     "id": "r-lw1",
+     "headZh": "原则",
+     "bodyZh": "格词尾并不总是加在逻辑上「属于」它的名词上；当名词属于较长短语时，词尾可加在短语末词上。",
+     "en": "the case ending may be added to the last word of the phrase",
+     "zh": "格词尾可以加在短语的最后一个词上。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为格词尾只能贴在名词本体",
+     "right": "短语末词才是承载者",
+     "whyZh": "原文把这条作为本节全部例子的总纲。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "本节的两条线",
+     "bodyZh": "一条是「可以加在末词」（Cirion 的誓言、Markirya 的 isilmë 系列），一条是「也可以加在名词」（rámainen elvië、ondolissë mornë）。两条并存，作者最后说这不是硬性规则。"
+    }
+   ],
+   "recapZh": "格词尾可加在短语末词。",
+   "selfCheckZh": [
+    {
+     "qZh": "「末位可变化词」指什么？",
+     "aZh": "短语里最后一个能变格的词。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "inflecting-the-quot-last-declinable-word-quot",
+    "unitIds": [
+     0
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "lw-elendil",
+   "sourceSectionId": "inflecting-the-quot-last-declinable-word-quot",
+   "titleZh": "12 · Elendil Voronda：名字加称号",
+   "leadZh": "Cirion 的誓言提到 Elendil Voronda「Elendil the Faithful」。托尔金说：作称号的形容词置于名字之后。",
+   "objectives": [
+    "知道称号形容词后置",
+    "知道名字与形容词之间不加冠词"
+   ],
+   "rules": [
+    {
+     "id": "r-lw2",
+     "headZh": "例子",
+     "bodyZh": "Cirion 的誓言提到 Elendil Voronda「Elendil the Faithful」，voronda 意为「steadfast, faithful」。",
+     "en": "Elendil Voronda",
+     "zh": "忠实的埃兰迪尔。",
+     "exampleZh": "Elendil Voronda"
+    },
+    {
+     "id": "r-lw3",
+     "headZh": "托尔金的说明",
+     "bodyZh": "用作「称号」或常作名字附加成分的形容词置于名字之后（UT:317）。",
+     "en": "Adjectives used as a 'title' or frequently used attribute of a name are placed after the name",
+     "zh": "作称号的形容词置于名字之后。"
+    },
+    {
+     "id": "r-lw4",
+     "headZh": "不加冠词",
+     "bodyZh": "昆雅在此与英语不同，不在名字与形容词之间插入定冠词——故不是 Elendil i Voronda。",
+     "en": "hence not Elendil i Voronda",
+     "zh": "故不是 Elendil i Voronda。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写成 Elendil i Voronda",
+     "right": "Elendil Voronda",
+     "whyZh": "原文明确排除加冠词的写法。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "词序是格的前提",
+     "bodyZh": "正因为形容词在后，它才成为短语末词，才有资格接格词尾。下一段的属格 -o 正是加在 voronda 上。"
+    }
+   ],
+   "recapZh": "Elendil Voronda；称号形容词后置，不加冠词。",
+   "selfCheckZh": [
+    {
+     "qZh": "「忠实的埃兰迪尔」怎么写？",
+     "aZh": "Elendil Voronda。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "inflecting-the-quot-last-declinable-word-quot",
+    "unitIds": [
+     1
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "lw-gen",
+   "sourceSectionId": "inflecting-the-quot-last-declinable-word-quot",
+   "titleZh": "13 · Elendil Vorondo：属格加在形容词上",
+   "leadZh": "「Elendil the Faithful 的信仰」作 Elendil Vorondo voronwë：属格 -o 加在 voronda 上，不加在 Elendil 上。",
+   "objectives": [
+    "能读 Elendil Vorondo",
+    "能引托尔金「只有末位变格」的说法"
+   ],
+   "rules": [
+    {
+     "id": "r-lw5",
+     "headZh": "短语",
+     "bodyZh": "Elendil Vorondo voronwë「Elendil the Faithful's faith」（UT:305 译作 the faith of Elendil the Faithful）。",
+     "en": "Elendil Vorondo voronwë",
+     "zh": "忠实的埃兰迪尔的信仰。",
+     "exampleZh": "Elendil Vorondo voronwë"
+    },
+    {
+     "id": "r-lw6",
+     "headZh": "词尾位置",
+     "bodyZh": "属格词尾 -o 加在形容词 voronda 上（照例取代末 -a），而非加在名词 Elendil 上。",
+     "en": "is added to the adjective voronda",
+     "zh": "加在形容词 voronda 上。"
+    },
+    {
+     "id": "r-lw7",
+     "headZh": "托尔金的规则",
+     "bodyZh": "「As is usual in Quenya in the case of two declinable names in apposition only the last is declined」（UT:317）。",
+     "en": "only the last is declined",
+     "zh": "只有末一个变格。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写成 Elendilo Voronda",
+     "right": "Elendil Vorondo",
+     "whyZh": "原文：only the last is declined。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "同位语",
+     "bodyZh": "voronda 在此与 Elendil 同位，被当作附加的「名字」。理解「同位」这个说法，就能理解为什么变格落在它身上。"
+    }
+   ],
+   "recapZh": "Elendil Vorondo voronwë。",
+   "selfCheckZh": [
+    {
+     "qZh": "「忠实的埃兰迪尔的」怎么变？",
+     "aZh": "Elendil Vorondo。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "inflecting-the-quot-last-declinable-word-quot",
+    "unitIds": [
+     2
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "lw-all",
+   "sourceSectionId": "inflecting-the-quot-last-declinable-word-quot",
+   "titleZh": "14 · 各格通用：Elendil Vorondanna",
+   "leadZh": "这条原则适用于各格。单独的 Elendil 向格作 Elendilenna；带称号则作 Elendil Vorondanna。",
+   "objectives": [
+    "能类推各格",
+    "知道 Elendilenna 是可证形式"
+   ],
+   "rules": [
+    {
+     "id": "r-lw8",
+     "headZh": "单独",
+     "bodyZh": "Elendil 单独出现时，向格可证作 Elendilenna「to Elendil」（PM:401）。",
+     "en": "Elendilenna",
+     "zh": "到埃兰迪尔那里。",
+     "exampleZh": "Elendilenna"
+    },
+    {
+     "id": "r-lw9",
+     "headZh": "带称号",
+     "bodyZh": "「to Elendil the Faithful」显然作 Elendil Vorondanna，短语末词接格词尾。",
+     "en": "Elendil Vorondanna",
+     "zh": "到忠实的埃兰迪尔那里。",
+     "exampleZh": "Elendil Vorondanna"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写成 Elendilenna Voronda",
+     "right": "Elendil Vorondanna",
+     "whyZh": "原文说 the last word of the phrase receiving the case ending。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "可证与类推",
+     "bodyZh": "Elendilenna 可证，Elendil Vorondanna 是类推。作者用 apparently 标出了这个差别。"
+    }
+   ],
+   "recapZh": "Elendilenna／Elendil Vorondanna。",
+   "selfCheckZh": [
+    {
+     "qZh": "「到忠实的埃兰迪尔」？",
+     "aZh": "Elendil Vorondanna。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "inflecting-the-quot-last-declinable-word-quot",
+    "unitIds": [
+     3
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "lw-common",
+   "sourceSectionId": "inflecting-the-quot-last-declinable-word-quot",
+   "titleZh": "15 · 普通名词也适用吗：mallë téra",
+   "leadZh": "不止专名。mallë téra「a straight road」（LR:47）也可带格词尾，但加在哪一个词上？作者说两种都可以。",
+   "objectives": [
+    "知道普通名词也适用",
+    "知道两种加法的自由"
+   ],
+   "rules": [
+    {
+     "id": "r-lw10",
+     "headZh": "例子",
+     "bodyZh": "mallë téra「road straight」＝「a straight road」（LR:47）。",
+     "en": "mallë téra",
+     "zh": "一条直路。",
+     "exampleZh": "mallë téra"
+    },
+    {
+     "id": "r-lw11",
+     "headZh": "两种选择",
+     "bodyZh": "「on a straight road」可作 mallë térassë（末词接词尾），也可作 mallessë téra（名词接词尾）。",
+     "en": "It seems that both constructions would be permissible",
+     "zh": "看来两种构造都可允许。",
+     "exampleZh": "mallë térassë／mallessë téra"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为只有一种正确写法",
+     "right": "两种都被允许，选一种并保持一致即可",
+     "whyZh": "原文：It seems that both constructions would be permissible。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "本节的基调",
+     "bodyZh": "从这里开始，「末位变格」不再是唯一答案，而是两种可选策略之一。读到后面 Markirya 的反例时就不会意外。"
+    }
+   ],
+   "recapZh": "mallë térassë 或 mallessë téra。",
+   "selfCheckZh": [
+    {
+     "qZh": "「在一条直路上」有几种写法？",
+     "aZh": "两种：mallë térassë／mallessë téra。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "inflecting-the-quot-last-declinable-word-quot",
+    "unitIds": [
+     4
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "lw-markirya",
+   "sourceSectionId": "inflecting-the-quot-last-declinable-word-quot",
+   "titleZh": "16 · 《Markirya》的 isilmë 系列",
+   "leadZh": "诗中连续三个短语都是「名词＋分词」，位格词尾一律加在末词上。",
+   "objectives": [
+    "知道这一串例子的结构",
+    "知道分词 ilcala／pícala／lantala"
+   ],
+   "rules": [
+    {
+     "id": "r-lw12",
+     "headZh": "结构",
+     "bodyZh": "《Markirya》提供一串「名词＋形容词（多为分词）」的短语，位格词尾加在短语末词。",
+     "en": "The Markirya poem provides a string of examples of noun-phrases",
+     "zh": "《Markirya》提供了一串名词短语的例子。"
+    },
+    {
+     "id": "r-lw13",
+     "headZh": "三个分词",
+     "bodyZh": "isilmë「moonlight」分别与 ilcala「gleaming」、pícala「waning」、lantala「falling」组合。",
+     "en": "isilmë",
+     "zh": "月光。",
+     "exampleZh": "isilmë／ilcala／pícala／lantala"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 ilcala 当形容词而非常规分词",
+     "right": "-la 分词在此作定语，且不随数变化",
+     "whyZh": "后文指出 participles in -la apparently do not agree in number。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一组三例的意义",
+     "bodyZh": "三个例子结构完全相同，只换分词。这种「同构三连」是作者展示规则最常用的手法——规则清楚到可以预测第三个。"
+    }
+   ],
+   "recapZh": "isilmë ＋ ilcala／pícala／lantala。",
+   "selfCheckZh": [
+    {
+     "qZh": "isilmë 意为？",
+     "aZh": "月光。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "inflecting-the-quot-last-declinable-word-quot",
+    "unitIds": [
+     5
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "lw-isilme",
+   "sourceSectionId": "inflecting-the-quot-last-declinable-word-quot",
+   "titleZh": "17 · 三个位格形式",
+   "leadZh": "isilmë ilcalassë、isilmë pícalassë、isilmë lantalassë——词尾都落在分词上。",
+   "objectives": [
+    "能写三个形式",
+    "能看出 -ssë 加在 -la 后"
+   ],
+   "rules": [
+    {
+     "id": "r-lw14",
+     "headZh": "第一例",
+     "bodyZh": "isilmë ilcalassë ＝「in gleaming moonlight」。",
+     "en": "isilmë ilcalassë",
+     "zh": "在闪亮的月光中。",
+     "exampleZh": "isilmë ilcalassë"
+    },
+    {
+     "id": "r-lw15",
+     "headZh": "第二例",
+     "bodyZh": "isilmë pícalassë ＝「in waning moonlight」。",
+     "en": "isilmë pícalassë",
+     "zh": "在渐亏的月光中。",
+     "exampleZh": "isilmë pícalassë"
+    },
+    {
+     "id": "r-lw16",
+     "headZh": "第三例",
+     "bodyZh": "isilmë lantalassë ＝「in falling moonlight」。",
+     "en": "isilmë lantalassë",
+     "zh": "在倾泻的月光中。",
+     "exampleZh": "isilmë lantalassë"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写成 isilmessë ilcala",
+     "right": "isilmë ilcalassë（词尾在末词）",
+     "whyZh": "原文说三个短语都是 by attaching the locative ending to the last word。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "名词保持原形",
+     "bodyZh": "注意 isilmë 在三个例子里都没变——它只以最简形式出现，格由后面的分词承担。这正是「末位变格」的可见证据。"
+    }
+   ],
+   "recapZh": "isilmë ilcalassë／pícalassë／lantalassë。",
+   "selfCheckZh": [
+    {
+     "qZh": "「在渐亏的月光中」？",
+     "aZh": "isilmë pícalassë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "inflecting-the-quot-last-declinable-word-quot",
+    "unitIds": [
+     6,
+     7,
+     8
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "lw-poetic",
+   "sourceSectionId": "inflecting-the-quot-last-declinable-word-quot",
+   "titleZh": "18 · 托尔金自己的译法",
+   "leadZh": "MC:215 的诗意译法是「in the moon gleaming, in the moon waning, in the moon falling」——把复合短语拆成小句。",
+   "objectives": [
+    "知道托尔金的诗意译法",
+    "理解译法与结构的关系"
+   ],
+   "rules": [
+    {
+     "id": "r-lw17",
+     "headZh": "诗意译法",
+     "bodyZh": "托尔金在 MC:215 译作「in the moon gleaming, in the moon waning, in the moon falling」。",
+     "en": "in the moon gleaming",
+     "zh": "在那闪耀的月中。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把诗意译法当成另一种语法结构",
+     "right": "它只是英译的文体选择，昆雅结构不变",
+     "whyZh": "原文称之为 more poetic translation，说的是译法而非语法。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "译法不是语法",
+     "bodyZh": "这一句提醒读者：托尔金的英译常常为了文体而重组句子。判断昆雅结构要看原文词序，不要看译文。"
+    }
+   ],
+   "recapZh": "诗意译法：in the moon gleaming。",
+   "selfCheckZh": [
+    {
+     "qZh": "诗意译法改变了昆雅结构吗？",
+     "aZh": "没有，只是英译的文体选择。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "inflecting-the-quot-last-declinable-word-quot",
+    "unitIds": [
+     9
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "lw-axor",
+   "sourceSectionId": "inflecting-the-quot-last-declinable-word-quot",
+   "titleZh": "19 · axor ilcalannar：复数向格的难题",
+   "leadZh": "「upon gleaming bones」作 axor ilcalannar：名词只接最简复数 -r，向格 -nnar 落在分词上。",
+   "objectives": [
+    "能读 axor ilcalannar",
+    "知道 axo 的复数只取最简形式"
+   ],
+   "rules": [
+    {
+     "id": "r-lw18",
+     "headZh": "短语",
+     "bodyZh": "axor ilcalannar ＝「upon gleaming bones」。",
+     "en": "axor ilcalannar",
+     "zh": "在闪亮的白骨上。",
+     "exampleZh": "axor ilcalannar"
+    },
+    {
+     "id": "r-lw19",
+     "headZh": "名词只取最简复数",
+     "bodyZh": "单独的复数向格「upon bones」作 axonnar；此处 -nnar 加在末词，故 axo 只接最简复数 -r。",
+     "en": "the noun axo itself receives only the simplest plural ending -r",
+     "zh": "名词 axo 本身只接最简复数词尾 -r。"
+    },
+    {
+     "id": "r-lw20",
+     "headZh": "-r 的含义",
+     "bodyZh": "通常 axor 会被当作主格复数，但这里的 -r 只是把词标为复数；真正的格标记在后面。",
+     "en": "the -r merely marks the word as a plural form in the simplest possible way",
+     "zh": "-r 只是以最简方式把该词标为复数。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 axor 当主格",
+     "right": "整个短语是向格，axor 只是「最简复数」",
+     "whyZh": "原文专门解释这一点：The actual case marker follows later in the phrase。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "两种「复数」",
+     "bodyZh": "这里的 -r 不是主格标记，而是「去掉了格的裸复数」。理解这一层，才不会把 axor ilcalannar 误读成两个并列成分。"
+    }
+   ],
+   "recapZh": "axor ilcalannar；名词只带裸复数 -r。",
+   "selfCheckZh": [
+    {
+     "qZh": "axor 在此是什么格？",
+     "aZh": "整个短语是向格，axor 只带裸复数 -r。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "inflecting-the-quot-last-declinable-word-quot",
+    "unitIds": [
+     10,
+     11
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "lw-plural",
+   "sourceSectionId": "inflecting-the-quot-last-declinable-word-quot",
+   "titleZh": "20 · 复数与双数怎么放",
+   "leadZh": "-i 复数与 -u／-t 双数在短语开头也只取最简形式：vendi lindalaiva、Aldu caltalanta。",
+   "objectives": [
+    "能写 vendi lindalaiva",
+    "能写 Aldu caltalanta"
+   ],
+   "rules": [
+    {
+     "id": "r-lw21",
+     "headZh": "-i 复数",
+     "bodyZh": "主格复数为 -i 的词接这个标记：vendi lindalaiva「of singing maidens」（自造，所有格）。",
+     "en": "vendi lindalaiva",
+     "zh": "歌唱的少女们的。",
+     "exampleZh": "vendi lindalaiva"
+    },
+    {
+     "id": "r-lw22",
+     "headZh": "各格类推",
+     "bodyZh": "同一原则适用各格：与格 vendi lindalain、向格 vendi lindalannar。",
+     "en": "vendi lindalannar",
+     "zh": "到歌唱的少女们那里。"
+    },
+    {
+     "id": "r-lw23",
+     "headZh": "双数",
+     "bodyZh": "双数名词在短语开头也只取 -u 或 -t，完整双数格词尾在后面：Aldu caltalanta「upon the shining couple of trees」。",
+     "en": "Aldu caltalanta",
+     "zh": "在那闪亮的一对树上。",
+     "exampleZh": "Aldu caltalanta"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把双数格词尾也放在名词上",
+     "right": "名词只带 -u／-t，格词尾在末词",
+     "whyZh": "原文：The noun would merely assume the dual ending -u or -t, and the full dual case ending would follow later。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一条规则，三种数",
+     "bodyZh": "单数（无标记）、复数（-i 或 -r）、双数（-u 或 -t）在短语开头都只取「最简数标记」。这条概括比逐个记例子有效。"
+    }
+   ],
+   "recapZh": "vendi lindalaiva；Aldu caltalanta。",
+   "selfCheckZh": [
+    {
+     "qZh": "「在那闪亮的一对树上」？",
+     "aZh": "Aldu caltalanta。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "inflecting-the-quot-last-declinable-word-quot",
+    "unitIds": [
+     12
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "lw-counter",
+   "sourceSectionId": "inflecting-the-quot-last-declinable-word-quot",
+   "titleZh": "21 · 反例：词尾也可以加在名词上",
+   "leadZh": "《Markirya》也有形容词后置、格词尾却加在名词上的例子。可见「末位变格」不是硬性规则。",
+   "objectives": [
+    "知道存在反例",
+    "知道两种策略并存"
+   ],
+   "rules": [
+    {
+     "id": "r-lw24",
+     "headZh": "不是硬规则",
+     "bodyZh": "把格词尾加在整个短语末词，显然并非硬性规则。",
+     "en": "it is apparently not a hard-and-fast rule",
+     "zh": "这显然不是硬性规则。"
+    },
+    {
+     "id": "r-lw25",
+     "headZh": "两个反例",
+     "bodyZh": "《Markirya》有形容词后置、格词尾却加在名词上的例子：一例是复数工具格 -inen，一例是位格 -ssë。",
+     "en": "Markirya contains examples of phrases where an attributive adjective follows the noun it describes, and yet the case ending is added to the noun",
+     "zh": "《Markirya》有形容词后置而格词尾加在名词上的例子。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把「末位变格」当唯一正解",
+     "right": "它是常见做法，不是强制",
+     "whyZh": "原文用 apparently not a hard-and-fast rule 明确保留余地。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么会出现反例",
+     "bodyZh": "下一段给出解释：形容词的复数变化与格变化会冲突（?elviëinen、**elvínen）。这不是任意，而是音系压力所致。"
+    }
+   ],
+   "recapZh": "两种策略并存，末位变格非强制。",
+   "selfCheckZh": [
+    {
+     "qZh": "「末位变格」是强制规则吗？",
+     "aZh": "不是。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "inflecting-the-quot-last-declinable-word-quot",
+    "unitIds": [
+     13
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "lw-two",
+   "sourceSectionId": "inflecting-the-quot-last-declinable-word-quot",
+   "titleZh": "22 · 两个反例：rámainen elvië、ondolissë mornë",
+   "leadZh": "「on starlike wings」作 rámainen elvië，「on dark rocks」作 ondolissë mornë——词尾都在名词上。",
+   "objectives": [
+    "能读两个反例",
+    "知道形容词在此是复数"
+   ],
+   "rules": [
+    {
+     "id": "r-lw26",
+     "headZh": "第一例",
+     "bodyZh": "rámainen elvië ＝「on [/with] starlike wings」，复数工具格 -inen 加在名词 ráma 上。",
+     "en": "rámainen elvië",
+     "zh": "以星般的翼。",
+     "exampleZh": "rámainen elvië"
+    },
+    {
+     "id": "r-lw27",
+     "headZh": "第二例",
+     "bodyZh": "ondolissë mornë ＝「on dark rocks」，位格 -ssë 加在带部分复数 -li 的名词上。",
+     "en": "ondolissë mornë",
+     "zh": "在黑暗的岩石上。",
+     "exampleZh": "ondolissë mornë"
+    },
+    {
+     "id": "r-lw28",
+     "headZh": "一致",
+     "bodyZh": "elvëa「starlike」与 morna「dark」在此是复数（elvië、mornë），与复数名词一致。",
+     "en": "the adjectives elvëa \"starlike\" and morna \"dark\" are here plural",
+     "zh": "形容词 elvëa 与 morna 在此是复数。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 elvië 是单数",
+     "right": "它是 elvëa 的复数",
+     "whyZh": "原文明确说 elvië、mornë 是复数，以与复数名词一致。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "两个反例的共性",
+     "bodyZh": "两例的形容词都是复数，且都以元音结尾——正是下一段所说「复数变化与格变化冲突」的情形。"
+    }
+   ],
+   "recapZh": "rámainen elvië；ondolissë mornë。",
+   "selfCheckZh": [
+    {
+     "qZh": "elvië 是单数还是复数？",
+     "aZh": "复数（elvëa 的复数）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "inflecting-the-quot-last-declinable-word-quot",
+    "unitIds": [
+     14,
+     15
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "lw-why",
+   "sourceSectionId": "inflecting-the-quot-last-declinable-word-quot",
+   "titleZh": "23 · 为什么不加在形容词上",
+   "leadZh": "因为形容词的复数变化与格变化会冲突：?elviëinen 别扭，易塌缩成 **elvínen。",
+   "objectives": [
+    "能解释反例的原因",
+    "知道 -la 分词不随数变化"
+   ],
+   "rules": [
+    {
+     "id": "r-lw29",
+     "headZh": "冲突",
+     "bodyZh": "可能两例的格词尾不加在形容词上，是因为形容词的复数变化与格变化会以某种方式冲突。",
+     "en": "the adjectival plural inflection and the case inflection would somehow collide",
+     "zh": "形容词的复数变化与格变化会以某种方式冲突。"
+    },
+    {
+     "id": "r-lw30",
+     "headZh": "-la 不冲突",
+     "bodyZh": "axor ilcalannar 里没有冲突，尽管 bones 是复数，因为 -la 分词显然不随数变化。",
+     "en": "participles in -la apparently do not agree in number",
+     "zh": "-la 分词显然不随数变化。"
+    },
+    {
+     "id": "r-lw31",
+     "headZh": "音系压力",
+     "bodyZh": "?elviëinen 既不可能又别扭，易塌缩成晦涩的 **elvínen；也许正因如此托尔金把词尾加在名词上。",
+     "en": "**elvínen",
+     "zh": "（塌缩后的形式）elvínen。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把反例当成随意选择",
+     "right": "它由音系冲突驱动",
+     "whyZh": "原文给出了 ?elviëinen 与 **elvínen 两个不可接受的结果作为理由。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "音系决定形态",
+     "bodyZh": "这与第 16 课 -tá- 的拉长是同一类现象：形态选择受重音与音丛制约。整本书的语法描述里，音系常常是最后的裁判。"
+    }
+   ],
+   "recapZh": "形容词复数与格变化冲突 → 词尾改加名词。",
+   "selfCheckZh": [
+    {
+     "qZh": "为什么 ilcalannar 可以接在分词上？",
+     "aZh": "-la 分词不随数变化，没有冲突。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "inflecting-the-quot-last-declinable-word-quot",
+    "unitIds": [
+     16
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "lw-faire",
+   "sourceSectionId": "inflecting-the-quot-last-declinable-word-quot",
+   "titleZh": "24 · 新证据：fairë aistan 与 Namna Finwë Míriello",
+   "leadZh": "2002 年刊布的例子：fairë aistan「to the Holy Spirit」把与格 -n 加在形容词上；Namna Finwë Míriello 只在末名加属格。",
+   "objectives": [
+    "能读 fairë aistan",
+    "能读 Namna Finwë Míriello"
+   ],
+   "rules": [
+    {
+     "id": "r-lw32",
+     "headZh": "fairë aistan",
+     "bodyZh": "在一份未完成的《Gloria Patri》昆雅译本里，fairë aistan 作「Holy Spirit」的与格，-n 加在 aista 上（VT43:37）。",
+     "en": "fairë aistan",
+     "zh": "到圣灵（与格）。",
+     "exampleZh": "fairë aistan"
+    },
+    {
+     "id": "r-lw33",
+     "headZh": "并列项",
+     "bodyZh": "有时一串并列项中只有最后一项接格词尾，而该词尾实际适用于全部。",
+     "en": "only the last item on a list receives case endings that actually apply to all the nouns",
+     "zh": "只有最后一项接格词尾，而该词尾适用于全部。"
+    },
+    {
+     "id": "r-lw34",
+     "headZh": "Namna Finwë Míriello",
+     "bodyZh": "「the Statute of Finwë and Míriel」（MR:258）：连词 ar 被省，属格 -o 只加在 Míriell- 上。",
+     "en": "Namna Finwë Míriello",
+     "zh": "芬威与米瑞尔的法令。",
+     "exampleZh": "Namna Finwë Míriello"
+    },
+    {
+     "id": "r-lw35",
+     "headZh": "完整式",
+     "bodyZh": "「完整」构造大概是 Namna Finwëo ar Míriello，但精简版显然可允许。",
+     "en": "Namna Finwëo ar Míriello",
+     "zh": "（完整式）芬威与米瑞尔的法令。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写成 Namna Finwëo Míriello",
+     "right": "精简版只变末名：Namna Finwë Míriello",
+     "whyZh": "原文说「full」构造才会是 Namna Finwëo ar Míriello。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "两个层面的省略",
+     "bodyZh": "Namna Finwë Míriello 同时省了连词与首个属格词尾。这种「标题式精简」在专名并列时尤其常见。"
+    }
+   ],
+   "recapZh": "fairë aistan；Namna Finwë Míriello。",
+   "selfCheckZh": [
+    {
+     "qZh": "「芬威与米瑞尔的法令」精简版？",
+     "aZh": "Namna Finwë Míriello。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "inflecting-the-quot-last-declinable-word-quot",
+    "unitIds": [
+     17
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "lw-dem",
+   "sourceSectionId": "inflecting-the-quot-last-declinable-word-quot",
+   "titleZh": "25 · 指示词能不能接格词尾",
+   "leadZh": "若 vanda sina 的词序是常规，指示词很适合作格词尾的承载者：vanda sinanen「by this oath」。",
+   "objectives": [
+    "能写 vanda sinanen",
+    "知道复数时把词尾加在名词更稳妥"
+   ],
+   "rules": [
+    {
+     "id": "r-lw36",
+     "headZh": "单数",
+     "bodyZh": "「by this oath」最好作 vanda sinanen；vandanen sina 大概也可允许。",
+     "en": "vanda sinanen",
+     "zh": "以这个誓言。",
+     "exampleZh": "vanda sinanen"
+    },
+    {
+     "id": "r-lw37",
+     "headZh": "复数",
+     "bodyZh": "复数时一律把格词尾加在名词上最稳妥：「By these oaths」作 vandainen sinë，而非 ?vandar sinëinen。",
+     "en": "vandainen sinë",
+     "zh": "以这些誓言。",
+     "exampleZh": "vandainen sinë"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写成 ?vandar sinëinen",
+     "right": "vandainen sinë",
+     "whyZh": "原文明确把这个形式列为要避免的写法。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "稳妥优先",
+     "bodyZh": "作者在两种都可的地方，给出了「最稳妥」的建议。这是全书对学习者最实用的一类提示：不确定时选哪条路。"
+    }
+   ],
+   "recapZh": "vanda sinanen；复数用 vandainen sinë。",
+   "selfCheckZh": [
+    {
+     "qZh": "「以这些誓言」？",
+     "aZh": "Vandainen sinë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "inflecting-the-quot-last-declinable-word-quot",
+    "unitIds": [
+     18
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "u-intro",
+   "sourceSectionId": "u-stem-nouns",
+   "titleZh": "26 · i 词干与 u 词干：同一个音变",
+   "leadZh": "短末 -i、-u 在词末变成 -e、-o，但后面跟词尾时保留原样。i 词干如 lómë／lómi-，u 词干是它的镜像。",
+   "objectives": [
+    "知道 -i／-u 只在绝对词末变化",
+    "能举 lómë、carnë"
+   ],
+   "rules": [
+    {
+     "id": "r-u1",
+     "headZh": "音变",
+     "bodyZh": "短末 -i 与 -u 在词末变成 -e 与 -o；但只要后面跟着词尾或其他成分，就仍是 -i- 与 -u-。",
+     "en": "they now turned into -e and -o, respectively",
+     "zh": "它们分别变成 -e 与 -o。"
+    },
+    {
+     "id": "r-u2",
+     "headZh": "i 词干例",
+     "bodyZh": "lómë「night」词干 lómi-（SD:415），源自较早的 dômi-；故位格「at night」作 lómissë。",
+     "en": "lómissë",
+     "zh": "在夜里。",
+     "exampleZh": "lómë／lómi-／lómissë"
+    },
+    {
+     "id": "r-u3",
+     "headZh": "形容词同例",
+     "bodyZh": "carnë「red」源自 karani，词干 carni-，如复合词 Carnistir「Red-face」（PM:353）。",
+     "en": "Carnistir",
+     "zh": "红脸。",
+     "exampleZh": "carnë／carni-／Carnistir"
+    },
+    {
+     "id": "r-u4",
+     "headZh": "与不定过去时同理",
+     "bodyZh": "基本动词不定过去时里已见过：silë「shines」，但复数 silir「shine」，因为 -i 后面跟着 -r。",
+     "en": "silë \"shines\", but pl. silir",
+     "zh": "silë「闪耀」，复数 silir。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 lómë 的位格写成 lómëssë",
+     "right": "lómissë（词干 lómi-）",
+     "whyZh": "原文明确给出 lómissë 并解释词干来源。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一条音变，两类词干",
+     "bodyZh": "i 词干与 u 词干是同一个音变的两面。本节先复习 i 词干，是因为学生已熟悉它——u 词干只是把 i 换成 u。"
+    }
+   ],
+   "recapZh": "词末 -i／-u → -e／-o；带词尾则保留。",
+   "selfCheckZh": [
+    {
+     "qZh": "「在夜里」？",
+     "aZh": "lómissë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "u-stem-nouns",
+    "unitIds": [
+     0
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "u-ango",
+   "sourceSectionId": "u-stem-nouns",
+   "titleZh": "27 · ango「蛇」：u 词干的标准例",
+   "leadZh": "ango 的词干是 angu-，在 angulócë 里可直接看到。接词尾时一律用 angu-：angun、angullo、angulya。",
+   "objectives": [
+    "能写 angun、angullo、angulya、anguo",
+    "知道 -o 名词没有独立属格"
+   ],
+   "rules": [
+    {
+     "id": "r-u5",
+     "headZh": "词干",
+     "bodyZh": "ango「snake」的词干 angu- 可在复合词 angulócë 中直接看到（该词释作「dragon」，实为「蛇」＋lócë）。",
+     "en": "angulócë",
+     "zh": "龙（蛇＋龙）。",
+     "exampleZh": "ango／angu-／angulócë"
+    },
+    {
+     "id": "r-u6",
+     "headZh": "来源",
+     "bodyZh": "《词源》把 ango 追溯到较早的 ANGU（或 ANGWA → angw → angu），故末 -o 确实代表较早的 -u。",
+     "en": "the final -o of this word does indeed represent an older -u",
+     "zh": "这个词的末 -o 确实代表较早的 -u。"
+    },
+    {
+     "id": "r-u7",
+     "headZh": "接词尾",
+     "bodyZh": "接格或代词词尾时用 angu-：与格 angun、离格 angullo、带代词 angulya「your snake」。",
+     "en": "angun",
+     "zh": "给蛇（与格）。",
+     "exampleZh": "angun／angullo／angulya"
+    },
+    {
+     "id": "r-u8",
+     "headZh": "属格",
+     "bodyZh": "属格大概是 anguo「of a snake」——因为以 -o 结尾的「正常」名词没有独立单数属格，-o 直接与末元音合并。",
+     "en": "anguo",
+     "zh": "蛇的。",
+     "exampleZh": "anguo"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把与格写成 angon",
+     "right": "angun（词干 angu-）",
+     "whyZh": "原文给出 angun、angullo、angulya 三个形式，全部基于 angu-。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么 ango 是核心例",
+     "bodyZh": "因为它的词干在复合词里可见——这是最硬的证据。后面所有 u 词干的形式都靠这一类旁证支撑。"
+    }
+   ],
+   "recapZh": "ango／angu-；angun、angullo、angulya、anguo。",
+   "selfCheckZh": [
+    {
+     "qZh": "ango 的与格？",
+     "aZh": "angun。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "u-stem-nouns",
+    "unitIds": [
+     1
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "u-plural",
+   "sourceSectionId": "u-stem-nouns",
+   "titleZh": "28 · 主格复数 -ngwi／-nqui",
+   "leadZh": "-go、-co 结尾的 u 词干，复数不是 -or 也不是 -ur，而是 -ngwi／-nqui：angwi、urqui。",
+   "objectives": [
+    "能写 angwi、urqui",
+    "知道 kw 拼作 qu"
+   ],
+   "rules": [
+    {
+     "id": "r-u9",
+     "headZh": "通常情况",
+     "bodyZh": "以 -o 结尾的名词主格复数通常作 -or。",
+     "en": "nouns ending in -o would of course have nominative plural forms in -or",
+     "zh": "以 -o 结尾的名词主格复数作 -or。"
+    },
+    {
+     "id": "r-u10",
+     "headZh": "例外",
+     "bodyZh": "若 -go、-co 代表较早的 -gu、-ku，加原始复数 -î 使 u 变 w，复数以 -gwî／-kwî 结尾。",
+     "en": "the plurals came to end in -gwî or -kwî",
+     "zh": "复数以 -gwî 或 -kwî 结尾。"
+    },
+    {
+     "id": "r-u11",
+     "headZh": "唇化音",
+     "bodyZh": "gw、kw 最好当作单一音，即 g 与 k 的唇化版本；昆雅按惯例把 kw 拼作 qu。",
+     "en": "kw is spelt qu",
+     "zh": "kw 拼作 qu。"
+    },
+    {
+     "id": "r-u12",
+     "headZh": "结论",
+     "bodyZh": "ango 的复数既非 **angor 也非 **angur，而是 angwi——《词源》ANGWA/ANGU 条明确提到。",
+     "en": "**angor",
+     "zh": "（错误形式）angor。",
+     "exampleZh": "angwi"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写成 angor 或 angur",
+     "right": "angwi",
+     "whyZh": "原文把这两种写法都标为不可能，并给出 angwi。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么是 w",
+     "bodyZh": "因为复数词尾 -î 把前面的 u 推成 w，再与前头的 g／k 合并成唇化音。这条音变解释了三件事：为什么是 -wi、为什么拼作 qu、为什么不是 -r。"
+    }
+   ],
+   "recapZh": "angwi、urqui（＝urcwi）。",
+   "selfCheckZh": [
+    {
+     "qZh": "ango 的复数？",
+     "aZh": "angwi。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "u-stem-nouns",
+    "unitIds": [
+     2
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "u-urco",
+   "sourceSectionId": "u-stem-nouns",
+   "titleZh": "29 · urco：-qui 复数的例子",
+   "leadZh": "urco「bogey」的复数作 urqui（＝urcwi）。托尔金说：正如复数所示，urco 必源自 urku 或 uruku。",
+   "objectives": [
+    "能写 urqui",
+    "知道复数形式可反推词源"
+   ],
+   "rules": [
+    {
+     "id": "r-u13",
+     "headZh": "形式",
+     "bodyZh": "urco「bogey」的复数作 urqui（＝urcwi）。",
+     "en": "urqui",
+     "zh": "（复数）妖怪。",
+     "exampleZh": "urco／urqui"
+    },
+    {
+     "id": "r-u14",
+     "headZh": "反推",
+     "bodyZh": "托尔金注明「as the plural form shows」，urco 必源自原始语的 urku 或 uruku（WJ:390）。",
+     "en": "as the plural form shows",
+     "zh": "正如复数形式所示。"
+    },
+    {
+     "id": "r-u15",
+     "headZh": "词干",
+     "bodyZh": "故 urco 确定是 u 词干，末 -o 代表较早的 -u，在复合词与多数词尾前仍见 urcu-。",
+     "en": "we would still see urcu- in compounds and before most inflectional endings",
+     "zh": "在复合词与多数词尾前仍见 urcu-。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为复数形式只是不规则",
+     "right": "复数 -qui 正是 u 词干的证据",
+     "whyZh": "原文用复数形式反推原始词形，说明这不是例外而是规律。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "证据的方向",
+     "bodyZh": "通常我们从词源推形式，这里反过来：从复数 urqui 推出原始 urku。这种「以形式证词源」的推理在全书很常见。"
+    }
+   ],
+   "recapZh": "urco／urqui（urcu-）。",
+   "selfCheckZh": [
+    {
+     "qZh": "urco 的复数？",
+     "aZh": "urqui。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "u-stem-nouns",
+    "unitIds": [
+     3
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "u-lango",
+   "sourceSectionId": "u-stem-nouns",
+   "titleZh": "30 · lango 与 lanco：一个被换掉的词",
+   "leadZh": "《词源》有 lango「throat」、复数 langwi，但该形式标了星号。托尔金后来把词换成 lanco。",
+   "objectives": [
+    "知道 lango／langwi 与 lanco／lanqui",
+    "知道 lanqui 只是推测"
+   ],
+   "rules": [
+    {
+     "id": "r-u16",
+     "headZh": "普查结果",
+     "bodyZh": "ango／angwi 似乎是唯一完全确定的 -gwi 复数例。",
+     "en": "Ango \"snake\", pl. angwi, seems to be our sole entirely certain example of a -gwi plural",
+     "zh": "ango／angwi 似乎是唯一完全确定的 -gwi 复数例。"
+    },
+    {
+     "id": "r-u17",
+     "headZh": "lango",
+     "bodyZh": "《词源》LANK 条有 lango「throat」、复数 langwi，但 langwi 被标了星号。",
+     "en": "langwi",
+     "zh": "（喉，复数）。",
+     "exampleZh": "lango／langwi"
+    },
+    {
+     "id": "r-u18",
+     "headZh": "换成 lanco",
+     "bodyZh": "托尔金后来把「throat」改成 lanco；它很可能也是 u 词干，复数应作 lanqui 而非 lancor，但无明确资料。",
+     "en": "lanqui rather than lancor",
+     "zh": "作 lanqui 而非 lancor。",
+     "exampleZh": "lanco／lanqui"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 lanqui 当确定形式",
+     "right": "原文说 we have no explicit information to this effect",
+     "whyZh": "作者用 It is entirely possible 标明这是推测。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "星号的含义",
+     "bodyZh": "原文特意讨论 langwi 上的星号「可能另有含义」。这种对符号的敏感，是阅读托尔金语言材料的基本功。"
+    }
+   ],
+   "recapZh": "lango／langwi（星号）；lanco／lanqui（推测）。",
+   "selfCheckZh": [
+    {
+     "qZh": "「throat」后来改作什么？",
+     "aZh": "lanco。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "u-stem-nouns",
+    "unitIds": [
+     4
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "u-ranco",
+   "sourceSectionId": "u-stem-nouns",
+   "titleZh": "31 · ranco「臂」：双数的两难",
+   "leadZh": "ranco 词干 rancu-，复数 ranqui。双数该作 rancu 还是 rancut？作者说加代词词尾时必须用 -t。",
+   "objectives": [
+    "能写 ranqui、rancunya、rancunyat",
+    "知道双数 -u 与 -t 的两难"
+   ],
+   "rules": [
+    {
+     "id": "r-u19",
+     "headZh": "确定",
+     "bodyZh": "ranco「arm」是确定的 u 词干（原始形式 ranku），复数 ranqui（《词源》RAK 条）。",
+     "en": "ranqui",
+     "zh": "（复数）臂。",
+     "exampleZh": "ranco／ranqui"
+    },
+    {
+     "id": "r-u20",
+     "headZh": "双数两难",
+     "bodyZh": "双数该作 rancu（双数词尾 -u）还是 rancut（u 词干＋双数 -t）？作者不给答案。",
+     "en": "whether the dual form of ranco would be rancu",
+     "zh": "我们或会想双数该作 rancu 还是 rancut。"
+    },
+    {
+     "id": "r-u21",
+     "headZh": "化石双数",
+     "bodyZh": "如 peu「pair of lips」所示，成对身体部位可能一律有 -u 的「化石」双数。",
+     "en": "nouns denoting body-parts occurring in pairs may consistently have \"fossilized\" dual forms in -u",
+     "zh": "成对的身体部位可能一律有 -u 的化石双数。"
+    },
+    {
+     "id": "r-u22",
+     "headZh": "代词词尾后必须 -t",
+     "bodyZh": "加代词词尾时至少可以稳妥地加 -t：ranculya「your arm」对 ranculyat「your pair of arms」。",
+     "en": "ranculyat",
+     "zh": "你的（一对）臂。",
+     "exampleZh": "ranculya／ranculyat"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 ranculya 与 ranculyat 靠词干区分",
+     "right": "只能靠 -t 区分单双",
+     "whyZh": "原文：without this ending there would be no distinction between ranculya and ranculyat。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "第 15 课的回声",
+     "bodyZh": "máryat「her hands」、péryat「her lips」正是同一现象。第 15 课讲 -rya 加双数 -t，本课讲 -nya 加双数 -t，逻辑一致。"
+    }
+   ],
+   "recapZh": "ranqui；rancunya／rancunyat。",
+   "selfCheckZh": [
+    {
+     "qZh": "「你的一对臂」？",
+     "aZh": "rancunyat。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "u-stem-nouns",
+    "unitIds": [
+     5
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "u-rusco",
+   "sourceSectionId": "u-stem-nouns",
+   "titleZh": "32 · rusco「狐」",
+   "leadZh": "rusco 的出处同时给出词干 ruscu- 与复数 rusqui（VT41:10）。",
+   "objectives": [
+    "能写 rusco／ruscu-／rusqui",
+    "知道这条出处的重要性"
+   ],
+   "rules": [
+    {
+     "id": "r-u23",
+     "headZh": "形式",
+     "bodyZh": "rusco「fox」：托尔金同时提到词干形式 ruscu- 与复数 rusqui（VT41:10）。",
+     "en": "rusqui",
+     "zh": "（复数）狐。",
+     "exampleZh": "rusco／ruscu-／rusqui"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 rusco 当普通 -o 名词（复数 ruscor）",
+     "right": "复数 rusqui",
+     "whyZh": "原文同时给出词干与复数，两重证据。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么单独一段",
+     "bodyZh": "因为 rusco 是少数「词干与复数同时可证」的 u 词干，下一段的 -qui 变格讨论全靠它。"
+    }
+   ],
+   "recapZh": "rusco／ruscu-／rusqui。",
+   "selfCheckZh": [
+    {
+     "qZh": "rusco 的复数？",
+     "aZh": "rusqui。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "u-stem-nouns",
+    "unitIds": [
+     6
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "u-curo",
+   "sourceSectionId": "u-stem-nouns",
+   "titleZh": "33 · curo：不以 -co／-go 结尾的 u 词干",
+   "leadZh": "curo「巧器」词干 curu-，也见于 Saruman 的昆雅名 Curumo。复数也许是 curwi。",
+   "objectives": [
+    "能写 curu-、Curumo",
+    "知道复数 curwi 只是类推"
+   ],
+   "rules": [
+    {
+     "id": "r-u24",
+     "headZh": "curo",
+     "bodyZh": "curo「a skillful device」词干 curu-（VT41:10；末词释义因笔迹难辨而不确定）。",
+     "en": "curo",
+     "zh": "巧器。",
+     "exampleZh": "curo／curu-"
+    },
+    {
+     "id": "r-u25",
+     "headZh": "Curumo",
+     "bodyZh": "curu- 见于 Saruman 的昆雅名 Curumo（UT:401），即 curu- ＋阳性词尾 -mo（WJ:400）。",
+     "en": "Curumo",
+     "zh": "库茹莫（Saruman 的昆雅名）。",
+     "exampleZh": "Curumo"
+    },
+    {
+     "id": "r-u26",
+     "headZh": "复数推测",
+     "bodyZh": "curo 的主格复数会不会是 curwi，与 ango／angwi 平行？",
+     "en": "Could it be curwi",
+     "zh": "会不会是 curwi？",
+     "exampleZh": "curwi"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 curwi 当确定形式",
+     "right": "原文用问句，属类推",
+     "whyZh": "原文：We may wonder what the nominative plural of curo, curu- would be。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "类比的边界",
+     "bodyZh": "curo 没有 -co／-go，故 -wi 复数是否适用并不确定。作者用问句而不给答案，正是承认类比有边界。"
+    }
+   ],
+   "recapZh": "curo／curu-；Curumo；curwi（推测）。",
+   "selfCheckZh": [
+    {
+     "qZh": "Curumo 由哪两部分构成？",
+     "aZh": "curu- ＋ -mo。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "u-stem-nouns",
+    "unitIds": [
+     7
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "u-cases",
+   "sourceSectionId": "u-stem-nouns",
+   "titleZh": "34 · -qui 复数的其余各格",
+   "leadZh": "若主格复数是 rusqui，与格、属格当作 rusquin、rusquion；但 ruscuitë 提示所有格与工具格可能不作 -qui-。",
+   "objectives": [
+    "能写 rusquin、rusquion",
+    "知道 rusquiva／ruscuiva 的争议"
+   ],
+   "rules": [
+    {
+     "id": "r-u27",
+     "headZh": "与格、属格",
+     "bodyZh": "主格 rusqui（＝ruscwi）时，与格与属格几乎只能是 rusquin（＝ruscwin）与 rusquion（＝ruscwion）。",
+     "en": "rusquin",
+     "zh": "给（众）狐（与格）。",
+     "exampleZh": "rusquin／rusquion"
+    },
+    {
+     "id": "r-u28",
+     "headZh": "预期",
+     "bodyZh": "人们会想复数所有格作 rusquiva、复数工具格作 rusquinen。",
+     "en": "rusquiva",
+     "zh": "（众）狐的（所有格）。",
+     "exampleZh": "rusquiva／rusquinen"
+    },
+    {
+     "id": "r-u29",
+     "headZh": "反证",
+     "bodyZh": "同一出处的形容词 ruscuitë「foxy」里并没有 cui > cwi 的变化；我们看不到 **rusquitë。",
+     "en": "**rusquitë",
+     "zh": "（未出现的）rusquitë。"
+    },
+    {
+     "id": "r-u30",
+     "headZh": "存疑",
+     "bodyZh": "既然有 ruscuitë，也许该作 ruscuiva、ruscuinen 而非 rusquiva、rusquinen？作者说无法知道，且不为此设练习。",
+     "en": "I will not construct any exercises involving the plural form of the possessive and instrumental cases",
+     "zh": "我不会设计涉及所有格与工具格复数形式的练习。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 rusquiva 当确定形式",
+     "right": "它与 ruscuitë 冲突，属存疑",
+     "whyZh": "原文用 There is one form that can be cited against the two latter assumptions 明确指出反证。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一个词毁掉两个推论",
+     "bodyZh": "ruscuitë 一个形式就让两个类推失效。作者的应对不是强行调和，而是标注存疑并排除出练习范围——这是本书最可靠的处理方式。"
+    }
+   ],
+   "recapZh": "rusquin／rusquion；rusquiva 与 ruscuitë 冲突，存疑。",
+   "selfCheckZh": [
+    {
+     "qZh": "为什么 rusquiva 有疑问？",
+     "aZh": "因为 ruscuitë 显示 cui 不变 cwi。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "u-stem-nouns",
+    "unitIds": [
+     8
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "u-rest",
+   "sourceSectionId": "u-stem-nouns",
+   "titleZh": "35 · 其余各格：把 -o 改成 -u",
+   "leadZh": "复数词尾不含 -i 的各格，只需把末 -o 改成 -u：angunnar、angullon、angussen。",
+   "objectives": [
+    "能写 angunnar、angullon、angussen、angunta",
+    "知道代词词尾也加在 angu- 上"
+   ],
+   "rules": [
+    {
+     "id": "r-u31",
+     "headZh": "规则",
+     "bodyZh": "复数格词尾不含 -i 时，只需在加词尾前把 u 词干名词的末 -o 改成 -u。",
+     "en": "all one has to remember is to change the final -o of a U-stem noun to -u",
+     "zh": "只需把 u 词干名词的末 -o 改成 -u。"
+    },
+    {
+     "id": "r-u32",
+     "headZh": "复数各格",
+     "bodyZh": "angunnar「to snakes」、angullon／angullor「from snakes」、angussen「in snakes」（单数 angunna、angullo、angussë）。",
+     "en": "angunnar",
+     "zh": "到（众）蛇那里。",
+     "exampleZh": "angunnar／angullon／angussen"
+    },
+    {
+     "id": "r-u33",
+     "headZh": "双数",
+     "bodyZh": "对应双数大概是 angunta、angulto、angutsë「to／from／in a pair of snakes」。",
+     "en": "angunta",
+     "zh": "到一对蛇那里。",
+     "exampleZh": "angunta／angulto／angutsë"
+    },
+    {
+     "id": "r-u34",
+     "headZh": "代词词尾",
+     "bodyZh": "代词词尾也加在 angu- 上，其后的数、格词尾再往后加：angulyar、angulyat、angulyain。",
+     "en": "angulyar",
+     "zh": "你的（众）蛇。",
+     "exampleZh": "angulyar／angulyat／angulyain"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写成 **angwilyar",
+     "right": "angulyar",
+     "whyZh": "原文用 hardly **angwilyar 明确排除 -wi- 的插入。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么这里不出现 -wi",
+     "bodyZh": "因为 -wi 只出现在含 -i 的复数词尾前。代词词尾 -lya 不含复数 -i，故词干保持 angu-。"
+    }
+   ],
+   "recapZh": "angunnar、angullon、angussen；angulyar。",
+   "selfCheckZh": [
+    {
+     "qZh": "「你的（众）蛇」？",
+     "aZh": "angulyar。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "u-stem-nouns",
+    "unitIds": [
+     9
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ord-intro",
+   "sourceSectionId": "ordinals",
+   "titleZh": "36 · 三个老序数与 -ëa 新规则",
+   "leadZh": "minya、tatya、nelya 都带 -ya。但多数序数词其实以 -ëa 结尾，取代基数词的末元音。",
+   "objectives": [
+    "知道三个带 -ya 的序数",
+    "知道 -ëa 是主流词尾"
+   ],
+   "rules": [
+    {
+     "id": "r-or1",
+     "headZh": "三个旧序数",
+     "bodyZh": "minya「first」、(t)atya「second」、nelya「third」都含常见的形容词词尾 -ya（Quenya 一词本身即含此词尾）。",
+     "en": "minya \"first\", (t)atya \"second\" and nelya \"third\"",
+     "zh": "minya、tatya、nelya。"
+    },
+    {
+     "id": "r-or2",
+     "headZh": "主流词尾",
+     "bodyZh": "多数序数词以 -ëa 结尾，取代相应基数词的末元音。",
+     "en": "most ordinals end in -ëa, displacing the final vowel of the corresponding cardinal number",
+     "zh": "多数序数词以 -ëa 结尾，取代基数词末元音。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 -ya 是序数的统一词尾",
+     "right": "-ëa 才是多数序数的词尾",
+     "whyZh": "原文：it turns out that most ordinals end in -ëa。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "本节的结构",
+     "bodyZh": "先给对照表（四到九），再讲「五」的历史替换，再讲「二」「三」的可能替换，最后讲「十」的争议。由稳到不稳。"
+    }
+   ],
+   "recapZh": "minya／tatya／nelya；多数序数用 -ëa。",
+   "selfCheckZh": [
+    {
+     "qZh": "多数序数词的词尾？",
+     "aZh": "-ëa。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "ordinals",
+    "unitIds": [
+     0
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ord-table",
+   "sourceSectionId": "ordinals",
+   "titleZh": "37 · 四到九：六组对照",
+   "leadZh": "canta→cantëa、lempë→lempëa、enquë→enquëa、otso→otsëa、tolto→toltëa、nertë→nertëa。",
+   "objectives": [
+    "能背六组基数与序数",
+    "知道 toldëa 是 toltëa 的变体"
+   ],
+   "rules": [
+    {
+     "id": "r-or3",
+     "headZh": "四",
+     "bodyZh": "canta「four」→ cantëa「fourth」。",
+     "en": "cantëa",
+     "zh": "第四。",
+     "exampleZh": "canta／cantëa"
+    },
+    {
+     "id": "r-or4",
+     "headZh": "五",
+     "bodyZh": "lempë「five」→ lempëa「fifth」。",
+     "en": "lempëa",
+     "zh": "第五。",
+     "exampleZh": "lempë／lempëa"
+    },
+    {
+     "id": "r-or5",
+     "headZh": "六",
+     "bodyZh": "enquë「six」→ enquëa「sixth」。",
+     "en": "enquëa",
+     "zh": "第六。",
+     "exampleZh": "enquë／enquëa"
+    },
+    {
+     "id": "r-or6",
+     "headZh": "七",
+     "bodyZh": "otso「seven」→ otsëa「seventh」。",
+     "en": "otsëa",
+     "zh": "第七。",
+     "exampleZh": "otso／otsëa"
+    },
+    {
+     "id": "r-or7",
+     "headZh": "八",
+     "bodyZh": "tolto「eight」→ toltëa「eighth」；也作 toldëa，预设 toldo 为「8」的变体词。",
+     "en": "toltëa",
+     "zh": "第八。",
+     "exampleZh": "tolto／toltëa／toldëa"
+    },
+    {
+     "id": "r-or8",
+     "headZh": "九",
+     "bodyZh": "nertë「nine」→ nertëa「ninth」。",
+     "en": "nertëa",
+     "zh": "第九。",
+     "exampleZh": "nertë／nertëa"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写成 *cantea 或 *cantaa",
+     "right": "cantëa（长 ë）",
+     "whyZh": "原文全部用 -ëa，且说明它取代基数词末元音。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "规律的一致性",
+     "bodyZh": "六组全部遵循「去掉末元音＋ëa」。唯一例外是 toltëa 另有 toldëa，而后者反过来预设了 toldo 这个基数变体。"
+    }
+   ],
+   "recapZh": "cantëa、lempëa、enquëa、otsëa、toltëa、nertëa。",
+   "selfCheckZh": [
+    {
+     "qZh": "「第八」？",
+     "aZh": "toltëa（或 toldëa）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "ordinals",
+    "unitIds": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ord-lempea",
+   "sourceSectionId": "ordinals",
+   "titleZh": "38 · lempëa 取代了 lemenya",
+   "leadZh": "「第五」原为 lemenya 或 lepenya（同 minya 的词尾），后因类比 lempë 而被 lempëa 取代。",
+   "objectives": [
+    "知道旧形式 lemenya／lepenya",
+    "知道佛罗多时代该用 lempëa"
+   ],
+   "rules": [
+    {
+     "id": "r-or9",
+     "headZh": "出处",
+     "bodyZh": "此表依据托尔金六十年代末所写、刊于 VT42:24-27 的 Eldarin 数词记述（另见 30-31 页编者注）。",
+     "en": "published in VT42:24-27",
+     "zh": "刊于 VT42:24-27。"
+    },
+    {
+     "id": "r-or10",
+     "headZh": "旧形式",
+     "bodyZh": "「fifth」原为 lemenya 或 lepenya（词尾同 minya），后来因类比基数 lempë 而被 lempëa 取代。",
+     "en": "lemenya or lepenya",
+     "zh": "（旧）第五。",
+     "exampleZh": "lemenya／lepenya"
+    },
+    {
+     "id": "r-or11",
+     "headZh": "适用时代",
+     "bodyZh": "替换发生于何时（流亡前或更晚）笔记说法不一，但佛罗多时代该用 lempëa。",
+     "en": "in Frodo's day, lempëa would be the word to use",
+     "zh": "在佛罗多时代该用 lempëa。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "在练习里用 lemenya",
+     "right": "用 lempëa",
+     "whyZh": "原文明确：in Frodo's day, lempëa would be the word to use。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "类比的力量",
+     "bodyZh": "lemenya 本与 minya 同构，却被更「透明」的 lempëa 取代。这说明昆雅序数系统在向「基数＋ëa」的规则靠拢。"
+    }
+   ],
+   "recapZh": "lempëa（旧 lemenya／lepenya）。",
+   "selfCheckZh": [
+    {
+     "qZh": "「第五」的旧形式？",
+     "aZh": "lemenya 或 lepenya。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "ordinals",
+    "unitIds": [
+     7
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ord-replace",
+   "sourceSectionId": "ordinals",
+   "titleZh": "39 · attëa 与 neldëa",
+   "leadZh": "「第二」「第三」也可能改用 -ëa：attëa 取代 (t)atya，neldëa 可与 nelya 并存。",
+   "objectives": [
+    "知道 attëa 已取代 atya",
+    "知道 neldëa 并未完全取代 nelya"
+   ],
+   "rules": [
+    {
+     "id": "r-or12",
+     "headZh": "attëa",
+     "bodyZh": "(t)atya「second」被 attëa「early replaced」，后者相对于基数 atta 算是规则构造。",
+     "en": "attëa",
+     "zh": "第二。",
+     "exampleZh": "atya／attëa"
+    },
+    {
+     "id": "r-or13",
+     "headZh": "neldëa",
+     "bodyZh": "nelya 作为「three」也可能被 neldëa 取代，后者更清楚反映基数 neldë；但没说 neldëa 完全取代 nelya。",
+     "en": "nothing is said about neldëa wholly replacing nelya",
+     "zh": "并未说 neldëa 完全取代 nelya。",
+     "exampleZh": "nelya／neldëa"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 nelya 已废弃",
+     "right": "它仍可用，neldëa 只是更透明的替代",
+     "whyZh": "原文特意说明没说 neldëa 完全取代 nelya。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "「early replaced」的分量",
+     "bodyZh": "attëa 是明确取代，neldëa 只是「也可」。作者对这两个词的措辞差别，正是证据强度的差别。"
+    }
+   ],
+   "recapZh": "attëa（取代 atya）；neldëa（与 nelya 并存）。",
+   "selfCheckZh": [
+    {
+     "qZh": "「第二」的规则形式？",
+     "aZh": "attëa。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "ordinals",
+    "unitIds": [
+     8
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ord-ten",
+   "sourceSectionId": "ordinals",
+   "titleZh": "40 · 「第十」的争议：quainëa 与 cainen",
+   "leadZh": "VT42:25 列出 quainëa「第十」，但它预设的「十」与《词源》的 cainen 不同。",
+   "objectives": [
+    "知道 quainëa 与 cainen",
+    "知道 cainen 的序数可作 cainenya 或 cainëa"
+   ],
+   "rules": [
+    {
+     "id": "r-or14",
+     "headZh": "quainëa",
+     "bodyZh": "VT42:25 列出「tenth」作 quainëa，但它预设的「十」与《词源》的 cainen 不同。",
+     "en": "quainëa",
+     "zh": "第十。",
+     "exampleZh": "quainëa"
+    },
+    {
+     "id": "r-or15",
+     "headZh": "词根的执着",
+     "bodyZh": "与「十」有关的词根 KAY- 似乎在托尔金想象中萦绕至少三十年，故作者不愿仅因一份晚期手稿的分歧就抛弃它。",
+     "en": "A root KAY- having to do with the number \"ten\" seems to have haunted Tolkien's imagination for at least thirty years",
+     "zh": "词根 KAY- 似乎在托尔金想象中萦绕至少三十年。"
+    },
+    {
+     "id": "r-or16",
+     "headZh": "cainen 的序数",
+     "bodyZh": "对应 cainen 的序数可作 cainenya 或 cainëa（但几乎不会是 ?cainenëa）。",
+     "en": "cainenya or cainëa",
+     "zh": "第十（另一套）。",
+     "exampleZh": "cainenya／cainëa"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写成 ?cainenëa",
+     "right": "cainenya 或 cainëa",
+     "whyZh": "原文用 hardly 明确排除 ?cainenëa。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "作者为何不裁决",
+     "bodyZh": "他明说「这里不是讨论哪些形式有效或正典的地方」。这是全书对「正典问题」的一贯态度：描述分歧，不代替读者裁决。"
+    }
+   ],
+   "recapZh": "quainëa／cainenya／cainëa；?cainenëa 不可。",
+   "selfCheckZh": [
+    {
+     "qZh": "cainen 的序数有哪两种？",
+     "aZh": "cainenya 或 cainëa。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "ordinals",
+    "unitIds": [
+     9
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ord-next",
+   "sourceSectionId": "ordinals",
+   "titleZh": "41 · 接下来三课",
+   "leadZh": "作者预告：接下来三课将逐一梳理可证的序数词，从「第四」cantëa 开始。",
+   "objectives": [
+    "知道后续课程安排",
+    "知道 cantëa 是起点"
+   ],
+   "rules": [
+    {
+     "id": "r-or17",
+     "headZh": "预告",
+     "bodyZh": "接下来三课将逐一梳理可证的序数词，从「fourth」（cantëa）开始。",
+     "en": "starting with the word for \"fourth\" (cantëa)",
+     "zh": "从「fourth」（cantëa）开始。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为本课已讲完序数",
+     "right": "本课只讲规则与四到九，其余在 18–20 课",
+     "whyZh": "原文明确说 Over the next three lessons。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "课程的结构感",
+     "bodyZh": "序数词横跨 17–20 课。本课给的是框架与四到九，后面逐段展开——这也是为什么第 17 课的序数部分篇幅不长。"
+    }
+   ],
+   "recapZh": "18–20 课继续讲序数，从 cantëa 起。",
+   "selfCheckZh": [
+    {
+     "qZh": "序数词从哪一课开始细讲？",
+     "aZh": "第 18 课（从 cantëa 起）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "ordinals",
+    "unitIds": [
+     10
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "summary",
+   "sourceSectionId": "ordinals",
+   "kind": "summary",
+   "titleZh": "42 · 本课小结",
+   "leadZh": "四块收成一张清单：指示词、末位变格、U 词干、序数词。英文小结逐字取自原文。",
+   "objectives": [
+    "能复述四个指示词的分工与复数",
+    "能复述末位变格及其反例",
+    "能复述 U 词干的三套复数",
+    "能复述 -ëa 序数规则"
+   ],
+   "summaryEn": "Summary of Lesson Seventeen: Quenya demonstratives include sina \"this\", tana \"that\" (one early source also has tanya), enta \"that (yonder)\" (apparently with emphasis on spatial position, though it may also refer to something that lies in the future) and yana \"that (former)\" (of time used of something that lies in the past, the opposite of enta). It may be assumed that the corresponding plural forms (the words for \"these\" and \"those\") end in -ë rather than -a, since these demonstratives probably behave like adjectives. Demonstratives are, or may be, placed after the noun they connect with; Cirion's Oath has vanda sina for \"this oath\" (we cannot know whether the English-style word order sina vanda would be equally valid, and the word order observed in Cirion's Oath is consistently employed in the exercises below). – Where there are several declinable words in a phrase, as when a noun is followed by an attributive adjective (or participle) describing it, a case ending may be added to the last word of the phrase. The noun itself, if not singular, would receive only the simplest endings for number (the endings normally associated with the nominative case, like -i or -r in the plural): The case ending that follows later in the phrase would still determine what case the entire phrase is. – U-stem nouns originally ended in the vowel -u, which in Quenya has become -o when the word occurs without endings, but where not final, the vowel remains -u-. Thus a word like ango \"snake\" appears as angu- in a compound (e.g. angulócë \"snake-dragon\"), and no doubt also before endings for pronoun or case (e.g. angulya \"your snake\", or allative angunna \"to a snake\"). The nominative plural of U-stem nouns is formed with the ending -i (rather than -r), and at least where the noun happens to end in -go or -co, the final vowel representing an older u turns into w before the plural ending. Thus the nominative plural of ango, angu- is angwi, and the plural of ranco, rancu- is ranqui (this spelling representing rancwi). These special plurals may also be reflected in the other cases that have plural case endings involving the vowel i, certainly the genitive plural (angwion, ranquion) and dative plural (angwin, ranquin). – The ordinal numbers from \"fourth\" to \"ninth\" are formed by replacing the final vowel of the corresponding cardinal number with -ëa, e.g. cantëa \"fourth\" from canta \"four\". Even the ordinals (t)atya \"second\" and nelya \"third\" may be replaced by attëa, neldëa (cf. the cardinals atta \"two\", neldë \"three\").",
+   "summaryZh": "第十七课小结：昆雅指示词包括 sina「this」、tana「that」（一份早期材料也作 tanya）、enta「that (yonder)」（显然侧重空间位置，但也可能指位于未来的事物）与 yana「that (former)」（时间上用于位于过去的事物，与 enta 相反）。可以假定相应复数形式（「these」「those」）以 -ë 而非 -a 结尾，因为这些指示词大概像形容词一样变化。指示词置于（或可置于）其所连名词之后；Cirion 的誓言有 vanda sina「this oath」（我们无法知道英语式词序 sina vanda 是否同样有效，而练习一律采用 Cirion 的誓言所见词序）。——短语中有几个可变化词时，如名词后跟修饰它的定语形容词（或分词），格词尾可加在短语末词上。名词本身若非单数，只接最简单的数词尾（通常与主格相联的词尾，如复数 -i 或 -r）：短语后部随之而来的格词尾仍决定整个短语属何格。——U 词干名词原以元音 -u 结尾，在昆雅中该词不带词尾时变成 -o，但非词末时元音仍为 -u-。故 ango「snake」这样的词在复合词中作 angu-（如 angulócë），在代词或格词尾前无疑也如此（如 angulya、向格 angunna）。U 词干名词的主格复数用词尾 -i（而非 -r），至少当名词恰以 -go 或 -co 结尾时，代表较早 u 的末元音在复数词尾前变成 w。故 ango、angu- 的主格复数是 angwi，ranco、rancu- 的复数是 ranqui（此拼法代表 rancwi）。这些特殊复数也会反映在其他含元音 i 的复数格词尾上，确定的是属格复数（angwion、ranquion）与与格复数（angwin、ranquin）。——「fourth」到「ninth」的序数词由把相应基数词的末元音换成 -ëa 构成，如 cantëa 来自 canta。连 (t)atya「second」与 nelya「third」也可能被 attëa、neldëa 取代（参基数 atta、neldë）。",
+   "formulaZh": [
+    "指示词：sina（这）、tana（那）、enta（那边那／未来那）、yana（从前那）；位置在名词之后。",
+    "指示词复数：-a → -ë（sinë、tanë、entë、yanë）；名词同时变复数（vandar sinë、nissi tanë）。",
+    "末位变格：vanda sina → Elendil Vorondo、axor ilcalannar、isilmë ilcalassë、Aldu caltalanta。",
+    "反例（词尾加名词）：rámainen elvië、ondolissë mornë、vandainen sinë。",
+    "U 词干：ango／angu-、ranco／rancu-、rusco／ruscu-、curo／curu-。",
+    "U 词干主格复数：-ngwi／-nqui（angwi、ranqui、rusqui），连带 rusquin／rusquion。",
+    "U 词干其余各格：末 -o 改 -u（angunnar、angullon、angussen、angulyar）。",
+    "序数 -ëa：cantëa、lempëa、enquëa、otsëa、toltëa、nertëa；attëa、neldëa。"
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写成 sina vanda、angor、Elendilo Voronda",
+     "right": "vanda sina、angwi、Elendil Vorondo",
+     "whyZh": "原文三处分别明确：昆雅词序是 oath this；ango 的复数既非 **angor 也非 **angur；only the last is declined。"
+    },
+    {
+     "wrong": "把 yana 与 enta 互换",
+     "right": "yana 指过去，enta 可指未来",
+     "whyZh": "原文：aurë enta if we are talking about some future day... whereas aurë yana is \"that day\" with reference to some day in the past。"
+    }
+   ],
+   "recapZh": "sina／tana／enta／yana；末位变格；U 词干 -ngwi／-nqui；序数 -ëa。",
+   "selfCheckZh": [
+    {
+     "qZh": "「这些誓言」？",
+     "aZh": "vandar sinë。"
+    },
+    {
+     "qZh": "ango 的主格复数？",
+     "aZh": "angwi。"
+    },
+    {
+     "qZh": "「在渐亏的月光中」？",
+     "aZh": "isilmë pícalassë。"
+    },
+    {
+     "qZh": "「第八」？",
+     "aZh": "toltëa。"
+    }
+   ]
+  },
+  {
+   "sectionId": "exercises",
+   "sourceSectionId": "exercises",
+   "titleZh": "43 · 练习 A–P",
+   "leadZh": "A–H 译成英语，I–P 译成昆雅。答案逐字取自 keys.rtf，可用工作台核对。",
+   "objectives": [
+    "能独立完成 A–P",
+    "能用 keys 逐题核对"
+   ],
+   "rules": [
+    {
+     "id": "r-ex17-1",
+     "headZh": "本课考点",
+     "bodyZh": "A–H 覆盖指示词（sina、tanë、tana、enta、yana）、末位变格（Calandil Hallanen、nórë sinallo、ohtari mahtalallon）与 U 词干（rancurya、ranqui、anguo）。",
+     "en": "Nai ilyë angwi firuvar!",
+     "zh": "愿所有蛇都死去！",
+     "exampleZh": "Nai ilyë angwi firuvar!"
+    },
+    {
+     "id": "r-ex17-2",
+     "headZh": "词序要求",
+     "bodyZh": "I–P 一律采用 Cirion 的誓言所见词序：指示词跟在名词之后。",
+     "en": "Watch that Dwarf, and don't watch this Elf!",
+     "zh": "看着那个矮人，别看这个精灵！",
+     "exampleZh": "Nauco tana／Elda sina"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "I 题写成 tana Nauco",
+     "right": "Nauco tana",
+     "whyZh": "原文说 the word order observed in Cirion's Oath is consistently employed in the exercises below。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "做题提示",
+     "bodyZh": "A–H 里凡是「名词＋形容词」的短语，都要判断格词尾落在哪个词上（见下方考点对照）；I–P 里凡是「这／那＋名词」，指示词一律后置。"
+    }
+   ],
+   "recapZh": "A–H 英译、I–P 昆译；指示词后置。",
+   "selfCheckZh": [
+    {
+     "qZh": "I 题「那个矮人」怎么写？",
+     "aZh": "Nauco tana。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "exercises",
+    "unitIds": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "vocabulary",
+   "sourceSectionId": "vocabulary",
+   "titleZh": "44 · 课末词汇",
+   "leadZh": "本课 14 段词汇：四个指示词、U 词干 ango 与 lómë、器物与方位词。",
+   "objectives": [
+    "能读四个指示词",
+    "能读 ango／angu-、lómë／lómi-",
+    "能读 polda、halla、forya、Formen"
+   ],
+   "rules": [
+    {
+     "id": "r-v17-1",
+     "headZh": "四个指示词",
+     "bodyZh": "sina「this」、tana「that」、enta「that yonder」、yana「that (former)」——本课语法的核心词。",
+     "en": "sina demonstrative \"this\"",
+     "zh": "sina「这」。",
+     "exampleZh": "sina／tana／enta／yana"
+    },
+    {
+     "id": "r-v17-2",
+     "headZh": "ango 与 lómë 的词干",
+     "bodyZh": "ango 词干 angu-，lómë 词干 lómi-：两个词干形式分别是 u 词干与 i 词干的样板。",
+     "en": "ango (angu-) \"snake\"",
+     "zh": "ango（angu-）「蛇」。",
+     "exampleZh": "ango／angu-；lómë／lómi-"
+    },
+    {
+     "id": "r-v17-3",
+     "headZh": "forya 与 Formen",
+     "bodyZh": "Formen「北」与形容词 forya「右」相关，正如 Hyarmen「南」与 hyarya「左」相关——参照点是面朝西的人。",
+     "en": "Formen \"(the) North\"",
+     "zh": "Formen「北」。",
+     "exampleZh": "Formen／forya"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 forya 当「北」",
+     "right": "forya 是「右」，Formen 才是「北」",
+     "whyZh": "原文分列两条：forya adjective \"right\"；Formen \"(the) North\"。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "词汇与语法的接口",
+     "bodyZh": "本课词汇里 sina、tana、enta、yana 直接承担语法；ango、lómë 是两类词干的样板；ranco 在词表开头被特别提醒是 u 词干。背词时连带记词干。"
+    }
+   ],
+   "recapZh": "cantëa、tana、enta、yana、sina、ango、sangwa、lómë、polda、halla、forya、Formen。",
+   "selfCheckZh": [
+    {
+     "qZh": "「北」怎么写？",
+     "aZh": "Formen。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "vocabulary",
+    "unitIds": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13
+    ],
+    "labelZh": "课文"
+   }
+  }
+ ]
+}

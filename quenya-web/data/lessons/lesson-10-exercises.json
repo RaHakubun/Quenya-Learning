@@ -1,0 +1,368 @@
+{
+ "kind": "translation",
+ "introZh": "A–H 为昆雅译英，I–P 为英译昆雅。本课五套新规则都会出现：-vë 副词（núravë、anwavë、nuldavë、teldavë、lintavë）、-ntë／-t 代词词尾、-ita 不定式（hiritas、caritas、cenitas、hlaritas）、不及物 -ya 过去时（farnë、farner）、被动分词（nurtaina、tirnë、hostainë、ruhtainë、técina、quétina）。",
+ "pointMapZh": [
+  {
+   "labelZh": "-vë 副词",
+   "ruleRef": "rule-ve",
+   "noteZh": "A（núravë）、B（vanyavë）、D（lintavë）、E（teldavë）、F（anwavë）、I（nuldavë）、M（anwavë）、N（lintavë）、O（teldavë）"
+  },
+  {
+   "labelZh": "-ntë「他们」作主语",
+   "ruleRef": "rule-nte-rule",
+   "noteZh": "B（lindantë）、D（merintë）、H（úmentë）、I（elendientë）、N（hostanentë）、P（umintë）"
+  },
+  {
+   "labelZh": "-t「他们」作宾语",
+   "ruleRef": "rule-t-object",
+   "noteZh": "A（melinyet）、E（ecendielyet）、O（cenuvalyet）"
+  },
+  {
+   "labelZh": "-ita 不定式 + 宾语词尾",
+   "ruleRef": "rule-ita",
+   "noteZh": "D（hiritas）、H（caritas、cenitas）、J（cenitas）、M（caritas）、O（cenitat）、P（hlaritas）"
+  },
+  {
+   "labelZh": "不及物 -ya 过去时",
+   "ruleRef": "rule-ya-pattern",
+   "noteZh": "H（farnë）、L（farner）"
+  },
+  {
+   "labelZh": "被动分词 -na／-ina",
+   "ruleRef": "rule-a-ina",
+   "noteZh": "C（nurtaina）、G（tirnë）、J（hostainë）、K（técina、quétina）、N（ruhtainë）"
+  },
+  {
+   "labelZh": "分词随数变化",
+   "ruleRef": "rule-pp-number",
+   "noteZh": "G（tirnë）、J（hostainë）、N（ruhtainë）"
+  },
+  {
+   "labelZh": "完成时不用分词迂回",
+   "ruleRef": "rule-perfect",
+   "noteZh": "E（ecendielyet）、F（ecénien）、I（elendientë）、O（emériel(yë)）"
+  }
+ ],
+ "part1": {
+  "titleZh": "练习一 · 昆雅译英（A–H）",
+  "hintZh": "先找限定动词，再看 -vë 副词；代词词尾要判断是主语（-ntë）还是宾语（-t）。形容词性的 -na／-ina 形式先判断是分词还是独立形容词。",
+  "items": [
+   {
+    "id": "A",
+    "prompt": "Melinyet núravë.",
+    "pointZh": "mel- + -nye-（我）+ -t（他们）；núravë 是 -vë 副词",
+    "hintsZh": [
+     "mel-「爱」加 -nye-「我」，再加宾语词尾 -t「他们」→ melinyet。",
+     "núra「深的」加 -vë 得副词「深深地」。",
+     "keys 译作 deeply，说明 -vë 对应英语 -ly。"
+    ],
+    "ruleRef": "rule-two-endings",
+    "ruleLabelZh": "回到规则：两个代词词尾连用",
+    "answerKey": "I love them deeply.",
+    "answerKeyZh": "我深深地爱他们。",
+    "answerAlt": [
+     "i love them deeply",
+     "我深深地爱他们"
+    ],
+    "answerZh": "mel- + -nye-（我）+ -t（他们）= melinyet；núra + -vë = núravë。keys：“I love them deeply.”"
+   },
+   {
+    "id": "B",
+    "prompt": "Lindantë vanyavë, ve Eldar lindar.",
+    "pointZh": "linda- + -ntë（他们）；vanyavë 副词；ve 引导比较",
+    "hintsZh": [
+     "linda-「唱」加 -ntë「他们」→ lindantë（主语未在动词前出现）。",
+     "vanya「美的」加 -vë → vanyavë「美妙地」。",
+     "ve「如同」引出比较句，后半句主语 Eldar 已出现，所以用普通复数 -r：lindar。"
+    ],
+    "ruleRef": "rule-nte-rule",
+    "ruleLabelZh": "回到规则：-r 与 -ntë 的分工",
+    "answerKey": "They sing beautifully, like (the) Elves sing.",
+    "answerKeyZh": "他们唱得很美，就像精灵们唱的那样。",
+    "answerAlt": [
+     "they sing beautifully, like the elves sing",
+     "they sing beautifully, like elves sing",
+     "他们唱得很美，就像精灵们唱的那样"
+    ],
+    "answerZh": "linda- + -ntë = lindantë；vanya + -vë = vanyavë；ve 引出比较，Eldar 已作主语故用 lindar。keys：“They sing beautifully, like (the) Elves sing.”"
+   },
+   {
+    "id": "C",
+    "prompt": "I nurtaina harma úva hirna [or, hírina].",
+    "pointZh": "nurtaina 是 -ta 类 A 词干分词；hirna 是 -r 结尾的 -na 分词；úva 否定将来",
+    "hintsZh": [
+     "nurta-「隐藏」是 -ta 类 A 词干，分词作 -taina：nurtaina。",
+     "hir-「找到」以 -r 结尾，被动分词用短词尾 -na：hirna（keys 也接受 hírina）。",
+     "úva 是否定动词的将来时，表「将不」。"
+    ],
+    "ruleRef": "rule-taina",
+    "ruleLabelZh": "回到规则：-ta 类 A 词干 → -taina",
+    "answerKey": "The hidden treasure will not be found.",
+    "answerKeyZh": "那被藏起来的财宝将不会被找到。",
+    "answerAlt": [
+     "the hidden treasure will not be found",
+     "那被藏起来的财宝将不会被找到"
+    ],
+    "answerZh": "nurta- → nurtaina（-ta 类）；hir- → hirna（-r 结尾用 -na）；úva 否定将来。keys 另注：úva hirna／úva hírina 也可能表示「将不会已被找到」，指未来某一情形。"
+   },
+   {
+    "id": "D",
+    "prompt": "Merintë hiritas lintavë.",
+    "pointZh": "mer- + -ntë；hiritas 是 -ita 不定式 + -s；lintavë 副词",
+    "hintsZh": [
+     "mer-「想要」加 -ntë「他们」→ merintë。",
+     "hir- 的不定式接宾语词尾 -s 时要变成 -ita- 形式：hiri- + -ta- + -s = hiritas。",
+     "linta + -vë = lintavë「迅速地」。"
+    ],
+    "ruleRef": "rule-ita",
+    "ruleLabelZh": "回到规则：-ita 不定式",
+    "answerKey": "They want to find it swiftly.",
+    "answerKeyZh": "他们想迅速找到它。",
+    "answerAlt": [
+     "they want to find it swiftly",
+     "他们想迅速找到它"
+    ],
+    "answerZh": "mer- + -ntë = merintë；hir- → hiri- + -ta- + -s = hiritas；linta + -vë = lintavë。keys：“They want to find it swiftly.”"
+   },
+   {
+    "id": "E",
+    "prompt": "Haryalyë atta parmar, ar teldavë ecendielyet.",
+    "pointZh": "harya- + -lyë；ecendielyet 是完成时 + -lye- + -t；teldavë 副词",
+    "hintsZh": [
+     "harya-「拥有」加 -lyë「你」→ haryalyë。",
+     "cenda-「读」的完成时 ecendië，加 -lye-「你」再加 -t「他们」→ ecendielyet。",
+     "teldavë「最终」由 telda + -vë 来。"
+    ],
+    "ruleRef": "rule-perfect",
+    "ruleLabelZh": "回到规则：完成时用完成时",
+    "answerKey": "You have two books, and finally you have read them.",
+    "answerKeyZh": "你有两本书，最终你把它们读完了。",
+    "answerAlt": [
+     "you have two books, and finally you have read them",
+     "你有两本书，最终你把它们读完了"
+    ],
+    "answerZh": "harya- + -lyë = haryalyë；cenda- 完成时 ecendië + -lye- + -t = ecendielyet；telda + -vë = teldavë。keys：“You have two books, and finally you have read them.”"
+   },
+   {
+    "id": "F",
+    "prompt": "Anwavë ecénien Elda.",
+    "pointZh": "anwavë 副词；ecénien 是 cen- 的完成时第一人称",
+    "hintsZh": [
+     "anwa「真实的」加 -vë → anwavë「真正地」。",
+     "cen-「看见」的完成时 ecénië，加 -n「我」→ ecénien。",
+     "Elda 是单数宾语，不加复数词尾。"
+    ],
+    "ruleRef": "rule-ve",
+    "ruleLabelZh": "回到规则：-vë 副词",
+    "answerKey": "I have really [/truly/actually] seen an Elf.",
+    "answerKeyZh": "我真的见过一个精灵。",
+    "answerAlt": [
+     "i have really seen an elf",
+     "i have truly seen an elf",
+     "i have actually seen an elf",
+     "我真的见过一个精灵"
+    ],
+    "answerZh": "anwa + -vë = anwavë；cen- 完成时 ecénië + -n = ecénien。keys 用方括号给出 really／truly／actually 三种译法。"
+   },
+   {
+    "id": "G",
+    "prompt": "Ilyë nertë andor nar tirnë [or, tírinë].",
+    "pointZh": "tirnë 是被动分词复数；nar 是 ná 的复数形式",
+    "hintsZh": [
+     "tir-「守望」的被动分词 tirna，描述复数 andor 时 -a → -ë：tirnë。",
+     "nar 是系动词 ná 的复数形式。",
+     "ilyë「全部」+ nertë「九」+ andor「大门（复数）」。"
+    ],
+    "ruleRef": "rule-pp-number",
+    "ruleLabelZh": "回到规则：被动分词随数变化",
+    "answerKey": "All nine gates are watched.",
+    "answerKeyZh": "九道门全都被守着。",
+    "answerAlt": [
+     "all nine gates are watched",
+     "九道门全都被守着"
+    ],
+    "answerZh": "tir- → tirna，复数 tirnë；ná 复数 nar。keys：“All nine gates are watched.”"
+   },
+   {
+    "id": "H",
+    "prompt": "Úmentë merë caritas, an cenitas farnë.",
+    "pointZh": "úmentë 是否定动词过去时 + -ntë；merë 不定式；caritas／cenitas 是 -ita 形式；farnë 是不及物 -ya 过去时",
+    "hintsZh": [
+     "um- 的过去时 úmë，加 -ntë「他们」→ úmentë「他们没有」。",
+     "否定动词后接不定式 merë；「做它」用 -ita 形式 caritas。",
+     "farya-「足够」过去时 farnë（不是 **faryanë），因为不及物。"
+    ],
+    "ruleRef": "rule-ya-pattern",
+    "ruleLabelZh": "回到规则：不及物 -ya 过去时",
+    "answerKey": "They did not want to do it, for seeing it was enough [/sufficed].",
+    "answerKeyZh": "他们不想做它，因为看见它就已经够了。",
+    "answerAlt": [
+     "they did not want to do it, for seeing it was enough",
+     "they did not want to do it, for seeing it sufficed",
+     "他们不想做它，因为看见它就已经够了"
+    ],
+    "answerZh": "úmë + -ntë = úmentë；merë 不定式；caritas、cenitas 是 -ita 形式；farya- → farnë。keys：“They did not want to do it, for seeing it was enough [/sufficed].”"
+   }
+  ]
+ },
+ "part2": {
+  "titleZh": "练习二 · 英译昆雅（I–P）",
+  "hintZh": "先定主句动词的时态与人称，再决定用 -ntë 还是 -r；不定式后若跟「它／他们」，基本动词一律写成 -ita- 形式；以 -ya 结尾的动词先判断及物性。",
+  "items": [
+   {
+    "id": "I",
+    "prompt": "They have traveled [/gone] secretly through the land.",
+    "pointZh": "lelya- 的完成时 + -ntë；nuldavë；ter + nórë",
+    "hintsZh": [
+     "「已经去了」要用 lelya- 的完成时 elendië，不要用 lelyaina 之类。",
+     "主语「他们」未在动词前出现，用 -ntë → elendientë。",
+     "nulda + -vë = nuldavë；「穿过」用介词 ter，后接 nórë。"
+    ],
+    "ruleRef": "rule-nte-rule",
+    "ruleLabelZh": "回到规则：-ntë「他们」",
+    "answerKey": "Elendientë nuldavë ter i nórë.",
+    "answerKeyZh": "他们秘密地穿过了那片土地。",
+    "answerAlt": [
+     "elendientë nuldavë ter i nórë",
+     "他们秘密地穿过了那片土地"
+    ],
+    "answerZh": "lelya- 完成时 elendië + -ntë = elendientë；nulda + -vë；ter i nórë。keys 附注：'have gone' 就该用 lelya- 的完成时，不必另找「去」的单词。"
+   },
+   {
+    "id": "J",
+    "prompt": "The assembled Elves wanted to see it.",
+    "pointZh": "hostainë 是复数分词；merner 过去时复数；cenitas 是 -ita 形式",
+    "hintsZh": [
+     "hosta-「集合」的被动分词 hostaina，修饰复数 Eldar 时作 hostainë。",
+     "mer- 的过去时 mernë，主语复数加 -r → merner。",
+     "「看见它」作不定式要带宾语词尾：ceni- + -ta- + -s = cenitas。"
+    ],
+    "ruleRef": "rule-pp-number",
+    "ruleLabelZh": "回到规则：被动分词随数变化",
+    "answerKey": "I hostainë Eldar merner cenitas.",
+    "answerKeyZh": "那些聚集起来的精灵想看见它。",
+    "answerAlt": [
+     "i hostainë eldar merner cenitas",
+     "那些聚集起来的精灵想看见它"
+    ],
+    "answerZh": "hostaina → hostainë（复数）；mer- 过去时 merner；cen- → cenitas。keys：“I hostainë Eldar merner cenitas.”"
+   },
+   {
+    "id": "K",
+    "prompt": "Written language is not like spoken language.",
+    "pointZh": "técina、quétina 是两个被动分词；umë 是否定系动词；ve 引出比较",
+    "hintsZh": [
+     "tec-「写」以 -c 结尾，被动分词拉长元音加 -ina：técina。",
+     "quet-「说」以 -t 结尾，同样作 quétina。",
+     "「不是」用否定系动词 umë（此处非过去语境），比较用 ve。"
+    ],
+    "ruleRef": "rule-ct",
+    "ruleLabelZh": "回到规则：-c／-t 结尾拉长 + -ina",
+    "answerKey": "Técina lambë umë ve quétina lambë.",
+    "answerKeyZh": "书写的语言不像口说的语言。",
+    "answerAlt": [
+     "técina lambë umë ve quétina lambë",
+     "书写的语言不像口说的语言"
+    ],
+    "answerZh": "tec- → técina；quet- → quétina；否定系动词 umë；ve 引出比较。keys：“Técina lambë umë ve quétina lambë.”"
+   },
+   {
+    "id": "L",
+    "prompt": "Five ships were not enough [/did not suffice]; nine sufficed.",
+    "pointZh": "úmer 是否定动词过去时复数；farya 不定式；farner 是 farnë + -r",
+    "hintsZh": [
+     "lempë「五」+ ciryar「船（复数）」。",
+     "「不够」用否定动词 úmë + 复数 -r → úmer，后接不定式 farya。",
+     "farya- 过去时 farnë，复数加 -r → farner。"
+    ],
+    "ruleRef": "rule-ya-pattern",
+    "ruleLabelZh": "回到规则：不及物 -ya 过去时",
+    "answerKey": "Lempë ciryar úmer farya; nertë farner.",
+    "answerKeyZh": "五条船不够；九条够了。",
+    "answerAlt": [
+     "lempë ciryar úmer farya; nertë farner",
+     "五条船不够；九条够了"
+    ],
+    "answerZh": "úmë + -r = úmer + 不定式 farya；farya- → farnë + -r = farner。keys：“Lempë ciryar úmer farya; nertë farner.”"
+   },
+   {
+    "id": "M",
+    "prompt": "I will really stop doing it [/truly cease to do it].",
+    "pointZh": "anwavë；pustuva + -n；caritas",
+    "hintsZh": [
+     "anwa + -vë = anwavë「真正地」。",
+     "pusta-「停止」将来时 pustuva，加 -n「我」→ pustuvan（keys 也接受 pustuvanyë）。",
+     "「做它」用 -ita 形式 caritas。"
+    ],
+    "ruleRef": "rule-ita",
+    "ruleLabelZh": "回到规则：-ita 不定式",
+    "answerKey": "Anwavë pustuvan [or, pustuvanyë] caritas.",
+    "answerKeyZh": "我真的会停止做它。",
+    "answerAlt": [
+     "anwavë pustuvan caritas",
+     "anwavë pustuvanyë caritas",
+     "我真的会停止做它"
+    ],
+    "answerZh": "anwa + -vë；pusta- 将来 pustuva + -n；car- → caritas。keys 给 pustuvan 与 pustuvanyë 两种。"
+   },
+   {
+    "id": "N",
+    "prompt": "They swiftly gathered the nine terrified Dwarves.",
+    "pointZh": "hostanentë 是过去时 + -ntë；ruhtainë 是复数分词",
+    "hintsZh": [
+     "hosta- 过去时 hostanë，加 -ntë「他们」→ hostanentë。",
+     "ruhta-「使恐惧」的被动分词 ruhtaina，修饰复数 Naucor 时作 ruhtainë。",
+     "lintavë 放句首或动词后都可以。"
+    ],
+    "ruleRef": "rule-taina",
+    "ruleLabelZh": "回到规则：-ta 类 A 词干 → -taina",
+    "answerKey": "Lintavë hostanentë i nertë ruhtainë Naucor.",
+    "answerKeyZh": "他们迅速聚集了那九个惊恐的矮人。",
+    "answerAlt": [
+     "lintavë hostanentë i nertë ruhtainë naucor",
+     "他们迅速聚集了那九个惊恐的矮人"
+    ],
+    "answerZh": "hosta- 过去 hostanë + -ntë；ruhtaina → ruhtainë；linta + -vë。keys：“Lintavë hostanentë i nertë ruhtainë Naucor.”"
+   },
+   {
+    "id": "O",
+    "prompt": "Finally you will see them as you have wanted to see them.",
+    "pointZh": "cenuvalyet 是将来 + -lye- + -t；emériel(yë) 是完成时；cenitat 是 -ita 形式",
+    "hintsZh": [
+     "cen- 将来 cenuva，加 -lye-「你」再加 -t「他们」→ cenuvalyet。",
+     "mer- 完成时 emérië，加 -lyë「你」→ emériel(yë)（-lyë 可省作 -l）。",
+     "「看见他们」作不定式：ceni- + -ta- + -t = cenitat。"
+    ],
+    "ruleRef": "rule-t-object",
+    "ruleLabelZh": "回到规则：-t「他们」作宾语",
+    "answerKey": "Teldavë cenuvalyet ve emériel(yë) cenitat.",
+    "answerKeyZh": "最终你将看见他们，正如你一直想看见他们那样。",
+    "answerAlt": [
+     "teldavë cenuvalyet ve emériel cenitat",
+     "teldavë cenuvalyet ve emérielyë cenitat",
+     "最终你将看见他们，正如你一直想看见他们那样"
+    ],
+    "answerZh": "cenuva + -lye- + -t = cenuvalyet；mer- 完成 emérië + -lyë = emériel(yë)；cen- → cenitat。keys：“Teldavë cenuvalyet ve emériel(yë) cenitat.”"
+   },
+   {
+    "id": "P",
+    "prompt": "They don't want to hear it.",
+    "pointZh": "umintë 是否定动词无定时 + -ntë；hlaritas 是 -ita 形式",
+    "hintsZh": [
+     "否定动词 um- 的无定时加 -ntë「他们」→ umintë。",
+     "否定动词后接不定式 merë。",
+     "「听见它」：hlar- → hlari- + -ta- + -s = hlaritas。"
+    ],
+    "ruleRef": "rule-ita",
+    "ruleLabelZh": "回到规则：-ita 不定式",
+    "answerKey": "Umintë merë hlaritas.",
+    "answerKeyZh": "他们不想听见它。",
+    "answerAlt": [
+     "umintë merë hlaritas",
+     "他们不想听见它"
+    ],
+    "answerZh": "um- + -ntë = umintë；merë 不定式；hlar- → hlaritas。keys：“Umintë merë hlaritas.”"
+   }
+  ]
+ }
+}

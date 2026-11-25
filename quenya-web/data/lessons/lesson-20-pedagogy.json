@@ -1,0 +1,212 @@
+{
+ "lesson": 20,
+ "schemaVersion": 2,
+ "titleZh": "to be 的诸形式、疑问助词 ma 与从句助词 sa",
+ "titleEn": "The obscure verb \"to be\". Ma as a possible interrogative particle. Sa introducing nominal clauses.",
+ "summaryZh": "本课四块。①to be：可证形式只有 ná「is」、nar「are」（《Namárië》及其草稿）、nauva「will be」（VT42:34）。nalyë「thou art」（VT43:27）证明系词能接代词词尾，且接词尾时取短形式 na-：nan／nanyë、nat、nal／nalyë、nas、nalmë／nalvë／nammë、nantë；将来时 nauva 不加改动（nauvan、nauvalmë）。不定式大概就是 ná（?Merin ná Elda）。过去时「was」无确定证据，?nánë 不可信；né 长期传闻见于未刊手稿，Gilson 从 kanda-／kandane 与 -a／-e 对立论证其可能，作者称其为「几乎等于可证」，复数外推作 ner；加词尾时作 ne-（nenyë、nelyë、nes、nentë）。完成时「has been」无法重建（?anaië 仅为权宜）。命令式「be!」用 na（na airë esselya、na carë indómelya），nai 或即 na-i。现在时系词可整个省略：aistana elyë、inyë Elda、Ni Elda。②ëa：另一个「is」，更确切意为「exists」（VT39:7），与 engwë「thing」同源；现在时 ëa、命令式同形、过去时 engë（VT43:36 确证，源自 eñâ ＋ 鼻音插入 → eññ- → ng）、将来时或作 euva。ná 是系词（接名词／形容词／介词短语），ëa 表存在、在场、位置（Eru ëa、Eä malta i orontissen、i Eru i or ilyë mahalmar ëa tennoio）；ëala 作名词「being」。③疑问助词 ma：是非问在已刊材料里无例证。托尔金称 ma／man 为「Eldarin interrogative element」，maquet-「ask」＝ma-say；有一份早期手稿把 ma 称作疑问助词。故可在句首加 ma 造是非问（Ma tences i parma?），也可表 whether（Umin ista ma utúlies），但全属推测，且晚期 ma 另有「某物」之义。④sa：引出名词性从句的「that」，唯一证据是 Dawson 转引的 merin sa haryalyë alassë；例句 istan sa ëalyë sinomë、sa ëalyë sinomë ná mára。证据可疑（4 月 1 日发帖），但 sa 本身可信、或属早期，目前仍是唯一选择。",
+ "mindmap": {
+  "rootZh": "第 20 课：to be、ëa、ma、sa",
+  "branches": [
+   {
+    "labelZh": "最后一课",
+    "sectionId": "pre-intro"
+   },
+   {
+    "labelZh": "to be 概览",
+    "sectionId": "be-forms"
+   },
+   {
+    "labelZh": "ná／nar／nauva",
+    "sectionId": "be-attested"
+   },
+   {
+    "labelZh": "不定式",
+    "sectionId": "be-inf"
+   },
+   {
+    "labelZh": "nalyë",
+    "sectionId": "be-nalye"
+   },
+   {
+    "labelZh": "náre",
+    "sectionId": "be-nare"
+   },
+   {
+    "labelZh": "外推",
+    "sectionId": "be-pattern"
+   },
+   {
+    "labelZh": "单数变位",
+    "sectionId": "be-sg"
+   },
+   {
+    "labelZh": "复数变位",
+    "sectionId": "be-pl"
+   },
+   {
+    "labelZh": "旧方案 nályë",
+    "sectionId": "be-old"
+   },
+   {
+    "labelZh": "将来时 nauva",
+    "sectionId": "be-future"
+   },
+   {
+    "labelZh": "双词尾",
+    "sectionId": "be-two"
+   },
+   {
+    "labelZh": "省略系词",
+    "sectionId": "be-zero"
+   },
+   {
+    "labelZh": "过去时 né",
+    "sectionId": "be-past"
+   },
+   {
+    "labelZh": "Gilson 论证",
+    "sectionId": "be-gilson"
+   },
+   {
+    "labelZh": "né 的地位",
+    "sectionId": "be-ne"
+   },
+   {
+    "labelZh": "ner",
+    "sectionId": "be-ner"
+   },
+   {
+    "labelZh": "过去时加词尾",
+    "sectionId": "be-past-end"
+   },
+   {
+    "labelZh": "完成时",
+    "sectionId": "be-perfect"
+   },
+   {
+    "labelZh": "命令式 na",
+    "sectionId": "be-imper"
+   },
+   {
+    "labelZh": "ye／yéva",
+    "sectionId": "be-ye"
+   },
+   {
+    "labelZh": "ëa",
+    "sectionId": "ea-intro"
+   },
+   {
+    "labelZh": "Eä",
+    "sectionId": "ea-name"
+   },
+   {
+    "labelZh": "ëa 与 ná",
+    "sectionId": "ea-vs-na"
+   },
+   {
+    "labelZh": "ëa＝exists",
+    "sectionId": "ea-exist"
+   },
+   {
+    "labelZh": "Cirion 誓言",
+    "sectionId": "ea-cirion"
+   },
+   {
+    "labelZh": "位置用 ëa",
+    "sectionId": "ea-position"
+   },
+   {
+    "labelZh": "ëa 变位",
+    "sectionId": "ea-inflect"
+   },
+   {
+    "labelZh": "engë 的音变",
+    "sectionId": "ea-enge"
+   },
+   {
+    "labelZh": "ëa 接词尾",
+    "sectionId": "ea-endings"
+   },
+   {
+    "labelZh": "ma 是助词吗",
+    "sectionId": "ma-head"
+   },
+   {
+    "labelZh": "缺是非问",
+    "sectionId": "ma-missing"
+   },
+   {
+    "labelZh": "英语手段",
+    "sectionId": "ma-english"
+   },
+   {
+    "labelZh": "助词方案",
+    "sectionId": "ma-particle"
+   },
+   {
+    "labelZh": "昆雅例句",
+    "sectionId": "ma-quenya"
+   },
+   {
+    "labelZh": "疑问元素 ma",
+    "sectionId": "ma-element"
+   },
+   {
+    "labelZh": "手稿证据",
+    "sectionId": "ma-ms"
+   },
+   {
+    "labelZh": "四个示范",
+    "sectionId": "ma-examples"
+   },
+   {
+    "labelZh": "间接疑问",
+    "sectionId": "ma-dep"
+   },
+   {
+    "labelZh": "不定代词 ma",
+    "sectionId": "ma-indef"
+   },
+   {
+    "labelZh": "第三种 that",
+    "sectionId": "sa-intro"
+   },
+   {
+    "labelZh": "名词性从句",
+    "sectionId": "sa-clause"
+   },
+   {
+    "labelZh": "对应词",
+    "sectionId": "sa-q"
+   },
+   {
+    "labelZh": "Merin 句",
+    "sectionId": "sa-merin"
+   },
+   {
+    "labelZh": "可疑之处",
+    "sectionId": "sa-doubt"
+   },
+   {
+    "labelZh": "sa 造句",
+    "sectionId": "sa-examples"
+   },
+   {
+    "labelZh": "表意图",
+    "sectionId": "sa-intent"
+   },
+   {
+    "labelZh": "小结",
+    "sectionId": "summary"
+   },
+   {
+    "labelZh": "练习 A–P",
+    "sectionId": "exercises"
+   },
+   {
+    "labelZh": "词汇",
+    "sectionId": "vocabulary"
+   }
+  ]
+ }
+}

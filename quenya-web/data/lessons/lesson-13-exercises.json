@@ -1,0 +1,307 @@
+{
+ "kind": "translation",
+ "introZh": "A–H 昆雅译英，I–P 英译昆雅。答案逐字取自 keys.rtf；括号里的注释也来自 keys，解释该形式的由来。",
+ "pointMapZh": [
+  {
+   "labelZh": "名词与格 -n",
+   "ruleRef": "r-dat-n1",
+   "noteZh": "A（i nissen）、B（Ambaren）、M（i lient 为双数与格）"
+  },
+  {
+   "labelZh": "帮助元音 -e-",
+   "ruleRef": "r-dat-nd1",
+   "noteZh": "I（ohtaren）"
+  },
+  {
+   "labelZh": "-lvë 是包含式",
+   "ruleRef": "r-we-d3",
+   "noteZh": "C（hiruvalvë、antuvalves）、K（mahtalvë、ecénielvë）、P（acárielvet）"
+  },
+  {
+   "labelZh": "gerund 能带宾语",
+   "ruleRef": "r-ger-d1",
+   "noteZh": "D（matië hrávë）、H（sucië limpë）、J（carië coa）、L（quetië i Eldalambë）"
+  },
+  {
+   "labelZh": "表目的用与格 gerund",
+   "ruleRef": "r-ger-p2",
+   "noteZh": "E（hirien）、G（quetien）、N（sucien）"
+  },
+  {
+   "labelZh": "in order 测试",
+   "ruleRef": "r-ger-r1",
+   "noteZh": "O（lelya 用不定式，lerien／antien 才用与格 gerund）"
+  },
+  {
+   "labelZh": "-ya 动词整段脱落",
+   "ruleRef": "r-ger-y1",
+   "noteZh": "P（varien）"
+  },
+  {
+   "labelZh": "arwa／arwë 接属格",
+   "ruleRef": "r-v-2",
+   "noteZh": "F（arwa márë noaron）、N（arwë i mára limpëo）"
+  },
+  {
+   "labelZh": "quen 可接格词尾",
+   "ruleRef": "r-q-2",
+   "noteZh": "H（queno hroan）、D（carë quen tiuca）"
+  }
+ ],
+ "part1": {
+  "titleZh": "练习一 · 昆雅译英（A–H）",
+  "hintZh": "先把每个名词短语标成主语、直接宾语或间接宾语；看到 gerund 先问它带不带宾语。",
+  "items": [
+   {
+    "id": "A",
+    "prompt": "I nér ánë i nissen anna.",
+    "pointZh": "i nissen 是与格「给那位女人」",
+    "hintsZh": [
+     "ánë 是 anta- 的不规则过去时。",
+     "nis (niss-)「女人」加与格：nissen。",
+     "anna 是直接宾语「礼物」。"
+    ],
+    "ruleRef": "r-dat-n1",
+    "ruleLabelZh": "回到规则：名词与格 -n",
+    "answerKey": "The man gave the woman a gift.",
+    "answerKeyZh": "那人给了那女人一件礼物。",
+    "answerZh": "i nissen ＝ nis (niss-) 的与格单数；anna 是直接宾语。这正是「给」的三方结构：主语 nér、直接宾语 anna、间接宾语 nissen。"
+   },
+   {
+    "id": "B",
+    "prompt": "Anar anta cala Ambaren.",
+    "pointZh": "Ambaren 是与格「给世界」",
+    "hintsZh": [
+     "Anar「太阳」作主语。",
+     "cala「光」是直接宾语。",
+     "Ambar「世界」加 -n 得 Ambaren。"
+    ],
+    "ruleRef": "r-dat-nd1",
+    "ruleLabelZh": "回到规则：与格 -n 与帮助元音",
+    "answerKey": "The sun gives light to the world.",
+    "answerKeyZh": "太阳把光给世界。",
+    "answerZh": "Ambaren 是 Ambar 的与格；英语用 to the world，昆雅用一个 -n。注意此处无需帮助元音（Ambar 以 -r 结尾，但 -ren 合法）。"
+   },
+   {
+    "id": "C",
+    "prompt": "Hiruvalvë i harma, ar antuvalves i rasta Naucoin.",
+    "pointZh": "-lvë 包含式；Naucoin 是与格复数",
+    "hintsZh": [
+     "hiruvalvë ＝ hir- + -uva- + -lvë「我们将找到」。",
+     "antuvalves ＝ anta + -uva- + -lve- + -s「我们将把它给」。",
+     "Nauco 的与格复数是 Naucoin。"
+    ],
+    "ruleRef": "r-we-d3",
+    "ruleLabelZh": "回到规则：-lvë 是包含式「我们」",
+    "answerKey": "We (inclusive) will find the treasure, and we (inclusive) will give it to the twelve Dwarves.",
+    "answerKeyZh": "我们（包含式）将找到宝物，并把它给那十二个矮人。",
+    "answerZh": "keys 明标 inclusive。Naucoin ＝ Nauco + -in（复数与格）；rasta「十二」是由词根推得的形式。"
+   },
+   {
+    "id": "D",
+    "prompt": "Matië hrávë carë quen tiuca, ar umilvë merë tiucë hroar, an tiucë hroar umir vanyë.",
+    "pointZh": "matië 是 gerund 带宾语；quen 是不定代词",
+    "hintsZh": [
+     "matië 由 mat- 加 -ië，作主语。",
+     "hrávë「肉」是它的直接宾语。",
+     "quen tiuca ＝「使人变胖」的宾语＋补语。",
+     "umilvë ＝ um- + -i- + -lvë「我们不」。"
+    ],
+    "ruleRef": "r-ger-d1",
+    "ruleLabelZh": "回到规则：gerund 能带宾语",
+    "answerKey": "Eating flesh makes one fat, and we (inclusive) don't want fat bodies, for fat bodies are not beautiful.",
+    "answerKeyZh": "吃肉使人变胖，而我们（包含式）不想要胖身体，因为胖身体不美。",
+    "answerZh": "matië 带直接宾语 hrávë，是 gerund 而非动名词性名词；quen 泛指「人」；umilvë 是包含式否定。"
+   },
+   {
+    "id": "E",
+    "prompt": "Lendelmë mir i osto hirien i sailë nissi, an mernelmë cenitat.",
+    "pointZh": "hirien 是与格 gerund 表目的；-lmë 排除式",
+    "hintsZh": [
+     "lendelmë ＝ lend- + -lme「我们（排除）去了」。",
+     "hirien ＝ hirië + -n，表「为了找到」。",
+     "cenitat ＝ cen- + -i- + -t + -t？注意是「想看她们」。"
+    ],
+    "ruleRef": "r-ger-p2",
+    "ruleLabelZh": "回到规则：表目的用与格 gerund",
+    "answerKey": "We (exclusive) went into the city (in order) to find the wise women, for we (exclusive) wanted to see them.",
+    "answerKeyZh": "我们（排除式）进城（为了）找那些智慧的女人，因为我们（排除式）想见她们。",
+    "answerZh": "keys 明标 exclusive，故 -lmë 在此是排除式（第二版后的用法）。hirien 的 -n 是目的标记，不是普通与格宾语。"
+   },
+   {
+    "id": "F",
+    "prompt": "Nér arwa márë noaron ná saila ar antuva sérë ar alassë i oston.",
+    "pointZh": "arwa 后接属格 noaron；i oston 是与格",
+    "hintsZh": [
+     "arwa「拥有」后接属格。",
+     "noa 的属格复数是 noaron。",
+     "i oston 是 osto 的与格「给那城市」。"
+    ],
+    "ruleRef": "r-v-2",
+    "ruleLabelZh": "回到规则：arwa 接属格",
+    "answerKey": "A man having good ideas is wise and will give [or, bring] peace and joy to the city.",
+    "answerKeyZh": "一个有好人主意的人是有智慧的，他会把和平与快乐给那城市。",
+    "answerZh": "noaron 是 noa 的属格复数，由 arwa 支配——这正是 arwa 作形容词却接属格的表现。i oston 是 antuva 的间接宾语。"
+   },
+   {
+    "id": "G",
+    "prompt": "Utultielmet quetien rimbë engwion.",
+    "pointZh": "完成时 -ië- 加代词词尾；quetien 表目的",
+    "hintsZh": [
+     "utultielmet ＝ utul- + -tie- + -lme- + -t。",
+     "quetien ＝ quetië + -n。",
+     "rimbë engwion ＝「许多事物」的属格复数。"
+    ],
+    "ruleRef": "r-ger-dv1",
+    "ruleLabelZh": "回到规则：gerund 加与格 -n",
+    "answerKey": "We (exclusive) have summoned them (in order) to speak of/about many things.",
+    "answerKeyZh": "我们（排除式）召他们来（为了）谈许多事情。",
+    "answerZh": "quetien 是 quetië 加与格 -n，表目的；engwion 是 engwë 的属格复数，作「关于」义。"
+   },
+   {
+    "id": "H",
+    "prompt": "Sucië limpë umë mára queno hroan.",
+    "pointZh": "sucië 是 gerund 作主语；queno hroan 是「对人的身体」",
+    "hintsZh": [
+     "sucië 由 suc- 加 -ië。",
+     "limpë「酒」是它的宾语。",
+     "queno 是 quen 的属格，hroan 是 hroa 的与格。"
+    ],
+    "ruleRef": "r-q-2",
+    "ruleLabelZh": "回到规则：quen 可接格词尾",
+    "answerKey": "Drinking wine isn't good for one's body.",
+    "answerKeyZh": "喝酒对人的身体不好。",
+    "answerZh": "queno 是属格「人的」，hroan 是与格「对身体」——同一短语里两个格叠加，正是 quen 能接格词尾的证据。"
+   }
+  ]
+ },
+ "part2": {
+  "titleZh": "练习二 · 英译昆雅（I–P）",
+  "hintZh": "先做 in order 测试：能加 in order 的动词用与格 gerund，不能的用不定式。",
+  "items": [
+   {
+    "id": "I",
+    "prompt": "Someone gave the warrior a great sword.",
+    "pointZh": "ohtar 加与格需插帮助元音 -e-",
+    "hintsZh": [
+     "quen 作主语「有人」。",
+     "ohtar「战士」加 -n 前需插 -e-。",
+     "macil「剑」，alta「大」。"
+    ],
+    "ruleRef": "r-dat-nd1",
+    "ruleLabelZh": "回到规则：帮助元音 -e-",
+    "answerKey": "Quen ánë i ohtaren alta macil.",
+    "answerKeyZh": "有人给了那战士一把大剑。",
+    "answerZh": "keys 注：ohtar 与 -n 之间插入帮助元音 -e-，以避免不可能的形式 ohtarn。这是 aranen、ataren 之外的第三个例子。"
+   },
+   {
+    "id": "J",
+    "prompt": "Making a house for the boys is a good idea.",
+    "pointZh": "carië 同时带直接宾语与间接宾语",
+    "hintsZh": [
+     "carië 由 car- 加 -ië，作主语。",
+     "coa「房子」是直接宾语。",
+     "seldo 的与格复数是 i seldoin。"
+    ],
+    "ruleRef": "r-ger-o1",
+    "ruleLabelZh": "回到规则：gerund 可带宾语",
+    "answerKey": "Carië coa i seldoin ná mára noa.",
+    "answerKeyZh": "为男孩们造房子是个好主意。",
+    "answerZh": "keys 注：gerund carië 同时带直接宾语 coa 与间接宾语 i seldoin——一个形式两种身分并存，正是本课 gerund 部分的核心。"
+   },
+   {
+    "id": "K",
+    "prompt": "We (inclusive) fight for peace; fighting does not give the people [any] joy, for we (inclusive) have seen the light.",
+    "pointZh": "mahtalvë 包含式；séren 与格；mahtië gerund 作主语",
+    "hintsZh": [
+     "mahta- + -lvë ＝ mahtalvë。",
+     "sérë「和平」加 -n 得 séren。",
+     "mahtië 是 gerund，作第二句主语。",
+     "ecénielvë 是完成时「我们已经看见」。"
+    ],
+    "ruleRef": "r-we-d3",
+    "ruleLabelZh": "回到规则：-lvë 包含式",
+    "answerKey": "Mahtalvë séren; mahtië umë anta i lien alassë, an ecénielvë i cala.",
+    "answerKeyZh": "我们（包含式）为和平而战；战斗并不给人民快乐，因为我们（包含式）已看见光。",
+    "answerZh": "两处 -lvë 都是包含式（对听众说，听众在内）。séren 是与格表目的「为和平」；mahtië 是 gerund 作主语，与 matië 同类。"
+   },
+   {
+    "id": "L",
+    "prompt": "Speaking the Elven-tongue (Eldalambë) is a great joy to Men (Atani).",
+    "pointZh": "quetië 作主语；Atanin 与格复数",
+    "hintsZh": [
+     "quetië 由 quet- 加 -ië。",
+     "i Eldalambë 是它的宾语。",
+     "Atani 的与格复数是 Atanin。"
+    ],
+    "ruleRef": "r-ger-s1",
+    "ruleLabelZh": "回到规则：gerund 作主语",
+    "answerKey": "Quetië i Eldalambë ná alta alassë Atanin.",
+    "answerKeyZh": "说精灵语是凡人的极大快乐。",
+    "answerZh": "keys 注：alta 主要指「体积大」，未必是「伟大」的完美译法，但昆雅没有更抽象的「伟大」一词。Atanin 是与格复数，作「对凡人而言」。"
+   },
+   {
+    "id": "M",
+    "prompt": "The warriors of the two lands will fight for the [twin] peoples (dual), and we (exclusive) will go through a great darkness to find light.",
+    "pointZh": "lient 双数与格；lelyuvalmë 排除式；hirien 表目的",
+    "hintsZh": [
+     "i atta nórion 是「两片土地的」属格复数。",
+     "lië「民族」的双数与格是 lient。",
+     "lelyuvalmë ＝ lelya + -uva- + -lmë。"
+    ],
+    "ruleRef": "r-dat-d1",
+    "ruleLabelZh": "回到规则：双数与格 -nt",
+    "answerKey": "(I) ohtari i atta nórion [or, i atta nórion ohtari] mahtuvar i lient, ar lelyuvalmë ter alta mornië hirien cala.",
+    "answerKeyZh": "两片土地的战士们将为那对民族而战，而我们（排除式）将穿过巨大的黑暗去寻找光。",
+    "answerZh": "keys 注：lient 是 lië 的双数与格（-nt）；也可用双数 i nóret（属格 i nóreto）代替 i atta nórion。lelyuvalmë 是排除式；hirien 表目的。"
+   },
+   {
+    "id": "N",
+    "prompt": "The men having the good wine wanted cups to drink the wine, and the king's thralls gave the men twelve cups of gold.",
+    "pointZh": "arwë 后接属格 limpëo；sucien 表目的",
+    "hintsZh": [
+     "arwa 的复数是 arwë。",
+     "limpë「酒」的属格是 limpëo。",
+     "sucien ＝ sucië + -n，表目的。",
+     "mól「奴仆」的复数是 móli，与格 mólin。"
+    ],
+    "ruleRef": "r-v-2",
+    "ruleLabelZh": "回到规则：arwa／arwë 接属格",
+    "answerKey": "I neri arwë i mára limpëo merner yulmar sucien i limpë, ar i arano móli áner i nerin rasta yulmar maltava.",
+    "answerKeyZh": "有好酒的那些人想要喝那酒的杯子，而国王的奴仆们给了那些人十二只金杯。",
+    "answerZh": "keys 注：arwa 后接属格，故 limpëo；复数 arwë。sucien 是目的与格。i nerin 是与格复数「给那些人」；yulmar maltava 是「金杯」（材料 -va，复习上一课）。"
+   },
+   {
+    "id": "O",
+    "prompt": "We (exclusive) want to go into the city to free all Men (Atani) and (to) give the gold of the king to the thralls.",
+    "pointZh": "lelya 用不定式，lerien／antien 用与格 gerund",
+    "hintsZh": [
+     "merilmë 是排除式「我们想要」。",
+     "「去」不是目的，用不定式 lelya。",
+     "lerien、antien 才表目的。",
+     "i aranwa 是「国王的」（所有格）。"
+    ],
+    "ruleRef": "r-ger-r1",
+    "ruleLabelZh": "回到规则：in order 测试",
+    "answerKey": "Merilmë lelya mir i osto lerien ilyë Atani ar antien (i) malta i aranwa i mólin.",
+    "answerKeyZh": "我们（排除式）想进城去解放所有凡人，并把国王的金子给那些奴仆。",
+    "answerZh": "keys 注：本句是 in order 测试的最佳反例——「想去」不是目的，故用不定式 lelya；而 lerya- 与 anta- 才是目的，故作与格 gerund lerien、antien。i aranwa 用所有格 -va（国王仍拥有金子）。"
+   },
+   {
+    "id": "P",
+    "prompt": "The walls of the city are great; we (inclusive) have made them to protect the people.",
+    "pointZh": "varien 是 varya- 的与格 gerund；acárielvet 含 -t「它们」",
+    "hintsZh": [
+     "ramba「墙」的复数是 rambar。",
+     "acárielvet ＝ a- + cárië + -lve- + -t。",
+     "varien 由 varya- 加 -ië 再加 -n，注意 -ya 脱落。"
+    ],
+    "ruleRef": "r-ger-y1",
+    "ruleLabelZh": "回到规则：-ya 动词整段脱落",
+    "answerKey": "(I) rambar i osto [or, i osto rambar] nar altë; acárielvet varien i lië.",
+    "answerKeyZh": "城市的墙很巨大；我们（包含式）造了它们来保护人民。",
+    "answerZh": "keys 注：varien 是 varya-「保护」的与格 gerund（-ya 脱落 → varië → varien）。acárielvet 的 -t 指「它们」（墙）。keys 末尾另注：词序变体（如 acárielvet i lië varien）不一一列出。"
+   }
+  ]
+ }
+}

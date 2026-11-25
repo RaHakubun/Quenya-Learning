@@ -1,0 +1,1798 @@
+{
+  "lesson": 4,
+  "schemaVersion": 2,
+  "oneLineZh": "这一课讲形容词：它怎么用（定语/谓语）、系词 ná/nar 怎么放、以及形容词必须跟名词一起变数——-a 变 -ë、-ë 变 -i、-ëa 变 -ië。",
+  "canDoZh": [
+    "能区分定语用法与谓语用法，并各举一例",
+    "能说出系词的功能，并写出 ná / nar 及其零系词用法",
+    "能按词尾给形容词分类并写出正确复数（-a→-ë、-ëa→-ië、-ë→-i、-in→-i）",
+    "能说明形容词在四种位置都要数一致，并指出哪一处证据最弱",
+    "能解释 Vanyar 与 vanyë 的区别",
+    "能独立完成练习 A–P，用 keys 核对，并把错题回链到对应规则"
+  ],
+  "conceptMap": [
+    {
+      "labelZh": "形容词与两种用法",
+      "noteZh": "定语 vs 谓语；系词从哪来",
+      "sectionId": "adjectives-intro"
+    },
+    {
+      "labelZh": "定语用法",
+      "noteZh": "形容词 + 名词；正常语序",
+      "sectionId": "attributive"
+    },
+    {
+      "labelZh": "谓语用法",
+      "noteZh": "名词 + 系词 + 形容词",
+      "sectionId": "predicative"
+    },
+    {
+      "labelZh": "系词是什么",
+      "noteZh": "英语必须，昆雅可省",
+      "sectionId": "copula"
+    },
+    {
+      "labelZh": "昆雅形容词的形状",
+      "noteZh": "-a / -ë / -in 三类",
+      "sectionId": "adj-shape"
+    },
+    {
+      "labelZh": "语序：前置、后置、称号",
+      "noteZh": "后置多用于称号；不加冠词",
+      "sectionId": "adj-order"
+    },
+    {
+      "labelZh": "系词 ná / nar",
+      "noteZh": "vanwa ná；复数 nar",
+      "sectionId": "copula-na"
+    },
+    {
+      "labelZh": "语序之争：2000 → 2002",
+      "noteZh": "托尔金三次修订的结论",
+      "sectionId": "copula-order-debate"
+    },
+    {
+      "labelZh": "别的「是」：ye、-ië、零系词",
+      "noteZh": "零系词也合法",
+      "sectionId": "copula-history"
+    },
+    {
+      "labelZh": "数一致：基本原则",
+      "noteZh": "数必须一致；无双数形式",
+      "sectionId": "agreement-basics"
+    },
+    {
+      "labelZh": "-a 形容词复数的历史",
+      "noteZh": "早期 -r（I Nori Landar）",
+      "sectionId": "plural-a-history"
+    },
+    {
+      "labelZh": "-ëa → -ië",
+      "noteZh": "laurië lantar lassi",
+      "sectionId": "plural-ea"
+    },
+    {
+      "labelZh": "-ë → -i",
+      "noteZh": "luini tellumar；maisi",
+      "sectionId": "plural-e"
+    },
+    {
+      "labelZh": "辅音结尾：-in 型",
+      "noteZh": "firini neri（传统假设）",
+      "sectionId": "plural-consonant"
+    },
+    {
+      "labelZh": "哪些位置要一致",
+      "noteZh": "前后、分离、谓语都一致",
+      "sectionId": "agreement-positions"
+    },
+    {
+      "labelZh": "反例与草稿材料",
+      "noteZh": "lehta tengwi 与 atalantëa 的摇摆",
+      "sectionId": "agreement-evidence"
+    },
+    {
+      "labelZh": "最终结论：lintë yuldar",
+      "noteZh": "lintë 被明确标为复数",
+      "sectionId": "agreement-final"
+    },
+    {
+      "labelZh": "形容词用作名词",
+      "noteZh": "Vanyar、a vanimar",
+      "sectionId": "adj-as-noun"
+    },
+    {
+      "labelZh": "本章小结",
+      "noteZh": "原文 Summary 中英对照",
+      "sectionId": "summary"
+    },
+    {
+      "labelZh": "课末词汇",
+      "noteZh": "12 个新词 + q-vocab 交叉引用",
+      "sectionId": "vocabulary"
+    },
+    {
+      "labelZh": "练习工作台",
+      "noteZh": "A–P 工作台、考点回链",
+      "sectionId": "exercises"
+    }
+  ],
+  "pathTitleZh": "本课学习路径",
+  "path": [
+    {
+      "step": 1,
+      "labelZh": "形容词与两种用法",
+      "sectionId": "adjectives-intro"
+    },
+    {
+      "step": 2,
+      "labelZh": "定语用法",
+      "sectionId": "attributive"
+    },
+    {
+      "step": 3,
+      "labelZh": "谓语用法",
+      "sectionId": "predicative"
+    },
+    {
+      "step": 4,
+      "labelZh": "系词是什么",
+      "sectionId": "copula"
+    },
+    {
+      "step": 5,
+      "labelZh": "昆雅形容词的形状",
+      "sectionId": "adj-shape"
+    },
+    {
+      "step": 6,
+      "labelZh": "语序：前置、后置、称号",
+      "sectionId": "adj-order"
+    },
+    {
+      "step": 7,
+      "labelZh": "系词 ná / nar",
+      "sectionId": "copula-na"
+    },
+    {
+      "step": 8,
+      "labelZh": "语序之争：2000 → 2002",
+      "sectionId": "copula-order-debate"
+    },
+    {
+      "step": 9,
+      "labelZh": "别的「是」：ye、-ië、零系词",
+      "sectionId": "copula-history"
+    },
+    {
+      "step": 10,
+      "labelZh": "数一致：基本原则",
+      "sectionId": "agreement-basics"
+    },
+    {
+      "step": 11,
+      "labelZh": "-a 形容词复数的历史",
+      "sectionId": "plural-a-history"
+    },
+    {
+      "step": 12,
+      "labelZh": "-ëa → -ië",
+      "sectionId": "plural-ea"
+    },
+    {
+      "step": 13,
+      "labelZh": "-ë → -i",
+      "sectionId": "plural-e"
+    },
+    {
+      "step": 14,
+      "labelZh": "辅音结尾：-in 型",
+      "sectionId": "plural-consonant"
+    },
+    {
+      "step": 15,
+      "labelZh": "哪些位置要一致",
+      "sectionId": "agreement-positions"
+    },
+    {
+      "step": 16,
+      "labelZh": "反例与草稿材料",
+      "sectionId": "agreement-evidence"
+    },
+    {
+      "step": 17,
+      "labelZh": "最终结论：lintë yuldar",
+      "sectionId": "agreement-final"
+    },
+    {
+      "step": 18,
+      "labelZh": "形容词用作名词",
+      "sectionId": "adj-as-noun"
+    },
+    {
+      "step": 19,
+      "labelZh": "本章小结",
+      "sectionId": "summary"
+    },
+    {
+      "step": 20,
+      "labelZh": "课末词汇",
+      "sectionId": "vocabulary"
+    },
+    {
+      "step": 21,
+      "labelZh": "练习工作台",
+      "sectionId": "exercises"
+    }
+  ],
+  "modules": [
+    {
+      "sectionId": "adjectives-intro",
+      "sourceSectionId": "_preamble",
+      "titleZh": "01 · 形容词：描述性质的词类",
+      "leadZh": "名词指事物，形容词承担描述。本课先分清「定语」与「谓语」两种用法，再引入英语必须、昆雅可省的系词。",
+      "objectives": [
+        "能说出形容词的功能与它在句中的两种用法",
+        "能区分「定语用法」与「谓语用法」的判断标准",
+        "能说明为什么英语需要 is/are 而很多语言不需要"
+      ],
+      "rules": [
+        {
+          "id": "rule-adj-definition",
+          "headZh": "形容词 = 承担描述功能的词",
+          "bodyZh": "形容词是承担描述这一特殊功能的词。想说某人或某物具有某种性质时，通常能找到一个形容词来完成任务；在 the house is red 里，red 描述 the house。",
+          "en": "Adjectives are words that have assumed the special function of description.",
+          "zh": "形容词是承担描述这一特殊功能的词。",
+          "exampleZh": "the house is red → red 描述 the house"
+        },
+        {
+          "id": "rule-two-uses",
+          "headZh": "两种用法：定语与谓语",
+          "bodyZh": "定语用法：形容词与名词搭配，构成 tall men、the red book 这样的短语，只提供额外信息。谓语用法：整句的要点就是某物具有某性质，形容词说明主语具有什么性质，成为句子的谓语。",
+          "en": "One often distinguishes two different ways of using an adjective:",
+          "zh": "人们常区分形容词的两种不同用法：",
+          "exampleZh": "定语：tall men；谓语：the men are tall"
+        }
+      ],
+      "table": {
+        "captionZh": "两种用法的对照",
+        "headers": [
+          "用法",
+          "英语例子",
+          "整句要点",
+          "昆雅对应"
+        ],
+        "rows": [
+          [
+            "定语 attributive",
+            "tall men / the red book",
+            "预设该性质，用来说明是哪一个",
+            "形容词 + 名词（或名词 + 形容词）"
+          ],
+          [
+            "谓语 predicative",
+            "the men are tall / the book is red",
+            "整句就是要断言该性质",
+            "名词 + ná/nar + 形容词（ná 可省）"
+          ]
+        ]
+      },
+      "pitfalls": [
+        {
+          "wrong": "把 the red book 里的 red 当成谓语",
+          "right": "它是定语，只是帮你确定说的是哪本书",
+          "whyZh": "正文：定语用法中性质被呈现为名词的「属性」，并不构成断言；断言性质才是谓语用法。"
+        },
+        {
+          "wrong": "以为「形容词 + 名词」一定等于「名词 + 是 + 形容词」",
+          "right": "两种结构在昆雅里都存在，且意思不同",
+          "whyZh": "keys 第 4 课 G 题专门考这一点：aran taura 既可解为「国王是强大的」，也可解为「一个强大的国王」。"
+        }
+      ],
+      "recapZh": "形容词描述性质，有两种用法：定语（与名词组成短语）与谓语（断言主语具有该性质）。",
+      "selfCheckZh": [
+        {
+          "qZh": "定语用法与谓语用法的根本区别是什么？",
+          "aZh": "定语只是给名词加信息、预设该性质；谓语是整句的断言，把性质归予主语。"
+        },
+        {
+          "qZh": "the red book is mine 里的 red 是定语还是谓语？",
+          "aZh": "定语；它修饰 book，整句的谓语是 is mine。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          0,
+          1
+        ],
+        "labelZh": "课文 01"
+      }
+    },
+    {
+      "sectionId": "attributive",
+      "sourceSectionId": "_preamble",
+      "titleZh": "02 · 定语用法：把性质当作名词的「属性」",
+      "leadZh": "定语不构成断言，它只是让你知道在说「哪一类」名词。tall men 里高是被预设的，不是被断言的。",
+      "objectives": [
+        "能说明「属性」这个说法在语法上的含义",
+        "能把定语短语放进完整句子并指出它修饰谁",
+        "能判断一句话是在预设性质还是在断言性质"
+      ],
+      "rules": [
+        {
+          "id": "rule-attributive",
+          "headZh": "定语：性质作为名词的属性",
+          "bodyZh": "把形容词与它所描述的名词搭配，构成 tall men 或 (a/the) red book 这样的短语；短语可再放进完整句子（tall men scare me、the red book is mine）。这时性质被呈现为名词的「属性」，是被预设的，不是被断言的。",
+          "en": "This is called using the adjective attributively.",
+          "zh": "这叫作形容词的定语用法（attributively）。",
+          "exampleZh": "tall men scare me —— 高是预设的属性，句子断言的是「吓到我」"
+        }
+      ],
+      "examples": [
+        {
+          "en": "tall men",
+          "zh": "高个子男人们",
+          "whyZh": "定语短语：高是预设的属性，听话人由此知道说的是哪一类男人。"
+        },
+        {
+          "en": "the red book is mine",
+          "zh": "那本红色的书是我的",
+          "whyZh": "red 修饰 book；整句断言的是归属（is mine），不是「书是红的」。"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "把定语短语当成一个完整断言",
+          "right": "定语短语只是名词性成分，需要放进句子才成断言",
+          "whyZh": "正文明确：这类短语要「插入完整句子」才承担陈述功能。"
+        }
+      ],
+      "recapZh": "定语 = 形容词直接搭配名词，性质被预设为该名词的属性；它本身不是断言。",
+      "selfCheckZh": [
+        {
+          "qZh": "「属性」（attribute）在定语用法里指什么？",
+          "aZh": "指被预设的性质：说话人假定听话人据此能确定所谈的是哪一类事物。"
+        },
+        {
+          "qZh": "tall men scare me 断言的是什么？",
+          "aZh": "断言「高个子男人吓到我」；「高」只是用来限定 men 的预设属性。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          2,
+          3
+        ],
+        "labelZh": "课文 02"
+      }
+    },
+    {
+      "sectionId": "predicative",
+      "sourceSectionId": "_preamble",
+      "titleZh": "03 · 谓语用法：整句就是一句断言",
+      "leadZh": "谓语用法里，形容词不再是背景信息，而是句子的核心信息：你要说的就是「他们是高的」。",
+      "objectives": [
+        "能说明谓语用法与定语用法的信息结构差异",
+        "能指出谓语形容词在句中的角色",
+        "能为一个定语短语改写出一句谓语断言"
+      ],
+      "rules": [
+        {
+          "id": "rule-predicative",
+          "headZh": "谓语：形容词成为句子的断言核心",
+          "bodyZh": "你也可以构造这样的句子：整句的要点就是某人或某物具有某种性质。这时你不是「预设」高，而是要说「这些男人是高的」——那正是要传达的信息。先选一个陈述对象，再加形容词说明它有什么性质，这个形容词就是句子的谓语。",
+          "en": "This is called using an adjective predicatively",
+          "zh": "这叫作形容词的谓语用法（predicatively）。",
+          "exampleZh": "the men are tall —— 断言的对象是 the men，断言内容是「高」"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "以为谓语用法只是「把定语放到句末」",
+          "right": "两者的信息结构不同：一个是预设，一个是断言",
+          "whyZh": "正文用「presuppose」与「the very piece of information you want to convey」对照两种用法。"
+        }
+      ],
+      "recapZh": "谓语用法 = 形容词成为句子的断言核心；先选陈述对象，再用形容词说明它有什么性质。",
+      "selfCheckZh": [
+        {
+          "qZh": "谓语用法中，句子的「要点」是什么？",
+          "aZh": "断言某人或某物具有某种性质；这正是要传达的信息。"
+        },
+        {
+          "qZh": "把 tall men 改写成谓语断言，英语怎么说？",
+          "aZh": "The men are tall."
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          4
+        ],
+        "labelZh": "课文 03"
+      }
+    },
+    {
+      "sectionId": "copula",
+      "sourceSectionId": "_preamble",
+      "titleZh": "04 · 系词：英语为什么非要有 is / are",
+      "leadZh": "the men tall 在很多语言里没问题，英语却要说 the men are tall。这个 are 几乎不带来意义，它只负责「联结」。",
+      "objectives": [
+        "能说出系词的功能是「联结」而非「表示存在」",
+        "能举出不需要系词的语言现象并解释原因",
+        "能说明系词为何属于谓语的一部分"
+      ],
+      "rules": [
+        {
+          "id": "rule-copula",
+          "headZh": "系词 = 把形容词与主语「联结」起来的词",
+          "bodyZh": "英语在形容词作谓语时必须插入 is/are。它并不增加多少意义（所以很多语言根本不需要对应词），作用是把形容词与「真正在谈论的东西」联结起来，因此叫系词（copula）。系词是句子谓语的组成部分。",
+          "en": "Hence \"is/are\" is called a copula.",
+          "zh": "因此 is/are 被称为系词（copula）。",
+          "exampleZh": "gold is beautiful / I am smart / stones are hard"
+        }
+      ],
+      "table": {
+        "captionZh": "系词在不同主语下的形式（英语）",
+        "headers": [
+          "句子",
+          "系词形式",
+          "被联结的形容词"
+        ],
+        "rows": [
+          [
+            "gold is beautiful",
+            "is",
+            "beautiful"
+          ],
+          [
+            "I am smart",
+            "am",
+            "smart"
+          ],
+          [
+            "stones are hard",
+            "are",
+            "hard"
+          ]
+        ]
+      },
+      "pitfalls": [
+        {
+          "wrong": "把 is 理解成「存在」",
+          "right": "这里它是系词，只负责联结，不表示存在",
+          "whyZh": "正文：这个 is/are「并没有增加多少意义」，其功能只是 couple 形容词与主语。"
+        }
+      ],
+      "recapZh": "系词不表存在，只负责把形容词与主语联结；它是谓语的一部分。英语必须显性出现，很多语言不需要。",
+      "selfCheckZh": [
+        {
+          "qZh": "系词的首要功能是什么？",
+          "aZh": "把后面的形容词与我们所谈论的事物或人联结起来。"
+        },
+        {
+          "qZh": "为什么很多语言没有系词也能表达同样的意思？",
+          "aZh": "因为系词本身几乎不带来意义，只承担结构性的联结作用。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          5
+        ],
+        "labelZh": "课文 04"
+      }
+    },
+    {
+      "sectionId": "adj-shape",
+      "sourceSectionId": "_preamble",
+      "titleZh": "05 · 昆雅形容词的形状：-a、-ë、-in",
+      "leadZh": "昆雅形容词的形式比名词受限得多：绝大多数以 -a 或 -ë 结尾，其余几乎都以 -in 结尾。这个形状直接决定复数怎么变。",
+      "objectives": [
+        "能按词尾把昆雅形容词分成三类",
+        "能说出 -ë 类里颜色形容词占多数",
+        "能解释 -in 与 -ina 的关系及由此带来的复数不确定性"
+      ],
+      "rules": [
+        {
+          "id": "rule-adj-endings",
+          "headZh": "绝大多数形容词以 -a 或 -ë 结尾",
+          "bodyZh": "与名词繁多的形态相比，昆雅形容词形式相当有限。绝大多数以 -a 或 -ë 结尾；-ë 较少见，典型出现在颜色形容词里（Ninquë、morë、carnë、varnë）。",
+          "en": "The vast majority of Quenya adjectives end in one of two vowels -a or -ë.",
+          "zh": "绝大多数昆雅形容词以 -a 或 -ë 两个元音之一结尾。",
+          "exampleZh": "Ninquë「白」、morë「黑」、carnë「红」、varnë「褐」"
+        },
+        {
+          "id": "rule-adj-in",
+          "headZh": "其余几乎都以 -in 结尾",
+          "bodyZh": "若形容词不以 -a 或 -ë 结尾，它几乎总是以 -in 结尾：firin「死的」、hwarin「弯的」、melin「亲爱的」、latin「开放的」。latin 在托尔金著作中作 latin(a)（LR:368），表明它是 latina 的缩短形；也许所有 -in 形容词都是 -ina 的缩短形。",
+          "en": "When an adjective does not end in -a or -ë, it virtually always ends in -in",
+          "zh": "若一个形容词既不以 -a 也不以 -ë 结尾，那它几乎总是以 -in 结尾。",
+          "exampleZh": "firin、hwarin、melin、latin（＝latin(a)）"
+        }
+      ],
+      "table": {
+        "captionZh": "形容词三类词尾（含课末词汇归类）",
+        "headers": [
+          "词尾",
+          "特点",
+          "本课例词",
+          "复数规则"
+        ],
+        "rows": [
+          [
+            "-a（含 -wa/-na/-da/-ima/-ya）",
+            "绝对多数",
+            "vanya、alta、calima、taura、saila、úmëa",
+            "→ -ë（来自更早的 -ai）"
+          ],
+          [
+            "-ë",
+            "较少；多颜色词",
+            "carnë、ninquë、morë",
+            "→ -i"
+          ],
+          [
+            "-in（＝-ina 缩短形）",
+            "罕见",
+            "firin",
+            "传统假定 → -i（firini）"
+          ]
+        ]
+      },
+      "pitfalls": [
+        {
+          "wrong": "把 latin 当成「以辅音结尾的独立类型」",
+          "right": "它是 latina 的缩短形，可能仍按 -ina 变复数",
+          "whyZh": "正文：托尔金把它写作 latin(a)，两种变体并存；latin 的复数可能是 latinë 而非 latini，无法确知。"
+        }
+      ],
+      "recapZh": "三类词尾：-a（最多）、-ë（多颜色词）、-in（＝-ina 缩短形）。词尾决定复数走哪条路。",
+      "selfCheckZh": [
+        {
+          "qZh": "昆雅形容词有哪三类词尾？",
+          "aZh": "-a（含 -wa/-na/-da/-ima/-ya 等）、-ë、-in。"
+        },
+        {
+          "qZh": "为什么 latin 的复数形式存疑？",
+          "aZh": "它是 latina 的缩短形；若仍按 -ina 处理，复数应是 latinë 而不是 latini。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          6,
+          7
+        ],
+        "labelZh": "课文 05"
+      }
+    },
+    {
+      "sectionId": "adj-order",
+      "sourceSectionId": "_preamble",
+      "titleZh": "06 · 语序：形容词前置是常态，后置另有分工",
+      "leadZh": "形容词 + 名词是首选语序；名词 + 形容词也允许，多用于强调或「称号」，而且称号前不加冠词。",
+      "objectives": [
+        "能说出昆雅形容词的常态语序",
+        "能说明后置语序的两种常见用途",
+        "能解释「称号」前为何不加 i"
+      ],
+      "rules": [
+        {
+          "id": "rule-adj-order",
+          "headZh": "常态语序：形容词 + 名词",
+          "bodyZh": "lintë yuldar、luini tellumar、fána cirya、quantë tengwi 等传世例证都是形容词在前、名词在后，与英语相同。这显然是正常、首选的语序。",
+          "en": "In these examples, the word order is the same as in English: adjective + noun. This is apparently the normal, preferred order.",
+          "zh": "这些例子里语序与英语相同：形容词 + 名词。这显然是正常、首选的语序。",
+          "exampleZh": "lintë yuldar「迅疾的饮」、fána cirya「一条白船」"
+        },
+        {
+          "id": "rule-adj-post",
+          "headZh": "后置：允许，多用于强调或称号",
+          "bodyZh": "昆雅也允许形容词跟在名词后。anar púrëa 字面「太阳 朦胧的」；mallë téra 字面「路 直的」。后置可能用于强调（LR:47 强调「直」而非「弯」）；与专名连用的形容词性称号也常后置，如 Elendil Voronda「忠实的埃兰迪尔」。",
+          "en": "In Quenya, it is however also permissible to let the adjective follow the noun.",
+          "zh": "不过在昆雅里，让形容词跟在名词后面也是允许的。",
+          "exampleZh": "mallë téra、anar púrëa、Elendil Voronda"
+        }
+      ],
+      "table": {
+        "captionZh": "两种语序的分工",
+        "headers": [
+          "语序",
+          "例",
+          "常见用途",
+          "注意"
+        ],
+        "rows": [
+          [
+            "形容词 + 名词",
+            "lintë yuldar",
+            "常态、首选",
+            "与英语一致"
+          ],
+          [
+            "名词 + 形容词",
+            "mallë téra",
+            "强调形容词",
+            "LR:47 的语境是「直」对「弯」"
+          ],
+          [
+            "专名 + 形容词",
+            "Elendil Voronda",
+            "称号",
+            "UT:305 实作 Elendil Vorondo（屈折）"
+          ],
+          [
+            "形容词 + 专名",
+            "voronda Elendil",
+            "较随意的提及",
+            "不等于正式称号"
+          ]
+        ]
+      },
+      "pitfalls": [
+        {
+          "wrong": "**Elendil i Voronda（在称号前加冠词）",
+          "right": "Elendil Voronda",
+          "whyZh": "正文明确：昆雅与英语不同，用作称号的形容词前不加冠词，「至少不必如此」。"
+        },
+        {
+          "wrong": "以为后置只是自由变体、没有语义差别",
+          "right": "后置可能用于强调，或是称号的固定位置",
+          "whyZh": "正文对 LR:47 的语境说明是为了强调「直」；对称号则说后置「可能是正常语序」。"
+        }
+      ],
+      "recapZh": "常态是形容词 + 名词；后置用于强调或称号；称号前不加冠词。",
+      "selfCheckZh": [
+        {
+          "qZh": "昆雅形容词的常态语序是什么？",
+          "aZh": "形容词 + 名词，与英语相同。"
+        },
+        {
+          "qZh": "为什么不能说 **Elendil i Voronda？",
+          "aZh": "昆雅在用作称号的形容词前不加冠词。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          8
+        ],
+        "labelZh": "课文 06"
+      }
+    },
+    {
+      "sectionId": "copula-na",
+      "sourceSectionId": "_preamble",
+      "titleZh": "07 · 昆雅系词：ná「是」、nar「是（复数）」",
+      "leadZh": "《Namárië》的 Vanwa ná...Valimar 给出 ná；复数 nar 见于托尔金录音的早期版本。三个例句是本课的句型模板。",
+      "objectives": [
+        "能写出昆雅系词的单数与复数形式",
+        "能按 I parma ná carnë 的句型造句",
+        "能指出这三个例句的证据强度差异"
+      ],
+      "rules": [
+        {
+          "id": "rule-copula-na",
+          "headZh": "ná = is",
+          "bodyZh": "《Namárië》的 Vanwa ná...Valimar「失去了的是……瓦利玛」表明昆雅系词「是」的形式是 ná。这是实际文本中的传世例证。",
+          "en": "This sentence tells us that the Quenya copula \"is\" has the form ná.",
+          "zh": "这句话告诉我们，昆雅系词「是」的形式是 ná。",
+          "exampleZh": "I parma ná carnë.「这本书是红的。」"
+        },
+        {
+          "id": "rule-copula-nar",
+          "headZh": "nar = are",
+          "bodyZh": "复数「是」似乎是 nar，见于托尔金录音的《Namárië》早期版本（见 Jim Allan 编《An Introduction to Elvish》第 5 页）。",
+          "en": "Plural \"are\" seems to be nar, attested in an early version of Namárië recorded by Tolkien on tape",
+          "zh": "复数「是」似乎是 nar，见于托尔金录音的《Namárië》早期版本。",
+          "exampleZh": "I neri nar hallë.「这些男人是高的。」"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I parma ná carnë.",
+          "zh": "这本书是红的。",
+          "whyZh": "名词 + ná + 形容词；carnë 是 -ë 类形容词，单数与单数名词 parma 一致。"
+        },
+        {
+          "en": "Ulundo ná úmëa.",
+          "zh": "一个怪物是邪恶的。",
+          "whyZh": "úmëa 是 -a 类形容词；主语单数，故用单数形式。"
+        },
+        {
+          "en": "I neri nar hallë.",
+          "zh": "这些男人是高的。",
+          "whyZh": "主语 neri 是复数，故系词用 nar，形容词 hallë 也用复数形式（halla → hallë）。"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "I neri ná hallë.（复数主语仍用 ná）",
+          "right": "I neri nar hallë.",
+          "whyZh": "keys 第 4 课 F 题与正文例句都用 nar 配复数主语；系词本身也有数。"
+        },
+        {
+          "wrong": "I parma ná carnë 写成 I parma carnë ná 就算错",
+          "right": "两种语序都可能是合法的，只是本课程统一用前者",
+          "whyZh": "正文 2001 年修订：i parma carnë ná 必须视为完全有效的替代，托尔金甚至可能本意让它更常见。"
+        }
+      ],
+      "recapZh": "ná = is，nar = are；句型为「主语 + 系词 + 形容词」，系词与主语数一致。",
+      "selfCheckZh": [
+        {
+          "qZh": "昆雅系词的单数与复数形式分别是什么？",
+          "aZh": "ná（is）与 nar（are）。"
+        },
+        {
+          "qZh": "「这些男人是高的」怎么写？",
+          "aZh": "I neri nar hallë."
+        },
+        {
+          "qZh": "把 ná 放到句末算错吗？",
+          "aZh": "不算错；i parma carnë ná 被视为完全有效的替代，只是本课程统一用英语式语序。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          9,
+          10,
+          11,
+          12
+        ],
+        "labelZh": "课文 07"
+      }
+    },
+    {
+      "sectionId": "copula-order-debate",
+      "sourceSectionId": "_preamble",
+      "titleZh": "08 · 语序之争：2000 年的警告与 2002 年的收尾",
+      "leadZh": "这一节是作者三次修订的实录：从「无法判断」，到「似乎倾向于句末」，再到「纯粹是品味问题」。读它要学会分辨证据的时间层次。",
+      "objectives": [
+        "能复述作者对 ná 语序态度的三次变化",
+        "能说明为什么最终仍保留英语式语序",
+        "能指出 na 与 ná 的关系及 nár 的地位"
+      ],
+      "rules": [
+        {
+          "id": "rule-copula-order",
+          "headZh": "英语式语序终究可用",
+          "bodyZh": "2001 年新增的例子既有把 ná 放句末的（lá caritas...alasaila ná），也有英语式的（A ná calima lá B）。因此 i parma ná carnë 这样逐字对应英语的句子是可能的；作者因此没有修订任何例句或练习。",
+          "en": "So it seems that sentences like i parma ná carnë, word by word corresponding to English \"the book is red\", may be possible after all.",
+          "zh": "所以像 i parma ná carnë 这样逐字对应英语「the book is red」的句子，看来终究是可能的。",
+          "exampleZh": "A ná calima lá B（VT42:32）；lá caritas...alasaila ná（VT42:34）"
+        },
+        {
+          "id": "rule-copula-na-short",
+          "headZh": "短形式 na 与复数 nar",
+          "bodyZh": "VT43:26 的 elyë na manna「你是有福的」用短形式 na 而非 ná。作者在练习中仍用 ná 以求清晰（na 另有若干截然不同的含义），但认为要加词尾时可能一律优先用 na-，参复数 nar；未见于文献的 nár 也可能同样有效。",
+          "en": "the copula \"is/art\" appears in the short form na rather than ná",
+          "zh": "系词「是」以短形式 na 而非 ná 出现。",
+          "exampleZh": "elyë na manna「你是有福的」（VT43:26）"
+        }
+      ],
+      "table": {
+        "captionZh": "三次修订的时间线",
+        "headers": [
+          "时间",
+          "新增证据",
+          "作者结论"
+        ],
+        "rows": [
+          [
+            "2000 年 12 月（初版）",
+            "例证极少",
+            "无法确定首选语序；练习暂用英语式"
+          ],
+          [
+            "2001 年 11 月",
+            "alasaila ná（句末）；A ná calima lá B（英语式）",
+            "英语式可用；句末也是完全有效的替代"
+          ],
+          [
+            "2002 年 1 月",
+            "elyë na manna（短形式 na）",
+            "语序纯粹是品味问题；练习仍用 ná 以求清晰"
+          ]
+        ]
+      },
+      "pitfalls": [
+        {
+          "wrong": "把 2000 年的警告当成最终结论",
+          "right": "它已被 2001、2002 年的材料部分推翻",
+          "whyZh": "正文按时间顺序排列修订，作者明确说「因此我没有修订本课程的任何例句或练习」。"
+        },
+        {
+          "wrong": "以为 na 与 ná 完全等同、可以随意替换",
+          "right": "na 另有若干截然不同的含义，作者为清晰仍用 ná",
+          "whyZh": "正文：na 一词另有若干相当不同的意义，这是保留 ná 的主要理由。"
+        }
+      ],
+      "recapZh": "语序最终被视为品味问题：ná 可前可后；na 是短形式，nár 可能也有效但无文献。练习统一用英语式 + ná。",
+      "selfCheckZh": [
+        {
+          "qZh": "作者对 ná 语序的态度经历了哪三次变化？",
+          "aZh": "2000 年「无法判断」→ 2001 年「英语式可用，句末也有效」→ 2002 年「纯粹是品味问题」。"
+        },
+        {
+          "qZh": "为什么练习里仍用 ná 而不用 na？",
+          "aZh": "na 另有若干截然不同的含义，用 ná 更清晰。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          13,
+          14,
+          15,
+          16
+        ],
+        "labelZh": "课文 08"
+      }
+    },
+    {
+      "sectionId": "copula-history",
+      "sourceSectionId": "_preamble",
+      "titleZh": "09 · 别的「是」：ye、词尾 -ië、零系词",
+      "leadZh": "早期文本用 ye 表示「是」，也有把 -ië 加在形容词上的做法——两者都不建议模仿。真正可用的是「零系词」：直接并置。",
+      "objectives": [
+        "能说出 ye 与 -ië 为何不推荐",
+        "能举出零系词的传世例证",
+        "能说明系词也可用于名词等同"
+      ],
+      "rules": [
+        {
+          "id": "rule-zero-copula",
+          "headZh": "零系词：直接并置，ná 可省",
+          "bodyZh": "完全不用系词也是一套有效系统：把名词与形容词并置，「是」被理解为隐含。Ilu vanya「世界［是］美的」、maller raicar「路［是］弯的」；VT42:32 的公式也写作 A (ná) calima lá B，括号表示 ná 可省。",
+          "en": "Another system may well be valid, though: using no copula at all.",
+          "zh": "不过另一套系统很可能有效：完全不用系词。",
+          "exampleZh": "Ilu vanya；maller raicar；A (ná) calima lá B"
+        },
+        {
+          "id": "rule-copula-noun-eq",
+          "headZh": "系词也能等同两个名词",
+          "bodyZh": "ná、nar 不限于连接名词与形容词，也可用于名词等同：Parmar nar engwi「书是物」、Fëanáro ná Noldo「费雅纳罗是诺多」。省略系词而保持相同含义可能也允许：Parmar engwi、Fëanáro Noldo。",
+          "en": "We must assume that the copula ná, nar is not limited to combining nouns and adjectives, but can also be used to equate nouns",
+          "zh": "我们必须假定系词 ná、nar 不限于连接名词与形容词，也可用于等同两个名词。",
+          "exampleZh": "Parmar nar engwi；Fëanáro ná Noldo"
+        }
+      ],
+      "exceptions": [
+        {
+          "titleZh": "ye：一次短暂的试验",
+          "bodyZh": "《Fíriel 之歌》里「是」作 ye，如 írima ye Númenor「可爱的是努门诺尔」（LR:72）。但《Qenya 词汇表》（QL:64）与《词源》（LR:374）都指向 ná，而《Namárië》更晚且是实际文本。所以 ye 看来只是托尔金演化昆雅过程中的一次短暂试验。",
+          "sourceEn": "so would seem that ye was just a passing experiment in Tolkien's evolution of Quenya",
+          "anchor": "#unit-_preamble-17"
+        },
+        {
+          "titleZh": "-ië 词尾：不建议使用",
+          "bodyZh": "《Fíriel 之歌》还有把 -ië 加在形容词上表示「是」的做法（márië「（它）是好的」，来自 mára）。作者认为这套系统在《魔戒》式昆雅中已不成立，也不建议写作者使用：-ië 在后期昆雅另有含义。",
+          "sourceEn": "I don't think the system of using the ending -ië for \"is\" was still valid in LotR-style Quenya, and I wouldn't recommend it to writers.",
+          "anchor": "#unit-_preamble-17"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "用 -ië 加在形容词上表示「是」",
+          "right": "用 ná/nar 或直接并置",
+          "whyZh": "正文明确不推荐：该词尾在后期昆雅另有含义，那套系统已不成立。"
+        },
+        {
+          "wrong": "以为零系词是「省略了错误」",
+          "right": "零系词是独立的一套合法系统",
+          "whyZh": "正文把它称为另一套「很可能有效」的系统，并给出多个传世例证。"
+        }
+      ],
+      "recapZh": "可用：ná/nar，或零系词。不推荐：ye（早期试验）、-ië 词尾（后期另有含义）。系词也能等同名词。",
+      "selfCheckZh": [
+        {
+          "qZh": "为什么作者不推荐用 -ië 表示「是」？",
+          "aZh": "这套系统在《魔戒》式昆雅中已不成立；-ië 在后期昆雅另有含义。"
+        },
+        {
+          "qZh": "零系词的两个传世例子是什么？",
+          "aZh": "Ilu vanya「世界［是］美的」、maller raicar「路［是］弯的」。"
+        },
+        {
+          "qZh": "「书是物」用昆雅怎么说？",
+          "aZh": "Parmar nar engwi（也可省略系词作 Parmar engwi）。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          17,
+          18,
+          19
+        ],
+        "labelZh": "课文 09"
+      }
+    },
+    {
+      "sectionId": "agreement-basics",
+      "sourceSectionId": "_preamble",
+      "titleZh": "10 · 数一致：形容词必须跟着名词变",
+      "leadZh": "英语形容词不变，昆雅必须变。名词复数，形容词也复数；描述多个单数名词，形容词同样用复数。",
+      "objectives": [
+        "能说明昆雅形容词数一致的两条要求",
+        "能指出英语与昆雅在此的根本差异",
+        "能说明双数与 -li 名词为何没有专门形容词形式"
+      ],
+      "rules": [
+        {
+          "id": "rule-agreement",
+          "headZh": "形容词在数上必须与名词一致",
+          "bodyZh": "名词是复数，形容词也必须是复数；若形容词描述多个名词，即便每个名词都是单数，形容词也须用复数。英语不作这种区分，但昆雅被设计成高度屈折的语言，所以有这种一致并不奇怪。",
+          "en": "Quenya adjectives must agree in number with the noun they describe.",
+          "zh": "昆雅形容词必须在数上与其描述的名词一致。",
+          "exampleZh": "vanyë nissi「美丽的女人（复数）」"
+        },
+        {
+          "id": "rule-agreement-dual",
+          "headZh": "没有专门的双数形容词形式",
+          "bodyZh": "我们没有形容词与双数名词一致的例证。一般假定形容词没有专门双数形式，只有一种复数（或该说「非单数」）形式。同样，-li 名词所带的形容词也只用常规复数形式。",
+          "en": "It is generally assumed, though, that there are no special dual forms of adjectives, but only one plural (or should we say \"non-singular\") form.",
+          "zh": "不过一般假定形容词没有专门的双数形式，只有一种复数（或者该说「非单数」）形式。",
+          "exampleZh": "双数名词 + 常规复数形容词；-li 名词同理"
+        }
+      ],
+      "table": {
+        "captionZh": "三种数：名词与形容词怎么配",
+        "headers": [
+          "名词的数",
+          "形容词形式",
+          "例",
+          "证据"
+        ],
+        "rows": [
+          [
+            "单数",
+            "单数",
+            "vanya nís",
+            "常态"
+          ],
+          [
+            "复数",
+            "复数",
+            "vanyë nissi",
+            "传世例证充足"
+          ],
+          [
+            "双数",
+            "（无专门形式）用复数",
+            "—",
+            "无例证，属假定"
+          ],
+          [
+            "-li 部分复数",
+            "常规复数",
+            "—",
+            "《Markirya》所示"
+          ]
+        ]
+      },
+      "pitfalls": [
+        {
+          "wrong": "vanya nissi（复数名词配单数形容词）",
+          "right": "vanyë nissi",
+          "whyZh": "正文明确形容词必须与名词数一致；keys 第 4 课 O、P 两题都靠这一点区分。"
+        },
+        {
+          "wrong": "给双数名词造一个专门的双数形容词",
+          "right": "用常规复数形容词",
+          "whyZh": "正文：一般假定形容词没有专门双数形式，只有一种「非单数」形式。"
+        }
+      ],
+      "recapZh": "形容词必须数一致；双数与 -li 名词都没有专门的形容词形式，一律用常规复数。",
+      "selfCheckZh": [
+        {
+          "qZh": "形容词描述两个单数名词时，用单数还是复数？",
+          "aZh": "复数；正文明确「即便每个名词都是单数」。"
+        },
+        {
+          "qZh": "双数名词的形容词有专门形式吗？",
+          "aZh": "没有；一般假定只有一种「非单数」形式。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          20,
+          21
+        ],
+        "labelZh": "课文 10"
+      }
+    },
+    {
+      "sectionId": "plural-a-history",
+      "sourceSectionId": "_preamble",
+      "titleZh": "11 · -a 形容词的复数：从 -r 到 -ë",
+      "leadZh": "这是本课最重要的一条共时规则：-a 形容词复数作 -ë（来自更早的 -ai）。中间经历过 -r 与 -ai 两套已被放弃的系统。",
+      "objectives": [
+        "能写出 -a 形容词在现代昆雅中的复数形式",
+        "能按时间顺序说出三套系统",
+        "能解释 -ai → -ë 的音变条件"
+      ],
+      "rules": [
+        {
+          "id": "rule-plural-a-old",
+          "headZh": "早期系统：加 -r（已废弃）",
+          "bodyZh": "在早期材料里，以 -a 结尾的形容词加 -r 构成复数，就像 -a 名词一样。极早的「地图」有 I Nori Landar「广大的土地」；LR:47 有 maller raicar。这套系统直到 1937 年或稍早仍有效，但在《魔戒》式昆雅中已被放弃，不能推荐给写作者。",
+          "en": "In early sources, adjectives in -a form their plural form by adding the ending -r, just like nouns in -a do.",
+          "zh": "在早期材料里，以 -a 结尾的形容词加词尾 -r 构成复数，就像以 -a 结尾的名词一样。",
+          "exampleZh": "I Nori Landar；maller raicar（LR:47）"
+        },
+        {
+          "id": "rule-plural-ai",
+          "headZh": "现代系统：-ai → -ë",
+          "bodyZh": "托尔金后来引入：-a 形容词只在古体昆雅中有 -ai 复数；在流亡昆雅中，多音节词末的 -ai 减为 -ë。所以 quanta 的复数从 quantai 变成 quantë（quantë tengwi「满的符号」，VT39:5）。",
+          "en": "Adjectives in -a had plurals in -ai in archaic Quenya only.",
+          "zh": "以 -a 结尾的形容词只在古体昆雅中有 -ai 复数。",
+          "exampleZh": "quanta → quantai → quantë；quantë tengwi"
+        }
+      ],
+      "table": {
+        "captionZh": "三套系统的先后",
+        "headers": [
+          "系统",
+          "复数形式",
+          "例",
+          "地位"
+        ],
+        "rows": [
+          [
+            "早期：加 -r",
+            "-ar",
+            "I Nori Landar、maller raicar",
+            "已废弃，不推荐"
+          ],
+          [
+            "古体：-ai",
+            "-ai",
+            "quantai、laurëai",
+            "古体昆雅"
+          ],
+          [
+            "流亡昆雅：-ë",
+            "-ë",
+            "quantë、laurië、vanyë",
+            "现代昆雅，本课程采用"
+          ]
+        ]
+      },
+      "pitfalls": [
+        {
+          "wrong": "vanyar nissi（用早期 -r 复数修饰名词）",
+          "right": "vanyë nissi",
+          "whyZh": "-r 系统在《魔戒》式昆雅中已被放弃；vanyar 只作名词「凡雅族」用（见第 18 步 NOTE）。"
+        },
+        {
+          "wrong": "?quanta tengwi",
+          "right": "quantë tengwi",
+          "whyZh": "正文：托尔金实际写的是 quantë tengwi 而非 ?quanta tengwi（VT39:5、WJ:395）。"
+        }
+      ],
+      "recapZh": "-a 形容词复数：早期 -r（废弃）→ 古体 -ai → 现代 -ë。quantë tengwi 是标准例证。",
+      "selfCheckZh": [
+        {
+          "qZh": "-a 形容词在现代昆雅中的复数词尾是什么？",
+          "aZh": "-ë（来自更早的 -ai）。"
+        },
+        {
+          "qZh": "为什么 -ai 会变成 -ë？",
+          "aZh": "流亡昆雅中，多音节词末尾的 -ai 减为 -ë。"
+        },
+        {
+          "qZh": "I Nori Landar 的 landar 说明了什么？",
+          "aZh": "早期系统用 -r 构成形容词复数；这套系统后来被放弃。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          22,
+          23
+        ],
+        "labelZh": "课文 11"
+      }
+    },
+    {
+      "sectionId": "plural-ea",
+      "sourceSectionId": "_preamble",
+      "titleZh": "12 · 特例：-ëa → -ië（laurië lantar lassi）",
+      "leadZh": "以 -ëa 结尾的形容词若按常规变 -ë，会得到 -ëe 这种累赘组合。解决办法是把第一个 e 改成 i：laurëa → laurië。",
+      "objectives": [
+        "能说明 -ëa 形容词复数的特殊处理",
+        "能举出《Namárië》首行的例证",
+        "能解释为什么不能写作 ?laurëe"
+      ],
+      "rules": [
+        {
+          "id": "rule-plural-ea",
+          "headZh": "-ëa → -ië",
+          "bodyZh": "古体昆雅中 -ëa 形容词的复数应是 -ëai，但 -ai 变 -e 后会得到 -ëe，这种形式不能持久。为避免两个相连 e 的累赘组合，第一个改为 i：laurëa 的复数作 laurië。",
+          "en": "Hence the plural form of laurëa in Exilic Quenya appears as laurië",
+          "zh": "因此流亡昆雅中 laurëa 的复数形式作 laurië。",
+          "exampleZh": "laurëa → laurië；Ai! laurië lantar lassi súrinen..."
+        }
+      ],
+      "examples": [
+        {
+          "en": "Ai! laurië lantar lassi súrinen...",
+          "zh": "啊！金色的叶子在风中飘落……",
+          "whyZh": "《Namárië》首行。laurië 是 laurëa「金色的」的复数，与 lassi「叶子」一致——这是「形容词与名词分离仍要一致」的例证。"
+        },
+        {
+          "en": "laurië lantar lassi",
+          "zh": "金色的叶子飘落",
+          "whyZh": "形容词在句首、名词在后，仍然数一致；散文体《Namárië》作 lassi lantar laurië，语序不同而一致关系相同。"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "?laurëe",
+          "right": "laurië",
+          "whyZh": "正文：?laurëe 未证明能持久；为避免两个相连 e，第一个改为 i。"
+        },
+        {
+          "wrong": "úmëe（把 úmëa 按普通 -a 规则变）",
+          "right": "úmië",
+          "whyZh": "úmëa 属 -ëa 类，复数走 -ië 这条路；keys 第 4 课 N 题答案作 úmië。"
+        }
+      ],
+      "recapZh": "-ëa 形容词复数作 -ië：laurëa → laurië、úmëa → úmië。避免 -ëe。",
+      "selfCheckZh": [
+        {
+          "qZh": "laurëa 的复数是什么？为什么？",
+          "aZh": "laurië；-ëa 类为避免出现 -ëe，把第一个 e 改成 i。"
+        },
+        {
+          "qZh": "úmëa「邪恶的」的复数怎么写？",
+          "aZh": "úmië（keys 第 4 课 N 题）。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          24
+        ],
+        "labelZh": "课文 12"
+      }
+    },
+    {
+      "sectionId": "plural-e",
+      "sourceSectionId": "_preamble",
+      "titleZh": "13 · -ë 形容词：-ë 变 -i",
+      "leadZh": "与同形状名词一样：luinë → luini、maitë → maisi（但 maisi 属早期试验，后期作 hloníti）。",
+      "objectives": [
+        "能写出 -ë 形容词的复数形式",
+        "能说明 maisi 与 hloníti 的矛盾及其含义",
+        "能判断 t → s 这条规则在后期是否有效"
+      ],
+      "rules": [
+        {
+          "id": "rule-plural-e",
+          "headZh": "-ë → -i",
+          "bodyZh": "以 -ë 结尾的形容词与同形状的大多数名词行为相同：复数中 -ë 变 -i。散文体《Namárië》的 luini tellumar 即 luinë 的复数；《词源》记 maitë 的复数为 maisi。",
+          "en": "As for adjectives in -ë, they seem to behave like most nouns of the same shape: -ë becomes -i in the plural.",
+          "zh": "至于以 -ë 结尾的形容词，它们看来与同形状的大多数名词行为相同：复数中 -ë 变 -i。",
+          "exampleZh": "luinë → luini；maitë → maisi（早期）"
+        }
+      ],
+      "exceptions": [
+        {
+          "titleZh": "maisi 的 t → s：后来被放弃",
+          "bodyZh": "《词源》特别提到 maisi，主要是为了说明「-itë 形容词复数作 -isi，t 在 i 前变 s」。但这一想法后来似乎被放弃：后于《魔戒》的材料中，托尔金写 hloníti tengwi 而非 ?hlonísi tengwi（WJ:395）。所以 maitë 的复数也许干脆就是 ?maiti。",
+          "sourceEn": "In a much later, post-LotR source, Tolkien wrote hloníti tengwi, not ?hlonísi tengwi, for \"phonetic signs\" (WJ:395).",
+          "anchor": "#unit-_preamble-25"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "把 maisi 当成现代规则、据此推出 ?hlonísi",
+          "right": "现代材料作 hloníti；t → s 这条规则已被放弃",
+          "whyZh": "正文明确：后于《魔戒》的材料写 hloníti tengwi 而非 ?hlonísi tengwi。"
+        }
+      ],
+      "recapZh": "-ë 形容词复数作 -i（luini）。maisi 的 t → s 属早期想法，后期作 hloníti。",
+      "selfCheckZh": [
+        {
+          "qZh": "-ë 形容词的复数词尾是什么？",
+          "aZh": "-i（-ë 变 -i）。"
+        },
+        {
+          "qZh": "maitë 的复数到底是 maisi 还是 maiti？",
+          "aZh": "早期材料作 maisi；但 t → s 规则后来被放弃，所以也许是 ?maiti。作者用问号表示不确定。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          25
+        ],
+        "labelZh": "课文 13"
+      }
+    },
+    {
+      "sectionId": "plural-consonant",
+      "sourceSectionId": "_preamble",
+      "titleZh": "14 · 辅音结尾：-in 型与 firini",
+      "leadZh": "firin「死的」这类词没有例证可循。传统假定加 -i（firini），但因为它可能是 -ina 的缩短形，也可能该作 firinë。",
+      "objectives": [
+        "能写出传统假设下 -in 形容词的复数",
+        "能说明这一假设的弱点",
+        "能指出本课程在练习中采用哪种处理"
+      ],
+      "rules": [
+        {
+          "id": "rule-plural-in",
+          "headZh": "传统假设：-in 加 -i",
+          "bodyZh": "以辅音结尾的形容词（如 firin）复数没有例证。传统假定它们像同形状名词一样用 -i 构成复数，这看来仍相当可信，所以「死人」可以是 firini neri。",
+          "en": "It has traditionally been assumed that they form their plurals in -i, just like nouns of this shape do, and this still seems reasonably plausible.",
+          "zh": "传统上假定它们像同形状的名词一样用 -i 构成复数，这看来仍然相当可信。",
+          "exampleZh": "firin → firini；firini neri「死人」"
+        }
+      ],
+      "exceptions": [
+        {
+          "titleZh": "反论：-in 可能是 -ina 的缩短形",
+          "bodyZh": "若 -in 只是 -ina 的缩短形，复数也许仍应是 -ë（latinë 而非 latini）。作者说无法确知，但在练习里遵循传统假设用 -i；并指出这类形容词本来罕见，不确定性不会严重损害文本质量。",
+          "sourceEn": "We cannot know for certain; in the exercises below I have followed the traditional assumption, using plurals in -i.",
+          "anchor": "#unit-_preamble-26"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "把 firini 当成有传世例证的确定形式",
+          "right": "它是传统假设，教材已说明",
+          "whyZh": "正文：我们没有例子可循，这只是「仍然相当可信」的假定；练习按此假设出题。"
+        }
+      ],
+      "recapZh": "辅音结尾（-in 型）复数按传统假定加 -i：firini。存在 firinë 的可能，但无定论。",
+      "selfCheckZh": [
+        {
+          "qZh": "「死人」用昆雅怎么说？依据是什么？",
+          "aZh": "firini neri；依据是「辅音结尾形容词加 -i」的传统假定（keys 第 4 课 C 题）。"
+        },
+        {
+          "qZh": "这个假定有什么弱点？",
+          "aZh": "-in 可能是 -ina 的缩短形，若如此复数或应作 -ë（latinë）。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          26
+        ],
+        "labelZh": "课文 14"
+      }
+    },
+    {
+      "sectionId": "agreement-positions",
+      "sourceSectionId": "_preamble",
+      "titleZh": "15 · 哪些位置要一致：前、后、分离、谓语",
+      "leadZh": "四种位置都要一致：前置定语、后置定语、与名词分离的形容词、谓语形容词。最后一项只有旧例支撑。",
+      "objectives": [
+        "能列举形容词发生数一致的四种位置",
+        "能为每种位置举出一个例证",
+        "能说明谓语位置为何证据较弱"
+      ],
+      "rules": [
+        {
+          "id": "rule-agreement-positions",
+          "headZh": "四种位置都一致",
+          "bodyZh": "前置定语（luini tellumar）、后置定语（i fairi nécë）、与名词分离（laurië lantar lassi）、谓语（maller raicar）都表现数一致。谓语位置缺少晚期例证，只有 LR:47 的旧例；在后期昆雅大概应读作 maller (nar) raicë。",
+          "en": "In what positions do adjectives agree in number?",
+          "zh": "形容词在哪些位置发生数一致？",
+          "exampleZh": "luini tellumar / i fairi nécë / laurië lantar lassi / maller raicar"
+        }
+      ],
+      "table": {
+        "captionZh": "四种位置与例证",
+        "headers": [
+          "位置",
+          "例",
+          "证据强度"
+        ],
+        "rows": [
+          [
+            "前置定语",
+            "luini tellumar",
+            "强（散文体《Namárië》）"
+          ],
+          [
+            "后置定语",
+            "i fairi nécë",
+            "强（《Markirya》，MC:223）"
+          ],
+          [
+            "与名词分离",
+            "laurië lantar lassi",
+            "强（《Namárië》首行）"
+          ],
+          [
+            "谓语",
+            "maller raicar",
+            "弱（LR:47 旧例，晚期无证）"
+          ]
+        ]
+      },
+      "pitfalls": [
+        {
+          "wrong": "以为只有前置定语才需要一致",
+          "right": "四种位置都一致",
+          "whyZh": "正文逐一给出四类例证；后置与分离位置也各有传世例子。"
+        },
+        {
+          "wrong": "用 maller raicar 作为现代昆雅的模板",
+          "right": "后期应作 maller (nar) raicë",
+          "whyZh": "raicar 是早期 -r 复数系统；托尔金后来改了形容词复数的构成规则。"
+        }
+      ],
+      "recapZh": "前置、后置、分离、谓语四种位置都发生数一致；谓语位置只有旧例，后期形式应作 raicë。",
+      "selfCheckZh": [
+        {
+          "qZh": "列举形容词发生数一致的四种位置。",
+          "aZh": "前置定语、后置定语、与名词分离、谓语。"
+        },
+        {
+          "qZh": "为什么 maller raicar 不能直接当现代模板？",
+          "aZh": "raicar 属早期 -r 复数系统，后期应作 maller (nar) raicë。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          27
+        ],
+        "labelZh": "课文 15"
+      }
+    },
+    {
+      "sectionId": "agreement-evidence",
+      "sourceSectionId": "_preamble",
+      "titleZh": "16 · 反例：lehta tengwi 与 atalantëa 的摇摆",
+      "leadZh": "附录 E 的定稿一切规矩，草稿里却出现 lehta tengwi、sarda tengwi、tapta tengwi——形容词没变复数。托尔金似乎在反复试验。",
+      "objectives": [
+        "能举出草稿材料里的三个反例",
+        "能说明作者为何不接受「形容词分两类」的解释",
+        "能复述《Markirya》最后一版的改动"
+      ],
+      "rules": [
+        {
+          "id": "rule-agreement-evidence",
+          "headZh": "反例说明托尔金在试验",
+          "bodyZh": "《Quendi and Eldar》附录 E 定稿有 hloníti tengwi、quantë tengwi、racinë tengwi、penyë tengwi 等规矩例子；但草稿材料有 lehta tengwi、sarda tengwi、tapta tengwi，形容词未变复数。作者认为「形容词分两类」的解释太牵强，更可能是托尔金在草稿阶段试验了「紧邻前置定语不一致」的系统。",
+          "en": "Here Tolkien did not let the adjectives agree in number, and we have phrases like lehta tengwi \"free/released elements\", sarda tengwi \"hard sounds\" and tapta tengwi \"impeded elements\" (VT39:17).",
+          "zh": "这里托尔金没让形容词发生数一致，我们有 lehta tengwi、sarda tengwi 与 tapta tengwi 这样的短语（VT39:17）。",
+          "exampleZh": "定稿：quantë tengwi；草稿：?quanta tengwi"
+        }
+      ],
+      "table": {
+        "captionZh": "定稿与草稿的对照",
+        "headers": [
+          "定稿（附录 E）",
+          "草稿（附录 E 材料）",
+          "预期形式"
+        ],
+        "rows": [
+          [
+            "quantë tengwi",
+            "?quanta tengwi",
+            "quantë tengwi"
+          ],
+          [
+            "hloníti tengwi",
+            "lehta tengwi",
+            "lehtë tengwi"
+          ],
+          [
+            "racinë tengwi",
+            "sarda tengwi",
+            "sardë tengwi"
+          ],
+          [
+            "penyë tengwi",
+            "tapta tengwi",
+            "taptë tengwi"
+          ]
+        ]
+      },
+      "pitfalls": [
+        {
+          "wrong": "把 lehta tengwi 当成一条可选规则去模仿",
+          "right": "它是草稿阶段的试验，作者推荐的是定稿做法",
+          "whyZh": "正文说作者「在草稿材料中使用了一套系统」，而定稿又引入了一致；他推荐写作者采用一致。"
+        }
+      ],
+      "recapZh": "草稿有 lehta/sarda/tapta tengwi 三个反例，说明托尔金在试验「前置定语不一致」；定稿又回到一致。",
+      "selfCheckZh": [
+        {
+          "qZh": "草稿材料里的三个反例是什么？",
+          "aZh": "lehta tengwi、sarda tengwi、tapta tengwi。"
+        },
+        {
+          "qZh": "作者为什么不接受「形容词分两类」的解释？",
+          "aZh": "他认为那太牵强；更可能是托尔金在草稿阶段试验了另一套系统。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          28,
+          29
+        ],
+        "labelZh": "课文 16"
+      }
+    },
+    {
+      "sectionId": "agreement-final",
+      "sourceSectionId": "_preamble",
+      "titleZh": "17 · 最终结论：lintë yuldar 定案",
+      "leadZh": "托尔金在 1968 年的材料里明确标注 lintë 是「复数」形容词——这直接否定了「紧邻前置定语不一致」的假设。",
+      "objectives": [
+        "能说明 lintë yuldar 为什么是决定性证据",
+        "能推出 lintë 来自更早的 lintai",
+        "能说出作者推荐写作者采用的做法"
+      ],
+      "rules": [
+        {
+          "id": "rule-agreement-final",
+          "headZh": "紧邻前置定语也一致",
+          "bodyZh": "《魔戒》中的《Namárië》有 lintë yuldar，而 RGEO:66 的逐词对译里托尔金明确指出 lintë 是「复数」形容词，代表更早的 lintai（linta 的复数）。若前置定语不一致，就该是 ?linta yuldar。该出处晚至 1968 年，可能晚于《Markirya》最后一版，所以这是他的最终决定。",
+          "en": "in the interlinear translation in RGEO:66 Tolkien explicitly noted that lintë is a \"pl.\" adjective",
+          "zh": "在 RGEO:66 的逐词对译里，托尔金明确指出 lintë 是「复数」形容词。",
+          "exampleZh": "lintë yuldar（不是 ?linta yuldar）"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "?linta yuldar",
+          "right": "lintë yuldar",
+          "whyZh": "正文明确：若前置定语不一致就该是 ?linta yuldar；而托尔金标明 lintë 是复数，故前置也要一致。"
+        }
+      ],
+      "recapZh": "lintë yuldar 是定案证据：形容词紧邻前置时也发生数一致。写作者应采用这套。",
+      "selfCheckZh": [
+        {
+          "qZh": "为什么 lintë yuldar 能定案？",
+          "aZh": "托尔金在 RGEO:66 明确标注 lintë 为复数；若前置定语不一致，就该写 ?linta yuldar。"
+        },
+        {
+          "qZh": "lintë 的更早形式是什么？",
+          "aZh": "lintai，即形容词 linta 的复数。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          30
+        ],
+        "labelZh": "课文 17"
+      }
+    },
+    {
+      "sectionId": "adj-as-noun",
+      "sourceSectionId": "_preamble",
+      "titleZh": "18 · NOTE：形容词用作名词时，复数回到 -ar",
+      "leadZh": "-a 形容词作名词时按名词屈折，所以复数可以是 -ar：penyar「欠缺者们」、Vanyar「凡雅族」、a vanimar「哦，美的人们」。",
+      "objectives": [
+        "能说明形容词作名词时复数为何可用 -ar",
+        "能举出 penyar、Vanyar、a vanimar 三例",
+        "能说明 -ë 形容词作名词时为何仍用 -i"
+      ],
+      "rules": [
+        {
+          "id": "rule-adj-as-noun",
+          "headZh": "作名词 → 按名词屈折（-ar）",
+          "bodyZh": "以 -a 结尾的形容词若用作名词，仍可有 -ar 复数，因为这种情况下它们自然按名词屈折。penya 作名词得 penyar「欠缺者们」（VT39:19）；vanya 作名词指「一个凡雅」，全族则称 Vanyar；树胡用 a vanimar「哦，美的人们」问候凯勒博恩与加拉德瑞尔。",
+          "en": "However, adjectives in -a may still have plural forms in -ar if they are used as nouns, because in such a case they are naturally inflected as nouns.",
+          "zh": "然而以 -a 结尾的形容词若用作名词，仍可有 -ar 复数，因为这种情况下它们自然按名词屈折。",
+          "exampleZh": "penyar、Vanyar、a vanimar"
+        },
+        {
+          "id": "rule-adj-e-as-noun",
+          "headZh": "-ë 形容词作名词仍用 -i",
+          "bodyZh": "以 -ë 结尾的形容词即便用作名词，也仍用通常的 -i 复数，因为大多数以 -ë 结尾的名词也用 -i 构成复数。",
+          "en": "Adjectives in -ë would however have their usual plural form in -i even if they are used as nouns",
+          "zh": "不过以 -ë 结尾的形容词即便用作名词，也仍用通常的 -i 复数。",
+          "exampleZh": "—（本课未给 -ë 形容词作名词的实例）"
+        }
+      ],
+      "table": {
+        "captionZh": "同一个形容词，两种复数",
+        "headers": [
+          "词",
+          "作形容词（复数）",
+          "作名词（复数）",
+          "出处"
+        ],
+        "rows": [
+          [
+            "penya「欠缺的」",
+            "penyë tengwi",
+            "penyar「欠缺者们」",
+            "VT39:19"
+          ],
+          [
+            "vanya「美的」",
+            "vanyë nissi",
+            "Vanyar「凡雅族」",
+            "《精灵宝钻》第 3 章"
+          ],
+          [
+            "vanima「美的」",
+            "—",
+            "a vanimar「哦，美的人们」",
+            "Letters:308"
+          ]
+        ]
+      },
+      "pitfalls": [
+        {
+          "wrong": "把 Vanyar 当成 vanya 的常规形容词复数",
+          "right": "它是 vanya 作名词（族名）时的名词式复数",
+          "whyZh": "正文：vanya 作形容词时复数是 vanyë；作名词指「一个凡雅」时，全族称 Vanyar。"
+        }
+      ],
+      "recapZh": "形容词作名词：-a 类可用 -ar（penyar、Vanyar、a vanimar），-ë 类仍用 -i。",
+      "selfCheckZh": [
+        {
+          "qZh": "vanya 作形容词与作名词时，复数分别是什么？",
+          "aZh": "作形容词是 vanyë（vanyë nissi）；作名词指族名时是 Vanyar。"
+        },
+        {
+          "qZh": "为什么 -ë 形容词作名词时不用 -ar？",
+          "aZh": "因为大多数以 -ë 结尾的名词本身就用 -i 构成复数。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          31,
+          32
+        ],
+        "labelZh": "课文 18 · NOTE"
+      }
+    },
+    {
+      "sectionId": "summary",
+      "kind": "summary",
+      "sourceSectionId": "_preamble",
+      "titleZh": "19 · 本章小结：原文 Summary 与中文对照",
+      "leadZh": "左侧是 less-a.rtf 第 4 课 Summary 原文（未删节），右侧是等价中文翻译；口诀只作记忆辅助。",
+      "objectives": [
+        "能复述定语与谓语两种用法的区别",
+        "能复述形容词复数四条规则",
+        "能把小结的每一句对应到前面的步骤"
+      ],
+      "summaryEn": "Summary of Lesson Four: Adjectives are words used to describe various qualities, such as \"tall\" or \"beautiful\". They can be combined with nouns, making up phrases like \"(a/the) red book\" or \"tall men\", where the adjectives \"red\" and \"tall\" describe the nouns \"book\" and \"men\" directly; this is called using an adjective attributively. But adjectives can also be used in sentences like \"the book is red\" or \"the men are tall\", where the whole point of the sentence is to ascribe a certain quality to a noun; here the adjective is used as a predicate. In such cases English slips in a copula, like \"is\" or \"are\" in these examples, to clarify the relationship between the noun and the adjective. Many languages do without this extra device (one would just say what corresponds to \"the book red\"), and this seems to be permissible in Quenya as well, but the explicit copula ná \"is\"/nar \"are\" also occurs in the material. – Most Quenya adjectives end in the vowel -a, some also in -ë; the only ones that end in a consonant are a few that nearly always have the ending -in (apparently shortened from -ina). Quenya adjectives agree in number; if an adjective describes a plural noun or more than one noun, the adjective must be plural as well. Adjectives in -a have plural forms in -ë (for older -ai); notice that if the adjective ends in -ëa it forms its plural in -ië (to avoid -ëe). Adjectives in -ë have plural forms in -i; for the few adjectives in -in we lack examples, but it is normally assumed that they would add -i in the plural.",
+      "summaryZh": "第四课小结：形容词是用来描述各种性质的词，如「高的」或「美的」。它们可以与名词结合，构成「(a/the) red book」或「tall men」这样的短语，其中形容词 red、tall 直接描述名词 book、men；这叫作形容词的定语用法。但形容词也可用于「the book is red」或「the men are tall」这样的句子，整句的要点是把某种性质归予一个名词；这里形容词用作谓语。这种情况下英语会塞进一个系词，如例中的 is 或 are，以澄清名词与形容词之间的关系。许多语言不用这一额外装置（人只需说出相当于「the book red」的东西），而这在昆雅中看来也是允许的，但明确系词 ná「是」／nar「是（复）」也见于材料。——大多数昆雅形容词以元音 -a 结尾，有些以 -ë 结尾；唯一以辅音结尾的是少数几乎总带 -in 词尾的（显然是 -ina 的缩短形）。昆雅形容词发生数一致；若形容词描述复数名词或不止一个名词，形容词也必须是复数。以 -a 结尾的形容词复数作 -ë（来自更早的 -ai）；注意若形容词以 -ëa 结尾，其复数作 -ië（以避免 -ëe）。以 -ë 结尾的形容词复数作 -i；少数以 -in 结尾的我们缺少例证，但通常假定它们在复数中加 -i。",
+      "formulaZh": [
+        "两种用法：定语（预设性质，构成短语）／谓语（断言性质，构成句子）。",
+        "系词：英语必须 is/are；昆雅有 ná / nar，也可省略（零系词）。",
+        "三类词尾：-a（最多）、-ë（多颜色词）、-in（＝-ina 缩短形）。",
+        "复数：-a → -ë；-ëa → -ië；-ë → -i；-in → -i（传统假定）。",
+        "数一致：前置、后置、分离、谓语四处都一致；双数与 -li 无专门形式。",
+        "形容词作名词：-a 类可回到 -ar（Vanyar），-ë 类仍用 -i。"
+      ],
+      "selfCheckZh": [
+        {
+          "qZh": "不看原文，写出形容词复数的四条规则。",
+          "aZh": "-a → -ë；-ëa → -ië；-ë → -i；-in → -i（传统假定，存疑）。"
+        },
+        {
+          "qZh": "小结把系词的作用说成什么？",
+          "aZh": "澄清名词与形容词之间的关系；很多语言不用这一装置，昆雅也允许省略。"
+        },
+        {
+          "qZh": "中文小结与英文 Summary 有没有增删？",
+          "aZh": "没有；中文是等价翻译，口诀另列。"
+        }
+      ]
+    },
+    {
+      "sectionId": "vocabulary",
+      "kind": "vocabulary",
+      "sourceSectionId": "vocabulary",
+      "titleZh": "20 · 课末词汇：10 个形容词 + 数词与系词",
+      "leadZh": "12 个词里前两个不是形容词：neldë 是数词、ná 是系词。其余 10 个按词尾分成 -a 类与 -ë 类，复数规则不同。",
+      "objectives": [
+        "能默写 12 个词的昆雅形式与中文义",
+        "能按词尾给 10 个形容词分类并写出复数",
+        "能说明 alta 与「大」的语义边界",
+        "会用总词汇表按英文或昆雅词反查"
+      ],
+      "table": {
+        "captionZh": "12 词按词尾分类（复数按本课规则推演）",
+        "headers": [
+          "课末词",
+          "中文",
+          "词尾类别",
+          "复数"
+        ],
+        "rows": [
+          [
+            "neldë",
+            "三（数词）",
+            "数词",
+            "—"
+          ],
+          [
+            "ná",
+            "是",
+            "系词",
+            "nar（are）"
+          ],
+          [
+            "vanya",
+            "美的、美丽的",
+            "-a",
+            "vanyë"
+          ],
+          [
+            "alta",
+            "大的（物理尺寸）",
+            "-a",
+            "altë"
+          ],
+          [
+            "calima",
+            "明亮的",
+            "-a",
+            "calimë"
+          ],
+          [
+            "taura",
+            "强大的",
+            "-a",
+            "taurë"
+          ],
+          [
+            "saila",
+            "智慧的",
+            "-a",
+            "sailë"
+          ],
+          [
+            "úmëa",
+            "邪恶的",
+            "-ëa",
+            "úmië"
+          ],
+          [
+            "carnë",
+            "红的",
+            "-ë",
+            "carni"
+          ],
+          [
+            "ninquë",
+            "白的",
+            "-ë",
+            "ninque 型（-ë → -i）"
+          ],
+          [
+            "morë",
+            "黑的",
+            "-ë",
+            "mori"
+          ],
+          [
+            "firin",
+            "死的",
+            "-in",
+            "firini（传统假定）"
+          ]
+        ]
+      },
+      "pitfalls": [
+        {
+          "wrong": "把 alta 用来表示「伟大、重大」",
+          "right": "alta 只用于物理尺寸",
+          "whyZh": "课末词汇表明确：alta = big，the word is used of physical size only。"
+        },
+        {
+          "wrong": "把 ninquë 当成 -a 类形容词，复数写成 ninquë 加 -ë",
+          "right": "按 -ë → -i 应为 ninqui",
+          "whyZh": "keys 第 4 课 L 题作 neldë ninqui sardi，正是 ninquë 的复数 ninqui。"
+        }
+      ],
+      "closeReadingZh": [
+        {
+          "headZh": "为什么本课词汇表特意说明前两项例外",
+          "bodyZh": "因为整课讲的是形容词，而 neldë 与 ná 不是形容词。作者在词表开头就点明「除前两项外都是形容词」，是为了防止学习者把数词和系词也套上形容词的复数规则——ná 的复数 nar 是系词自身的变化，不是「形容词数一致」。"
+        },
+        {
+          "headZh": "alta 的语义边界为什么值得单独记",
+          "bodyZh": "汉语「大」可以指尺寸，也可以指伟大、重要、年纪大；alta 只覆盖物理尺寸。这条限制在写昆雅句子时很容易越界，作者因此在词表里加了括号说明。"
+        }
+      ],
+      "recapZh": "10 个形容词按 -a / -ë / -in 分类记；neldë 是数词、ná 是系词；alta 只指物理尺寸。",
+      "selfCheckZh": [
+        {
+          "qZh": "默写六个 -a 类形容词及其复数。",
+          "aZh": "vanya/vanyë、alta/altë、calima/calimë、taura/taurë、saila/sailë、úmëa/úmië。"
+        },
+        {
+          "qZh": "ninquë 的复数是什么？",
+          "aZh": "ninqui（keys 第 4 课 L 题）。"
+        },
+        {
+          "qZh": "alta 能译作「伟大的」吗？",
+          "aZh": "不能；它只用于物理尺寸。"
+        }
+      ],
+      "showOriginal": true,
+      "bilingual": {
+        "sectionId": "vocabulary",
+        "unitIds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "labelZh": "词汇"
+      }
+    },
+    {
+      "sectionId": "exercises",
+      "kind": "exercises",
+      "sourceSectionId": "exercises",
+      "titleZh": "21 · 练习工作台：A–P 与 keys 核对",
+      "leadZh": "A–H 昆雅译英（G 有两种译法），I–P 英译昆雅。本课考点集中在两处：形容词复数词尾、系词 ná/nar 与主语数一致。",
+      "objectives": [
+        "独立完成 A–P，不先展开答案",
+        "能说出每题考的是复数规则还是系词",
+        "核对后能把错题回链到对应规则卡",
+        "能展开 keys.rtf 第 4 课全文答案逐题复核"
+      ],
+      "workflowZh": [
+        "第一遍：遮住答案，只看题干与考点，写下译文",
+        "A–F、H 先判断形容词该用单数还是复数，再定词尾",
+        "G 要写出两种译法并说明依据",
+        "I–P 先定主语单复数，再决定用 ná 还是 nar",
+        "点「核对」比对 keys 原文答案与可接受替代",
+        "错题按「回到本课规则」跳回规则卡，最后展开 keys 全文复核"
+      ],
+      "teachingNoteZh": "keys.rtf 的篇首说明提醒：课程仍在修订，个别练习与答案可能对不上；若出现不一致，优先以 keys.rtf 原文为准（见全站「练习答案」页）。",
+      "bilingual": {
+        "sectionId": "exercises",
+        "unitIds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "labelZh": "练习"
+      }
+    }
+  ]
+}

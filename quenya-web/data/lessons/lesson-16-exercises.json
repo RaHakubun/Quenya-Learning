@@ -1,0 +1,180 @@
+{
+ "kind": "translation",
+ "introZh": "请先在文稿框中写出译文，再点「核对」比对 keys.rtf；也可直接「显示答案」。",
+ "part1": {
+  "titleZh": "练习一 · 译成中文（或你使用的语言）",
+  "hintZh": "昆雅 → 目标语；对照词汇表与正文例句。",
+  "items": [
+   {
+    "id": "A",
+    "prompt": "Utúlies Rómello ninquë rocconen.",
+    "glossZh": "",
+    "answerKey": "(S)he has come from the East on a white horse. (Of course, the instrumental form in -nen does not really mean \"on\" but implies \"by means of\" – the horse being identified as the means of travel. It is not entirely obvious how rocconen is best translated in English, so the precise wording of the translation is unimportant as long as the student clearly grasps the meaning of the instrumental form itself. One might well translate: \"...riding a white horse\", though no element actually meaning \"riding\" is present.)",
+    "answerZh": "keys：(S)he has come from the East on a white horse. (Of course, the instrumental form in -nen does not really mean \"on\" but implies \"by means of\" – the horse being identified as the means of travel. It is not entirely obvious how rocconen is best translated in English, so the precise wording of the translation is unimportant as long as the student clearly grasps the meaning of the instrumental form itself. One might well translate: \"...riding a white horse\", though no element actually meaning \"riding\" is present.)"
+   },
+   {
+    "id": "B",
+    "prompt": "I nér harnanë i rá ehtenen, ar eques: \"Áva matë yondonya!\"",
+    "glossZh": "",
+    "answerKey": "The man wounded the lion with a spear, and he said: \"Don't eat my son!\"",
+    "answerZh": "keys：The man wounded the lion with a spear, and he said: \"Don't eat my son!\""
+   },
+   {
+    "id": "C",
+    "prompt": "Quentelmë i Eldanna: \"Nilmelva ná envinyanta annalyanen!\"",
+    "glossZh": "",
+    "answerKey": "We (excl.) said to the Elf: \"Our (incl.) friendship is renewed by your gift!\"",
+    "answerZh": "keys：We (excl.) said to the Elf: \"Our (incl.) friendship is renewed by your gift!\""
+   },
+   {
+    "id": "D",
+    "prompt": "I nelya auressë quentes i vendenna: \"Á carë ya merilyë!\"",
+    "glossZh": "",
+    "answerKey": "On the third day (s)he said to the maiden: \"Do what you want!\" (...ya merilyë = \"[that] which you want\".)",
+    "answerZh": "keys：On the third day (s)he said to the maiden: \"Do what you want!\" (...ya merilyë = \"[that] which you want\".)"
+   },
+   {
+    "id": "E",
+    "prompt": "Quen umë polë hirë harma nurtaina Naucoinen, an Nauco melë núravë i malta ya haryas.",
+    "glossZh": "",
+    "answerKey": "One cannot find a treasure hidden by Dwarves, for a Dwarf loves deeply the gold that he possesses.",
+    "answerZh": "keys：One cannot find a treasure hidden by Dwarves, for a Dwarf loves deeply the gold that he possesses."
+   },
+   {
+    "id": "F",
+    "prompt": "I nér ná harna rassenten i lamno; nai úvas firë!",
+    "glossZh": "",
+    "answerKey": "The man is wounded by [the] horns (dual) of the animal; wish that he will not die! (literally: \"be it that he will not die!\" Possible, but rather less probable interpretation: \"...that it will not die!\" – referring to the animal! If the ending -s is to cover both \"he\", \"she\" and \"it\", one can't always be quite certain where the sympathies of the speaker really lie...)",
+    "answerZh": "keys：The man is wounded by [the] horns (dual) of the animal; wish that he will not die! (literally: \"be it that he will not die!\" Possible, but rather less probable interpretation: \"...that it will not die!\" – referring to the animal! If the ending -s is to cover both \"he\", \"she\" and \"it\", one can't always be quite certain where the sympathies of the speaker really lie...)"
+   },
+   {
+    "id": "G",
+    "prompt": "Lindëas alassenen.",
+    "glossZh": "",
+    "answerKey": "(S)he is singing with joy (/because of joy).",
+    "answerZh": "keys：(S)he is singing with joy (/because of joy)."
+   },
+   {
+    "id": "H",
+    "prompt": "Á lelya i ostonna ar á quetë i taura tárinna: \"Nai varyuvalyë nórelva i úmië ohtarillon!\"",
+    "glossZh": "",
+    "answerKey": "Go to the city and say to the mighty queen: \"May you protect our (incl.) land from the evil warriors!\" (Nai varyuvalyë nórelva... = literally \"be it that you will protect our land...\") NOTE ON EHTË \"SPEAR\": In exercise B, I used ehtenen as the instrumental form of this noun. In the Etymologies, Tolkien first derived this word from EKTE, but according to a note by the editor, a variant reading EKTI was also introduced. If we accept this latter version, so that Quenya ehtë \"spear\" is to be derived from primitive Elvish ekti, the Quenya word should probably have the stem-form ehti- so that the instrumental form would be ehtinen rather than ehtenen. But the plural instrumental form should probably be ehtínen (as in Exercise K below) no matter which \"etymology\" we prefer, since ehtínen could represent both ehti+inen (two short i's merging into one long í) and ehte+inen (ei regularly becoming long í).",
+    "answerZh": "keys：Go to the city and say to the mighty queen: \"May you protect our (incl.) land from the evil warriors!\" (Nai varyuvalyë nórelva... = literally \"be it that you will protect our land...\") NOTE ON EHTË \"SPEAR\": In exercise B, I used ehtenen as the instrumental form of this noun. In the Etymologies, Tolkien first derived this word from EKTE, but according to a note by the editor, a variant reading EKTI was also introduced. If we accept this latter version, so that Quenya ehtë \"spear\" is to be derived from primitive Elvish ekti, the Quenya word should probably have the stem-form ehti- so that the instrumental form would be ehtinen rather than ehtenen. But the plural instrumental form should probably be ehtínen (as in Exercise K below) no matter which \"etymology\" we prefer, since ehtínen could represent both ehti+inen (two short i's merging into one long í) and ehte+inen (ei regularly becoming long í)."
+   }
+  ]
+ },
+ "part2": {
+  "titleZh": "练习二 · 译成昆雅",
+  "hintZh": "目标语 → 昆雅；注意复数、冠词 i、词序。",
+  "items": [
+   {
+    "id": "I",
+    "prompt": "He said to the Dwarf: \"Break the cup with a hammer!\"",
+    "glossZh": "",
+    "answerKey": "Eques [or, quentes] i Nauconna: \"Á racë i yulma nambanen!\"",
+    "answerZh": "keys：Eques [or, quentes] i Nauconna: \"Á racë i yulma nambanen!\""
+   },
+   {
+    "id": "J",
+    "prompt": "By ship I went away [past tense of auta-] to a remote land in the East.",
+    "glossZh": "",
+    "answerKey": "Ciryanen oanten(yë) haira nórenna Rómessë.",
+    "answerZh": "keys：Ciryanen oanten(yë) haira nórenna Rómessë."
+   },
+   {
+    "id": "K",
+    "prompt": "The city is protected by great walls, and warriors who fight with spears cannot break the walls.",
+    "glossZh": "",
+    "answerKey": "I osto ná varyaina altë rambainen, ar ohtari i mahtar ehtínen umir polë racë i rambar.",
+    "answerZh": "keys：I osto ná varyaina altë rambainen, ar ohtari i mahtar ehtínen umir polë racë i rambar."
+   },
+   {
+    "id": "L",
+    "prompt": "Calandil said to his wounded son: \"Don't die!\"",
+    "glossZh": "",
+    "answerKey": "Equë Calandil harna yondoryanna: \"Áva firë!\" (Alternatively: Calandil quentë harna yondoryanna... As discussed in the lesson, it may be that the passive participle of harna- \"to wound\" is simply harna rather than ?harnaina, since the verbal stem already contains the element -na which is closely related to the longer ending -ina.)",
+    "answerZh": "keys：Equë Calandil harna yondoryanna: \"Áva firë!\" (Alternatively: Calandil quentë harna yondoryanna... As discussed in the lesson, it may be that the passive participle of harna- \"to wound\" is simply harna rather than ?harnaina, since the verbal stem already contains the element -na which is closely related to the longer ending -ina.)"
+   },
+   {
+    "id": "M",
+    "prompt": "May your queen find the sanctuary hallowed by the Elves!",
+    "glossZh": "",
+    "answerKey": "Nai tárilya hiruva i yána airinta (i) Eldainen!",
+    "answerZh": "keys：Nai tárilya hiruva i yána airinta (i) Eldainen!"
+   },
+   {
+    "id": "N",
+    "prompt": "The king and the queen went to my house and renewed our (excl.) friendship with great gifts.",
+    "glossZh": "",
+    "answerKey": "I aran ar i tári lender coanyanna ar envinyatáner nilmelma altë annainen.",
+    "answerZh": "keys：I aran ar i tári lender coanyanna ar envinyatáner nilmelma altë annainen."
+   },
+   {
+    "id": "O",
+    "prompt": "She seizes the boy with her hands (dual), and she says: \"Don't go to the river!\"",
+    "glossZh": "",
+    "answerKey": "Mapas i seldo máryanten, ar eques [or, quetis]: \"Áva lelya i sírenna!\"",
+    "answerZh": "keys：Mapas i seldo máryanten, ar eques [or, quetis]: \"Áva lelya i sírenna!\""
+   },
+   {
+    "id": "P",
+    "prompt": "The woman who lives (/dwells) in the third house in the street said to the Elf: \"Watch the men who are coming from the sanctuary that you see on the hill, the ones who go to the east.\"",
+    "glossZh": "",
+    "answerKey": "I nís i marë i nelya coassë i mallessë quentë i Eldanna: \"Á tirë i neri i túlar i yánallo ya cenil(yë) i ambossë, i lelyar Rómenna.\"",
+    "answerZh": "keys：I nís i marë i nelya coassë i mallessë quentë i Eldanna: \"Á tirë i neri i túlar i yánallo ya cenil(yë) i ambossë, i lelyar Rómenna.\""
+   }
+  ]
+ },
+ "pointMapZh": [
+  {
+   "labelZh": "工具格单数 -nen",
+   "ruleRef": "r-in-f1",
+   "noteZh": "A（rocconen）、B（ehtenen）、C（annalyanen）、E（Naucoinen）、G（alassenen）、J（Ciryanen）"
+  },
+  {
+   "labelZh": "工具格复数 -inen",
+   "ruleRef": "r-in-p1",
+   "noteZh": "K（rambainen、ehtínen）、M（Eldainen）、N（annainen）"
+  },
+  {
+   "labelZh": "双数工具格 -nten",
+   "ruleRef": "r-in-d1",
+   "noteZh": "F（rassenten）、O（máryanten）"
+  },
+  {
+   "labelZh": "被动分词后的施事用工具格",
+   "ruleRef": "r-in-e1",
+   "noteZh": "C（envinyanta ... annalyanen）、E（nurtaina Naucoinen）、F（harna rassenten）、K（varyaina ... rambainen）、M（airinta ... Eldainen）"
+  },
+  {
+   "labelZh": "工具格 vs 伴随格",
+   "ruleRef": "r-in-w1",
+   "noteZh": "J（Ciryanen 是「乘船」这个手段）、O（máryanten 是「用她的手」，不是「和她一起」）"
+  },
+  {
+   "labelZh": "命令小品词 á",
+   "ruleRef": "r-imp9",
+   "noteZh": "D（Á carë）、H（Á lelya、á quetë）、I（Á racë）、P（Á tirë）"
+  },
+  {
+   "labelZh": "否定命令 áva",
+   "ruleRef": "r-imp15",
+   "noteZh": "B（Áva matë）、L（Áva firë）、O（Áva lelya）"
+  },
+  {
+   "labelZh": "nai 祝愿式",
+   "ruleRef": "r-nai10",
+   "noteZh": "F（nai úvas firë）、H（Nai varyuvalyë nórelva）、M（Nai tárilya hiruva）"
+  },
+  {
+   "labelZh": "-ta 使役动词",
+   "ruleRef": "r-in-t5",
+   "noteZh": "C（envinyanta）、M（airinta）、N（envinyatáner）"
+  },
+  {
+   "labelZh": "关系代词 ya 的格形式",
+   "ruleRef": "r-in-r1",
+   "noteZh": "D（ya merilyë）、P（ya cenil(yë) i ambossë）"
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "pronouns-in-imperative-phrases": [
+  "命令短语可以含代词成分。这些代词既可指命令短语的主语（被要求或被命令去做某事的一方），也可指所要求动作的直接或间接宾语。",
+  "可选的主语代词可以插进来，以说清说话者是要一个人还是几个人去做某事。从命令感叹词 heca!「be gone!」「stand aside!」出发，托尔金注明这个词「常」以「带缩减的第二人称代词词缀」的扩展形式出现（WJ:364）。若被命令者是单人，可接词尾 -t（无疑与单数宾格代词 tye「thee」有关）。故命令 heca! 可对一人或多人说，而扩展形式 hecat! 明确标为单数。它可译作「get thee gone!」（也许 Fëanor 在 Melkor 来到 Formenos 时那句严厉的逐客令——即《Silmarillion》第 7 章近末尾译作「get thee gone from my gate」的那句——原本的昆雅语作 hecat andonyallo？）托尔金进一步注明，复数时简单命令 heca! 可接词尾 -l，故 hecal! 是对多个被命令者的命令：「Be gone, [all of] you!」这些例子也表明：写到这里时，托尔金已把第二人称「T」形式与「L」形式的区别，主要看作单数 you 与复数 you 的区别。当然，事情因「L」形式（如词尾 -l 或 -lyë）也作礼貌单数 you（《Namárië》译作 thou）而略嫌混乱。当然，没人能说词尾 -l 能否在命令短语里用于对单一被命令者的「礼貌」命令。",
+  "hecat!（单）与 hecal!（复）是这两个词尾 -t、-l 这种用法的唯一可证例子。命令 heca! 也许不是很有代表性的命令式。如第十六课所述，通常不用词尾 -a，而用独立的命令小品词 á（或 a），后接动词词干。可证的例子包括 á vala!「rule!」与 a laita!「praise!」。若要把词尾 -t、-l 插进这样的短语，大概必须加在动词词干上，如 a laitat!「praise!」（对一人）、a laital!「praise!」（对多人）。",
+  "laita-「bless, praise」当然是 A 词干。car-「make, do」这样的基本动词在此类命令里带词尾 -ë，从否定命令 áva carë!「don't do [it]!」可见（WJ:371）。这个 -ë 几乎肯定来自较早的 -i，在词尾前我们仍会看到 -i-，正如这些动词的不定过去时。故大概作 áva carit!「don't do [it]!」（对一人），复数 áva caril!「don't do [it]!」（对多人）。或者对 á tulë!「come!」这样的肯定命令，同样可有 á tulit!（若要求一人来），而 á tulil! 指不止一人：「Come ye!」",
+  "命令短语也可含指所要求动作直接或间接宾语的代词成分。上一课我们提到各种独立代词。nye「me」、me「us」、le「you」、tye「thee」、ta「it」与 te「them」都可作独立词出现；确实，我们关于 te「them」的唯一证据就涉及一个命令短语，该词在其中单独出现：A laita te, laita te!「bless them, bless them!」（出自 Cormallen 的赞颂）。不过，托尔金的昆雅主祷文译本表明，宾语代词也可作后缀加在命令小品词 á 上。这条原则可用一个自造例子说明：设想 á tirë!「watch!」这样一个简单命令短语。若要说「watch them」，把宾语代词 te 插进去，可以让它跟在动词后（如可证例子 a laita te「bless them」），即 á tirë te。不过，让宾语代词放在动词前、从而粘到命令小品词 á 上，显然也同样可以。「Watch them!」因此可作 átë tirë!",
+  "与格代词（如 nin「to/for me」、men「to/for us」、tien「to/for them」）也能直接后缀到命令小品词 á 上；至少托尔金的昆雅主祷文里有一例 men 这样后缀。故像「sing for us!」这样的短语可作 ámen linda!",
+  "若命令短语含两个代词，同时表示直接宾语与间接宾语，会怎样？我们没有托尔金所造的例子可循，但命令小品词几乎不能接一个以上的代词后缀，而 a laita te 这个例子表明代词不必非后缀到小品词上。所以完全可以允许让其中一个代词（无论直接还是间接宾语）保持为独立词，只把另一个后缀到小品词 á 上。「Do it for me!」于是可按偏好作 ánin carë ta! 或 áta carë nin!。（也许还可说 ánin caritas!，用扩展动词词干 carita- 与表「it」的后缀 -s。）",
+  "托尔金昆雅主祷文对「do not lead us into temptation」的翻译表明：命令小品词的否定形式（「do not!」）也能接代词词缀。约 1960 年，托尔金在《Quendi and Eldar》里用 áva 作否定命令，即小品词 á 与否定词 vá（-va）的组合。在他较早的主祷文译本里，他用了稍有不同的「do not」一词（ála，含否定词 lá 而非 vá），但没有理由怀疑表直接或间接宾语的代词也能加到较晚的形式 áva 上。故「watch us!」显然可译作 ámë tirë!，而否定命令「don't watch us!」大概可译作 ávamë tirë!"
+ ],
+ "emphatic-pronouns": [
+  "上一课我们讨论了一些独立代词（上面一节也提到）。此外还有一些同样作独立词出现的代词，虽然它们与相应的代词词尾密切相关。这些词充当强调代词。",
+  "看《Namárië》末尾几行：Nai hiruvalyë Valimar! Nai elyë hiruva! 《LotR》里托尔金给的译法是「maybe thou shalt find Valimar! Maybe even thou shalt find it!」。当然，hiruvalyë 意为「thou shalt find」——thou 由代词词尾 -lyë 表达。但随后又以 nai elyë hiruva 重复，即「maybe even thou shalt find [it]」。注意词尾 -lyë 被独立词 elyë 取代，二者显然密切相关。elyë 就是「thou」或「you」，但特别强调这个代词。用这样的独立形式，就像英语里把代词排成斜体：「Maybe [none other than] thou shalt find.」托尔金用「even thou」这个多加一个词的译法，正是要显出代词的强调性。（较短的表「you, thou」的独立词 le 或 lye，显然不带强调。）",
+  "另一个独立强调代词是 inyë「I」——或者说，既然强调，就是「I myself」「even I」「I and no one else」。LR:61 里 Herendil 告诉父亲 Elendil 他爱他，Elendil 用昆雅回答：A yonya inyë tye-méla「and I too, my son, I love thee」（开头的 a 显然译作「and」，看来是更常见的 ar 的变体——虽然 a 也可作称呼小品词）。这里代词 inyë 被托尔金译作「I too」，特别强调 Elendil 自己的身份：「我爱你〔正如你爱我〕」。inyë 比短形式 ni 更强调，正如 elyë 比 le 或 lye 更强调。",
+  "inyë 这个形式显然与代词词尾 -nyë 相关，而《Namárië》清楚表明 elyë 对应词尾 -lyë。（《Namárië》的草稿版本里，代词作 ellë、词尾作 -llë。有人认为这另有含义，也许是复数 you 而非单数 thou。我原先对此存疑，但 VT43:36 刊布的材料可能支持它——在昆雅的某一版本里，-lyë 与 -llë 显然分别作为单数与复数 you 的词尾并存。）",
+  "从这些例子可见，强调代词可由相应代词词尾前加某个元音派生。但哪个元音？elyë「you」用 e-，而 inyë「I」用 i-。这个表「我」的强调词也许在偏好 i- 作首元音上属例外。学生或许记得「我的」词尾 -nya 在需要连接元音时似乎偏好 -i-（如 atarinya「my father」，LR:61）。这些第一人称代词形式与元音 i 的密切关联，似乎反映《词源》所列最基本词干 NI「I」的词干元音。我们可暂定其他强调代词用首元音 e-，如 elyë。托尔金的昆雅主祷文译本支持这一点：他用 emmë 作对应代词词尾 -mmë（排除式 we）的强调代词（主祷文译本写于托尔金把该词尾改成 -lmë 之前）。它出现在他对「and forgive us our trespasses as we forgive those who trespass against us」这一行的翻译里。这里代词带强调，以特别引起注意（强调平行：「我们」要上帝赦免我们，正如我们反过来赦免别人）。英语里让这个代词也带强调是很自然的，尽管这只是靠加重读来标示，书写上并不体现（除非用斜体！）昆雅用专门强调代词的系统无疑更优雅。",
+  "虽然 inyë、elyë（ellë 或是变体，或是明确的复数 you）与 emmë 是已刊材料里出现的全部强调代词，我们仍能有把握地外推至少一些形式。其一，既然托尔金最终把复数排除式 we 的词尾从 -mmë 改成 -lmë，我们就得假定相应强调代词也从 emmë 变为 elmë。可证的 emmë 本身仍有效，但如今表示双数 we（包含还是排除不得而知），与词尾 -mmë 的新意义相配。",
+  "既然在托尔金已知最晚的昆雅版本里，包含式 we 的词尾显然已变成 -lvë（变体 -lwë），可以假定相应的强调词作 elvë（或 elwë）。这两个外推形式 elmë、elvë 分别用于排除式与包含式 we，下面的练习里用了它们——但应明白它们不具备只有可证形式才有的充分权威。也许表「they」的词尾 -ntë 会对应独立词 entë。",
+  "elyë 这个形式可作单数 you，从托尔金在《Namárië》的 LotR 译本里译作「even thou」可见。如我前面所说，第二人称的「L」形式也许表示礼貌的 you／thou。第二人称的「T」形式（以宾格代词 tye 与命令式里可用的词尾 -t 为例）似乎表示亲昵的 you，但其强调形式不确定。这取决于我们如何重构词尾 -t 的较长形式。若它是 -tyë，强调代词最可能作 etyë。但我也给过一些理由相信托尔金让 -t 代表较早的 -k，那样词尾的较长变体很可能是 -ccë——那么强调代词大概作 eccë。（按一种重构，-tyë 与 -ccë 分别是亲昵 you 的单数与复数词尾，而 -lyë 与 -llë 分别是正式或礼貌 you 的单数与复数词尾。那么相应的强调形式就是 etyë、eccë、elyë、ellë。但这个系统虽整齐对称，却无法凭现有托尔金材料充分证实。）",
+  "第三人称也相当晦涩。清楚的是：强调代词由代词词尾的**长形式**派生。inyë「I」对应长主语词尾 -nyë，而非其较短（也更常见）的形式 -n；同样，elyë「thou」对应长词尾 -lyë，虽然这个词尾似乎也可作较短形式 -l。几乎没有与短词尾相配的短强调代词 **in、**el。我们的难题是：在第三人称，短词尾 -s 是托尔金确定想让其符合 LotR 的材料里唯一可证的形式。我们前面推测 -s 可能对应较长的词尾 -ryë（对较早的 -syë、-zyë）；这个较长词尾与 -rya「his, her」的关系，将正如词尾 -lyë「you」与 -lya「your」的关系。若这样的 -ryë 存在，它可对应强调代词 ?eryë「(even) he/she」。但当我们开始从外推再外推时，失去与托尔金实际意图接触的风险显然变得尖锐。",
+  "不过关于强调代词我们还知道几件事。它们能接格词尾；在托尔金的昆雅主祷文译本里，强调代词 emmë「we」有一处接了与格词尾 -n：Emmen。（虽然若按托尔金的修订编辑材料，这会变成 elmë 与 elmen，但这些形式确认了代词接最简单的格词尾，即与单数名词连用的那些——即使该代词按意义是复数：「we」必指数人，却用最简与格词尾 -n 而非复数形式 -in。）如上一课指出，第一人称与格形式 nin「to me, for me」证据尤其充分；但若要说「for me myself」「for me [and no one else]」，最好从强调形式 inyë 出发，派生与格 inyen。",
+  "我们已引过《Namárië》末尾几行，其中一个句子的一部分被重复以特别强调代词：Nai hiruvalyë Valimar! Nai elyë hiruva! 从这个例子看，若代词词尾被独立代词取代，词尾就从动词上移除（不是 nai elyë hiruvalyë，即独立代词与相应词尾都还挂在动词上）。但在草稿版本里，当代词 elyë 还是 ellë 时，托尔金确实用了正是这个系统：Nai ellë hiruvallë。他显然判定这个版本有些过度完整，写作者大概该避免这个系统。",
+  "不过，若强调代词是复数，其后的动词也许至少该接复数词尾 -r。若我们要把（比如说）hiruvalmë「we shall find」改造成两个词以特别强调代词 we，我猜所得短语会是 elmë hiruvar，而非 **elmë hiruva。若 elyë 既表单数礼貌 you／thou 又表复数 you，那么后面的动词也许能揭示它用于何义。在 nai elyë hiruva! 里代词必是单数（thou），因为动词没接 -r。也许 nai elyë hiruvar! 也是可能的句子，但那时就清楚指复数 you。若如此，佛罗多终究能确定 Galadriel 是把《Namárië》唱给他一个人（thou）而非整个远征队（you）——虽然 elyë 这个代词本身在这方面也许是歧义的。另一方面，若 elyë 是明确的单数 thou、对应复数的 ellë，那当然没有歧义——但 ellë 仍该跟复数动词：托尔金例子 emmë avatyarir「we forgive」（VT43:8）显然早于排除式 we 的 -mmë > -lmë 修订，但它确认复数独立代词后该跟复数动词（带词尾 -r）。",
+  "如上指出，强调代词能接格词尾，正如上一课讨论的较短独立代词。不过，属格与所有格词尾是否该加在这类独立代词上，略不确定。显然，「mine」「yours」这类独立词要有某种形式，语言才完整。词尾 -lya 可表「your」，如 parmalya「your book」，但「the book is yours」怎么说？",
+  "在本课程最初的版本里，我无奈地写道：「已刊的昆雅例子没有提供线索。」不过我接着提出一个长期存在的理论：人们早就怀疑，不但可加在动词上的主语词尾、而且可加在名词上的所有格词尾（如 -nya「my」、-lya「your」），都有相应的强调形式。这从未被明确证实。不过，既然词尾 -lyë「you, thou」对应独立形式 elyë「you」（强调），那么假定词尾 -lya「your」可对应独立形式 elya「yours」，看来完全合理。这个词于是可用于 i parma ná elya「the book is yours」这样的句子。但它也可用于特别强调，于是 parmalya 只是「your book」，而 elya parma 意为「your [and no one else's] book」。",
+  "按这个理论，其他强调所有格代词会是 erya「his, her」、elva「our [inclusive]」、elma「our [exclusive]」——当然对应词尾 -rya、-lva、-lma。至于所有格代词「my」对应词尾 -nya 的独立形式，我们大概会预期 inya（因为主语词尾 -nyë 对应独立形式 inyë）。",
+  "不过这些外推并非全无问题。其中一些形式其实出现在托尔金已刊的著作里，但意义完全不同！例如 inya 见于《词源》——但那里它不是「my」的强调词，而是形容词「female」，来源完全不同（见 INI 条）。而上文提出作「his」「her」强调词（对应词尾 -rya）的 erya，会与形容词 erya「single, sole」同形（《词源》ERE 条）。注意到这类冲突，我写道：「无疑有人会觉得，这使为配合可证主语代词而外推强调所有格代词这整件事大可疑。其实我认为这些外推，其可信度已达未直接可证形式的极限。」",
+  "我仍认为这些形式相对可信，若托尔金自己的手稿里真出现这类构造的直接证据，我不会惊讶。不过已经出现的是另一套系统的证据；而既然这套系统给出歧义更少的形式，它无论如何都是我愿推荐给写作者的系统：独立所有格代词可由在相应与格形式上加形容词词尾 -ya 派生！一个可证例子是 menya 作「our」的独立词；它显然由 men「to us, for us」（me「we, us」的与格）派生。这些 -ya 代词该像形容词一样随数变化，故 menya 与复数名词连用时变成 menyë（对古形式 menyai）：在托尔金昆雅主祷文的实验性变体里，他写 menyë luhtar 或 menyë rohtar 表「our trespasses」（VT43:19）。",
+  "这类所有格代词的另一个证据看来是 ninya「my」，长期见于《Fíriel 之歌》，现在理解为由与格代词 nin「to me, for me」派生：Indo-ninya 译作「my heart」。这里 ninya 像更简单的词尾 -nya「my」那样加在名词上，但也许 indo-ninya 比 indonya 更强调「我的心」。无疑也可以说 ninya indo，把代词前置。",
+  "Menya（复 menyë）与 ninya 仍是这类形式中唯一可证的所有格代词，但显然我们也可有 tienya「their(s)」（参托尔金昆雅主祷文里的与格 tien）与 lenya「your(s)」（或 lyenya，若该代词要明确为单数：「thy, thine」）。不过，既然我最初写本课程时这些独立所有格代词尚未被很好理解（其实几乎未证！），它们不出现在任何练习里。"
+ ],
+ "question-words": [
+  "英语里许多常用于疑问的词以 wh- 开头：who?、what?、where?、which?、whose?、why? 等。在托尔金的精灵语里，词首 ma- 有类似含义；他称之为「Eldarin 疑问成分 ma, man」（PM:357）。这个「成分」托尔金似乎是从闪米特语借来的；例如希伯来语 ma 或 man ＝「what?」（《出埃及记》16 章的 manna 就因 man hu'?「这是什么？」这个问题而得名——以色列人突然在地上发现这种甜的可食物时自然会这样问，而精灵大概也会欣赏这种命名方式！）",
+  "我们没有一份完整的精灵语疑问词表，但其中一些确实出现在已刊材料里。证据最充分的是「who」一词 man，它出现在《Namárië》中间的一个问句里：Sí man i yulma nin enquantuva?「Now who will refill the cup for me?」man ＝「who」在《Markirya》诗里反复出现，如问句 man tiruva fána cirya[?]「Who will heed [/watch] a white ship?」（在五处出现中有一处，MC:221-222 印出的《Markirya》作 men，但这必是对托尔金手稿的误读；似乎没有语法变异能解释这个变体形式。）也许 man 能接格词尾，于是我们可有（比如说）属格形式 mano ＝「whose?」。",
+  "若 man 是「who」（指人），那么「what」（指物）是哪个词？LR:58 里托尔金显然让 man 也涵盖「what?」：Man-ië? 译作「what is it?」。这几乎不是 LotR 风格的昆雅；词尾 -ië ＝「is」几乎肯定后来被放弃。《Fíriel 之歌》也用 man 表「what」：Man...antáva nin Ilúvatar[?] ＝「What will the Father [Ilúvatar, God] give me?」托尔金是否曾想让 man 兼表「who」与「what」，还是他只是对 man 的确切意义反复改主意，现已无法确定。转向 LotR 之后的材料，我们看到问句 mana i·coimas Eldaron[?]，译作「what is the coimas [「life-bread」＝辛达林 lembas] of the Eldars?」（PM:395；PM:403 有异文）。这个 mana 该如何解释？它在译文里似对应「what is」。它可能是词 ma「what」（那会是直接借自希伯来语！）＋系词 ná「is」，在此直接后缀并缩短为 -na。不过 ma 这个形式已知在昆雅里至少另有两个不同意义（见下一课），所以我倾向于怀疑托尔金也想让它表「what?」。不如说 mana 就是「what」一词，而 mana i·coimas[?] ＝「what [is] the life-bread?」句中没有明确的系词 is。也许 mana「what」能接格词尾。已刊材料没有「why?」一词，但按一种建议，可加与格词尾 -n 到 mana 上来绕开这个空缺——所得形式 manan 字面意为「what for?」。",
+  "从形式看，mana 类似指示词 sina「this」、tana「that」、yana「that (yonder)」。既然 vanda sina 意为「this oath」（UT:305、317），也许 vanda mana? 会意为「what oath?」或「which oath?」。而 mana vanda? 则更可能意为「what [is] an oath?」，因为托尔金的例子是 mana i·coimas[?] ＝「what [is] the life-bread?」。",
+  "提供这个例子的同一份晚期文献还包含「how?」一词，出现在问句 manen lambë Quendion ahyanë[?] ＝「How did the language of Elves change?」中（PM:395）。有趣的是，这个词 manen「how?」似乎含工具格词尾 -nen，加在「疑问成分」ma- 上（PM:347）。manen 字面可意为「what by?」（据我们所知，它甚至可能是 mananen 的缩合）。工具格以外的格词尾也能加在 ma- 上，看来极有可能。也许我们可有位格 massë?「where?」、离格 mallo「whence?／where from?」与 manna「whither?／where to?」，填补词汇里更多的空缺。不过下面的练习只涉及可证形式 man「who?」、mana「what?」与 manen「how?」。"
+ ],
+ "postpositions": [
+  "我们介绍过各种介词，如 nu「under」、or「over」、ve「as, like」。介词之所以叫「前置词」，是因为它们通常「位于」所连的词之前。昆雅与英语一样，会说 nu alda「under a tree」——而非 **alda nu「a tree under」。（当然，诗歌里词序可能相当混乱，如《Namárië》的 LotR 版本有 Vardo tellumar nu luini「Varda's domes under blue」，意为「under Varda's blue domes」。这里我们讨论的是一般的、非诗歌的词序。）",
+  "也有后置词，功能与介词相似，但位于所连的词之后。英语里 ago 可视为后置词，因为它出现在「three years ago」这类短语的末尾。有些语言会用介词，以类似「before three years」的说法表达这个意思。有趣的是，《词源》提到一个只释作「ago」的词：Yá。它在已刊材料里别处既未提及也未见例证，而既然我们只有它的英语释义可依，我们可以假定 yá 在昆雅里也是后置词。若如此，「three years ago」可直接译作 neldë loar yá。",
+  "在较早阶段，精灵语显然有许多后置词。托尔金说在最古阶段，「介词性」成分通常「附着」——显然意为后缀——到名词词干上（WJ:368）。托尔金明确想让许多昆雅格词尾代表原本独立、后来并入其所跟名词的成分。例如向格词尾 -nna 显然与同样意为「to, towards」的介词 na 或 ana 相关。然而昆雅至少有几个后置词没有演变成格词尾，仍作独立词出现。上面讨论的 yá 只有《词源》提及的一个孤立词可证，而 pella「beyond」一词出现在实际的昆雅文本里，而且它确实像是后置词。《Namárië》有 Andúnë pella 表「beyond the West」，这显然不只是诗歌词序的又一例，因为托尔金在这首歌的散文版里没有改动这个短语。（Andúnë「West」是更常见的 Númen 的替代词。Andúnë 也可释作「sunset」乃至「evening」。）pella 在《Markirya》诗里也作后置词，那里它与一个变位为复数离格的名词相连：Elenillor pella 译作「from beyond the stars」（字面「from stars beyond」）。",
+  "在本课程最初的版本里我写道：「pella 能否也作介词，就像它的英语释义 beyond 那样，无法断言。」现在已知：在托尔金昆雅主祷文的一个草稿里，他确实用了 i ëa pell' Ëa 这样的措辞，显然＝「who is beyond Ëa」（即 Eä，被造的宇宙——VT43:13）。这是对「who art in heaven」相当剧烈的迂回说法，但这个短语确实似乎把 pella（缩短作 pell'）用作介词。不过这只是一个实验性措辞，托尔金很快放弃了；他把 pell' 换成 han，显然是另一个表「beyond」的词。也许正因为他想让 pella 只作后置词（而既然 i ëa Eä pella 听起来相当别扭，他就得另找一个词！）另一个表「beyond」的词、也用于比较的 lá，确实像是介词（而 pella 的末音节也许意在与此 lá 相关）。即便如此，我仍只把 pella 作后置词用，采用《Namárië》与《Markirya》一致的词序。",
+  "第十九课小结：命令短语可以各种方式含代词。若命令只有一个被命令者，可把词尾 -t（本义「thou」）加在命令短语的动词上；若要求数人做某事，可用词尾 -l（本义「you」复数）代替。表命令直接或间接宾语的代词可粘到命令小品词 á 上。——可加在动词上的（长形式）代词主语词尾，也可通过在 e- 后加相应词尾来派生独立强调代词。例如主语词尾 -lyë「you, thou」对应独立强调代词 elyë「(even) thou」。而表「我」的强调词对应词尾 -nyë，却以 i- 而非 e- 作首元音：inyë。——昆雅疑问词显然以 ma- 开头；可证的例子是 man「who」、mana「what」、manen「how」。——后置词功能与介词相似，但跟在所连词之后而非之前。pella「beyond」似乎作后置词；《Namárië》有 Andúnë pella（不是 ?pella Andúnë）表「beyond the West」。yá 释作「ago」（《词源》YA 条），故它也许像其英语释义一样作后置词。"
+ ],
+ "exercises": [
+  "如上所述，托尔金翻译强调代词时有时会加额外的词，如 elyë ＝「even thou」（以显出该词的强调性）。不过，下面练习的答案以及「译成昆雅」部分，我们采用较简单的系统：把强调代词排成斜体（如 elyë ＝ *you*）：",
+  "1. 译成英语：",
+  "A. Man marnë i coassë cainen loar yá, írë inyë lá marnë tassë?",
+  "B. Mana elvë polir carë?",
+  "C. Áta antat nin, ar ávata nurtat nillo!",
+  "D. Man elyë cennë i otsëa auressë?",
+  "E. Antuvantë ilyë i annar inyen ar lá elyen!",
+  "F. Mana i neri hirner i nóressë i oronti pella?",
+  "G. Manen elyë poluva orta i alta ondo írë inyë úmë polë caritas?",
+  "H. Sellelma marë coa entassë; elmë marir i toltëa coassë mallë sinassë. Á tulil ar á cenil coalma!",
+  "2. 译成昆雅：",
+  "I. Who has done that [ta]?",
+  "J. What did you find in the seventh room when you went there [or, \"thither\" = tanna]?",
+  "K. When you have come, I want to leave [auta].",
+  "L. Give us the wine! (an order explicitly addressed to several persons).",
+  "M. Give the wine to us and not [lá] to the warriors! (\"Us\" is exclusive here. \"To\" = dative, not allative. This order is explicitly addressed to one person only.)",
+  "N. The seventh warrior has come from beyond the great mountains.",
+  "O. Beyond [or, behind] the eighth door [or, \"gate\", ando] you found a great treasure; we [exclusive] who came after you [apa le] did not find a thing!",
+  "P. How did the evil Dwarves find them seven days ago?"
+ ],
+ "vocabulary": [
+  "otsëa「seventh」",
+  "toltëa「eighth」（在一份晚期文献里托尔金其实把这个形式改成 toldëa：VT42:25、31。显然他考虑把「8」一词从 tolto 改成 toldo。我们可接受 toldo「8」与 toldëa「8th」为有效变体，但下面的练习里我宁用 toltëa——以配合《词源》所列的「8」的形式 tolto。）",
+  "inyë「I」（强调代词）",
+  "elyë「you, thou」（强调代词）（有人认为这是单数 you，对应复数 ellë；无论何种情形，这些练习里只用 elyë。）",
+  "elmë「we」排除式（强调代词）（此形式未直接可证，而是由较早形式 emmë「更新」而来；托尔金最终把排除式 we 的词尾从 -mmë 改成 -lmë。）",
+  "elvë「we」包含式（强调代词）。（未直接可证，由词尾 -lvë 外推。）",
+  "man「who?」",
+  "mana「what?」（据该词所在句子的某一种解释）",
+  "manen「how?」",
+  "pella「beyond」（后置词）",
+  "yá「ago」（后置词，如同其英语释义？）",
+  "írë「when」",
+  "关于 írë「when」一词的注：尽管英语释作 when，它（几乎肯定）不是疑问词。「when will you come?」这样的问句几乎不能译作 **írë tuluvalyë? 已刊材料里没有真正的疑问词「when?」，虽然也许可以绕开这个空缺——例如用 lú mana(ssë)? ＝「(at) what time?」这样的迂回说法。írë 用于「when」的另一种意义，即引出某事发生的时间信息；它在《Fíriel 之歌》里可证。相关短语不完全是 LotR 风格的昆雅，但 írë 的用法仍可注意：Yéva tyel ar i-narquelion, irë ilqua yéva nótina ＝「there will be an end and the Fading, when all is counted」；man...antáva nin Ilúvatar...írë Anarinya queluva? ＝「what will the Father give me...when my Sun faileth?」目前我们没有这个词更晚的证据，而既然它极有用，我们不妨把 írë「when」收入我们所尝试的统一或标准昆雅。许多后托尔金写作者已在用它。有人提出 írë 的首 í- 与冠词 i「the」有关，而末 -rë 可等同于 ré「〔24 小时的〕日」一词（aurë 只指白昼）。若如此，írë 本义即「the day」——而「what will the Father give me...the day my Sun faileth」当然仍讲得通。不过，írë「when」一词看来早在名词 ré「day」之前就存在；后者显然是在托尔金写 LotR 附录时才出现的。我会毫不犹豫地用 írë 表一般的「when」（不限于「the day when…」）。"
+ ]
+}

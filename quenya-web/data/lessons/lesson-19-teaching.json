@@ -1,0 +1,3330 @@
+{
+ "lesson": 19,
+ "schemaVersion": 2,
+ "oneLineZh": "命令句的受话人数用词尾标：-t 单数（hecat!、a laitat!、áva carit!）、-l 复数（hecal!、a laital!、áva caril!），宾语代词则粘在 á 上（átë tirë!、ámen linda!、ávamë tirë!），á 上只能挂一个；强调代词＝e- ＋长词尾（elyë、elmë、elvë），第一人称破例作 inyë；疑问词以 ma- 起首（man、mana、manen）；后置词跟在所连词之后（neldë loar yá、Andúnë pella）。",
+ "canDoZh": [
+  "能用 -t／-l 标明命令句的受话人数",
+  "知道基础动词接词尾时 -ë 回 -i（áva carit!）",
+  "能把宾语／与格代词粘在 á 上（átë、ámen、ávamë）",
+  "能处理命令句里的两个代词（一个粘 á、一个独立）",
+  "能写出 inyë、elyë、elmë、elvë 并说明来源",
+  "知道复数强调代词后动词要带 -r（elmë hiruvar）",
+  "能用 man／mana／manen 提问，并区分 mana 的两种语序",
+  "能用 pella、yá 作后置词，且知道 írë 不是疑问词"
+ ],
+ "conceptMap": [
+  {
+   "labelZh": "命令句里可以有代词",
+   "noteZh": "范围",
+   "sectionId": "ip-intro"
+  },
+  {
+   "labelZh": "指主语：hecat!（单）与 hecal!（复）",
+   "noteZh": "出发点",
+   "sectionId": "ip-subj-t"
+  },
+  {
+   "labelZh": "á 式命令句：词尾加在动词干上",
+   "noteZh": "唯一可证例",
+   "sectionId": "ip-subj-a"
+  },
+  {
+   "labelZh": "A 词干与基础动词：-ë 与 -i- 的回归",
+   "noteZh": "A 词干",
+   "sectionId": "ip-subj-e"
+  },
+  {
+   "labelZh": "指宾语：te 独立站，或粘到 á 上",
+   "noteZh": "两类宾语代词",
+   "sectionId": "ip-obj"
+  },
+  {
+   "labelZh": "与格代词粘 á：ámen linda!",
+   "noteZh": "与格可粘",
+   "sectionId": "ip-dat"
+  },
+  {
+   "labelZh": "两个代词怎么办：一个粘 á，一个独立",
+   "noteZh": "限制",
+   "sectionId": "ip-two"
+  },
+  {
+   "labelZh": "否定命令也能挂代词：ávamë tirë!",
+   "noteZh": "否定式也能挂",
+   "sectionId": "ip-neg"
+  },
+  {
+   "labelZh": "另一类独立代词：强调式",
+   "noteZh": "承接",
+   "sectionId": "ep-intro"
+  },
+  {
+   "labelZh": "《Namárië》的范例：Nai elyë hiruva!",
+   "noteZh": "原句",
+   "sectionId": "ep-namarie"
+  },
+  {
+   "labelZh": "inyë「我自己」",
+   "noteZh": "意义",
+   "sectionId": "ep-inye"
+  },
+  {
+   "labelZh": "来源：长词尾 ＋ e-",
+   "noteZh": "第一人称",
+   "sectionId": "ep-derive"
+  },
+  {
+   "labelZh": "为什么是 e-，而「我」是 i-",
+   "noteZh": "构造法",
+   "sectionId": "ep-vowel"
+  },
+  {
+   "labelZh": "外推：emmë → elmë",
+   "noteZh": "可证清单",
+   "sectionId": "ep-extrapolate"
+  },
+  {
+   "labelZh": "elvë：包含式「我们」",
+   "noteZh": "包含式",
+   "sectionId": "ep-elve"
+  },
+  {
+   "labelZh": "第二人称的两套：etyë 与 eccë",
+   "noteZh": "elyë 作单数",
+   "sectionId": "ep-tforms"
+  },
+  {
+   "labelZh": "第三人称：从推测到推测",
+   "noteZh": "派生原则",
+   "sectionId": "ep-third"
+  },
+  {
+   "labelZh": "强调代词接格词尾：Emmen、inyen",
+   "noteZh": "可接格",
+   "sectionId": "ep-cases"
+  },
+  {
+   "labelZh": "换了独立词，就去掉动词词尾",
+   "noteZh": "删词尾",
+   "sectionId": "ep-drop"
+  },
+  {
+   "labelZh": "复数代词后动词加 -r",
+   "noteZh": "规则",
+   "sectionId": "ep-plural"
+  },
+  {
+   "labelZh": "属格／所有格能不能接？",
+   "noteZh": "已知",
+   "sectionId": "ep-genitive"
+  },
+  {
+   "labelZh": "方案一：elya「你的」",
+   "noteZh": "长期猜测",
+   "sectionId": "ep-poss"
+  },
+  {
+   "labelZh": "其余所有格强调式：erya、elva、elma、inya",
+   "noteZh": "清单",
+   "sectionId": "ep-poss2"
+  },
+  {
+   "labelZh": "撞形：inya「女性」、erya「唯一」",
+   "noteZh": "问题",
+   "sectionId": "ep-clash"
+  },
+  {
+   "labelZh": "方案二（推荐）：与格 ＋ -ya",
+   "noteZh": "另一套",
+   "sectionId": "ep-menya"
+  },
+  {
+   "labelZh": "ninya「我的」",
+   "noteZh": "ninya",
+   "sectionId": "ep-ninya"
+  },
+  {
+   "labelZh": "其余可推形式与练习范围",
+   "noteZh": "可证范围",
+   "sectionId": "ep-more"
+  },
+  {
+   "labelZh": "疑问元素 ma-",
+   "noteZh": "类比",
+   "sectionId": "qw-ma"
+  },
+  {
+   "labelZh": "man「谁」",
+   "noteZh": "材料状况",
+   "sectionId": "qw-man"
+  },
+  {
+   "labelZh": "mana「什么」与 manan「为什么」",
+   "noteZh": "问题",
+   "sectionId": "qw-mana"
+  },
+  {
+   "labelZh": "mana 与指示词同形",
+   "noteZh": "形似",
+   "sectionId": "qw-mana-demon"
+  },
+  {
+   "labelZh": "manen「如何」与其余格形式",
+   "noteZh": "出处",
+   "sectionId": "qw-manen"
+  },
+  {
+   "labelZh": "介词与后置词",
+   "noteZh": "定义",
+   "sectionId": "pp-def"
+  },
+  {
+   "labelZh": "yá「ago」：疑似后置词",
+   "noteZh": "定义",
+   "sectionId": "pp-ya"
+  },
+  {
+   "labelZh": "pella「beyond」：真正的后置词",
+   "noteZh": "更早阶段",
+   "sectionId": "pp-pella"
+  },
+  {
+   "labelZh": "pella 能作介词吗：pell' Ëa 与 han",
+   "noteZh": "旧版的说法",
+   "sectionId": "pp-pella-prep"
+  },
+  {
+   "labelZh": "本课小结",
+   "noteZh": "",
+   "sectionId": "summary"
+  },
+  {
+   "labelZh": "练习 A–P",
+   "noteZh": "强调的表示法",
+   "sectionId": "exercises"
+  },
+  {
+   "labelZh": "课末词汇",
+   "noteZh": "两个序数",
+   "sectionId": "vocabulary"
+  }
+ ],
+ "pathTitleZh": "学习路径",
+ "path": [
+  {
+   "step": 1,
+   "labelZh": "命令句里可以有代词",
+   "sectionId": "ip-intro"
+  },
+  {
+   "step": 2,
+   "labelZh": "指主语：hecat!（单）与 hecal!（复）",
+   "sectionId": "ip-subj-t"
+  },
+  {
+   "step": 3,
+   "labelZh": "á 式命令句：词尾加在动词干上",
+   "sectionId": "ip-subj-a"
+  },
+  {
+   "step": 4,
+   "labelZh": "A 词干与基础动词：-ë 与 -i- 的回归",
+   "sectionId": "ip-subj-e"
+  },
+  {
+   "step": 5,
+   "labelZh": "指宾语：te 独立站，或粘到 á 上",
+   "sectionId": "ip-obj"
+  },
+  {
+   "step": 6,
+   "labelZh": "与格代词粘 á：ámen linda!",
+   "sectionId": "ip-dat"
+  },
+  {
+   "step": 7,
+   "labelZh": "两个代词怎么办：一个粘 á，一个独立",
+   "sectionId": "ip-two"
+  },
+  {
+   "step": 8,
+   "labelZh": "否定命令也能挂代词：ávamë tirë!",
+   "sectionId": "ip-neg"
+  },
+  {
+   "step": 9,
+   "labelZh": "另一类独立代词：强调式",
+   "sectionId": "ep-intro"
+  },
+  {
+   "step": 10,
+   "labelZh": "《Namárië》的范例：Nai elyë hiruva!",
+   "sectionId": "ep-namarie"
+  },
+  {
+   "step": 11,
+   "labelZh": "inyë「我自己」",
+   "sectionId": "ep-inye"
+  },
+  {
+   "step": 12,
+   "labelZh": "来源：长词尾 ＋ e-",
+   "sectionId": "ep-derive"
+  },
+  {
+   "step": 13,
+   "labelZh": "为什么是 e-，而「我」是 i-",
+   "sectionId": "ep-vowel"
+  },
+  {
+   "step": 14,
+   "labelZh": "外推：emmë → elmë",
+   "sectionId": "ep-extrapolate"
+  },
+  {
+   "step": 15,
+   "labelZh": "elvë：包含式「我们」",
+   "sectionId": "ep-elve"
+  },
+  {
+   "step": 16,
+   "labelZh": "第二人称的两套：etyë 与 eccë",
+   "sectionId": "ep-tforms"
+  },
+  {
+   "step": 17,
+   "labelZh": "第三人称：从推测到推测",
+   "sectionId": "ep-third"
+  },
+  {
+   "step": 18,
+   "labelZh": "强调代词接格词尾：Emmen、inyen",
+   "sectionId": "ep-cases"
+  },
+  {
+   "step": 19,
+   "labelZh": "换了独立词，就去掉动词词尾",
+   "sectionId": "ep-drop"
+  },
+  {
+   "step": 20,
+   "labelZh": "复数代词后动词加 -r",
+   "sectionId": "ep-plural"
+  },
+  {
+   "step": 21,
+   "labelZh": "属格／所有格能不能接？",
+   "sectionId": "ep-genitive"
+  },
+  {
+   "step": 22,
+   "labelZh": "方案一：elya「你的」",
+   "sectionId": "ep-poss"
+  },
+  {
+   "step": 23,
+   "labelZh": "其余所有格强调式：erya、elva、elma、inya",
+   "sectionId": "ep-poss2"
+  },
+  {
+   "step": 24,
+   "labelZh": "撞形：inya「女性」、erya「唯一」",
+   "sectionId": "ep-clash"
+  },
+  {
+   "step": 25,
+   "labelZh": "方案二（推荐）：与格 ＋ -ya",
+   "sectionId": "ep-menya"
+  },
+  {
+   "step": 26,
+   "labelZh": "ninya「我的」",
+   "sectionId": "ep-ninya"
+  },
+  {
+   "step": 27,
+   "labelZh": "其余可推形式与练习范围",
+   "sectionId": "ep-more"
+  },
+  {
+   "step": 28,
+   "labelZh": "疑问元素 ma-",
+   "sectionId": "qw-ma"
+  },
+  {
+   "step": 29,
+   "labelZh": "man「谁」",
+   "sectionId": "qw-man"
+  },
+  {
+   "step": 30,
+   "labelZh": "mana「什么」与 manan「为什么」",
+   "sectionId": "qw-mana"
+  },
+  {
+   "step": 31,
+   "labelZh": "mana 与指示词同形",
+   "sectionId": "qw-mana-demon"
+  },
+  {
+   "step": 32,
+   "labelZh": "manen「如何」与其余格形式",
+   "sectionId": "qw-manen"
+  },
+  {
+   "step": 33,
+   "labelZh": "介词与后置词",
+   "sectionId": "pp-def"
+  },
+  {
+   "step": 34,
+   "labelZh": "yá「ago」：疑似后置词",
+   "sectionId": "pp-ya"
+  },
+  {
+   "step": 35,
+   "labelZh": "pella「beyond」：真正的后置词",
+   "sectionId": "pp-pella"
+  },
+  {
+   "step": 36,
+   "labelZh": "pella 能作介词吗：pell' Ëa 与 han",
+   "sectionId": "pp-pella-prep"
+  },
+  {
+   "step": 37,
+   "labelZh": "本课小结",
+   "sectionId": "summary"
+  },
+  {
+   "step": 38,
+   "labelZh": "练习 A–P",
+   "sectionId": "exercises"
+  },
+  {
+   "step": 39,
+   "labelZh": "课末词汇",
+   "sectionId": "vocabulary"
+  }
+ ],
+ "modules": [
+  {
+   "sectionId": "ip-intro",
+   "sourceSectionId": "pronouns-in-imperative-phrases",
+   "titleZh": "01 · 命令句里可以有代词",
+   "leadZh": "命令句（imperative phrase）不只是「动词＋感叹号」。它可以带代词成分，而这些代词可能指主语，也可能指宾语——这是本课第一条主线。",
+   "objectives": [
+    "知道命令句可含代词成分",
+    "能区分代词指主语还是指宾语"
+   ],
+   "rules": [
+    {
+     "id": "r-ip1",
+     "headZh": "范围",
+     "bodyZh": "命令句可以包含代词成分（pronominal elements）。",
+     "en": "Imperative phrases may include pronominal elements",
+     "zh": "命令句可以包含代词成分。"
+    },
+    {
+     "id": "r-ip2",
+     "headZh": "两种所指之一：主语",
+     "bodyZh": "这些代词可以指命令句的主语，即被请求或被命令去做某事的一方。",
+     "en": "may refer either the subject of the imperative phrase",
+     "zh": "可以指命令句的主语。"
+    },
+    {
+     "id": "r-ip3",
+     "headZh": "两种所指之二：宾语",
+     "bodyZh": "也可以指所请求动作的直接宾语或间接宾语。",
+     "en": "or to the direct or indirect object of the requested action",
+     "zh": "或指所请求动作的直接／间接宾语。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把命令句里的代词一律当宾语",
+     "right": "先判断它指主语还是宾语",
+     "whyZh": "原文开篇即把「指主语」与「指宾语」并列为两种可能，本节与下一节分别处理这两路。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么先讲这一句",
+     "bodyZh": "这句是全课的目录：后面 8 段讲「指主语」的 -t／-l，再往后讲「指宾语」的 átë、ámen、ávamë。抓住这个二分，整节的结构就清楚了。"
+    }
+   ],
+   "recapZh": "命令句可带代词；代词或指主语，或指宾语。",
+   "selfCheckZh": [
+    {
+     "qZh": "命令句里的代词可能指什么？",
+     "aZh": "主语，或直接／间接宾语。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "pronouns-in-imperative-phrases",
+    "unitIds": [
+     0
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ip-subj-t",
+   "sourceSectionId": "pronouns-in-imperative-phrases",
+   "titleZh": "02 · 指主语：hecat!（单）与 hecal!（复）",
+   "leadZh": "从感叹式命令 heca!「走开！」出发：托尔金指出它「常常」带第二人称的缩略代词词尾。单数加 -t，复数加 -l。",
+   "objectives": [
+    "能写 hecat!／hecal!",
+    "知道 -t 与宾格 tye 同源"
+   ],
+   "rules": [
+    {
+     "id": "r-ip4",
+     "headZh": "出发点",
+     "bodyZh": "从命令感叹词 heca!「be gone!／stand aside!」出发。",
+     "en": "heca!",
+     "zh": "走开！让开！",
+     "exampleZh": "heca!"
+    },
+    {
+     "id": "r-ip5",
+     "headZh": "托尔金的观察",
+     "bodyZh": "托尔金指出这个词「常常」以扩展形式出现，带第二人称的缩略代词词尾（WJ:364）。",
+     "en": "with reduced pronominal affixes of the 2nd person",
+     "zh": "带第二人称的缩略代词词尾。"
+    },
+    {
+     "id": "r-ip6",
+     "headZh": "单数 -t",
+     "bodyZh": "若命令只有一个受话人，可加词尾 -t；这个 -t 无疑与单数宾格代词 tye「thee」有关。",
+     "en": "it can receive the suffix -t",
+     "zh": "可加词尾 -t。"
+    },
+    {
+     "id": "r-ip7",
+     "headZh": "明确单数",
+     "bodyZh": "heca! 本身可对一人或多人说，而扩展形式 hecat! 明确标为单数。",
+     "en": "the extended form hecat! is explicitly marked as singular",
+     "zh": "扩展形式 hecat! 明确标为单数。"
+    },
+    {
+     "id": "r-ip8",
+     "headZh": "译法",
+     "bodyZh": "可译作「get thee gone!」。",
+     "en": "get thee gone!",
+     "zh": "给我走开！（带 thee 的强调）",
+     "exampleZh": "hecat!"
+    },
+    {
+     "id": "r-ip9",
+     "headZh": "复数 -l",
+     "bodyZh": "复数时简单命令 heca! 可加词尾 -l，故 hecal! 是对多人的命令。",
+     "en": "hecal! is an order with several addressees",
+     "zh": "hecal! 是对多人的命令。",
+     "exampleZh": "hecal!"
+    },
+    {
+     "id": "r-ip10",
+     "headZh": "T／L 的新解释",
+     "bodyZh": "这些例子表明，托尔金此时已把第二人称 T 形式与 L 形式的区别，主要看作单数「你」与复数「你」的区别。",
+     "en": "primarily a distinction between singular and plural",
+     "zh": "主要是单数与复数的区别。"
+    },
+    {
+     "id": "r-ip11",
+     "headZh": "但仍有模糊",
+     "bodyZh": "-l、-lyë 这类 L 形式也作礼貌的单数「你」（《Namárië》译作 thou），所以没人能说 -l 能否用于对单人的「礼貌」命令。",
+     "en": "none can say whether the ending -l could be used in an imperative phrase to denote a",
+     "zh": "没人能说 -l 能否在命令句里表示「礼貌」命令。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 heca! 只能对一人说",
+     "right": "heca! 可对一人或多人；hecat! 才锁定单数",
+     "whyZh": "原文：the imperative heca! may be directed at one person or several。"
+    },
+    {
+     "wrong": "以为 -t 是随便加的命令词尾",
+     "right": "它与宾格 tye 同源，本义是「你（亲昵）」",
+     "whyZh": "原文说 doubtless related to the singular object pronoun tye。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "证据只有两个词",
+     "bodyZh": "hecat! 与 hecal! 是 -t、-l 这种用法的全部可证例（下一段明说）。所以这里得出的不是「规则」，而是「托尔金晚年确实这样理解第二人称」的旁证。"
+    },
+    {
+     "headZh": "与第 16 课的分工",
+     "bodyZh": "第 16 课讲命令语气本身（á ＋ 动词干）。本节讲的是往命令句里塞代词，两者的接口是「词尾加在动词干上」——下一段展开。"
+    }
+   ],
+   "recapZh": "heca! → hecat!（单）／hecal!（复）；-t 与 tye 同源。",
+   "selfCheckZh": [
+    {
+     "qZh": "对一个人说「走开」的强调形式？",
+     "aZh": "Hecat!"
+    },
+    {
+     "qZh": "对几个人说？",
+     "aZh": "Hecal!"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "pronouns-in-imperative-phrases",
+    "unitIds": [
+     1
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ip-subj-a",
+   "sourceSectionId": "pronouns-in-imperative-phrases",
+   "titleZh": "03 · á 式命令句：词尾加在动词干上",
+   "leadZh": "heca! 其实不是典型命令句。常规做法是 á ＋ 动词干；要加 -t／-l，就得加在动词干上：a laitat!／a laital!",
+   "objectives": [
+    "知道 á 式才是常规",
+    "能写 a laitat!／a laital!"
+   ],
+   "rules": [
+    {
+     "id": "r-ip12",
+     "headZh": "唯一可证例",
+     "bodyZh": "hecat!（单）与 hecal!（复）是 -t、-l 这种用法的唯一可证例。",
+     "en": "our only attested examples of this use of the endings -t and -l",
+     "zh": "这是 -t、-l 这种用法的唯一可证例。"
+    },
+    {
+     "id": "r-ip13",
+     "headZh": "heca! 不典型",
+     "bodyZh": "heca! 或许不是典型命令句：按第 16 课所述，常规是独立的命令助词 á（或 a）＋动词干，而非词尾 -a。",
+     "en": "instead of the ending -a an independent imperative particle",
+     "zh": "用独立命令助词代替词尾 -a。"
+    },
+    {
+     "id": "r-ip14",
+     "headZh": "可证例",
+     "bodyZh": "可证例包括 á vala!「rule!」与 a laita!「praise!」。",
+     "en": "Attested examples include",
+     "zh": "可证例包括……",
+     "exampleZh": "á vala!／a laita!"
+    },
+    {
+     "id": "r-ip15",
+     "headZh": "词尾位置",
+     "bodyZh": "若要把 -t、-l 塞进这种句子，大概必须加在动词干上。",
+     "en": "they must probably be attached to the verbal stem",
+     "zh": "它们大概必须加在动词干上。"
+    },
+    {
+     "id": "r-ip16",
+     "headZh": "例子",
+     "bodyZh": "故有 a laitat!「praise!」（对一人）与 a laital!「praise!」（对多人）。",
+     "en": "a laitat!",
+     "zh": "赞美吧！（对一人）",
+     "exampleZh": "a laitat!／a laital!"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 -t 加在 á 上（✗ át laita!）",
+     "right": "加在动词干上：a laitat!",
+     "whyZh": "原文：they must probably be attached to the verbal stem。á 上的位置留给宾语代词（见第 05 节）。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "两个位置，两种功能",
+     "bodyZh": "本节确立：主语词尾去动词干，宾语代词去 á。这条分工是整节课的骨架，第 04–07 段都在验证它。"
+    }
+   ],
+   "recapZh": "á／a ＋ 动词干；-t／-l 加在动词干上。",
+   "selfCheckZh": [
+    {
+     "qZh": "「赞美吧！」对多人？",
+     "aZh": "A laital!"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "pronouns-in-imperative-phrases",
+    "unitIds": [
+     2
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ip-subj-e",
+   "sourceSectionId": "pronouns-in-imperative-phrases",
+   "titleZh": "04 · A 词干与基础动词：-ë 与 -i- 的回归",
+   "leadZh": "laita- 是 A 词干，直接加 -t／-l；car- 这类基础动词在命令句里带 -ë，而这个 -ë 来自更早的 -i，故接词尾时露出 -i-：áva carit!／áva caril!",
+   "objectives": [
+    "知道 A 词干与基础动词的差别",
+    "能写 áva carit!／áva caril!／á tulit!／á tulil!"
+   ],
+   "rules": [
+    {
+     "id": "r-ip17",
+     "headZh": "A 词干",
+     "bodyZh": "laita-「bless, praise」是 A 词干。",
+     "en": "Laita-",
+     "zh": "祝福、赞美。",
+     "exampleZh": "laita-"
+    },
+    {
+     "id": "r-ip18",
+     "headZh": "基础动词带 -ë",
+     "bodyZh": "car-「make, do」这类基础动词，在这种命令里带词尾 -ë，如否定命令 áva carë!「don't do it!」（WJ:371）。",
+     "en": "appear with the ending -ë in such commands",
+     "zh": "在这种命令里带词尾 -ë。"
+    },
+    {
+     "id": "r-ip19",
+     "headZh": "-ë 来自 -i",
+     "bodyZh": "这个 -ë 几乎肯定来自更早的 -i；在词尾前仍会看到 -i-，正如这些动词的不定过去时。",
+     "en": "This -ë almost certainly comes from an earlier -i",
+     "zh": "这个 -ë 几乎肯定来自更早的 -i。"
+    },
+    {
+     "id": "r-ip20",
+     "headZh": "加 -t／-l",
+     "bodyZh": "故大概作 áva carit!「don't do it!」（对一人），复数 áva caril!。",
+     "en": "áva carit!",
+     "zh": "别做！（对一人）",
+     "exampleZh": "áva carit!／áva caril!"
+    },
+    {
+     "id": "r-ip21",
+     "headZh": "肯定命令同理",
+     "bodyZh": "肯定命令 á tulë!「come!」同理：对一人作 á tulit!，对多人作 á tulil!「Come ye!」。",
+     "en": "á tulit!",
+     "zh": "来吧！（对一人）",
+     "exampleZh": "á tulit!／á tulil!"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 ✗ áva carët!",
+     "right": "áva carit!——词尾前的 -ë 回到 -i",
+     "whyZh": "原文：before endings we would still see -i-, just as in the aorist of these verbs。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么 -ë 会变 -i",
+     "bodyZh": "这是昆雅的一般音变：词末短 -i 变 -ë，但一接词尾就复位。第 16 课的 áva carë! 与本课的 áva carit! 并不矛盾——后者只是把 -t 加了进去。"
+    }
+   ],
+   "recapZh": "laita- 直接加；car- 带 -ë（来自 -i），接词尾作 -i-。",
+   "selfCheckZh": [
+    {
+     "qZh": "「别做！」对一人？",
+     "aZh": "Áva carit!"
+    },
+    {
+     "qZh": "对多人？",
+     "aZh": "Áva caril!"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "pronouns-in-imperative-phrases",
+    "unitIds": [
+     3
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ip-obj",
+   "sourceSectionId": "pronouns-in-imperative-phrases",
+   "titleZh": "05 · 指宾语：te 独立站，或粘到 á 上",
+   "leadZh": "宾语代词可以照旧独立成词（a laita te），也可以前移粘在 á 上：á tirë te → átë tirë!",
+   "objectives": [
+    "能写 átë tirë!",
+    "知道两种词序都允许"
+   ],
+   "rules": [
+    {
+     "id": "r-ip22",
+     "headZh": "两类宾语代词",
+     "bodyZh": "命令句也可含指直接或间接宾语的代词成分；上一课讲过的独立代词 nye、me、le、tye、ta、te 都能独立成词。",
+     "en": "can all appear as independent words",
+     "zh": "都能作独立词出现。"
+    },
+    {
+     "id": "r-ip23",
+     "headZh": "唯一可证的 te",
+     "bodyZh": "te「them」唯一的可证例就在命令句里，且独立成词：A laita te, laita te!「bless them, bless them!」（Cormallen 的赞美）。",
+     "en": "A laita te, laita te!",
+     "zh": "祝福他们，祝福他们！",
+     "exampleZh": "A laita te, laita te!"
+    },
+    {
+     "id": "r-ip24",
+     "headZh": "也可粘 á",
+     "bodyZh": "但托尔金的昆雅《主祷文》表明，宾语代词也可粘在命令助词 á 上。",
+     "en": "object pronouns may also appear suffixed to the imperative particle",
+     "zh": "宾语代词也可粘在命令助词上。"
+    },
+    {
+     "id": "r-ip25",
+     "headZh": "两种词序",
+     "bodyZh": "以 á tirë!「watch!」为例：可说 á tirë te（代词跟在动词后），也可让代词前移粘 á，作 átë tirë!。",
+     "en": "it would apparently be equally permissible to let the object pronoun come before the verb",
+     "zh": "让宾语代词前移显然同样允许。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为代词只能跟在动词后",
+     "right": "也可前移粘 á：átë tirë!",
+     "whyZh": "原文用 equally permissible 明确表示两种词序都对。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "「粘」是什么意思",
+     "bodyZh": "átë 不是 á ＋ 独立词 të，而是 á 与 te 合成一个词。同理 ámen（第 06 节）、ávamë（第 08 节）。读的时候要把它当一个词看。"
+    }
+   ],
+   "recapZh": "á tirë te ＝ átë tirë!；两种词序并存。",
+   "selfCheckZh": [
+    {
+     "qZh": "「看着他们！」的紧凑写法？",
+     "aZh": "Átë tirë!"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "pronouns-in-imperative-phrases",
+    "unitIds": [
+     4
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ip-dat",
+   "sourceSectionId": "pronouns-in-imperative-phrases",
+   "titleZh": "06 · 与格代词粘 á：ámen linda!",
+   "leadZh": "与格代词（nin、men、tien）同样能直接粘在 á 上；《主祷文》里有 men 这样用的实例。",
+   "objectives": [
+    "能写 ámen linda!",
+    "知道 nin／men／tien 都可粘 á"
+   ],
+   "rules": [
+    {
+     "id": "r-ip26",
+     "headZh": "与格可粘",
+     "bodyZh": "与格代词（如 nin「to/for me」、men「to/for us」、tien「to/for them」）能直接粘在命令助词 á 上。",
+     "en": "can be directly suffixed to the imperative particle",
+     "zh": "能直接粘在命令助词上。"
+    },
+    {
+     "id": "r-ip27",
+     "headZh": "实例",
+     "bodyZh": "至少托尔金的昆雅《主祷文》里有 men 这样粘用的例子。",
+     "en": "Tolkien's Quenya Lord's Prayer contains an example of men being so suffixed",
+     "zh": "《主祷文》里有 men 这样粘用的例子。"
+    },
+    {
+     "id": "r-ip28",
+     "headZh": "造句",
+     "bodyZh": "故「sing for us!」可作 ámen linda!。",
+     "en": "ámen linda!",
+     "zh": "为我们歌唱！",
+     "exampleZh": "ámen linda!"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 ✗ á men linda!（á 与 men 分开）",
+     "right": "ámen linda!——与格粘 á",
+     "whyZh": "原文说 dative pronouns ... can be directly suffixed to the imperative particle á。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么宾语爱粘 á",
+     "bodyZh": "á 本身是助词，没有重音负担，代词粘上去后整句仍是「一个命令词＋动词」的节奏。这也是为什么 á 上只能挂一个代词（下一段）。"
+    }
+   ],
+   "recapZh": "ámen linda!；与格代词粘 á。",
+   "selfCheckZh": [
+    {
+     "qZh": "「为我们歌唱！」？",
+     "aZh": "Ámen linda!"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "pronouns-in-imperative-phrases",
+    "unitIds": [
+     5
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ip-two",
+   "sourceSectionId": "pronouns-in-imperative-phrases",
+   "titleZh": "07 · 两个代词怎么办：一个粘 á，一个独立",
+   "leadZh": "直接宾语与间接宾语同时出现时，á 只能挂一个代词；另一个保持独立词。故「Do it for me!」可作 ánin carë ta! 或 áta carë nin!",
+   "objectives": [
+    "知道 á 只能挂一个代词",
+    "能写两种词序"
+   ],
+   "rules": [
+    {
+     "id": "r-ip29",
+     "headZh": "限制",
+     "bodyZh": "á 这个助词几乎不可能接一个以上的代词词尾。",
+     "en": "the imperative particle can hardly receive more than one pronominal suffix",
+     "zh": "命令助词几乎不可能接一个以上的代词词尾。"
+    },
+    {
+     "id": "r-ip30",
+     "headZh": "旁证",
+     "bodyZh": "a laita te 的例子表明，代词不一定非要粘在助词上。",
+     "en": "a pronoun does not necessarily have to be suffixed to the particle",
+     "zh": "代词不一定非要粘在助词上。"
+    },
+    {
+     "id": "r-ip31",
+     "headZh": "做法",
+     "bodyZh": "故可让一个代词（无论直接或间接宾语）保持独立词，只把另一个粘到 á 上。",
+     "en": "remain an independent word and suffix only the other pronoun",
+     "zh": "保持一个独立词，只把另一个粘上。"
+    },
+    {
+     "id": "r-ip32",
+     "headZh": "两种写法",
+     "bodyZh": "「Do it for me!」可作 ánin carë ta! 或 áta carë nin!，看偏好。",
+     "en": "ánin carë ta!",
+     "zh": "为我做这件事！",
+     "exampleZh": "ánin carë ta!／áta carë nin!"
+    },
+    {
+     "id": "r-ip33",
+     "headZh": "第三种",
+     "bodyZh": "也许还能说 ánin caritas!，用扩展动词干 carita- 加词尾 -s 表「it」。",
+     "en": "ánin caritas!",
+     "zh": "为我做它！",
+     "exampleZh": "ánin caritas!"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 ✗ ánin áta carë!（两个都粘）",
+     "right": "只粘一个，另一个独立",
+     "whyZh": "原文说 á 几乎不可能接一个以上的代词词尾。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "这条是「推出来的」",
+     "bodyZh": "作者明说没有托尔金造的实例（We have no Tolkien-made example to guide us）。所以这里的两种写法是合理外推，不是硬规则——写作时选一种即可。"
+    }
+   ],
+   "recapZh": "ánin carë ta! ＝ áta carë nin!；á 只挂一个代词。",
+   "selfCheckZh": [
+    {
+     "qZh": "「为我做它！」的两种写法？",
+     "aZh": "Ánin carë ta! ／ Áta carë nin!"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "pronouns-in-imperative-phrases",
+    "unitIds": [
+     6
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ip-neg",
+   "sourceSectionId": "pronouns-in-imperative-phrases",
+   "titleZh": "08 · 否定命令也能挂代词：ávamë tirë!",
+   "leadZh": "「do not!」的 áva 同样能接代词。故「watch us!」是 ámë tirë!，「don't watch us!」是 ávamë tirë!",
+   "objectives": [
+    "能写 ámë tirë!／ávamë tirë!",
+    "知道 áva 由 á ＋ vá 合成"
+   ],
+   "rules": [
+    {
+     "id": "r-ip34",
+     "headZh": "否定式也能挂",
+     "bodyZh": "《主祷文》「do not lead us into temptation」的译法表明，命令助词的否定形式也能接代词词尾。",
+     "en": "can also receive pronominal affixes",
+     "zh": "也能接代词词尾。"
+    },
+    {
+     "id": "r-ip35",
+     "headZh": "áva 的构成",
+     "bodyZh": "约 1960 年《Quendi and Eldar》里，托尔金用 áva 作否定命令，即助词 á 加否定词 vá（-va）。",
+     "en": "Tolkien used áva as the negative imperative",
+     "zh": "托尔金用 áva 作否定命令。"
+    },
+    {
+     "id": "r-ip36",
+     "headZh": "更早的 ála",
+     "bodyZh": "更早的《主祷文》译本用 ála「do not」（含否定词 lá 而非 vá），但没理由怀疑代词也能粘到后来的 áva 上。",
+     "en": "ála",
+     "zh": "不要（更早形式）。",
+     "exampleZh": "ála／áva"
+    },
+    {
+     "id": "r-ip37",
+     "headZh": "对照",
+     "bodyZh": "故「watch us!」可作 ámë tirë!，而「don't watch us!」大概可作 ávamë tirë!。",
+     "en": "ávamë tirë!",
+     "zh": "别看我们！",
+     "exampleZh": "ámë tirë!／ávamë tirë!"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 áva 后面不能带代词",
+     "right": "ávamë tirë! 是合理形式",
+     "whyZh": "原文：there is no reason to doubt that pronouns ... can be attached to the later form áva as well。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "më 是哪来的",
+     "bodyZh": "më 是 me「us」接词尾时的形式（与第 18 课 men、mello 同一套最简词干）。所以 ámë ＝ á ＋ me，ávamë ＝ áva ＋ me。"
+    }
+   ],
+   "recapZh": "ámë tirë!／ávamë tirë!；áva ＝ á ＋ vá。",
+   "selfCheckZh": [
+    {
+     "qZh": "「别看我们！」？",
+     "aZh": "Ávamë tirë!"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "pronouns-in-imperative-phrases",
+    "unitIds": [
+     7
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ep-intro",
+   "sourceSectionId": "emphatic-pronouns",
+   "titleZh": "09 · 另一类独立代词：强调式",
+   "leadZh": "上一课讲的是普通独立代词。还有一类同样独立成词、但与代词词尾关系密切的代词——强调代词（emphatic pronouns）。",
+   "objectives": [
+    "知道强调代词是第三类",
+    "知道它与词尾同源"
+   ],
+   "rules": [
+    {
+     "id": "r-ep1",
+     "headZh": "承接",
+     "bodyZh": "上一课讨论了一批独立代词（本节上文也提到过）。",
+     "en": "In the previous lesson, we discussed a number of independent pronouns",
+     "zh": "上一课讨论了一批独立代词。"
+    },
+    {
+     "id": "r-ep2",
+     "headZh": "第三类",
+     "bodyZh": "还有一些代词同样以独立词形式出现，但与相应的代词词尾关系密切。",
+     "en": "closely related to the corresponding pronominal endings",
+     "zh": "与相应的代词词尾关系密切。"
+    },
+    {
+     "id": "r-ep3",
+     "headZh": "名称",
+     "bodyZh": "这些词充当强调代词。",
+     "en": "These words function as emphatic pronouns",
+     "zh": "这些词充当强调代词。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 elyë 与 le 当同义词随意换用",
+     "right": "elyë 强调，le／lye 不强调",
+     "whyZh": "原文把 emphatic 作为这一类词的定义特征，下一段即用《Namárië》证明。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "三层代词的最后一块",
+     "bodyZh": "第 18 课给了词尾（-lyë）与普通独立词（le），本课补上强调独立词（elyë）。三层的分工是「粘在动词上／独立但不强调／独立且强调」。"
+    }
+   ],
+   "recapZh": "强调代词：独立成词、与词尾同源、带强调。",
+   "selfCheckZh": [
+    {
+     "qZh": "elyë 属于哪一类？",
+     "aZh": "强调代词。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "emphatic-pronouns",
+    "unitIds": [
+     0
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ep-namarie",
+   "sourceSectionId": "emphatic-pronouns",
+   "titleZh": "10 · 《Namárië》的范例：Nai elyë hiruva!",
+   "leadZh": "「Nai hiruvalyë Valimar! Nai elyë hiruva!」——第二句把词尾 -lyë 换成独立词 elyë，托尔金译作「even thou」，用一个额外的词表达强调。",
+   "objectives": [
+    "能背这两行",
+    "理解「换词＝强调」"
+   ],
+   "rules": [
+    {
+     "id": "r-ep4",
+     "headZh": "原句",
+     "bodyZh": "《Namárië》末行：Nai hiruvalyë Valimar! Nai elyë hiruva!",
+     "en": "Nai hiruvalyë Valimar! Nai elyë hiruva!",
+     "zh": "愿你寻见 Valimar！愿你——正是你——寻见它！",
+     "exampleZh": "Nai hiruvalyë Valimar! Nai elyë hiruva!"
+    },
+    {
+     "id": "r-ep5",
+     "headZh": "托尔金的译文",
+     "bodyZh": "《魔戒》里托尔金译作「maybe thou shalt find Valimar! Maybe even thou shalt find it!」。",
+     "en": "Maybe even thou shalt find it!",
+     "zh": "也许连你也会寻见它！"
+    },
+    {
+     "id": "r-ep6",
+     "headZh": "机制",
+     "bodyZh": "hiruvalyë 的「thou」由词尾 -lyë 表达；重复时该词尾被独立词 elyë 取代。",
+     "en": "is replaced by the independent word elyë",
+     "zh": "被独立词 elyë 取代。"
+    },
+    {
+     "id": "r-ep7",
+     "headZh": "类比",
+     "bodyZh": "用独立形式就像英文里把代词排成斜体。",
+     "en": "like italicizing the pronoun in English",
+     "zh": "像英文里把代词排成斜体。"
+    },
+    {
+     "id": "r-ep8",
+     "headZh": "短形式不强调",
+     "bodyZh": "较短的独立词 le 或 lye 显然不具强调性。",
+     "en": "is apparently not emphatic",
+     "zh": "显然不具强调性。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 elyë 只是 le 的另一种拼法",
+     "right": "elyë 带强调，le／lye 不带",
+     "whyZh": "原文用 like italicizing the pronoun 作比，并明说短形式 is apparently not emphatic。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "同一句的两次出现",
+     "bodyZh": "第一行靠词尾，第二行靠独立词。托尔金正是用这个「重复」把强调点放在 you 上：不是别人，是你。"
+    }
+   ],
+   "recapZh": "Nai hiruvalyë Valimar! Nai elyë hiruva!；elyë＝even thou。",
+   "selfCheckZh": [
+    {
+     "qZh": "elyë 在句中起什么作用？",
+     "aZh": "把「你」独立出来并加重强调。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "emphatic-pronouns",
+    "unitIds": [
+     1
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ep-inye",
+   "sourceSectionId": "emphatic-pronouns",
+   "titleZh": "11 · inyë「我自己」",
+   "leadZh": "inyë 是「我」的强调式——更准确说是「我自己」「连我也」「我而非别人」。Elendil 的回答「A yonya inyë tye-méla」即一例。",
+   "objectives": [
+    "能写 inyë",
+    "知道它比 ni 更强调"
+   ],
+   "rules": [
+    {
+     "id": "r-ep9",
+     "headZh": "意义",
+     "bodyZh": "inyë 是强调式「我」，即「我自己」「连我也」「我而非别人」。",
+     "en": "inyë",
+     "zh": "我自己（强调）。",
+     "exampleZh": "inyë"
+    },
+    {
+     "id": "r-ep10",
+     "headZh": "例证",
+     "bodyZh": "LR:61 里 Herendil 对父亲 Elendil 说爱他，Elendil 用昆雅回答：A yonya inyë tye-méla。",
+     "en": "A yonya inyë tye-méla",
+     "zh": "我也爱你，我的儿子。",
+     "exampleZh": "A yonya inyë tye-méla"
+    },
+    {
+     "id": "r-ep11",
+     "headZh": "句首的 a",
+     "bodyZh": "句首的 a 似译作「and」，大概是更常见的 ar 的变体（a 也可作呼语助词）。",
+     "en": "would seem to be a variant of the more usual word ar",
+     "zh": "似乎是更常见的 ar 的变体。"
+    },
+    {
+     "id": "r-ep12",
+     "headZh": "强调什么",
+     "bodyZh": "inyë 强调 Elendil 自己的身份：「我也爱你〔正如你爱我〕」。",
+     "en": "gives special emphasis to Elendil's own identity",
+     "zh": "特别强调 Elendil 自己的身份。"
+    },
+    {
+     "id": "r-ep13",
+     "headZh": "与 ni 比",
+     "bodyZh": "inyë 比短形式 ni 更强调，正如 elyë 比 le／lye 更强调。",
+     "en": "Inyë is more emphatic than the shorter form ni",
+     "zh": "inyë 比短形式 ni 更强调。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 inyë 当主语代词的常规形式",
+     "right": "常规仍用词尾 -n(yë)，inyë 是强调式",
+     "whyZh": "原文把它与 ni 对比，说它 more emphatic，而不是说它更常用。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "「我也」的两种表达",
+     "bodyZh": "若只想说「我爱你」，用词尾 -n 即可（tye-mélan）。加 inyë 是为了回应对方：你也爱我，我也爱你。强调来自对比，不来自语法必需。"
+    }
+   ],
+   "recapZh": "inyë＝我自己；A yonya inyë tye-méla。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我也爱你，我的儿子」？",
+     "aZh": "A yonya inyë tye-méla。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "emphatic-pronouns",
+    "unitIds": [
+     2
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ep-derive",
+   "sourceSectionId": "emphatic-pronouns",
+   "titleZh": "12 · 来源：长词尾 ＋ e-",
+   "leadZh": "inyë 显然与词尾 -nyë 相关，elyë 与 -lyë 相关。《Namárië》草稿里则用 ellë 与 -llë。",
+   "objectives": [
+    "知道强调式来自长词尾",
+    "知道 ellë／-llë 的异读"
+   ],
+   "rules": [
+    {
+     "id": "r-ep14",
+     "headZh": "第一人称",
+     "bodyZh": "inyë 显然与代词词尾 -nyë 相关。",
+     "en": "is obviously related to the pronominal ending -nyë",
+     "zh": "显然与代词词尾 -nyë 相关。"
+    },
+    {
+     "id": "r-ep15",
+     "headZh": "第二人称",
+     "bodyZh": "《Namárië》清楚表明 elyë 对应词尾 -lyë。",
+     "en": "elyë corresponds to the ending -lyë",
+     "zh": "elyë 对应词尾 -lyë。"
+    },
+    {
+     "id": "r-ep16",
+     "headZh": "草稿异读",
+     "bodyZh": "《Namárië》草稿本用代词 ellë 与词尾 -llë。",
+     "en": "Draft versions of Namárië have the pronoun ellë and the ending -llë instead",
+     "zh": "草稿本用 ellë 与 -llë。"
+    },
+    {
+     "id": "r-ep17",
+     "headZh": "两种解释",
+     "bodyZh": "有人认为 -llë 另有意义，或许是复数「you」而非单数「thou」；VT43:36 的材料似乎显示 -lyë 与 -llë 在同一版昆雅里分别作单、复数「you」的词尾。",
+     "en": "apparently showing -lyë and -llë coexisting as the endings for sg. and pl.",
+     "zh": "似乎显示 -lyë 与 -llë 分别作单、复数词尾。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "认定 ellë 一定是复数",
+     "right": "它可能是变体，也可能是复数「you」，未定",
+     "whyZh": "原文用 either a variant or a distinctly plural，两种可能并列。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "「对应」而非「等于」",
+     "bodyZh": "强调式不是词尾加个字母那么简单：-nyë 对应 inyë，元音换了；-lyë 对应 elyë，元音保留。下一段专门处理这个元音问题。"
+    }
+   ],
+   "recapZh": "inyë ← -nyë；elyë ← -lyë；草稿 ellë／-llë。",
+   "selfCheckZh": [
+    {
+     "qZh": "elyë 对应哪个词尾？",
+     "aZh": "-lyë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "emphatic-pronouns",
+    "unitIds": [
+     3
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ep-vowel",
+   "sourceSectionId": "emphatic-pronouns",
+   "titleZh": "13 · 为什么是 e-，而「我」是 i-",
+   "leadZh": "其余强调代词都以 e- 起首（elyë、emmë），只有「我」用 i-（inyë）。作者把它归到第一人称与元音 i 的长期关联，以及词根 NI。",
+   "objectives": [
+    "知道 e- 是通例、i- 是例外",
+    "知道 emmë 的出处"
+   ],
+   "rules": [
+    {
+     "id": "r-ep18",
+     "headZh": "构造法",
+     "bodyZh": "可见强调代词可由相应的代词词尾加某个元音构成。",
+     "en": "by suffixing the ending to some vowel",
+     "zh": "把词尾加在某个元音上。"
+    },
+    {
+     "id": "r-ep19",
+     "headZh": "问题",
+     "bodyZh": "但加哪个元音？elyë 是 e-，inyë 却是 i-。",
+     "en": "But what vowel?",
+     "zh": "但加哪个元音？"
+    },
+    {
+     "id": "r-ep20",
+     "headZh": "i- 是例外",
+     "bodyZh": "「我」的强调式可能特殊，偏爱 i- 作首元音。",
+     "en": "may be exceptional in preferring i- as its initial vowel",
+     "zh": "可能特殊，偏爱 i- 作首元音。"
+    },
+    {
+     "id": "r-ep21",
+     "headZh": "旁证：-nya",
+     "bodyZh": "学生或记得「我的」词尾 -nya 在需要连接元音时也偏爱 -i-（如 atarinya「my father」，LR:61）。",
+     "en": "seems to prefer -i- as its connecting vowel",
+     "zh": "似乎偏爱 -i- 作连接元音。"
+    },
+    {
+     "id": "r-ep22",
+     "headZh": "词根",
+     "bodyZh": "第一人称代词形式与 i 的密切关联，反映了最基本词根 NI「I」（《词源》）。",
+     "en": "the most basic stem NI",
+     "zh": "最基本的词根 NI。"
+    },
+    {
+     "id": "r-ep23",
+     "headZh": "结论",
+     "bodyZh": "故可暂定其余强调代词用 e-，如 elyë；《主祷文》里的 emmë（对应排除式「我们」词尾 -mmë）支持这一点。",
+     "en": "he used emmë as the emphatic pronoun corresponding to the pronominal ending -mmë",
+     "zh": "他用 emmë 作对应词尾 -mmë 的强调代词。"
+    },
+    {
+     "id": "r-ep24",
+     "headZh": "为什么强调",
+     "bodyZh": "《主祷文》「免我们的债，如同我们免了人的债」里，代词强调是为了突出平行结构。",
+     "en": "The Quenya system of using distinct emphatic pronouns is undeniably more elegant",
+     "zh": "昆雅用独立强调代词这套系统无疑更优雅。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "类推造 ✗ ilyë 表示「我」",
+     "right": "「我」是 inyë，i- 是例外",
+     "whyZh": "原文明确把 inyë 标为 exceptional，并给出词根 NI 的解释。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "e- 是默认值",
+     "bodyZh": "把 e- 当默认模板：e ＋ 长词尾。只有第一人称因词根 NI 而破例。这条「默认＋一个例外」比背一串形式更好用。"
+    }
+   ],
+   "recapZh": "通例 e-（elyë、emmë）；例外 i-（inyë），因词根 NI。",
+   "selfCheckZh": [
+    {
+     "qZh": "为什么 inyë 不用 e-？",
+     "aZh": "第一人称与元音 i 关联，源自词根 NI。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "emphatic-pronouns",
+    "unitIds": [
+     4
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ep-extrapolate",
+   "sourceSectionId": "emphatic-pronouns",
+   "titleZh": "14 · 外推：emmë → elmë",
+   "leadZh": "已刊材料里只有 inyë、elyë、emmë 三个强调代词。托尔金后来把排除式「我们」的词尾由 -mmë 改为 -lmë，故强调式也应改为 elmë。",
+   "objectives": [
+    "知道只有三个可证形式",
+    "知道 emmë 改义为双数"
+   ],
+   "rules": [
+    {
+     "id": "r-ep25",
+     "headZh": "可证清单",
+     "bodyZh": "inyë、elyë（ellë 或为变体、或为复数「you」）、emmë 是已刊材料里的全部强调代词。",
+     "en": "occurring in published material",
+     "zh": "出现在已刊材料里。"
+    },
+    {
+     "id": "r-ep26",
+     "headZh": "可外推",
+     "bodyZh": "但至少还能有把握地外推一些形式。",
+     "en": "we can confidently extrapolate at least some more forms",
+     "zh": "至少还能有把握地外推一些形式。"
+    },
+    {
+     "id": "r-ep27",
+     "headZh": "词尾改变",
+     "bodyZh": "托尔金最终把复数排除式「我们」的词尾由 -mmë 改为 -lmë，故相应的强调代词也应从 emmë 变为 elmë。",
+     "en": "we must assume that the corresponding emphatic pronoun would likewise change from emmë to elmë",
+     "zh": "相应的强调代词也应从 emmë 变为 elmë。"
+    },
+    {
+     "id": "r-ep28",
+     "headZh": "emmë 的新义",
+     "bodyZh": "可证的 emmë 仍有效，但如今表示双数「我们」（含或排除不明），与 -mmë 的新义相配。",
+     "en": "now it denotes a dual",
+     "zh": "如今表示双数。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 emmë 当现代排除式「我们」",
+     "right": "现代作 elmë；emmë 转为双数",
+     "whyZh": "原文说 emmë 在词尾改动后 now it denotes a dual。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "外推的规矩",
+     "bodyZh": "作者反复标注「可证／外推」。这不是谦虚，而是让读者知道哪些形式能放心用（elyë），哪些是重建（elmë）。"
+    }
+   ],
+   "recapZh": "emmë → elmë（排除式）；emmë 转为双数。",
+   "selfCheckZh": [
+    {
+     "qZh": "排除式「我们」的强调式？",
+     "aZh": "Elmë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "emphatic-pronouns",
+    "unitIds": [
+     5
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ep-elve",
+   "sourceSectionId": "emphatic-pronouns",
+   "titleZh": "15 · elvë：包含式「我们」",
+   "leadZh": "托尔金最晚的昆雅里，包含式「我们」的词尾成了 -lvë（变体 -lwë），故强调词当为 elvë（或 elwë）。",
+   "objectives": [
+    "能写 elvë",
+    "知道 ?entë 只是猜测"
+   ],
+   "rules": [
+    {
+     "id": "r-ep29",
+     "headZh": "包含式",
+     "bodyZh": "在托尔金最晚已知的昆雅版本里，包含式「我们」的词尾显然已变成 -lvë（变体 -lwë）。",
+     "en": "the ending for inclusive",
+     "zh": "包含式「我们」的词尾。"
+    },
+    {
+     "id": "r-ep30",
+     "headZh": "强调式",
+     "bodyZh": "故相应的强调词当为 elvë（或 elwë）。",
+     "en": "elvë (or elwë)",
+     "zh": "elvë（或 elwë）。",
+     "exampleZh": "elvë／elwë"
+    },
+    {
+     "id": "r-ep31",
+     "headZh": "用于练习",
+     "bodyZh": "外推的 elmë（排除）与 elvë（包含）用于本课练习，但应明白它们没有只有可证形式才有的权威。",
+     "en": "they don't have the full authority which only attested forms can have",
+     "zh": "它们没有只有可证形式才有的权威。"
+    },
+    {
+     "id": "r-ep32",
+     "headZh": "第三人称猜测",
+     "bodyZh": "「他们」的词尾 -ntë 或许对应独立词 entë。",
+     "en": "would correspond to an independent word entë",
+     "zh": "或许对应独立词 entë。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 elvë 与 elmë 混用",
+     "right": "elvë 包含（含听者），elmë 排除（不含听者）",
+     "whyZh": "二者分别对应 -lvë 与 -lmë，原文并列给出。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "带问号的形式",
+     "bodyZh": "原文给 entë 加了 Possibly，给 elvë 加了 or elwë。凡带这类标记的形式，写作时可用，但不宜当作「标准答案」去纠正别人。"
+    }
+   ],
+   "recapZh": "elvë（包含）／elmë（排除）；?entë。",
+   "selfCheckZh": [
+    {
+     "qZh": "包含式「我们」的强调式？",
+     "aZh": "Elvë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "emphatic-pronouns",
+    "unitIds": [
+     6
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ep-tforms",
+   "sourceSectionId": "emphatic-pronouns",
+   "titleZh": "16 · 第二人称的两套：etyë 与 eccë",
+   "leadZh": "elyë 可作单数「你」（托尔金译 even thou）。但 T 形式（tye、-t）的强调式未定：取决于长词尾是 -tyë 还是 -ccë。",
+   "objectives": [
+    "知道 elyë 是 L 形式",
+    "知道 etyë／eccë 是推测"
+   ],
+   "rules": [
+    {
+     "id": "r-ep33",
+     "headZh": "elyë 作单数",
+     "bodyZh": "elyë 可作单数「you」，托尔金在《魔戒》的《Namárië》里译作「even thou」可证。",
+     "en": "can function as a singular",
+     "zh": "可作单数。"
+    },
+    {
+     "id": "r-ep34",
+     "headZh": "T 形式",
+     "bodyZh": "第二人称的 T 形式（以宾格 tye 和命令句词尾 -t 为代表）似乎表示亲昵的「你」，但其强调式未定。",
+     "en": "exemplified by the object pronoun tye",
+     "zh": "以宾格 tye 为代表。"
+    },
+    {
+     "id": "r-ep35",
+     "headZh": "取决于重建",
+     "bodyZh": "这取决于如何重建 -t 的长形式：若是 -tyë，强调代词最可能作 etyë。",
+     "en": "the emphatic pronoun would most likely be etyë",
+     "zh": "强调代词最可能作 etyë。"
+    },
+    {
+     "id": "r-ep36",
+     "headZh": "另一重建",
+     "bodyZh": "但作者也有理由相信 -t 代表更早的 -k，则长形式或为 -ccë，强调代词便作 eccë。",
+     "en": "and then emphatic pronoun would probably be eccë",
+     "zh": "强调代词大概作 eccë。"
+    },
+    {
+     "id": "r-ep37",
+     "headZh": "对称系统",
+     "bodyZh": "按一种重建，-tyë／-ccë 是亲昵的单、复数，-lyë／-llë 是正式或礼貌的单、复数；相应的强调式便是 etyë、eccë、elyë、ellë。",
+     "en": "cannot be fully substantiated based on available Tolkien material",
+     "zh": "无法依现有托尔金材料完全证实。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 etyë 当确定形式",
+     "right": "它依赖 -t 来自 -tyë 的重建",
+     "whyZh": "原文用 most likely，并在括号里承认整套系统 cannot be fully substantiated。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么 T 形式这么难",
+     "bodyZh": "因为 T 形式本身材料就少：可证的只有 tye 与命令句 -t。要从 -t 反推长词尾，等于从一个辅音猜整个词，所以只能给两种可能。"
+    }
+   ],
+   "recapZh": "L 形式 elyë／ellë；T 形式 etyë／eccë（推测）。",
+   "selfCheckZh": [
+    {
+     "qZh": "亲昵「你」的强调式可能是什么？",
+     "aZh": "etyë 或 eccë（未定）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "emphatic-pronouns",
+    "unitIds": [
+     7
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ep-third",
+   "sourceSectionId": "emphatic-pronouns",
+   "titleZh": "17 · 第三人称：从推测到推测",
+   "leadZh": "强调代词由长词尾派生：inyë ← -nyë，elyë ← -lyë。但第三人称只有短词尾 -s 可证，长词尾 -ryë 只是理论，故 ?eryë 风险很大。",
+   "objectives": [
+    "知道第三人称最不确定",
+    "知道短强调式 **in、**el 不存在"
+   ],
+   "rules": [
+    {
+     "id": "r-ep38",
+     "headZh": "派生原则",
+     "bodyZh": "强调代词由代词词尾的长形式派生。",
+     "en": "the emphatic pronouns are derived from the long forms of the pronominal endings",
+     "zh": "强调代词由代词词尾的长形式派生。"
+    },
+    {
+     "id": "r-ep39",
+     "headZh": "对照",
+     "bodyZh": "inyë 对应长主语词尾 -nyë，而非更常见、更短的 -n；elyë 对应 -lyë，而该词尾似也可作短形式 -l。",
+     "en": "corresponds to the long subject ending -nyë",
+     "zh": "对应长主语词尾 -nyë。"
+    },
+    {
+     "id": "r-ep40",
+     "headZh": "没有短强调式",
+     "bodyZh": "与短词尾相配的短强调式 **in、**el 几乎不存在。",
+     "en": "There are hardly any short emphatic pronouns",
+     "zh": "几乎不存在短强调代词。"
+    },
+    {
+     "id": "r-ep41",
+     "headZh": "第三人称的困境",
+     "bodyZh": "第三人称里，托尔金确定属《魔戒》兼容昆雅的只有短词尾 -s；作者此前推测 -s 或对应更长的 -ryë（更早 -syë、-zyë）。",
+     "en": "the short ending -s is the only form attested",
+     "zh": "-s 是唯一可证的形式。"
+    },
+    {
+     "id": "r-ep42",
+     "headZh": "?eryë",
+     "bodyZh": "若 -ryë 存在，便可对应强调代词 ?eryë「（连）他／她」。",
+     "en": "it could correspond to an emphatic pronoun ?eryë",
+     "zh": "或对应强调代词 ?eryë。"
+    },
+    {
+     "id": "r-ep43",
+     "headZh": "风险",
+     "bodyZh": "但从外推再外推，失去与托尔金实际意图接触的风险显然变得严重。",
+     "en": "the risk of losing contact with Tolkien's actual intentions",
+     "zh": "失去与托尔金实际意图接触的风险。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 ?eryë 当可用的「他／她」强调式",
+     "right": "它建立在一串推测上，作者自己标了问号",
+     "whyZh": "原文：when we start extrapolating from extrapolations, the risk ... becomes acute。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "问号的含义",
+     "bodyZh": "原文在 eryë 前加 ?，与 entë 的 Possibly 同级。这类形式只说明「如果理论对，就会长这样」，不能拿来造句。"
+    }
+   ],
+   "recapZh": "?eryë 建立在 -s ← -ryë 的推测上；无 **in、**el。",
+   "selfCheckZh": [
+    {
+     "qZh": "「他／她」的强调式可证吗？",
+     "aZh": "不可证；?eryë 只是推测。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "emphatic-pronouns",
+    "unitIds": [
+     8
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ep-cases",
+   "sourceSectionId": "emphatic-pronouns",
+   "titleZh": "18 · 强调代词接格词尾：Emmen、inyen",
+   "leadZh": "强调代词能接格词尾，且用「单数」的最简词尾。《主祷文》里有 Emmen；要强调「为我自己」，则从 inyë 得 inyen。",
+   "objectives": [
+    "能写 inyen",
+    "知道代词接最简格词尾"
+   ],
+   "rules": [
+    {
+     "id": "r-ep44",
+     "headZh": "可接格",
+     "bodyZh": "强调代词能接格词尾。",
+     "en": "They can receive case endings",
+     "zh": "它们能接格词尾。"
+    },
+    {
+     "id": "r-ep45",
+     "headZh": "Emmen",
+     "bodyZh": "《主祷文》里强调代词 emmë「we」曾接与格词尾 -n，作 Emmen。",
+     "en": "once occurs with the dative ending -n attached: Emmen",
+     "zh": "曾接与格词尾 -n，作 Emmen。"
+    },
+    {
+     "id": "r-ep46",
+     "headZh": "仍是单数词尾",
+     "bodyZh": "按托尔金的修订，这后来会是 elmë／elmen；但这些形式确认代词接最简格词尾，即单数名词所用的那些——哪怕代词意义上为复数。",
+     "en": "the simplest dative ending -n is used instead of the plural form -in",
+     "zh": "用最简与格词尾 -n，而非复数形式 -in。"
+    },
+    {
+     "id": "r-ep47",
+     "headZh": "inyen",
+     "bodyZh": "要强调「为我自己」，最好从 inyë 派生与格 inyen。",
+     "en": "it would be better to start from the emphatic form inyë and derive the dative form inyen",
+     "zh": "从 inyë 派生与格 inyen。",
+     "exampleZh": "inyen"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 ✗ emmein（复数与格）",
+     "right": "Emmen／elmen——代词用单数最简词尾",
+     "whyZh": "原文明确：the simplest dative ending -n is used instead of the plural form -in。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "与第 18 课一致",
+     "bodyZh": "第 18 课已说代词接单数格词尾（men、mello、messë）。本节把同一条规律用到强调代词上：elmen、inyen。"
+    }
+   ],
+   "recapZh": "Emmen／elmen；inyen。",
+   "selfCheckZh": [
+    {
+     "qZh": "「为我自己」？",
+     "aZh": "Inyen。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "emphatic-pronouns",
+    "unitIds": [
+     9
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ep-drop",
+   "sourceSectionId": "emphatic-pronouns",
+   "titleZh": "19 · 换了独立词，就去掉动词词尾",
+   "leadZh": "Nai hiruvalyë → Nai elyë hiruva：用独立代词时，动词上相应的词尾要删掉。草稿里 Nai ellë hiruvallë 是「过度完整」，不宜模仿。",
+   "objectives": [
+    "知道不能双重标记",
+    "知道草稿写法被放弃"
+   ],
+   "rules": [
+    {
+     "id": "r-ep48",
+     "headZh": "删词尾",
+     "bodyZh": "若代词词尾被独立代词取代，该词尾要从动词上删去——不是 nai elyë hiruvalyë。",
+     "en": "the ending is removed from the verb",
+     "zh": "词尾从动词上删去。"
+    },
+    {
+     "id": "r-ep49",
+     "headZh": "草稿写法",
+     "bodyZh": "但草稿里代词还是 ellë 时，托尔金确实用了 nai ellë hiruvallë 这种双重标记。",
+     "en": "Nai ellë hiruvallë",
+     "zh": "（草稿的双重标记写法）",
+     "exampleZh": "Nai ellë hiruvallë"
+    },
+    {
+     "id": "r-ep50",
+     "headZh": "结论",
+     "bodyZh": "他显然觉得这一版有点「过度完整」，写作者大概应避免这种系统。",
+     "en": "somewhat over-complete",
+     "zh": "有点过度完整。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 ✗ Nai elyë hiruvalyë",
+     "right": "Nai elyë hiruva",
+     "whyZh": "原文明确指出 ending is removed from the verb，并把双重标记称作 over-complete。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一条普遍倾向",
+     "bodyZh": "昆雅不喜欢同一信息标两次。这条不仅适用于代词：第 18 课的 lá 与 um- 不叠用，也是同一思路。"
+    }
+   ],
+   "recapZh": "Nai elyë hiruva（不加 -lyë）。",
+   "selfCheckZh": [
+    {
+     "qZh": "为什么不是 nai elyë hiruvalyë？",
+     "aZh": "独立代词已表「你」，动词不再加 -lyë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "emphatic-pronouns",
+    "unitIds": [
+     10
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ep-plural",
+   "sourceSectionId": "emphatic-pronouns",
+   "titleZh": "20 · 复数代词后动词加 -r",
+   "leadZh": "若代词是复数，后面动词至少该带复数词尾 -r：elmë hiruvar，而不是 **elmë hiruva。故 nai elyë hiruvar! 会明确指复数「你们」。",
+   "objectives": [
+    "能写 elmë hiruvar",
+    "知道 -r 可消解 elyë 的单复数歧义"
+   ],
+   "rules": [
+    {
+     "id": "r-ep51",
+     "headZh": "规则",
+     "bodyZh": "若代词为复数，其后的动词或许至少该带复数词尾 -r。",
+     "en": "the verb following an emphatic pronoun should perhaps receive at least the plural ending -r",
+     "zh": "其后动词或许至少该带复数词尾 -r。"
+    },
+    {
+     "id": "r-ep52",
+     "headZh": "例子",
+     "bodyZh": "把 hiruvalmë「we shall find」拆成两词以强调「我们」，作者猜结果会是 elmë hiruvar，而非 **elmë hiruva。",
+     "en": "I guess the resulting phrase would be elmë hiruvar",
+     "zh": "结果大概是 elmë hiruvar。",
+     "exampleZh": "elmë hiruvar"
+    },
+    {
+     "id": "r-ep53",
+     "headZh": "消歧",
+     "bodyZh": "若 elyë 兼指礼貌单数与复数「you」，后面动词就能揭示它是哪一义。",
+     "en": "the following verb may then reveal in what sense it is used",
+     "zh": "后面动词可揭示它是哪一义。"
+    },
+    {
+     "id": "r-ep54",
+     "headZh": "两种读法",
+     "bodyZh": "nai elyë hiruva! 里代词必是单数（动词无 -r）；nai elyë hiruvar! 则明确是复数「你们」。",
+     "en": "Perhaps nai elyë hiruvar! would also be a possible sentence",
+     "zh": "nai elyë hiruvar! 或许也是可能的句子。"
+    },
+    {
+     "id": "r-ep55",
+     "headZh": "旁证",
+     "bodyZh": "托尔金的 emmë avatyarir「we forgive」（VT43:8）早于 -mmë → -lmë 的修订，但确认复数独立代词后应跟复数动词。",
+     "en": "it confirms that a plural independent pronoun should be followed by a plural verb",
+     "zh": "确认复数独立代词后应跟复数动词。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 **elmë hiruva",
+     "right": "elmë hiruvar",
+     "whyZh": "原文用星号标出错误形式，并引 emmë avatyarir 佐证。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一个有用的副产品",
+     "bodyZh": "这条规则解决了《Namárië》的听众问题：既然 nai elyë hiruva 无 -r，Galadriel 是对 Frodo 一人说的，不是对整个「 fellowship」。"
+    }
+   ],
+   "recapZh": "elmë hiruvar；elyë hiruva（单）／elyë hiruvar（复）。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我们会寻见」的强调写法？",
+     "aZh": "Elmë hiruvar。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "emphatic-pronouns",
+    "unitIds": [
+     11
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ep-genitive",
+   "sourceSectionId": "emphatic-pronouns",
+   "titleZh": "21 · 属格／所有格能不能接？",
+   "leadZh": "强调代词能接格词尾，但是否能接属格与所有格词尾，仍不确定。要表达「这本书是你的」，就得另想办法。",
+   "objectives": [
+    "知道这是空白点",
+    "能提出「the book is yours」的译法问题"
+   ],
+   "rules": [
+    {
+     "id": "r-ep55b",
+     "headZh": "已知",
+     "bodyZh": "如前述，强调代词能接格词尾，上一课的短独立代词也能。",
+     "en": "the emphatic pronouns can receive case endings",
+     "zh": "强调代词能接格词尾。"
+    },
+    {
+     "id": "r-ep56",
+     "headZh": "未知",
+     "bodyZh": "但属格与所有格词尾是否该加在这种独立代词上，仍有些不确定。",
+     "en": "somewhat uncertain whether the endings for genitive and possessive should be added",
+     "zh": "属格与所有格词尾是否该加，仍有些不确定。"
+    },
+    {
+     "id": "r-ep57",
+     "headZh": "需求",
+     "bodyZh": "「我的」「你的」这类独立词显然是完整语言所必需的。",
+     "en": "would be required to have a fully functional language",
+     "zh": "是完整语言所必需的。"
+    },
+    {
+     "id": "r-ep58",
+     "headZh": "难题",
+     "bodyZh": "-lya 可表「你的」（parmalya「your book」），但「这本书是你的」怎么说？",
+     "en": "the book is yours",
+     "zh": "这本书是你的。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 parmalya 也能当谓语用",
+     "right": "parmalya 是定语；谓语「是你的」需独立词",
+     "whyZh": "原文把 parmalya 与 the book is yours 明确分成两个问题。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "本节的问题意识",
+     "bodyZh": "接下来三段给两套方案：一套从所有格词尾派生（elya），一套从与格加 -ya 派生（menya、ninya）。作者最后推荐后者。"
+    }
+   ],
+   "recapZh": "属格／所有格接法不确定；这是本节要填的洞。",
+   "selfCheckZh": [
+    {
+     "qZh": "parmalya 是什么意思？",
+     "aZh": "你的书（定语）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "emphatic-pronouns",
+    "unitIds": [
+     12
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ep-poss",
+   "sourceSectionId": "emphatic-pronouns",
+   "titleZh": "22 · 方案一：elya「你的」",
+   "leadZh": "若 -lyë 对应 elyë，则 -lya 应对应 elya。故「这本书是你的」作 i parma ná elya；强调则作 elya parma「你的（而非别人的）书」。",
+   "objectives": [
+    "能写 i parma ná elya",
+    "理解定语与谓语的差别"
+   ],
+   "rules": [
+    {
+     "id": "r-ep59",
+     "headZh": "长期猜测",
+     "bodyZh": "长期有人怀疑：不仅动词上的主语词尾，名词上的所有格词尾（如 -nya、-lya）也有相应的强调形式。",
+     "en": "have corresponding emphatic forms",
+     "zh": "也有相应的强调形式。"
+    },
+    {
+     "id": "r-ep60",
+     "headZh": "未证实",
+     "bodyZh": "这一点从未被明确证实。",
+     "en": "This has never been explicitly confirmed",
+     "zh": "这从未被明确证实。"
+    },
+    {
+     "id": "r-ep61",
+     "headZh": "类推",
+     "bodyZh": "但既然 -lyë 对应 elyë，那么 -lya「your」对应独立形式 elya 显然合理。",
+     "en": "could correspond to an independent form elya",
+     "zh": "或对应独立形式 elya。"
+    },
+    {
+     "id": "r-ep62",
+     "headZh": "谓语用法",
+     "bodyZh": "故可说 i parma ná elya「the book is yours」。",
+     "en": "i parma ná elya",
+     "zh": "这本书是你的。",
+     "exampleZh": "i parma ná elya"
+    },
+    {
+     "id": "r-ep63",
+     "headZh": "强调用法",
+     "bodyZh": "parmalya 只是「你的书」，elya parma 则是「你的〔而非别人的〕书」。",
+     "en": "elya parma",
+     "zh": "你的（而非别人的）书。",
+     "exampleZh": "elya parma"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 elya 当已证形式",
+     "right": "它是类推出来的，作者只称 plausible",
+     "whyZh": "原文：it certainly seems plausible to assume，而非「已证实」。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "两个位置，两种意义",
+     "bodyZh": "elya 在谓语位（ná elya）表「归你所有」，在定语位（elya parma）表强调「你的」。同一个词，靠位置分工。"
+    }
+   ],
+   "recapZh": "i parma ná elya；elya parma。",
+   "selfCheckZh": [
+    {
+     "qZh": "「这本书是你的」？",
+     "aZh": "I parma ná elya。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "emphatic-pronouns",
+    "unitIds": [
+     13
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ep-poss2",
+   "sourceSectionId": "emphatic-pronouns",
+   "titleZh": "23 · 其余所有格强调式：erya、elva、elma、inya",
+   "leadZh": "按同一理论：erya「他的／她的」、elva「我们的（包含）」、elma「我们的（排除）」；「我的」则当作 inya。",
+   "objectives": [
+    "能列出四个形式",
+    "知道它们各自对应的词尾"
+   ],
+   "rules": [
+    {
+     "id": "r-ep64",
+     "headZh": "清单",
+     "bodyZh": "按此理论，其余强调所有格代词为 erya「his, her」、elva「our〔包含〕」、elma「our〔排除〕」。",
+     "en": "other emphatic possessive pronouns would be erya",
+     "zh": "其余强调所有格代词为 erya……"
+    },
+    {
+     "id": "r-ep65",
+     "headZh": "对应词尾",
+     "bodyZh": "它们当然对应词尾 -rya、-lva、-lma。",
+     "en": "corresponding to the endings -rya, -lva, -lma",
+     "zh": "对应词尾 -rya、-lva、-lma。"
+    },
+    {
+     "id": "r-ep66",
+     "headZh": "「我的」",
+     "bodyZh": "至于「我的」的独立形式，对应 -nya，大概当作 inya（因为主语词尾 -nyë 对应 inyë）。",
+     "en": "we would probably expect the form inya",
+     "zh": "大概当作 inya。",
+     "exampleZh": "inya"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 inya 与 inyë 是同一词",
+     "right": "inyë 是「我」的强调式，inya 是「我的」的强调式",
+     "whyZh": "原文分别对应 -nyë 与 -nya 两个不同词尾。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "整齐的表格",
+     "bodyZh": "-nya／-rya／-lva／-lma → inya／erya／elva／elma。整齐得可疑——下一段马上指出问题。"
+    }
+   ],
+   "recapZh": "erya、elva、elma、inya。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我们的（包含）」强调所有格？",
+     "aZh": "Elva。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "emphatic-pronouns",
+    "unitIds": [
+     14
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ep-clash",
+   "sourceSectionId": "emphatic-pronouns",
+   "titleZh": "24 · 撞形：inya「女性」、erya「唯一」",
+   "leadZh": "这套外推并非没有问题：inya 在《词源》里是形容词「female」，erya 又与形容词 erya「single, sole」同形。",
+   "objectives": [
+    "知道两个撞形",
+    "知道作者仍认为这些形式相当合理"
+   ],
+   "rules": [
+    {
+     "id": "r-ep67",
+     "headZh": "问题",
+     "bodyZh": "这些外推并非完全没问题。",
+     "en": "These extrapolations are not entirely unproblematic",
+     "zh": "这些外推并非完全没问题。"
+    },
+    {
+     "id": "r-ep68",
+     "headZh": "inya",
+     "bodyZh": "inya 在《词源》里出现过，但不是「我的」强调式，而是形容词「female」，来源完全不同（见 INI 条）。",
+     "en": "is mentioned in the Etymologies",
+     "zh": "在《词源》里出现过。"
+    },
+    {
+     "id": "r-ep69",
+     "headZh": "erya",
+     "bodyZh": "erya 又会与形容词 erya「single, sole」同形（《词源》ERE 条）。",
+     "en": "would coincide in form with the adjective erya",
+     "zh": "会与形容词 erya 同形。"
+    },
+    {
+     "id": "r-ep70",
+     "headZh": "作者的自我辩护",
+     "bodyZh": "作者承认有人会觉得这让人怀疑整套外推，但仍认为这些形式「差不多是未直接可证的形式所能达到的合理程度」。",
+     "en": "about as plausible as any forms not directly attested can be",
+     "zh": "差不多是未直接可证的形式所能达到的合理程度。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "用 inya 表示「我的」而不加说明",
+     "right": "它与「女性」撞形，宜避免或注明",
+     "whyZh": "原文专门用一整段讲这个冲突，并说这正是下一套方案更可取的原因。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么还要讲这套",
+     "bodyZh": "因为它是历史方案：旧版课程就这样教。作者保留它，是为了让读者读懂旧材料，同时给出更可靠的替代（下一段）。"
+    }
+   ],
+   "recapZh": "inya＝female、erya＝sole；撞形是这套方案的弱点。",
+   "selfCheckZh": [
+    {
+     "qZh": "inya 在《词源》里是什么意思？",
+     "aZh": "形容词「female」。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "emphatic-pronouns",
+    "unitIds": [
+     15
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ep-menya",
+   "sourceSectionId": "emphatic-pronouns",
+   "titleZh": "25 · 方案二（推荐）：与格 ＋ -ya",
+   "leadZh": "另一套系统歧义更少：把形容词词尾 -ya 加在与格形式上。可证例是 menya「我们的」，由 men「to us」派生；复数作 menyë。",
+   "objectives": [
+    "能写 menya／menyë",
+    "知道这套系统被推荐"
+   ],
+   "rules": [
+    {
+     "id": "r-ep71",
+     "headZh": "另一套",
+     "bodyZh": "已出现的还有另一套系统的证据；由于它产生的形式歧义更少，作者推荐写作者采用它。",
+     "en": "it is certainly the system I would recommend to writers",
+     "zh": "这无疑是作者推荐给写作者的系统。"
+    },
+    {
+     "id": "r-ep72",
+     "headZh": "构词法",
+     "bodyZh": "独立所有格代词可由相应的与格形式加形容词词尾 -ya 派生。",
+     "en": "adding the adjectival ending -ya to the corresponding dative forms",
+     "zh": "在与格形式上加形容词词尾 -ya。"
+    },
+    {
+     "id": "r-ep73",
+     "headZh": "menya",
+     "bodyZh": "可证例是 menya 作「our」的独立词，显然由 me「we, us」的与格 men 派生。",
+     "en": "as an independent word for",
+     "zh": "作独立词……",
+     "exampleZh": "menya"
+    },
+    {
+     "id": "r-ep74",
+     "headZh": "数一致",
+     "bodyZh": "这类 -ya 代词应像形容词一样数一致：接复数名词时 menya 变 menyë（古作 menyai）。",
+     "en": "so that menya becomes menyë",
+     "zh": "menya 变 menyë。",
+     "exampleZh": "menya／menyë"
+    },
+    {
+     "id": "r-ep75",
+     "headZh": "实例",
+     "bodyZh": "托尔金实验性的昆雅《主祷文》里写 menyë luhtar 或 menyë rohtar 表「our trespasses」（VT43:19）。",
+     "en": "Tolkien wrote menyë luhtar or menyë rohtar",
+     "zh": "托尔金写 menyë luhtar 或 menyë rohtar。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 ✗ menya luhtar（单数形式配复数名词）",
+     "right": "menyë luhtar",
+     "whyZh": "原文说这些代词 in -ya should agree in number like adjectives。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么这套更好",
+     "bodyZh": "因为它有可证例（menya），且不会与 inya／erya 撞形。构词也透明：与格表「给谁」，加 -ya 变成「属于谁的」。"
+    }
+   ],
+   "recapZh": "与格 ＋ -ya：menya／menyë。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我们的罪过」？",
+     "aZh": "Menyë luhtar。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "emphatic-pronouns",
+    "unitIds": [
+     16
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ep-ninya",
+   "sourceSectionId": "emphatic-pronouns",
+   "titleZh": "26 · ninya「我的」",
+   "leadZh": "ninya 长期见于《Fíriel 之歌》，现理解为由与格 nin「to me」派生。Indo-ninya 译作「my heart」。",
+   "objectives": [
+    "能写 ninya",
+    "知道 Indo-ninya 与 ninya indo 的差别"
+   ],
+   "rules": [
+    {
+     "id": "r-ep76",
+     "headZh": "ninya",
+     "bodyZh": "另一个可证例是 ninya「my」，长期见于《Fíriel 之歌》，现理解为由与格代词 nin「to me, for me」派生。",
+     "en": "long attested in Fíriel's Song",
+     "zh": "长期见于《Fíriel 之歌》。"
+    },
+    {
+     "id": "r-ep77",
+     "headZh": "实例",
+     "bodyZh": "Indo-ninya 译作「my heart」。",
+     "en": "Indo-ninya",
+     "zh": "我的心。",
+     "exampleZh": "Indo-ninya"
+    },
+    {
+     "id": "r-ep78",
+     "headZh": "与 -nya 的差别",
+     "bodyZh": "ninya 像更简单的词尾 -nya 一样粘在名词上，但 indo-ninya 或许比 indonya 更强调「我的心」。",
+     "en": "perhaps indo-ninya puts more emphasis",
+     "zh": "或许更强调。"
+    },
+    {
+     "id": "r-ep79",
+     "headZh": "前移",
+     "bodyZh": "无疑也可说 ninya indo，把代词提前。",
+     "en": "fronting the pronoun",
+     "zh": "把代词提前。",
+     "exampleZh": "ninya indo"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 ninya 与 -nya 当完全等价",
+     "right": "ninya 更强调，且可独立前移",
+     "whyZh": "原文用 perhaps ... more emphasis，并说可以 fronting the pronoun。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一个词两种位置",
+     "bodyZh": "indo-ninya（后缀）与 ninya indo（前移）都成立。前者更像普通所有格，后者强调更重——这与 elyë 的强调逻辑一致。"
+    }
+   ],
+   "recapZh": "ninya＝my；Indo-ninya／ninya indo。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我的心」两种写法？",
+     "aZh": "Indo-ninya ／ ninya indo。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "emphatic-pronouns",
+    "unitIds": [
+     17
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ep-more",
+   "sourceSectionId": "emphatic-pronouns",
+   "titleZh": "27 · 其余可推形式与练习范围",
+   "leadZh": "menya（复 menyë）与 ninya 是这类所有格代词仅有的可证形式。还可推 tienya「他们的」、lenya／lyenya「你的」。但本课练习不用这些。",
+   "objectives": [
+    "知道 tienya／lenya 是外推",
+    "知道练习不考它们"
+   ],
+   "rules": [
+    {
+     "id": "r-ep80",
+     "headZh": "可证范围",
+     "bodyZh": "menya（复 menyë）与 ninya 是这类所有格代词仅有的可证形式。",
+     "en": "remain the sole attested possessive pronouns of such a form",
+     "zh": "是这类所有格代词仅有的可证形式。"
+    },
+    {
+     "id": "r-ep81",
+     "headZh": "可推",
+     "bodyZh": "但显然也可有 tienya「their(s)」（参《主祷文》的与格 tien）与 lenya「your(s)」。",
+     "en": "evidently we could also have pronouns like tienya",
+     "zh": "显然也可有 tienya 这类代词。"
+    },
+    {
+     "id": "r-ep82",
+     "headZh": "lyenya",
+     "bodyZh": "若要明确单数，则作 lyenya「thy, thine」。",
+     "en": "or lyenya if the pronoun is to be distinctly singular",
+     "zh": "或 lyenya，若要明确单数。"
+    },
+    {
+     "id": "r-ep83",
+     "headZh": "练习范围",
+     "bodyZh": "由于作者初写本课程时这些独立所有格代词还远未被理解（其实几乎无可证例），它们不出现在任何练习里。",
+     "en": "they do not appear in any of the exercises",
+     "zh": "它们不出现在任何练习里。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "在练习里用 tienya／lenya 答题",
+     "right": "练习不涉及这些形式",
+     "whyZh": "原文明确：they do not appear in any of the exercises。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "本节的收束",
+     "bodyZh": "从 elyë（可证）一路推到 lyenya（纯外推），作者的标注越来越谨慎。读这一节，重点不是记形式，而是学会分辨「可证／外推」。"
+    }
+   ],
+   "recapZh": "tienya、lenya／lyenya；练习不考。",
+   "selfCheckZh": [
+    {
+     "qZh": "「他们的」独立所有格？",
+     "aZh": "Tienya（外推）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "emphatic-pronouns",
+    "unitIds": [
+     18
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "qw-ma",
+   "sourceSectionId": "question-words",
+   "titleZh": "28 · 疑问元素 ma-",
+   "leadZh": "英文疑问词多以 wh- 起首，托尔金的精灵语里对应的是 ma-。他自己称其为「Eldarin interrogative element ma, man」。",
+   "objectives": [
+    "知道 ma- 是疑问标记",
+    "知道它可能借自闪语"
+   ],
+   "rules": [
+    {
+     "id": "r-qw1",
+     "headZh": "类比",
+     "bodyZh": "英文疑问词多以 wh- 起首：who、what、where、which、whose、why。",
+     "en": "show an initial wh-",
+     "zh": "以 wh- 起首。"
+    },
+    {
+     "id": "r-qw2",
+     "headZh": "精灵语对应",
+     "bodyZh": "在托尔金的精灵语里，起首的 ma- 有类似的含义。",
+     "en": "an initial ma- has similar connotations",
+     "zh": "起首的 ma- 有类似含义。"
+    },
+    {
+     "id": "r-qw3",
+     "headZh": "托尔金的说法",
+     "bodyZh": "他称之为「Eldarin interrogative element ma, man」（PM:357）。",
+     "en": "Eldarin interrogative element",
+     "zh": "精灵语疑问元素。"
+    },
+    {
+     "id": "r-qw4",
+     "headZh": "来源猜测",
+     "bodyZh": "托尔金似乎把这个「元素」借自闪语：希伯来语 ma 或 man 即「what?」。",
+     "en": "Tolkien seems to have borrowed from Semitic languages",
+     "zh": "他似乎借自闪语。"
+    },
+    {
+     "id": "r-qw5",
+     "headZh": "题外例",
+     "bodyZh": "《出埃及记》16 章的 manna 即得名于问句 man hu'?「这是什么？」——以色列人在旷野忽然见到这种甜食时的自然反应。",
+     "en": "a natural question when the Israelites suddenly found this sweet edible stuff on the ground",
+     "zh": "以色列人忽然在地上见到这种甜食时的自然反应。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 ma- 只能构成「什么」",
+     "right": "它是一整个疑问词族的词头",
+     "whyZh": "原文把它称作 element，并说其他疑问词也由它构成（见本节末段）。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "先给「词头」而非词表",
+     "bodyZh": "作者不先列疑问词，而先给 ma- 这个元素。因为昆雅的疑问词材料零碎，抓住词头比背残缺的词表更有用。"
+    }
+   ],
+   "recapZh": "疑问元素 ma-（如闪语 ma／man）。",
+   "selfCheckZh": [
+    {
+     "qZh": "昆雅疑问词的共同词头？",
+     "aZh": "ma-。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "question-words",
+    "unitIds": [
+     0
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "qw-man",
+   "sourceSectionId": "question-words",
+   "titleZh": "29 · man「谁」",
+   "leadZh": "最可证的是 man「who」：《Namárië》的「Sí man i yulma nin enquantuva?」与《Markirya》的「man tiruva fána cirya?」。它或许能接格词尾，故有属格 mano。",
+   "objectives": [
+    "能背两个例句",
+    "知道 mano「谁的」是推测"
+   ],
+   "rules": [
+    {
+     "id": "r-qw6",
+     "headZh": "材料状况",
+     "bodyZh": "我们没有完整的精灵语疑问词表，但已刊材料里有一些。",
+     "en": "We have nothing like a complete list of Elvish interrogative words",
+     "zh": "我们没有完整的精灵语疑问词表。"
+    },
+    {
+     "id": "r-qw7",
+     "headZh": "man",
+     "bodyZh": "最可证的是「who」一词 man，见于《Namárië》中段：Sí man i yulma nin enquantuva?「Now who will refill the cup for me?」",
+     "en": "Sí man i yulma nin enquantuva?",
+     "zh": "现在谁为我续满杯？",
+     "exampleZh": "Sí man i yulma nin enquantuva?"
+    },
+    {
+     "id": "r-qw8",
+     "headZh": "《Markirya》",
+     "bodyZh": "man 在《Markirya》诗里反复出现，如 man tiruva fána cirya?「Who will heed a white ship?」。",
+     "en": "man tiruva fána cirya",
+     "zh": "谁将注视一只白船？",
+     "exampleZh": "man tiruva fána cirya"
+    },
+    {
+     "id": "r-qw9",
+     "headZh": "异读",
+     "bodyZh": "五次出现中有一次印作 men，但这必是手稿误读，没有语法变异能解释它。",
+     "en": "this must be a misreading of Tolkien's manuscript",
+     "zh": "这必是手稿误读。"
+    },
+    {
+     "id": "r-qw10",
+     "headZh": "属格",
+     "bodyZh": "man 或许能接格词尾，故可有属格 mano「whose?」。",
+     "en": "the genitive form mano",
+     "zh": "属格形式 mano。",
+     "exampleZh": "mano"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 men 当作 man 的合法变体",
+     "right": "那是印本误读",
+     "whyZh": "原文说 there seems to be no grammatical variation that could explain the variant form。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "两个来源，同一形式",
+     "bodyZh": "诗歌与祷词是昆雅疑问词的主要来源。《Namárië》给 man，《Markirya》再证一次。材料虽少，但形式稳定。"
+    }
+   ],
+   "recapZh": "man＝who；Sí man i yulma nin enquantuva?；mano＝whose。",
+   "selfCheckZh": [
+    {
+     "qZh": "「谁将注视一只白船？」？",
+     "aZh": "Man tiruva fána cirya?"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "question-words",
+    "unitIds": [
+     1
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "qw-mana",
+   "sourceSectionId": "question-words",
+   "titleZh": "30 · mana「什么」与 manan「为什么」",
+   "leadZh": "「什么」的问题更麻烦：早期材料让 man 兼指 what，后期材料出现 mana。作者倾向认为 mana 就是「what」，句中没有系词。",
+   "objectives": [
+    "知道 mana＝what",
+    "知道 manan 是权宜说法"
+   ],
+   "rules": [
+    {
+     "id": "r-qw11",
+     "headZh": "问题",
+     "bodyZh": "若 man 是「who」（指人），那「what」（指物）是哪个词？",
+     "en": "what is the word for",
+     "zh": "「什么」是哪个词？"
+    },
+    {
+     "id": "r-qw12",
+     "headZh": "早期：man 兼指",
+     "bodyZh": "在 LR:58 里，托尔金显然让 man 兼表「what?」：Man-ië? 译作「what is it?」。",
+     "en": "Tolkien apparently lets man cover",
+     "zh": "托尔金显然让 man 兼表……"
+    },
+    {
+     "id": "r-qw13",
+     "headZh": "但不像《魔戒》风格",
+     "bodyZh": "这不太像《魔戒》风格的昆雅：词尾 -ië 表「is」几乎肯定后来被放弃。",
+     "en": "was almost certainly abandoned later",
+     "zh": "几乎肯定后来被放弃。"
+    },
+    {
+     "id": "r-qw14",
+     "headZh": "《Fíriel 之歌》",
+     "bodyZh": "《Fíriel 之歌》也用 man 表「what」：Man...antáva nin Ilúvatar?「What will the Father give me?」。",
+     "en": "Man...antáva nin Ilúvatar",
+     "zh": "天父将给我什么？"
+    },
+    {
+     "id": "r-qw15",
+     "headZh": "后期：mana",
+     "bodyZh": "转向《魔戒》之后的材料，有问句 mana i·coimas Eldaron?，译作「what is the coimas of the Eldar?」（PM:395）。",
+     "en": "what is the coimas",
+     "zh": "精灵的 coimas 是什么？"
+    },
+    {
+     "id": "r-qw16",
+     "headZh": "两种分析",
+     "bodyZh": "mana 可分析为 ma「what」＋系词 ná「is」（缩作 -na）；但 ma 已知另有至少两个意义，故作者怀疑此说。",
+     "en": "there is no explicit copula",
+     "zh": "没有显式系词。"
+    },
+    {
+     "id": "r-qw17",
+     "headZh": "作者的判断",
+     "bodyZh": "更可能 mana 本身就是「what」一词，句中没有显式系词。",
+     "en": "mana is simply a word for",
+     "zh": "mana 本身就是「什么」一词。"
+    },
+    {
+     "id": "r-qw18",
+     "headZh": "manan",
+     "bodyZh": "已刊材料没有「why?」，但有一种建议：给 mana 加与格词尾 -n，得 manan，字面「what for?」。",
+     "en": "the resulting form manan meaning literally",
+     "zh": "所得形式 manan 字面意为……",
+     "exampleZh": "manan"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 Man-ië? 当标准昆雅",
+     "right": "那是早期形式，-ië 后来被放弃",
+     "whyZh": "原文：This is hardly LotR-style Quenya。"
+    },
+    {
+     "wrong": "把 mana 拆成 ma ＋ na",
+     "right": "作者倾向 mana 是单词「什么」",
+     "whyZh": "原文说 I tend to doubt that Tolkien intended it to mean what? as well（指 ma）。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "作者如何取舍",
+     "bodyZh": "同一意义有 man、mana 两种材料，时代不同。作者的策略是：以晚期材料为准（mana），早期材料只作历史说明。这也是全书的通则。"
+    }
+   ],
+   "recapZh": "mana＝what；manan＝why（权宜）。",
+   "selfCheckZh": [
+    {
+     "qZh": "「什么」？",
+     "aZh": "Mana。"
+    },
+    {
+     "qZh": "「为什么」的权宜说法？",
+     "aZh": "Manan。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "question-words",
+    "unitIds": [
+     2
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "qw-mana-demon",
+   "sourceSectionId": "question-words",
+   "titleZh": "31 · mana 与指示词同形",
+   "leadZh": "mana 形式上像 sina、tana、yana。故 vanda mana? 或为「什么誓言／哪个誓言」，而 mana vanda? 更像「誓言是什么」。",
+   "objectives": [
+    "能区分两种词序",
+    "知道 mana 形似指示词"
+   ],
+   "rules": [
+    {
+     "id": "r-qw19",
+     "headZh": "形似",
+     "bodyZh": "就形式而言，mana 像指示词 sina「this」、tana「that」、yana「that (yonder)」。",
+     "en": "mana resembles the demonstratives sina",
+     "zh": "mana 形似指示词 sina 等。"
+    },
+    {
+     "id": "r-qw20",
+     "headZh": "vanda sina",
+     "bodyZh": "既然 vanda sina 意为「this oath」（UT:305, 317），那么 vanda mana? 或许意为「what oath?」或「which oath?」。",
+     "en": "vanda mana?",
+     "zh": "什么誓言？／哪个誓言？",
+     "exampleZh": "vanda mana?"
+    },
+    {
+     "id": "r-qw21",
+     "headZh": "语序差别",
+     "bodyZh": "而 Mana vanda? 更可能意为「what is an oath?」，参照 mana i·coimas?「what is the life-bread?」。",
+     "en": "Mana vanda? would rather mean",
+     "zh": "Mana vanda? 更可能意为……",
+     "exampleZh": "Mana vanda?"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 vanda mana? 与 mana vanda? 当同义",
+     "right": "前者问「哪个誓言」，后者问「誓言是什么」",
+     "whyZh": "原文用 rather mean 明确区分两种语序的意义。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "语序承载疑问焦点",
+     "bodyZh": "mana 在前是谓语问「是什么」，mana 在后是定语问「哪一个」。这与形容词后置的一般语序一致。"
+    }
+   ],
+   "recapZh": "vanda mana?＝哪个誓言；mana vanda?＝誓言是什么。",
+   "selfCheckZh": [
+    {
+     "qZh": "「哪个誓言？」？",
+     "aZh": "Vanda mana?"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "question-words",
+    "unitIds": [
+     3
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "qw-manen",
+   "sourceSectionId": "question-words",
+   "titleZh": "32 · manen「如何」与其余格形式",
+   "leadZh": "manen「how」含工具格词尾 -nen，加在疑问元素 ma- 上，字面是「by what?」。同理可推 massë、mallo、manna。",
+   "objectives": [
+    "能写 manen",
+    "知道 massë／mallo／manna 是外推"
+   ],
+   "rules": [
+    {
+     "id": "r-qw22",
+     "headZh": "出处",
+     "bodyZh": "提供上例的同一份晚期文献里还有「how?」一词，见于问句 manen lambë Quendion ahyanë?「How did the language of Elves change?」（PM:395）。",
+     "en": "How did the language of Elves change?",
+     "zh": "精灵的语言是如何变化的？"
+    },
+    {
+     "id": "r-qw23",
+     "headZh": "构成",
+     "bodyZh": "manen 似含工具格词尾 -nen，加在疑问元素 ma- 上（PM:347）。",
+     "en": "seems to include the instrumental ending -nen",
+     "zh": "似含工具格词尾 -nen。"
+    },
+    {
+     "id": "r-qw24",
+     "headZh": "字面义",
+     "bodyZh": "manen 字面可作「what by?」，甚至可能是 mananen 的缩合。",
+     "en": "it may even be a contraction of mananen",
+     "zh": "甚至可能是 mananen 的缩合。"
+    },
+    {
+     "id": "r-qw25",
+     "headZh": "推广",
+     "bodyZh": "其他格词尾大概也能加到 ma- 上：位格 massë?「where?」、离格 mallo「whence?」、向格 manna「whither?」。",
+     "en": "Perhaps we can have locative massë?",
+     "zh": "或许可有位格 massë？",
+     "exampleZh": "massë／mallo／manna"
+    },
+    {
+     "id": "r-qw26",
+     "headZh": "练习范围",
+     "bodyZh": "但本课练习只涉及可证形式 man、mana、manen。",
+     "en": "only involve the attested forms man",
+     "zh": "只涉及可证形式 man 等。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 massë／mallo／manna 当已证形式",
+     "right": "它们只是按格词尾外推",
+     "whyZh": "原文用 Perhaps，并说 exercises only involve the attested forms。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一个词头，一套格",
+     "bodyZh": "ma- 能接格词尾，这是本节最有生产力的一点：知道 -nen 得 manen，就能推出 massë、mallo、manna。但记住作者标了 Perhaps。"
+    }
+   ],
+   "recapZh": "manen＝how（ma- ＋ -nen）；massë／mallo／manna 为外推。",
+   "selfCheckZh": [
+    {
+     "qZh": "manen 由什么构成？",
+     "aZh": "疑问元素 ma- ＋工具格词尾 -nen。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "question-words",
+    "unitIds": [
+     4
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pp-def",
+   "sourceSectionId": "postpositions",
+   "titleZh": "33 · 介词与后置词",
+   "leadZh": "介词（preposition）位于所连词之前：nu alda「under a tree」，不是 **alda nu。诗歌里语序可乱，但这里讲的是常规语序。",
+   "objectives": [
+    "知道介词前置",
+    "知道诗歌语序不算"
+   ],
+   "rules": [
+    {
+     "id": "r-pp1",
+     "headZh": "定义",
+     "bodyZh": "介词之所以叫 preposition，是因为它们通常「位于」（positioned）所连词之前（pre）。",
+     "en": "Prepositions are so called because they are typically",
+     "zh": "介词之所以得名，是因为它们通常位于……之前。"
+    },
+    {
+     "id": "r-pp2",
+     "headZh": "例",
+     "bodyZh": "昆雅与英文一样说 nu alda「under a tree」，而非 **alda nu。",
+     "en": "one would say nu alda",
+     "zh": "人们说 nu alda。",
+     "exampleZh": "nu alda"
+    },
+    {
+     "id": "r-pp3",
+     "headZh": "诗歌例外",
+     "bodyZh": "诗歌里语序可能很乱，如《魔戒》版《Namárië》有 Vardo tellumar nu luini「Varda's domes under blue」。",
+     "en": "Vardo tellumar nu luini",
+     "zh": "Varda 的穹顶在蔚蓝之下。"
+    },
+    {
+     "id": "r-pp4",
+     "headZh": "讨论范围",
+     "bodyZh": "这里讨论的是正常、非诗歌的语序。",
+     "en": "Here, we are rather discussing the normal, non-poetic word order",
+     "zh": "这里讨论正常、非诗歌的语序。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "拿诗歌语序当语法依据",
+     "right": "以常规语序为准",
+     "whyZh": "原文专门声明讨论范围排除诗歌语序。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么先讲介词",
+     "bodyZh": "后置词的定义全靠与介词对照：功能相同，位置相反。先把介词的位置钉住，下一段的后置词才有参照。"
+    }
+   ],
+   "recapZh": "介词前置：nu alda。",
+   "selfCheckZh": [
+    {
+     "qZh": "「在树下」？",
+     "aZh": "Nu alda。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "postpositions",
+    "unitIds": [
+     0
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pp-ya",
+   "sourceSectionId": "postpositions",
+   "titleZh": "34 · yá「ago」：疑似后置词",
+   "leadZh": "后置词功能同介词，但位于所连词之后。英文 ago 就是后置词；昆雅有个只注明「ago」的词 yá，故「三年前」可作 neldë loar yá。",
+   "objectives": [
+    "知道后置词的定义",
+    "能写 neldë loar yá"
+   ],
+   "rules": [
+    {
+     "id": "r-pp5",
+     "headZh": "定义",
+     "bodyZh": "还有后置词（postpositions），功能与介词相似，但位于所连词之后（post）。",
+     "en": "but coming after (post) the word or words they connect with",
+     "zh": "但位于所连词之后。"
+    },
+    {
+     "id": "r-pp6",
+     "headZh": "英文类比",
+     "bodyZh": "英文 ago 可视为后置词，因为它出现在「three years ago」这类短语末尾。",
+     "en": "the word ago may be seen as a postposition",
+     "zh": "ago 可视为后置词。"
+    },
+    {
+     "id": "r-pp7",
+     "headZh": "别的语言",
+     "bodyZh": "有些语言改用介词，说成类似「before three years」。",
+     "en": "expressing this meaning by a wording similar to",
+     "zh": "用类似……的说法表达此义。"
+    },
+    {
+     "id": "r-pp8",
+     "headZh": "yá",
+     "bodyZh": "《词源》里提到一个只注为「ago」的词：Yá。",
+     "en": "is mentioned in the Etymologies: Yá",
+     "zh": "《词源》里提到：Yá。",
+     "exampleZh": "yá"
+    },
+    {
+     "id": "r-pp9",
+     "headZh": "推断",
+     "bodyZh": "此外没有别的提及或例证；既只有英文注解可依，我们便假定 yá 在昆雅里也是后置词。",
+     "en": "we may assume that yá is a postposition in Quenya as well",
+     "zh": "我们假定 yá 在昆雅里也是后置词。"
+    },
+    {
+     "id": "r-pp10",
+     "headZh": "造句",
+     "bodyZh": "如此「three years ago」可直接译作 neldë loar yá。",
+     "en": "neldë loar yá",
+     "zh": "三年前。",
+     "exampleZh": "neldë loar yá"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 yá 放在数词前（✗ yá neldë loar）",
+     "right": "后置：neldë loar yá",
+     "whyZh": "原文说 yá 假定为后置词，并给出 neldë loar yá 的译法。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "「假定」的分量",
+     "bodyZh": "yá 只有一个词条、一个英文注解。作者明说 assume。所以这是可用的写法，但不是可证的语法。"
+    }
+   ],
+   "recapZh": "yá＝ago（后置）；neldë loar yá。",
+   "selfCheckZh": [
+    {
+     "qZh": "「三年前」？",
+     "aZh": "Neldë loar yá。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "postpositions",
+    "unitIds": [
+     1
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pp-pella",
+   "sourceSectionId": "postpositions",
+   "titleZh": "35 · pella「beyond」：真正的后置词",
+   "leadZh": "pella 出现在真实文本里，且确为后置词：《Namárië》的 Andúnë pella「beyond the West」，《Markirya》的 Elenillor pella「from beyond the stars」。",
+   "objectives": [
+    "能写 Andúnë pella",
+    "知道 pella 接离格"
+   ],
+   "rules": [
+    {
+     "id": "r-pp11",
+     "headZh": "更早阶段",
+     "bodyZh": "更早阶段精灵语显然有很多后置词：托尔金说最古老时期「介词性」成分通常「附着」在名词词干上（WJ:368），大概指作后缀。",
+     "en": "Many of the Quenya case endings Tolkien clearly meant to represent originally independent elements",
+     "zh": "许多昆雅格词尾原本是独立成分。"
+    },
+    {
+     "id": "r-pp12",
+     "headZh": "格词尾的来源",
+     "bodyZh": "例如向格词尾 -nna 显然与介词 na 或 ana「to, towards」有关。",
+     "en": "the ending -nna for allative is obviously related to the preposition na or ana",
+     "zh": "-nna 显然与介词 na／ana 有关。"
+    },
+    {
+     "id": "r-pp13",
+     "headZh": "仍作独立词",
+     "bodyZh": "但昆雅至少还有几个未演变为格词尾、仍作独立词的后置词。",
+     "en": "still appeared as independent words",
+     "zh": "仍作独立词出现。"
+    },
+    {
+     "id": "r-pp14",
+     "headZh": "pella",
+     "bodyZh": "yá 只在《词源》里被提及，而 pella「beyond」出现在真实昆雅文本里，且确似后置词。",
+     "en": "appears in actual Quenya texts",
+     "zh": "出现在真实昆雅文本里。"
+    },
+    {
+     "id": "r-pp15",
+     "headZh": "《Namárië》",
+     "bodyZh": "《Namárië》有 Andúnë pella「beyond the West」；这显然不只是诗歌语序，因为托尔金在散文版里也没改动这个短语。",
+     "en": "Andúnë pella",
+     "zh": "在西方之外。",
+     "exampleZh": "Andúnë pella"
+    },
+    {
+     "id": "r-pp16",
+     "headZh": "Andúnë",
+     "bodyZh": "Andúnë「West」是更常见的 Númen 的替代词，也可释为「sunset」甚至「evening」。",
+     "en": "Andúnë",
+     "zh": "西方（＝Númen）。",
+     "exampleZh": "Andúnë／Númen"
+    },
+    {
+     "id": "r-pp17",
+     "headZh": "《Markirya》",
+     "bodyZh": "pella 在《Markirya》里也作后置词，且与复数离格名词相连：Elenillor pella 译作「from beyond the stars」（字面「from stars beyond」）。",
+     "en": "Elenillor pella is translated",
+     "zh": "Elenillor pella 译作「从群星之外」。",
+     "exampleZh": "Elenillor pella"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 Andúnë pella 只是诗歌倒装",
+     "right": "散文版也保留此语序",
+     "whyZh": "原文：Tolkien did not alter this phrase in his prose version of the song。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "两条证据互相加强",
+     "bodyZh": "《Namárië》（诗歌）与《Markirya》（诗歌）都用 pella 后置。作者特意用「散文版未改」来排除「诗歌倒装」这个解释——这是本节最有力的一步。"
+    }
+   ],
+   "recapZh": "pella 后置；Andúnë pella、Elenillor pella。",
+   "selfCheckZh": [
+    {
+     "qZh": "「在西方之外」？",
+     "aZh": "Andúnë pella。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "postpositions",
+    "unitIds": [
+     2
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pp-pella-prep",
+   "sourceSectionId": "postpositions",
+   "titleZh": "36 · pella 能作介词吗：pell' Ëa 与 han",
+   "leadZh": "旧版说「无法判断」。现在知道托尔金在一份草稿里写过 i ëa pell' Ëa「who is beyond Ëa」，但随即改用 han。作者仍建议 pella 只作后置词。",
+   "objectives": [
+    "知道 pell' Ëa 这条例外",
+    "知道 han 是另一个「beyond」"
+   ],
+   "rules": [
+    {
+     "id": "r-pp18",
+     "headZh": "旧版的说法",
+     "bodyZh": "作者在旧版里写：pella 能否像英文 beyond 一样作介词，无法判断。",
+     "en": "is impossible to say",
+     "zh": "无法判断。"
+    },
+    {
+     "id": "r-pp19",
+     "headZh": "新证据",
+     "bodyZh": "现在知道，托尔金在一份昆雅《主祷文》草稿里确实用过 i ëa pell' Ëa，显然意为「who is beyond Ëa」（即 Eä，受造的宇宙；VT43:13）。",
+     "en": "i ëa pell' Ëa",
+     "zh": "（草稿中的介词用法）",
+     "exampleZh": "i ëa pell' Ëa"
+    },
+    {
+     "id": "r-pp20",
+     "headZh": "但被放弃",
+     "bodyZh": "但这只是实验性措辞，托尔金很快放弃，把 pell' 换成 han——显然是另一个表「beyond」的词。",
+     "en": "he replaced pell' with han",
+     "zh": "他把 pell' 换成 han。",
+     "exampleZh": "han"
+    },
+    {
+     "id": "r-pp21",
+     "headZh": "为什么改",
+     "bodyZh": "也许正因为他想让 pella 只作后置词，而 i ëa Eä pella 读起来别扭，只好另找一词。",
+     "en": "he wanted pella to be a postposition only",
+     "zh": "他想让 pella 只作后置词。"
+    },
+    {
+     "id": "r-pp22",
+     "headZh": "另一个 beyond",
+     "bodyZh": "还有一个表「beyond」的词，即比较用的 lá，它倒确实像介词（pella 的末音节也许就与这个 lá 有关）。",
+     "en": "does seem to be a preposition",
+     "zh": "确实像介词。"
+    },
+    {
+     "id": "r-pp23",
+     "headZh": "作者的建议",
+     "bodyZh": "即便如此，作者仍建议 pella 只作后置词，沿用《Namárië》与《Markirya》的语序。",
+     "en": "I would use pella as a postposition only",
+     "zh": "我建议 pella 只作后置词。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "用 ✗ pella Andúnë",
+     "right": "Andúnë pella",
+     "whyZh": "原文明确建议 pella 只作后置词，介词位用 lá 或 han。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一条「反例」的处理",
+     "bodyZh": "材料里确实有 pell' 前置的例子，作者没有隐瞒，而是说明它为何不算数（实验性、被作者自己改掉）。这种处理方式值得学：不删反例，而是解释它的地位。"
+    }
+   ],
+   "recapZh": "pell' Ëa 是实验草稿；han／lá 才是介词位；pella 只作后置词。",
+   "selfCheckZh": [
+    {
+     "qZh": "托尔金后来用什么替换 pell'？",
+     "aZh": "Han。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "postpositions",
+    "unitIds": [
+     3
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "summary",
+   "sourceSectionId": "postpositions",
+   "kind": "summary",
+   "titleZh": "37 · 本课小结",
+   "leadZh": "四块收成一张清单：命令句代词、强调代词、疑问词、后置词。英文小结逐字取自原文。",
+   "objectives": [
+    "能给命令句加 -t／-l",
+    "能给 á 挂宾语代词",
+    "能写 inyë／elyë／elmë／elvë",
+    "能用 man／mana／manen 提问",
+    "能用 pella、yá 作后置词"
+   ],
+   "summaryEn": "Summary of Lesson Nineteen: Imperative phrases may in various ways include pronouns. If an order has one single addressee, the ending -t (basically meaning \"thou\") may be added to the verb of the imperative phrase; if several people are asked to do something, the ending -l (basically meaning \"you\", plural) may be used instead. Pronouns denoting the direct or indirect object of the imperative may glue themselves to the imperative particle á. – The (long forms of the) pronominal subject endings that may be suffixed to verbs may also be used to derive independent emphatic pronouns by adding the relevant ending to e-. For instance, the subject ending -lyë \"you, thou\" corresponds to the independent emphatic pronoun elyë \"(even) thou\". The emphatic word for \"I\", corresponding to the ending -nyë, however shows i- rather than e- as its initial vowel: inyë. – Quenya interrogative words apparently show an initial ma-; attested examples are man \"who\", mana \"what\" and manen \"how\". – Postpositions are similar in function to prepositions, but follow rather than precede the word(s) they connect with. The word pella \"beyond\" seems to function as a postposition; Namárië has Andúnë pella (not ?pella Andúnë) for \"beyond the West\". The word yá is glossed \"ago\" (Etym, entry YA), so perhaps it functions as a postposition just like its English gloss.",
+   "summaryZh": "第十九课小结：命令句可以以多种方式包含代词。若命令只有一个受话人，可给命令句的动词加词尾 -t（本义「thou」）；若有多人被要求做事，则改用词尾 -l（本义复数「you」）。指命令的直接或间接宾语的代词，可以粘在命令助词 á 上。——可粘在动词上的代词主语词尾（的长形式），也可用来派生独立的强调代词：把相应的词尾加到 e- 上。例如主语词尾 -lyë「you, thou」对应独立强调代词 elyë「(even) thou」。而对应词尾 -nyë 的「我」的强调词，首元音却是 i- 而非 e-：inyë。——昆雅疑问词显然以 ma- 起首；可证例有 man「who」、mana「what」、manen「how」。——后置词功能与介词相似，但跟在所连词之后而非之前。pella「beyond」似作后置词；《Namárië》有 Andúnë pella（而非 ?pella Andúnë）表「beyond the West」。yá 注为「ago」（《词源》YA 条），故它或许像英文 ago 一样作后置词。",
+   "formulaZh": [
+    "命令句主语代词：heca! → hecat!（单）／hecal!（复）；a laitat!／a laital!。",
+    "基础动词接词尾时 -ë 回 -i：áva carit!／áva caril!；á tulit!／á tulil!。",
+    "命令句宾语代词：á tirë te ＝ átë tirë!；ámen linda!；ánin carë ta! ＝ áta carë nin!；ámë tirë!／ávamë tirë!。",
+    "强调代词：inyë、elyë、elmë（排除）、elvë（包含）、?entë、?etyë／?eccë、?eryë。",
+    "强调代词接格：Emmen／elmen、inyen；复数代词后动词加 -r（elmë hiruvar）。",
+    "强调所有格：elya、erya、elva、elma、inya（撞形，慎用）；或与格＋-ya：menya／menyë、ninya、tienya、lenya。",
+    "疑问词：man「who」、mana「what」、manen「how」（ma- ＋ -nen）；mano「whose」、manan「why」（外推）。",
+    "后置词：neldë loar yá「三年前」、Andúnë pella「在西方之外」、Elenillor pella「从群星之外」。"
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 ✗ áva carët!",
+     "right": "áva carit!",
+     "whyZh": "接词尾时 -ë 回到 -i。"
+    },
+    {
+     "wrong": "写 **elmë hiruva",
+     "right": "elmë hiruvar",
+     "whyZh": "复数代词后动词带 -r。"
+    },
+    {
+     "wrong": "用 ✗ pella Andúnë",
+     "right": "Andúnë pella",
+     "whyZh": "pella 是后置词。"
+    }
+   ],
+   "recapZh": "hecat／hecal；átë tirë；inyë／elyë／elmë／elvë；man／mana／manen；pella、yá。",
+   "selfCheckZh": [
+    {
+     "qZh": "「别看我们！」？",
+     "aZh": "Ávamë tirë!"
+    },
+    {
+     "qZh": "「我们会寻见」的强调写法？",
+     "aZh": "Elmë hiruvar。"
+    },
+    {
+     "qZh": "「什么」？",
+     "aZh": "Mana。"
+    },
+    {
+     "qZh": "「在西方之外」？",
+     "aZh": "Andúnë pella。"
+    }
+   ]
+  },
+  {
+   "sectionId": "exercises",
+   "sourceSectionId": "exercises",
+   "titleZh": "38 · 练习 A–P",
+   "leadZh": "A–H 译成英语，I–P 译成昆雅。答案逐字取自 keys.rtf，可用工作台核对。",
+   "objectives": [
+    "能独立完成 A–P",
+    "能用 keys 逐题核对",
+    "能识别 -t／-l 的受话人数"
+   ],
+   "rules": [
+    {
+     "id": "r-ex19-1",
+     "headZh": "强调的表示法",
+     "bodyZh": "托尔金译强调代词时有时加词（elyë＝even thou）。但本课答案与「译成昆雅」部分改用更简单的办法：把强调代词排成斜体。",
+     "en": "we have adopted the simpler system of italicizing emphatic pronouns",
+     "zh": "我们改用更简单的办法：把强调代词排成斜体。"
+    },
+    {
+     "id": "r-ex19-2",
+     "headZh": "题面提示",
+     "bodyZh": "L 明确要求「对多人说」，M 明确要求「只对一人说」——受话人数决定用 -l 还是 -t。",
+     "en": "an order explicitly addressed to several persons",
+     "zh": "明确对多人说的命令。"
+    },
+    {
+     "id": "r-ex19-3",
+     "headZh": "后置词",
+     "bodyZh": "N、O、P 都用到后置词：oronti pella「山之外」、ando pella「门之外」、otso auri yá「七天前」。",
+     "en": "seven days ago",
+     "zh": "七天前。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "在 L 里用 -t（单人）",
+     "right": "L 用 -l：ámen antal i limpë!",
+     "whyZh": "题面写明 an order explicitly addressed to several persons。"
+    },
+    {
+     "wrong": "在 M 里用 -l",
+     "right": "M 用 -t：á antat i limpë elmen",
+     "whyZh": "题面写明 This order is explicitly addressed to one person only。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "做题顺序建议",
+     "bodyZh": "先定受话人数（决定 -t／-l），再定宾语代词放哪（粘 á 还是独立），最后处理后置词与时间短语。A–H 反向读时，也按这三步拆。"
+    }
+   ],
+   "recapZh": "受话人数决定 -t／-l；宾语代词或粘 á 或独立。",
+   "selfCheckZh": [
+    {
+     "qZh": "「给我们酒！」（对多人）？",
+     "aZh": "Ámen antal i limpë!"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "exercises",
+    "unitIds": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "vocabulary",
+   "sourceSectionId": "vocabulary",
+   "titleZh": "39 · 课末词汇",
+   "leadZh": "本课 13 段词汇：两个序数、四个强调代词、三个疑问词、两个后置词、írë，以及一条关于 írë 的长注。",
+   "objectives": [
+    "能读 otsëa、toltëa",
+    "能读 inyë、elyë、elmë、elvë",
+    "能读 man、mana、manen、pella、yá、írë"
+   ],
+   "rules": [
+    {
+     "id": "r-v19-1",
+     "headZh": "两个序数",
+     "bodyZh": "otsëa「seventh」、toltëa「eighth」；托尔金晚期一度改用 toldëa，与 toldo「8」相配，但本课练习用 toltëa。",
+     "en": "otsëa",
+     "zh": "第七。",
+     "exampleZh": "otsëa／toltëa／toldëa"
+    },
+    {
+     "id": "r-v19-2",
+     "headZh": "四个强调代词",
+     "bodyZh": "inyë「I」、elyë「you, thou」、elmë「we（排除）」、elvë「we（包含）」；后两个是外推形式。",
+     "en": "elmë",
+     "zh": "我们（排除，强调式）。",
+     "exampleZh": "inyë／elyë／elmë／elvë"
+    },
+    {
+     "id": "r-v19-3",
+     "headZh": "三个疑问词",
+     "bodyZh": "man「who?」、mana「what?」、manen「how?」。",
+     "en": "manen",
+     "zh": "如何。",
+     "exampleZh": "man／mana／manen"
+    },
+    {
+     "id": "r-v19-4",
+     "headZh": "两个后置词",
+     "bodyZh": "pella「beyond」、yá「ago」，二者都作后置词。",
+     "en": "pella",
+     "zh": "在……之外。",
+     "exampleZh": "pella／yá"
+    },
+    {
+     "id": "r-v19-5",
+     "headZh": "írë 不是疑问词",
+     "bodyZh": "írë 注为「when」，但它（几乎肯定）不是疑问词：不能说 **írë tuluvalyë? 表「你什么时候来？」。",
+     "en": "not an interrogative word, despite its English gloss",
+     "zh": "尽管英文注为 when，它不是疑问词。"
+    },
+    {
+     "id": "r-v19-6",
+     "headZh": "írë 的用法",
+     "bodyZh": "írë 用于引出「某事发生的时间」，即关系性的「当……时」，见于《Fíriel 之歌》。",
+     "en": "it introduces information about when something occurs",
+     "zh": "它引出关于某事何时发生的信息。"
+    },
+    {
+     "id": "r-v19-7",
+     "headZh": "írë 的词源猜测",
+     "bodyZh": "有人猜 í- 与冠词 i 有关，-rë 等于 ré「24 小时的一天」；若如此，írë 本义是「那一天」。",
+     "en": "the final -rë can be equated with the word ré",
+     "zh": "末音节 -rë 可等同于 ré 一词。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "用 **írë tuluvalyë? 问「你何时来」",
+     "right": "írë 不用于直接疑问；可绕说 lú mana(ssë)?",
+     "whyZh": "原文明确：can hardly be translated **írë tuluvalyë?，且 No Quenya word for when? as a genuine question-word has been published。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么 írë 值得一条长注",
+     "bodyZh": "因为它的英文注解 when 极易误导。作者用整段说明：它是关系副词，不是疑问词。这是本课最实用的一条「防错」。"
+    }
+   ],
+   "recapZh": "otsëa、toltëa、inyë、elyë、elmë、elvë、man、mana、manen、pella、yá、írë。",
+   "selfCheckZh": [
+    {
+     "qZh": "「第八」？",
+     "aZh": "Toltëa（或 toldëa）。"
+    },
+    {
+     "qZh": "「七天前」？",
+     "aZh": "Otso auri yá。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "vocabulary",
+    "unitIds": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "labelZh": "课文"
+   }
+  }
+ ]
+}

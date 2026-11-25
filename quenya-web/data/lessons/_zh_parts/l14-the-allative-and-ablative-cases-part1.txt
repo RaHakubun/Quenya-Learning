@@ -1,0 +1,37 @@
+向格与离格
+
+上节与格 -n 有时译英语 to，如动名词 enyalien =「去追忆」（UT:317）；但此乃较抽象的 to；与格亦常 for 或仅靠词序。昆雅另有专表 toward「向」之意者：拉丁术语 allative，尾 -nna。UT 索引 Eldanna 标明「朝向……运动」之后缀。Eldanna「向精灵方向」，努门诺尔西岸海湾名。Elendil 宣言 Et Eärello Endorenna utúlien =「从大洋到大地上我来」。Sin Quentë Quendingoldo Elendilenna（PM:401）「Quendingoldo 对 Elendil 如是说」。Plotz 向格 cirya、lassë 为 ciryanna、lassenna（重音因 -nn- 在倒数第二音节：ciryAnna、lassEnna）。Lelyuvan i ciryanna =「我将到船去」。
+
+-nna 有时 -wards（Elenna），但英语 -wards 不可任意加于名词如昆雅 -nna。NOTE：尚有古向格尾，原始 -da > -d > -z > -r（WJ:366），与复数 -r 冲突仅存少数词：tar「向彼处」、oar「离开」、yar「向谁」、mir「入」（= mi-r，亦 minna）。tar 亦可 tanna。
+
+复数 -nna > -nnar：lassennar、ciryannar；lelyuvan i ciryannar。末 -r 同 nominative Eldar 之复数元。
+
+既然有 toward，自然问是否有 from：有。第十一课属格 -o 偶表 from（Namárië Oiolossëo）。更常由离格 -llo。Plotz lassello、ciryallo；tulin i ciryallo。Markirya métima hrestallo「自最后岸」。两格例 telmello talmanna「自顶至根」（Etym TEL/TAL；LR 误 telmello telmanna）。
+
+复数离格多选：向 -nnar，离 -llon/-llor。Markirya elenillor「自众星」。托尔金 Sub Tuum ilya raxellor「自诸险」（VT44:5；raxë danger）。Plotz 复数离格 -llon（-o + 复数 -n，WJ:407）。早期表列 -llor、-llon。本课倾向 -llon，-llor 亦 valid。
+
+双数向/离：双数元 -t 替 -nna/-llo 中一辅音得 -nta、-lto。ciryat > ciryanta、ciryalto（Plotz）。名义 -u 双数者疑 Aldunta 或 Aldunna、Aldulto 或 Aldullo（Appendix 详论）。
+
+额外语义：未必皆物理运动。Itarildë Ondolindello「Idril 自刚多林」（画家插图），英 best Idril of Gondolin，未必已离城。离格或可他无运动用法。ruc-「畏惧」构式「用 feared 之物的 from」（WJ:415），或许 rucin i ulundollo 比照「我怕怪物」。
+
+向格不总 toward，亦可 on：caita-「躺」+ 向格，Namárië Mornië caita i falmalinnar「黑暗躺在浪涛上」（-nnar + partitive -li）。Markirya atalantië mindoninnar、axor ilcalannar 等同理。
+
+学生注意：无运动时不排除基本 toward/from 可加强为 into/out of：ëari lantier cilyanna「海落入深渊」（LR:56）、mannar Valion（Fíriel 之歌）。离格 Namárië sindanóriello「自灰色国」= out of（RGEO sinda-nórie-llo）。
+
+歧义：lenden i coanna「去屋」或「进屋」？into 用 mir/minna；out of 用 et + 离格 Et Eärello...（et 是否介词辖离格如 ú 辖属格）。
+
+辅音后不可直加 -nna/-llo 等：Elendilenna（PM:401）插 -e-。**Elendilnna 不可能。Eärello、Endorenna（Eär/Eärë、Endórë），末 e 或属连接或名词一部分。Elendilenna 几乎肯定连接 e。
+
+复数插连接元音偏好 -i-：elenillor（eleni + -llor）、mindoninnar（后缩 mindonnar）。但 -ë 名词复数 -i 者加向/离复数不先把 -ë 变 -i：lassennar、lassellon 非 **lassinnar；raxellor 非 **raxillor（VT44:5）。与属格不同：lassië 属格复数 lassion 非 **lassëon。
+
+亦可不插元音而合并末辅音：mindonnar = mindon-nnar。Elenna = Elen-nna。Menello = Menel-llo 非 Menelello。
+
+特殊词干：talamenna/talamenna、talan(n)na? tornenna vs toronna—— stage 无法确知托尔金好恶，任一都可不轻易斥错。
+
+四方 Formen 等向/离/方位时末 -n 常落：Rómenna、Rómello（避免 **Rómenllo）。Rómenello 或亦 valid，缩略为常。
+
+EQUË 与 AUTA：两特殊动词
+
+¤ equë（WJ:392）：*ekwê > eque/equë，Telerin epe。无时态，多在专名或独立全称代词前作 say(s)/said 引语。语序 equë 在主体前。Equë Elendil: "Et Eärello..." 主体单复并 listing 时 equë 用复数动词义不报 -r。少见加尾，equeen「said I」（WJ:415）亦有。非专名/全称代词 topics 宜用 quet-；equë 引述在前，引述在后 structure 宜 quentë。Sin Quentë... 或 equë 或许亦可或许不。
+
+¤ auta-（WJ:366）「离去、pass」。过去非 **autanë。archaic anwë；modern 两套：物理離開 oantë，完成 oantië（自 awantê）；抽象消失 vánë/avánië。Namárië yéni ve lintë yuldar avánier；vanwa「逝去」Namárië 两次。vanwa 称「过去分词」亦可谓形容词（Nancy Martsch）。NOTE1：Namárië avánier 或曾经 vanya-（Etym WAN），后以 auta- 为准（Silmarillion auta）。vanwa 1915 QL 已有。NOTE2：Etym GAWA auta-「发明」并存则 autanë 可区分「发明」义。

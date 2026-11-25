@@ -1,0 +1,176 @@
+{
+ "lesson": 10,
+ "schemaVersion": 2,
+ "titleZh": "副词、第三人称复数词尾与被动分词",
+ "titleEn": "Adverbs, the Pronominal Endings -ntë and -t, and Passive Participles",
+ "summaryZh": "副词补动作的时间、地点、方式；昆雅的派生副词词尾是 -vë（anda → andavë，与介词 ve 同源），-a 形容词直接加，-ë 形容词先恢复 i（morë → morivë），-n 形容词无定论（作者建议改用 melda／moina）；早期资料另有 -o 副词（ando、ento、rato、voro），LotR 风格里是否仍有效不明，新造副词一律用 -vë。第三人称复数：作主语用 -ntë（tiruvantes「他们将守卫它」；主语未在动词前出现时替代 -r），作宾语用 -t（laituvalmet「我们将赞美他们」）；早期 -lto（tulielto）已被托尔金废弃。基本动词的不定式要接代词词尾时必须变成 -ita- 形式（cenë → cenitat，car- → caritas），否则 **caris 会与无定时「它做」同形；A 词干是否同样加 -ta 无据（metyatas、mapatat 只是试验），可用独立代词 te 绕开（mapa te）。以 -ya 结尾的不及物动词过去时丢掉 -ya、直接由词干构成（farya- → farnë、vanya- → vannë、lelya- → lendë、ulya- 不及物 ullë 对及物 ulyanë）；及物用法保留 -ya。被动分词主要由 -na／-ina 构成：A 词干 -ina（hastaina），-ta 类 -taina（antaina、ortaina），-c／-t 结尾拉长元音加 -ina（rácina、nótina），-r／-m／-n 结尾用短 -na（carna、namna、cenna），-l 结尾因 ln → ld 作 -lda 或用 -da／-ina（melda、mélina）；aistana、envinyanta 是例外；分词随数变化（-a → -ë），且不可用 harya + 分词复制英语完成时。",
+ "mindmap": {
+  "rootZh": "第 10 课：副词、-ntë／-t、被动分词",
+  "branches": [
+   {
+    "labelZh": "副词是什么",
+    "sectionId": "adv-intro"
+   },
+   {
+    "labelZh": "基本 vs 派生",
+    "sectionId": "adv-basic"
+   },
+   {
+    "labelZh": "-vë",
+    "sectionId": "adv-ve"
+   },
+   {
+    "labelZh": "-ë 形容词",
+    "sectionId": "adv-a-e"
+   },
+   {
+    "labelZh": "-n 形容词",
+    "sectionId": "adv-n"
+   },
+   {
+    "labelZh": "修饰形容词",
+    "sectionId": "adv-modify"
+   },
+   {
+    "labelZh": "早期 -o",
+    "sectionId": "adv-o"
+   },
+   {
+    "labelZh": "副词随数",
+    "sectionId": "adv-number"
+   },
+   {
+    "labelZh": "其他来源",
+    "sectionId": "adv-other"
+   },
+   {
+    "labelZh": "-ntë／-t",
+    "sectionId": "pron-intro"
+   },
+   {
+    "labelZh": "-ntë 规则",
+    "sectionId": "pron-nte"
+   },
+   {
+    "labelZh": "-lto 争议",
+    "sectionId": "pron-lto"
+   },
+   {
+    "labelZh": "五时态",
+    "sectionId": "pron-tenses"
+   },
+   {
+    "labelZh": "宾语 -t",
+    "sectionId": "pron-t"
+   },
+   {
+    "labelZh": "两词尾连用",
+    "sectionId": "pron-t-examples"
+   },
+   {
+    "labelZh": "不定式带宾语",
+    "sectionId": "inf-intro"
+   },
+   {
+    "labelZh": "cenit 是错的",
+    "sectionId": "inf-problem"
+   },
+   {
+    "labelZh": "-ita",
+    "sectionId": "inf-ita"
+   },
+   {
+    "labelZh": "A 词干",
+    "sectionId": "inf-a-stem"
+   },
+   {
+    "labelZh": "用 te 绕开",
+    "sectionId": "inf-workaround"
+   },
+   {
+    "labelZh": "子规则",
+    "sectionId": "ya-intro"
+   },
+   {
+    "labelZh": "及物性",
+    "sectionId": "ya-transitivity"
+   },
+   {
+    "labelZh": "三个证据",
+    "sectionId": "ya-irregular"
+   },
+   {
+    "labelZh": "ulya- 双过去时",
+    "sectionId": "ya-ulya"
+   },
+   {
+    "labelZh": "模式",
+    "sectionId": "ya-pattern"
+   },
+   {
+    "labelZh": "其余动词",
+    "sectionId": "ya-list"
+   },
+   {
+    "labelZh": "被动分词",
+    "sectionId": "pp-intro"
+   },
+   {
+    "labelZh": "英语对照",
+    "sectionId": "pp-english"
+   },
+   {
+    "labelZh": "A 词干分词",
+    "sectionId": "pp-a-stem"
+   },
+   {
+    "labelZh": "-ya 分词",
+    "sectionId": "pp-ya"
+   },
+   {
+    "labelZh": "总规则",
+    "sectionId": "pp-a-conclusion"
+   },
+   {
+    "labelZh": "-c／-t",
+    "sectionId": "pp-ct"
+   },
+   {
+    "labelZh": "-r",
+    "sectionId": "pp-r"
+   },
+   {
+    "labelZh": "-m／-n",
+    "sectionId": "pp-mn"
+   },
+   {
+    "labelZh": "-l",
+    "sectionId": "pp-l"
+   },
+   {
+    "labelZh": "随数变化",
+    "sectionId": "pp-number"
+   },
+   {
+    "labelZh": "完成时",
+    "sectionId": "pp-perfect"
+   },
+   {
+    "labelZh": "harna",
+    "sectionId": "pp-harna"
+   },
+   {
+    "labelZh": "原文小结",
+    "sectionId": "summary"
+   },
+   {
+    "labelZh": "课末词汇",
+    "sectionId": "vocabulary"
+   },
+   {
+    "labelZh": "练习 A–P",
+    "sectionId": "exercises"
+   }
+  ]
+ }
+}

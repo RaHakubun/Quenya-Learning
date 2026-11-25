@@ -1,0 +1,78 @@
+{
+ "lesson": 17,
+ "introZh": "本课 12 个词分三组：四个指示词（sina、tana、enta、yana）是本课语法的主角；ango、lómë 是 u 词干与 i 词干的样板；cantëa 是序数 -ëa 规则的第一例。方位词 Formen 与形容词 forya 同源，值得一起记。",
+ "entries": [
+  {
+   "word": "cantëa",
+   "posZh": "序数词",
+   "glossZh": "第四",
+   "noteZh": "由 canta「four」把末元音换成 -ëa 而来。本课以它为「fourth 到 ninth」这条规则的起点，第 18 课起逐课展开。练习 F「I cantëa auressë」、H「i cantëa coassë」、K「I cantëa lómissë」、M「i cantëa mindon」。"
+  },
+  {
+   "word": "tana",
+   "posZh": "指示词",
+   "glossZh": "那、那个",
+   "noteZh": "本书用 tana 而非早期「Qenya」的 tanya，因为 tana 与 sina 构成整齐的 -na 对（《词源》TA 条）。复数 tanë。练习 D「Nauco tana」、E「ciryar tanë」、H「mallë tano」（属格）、I「Nauco tana」、N「Parmar tanë」。"
+  },
+  {
+   "word": "enta",
+   "posZh": "指示词",
+   "glossZh": "那边那个、（时间上）未来那个",
+   "noteZh": "《词源》EN 条释作「that yonder」，词根 EN 意为 over there；时间上指未来。复数 entë。练习 D「ambo entassë」、M「Mindon enta」、O「Aurë entassë」、P「oron entallo」。"
+  },
+  {
+   "word": "yana",
+   "posZh": "指示词",
+   "glossZh": "（从前）那个",
+   "noteZh": "《词源》YA 条释作「that」并注明「(the former)」；词根 YA 时间上指过去，与 enta 相反。复数 yanë。练习 D「Lómë yanassë」、F「tári yana」、H「Hrívë yanassë」、P「Aurë yanassë」。"
+  },
+  {
+   "word": "sina",
+   "posZh": "指示词",
+   "glossZh": "这、这个",
+   "noteZh": "唯一在实际文本中可证的昆雅指示词：Cirion 的誓言作 vanda sina「this oath」。词根 SI- 与「此地此刻」有关（sí、sinomë）。复数 sinë。练习 B「nórë sinallo」、L「nórë sinanna」、M「nórë sinassë」、P「coa sinanna」、I「Elda sina」。"
+  },
+  {
+   "word": "ango",
+   "posZh": "名词（U 词干）",
+   "glossZh": "蛇",
+   "noteZh": "词干 angu-，见于复合词 angulócë。接词尾时用 angu-：angun（与格）、angullo（离格）、angulya（你的蛇）、anguo（属格）；主格复数 angwi，属格复数 angwion。练习 C「Ango harnanë」「angwi」、J「angwion」「angusangwanen」。"
+  },
+  {
+   "word": "sangwa",
+   "posZh": "名词",
+   "glossZh": "毒",
+   "noteZh": "练习 F「anguo sangwanen」、J「angusangwanen」（蛇毒，复合词）。"
+  },
+  {
+   "word": "lómë",
+   "posZh": "名词（i 词干）",
+   "glossZh": "夜",
+   "noteZh": "词干 lómi-（SD:415），源自较早的 dômi-；位格作 lómissë。练习 D「Lómë yanassë」、K「I cantëa lómissë」。"
+  },
+  {
+   "word": "polda",
+   "posZh": "形容词",
+   "glossZh": "强壮的",
+   "noteZh": "仅指体力；动词 pol-「can」大概与之相关。练习 G「I poldë ranqui」、L「Calandil Hallo polda yondo」。"
+  },
+  {
+   "word": "halla",
+   "posZh": "形容词",
+   "glossZh": "高的",
+   "noteZh": "练习 A「Calandil Hallanen」、E「I hallë ciryar」、L「Calandil Hallo」（属格，-o 取代末 -a）。"
+  },
+  {
+   "word": "forya",
+   "posZh": "形容词",
+   "glossZh": "右的",
+   "noteZh": "与 Formen「北」同源：面朝西（望向 Valinor）时右手朝北。与第 15 课 hyarya「左」／Hyarmen「南」构成一对。练习 C「forya rancurya」。"
+  },
+  {
+   "word": "Formen",
+   "posZh": "名词",
+   "glossZh": "北方",
+   "noteZh": "参 Formenos（Fëanor 在蒙福之地所建的「Northern Fortress」，末 -os 由 osto「fortress; city」缩减而来）。练习 E「oantier Formenna」、G「i nerion Formello」。"
+  }
+ ]
+}

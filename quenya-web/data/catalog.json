@@ -1,0 +1,122 @@
+[
+  {
+    "number": 1,
+    "subtitleEn": "The sounds of Quenya. Pronunciation and accentuation.",
+    "titleZh": "昆雅语音与重音",
+    "goalZh": "掌握元音、辅音、重音规则，能按附录 E 朗读昆雅文本。"
+  },
+  {
+    "number": 2,
+    "subtitleEn": "Nouns. Plural form. The article.",
+    "titleZh": "名词、复数与定冠词",
+    "goalZh": "理解名词复数 -i/-r、定冠词 i 及无冠词语义。"
+  },
+  {
+    "number": 3,
+    "subtitleEn": "Dual number. Stem variation.",
+    "titleZh": "双数与词干变化",
+    "goalZh": "区分自然双数与 attá + 复数；掌握 -u/-t 双数词尾。"
+  },
+  {
+    "number": 4,
+    "subtitleEn": "The Adjective. The Copula. Adjectival agreement in number.",
+    "titleZh": "形容词与系词",
+    "goalZh": "形容词一致、系词 ná/nar、定语与表语位置。"
+  },
+  {
+    "number": 5,
+    "subtitleEn": "The Verb: Present tense and agreement in number. Subject/object. The superlative form of adjectives.",
+    "titleZh": "动词现在时",
+    "goalZh": "现在时 -ë/-i 及与主语数一致；最高级 an-。"
+  },
+  {
+    "number": 6,
+    "subtitleEn": "Past tense",
+    "titleZh": "过去时",
+    "goalZh": "Elen síla 式过去时；译语到昆雅的变换。"
+  },
+  {
+    "number": 7,
+    "subtitleEn": "Future tense and Aorist",
+    "titleZh": "将来时与不定式",
+    "goalZh": "将来时 -uva；Híril 不可分 aorist。"
+  },
+  {
+    "number": 8,
+    "subtitleEn": "Perfect tense. Pronominal endings -n(yë), -l(yë), -s.",
+    "titleZh": "完成时",
+    "goalZh": "前缀 ai-/au- 与脱元音；人称尾 -nye/-lye/-nye 等。"
+  },
+  {
+    "number": 9,
+    "subtitleEn": "The infinitive. The negative verb. Active participles.",
+    "titleZh": "不定式与分词",
+    "goalZh": "动词不定式、ú- 否定；主动分词 -la/-da。"
+  },
+  {
+    "number": 10,
+    "subtitleEn": "Adverbs. The pronominal endings -ntë and -t. Infinitives with object pronouns. The past tense of intransitive verbs in -ya. Passive participles.",
+    "titleZh": "副词与人称尾",
+    "goalZh": "-ntë/-t；副词构成；-ya 不及物过去时。"
+  },
+  {
+    "number": 11,
+    "subtitleEn": "The concept of cases. The Genitive case.",
+    "titleZh": "格变概念与属格",
+    "goalZh": "步行格体系；属格 -o / -ion。"
+  },
+  {
+    "number": 12,
+    "subtitleEn": "The Possessive-Adjectival case. Verbal or Abstract nouns and how they interact with the Genitive and Possessive cases.",
+    "titleZh": "领属形容词格",
+    "goalZh": "-va 领属与抽象名词；与属格互动。"
+  },
+  {
+    "number": 13,
+    "subtitleEn": "The Dative case. The Gerund. The pronominal endings -lmë, -lvë and -mmë. An indefinite pronoun.",
+    "titleZh": "与格与动名词",
+    "goalZh": "与格 -n/-en；-lmë/-lvë/-mmë；不定代词。"
+  },
+  {
+    "number": 14,
+    "subtitleEn": "The Allative and Ablative cases. Equë and auta: two peculiar verbs. Possessive pronominal endings: -nya, -lya, -lva, -lma, -mma",
+    "titleZh": "向格与离格",
+    "goalZh": "-nna/-llo；equë、auta；领属代词尾。"
+  },
+  {
+    "number": 15,
+    "subtitleEn": "The ending -rya and more about possessive pronominal endings. The Locative case. Relative sentences. Third Person obscurities.",
+    "titleZh": "-rya 与方位格",
+    "goalZh": "-rya 领属；方位 -ssë；关系从句。"
+  },
+  {
+    "number": 16,
+    "subtitleEn": "The Instrumental case. Verbs with an unaccented vowel + -ta. The imperative. The nai formula.",
+    "titleZh": "工具格与祈使",
+    "goalZh": "-nen 工具格；á 祈使；nai 句式。"
+  },
+  {
+    "number": 17,
+    "subtitleEn": "The demonstratives: Sina, tan(y)a, enta, yana. Inflecting the \"Last Declinable Word\". U-stem nouns. Ordinals in -ëa.",
+    "titleZh": "指示词",
+    "goalZh": "sina/tanya/enta/yana；末词曲折；U 词干名。"
+  },
+  {
+    "number": 18,
+    "subtitleEn": "Independent pronouns. Impersonal verbs. U-stem verbs. The various uses of lá.",
+    "titleZh": "独立代词",
+    "goalZh": "强调/独立人称；无人称；lá 多种含义。"
+  },
+  {
+    "number": 19,
+    "subtitleEn": "Pronouns in imperative phrases. Emphatic pronouns. Question-words: Man, mana, manen. Postpositions.",
+    "titleZh": "疑问词与后置词",
+    "goalZh": "man/mana/manen；强调代词；祈使短语。"
+  },
+  {
+    "number": 20,
+    "subtitleEn": "The obscure verb \"to be\". Ma as a possible interrogative particle. Sa introducing nominal clauses.",
+    "titleZh": "系词「是」",
+    "goalZh": "ná/nat 系词；ma 疑问；sa 从句。"
+  }
+]

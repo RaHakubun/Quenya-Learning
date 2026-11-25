@@ -1,0 +1,3463 @@
+{
+ "lesson": 13,
+ "schemaVersion": 2,
+ "oneLineZh": "与格 -n（复数 -in、双数 -nt）标记间接宾语，可表受益（for me）也可表受损（against us），辅音后插 -e-；gerund 用 -ië，能作主语宾语又仍带宾语，表目的时加与格 -n（hirien、enyalien）；「我们」分包含 -lvë 与排除 -lmë（第二版后），-mmë 为双数；不定代词「人」是 quen。",
+ "canDoZh": [
+  "能说明直接宾语与间接宾语的差别，并知道宾格已亡、与格仍在",
+  "能构成与格单数（-n）、复数（-in）、双数（-nt），并处理帮助元音 -e-",
+  "能判断何时该用与格（受益、受损、无直接宾语、无主语、无动词）",
+  "能说出与格词尾 -n 的历史（曾是属格）与最终定论",
+  "能构成 gerund（-ië；A 词干掉 -a；-ya 整组脱落）并让它带宾语",
+  "能用 in order 测试判断何时该用与格 gerund 表目的",
+  "能区分包含式 -lvë 与排除式 -lmë，并解释 omentielmo → omentielvo",
+  "能使用不定代词 quen 及其属格、与格形式",
+  "能独立完成练习 A–P，用 keys 核对，并把错题回链到对应规则"
+ ],
+ "conceptMap": [
+  {
+   "labelZh": "间接宾语",
+   "noteZh": "第五课的补课",
+   "sectionId": "dat-indirect"
+  },
+  {
+   "labelZh": "三方结构",
+   "noteZh": "「给」",
+   "sectionId": "dat-three"
+  },
+  {
+   "labelZh": "英语的手段",
+   "noteZh": "词序与 to／for",
+   "sectionId": "dat-english"
+  },
+  {
+   "labelZh": "nin",
+   "noteZh": "Namárië",
+   "sectionId": "dat-quenya"
+  },
+  {
+   "labelZh": "antuvalyë nin parma",
+   "noteZh": "整句类推",
+   "sectionId": "dat-nin"
+  },
+  {
+   "labelZh": "ciryan／lassen",
+   "noteZh": "名词与格",
+   "sectionId": "dat-noun"
+  },
+  {
+   "labelZh": "-in",
+   "noteZh": "Eldain",
+   "sectionId": "dat-plural"
+  },
+  {
+   "labelZh": "tárin 歧义",
+   "noteZh": "i 相撞",
+   "sectionId": "dat-i"
+  },
+  {
+   "labelZh": "-nt",
+   "noteZh": "ciryant",
+   "sectionId": "dat-dual"
+  },
+  {
+   "labelZh": "aranen",
+   "noteZh": "插 -e-",
+   "sectionId": "dat-nodirect"
+  },
+  {
+   "labelZh": "orë nin caritas",
+   "noteZh": "无主语",
+   "sectionId": "dat-impersonal"
+  },
+  {
+   "labelZh": "Alcar i ataren",
+   "noteZh": "无动词",
+   "sectionId": "dat-noverb"
+  },
+  {
+   "labelZh": "Ar Manwen",
+   "noteZh": "-n 曾是属格",
+   "sectionId": "dat-history1"
+  },
+  {
+   "labelZh": "Vardan → Vardo",
+   "noteZh": "拉锯",
+   "sectionId": "dat-history2"
+  },
+  {
+   "labelZh": "ailinen",
+   "noteZh": "帮助元音",
+   "sectionId": "dat-help"
+  },
+  {
+   "labelZh": "Laurelinden",
+   "noteZh": "特殊词干",
+   "sectionId": "dat-stem"
+  },
+  {
+   "labelZh": "Alduen？",
+   "noteZh": "推测",
+   "sectionId": "dat-dual-u"
+  },
+  {
+   "labelZh": "gerund",
+   "noteZh": "伪装成名词",
+   "sectionId": "ger-intro"
+  },
+  {
+   "labelZh": "enyalien",
+   "noteZh": "剥出 -ië",
+   "sectionId": "ger-enyalien"
+  },
+  {
+   "labelZh": "polin quetë",
+   "noteZh": "另一种不定式",
+   "sectionId": "ger-infinitive"
+  },
+  {
+   "labelZh": "of 测试",
+   "noteZh": "英语 -ing",
+   "sectionId": "ger-english"
+  },
+  {
+   "labelZh": "能带宾语",
+   "noteZh": "定义",
+   "sectionId": "ger-def"
+  },
+  {
+   "labelZh": "作主语",
+   "noteZh": "Hirië harma",
+   "sectionId": "ger-subject"
+  },
+  {
+   "labelZh": "作宾语",
+   "noteZh": "melin tirië",
+   "sectionId": "ger-object"
+  },
+  {
+   "labelZh": "术语之争",
+   "noteZh": "-ië 是什么",
+   "sectionId": "ger-term"
+  },
+  {
+   "labelZh": "表目的",
+   "noteZh": "cenien",
+   "sectionId": "ger-purpose"
+  },
+  {
+   "labelZh": "UT:317",
+   "noteZh": "与格＋宾语",
+   "sectionId": "ger-note"
+  },
+  {
+   "labelZh": "三步装回",
+   "noteZh": "enyalien",
+   "sectionId": "ger-dative"
+  },
+  {
+   "labelZh": "in order 测试",
+   "noteZh": "可操作判据",
+   "sectionId": "ger-rule"
+  },
+  {
+   "labelZh": "A 词干掉 -a",
+   "noteZh": "ortië",
+   "sectionId": "ger-astem"
+  },
+  {
+   "labelZh": "三条旁证",
+   "noteZh": "ortie／orië",
+   "sectionId": "ger-evidence"
+  },
+  {
+   "labelZh": "-ië 抽象",
+   "noteZh": "mornië",
+   "sectionId": "ger-abstract"
+  },
+  {
+   "labelZh": "-ya 脱落",
+   "noteZh": "harië",
+   "sectionId": "ger-ya"
+  },
+  {
+   "labelZh": "多种「我们」",
+   "noteZh": "zoo",
+   "sectionId": "we-intro"
+  },
+  {
+   "labelZh": "-lmë",
+   "noteZh": "laituvalmet",
+   "sectionId": "we-lme"
+  },
+  {
+   "labelZh": "-mmë",
+   "noteZh": "vammë",
+   "sectionId": "we-mme"
+  },
+  {
+   "labelZh": "-lwë／-lv-",
+   "noteZh": "navilwë",
+   "sectionId": "we-lwe"
+  },
+  {
+   "labelZh": "两个前提",
+   "noteZh": "修订与细分",
+   "sectionId": "we-chaos"
+  },
+  {
+   "labelZh": "排除式",
+   "noteZh": "不含听话人",
+   "sectionId": "we-exclusive"
+  },
+  {
+   "labelZh": "包含式",
+   "noteZh": "含听话人",
+   "sectionId": "we-inclusive"
+  },
+  {
+   "labelZh": "作者的 we",
+   "noteZh": "包含读者",
+   "sectionId": "we-author"
+  },
+  {
+   "labelZh": "第一版",
+   "noteZh": "-lmë 包含",
+   "sectionId": "we-lotr"
+  },
+  {
+   "labelZh": "omentielvo",
+   "noteZh": "修订",
+   "sectionId": "we-revision"
+  },
+  {
+   "labelZh": "赞歌重解",
+   "noteZh": "排除式",
+   "sectionId": "we-cormallen"
+  },
+  {
+   "labelZh": "-lwë 之谜",
+   "noteZh": "用 -lvë",
+   "sectionId": "we-lw"
+  },
+  {
+   "labelZh": "四个词尾",
+   "noteZh": "双数 -mmë",
+   "sectionId": "we-dual"
+  },
+  {
+   "labelZh": "quen",
+   "noteZh": "「人」",
+   "sectionId": "quen"
+  },
+  {
+   "labelZh": "Kildo kirya",
+   "noteZh": "早期 -o",
+   "sectionId": "quen-old"
+  },
+  {
+   "labelZh": "小结",
+   "noteZh": "四条线",
+   "sectionId": "summary"
+  },
+  {
+   "labelZh": "词汇",
+   "noteZh": "14 条",
+   "sectionId": "vocabulary"
+  },
+  {
+   "labelZh": "练习",
+   "noteZh": "A–P",
+   "sectionId": "exercises"
+  }
+ ],
+ "pathTitleZh": "学习路径",
+ "path": [
+  {
+   "step": 1,
+   "labelZh": "从直接宾语到间接宾语",
+   "sectionId": "dat-indirect"
+  },
+  {
+   "step": 2,
+   "labelZh": "「给」为什么必然有三方",
+   "sectionId": "dat-three"
+  },
+  {
+   "step": 3,
+   "labelZh": "英语没有与格，只好靠词序和 to／for",
+   "sectionId": "dat-english"
+  },
+  {
+   "step": 4,
+   "labelZh": "昆雅不用词序也不用介词：Sí man i yulma nin enquantuva?",
+   "sectionId": "dat-quenya"
+  },
+  {
+   "step": 5,
+   "labelZh": "nin 的解剖与 antuvalyë nin parma",
+   "sectionId": "dat-nin"
+  },
+  {
+   "step": 6,
+   "labelZh": "-n 也能加在名词上：ciryan、lassen、i Naucon",
+   "sectionId": "dat-noun"
+  },
+  {
+   "step": 7,
+   "labelZh": "复数 -in：lassin、lamnin、Eldain",
+   "sectionId": "dat-plural"
+  },
+  {
+   "step": 8,
+   "labelZh": "tári 的麻烦：tárin 兼单复数？",
+   "sectionId": "dat-i"
+  },
+  {
+   "step": 9,
+   "labelZh": "双数 -nt：ciryant，以及 Aldunt 还是 Aldun",
+   "sectionId": "dat-dual"
+  },
+  {
+   "step": 10,
+   "labelZh": "没有直接宾语的与格：aranen 与「against us」",
+   "sectionId": "dat-nodirect"
+  },
+  {
+   "step": 11,
+   "labelZh": "没有主语的句子：orë nin caritas",
+   "sectionId": "dat-impersonal"
+  },
+  {
+   "step": 12,
+   "labelZh": "连动词都没有：Alcar i ataren ar i yondon",
+   "sectionId": "dat-noverb"
+  },
+  {
+   "step": 13,
+   "labelZh": "历史上的 -n 曾是属格：Ar Manwen、Ar Ulmon",
+   "sectionId": "dat-history1"
+  },
+  {
+   "step": 14,
+   "labelZh": "Vardan → Vardo：属格词尾的拉锯",
+   "sectionId": "dat-history2"
+  },
+  {
+   "step": 15,
+   "labelZh": "帮助元音 -e-：ailinen 的来历",
+   "sectionId": "dat-help"
+  },
+  {
+   "step": 16,
+   "labelZh": "特殊词干：Laurelinden、lissen、nissen",
+   "sectionId": "dat-stem"
+  },
+  {
+   "step": 17,
+   "labelZh": "-u 双数的与格：veruen 引出的 Alduen",
+   "sectionId": "dat-dual-u"
+  },
+  {
+   "step": 18,
+   "labelZh": "一个不肯归类的形式",
+   "sectionId": "ger-intro"
+  },
+  {
+   "step": 19,
+   "labelZh": "enyalien：从《Cirion 的誓言》剥出 -ië",
+   "sectionId": "ger-enyalien"
+  },
+  {
+   "step": 20,
+   "labelZh": "另一种不定式：polin quetë",
+   "sectionId": "ger-infinitive"
+  },
+  {
+   "step": 21,
+   "labelZh": "英语 -ing 的三副面孔",
+   "sectionId": "ger-english"
+  },
+  {
+   "step": 22,
+   "labelZh": "定义：能当名词用、但仍能带宾语",
+   "sectionId": "ger-def"
+  },
+  {
+   "step": 23,
+   "labelZh": "作主语：Hirië harma caruva nér alya",
+   "sectionId": "ger-subject"
+  },
+  {
+   "step": 24,
+   "labelZh": "作宾语：melin tirië i aiwi",
+   "sectionId": "ger-object"
+  },
+  {
+   "step": 25,
+   "labelZh": "术语之争：-ië 到底是不是不定式",
+   "sectionId": "ger-term"
+  },
+  {
+   "step": 26,
+   "labelZh": "作主语时为何宁用 gerund",
+   "sectionId": "ger-choice"
+  },
+  {
+   "step": 27,
+   "labelZh": "表目的：英语 to，昆雅用与格 gerund",
+   "sectionId": "ger-purpose"
+  },
+  {
+   "step": 28,
+   "labelZh": "UT:317 的原文注",
+   "sectionId": "ger-note"
+  },
+  {
+   "step": 29,
+   "labelZh": "把 enyalien 一层层装回去",
+   "sectionId": "ger-dative"
+  },
+  {
+   "step": 30,
+   "labelZh": "in order 测试：一条可操作的判据",
+   "sectionId": "ger-rule"
+  },
+  {
+   "step": 31,
+   "labelZh": "A 词干动词：末 -a 脱落",
+   "sectionId": "ger-astem"
+  },
+  {
+   "step": 32,
+   "labelZh": "三条间接证据：ortie、orië、nainië",
+   "sectionId": "ger-evidence"
+  },
+  {
+   "step": 33,
+   "labelZh": "-ië 也是抽象词尾：mornië、látië",
+   "sectionId": "ger-abstract"
+  },
+  {
+   "step": 34,
+   "labelZh": "-ya 动词：整个 -ya 脱落，得 harië",
+   "sectionId": "ger-ya"
+  },
+  {
+   "step": 35,
+   "labelZh": "「我们」有不止一个",
+   "sectionId": "we-intro"
+  },
+  {
+   "step": 36,
+   "labelZh": "-lmë：Andavë laituvalmet",
+   "sectionId": "we-lme"
+  },
+  {
+   "step": 37,
+   "labelZh": "-mmë：vammë「我们不干」",
+   "sectionId": "we-mme"
+  },
+  {
+   "step": 38,
+   "labelZh": "-lwë 与 -lv-：navilwë、omentielvo",
+   "sectionId": "we-lwe"
+  },
+  {
+   "step": 39,
+   "labelZh": "两个前提：改过主意 ＋ 昆雅分得更细",
+   "sectionId": "we-chaos"
+  },
+  {
+   "step": 40,
+   "labelZh": "排除式：-mmë 与 vammë 的语境",
+   "sectionId": "we-exclusive"
+  },
+  {
+   "step": 41,
+   "labelZh": "包含式：laituvalmet 的原始语境",
+   "sectionId": "we-inclusive"
+  },
+  {
+   "step": 42,
+   "labelZh": "作者的「我们」",
+   "sectionId": "we-author"
+  },
+  {
+   "step": 43,
+   "labelZh": "LotR 时期：-lmë 包含、-mmë 排除",
+   "sectionId": "we-lotr"
+  },
+  {
+   "step": 44,
+   "labelZh": "修订：omentielmo → omentielvo",
+   "sectionId": "we-revision"
+  },
+  {
+   "step": 45,
+   "labelZh": "赞歌必须重解",
+   "sectionId": "we-cormallen"
+  },
+  {
+   "step": 46,
+   "labelZh": "遗留问题：为什么是 -lwë",
+   "sectionId": "we-lw"
+  },
+  {
+   "step": 47,
+   "labelZh": "双数「我们」与四个词尾",
+   "sectionId": "we-dual"
+  },
+  {
+   "step": 48,
+   "labelZh": "quen：不定代词「人」",
+   "sectionId": "quen"
+  },
+  {
+   "step": 49,
+   "labelZh": "早期的 -o：Kildo kirya ninqe",
+   "sectionId": "quen-old"
+  },
+  {
+   "step": 50,
+   "labelZh": "本课小结",
+   "sectionId": "summary"
+  },
+  {
+   "step": 51,
+   "labelZh": "课末词汇（14 条）",
+   "sectionId": "vocabulary"
+  },
+  {
+   "step": 52,
+   "labelZh": "练习工作台（A–P）",
+   "sectionId": "exercises"
+  }
+ ],
+ "modules": [
+  {
+   "sectionId": "dat-indirect",
+   "sourceSectionId": "the-dative-case",
+   "titleZh": "01 · 从直接宾语到间接宾语",
+   "leadZh": "第五课只讲了直接宾语。本课把宾语拆成两类，并指出：昆雅的宾格早已消失，与格却还活着。",
+   "objectives": [
+    "能说出直接宾语与间接宾语的差别",
+    "知道宾格在第三纪昆雅已无独立形式，与格仍在用"
+   ],
+   "rules": [
+    {
+     "id": "r-dat-ind1",
+     "headZh": "第五课的宾语只是直接宾语",
+     "bodyZh": "第五课引入的「宾语＝动作的目标」，本课回头限定：那些例子（I Elda máta massa、i Nauco hirnë harma）都是直接受动作影响的宾语。",
+     "en": "I Elda máta massa",
+     "zh": "「精灵在吃面包」——massa 直接受「吃」影响。"
+    },
+    {
+     "id": "r-dat-ind2",
+     "headZh": "宾格死了，与格活着",
+     "bodyZh": "古体昆雅有宾格，但第三纪昆雅里它不再有独立形式；而标记间接宾语的与格「still alive and well」。一句话记住本课的分工：宾格是遗迹，与格是活规则。",
+     "en": "the dative, was still alive and well in Third Age Quenya",
+     "zh": "与格在第三纪昆雅中依然鲜活。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为昆雅还有宾格词尾",
+     "right": "宾格在第三纪已无独立形式",
+     "whyZh": "原文：this case no longer had any distinct forms in Third Age Quenya。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么先讲间接宾语",
+     "bodyZh": "原文没有一上来给词尾，而是先花四段讲「间接宾语是什么」。这不是啰嗦：-n 的形式极简单，难的是判断什么时候该用它。判断标准必须先立起来，词尾才有意义。"
+    }
+   ],
+   "recapZh": "宾语分直接／间接；宾格已亡，与格仍在。",
+   "selfCheckZh": [
+    {
+     "qZh": "第三纪昆雅还有独立的宾格形式吗？",
+     "aZh": "没有。"
+    },
+    {
+     "qZh": "本课要讲的格标记什么？",
+     "aZh": "间接宾语。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-dative-case",
+    "unitIds": [
+     0,
+     1
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "dat-three",
+   "sourceSectionId": "the-dative-case",
+   "titleZh": "02 · 「给」为什么必然有三方",
+   "leadZh": "间接宾语是「间接受动作影响」的一方，常是受益者，也可能是受损者。典型例子是「给」。",
+   "objectives": [
+    "能用「给」说明主語／直接宾语／间接宾语三方",
+    "知道间接宾语也可能表示受损方"
+   ],
+   "rules": [
+    {
+     "id": "r-dat-three1",
+     "headZh": "受益者与受损者",
+     "bodyZh": "间接宾语常是动作的受益者（beneficiary），但也可能表示受该动作损害的第三方。这一条决定了后面 Pater Noster 里「against us」的读法。",
+     "en": "the indirect object is often the beneficiary of the verbal action",
+     "zh": "间接宾语常常是动作的受益者。"
+    },
+    {
+     "id": "r-dat-three2",
+     "headZh": "「给」的三方结构",
+     "bodyZh": "「给」在逻辑上必然牵涉三方：给东西的主语、被给出的东西（直接宾语）、接受者（间接宾语）。这句英语例子就是全课的解剖标本。",
+     "en": "which must logically entail three parties",
+     "zh": "它在逻辑上必然牵涉三方。",
+     "exampleZh": "The man gave the boy a book."
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把「男孩」当直接宾语",
+     "right": "男孩是接受者＝间接宾语；书才是直接宾语",
+     "whyZh": "原文用方括号明确标注：the boy [indirect object]、a book [direct object]。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "先有语义，再有格",
+     "bodyZh": "「受益／受损」是语义层面的判断，格只是把这个判断编码。所以做题顺序应是：先问「这一方是间接受影响吗」，再想词尾。反过来先想词尾，必然乱。"
+    }
+   ],
+   "recapZh": "间接宾语＝间接受影响者；「给」是最干净的标本。",
+   "selfCheckZh": [
+    {
+     "qZh": "The man gave the boy a book 里谁是间接宾语？",
+     "aZh": "the boy。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-dative-case",
+    "unitIds": [
+     2,
+     3
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "dat-english",
+   "sourceSectionId": "the-dative-case",
+   "titleZh": "03 · 英语没有与格，只好靠词序和 to／for",
+   "leadZh": "现代英语没有独立与格：要么靠词序把间接宾语塞在直接宾语前，要么用 to／for 绕说。这两条正是昆雅不需要的。",
+   "objectives": [
+    "能说出英语表达间接宾语的两种手段",
+    "知道 to／for 只是「模拟」与格，不是与格"
+   ],
+   "rules": [
+    {
+     "id": "r-dat-en1",
+     "headZh": "词序：塞在直接宾语前",
+     "bodyZh": "英语可以把间接宾语直接放在直接宾语之前，靠位置表明身分，名词本身不加任何成分。",
+     "en": "indirect objects may be indicated simply by word order",
+     "zh": "间接宾语可以只靠词序表示。"
+    },
+    {
+     "id": "r-dat-en2",
+     "headZh": "介词绕说：to 与 for",
+     "bodyZh": "英语也常用介词短语补偿缺失的与格，最常用 to 与 for：the man gave a book to the boy、we did it for the children。这两个介词就是昆雅 -n 的英语对应物。",
+     "en": "The two prepositions most often used to simulate the function of the dative case are",
+     "zh": "最常用来模拟与格功能的两个介词是 to 和 for。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把英语的 to／for 当成「与格介词」",
+     "right": "它们是补偿手段；昆雅直接用格词尾",
+     "whyZh": "原文说英语「has no distinct dative case」，to／for 是用来 simulate（模拟）它的。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "记住这两个介词，后面要用",
+     "bodyZh": "本课后面判断 gerund 何时该加 -n，用的正是英语 for／in order 这个探针；而 keys 里大量 for 的译法，源头就是这一段。"
+    }
+   ],
+   "recapZh": "英语：词序或 to／for；昆雅：一个 -n。",
+   "selfCheckZh": [
+    {
+     "qZh": "英语靠什么手段表达间接宾语？",
+     "aZh": "词序，或用 to／for 的介词短语。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-dative-case",
+    "unitIds": [
+     4
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "dat-quenya",
+   "sourceSectionId": "the-dative-case",
+   "titleZh": "04 · 昆雅不用词序也不用介词：Sí man i yulma nin enquantuva?",
+   "leadZh": "《Namárië》中间那句问话里，nin 就是与格。这是本课第一个真实语料。",
+   "objectives": [
+    "能背出 Sí man i yulma nin enquantuva 并指出 nin",
+    "知道 nin 的 -n 就是与格词尾"
+   ],
+   "rules": [
+    {
+     "id": "r-dat-q1",
+     "headZh": "语料：nin",
+     "bodyZh": "《Namárië》里「现在谁为我重新斟满这只杯子」用了 nin。这里的「为」不是独立单词，而是 nin 末尾的 -n。",
+     "en": "Sí man i yulma nin enquantuva?",
+     "zh": "现在谁为我重新斟满这只杯子？"
+    },
+    {
+     "id": "r-dat-q2",
+     "headZh": "格代替词序与介词",
+     "bodyZh": "昆雅既不需要固定词序，也不需要 to／for：格词尾本身就把「间接」标出来了。这是本课的核心对比。",
+     "en": "There would be no need to maintain a specific word order",
+     "zh": "既不需要维持特定词序，也不需要用 to、for 这类介词。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 nin 的 -n 当作「我」的代词词尾",
+     "right": "这里的 -n 是与格词尾；-n／-nyë 才是「我」",
+     "whyZh": "原文特意警告：the short form must not be confused with the dative ending（见「我们」一节开头）。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一个形式，三种英译",
+     "bodyZh": "同一个 nin 可译 for me、to me，或干脆 me。这说明昆雅的与格覆盖面比英语任何一个手段都宽——翻译时按语境挑，不要死盯一个英语词。"
+    }
+   ],
+   "recapZh": "nin ＝「为我／给我」；-n 是与格。",
+   "selfCheckZh": [
+    {
+     "qZh": "nin 里的 -n 是什么？",
+     "aZh": "与格词尾。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-dative-case",
+    "unitIds": [
+     5,
+     6
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "dat-nin",
+   "sourceSectionId": "the-dative-case",
+   "titleZh": "05 · nin 的解剖与 antuvalyë nin parma",
+   "leadZh": "把 nin 拆成「我-为」，就能类推整句：动词 anta-「给」＋将来时 -uva- ＋ -lyë「你」＋ nin。",
+   "objectives": [
+    "能拆解 nin ＝ ni + n",
+    "能造出「你会给我一本书」这类句子"
+   ],
+   "rules": [
+    {
+     "id": "r-dat-nin1",
+     "headZh": "nin ＝「我-为」",
+     "bodyZh": "nin 是 ni「我」加与格 -n，字面「我-为」，正确英语是 for me。同一个形式也可译 to me，或（英语靠词序时）译 me。",
+     "en": "Hence nin = \"I-for\", or in correct English: \"for me\"",
+     "zh": "所以 nin ＝「我-为」，用正确的英语说就是 for me。"
+    },
+    {
+     "id": "r-dat-nin2",
+     "headZh": "整句类推",
+     "bodyZh": "动词「给」是 anta-，「你会给我一本书」很可能作 antuvalyë nin parma：antuva-（将给）＋ -lyë（你）＋ nin（给我）＋ parma（书）。",
+     "en": "antuvalyë nin parma",
+     "zh": "你会给我一本书。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 nin 当成独立的介词短语",
+     "right": "它是一个词，格词尾长在词尾",
+     "whyZh": "原文：The element here translated \"for\" is not a separate word in Quenya。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "与格代词比与格名词更常见",
+     "bodyZh": "语料里 nin 出现两次（Namárië、Fíriel 之歌），都是代词。这提示：早期语料偏爱代词与格；名词与格（ciryan、lassen）主要靠 Plotz 信这类语法材料。"
+    }
+   ],
+   "recapZh": "nin ＝ ni + n；antuvalyë nin parma。",
+   "selfCheckZh": [
+    {
+     "qZh": "antuvalyë 里的 -lyë 是什么？",
+     "aZh": "「你」的代词词尾。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-dative-case",
+    "unitIds": [
+     7
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "dat-noun",
+   "sourceSectionId": "the-dative-case",
+   "titleZh": "06 · -n 也能加在名词上：ciryan、lassen、i Naucon",
+   "leadZh": "Plotz 信证明 -n 不只属于代词。名词加 -n 后，词序彻底自由，可以前移表示强调。",
+   "objectives": [
+    "能给出 ciryan、lassen、Eldan 三个名词与格",
+    "理解词序自由带来的强调手段"
+   ],
+   "rules": [
+    {
+     "id": "r-dat-n1",
+     "headZh": "Plotz 信的两个例子",
+     "bodyZh": "Plotz 信列出 ciryan（cirya「船」的与格）与 lassen（lassë「叶」的与格）。名词与格由此确立。",
+     "en": "Plotz lists ciryan as the dative form of cirya",
+     "zh": "Plotz 列出 ciryan 作为 cirya「船」的与格形式。"
+    },
+    {
+     "id": "r-dat-n2",
+     "headZh": "词序自由＝强调自由",
+     "bodyZh": "因为格已标明身分，间接宾语可以前移：Eldan i nér antuva i parma 意为「那人要给的是精灵〔不是矮人〕」。这是屈折语的主要优势。",
+     "en": "the main advantage of a highly inflected language!",
+     "zh": "这正是高度屈折语言的主要优势！"
+    }
+   ],
+   "examples": [
+    {
+     "en": "carnelyes i Naucon",
+     "zh": "你为他〔矮人〕做了这事",
+     "noteZh": "Naucon ＝ Nauco + n。"
+    },
+    {
+     "en": "i nér antuva i parma Eldan",
+     "zh": "那人将把书给一个精灵",
+     "noteZh": "Eldan 在句末，仍是间接宾语。"
+    },
+    {
+     "en": "Eldan i nér antuva i parma",
+     "zh": "那人要给的是精灵〔而非矮人〕",
+     "noteZh": "前移表强调。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为词序变了意思就变",
+     "right": "格不变，命题不变；变的只是强调",
+     "whyZh": "原文：the case ending indicating that the noun in question is the indirect object no matter where the noun occurs。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "两句话的差别只在语用",
+     "bodyZh": "i nér antuva i parma Eldan 与 i nér antuva Eldan i parma 命题相同，后者英语可作 the man will give an Elf the book。原文说「谁先谁后也许并不太要紧」——这就是判断依据：差别在强调，不在真假。"
+    }
+   ],
+   "recapZh": "ciryan、lassen；名词与格 -n；词序自由。",
+   "selfCheckZh": [
+    {
+     "qZh": "cirya 的与格是什么？",
+     "aZh": "ciryan。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-dative-case",
+    "unitIds": [
+     8
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "dat-plural",
+   "sourceSectionId": "the-dative-case",
+   "titleZh": "07 · 复数 -in：lassin、lamnin、Eldain",
+   "leadZh": "复数与格是 -in。它与 -i 复数合并，也与 -r 复数无关（-r 不出现），并会与末元音合成双元音。",
+   "objectives": [
+    "能构成 -i 复数与 -r 复数的与格",
+    "知道 -in 与末元音合成双元音（Eldain、Fírimoin）"
+   ],
+   "rules": [
+    {
+     "id": "r-dat-p1",
+     "headZh": "-i 复数：只加 -n",
+     "bodyZh": "主格复数为 -i 的名词，加与格 -n 即可：lassi → lassin。laman (lamn-) 的复数与格则是 lamnin。",
+     "en": "the Plotz Letter points to lassin as the dative form of lassi",
+     "zh": "Plotz 信指出 lassin 是 lassi「叶（复数）」的与格形式。"
+    },
+    {
+     "id": "r-dat-p2",
+     "headZh": "-r 复数：-r 消失，只留 -in",
+     "bodyZh": "主格复数为 -r 的名词，与格里不出现 -r，直接加 -in：Eldar → Eldain。Fíriel 之歌还给出 Fírimor → Fírimoin（若用后期的 Fírimar，则为 Fírimain）。",
+     "en": "the plural marker -r does not appear in dative forms",
+     "zh": "复数标记 -r 在与格形式中不出现。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 Eldarin 或 Eldarain",
+     "right": "Eldain（-r 不出现）",
+     "whyZh": "原文明确：the plural marker -r does not appear in dative forms；并给出 Eldain。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "双元音是副产品，不是规则",
+     "bodyZh": "-in 与末元音合并成 ai／oi，是语音自然结果（Eldain、Fírimoin）。不必单独背一条「变双元音」规则，只要记住「-in 直接贴上去」。"
+    }
+   ],
+   "recapZh": "复数与格 -in；Eldar → Eldain。",
+   "selfCheckZh": [
+    {
+     "qZh": "Eldar 的与格复数？",
+     "aZh": "Eldain。"
+    },
+    {
+     "qZh": "laman (lamn-) 的与格复数？",
+     "aZh": "lamnin。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-dative-case",
+    "unitIds": [
+     9
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "dat-i",
+   "sourceSectionId": "the-dative-case",
+   "titleZh": "08 · tári 的麻烦：tárin 兼单复数？",
+   "leadZh": "与 -iva 一样，-in 加到 -i 结尾或 -i 词干的名词上会撞车。作者倾向认为 tárin 兼作单数与复数。",
+   "objectives": [
+    "知道 tárin 的歧义来源",
+    "知道作者为何怀疑 tárín 不成立"
+   ],
+   "rules": [
+    {
+     "id": "r-dat-i1",
+     "headZh": "两个 i 相撞",
+     "bodyZh": "tári「女王」加 -in，末 -i 与词尾 i- 合并，结果仍是 tárin，与单数同形。这是上一课 -iva 问题的翻版。",
+     "en": "we are probably left with tárin once again",
+     "zh": "我们很可能又只得回 tárin。"
+    },
+    {
+     "id": "r-dat-i2",
+     "headZh": "为何不写 tárín",
+     "bodyZh": "可以设想合并成长 í，得 tárín；但昆雅极少在末位非重读音节有长元音（palantír 是例外），所以作者认为 tárín 不太可能，宁可让 tárin 兼两数、靠上下文判断。",
+     "en": "Quenya rarely has a long vowel in a final unaccented syllable",
+     "zh": "昆雅很少在末位非重读音节里有长元音。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "硬造 tárín 表复数",
+     "right": "用 tárin，靠上下文分辨",
+     "whyZh": "原文：It may well be that tárin has to do duty for both singular and plural。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "「不确定」也是知识点",
+     "bodyZh": "这一段没有给答案，只给倾向与理由。读原著时要区分「托尔金写的」与「作者推测的」——本课多处如此（Alduen、veruen 亦然）。"
+    }
+   ],
+   "recapZh": "tárin 兼单复数；tárín 不太可能。",
+   "selfCheckZh": [
+    {
+     "qZh": "为什么 tárin 有歧义？",
+     "aZh": "末 -i 与词尾 -in 的 i 合并，单复数同形。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-dative-case",
+    "unitIds": [
+     10
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "dat-dual",
+   "sourceSectionId": "the-dative-case",
+   "titleZh": "09 · 双数 -nt：ciryant，以及 Aldunt 还是 Aldun",
+   "leadZh": "双数与格是 -nt ＝ -n + -t，也是 LotR 式昆雅唯一允许的末尾辅音丛。但 -u 双数名词可能只用 -n。",
+   "objectives": [
+    "能构成 -t 双数的与格（ciryant）",
+    "知道 -u 双数可能用 -n 或 -uen"
+   ],
+   "rules": [
+    {
+     "id": "r-dat-d1",
+     "headZh": "-nt ＝ -n + -t",
+     "bodyZh": "Plotz 信给的双数与格是 -nt，cirya 作 ciryant「为一对船」。它就是把与格 -n 与双数 -t 叠起来。",
+     "en": "the dual dative form of cirya",
+     "zh": "cirya「船」的双数与格形式。"
+    },
+    {
+     "id": "r-dat-d2",
+     "headZh": "唯一的末尾辅音丛",
+     "bodyZh": "第一课提过：这个 -nt 似乎是 LotR 式昆雅中唯一允许出现在词末的辅音丛。",
+     "en": "the sole example of a final consonant cluster being allowed",
+     "zh": "唯一允许的末尾辅音丛。"
+    },
+    {
+     "id": "r-dat-d3",
+     "headZh": "-u 双数：大概只用 -n",
+     "bodyZh": "主格双数为 -u 的名词，与格也许不是 Aldunt，而是 Aldun（甚至 Alduen，见后）。两种都缺例证。",
+     "en": "the dative form should perhaps not be Aldunt, but rather Aldun",
+     "zh": "与格形式也许不该是 Aldunt，而应是 Aldun。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "给 Aldu 加 -nt 得 Aldunt",
+     "right": "大概用 Aldun；-nt 只对 -t 双数有把握",
+     "whyZh": "原文：It may be that only nouns with nominative dual forms in -t would have dative dual forms in -nt。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "-nt 是个「不合群」的形式",
+     "bodyZh": "昆雅厌恶词末辅音丛，却允许 -nt。这说明它是两个词尾的机械叠加，而非独立词尾——理解这一点，就不会把它误推广到 -u 双数上。"
+    }
+   ],
+   "recapZh": "双数与格 -nt（ciryant）；-u 双数用 -n（Aldun）。",
+   "selfCheckZh": [
+    {
+     "qZh": "双数与格词尾是什么？",
+     "aZh": "-nt。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-dative-case",
+    "unitIds": [
+     11
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "dat-nodirect",
+   "sourceSectionId": "the-dative-case",
+   "titleZh": "10 · 没有直接宾语的与格：aranen 与「against us」",
+   "leadZh": "有些句子只有与格宾语、没有直接宾语。aranen 展示帮助元音 -e-；Pater Noster 展示与格表「受损」。",
+   "objectives": [
+    "知道 aranen 的 -e- 为何插入",
+    "能用 Pater Noster 说明与格可表受损方"
+   ],
+   "rules": [
+    {
+     "id": "r-dat-nd1",
+     "headZh": "aranen：-e- 插入",
+     "bodyZh": "「众男子为国王工作」里，for 由 -n 表示，加在 aran 上：aran + n 不行，插入帮助元音 -e-，得 aranen。",
+     "en": "probably producing aranen, a helping vowel -e- intruding before the ending",
+     "zh": "大概产生 aranen，一个帮助元音 -e- 插入词尾之前。"
+    },
+    {
+     "id": "r-dat-nd2",
+     "headZh": "Pater Noster 的「against us」",
+     "bodyZh": "托尔金把「那些得罪我们的人」里的「我们」用了与格。这是与格表受损方的实例：同一形式可读 against us 或 for us，由语境定。",
+     "en": "those who trespass against us",
+     "zh": "那些得罪我们的人。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为与格只表「给谁」",
+     "right": "也表「对谁不利」：against us 同样是与格",
+     "whyZh": "原文：the dative case being used to identify a party adversely affected by the verbal action。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "「犯罪」没有直接宾语，却能有与格",
+     "bodyZh": "这是本段最锋利的一句：动词没有直接宾语，仍可以有间接受影响的一方。说明与格并不依附于直接宾语，而依附于「受影响」这一语义关系。"
+    }
+   ],
+   "recapZh": "aranen（插 -e-）；与格可表受损：against us。",
+   "selfCheckZh": [
+    {
+     "qZh": "aran 的与格怎么构成？",
+     "aZh": "aran + 帮助元音 -e- + n ＝ aranen。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-dative-case",
+    "unitIds": [
+     12
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "dat-impersonal",
+   "sourceSectionId": "the-dative-case",
+   "titleZh": "11 · 没有主语的句子：orë nin caritas",
+   "leadZh": "orë nin caritas 字面「〔它〕驱使我做这事」，无主语却有与格宾语。这是无人称动词的入口。",
+   "objectives": [
+    "能分析 orë nin caritas 的成分",
+    "知道 or-／ora- 属无人称动词"
+   ],
+   "rules": [
+    {
+     "id": "r-dat-imp1",
+     "headZh": "英语的假主语 it",
+     "bodyZh": "英语 it seems to me that... 里的 it 只是语法填充词，口语可省。昆雅的无主语句与此同类，只是连填充词都不要。",
+     "en": "where the formal subject \"it\" is actually nothing but a grammatical dummy",
+     "zh": "那里的形式主语 it 其实只是个没有实际内容的语法填充词。"
+    },
+    {
+     "id": "r-dat-imp2",
+     "headZh": "orë nin caritas 的解剖",
+     "bodyZh": "orë「驱使」＋ nin「对我」＋ caritas「做它」。没有主语，只有与格宾语。意思近于「我倒是想这么做」。",
+     "en": "orë nin caritas",
+     "zh": "〔它〕驱使我做它。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "给 orë 硬找一个主语",
+     "right": "它本就没有主语；nin 是与格宾语",
+     "whyZh": "原文：Notice that the sentence orë nin caritas has no subject, but it does have a dative object。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "与格在此表「感受者」",
+     "bodyZh": "nin 不是受益者也不是受损者，而是「感受这种冲动的人」。这说明与格的核心是「间接受影响」，受益／受损只是两种常见情形。"
+    }
+   ],
+   "recapZh": "orë nin caritas：无主语，有与格。",
+   "selfCheckZh": [
+    {
+     "qZh": "orë nin caritas 的主语是什么？",
+     "aZh": "没有主语。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-dative-case",
+    "unitIds": [
+     13
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "dat-noverb",
+   "sourceSectionId": "the-dative-case",
+   "titleZh": "12 · 连动词都没有：Alcar i ataren ar i yondon",
+   "leadZh": "《荣耀颂》残篇里三个与格连用，全句无动词：「荣耀〔归于〕父、子与圣灵」。ataren 再次出现帮助元音。",
+   "objectives": [
+    "能背 Alcar i ataren ar i yondon ar i airefëan",
+    "知道 ataren 的 -e- 与 aranen 同理"
+   ],
+   "rules": [
+    {
+     "id": "r-dat-nv1",
+     "headZh": "三个与格并列",
+     "bodyZh": "atar「父」、yondo「子」、airefëa「圣灵」各加 -n：ataren、yondon、airefëan。全句无动词，与格自己承担「归于」。",
+     "en": "Alcar i ataren ar i yondon ar i airefëan",
+     "zh": "荣耀〔归于〕父、子与圣灵。"
+    },
+    {
+     "id": "r-dat-nv2",
+     "headZh": "ataren 的 -e-",
+     "bodyZh": "atar + n 会得 atarn，不是可能的昆雅词，故插 -e- 作 ataren。规则与 aranen 完全相同。",
+     "en": "atarn would not be a possible Quenya word",
+     "zh": "因为 atarn 不会是一个可能的昆雅词。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写成 atarn",
+     "right": "ataren",
+     "whyZh": "原文：a connecting vowel -e- is inserted before the ending -n。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "与格可以独立成句",
+     "bodyZh": "没有动词也能有与格，说明格是名词自带的身分标记，不依赖动词指派。这条对读祷文、题辞、标题尤其有用。"
+    }
+   ],
+   "recapZh": "ataren、yondon、airefëan：无动词的与格串。",
+   "selfCheckZh": [
+    {
+     "qZh": "atar 的与格？",
+     "aZh": "ataren。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-dative-case",
+    "unitIds": [
+     14
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "dat-history1",
+   "sourceSectionId": "the-dative-case",
+   "titleZh": "13 · 历史上的 -n 曾是属格：Ar Manwen、Ar Ulmon",
+   "leadZh": "《词源》里 -n 反而是属格。这不是错，而是托尔金早期设定。",
+   "objectives": [
+    "知道《词源》阶段 -n 是属格",
+    "能举 Ar Manwen、Ar Ulmon 为例"
+   ],
+   "rules": [
+    {
+     "id": "r-dat-h1",
+     "headZh": "《词源》的 -n 是属格",
+     "bodyZh": "从 LotR 设定看，《词源》的昆雅「不对」处之一，就是 -n 在那里是属格词尾。Ar Manwen ＝ Manwë 之日，Ar Ulmon ＝ Ulmo 之日。",
+     "en": "Ar Manwen",
+     "zh": "Manwë 之日。"
+    },
+    {
+     "id": "r-dat-h2",
+     "headZh": "「日」这个词也变了",
+     "bodyZh": "同一处还提示词汇变化：ar(ë)「日」后来改成 aurë 或 ré，见 LotR 附录。读旧材料要同时留意格与词。",
+     "en": "Tolkien changed the word for \"day\" to aurë or ré",
+     "zh": "托尔金把「日」这个词改成了 aurë 或 ré。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 Ar Manwen 当与格「给 Manwë」",
+     "right": "在《词源》阶段它是属格「Manwë 的」",
+     "whyZh": "原文：one of the few things that are \"wrong\" with the Quenya of the Etymologies ... is that -n is here the genitive ending。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "读旧语料的正确姿势",
+     "bodyZh": "同一个形式在不同阶段可能属不同格。所以引用《词源》的例子必须标明阶段，不能直接当 LotR 式昆雅用。"
+    }
+   ],
+   "recapZh": "《词源》阶段 -n ＝ 属格；Ar Manwen。",
+   "selfCheckZh": [
+    {
+     "qZh": "Ar Manwen 在《词源》里是什么意思？",
+     "aZh": "Manwë 之日（属格）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-dative-case",
+    "unitIds": [
+     15
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "dat-history2",
+   "sourceSectionId": "the-dative-case",
+   "titleZh": "14 · Vardan → Vardo：属格词尾的拉锯",
+   "leadZh": "从 Quenta Eldalien、Vardan 到 Vardo，可以看到托尔金几十年间在 -n 与 -o 之间反复。最终：-o 属格、-n 与格。",
+   "objectives": [
+    "能举出 Quenta Eldalien、Vardan、Vardo 三个证据",
+    "记住最终结论：-o 属格，-n 与格"
+   ],
+   "rules": [
+    {
+     "id": "r-dat-h3",
+     "headZh": "Quenta Eldalien 与 Vardan",
+     "bodyZh": "四十年代的 Quenta Eldalien「精灵的历史」用 -n 作属格；Namárië 草稿里 Vardan「Varda 的」也是属格。后来托尔金把 Vardan 划掉改成 Vardo。",
+     "en": "Quenta Eldalien",
+     "zh": "精灵的历史〔Eldalië，精灵民族〕。"
+    },
+    {
+     "id": "r-dat-h4",
+     "headZh": "-o 其实更早就有",
+     "bodyZh": "三十年代早期的「Qenya」诗已有 ciryo（kiryo）作 cirya 的属格（langon veakiryo）。所以 -o 不是「后来才有」，而是「后来才定」。",
+     "en": "langon veakiryo",
+     "zh": "海船的喉咙。"
+    },
+    {
+     "id": "r-dat-h5",
+     "headZh": "最终定论",
+     "bodyZh": "反复之后，LotR 所反映、Plotz 信所编定的结论是：-o 作属格，-n 作与格。这条定论是本课全部形式的基础。",
+     "en": "the final resolution",
+     "zh": "最终的定论。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "看到 Vardan 就判为与格",
+     "right": "在 Namárië 草稿里它是属格；晚期改为 Vardo",
+     "whyZh": "原文：Tolkien used Vardan as the genitive \"Varda's\" ... then he crossed it out and replaced it with Vardo。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "语文学证据的读法",
+     "bodyZh": "划掉改写（Vardan → Vardo）是最有力的证据类型：它把「改变主意」的瞬间留在纸上。读这类材料，要看改动，而不只看最终形式。"
+    }
+   ],
+   "recapZh": "Quenta Eldalien、Vardan→Vardo；终定 -o 属格／-n 与格。",
+   "selfCheckZh": [
+    {
+     "qZh": "最终属格词尾是？",
+     "aZh": "-o；与格是 -n。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-dative-case",
+    "unitIds": [
+     16
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "dat-help",
+   "sourceSectionId": "the-dative-case",
+   "titleZh": "15 · 帮助元音 -e-：ailinen 的来历",
+   "leadZh": "ailin + n 会得 ailinn，不合法，于是插入 -e- 作 ailinen。词尾意义后来改了，这条插入规则不变。",
+   "objectives": [
+    "能解释 ailinen 的 -e-",
+    "知道「格的意义可变，音变规则不变」"
+   ],
+   "rules": [
+    {
+     "id": "r-dat-hv1",
+     "headZh": "ailinen 的解剖",
+     "bodyZh": "《词源》把 ailinen 标为 ailin 的属格；在 LotR 式昆雅里它是与格「为一湖」。形式本身仍有效。",
+     "en": "ailinen",
+     "zh": "为一湖（原标为属格）。"
+    },
+    {
+     "id": "r-dat-hv2",
+     "headZh": "规则比标签长寿",
+     "bodyZh": "ailinn 不合法，故插 e。虽然 -n 的格意义被重新定义，但「需要时插帮助元音」的原则仍然有效。2002 年的补记以 ataren 证实了这点。",
+     "en": "the principle of inserting this helping vowel whenever it is required would still be valid",
+     "zh": "需要时插入这个帮助元音的原则仍然有效。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写成 ailinn",
+     "right": "ailinen",
+     "whyZh": "原文：Since ailinn is not a possible Quenya word, an e is inserted before the ending。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "音系约束优先于形态标签",
+     "bodyZh": "不管 -n 是属格还是与格，昆雅都不允许 ailinn。这说明音系约束是硬约束，形态只是给它让路。遇到怪形式，先查音系。"
+    }
+   ],
+   "recapZh": "ailinen：辅音后插 -e-。",
+   "selfCheckZh": [
+    {
+     "qZh": "ailin 的与格？",
+     "aZh": "ailinen。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-dative-case",
+    "unitIds": [
+     17
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "dat-stem",
+   "sourceSectionId": "the-dative-case",
+   "titleZh": "16 · 特殊词干：Laurelinden、lissen、nissen",
+   "leadZh": "词干变化发生在 -e- 之前：Laurelin (Laurelind-) → Laurelinden；lis (liss-) → lissen；nis (niss-) → nissen。",
+   "objectives": [
+    "能处理 -nd、-ss 词干的与格",
+    "知道词干变化先于插 -e-"
+   ],
+   "rules": [
+    {
+     "id": "r-dat-st1",
+     "headZh": "词干变化先发生",
+     "bodyZh": "Laurelin 的词干是 Laurelind-，加与格得 Laurelinden。在 LotR 式昆雅里这是与格单数，形式本身仍可用。",
+     "en": "Laurelinden",
+     "zh": "Laurelinden（金树的与格）。"
+    },
+    {
+     "id": "r-dat-st2",
+     "headZh": "类推到 nís",
+     "bodyZh": "lis (liss-) → lissen 同理；由此可推 nís (niss-)「女人」的与格是 nissen。",
+     "en": "dative nissen",
+     "zh": "与格 nissen。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "用主格词干加 -n（Laurelinn）",
+     "right": "用词干 Laurelind- 再加 -en",
+     "whyZh": "原文：If the noun has a special stem-form ... such changes occur before this extra -e- as well。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "三步走",
+     "bodyZh": "遇到辅音结尾名词：①取词干 → ②看末尾辅音丛是否合法 → ③不合法则插 -e-。Laurelind- 本身合法，所以只加 -en。"
+    }
+   ],
+   "recapZh": "Laurelinden、lissen、nissen。",
+   "selfCheckZh": [
+    {
+     "qZh": "nis (niss-) 的与格？",
+     "aZh": "nissen。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-dative-case",
+    "unitIds": [
+     18
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "dat-dual-u",
+   "sourceSectionId": "the-dative-case",
+   "titleZh": "17 · -u 双数的与格：veruen 引出的 Alduen",
+   "leadZh": "Ar-Veruen 里的 veruen 是 veru 的属格（后理解为与格），用了 -e-。若成立，Aldu 的与格就是 Alduen。",
+   "objectives": [
+    "知道 veruen 的构成与意义",
+    "知道 Alduen 只是推测"
+   ],
+   "rules": [
+    {
+     "id": "r-dat-du1",
+     "headZh": "Ar-Veruen 的解剖",
+     "bodyZh": "「配偶之日」指 Aulë 与 Yavanna。veruen 是双数 veru「配偶」的属格，用了帮助元音 -e-——出人意料，因为 verun 看起来也合法。",
+     "en": "Ar-Veruen",
+     "zh": "配偶之日。"
+    },
+    {
+     "id": "r-dat-du2",
+     "headZh": "推论：Alduen",
+     "bodyZh": "若 veruen 在后期仍是有效形式（此时作与格），则 -u 双数的与格应为 -uen，Aldu 的与格即 Alduen。",
+     "en": "The dative of Aldu",
+     "zh": "Aldu 的与格。"
+    },
+    {
+     "id": "r-dat-du3",
+     "headZh": "作者自己踩刹车",
+     "bodyZh": "原文紧接着说立足点不牢，不会据此造练习。这一句本身就是重要的方法论提示。",
+     "en": "I will not construct any exercises based on such hypotheses",
+     "zh": "我不会据此造任何练习。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 Alduen 当成确定形式",
+     "right": "它是推测；确定的是 -nt 用于 -t 双数",
+     "whyZh": "原文：we are not on solid ground here。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "三重假设叠在一起",
+     "bodyZh": "Alduen 依赖：①veruen 在后期仍有效 ②它此时算与格 ③-u 双数统一用 -uen。任一环断裂，结论就不成立。读推测时要数清假设层数。"
+    }
+   ],
+   "recapZh": "veruen → Alduen（推测）。",
+   "selfCheckZh": [
+    {
+     "qZh": "Alduen 有语料直接支持吗？",
+     "aZh": "没有，是三重推测。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-dative-case",
+    "unitIds": [
+     19
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ger-intro",
+   "sourceSectionId": "the-gerund",
+   "titleZh": "18 · 一个不肯归类的形式",
+   "leadZh": "名词与动词通常分立，但 gerund 几乎无法归入二分：它是伪装成名词的动词。",
+   "objectives": [
+    "能说出 gerund 为何「不肯归类」",
+    "知道它与上一课的动名词性名词不同"
+   ],
+   "rules": [
+    {
+     "id": "r-ger-i1",
+     "headZh": "与动名词性名词的区别",
+     "bodyZh": "上一课的 verbal nouns 是真正的名词（把动作当「事物」）。gerund 不同：它仍保留动词的能力。区别就在「能否带宾语」。",
+     "en": "a gerund is a verb masquerading as a noun",
+     "zh": "动名词是伪装成名词的动词。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 gerund 与 verbal noun 当同义词",
+     "right": "verbal noun 是名词；gerund 仍能带宾语",
+     "whyZh": "原文把两者对立：verbal nouns「are unquestionably genuine nouns」，而 gerund「almost defies the dichotomy」。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "本课的判断工具",
+     "bodyZh": "整课反复用同一个测试：它后面能不能直接跟宾语？能，就是 gerund；要加 of，就是名词。抓住这一点，后面所有例子都能自己判断。"
+    }
+   ],
+   "recapZh": "gerund ＝ 能带宾语的「名词化动词」。",
+   "selfCheckZh": [
+    {
+     "qZh": "gerund 与 verbal noun 的关键差别？",
+     "aZh": "gerund 仍能带宾语。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-gerund",
+    "unitIds": [
+     0
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ger-enyalien",
+   "sourceSectionId": "the-gerund",
+   "titleZh": "19 · enyalien：从《Cirion 的誓言》剥出 -ië",
+   "leadZh": "enyalien 字面「为回想」。剥掉 en- 与 -n，剩下 yalië；托尔金说它是 yal- 的「不定式（或动名词）形式」。",
+   "objectives": [
+    "能拆解 enyalien ＝ en- + yalië + -n",
+    "知道 -ië 由此确立"
+   ],
+   "rules": [
+    {
+     "id": "r-ger-e1",
+     "headZh": "三层剥离",
+     "bodyZh": "enyalien：en-「再」＋ yalie（yalië）＋ -n（与格）。剥完只剩 -ië 这个词尾。",
+     "en": "enyalien",
+     "zh": "为回想（即为了记住）。"
+    },
+    {
+     "id": "r-ger-e2",
+     "headZh": "托尔金的定性",
+     "bodyZh": "托尔金注 yalië 是 yal-「呼唤、召唤」的「infinitive (or gerundial) form」。注意他自己就把两个术语并列——这个含混后面会反复出现。",
+     "en": "infinitive (or gerundial) form",
+     "zh": "不定式（或动名词）形式。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 -n 是词干的一部分",
+     "right": "它是与格词尾，可剥离",
+     "whyZh": "原文：the final -n is the case ending discussed above。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "从一个词长出一课",
+     "bodyZh": "整课的 gerund 部分都从 enyalien 这一个词出发。这是原著的讲法：先给可证形式，再推规则，而不是先列词尾表。学习时也该这样记。"
+    }
+   ],
+   "recapZh": "enyalien ＝ en- + yalië + -n。",
+   "selfCheckZh": [
+    {
+     "qZh": "enyalien 里的 -n 是什么？",
+     "aZh": "与格词尾。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-gerund",
+    "unitIds": [
+     1
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ger-infinitive",
+   "sourceSectionId": "the-gerund",
+   "titleZh": "20 · 另一种不定式：polin quetë",
+   "leadZh": "昆雅还有「词干即不定式」的用法：polin quetë「我能说」。那么 polin quetië 行不行？",
+   "objectives": [
+    "知道 polin quetë 这个可证例子",
+    "知道 -ië 不能是普遍的不定式词尾"
+   ],
+   "rules": [
+    {
+     "id": "r-ger-i2",
+     "headZh": "词干式不定式",
+     "bodyZh": "另一种不定式就是动词词干（原始动词加 -ë）：polin quetë「我能说」，quetë 是 quet- 的不定式。",
+     "en": "polin quetë",
+     "zh": "我能说。"
+    },
+    {
+     "id": "r-ger-i3",
+     "headZh": "Martsch 的选择",
+     "bodyZh": "Nancy Martsch 的 Basic Quenya 通篇用 -ië 作不定式词尾——写在那条语料可获见之前。作者说这未必错，因为托尔金确实设想过古精灵语的 -ie 不定式。",
+     "en": "Nancy Martsch uses -ië as the Quenya infinitival ending throughout",
+     "zh": "Nancy Martsch 通篇用 -ië 作昆雅不定式词尾。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 -ië 当万能不定式",
+     "right": "它更常是 gerund／抽象名词词尾",
+     "whyZh": "原文：in many cases, the Quenya verb forms derived by means of the suffix -ië are best termed gerunds。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "两个传统并存",
+     "bodyZh": "一条线是 polin quetë（词干不定式），一条线是 Martsch 的 -ië。作者的态度是：两条都能找到依据，但 -ië 更宜称 gerund。这就为下一段的术语讨论铺路。"
+    }
+   ],
+   "recapZh": "polin quetë；-ië 更宜称 gerund。",
+   "selfCheckZh": [
+    {
+     "qZh": "polin quetë 里的 quetë 是什么形式？",
+     "aZh": "不定式（词干式）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-gerund",
+    "unitIds": [
+     2
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ger-english",
+   "sourceSectionId": "the-gerund",
+   "titleZh": "21 · 英语 -ing 的三副面孔",
+   "leadZh": "finding 可以是抽象名词、分词，也可以是 gerund。分辨靠一句测试：后面能不能直接带宾语。",
+   "objectives": [
+    "能分辨 -ing 的三种用法",
+    "能用 of 测试区分名词与 gerund"
+   ],
+   "rules": [
+    {
+     "id": "r-ger-en1",
+     "headZh": "三种 -ing",
+     "bodyZh": "finding 可作抽象名词（＝discovery）、形容词性分词（the man finding the treasure），或 gerund（finding the treasure was wonderful）。",
+     "en": "finding the treasure was wonderful",
+     "zh": "找到宝物是件美妙的事。"
+    },
+    {
+     "id": "r-ger-en2",
+     "headZh": "of 测试",
+     "bodyZh": "若 finding 是名词，要引入被找到的东西就得用 of：the finding of the treasure。若能直接说 finding the treasure，它就是 gerund。",
+     "en": "the finding (= discovery) of the treasure",
+     "zh": "宝物之被发现（＝发现宝物）。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "见到 -ing 就叫动名词",
+     "right": "先看它能否直接带宾语",
+     "whyZh": "原文用 of 结构作对照，说明「带宾语」才是 gerund 的判据。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "这条测试直接搬到昆雅",
+     "bodyZh": "昆雅 gerund 同样能带宾语（UT:317 的 governing a direct object）。所以英语的 of 测试可以整套搬过来：Nurtalë Valinóreva 是名词（用 -va 表宾语），tirië i aiwi 是 gerund（直接带宾语）。"
+    }
+   ],
+   "recapZh": "能带宾语 → gerund；要 of → 名词。",
+   "selfCheckZh": [
+    {
+     "qZh": "the finding of the treasure 里的 finding 是 gerund 吗？",
+     "aZh": "不是，是名词。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-gerund",
+    "unitIds": [
+     3
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ger-def",
+   "sourceSectionId": "the-gerund",
+   "titleZh": "22 · 定义：能当名词用、但仍能带宾语",
+   "leadZh": "gerund 是动词的一个形式，可作名词，意义近似动名词性名词，但仍能带宾语。昆雅亦然。",
+   "objectives": [
+    "能给出 gerund 的定义",
+    "知道托尔金明说它 governing a direct object"
+   ],
+   "rules": [
+    {
+     "id": "r-ger-d1",
+     "headZh": "定义的两半",
+     "bodyZh": "①能充当名词；②仍能带宾语。少任何一半都不是 gerund。",
+     "en": "A gerund is a form of the verb which can function as a noun",
+     "zh": "gerund 是动词的一个形式，能充当名词。"
+    },
+    {
+     "id": "r-ger-d2",
+     "headZh": "昆雅证据",
+     "bodyZh": "托尔金注《Cirion 的誓言》里那个 -ië 形式「governing a direct object」。这就是昆雅 gerund 能带宾语的直接证据。",
+     "en": "governing a direct object",
+     "zh": "支配直接宾语。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 gerund 只是「动词变名词」",
+     "right": "它同时保留动词的宾语能力",
+     "whyZh": "原文把「能带宾语」列为 gerund 区别于 verbal noun 的关键。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "两个身分同时在场",
+     "bodyZh": "enyalien 一句里，gerund 既是 termaruva 的「受益者」（名词身分，接与格），又带自己的宾语 alcar（动词身分）。一句话里两种身分同时运作，这是理解本课的关键画面。"
+    }
+   ],
+   "recapZh": "能当名词 ＋ 能带宾语 ＝ gerund。",
+   "selfCheckZh": [
+    {
+     "qZh": "gerund 的两项特征？",
+     "aZh": "可作名词；仍能带宾语。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-gerund",
+    "unitIds": [
+     4
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ger-subject",
+   "sourceSectionId": "the-gerund",
+   "titleZh": "23 · 作主语：Hirië harma caruva nér alya",
+   "leadZh": "作者自造三例示范 gerund 作主语，其中两例还带宾语。第三例不带宾语也能成立。",
+   "objectives": [
+    "能分析三个例句的结构",
+    "知道 gerund 作主语时可不带宾语"
+   ],
+   "rules": [
+    {
+     "id": "r-ger-s1",
+     "headZh": "带宾语的 gerund 作主语",
+     "bodyZh": "Hirië harma caruva nér alya：hirië（找到）作主语，harma（宝物）是它的宾语，caruva nér alya 是谓语。",
+     "en": "Hirië harma caruva nér alya",
+     "zh": "找到宝物会使一个人富有。"
+    },
+    {
+     "id": "r-ger-s2",
+     "headZh": "与格宾语出现在同一句",
+     "bodyZh": "Tirië i aiwi anta i vendin alta alassë：anta 的接受者是 i vendin（与格复数），正好复习上一节。",
+     "en": "Tirië i aiwi anta i vendin alta alassë",
+     "zh": "看鸟给少女们极大的快乐。"
+    },
+    {
+     "id": "r-ger-s3",
+     "headZh": "不带宾语也成立",
+     "bodyZh": "Matië ná i analta alassë ilyë tiucë Naucoron：matië 单独作主语，没有宾语。",
+     "en": "Matië ná i analta alassë",
+     "zh": "吃是最大的快乐。"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Hirië harma caruva nér alya",
+     "zh": "找到宝物会使一个人富有",
+     "noteZh": "hirië 带宾语 harma。"
+    },
+    {
+     "en": "Tirië i aiwi anta i vendin alta alassë",
+     "zh": "看鸟给少女们极大的快乐",
+     "noteZh": "i vendin 是与格复数。"
+    },
+    {
+     "en": "Matië ná i analta alassë ilyë tiucë Naucoron",
+     "zh": "吃是所有胖矮人最大的快乐",
+     "noteZh": "matië 不带宾语。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 hirië 当名词、harma 当属格",
+     "right": "harma 是 gerund 的直接宾语，不是属格",
+     "whyZh": "原文把这句列为 gerund「equipped with objects」的例子，宾语未用属格。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "注意作者标注「自造」",
+     "bodyZh": "原文说 these examples 是作者按规则构造的，语料里并无实证。所以它们是「合理推演」，不是托尔金原句——引用时要分清。"
+    }
+   ],
+   "recapZh": "gerund 作主语；可带宾语，也可不带。",
+   "selfCheckZh": [
+    {
+     "qZh": "Matië ná i analta alassë 里 matië 带宾语吗？",
+     "aZh": "不带。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-gerund",
+    "unitIds": [
+     5,
+     6,
+     7,
+     8
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ger-object",
+   "sourceSectionId": "the-gerund",
+   "titleZh": "24 · 作宾语：melin tirië i aiwi",
+   "leadZh": "gerund 也能作宾语，并再带自己的宾语：「我爱看鸟」＝ melin tirië i aiwi。也可换用不定式 tirë。",
+   "objectives": [
+    "能造出 gerund 作宾语的句子",
+    "知道 gerund 与不定式常可互换"
+   ],
+   "rules": [
+    {
+     "id": "r-ger-o1",
+     "headZh": "双层宾语",
+     "bodyZh": "melin tirië i aiwi：tirië 是 melin 的宾语，i aiwi 又是 tirië 的宾语。一层套一层，正是 gerund 的双重身分。",
+     "en": "melin tirië i aiwi",
+     "zh": "我爱看鸟。"
+    },
+    {
+     "id": "r-ger-o2",
+     "headZh": "可换不定式",
+     "bodyZh": "也可说 melin tirë i aiwi（用不定式代替 gerund）。作者说两者在许多语境大概可互换。",
+     "en": "Gerunds and infinitives may well be interchangeable in many contexts",
+     "zh": "gerund 与不定式在许多语境里大概可以互换。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 gerund 只能作主语",
+     "right": "也能作宾语，并再带宾语",
+     "whyZh": "原文：Presumably Quenya gerunds can also function as the object of a sentence。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "何时用哪个",
+     "bodyZh": "作者给的实际建议是：作主语时用 gerund 较稳；作宾语时两者皆可。这条建议在下一段的「术语之争」里会再被确认。"
+    }
+   ],
+   "recapZh": "melin tirië i aiwi；也可 melin tirë i aiwi。",
+   "selfCheckZh": [
+    {
+     "qZh": "melin tirië i aiwi 里 i aiwi 是谁的宾语？",
+     "aZh": "tirië 的。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-gerund",
+    "unitIds": [
+     9
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ger-term",
+   "sourceSectionId": "the-gerund",
+   "titleZh": "25 · 术语之争：-ië 到底是不是不定式",
+   "leadZh": "托尔金自己把 -ië 既称 infinitival 又称 gerundial。作者主张：把它主要当 gerund 更稳妥。",
+   "objectives": [
+    "知道托尔金的双重称法",
+    "知道 polin quetë 排除了「-ië 是万能不定式」"
+   ],
+   "rules": [
+    {
+     "id": "r-ger-t1",
+     "headZh": "托尔金自己的含混",
+     "bodyZh": "UT:317 里他把 -ië 形式既称「infinitival」又称「gerundial」。所以术语之争不是后人造成的，源头就在原著。",
+     "en": "Tolkien himself refers to the forms in -ië as both",
+     "zh": "托尔金自己把 -ië 形式既称……又称……"
+    },
+    {
+     "id": "r-ger-t2",
+     "headZh": "polin quetë 的反证",
+     "bodyZh": "若 -ië 是万能不定式，polin quetië 就该自然成立；但「我能说」的可证形式是 polin quetë。所以 -ië 至少不是普遍的不定式词尾。",
+     "en": "demonstrates that -ië at least cannot be a universal infinitive ending",
+     "zh": "表明 -ië 至少不能是普遍的不定式词尾。"
+    },
+    {
+     "id": "r-ger-t3",
+     "headZh": "作者的保守建议",
+     "bodyZh": "遇到「我想找到宝物」这类，用最简单的不定式 hirë 比 merin hirië 稳妥。",
+     "en": "It may be safer to use the simplest infinitive, hirë",
+     "zh": "用最简单的不定式 hirë 也许更稳妥。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 merin hirië 当标准译法",
+     "right": "用 merin hirë 更稳",
+     "whyZh": "原文建议用最简单的 infinitive hirë，并把 hirië 类比英语 I want finding a treasure 的别扭。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "「不确定」要如实标出",
+     "bodyZh": "这一段通篇是问句，没有断言。作者的做法值得学：把无证据的地方标成疑问，而不是编一个规则填上。"
+    }
+   ],
+   "recapZh": "-ië 主要作 gerund；表「想做」用 hirë。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我想找到宝物」作者建议怎么写？",
+     "aZh": "merin hirë（用不定式）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-gerund",
+    "unitIds": [
+     10
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ger-choice",
+   "sourceSectionId": "the-gerund",
+   "titleZh": "26 · 作主语时为何宁用 gerund",
+   "leadZh": "英语里 to err 与 erring 可换；昆雅没有例证，作者的建议是：作主语时用 gerund 更稳。",
+   "objectives": [
+    "知道作者对主语位置的取舍",
+    "知道这条建议只是倾向，不是硬规则"
+   ],
+   "rules": [
+    {
+     "id": "r-ger-c1",
+     "headZh": "英语可换、昆雅有倾向",
+     "bodyZh": "To err is human, to forgive is divine 与 Erring is human, forgiving is divine 同义。昆雅里作者认为作主语时用 gerund（-ië）更稳妥。",
+     "en": "To err is human, to forgive is divine",
+     "zh": "犯错是人之常情，宽恕是神性。"
+    },
+    {
+     "id": "r-ger-c2",
+     "headZh": "但没有例证",
+     "bodyZh": "作者紧接着承认：既无实例，就无法有把握地说托尔金会接受什么。这是倾向，不是规则。",
+     "en": "it is presently impossible to say with any confidence",
+     "zh": "目前无法有把握地说。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把「作主语用 gerund」当硬规则",
+     "right": "只是作者的稳妥倾向，无实证",
+     "whyZh": "原文：since we have no actual examples, it is presently impossible to say ... what Tolkien would have thought of as acceptable。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "建议与规则的界线",
+     "bodyZh": "这一段给的是「safer（更稳）」，不是「must」。读原著要留意这类措辞差别：safer／presumably／may well 都表示推测，不能当定论引用。"
+    }
+   ],
+   "recapZh": "作主语：gerund 更稳（推测，非规则）。",
+   "selfCheckZh": [
+    {
+     "qZh": "「作主语用 gerund」有实证吗？",
+     "aZh": "没有，只是作者的稳妥建议。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-gerund",
+    "unitIds": [
+     11
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ger-purpose",
+   "sourceSectionId": "the-gerund",
+   "titleZh": "26 · 表目的：英语 to，昆雅用与格 gerund",
+   "leadZh": "They have come to see the king 不能直译成 cenë，而应作 cenien——带与格 -n 的 gerund。",
+   "objectives": [
+    "知道英语表目的的不定式在昆雅要用与格 gerund",
+    "能对比 ?utúlientë cenë 与 utúlientë cenien"
+   ],
+   "rules": [
+    {
+     "id": "r-ger-p1",
+     "headZh": "直译可疑",
+     "bodyZh": "把 They have come to see the king 直译作 ?utúlientë cenë i aran，作者「tends to doubt」这结构成立。问号与怀疑都是原文的。",
+     "en": "?utúlientë cenë i aran",
+     "zh": "（可疑）他们来看到国王。"
+    },
+    {
+     "id": "r-ger-p2",
+     "headZh": "《Cirion 的誓言》的示范",
+     "bodyZh": "Vanda sina termaruva Elenna·nórëo alcar enyalien：托尔金译作 this oath shall stand in memory of...，字面是「此誓将立，为回想……荣光」。enyalien 就是与格 gerund。",
+     "en": "Vanda sina termaruva Elenna·nórëo alcar enyalien",
+     "zh": "此誓将立，为回想 Elenna 之地的荣光。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "用裸不定式表目的（cenë i aran）",
+     "right": "用与格 gerund（cenien i aran）",
+     "whyZh": "原文：English infinitives indicating purpose should be rendered into Quenya as gerunds with a dative ending attached。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "英语的 to 有两个来源",
+     "bodyZh": "to see 里的 to 既是「不定式标记」，又暗含「为了」。昆雅把这两件事分开：纯不定式不带 -n，表目的才加 -n。所以先判断有没有「为了」的意思。"
+    }
+   ],
+   "recapZh": "表目的 → gerund + 与格 -n。",
+   "selfCheckZh": [
+    {
+     "qZh": "「他们来见国王」的昆雅说法？",
+     "aZh": "utúlientë cenien i aran。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-gerund",
+    "unitIds": [
+     12
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ger-note",
+   "sourceSectionId": "the-gerund",
+   "titleZh": "27 · UT:317 的原文注",
+   "leadZh": "托尔金对 enyalien 的注释是全课最关键的一段引文：既说它是与格「for the re-calling」，又说它 governing a direct object。",
+   "objectives": [
+    "能复述 UT:317 注释的两层意思",
+    "知道 gerund 可同时接与格与直接宾语"
+   ],
+   "rules": [
+    {
+     "id": "r-ger-n1",
+     "headZh": "一句注里两种身分",
+     "bodyZh": "「here in dative 'for the re-calling', but governing a direct object」——前半是名词身分（接与格），后半是动词身分（带宾语）。",
+     "en": "here in dative 'for the re-calling', but governing a direct object",
+     "zh": "此处用与格「为再-召唤」，但支配直接宾语。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为接了与格就不能再带宾语",
+     "right": "两者可以并存",
+     "whyZh": "UT:317 同一句里同时说明与格与直接宾语。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "最短的证据，最大的信息量",
+     "bodyZh": "这一句只有十来个词，却同时确立了 gerund 的两种身分。读原著时，这类注释往往比正文更有价值——它是作者自己的语法判断。"
+    }
+   ],
+   "recapZh": "enyalien：与格 ＋ 直接宾语并存。",
+   "selfCheckZh": [
+    {
+     "qZh": "enyalien 的宾语是什么？",
+     "aZh": "alcar「荣光」。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-gerund",
+    "unitIds": [
+     13
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ger-dative",
+   "sourceSectionId": "the-gerund",
+   "titleZh": "28 · 把 enyalien 一层层装回去",
+   "leadZh": "en-yal-「纪念」→ enyalië「回想」→ enyalien「为回想」。gerund 像名词一样接格词尾，于是能当间接宾语。",
+   "objectives": [
+    "能复现 enyalien 的三步构成",
+    "能说明它为何能当间接宾语"
+   ],
+   "rules": [
+    {
+     "id": "r-ger-dv1",
+     "headZh": "三步构成",
+     "bodyZh": "en-yal-「再-召唤」＝纪念 → 加 -ië 得 enyalië「回想」 → 加与格 -n 得 enyalien「为回想」。",
+     "en": "enyalië",
+     "zh": "回想（gerund）。"
+    },
+    {
+     "id": "r-ger-dv2",
+     "headZh": "为何能当间接宾语",
+     "bodyZh": "gerund 既是名词，就能接格词尾；接上 -n 后它成为句子的间接宾语，即动作的「受益者」：誓言「立」，而这一行为促成「回想」。",
+     "en": "The word can now function as the indirect object of the sentence",
+     "zh": "这个词现在可作句子的间接宾语。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 enyalien 当纯粹的介词短语",
+     "right": "它是一个带与格的 gerund，还能带宾语",
+     "whyZh": "原文强调 gerund 可像名词一样 receive case endings。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "构词顺序决定理解顺序",
+     "bodyZh": "先有动词，再加 -ië 成 gerund，再加 -n 成与格。理解时倒过来：先看 -n（与格），再看 -ië（gerund），最后看词根。这个顺序对读所有长词都有效。"
+    }
+   ],
+   "recapZh": "en-yal- → enyalië → enyalien。",
+   "selfCheckZh": [
+    {
+     "qZh": "enyalië 加什么变成 enyalien？",
+     "aZh": "与格词尾 -n。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-gerund",
+    "unitIds": [
+     14
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ger-rule",
+   "sourceSectionId": "the-gerund",
+   "titleZh": "29 · in order 测试：一条可操作的判据",
+   "leadZh": "若英语能在不定式前加 in order 而不破坏意思，就该译成与格 gerund。这条测试贯穿全部练习。",
+   "objectives": [
+    "能运用 in order 测试",
+    "知道词序可灵活，不必照搬句末位置"
+   ],
+   "rules": [
+    {
+     "id": "r-ger-r1",
+     "headZh": "测试的表述",
+     "bodyZh": "在不定式前加 in order：意思不变 → 表目的 → 昆雅用与格 gerund。这是全课最实用的一条操作规则。",
+     "en": "If in English you can add the words \"in order\" in front of a infinitive",
+     "zh": "如果英语里能在不定式前加 in order 而不破坏意思。"
+    },
+    {
+     "id": "r-ger-r2",
+     "headZh": "词序不必照搬",
+     "bodyZh": "若死板照搬《Cirion 的誓言》把 gerund 放句末，就得说 utúlientë i aran cenien。作者说昆雅词序大概相当灵活，不必如此。",
+     "en": "Quenya word order is in all likelihood quite flexible",
+     "zh": "昆雅词序大概相当灵活。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把所有 to 都译成 -n",
+     "right": "只有能加 in order 的才加 -n",
+     "whyZh": "原文的判据就是 in order 测试；merilmë lelien 之类的反例见练习 O 的 keys。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "这条测试为什么可靠",
+     "bodyZh": "因为「目的」是语义，不是形式。英语用同一个 to 承担两种功能，测试就是把这个含混拆开。昆雅则用形式（-n 的有无）直接标出差别。"
+    }
+   ],
+   "recapZh": "能加 in order → 与格 gerund。",
+   "selfCheckZh": [
+    {
+     "qZh": "I want to go 里的 to go 要加 -n 吗？",
+     "aZh": "不要，用不定式 lelya。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-gerund",
+    "unitIds": [
+     15
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ger-astem",
+   "sourceSectionId": "the-gerund",
+   "titleZh": "30 · A 词干动词：末 -a 脱落",
+   "leadZh": "把 -ië 加到 A 词干动词上，末 -a 应脱落。这是全课唯一「留到最后」的问题，因为缺直接证据。",
+   "objectives": [
+    "知道 A 词干加 -ië 时 -a 脱落",
+    "知道这条结论靠间接证据"
+   ],
+   "rules": [
+    {
+     "id": "r-ger-a1",
+     "headZh": "结论",
+     "bodyZh": "所有间接证据指向一个结论：加 -ië 之前，末 -a 脱落。orta- → ortië，nurta- → nurtië。",
+     "en": "the final -a should be dropped before -ië is suffixed",
+     "zh": "加 -ië 之前，末 -a 应脱落。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写成 ortaë 或 ortaie",
+     "right": "ortië（-a 脱落）",
+     "whyZh": "原文结论：the final -a should be dropped before -ië is suffixed。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为何放到最后",
+     "bodyZh": "作者说「我 saved this problem for the end」，因为这里没有直接例证，只能靠间接推演。把最不确定的放最后，是这类教材的诚实做法。"
+    }
+   ],
+   "recapZh": "orta- → ortië；nurta- → nurtië。",
+   "selfCheckZh": [
+    {
+     "qZh": "orta- 的 gerund？",
+     "aZh": "ortië。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-gerund",
+    "unitIds": [
+     16
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ger-evidence",
+   "sourceSectionId": "the-gerund",
+   "titleZh": "31 · 三条间接证据：ortie、orië、nainië",
+   "leadZh": "古诺多林语 ortie、昆雅 orië、nainië——三条间接证据合起来支持「-a 脱落」。",
+   "objectives": [
+    "能举出三条证据",
+    "知道它们的证据强度不同"
+   ],
+   "rules": [
+    {
+     "id": "r-ger-e3",
+     "headZh": "ortie（古诺多林语）",
+     "bodyZh": "《词源》ORO 条目引 ortie，属古诺多林语而非昆雅，但两者相当接近，可对应昆雅 ortië。",
+     "en": "ortie",
+     "zh": "（古诺多林语）升起。"
+    },
+    {
+     "id": "r-ger-e4",
+     "headZh": "orië（昆雅，可能）",
+     "bodyZh": "托尔金列 ora-「催促」的形式时收了 orië（VT41:13），虽未明确指认，很可能就是 gerund。",
+     "en": "orië",
+     "zh": "催促（gerund？）。"
+    },
+    {
+     "id": "r-ger-e5",
+     "headZh": "nainië",
+     "bodyZh": "nainië 由 naina-「哀悼」派生，既可看作 gerund 也可看作动名词性名词——两种身分在此重合。",
+     "en": "nainië",
+     "zh": "哀歌、哀悼。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 ortie 当昆雅形式直接引用",
+     "right": "它是古诺多林语，只是旁证",
+     "whyZh": "原文：though this is \"Old Noldorin\" (/Old Sindarin) rather than Quenya。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "证据分级",
+     "bodyZh": "三条证据强度依次是：orië（昆雅，但未明确指认）＞ ortie（近亲语言）＞ nainië（两可）。作者没有把它们混为一谈，读者也不该。"
+    }
+   ],
+   "recapZh": "ortie／orië／nainië 三条旁证。",
+   "selfCheckZh": [
+    {
+     "qZh": "哪条证据是昆雅的？",
+     "aZh": "orië（VT41:13）；ortie 是古诺多林语。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-gerund",
+    "unitIds": [
+     17
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ger-abstract",
+   "sourceSectionId": "the-gerund",
+   "titleZh": "32 · -ië 也是抽象词尾：mornië、látië",
+   "leadZh": "-ië 不只造 gerund，也造抽象名词。形容词加 -ië 同样掉 -a，这反过来支持 A 词干掉 -a 的结论。",
+   "objectives": [
+    "知道 -ië 的双重功能",
+    "能用 mornië／látië 支持掉 -a 规则"
+   ],
+   "rules": [
+    {
+     "id": "r-ger-ab1",
+     "headZh": "抽象名词的 -ië",
+     "bodyZh": "-ië 可作一般抽象词尾，类似英语 -ness。形容词以 -a 结尾时，加 -ië 前失去 -a：morna → mornië，láta → látië。",
+     "en": "mornië",
+     "zh": "黑暗（由 morna「暗」构成）。"
+    },
+    {
+     "id": "r-ger-ab2",
+     "headZh": "类推到动词",
+     "bodyZh": "既然形容词加 -ië 掉 -a，动词加 -ië 很可能也掉 -a。这是把形容词的证据迁到动词上的关键一步。",
+     "en": "it seems very likely that this also happens when it is added to A-stem verbs",
+     "zh": "加到 A 词干动词上时很可能也如此。"
+    }
+   ],
+   "examples": [
+    {
+     "en": "ortië Pelóri nurtien Valinor úmë mára noa",
+     "zh": "举起 Pelóri 以隐藏 Valinor 不是个好主意",
+     "noteZh": "ortië 作主语，nurtien 是与格 gerund 表目的。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 -ië 只能造 gerund",
+     "right": "它同时是通用抽象词尾",
+     "whyZh": "原文：-ië can also function as a general abstract ending, somewhat like English \"-ness\"。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一句里两个 gerund",
+     "bodyZh": "ortië Pelóri nurtien Valinor 同时用了主格 gerund（ortië 带宾语 Pelóri）与与格 gerund（nurtien 表目的）。这一句就把本课 gerund 的两大用法用全了。"
+    }
+   ],
+   "recapZh": "mornië、látië；-ië 既是 gerund 也是抽象词尾。",
+   "selfCheckZh": [
+    {
+     "qZh": "morna 加 -ië 得到？",
+     "aZh": "mornië。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-gerund",
+    "unitIds": [
+     18
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ger-ya",
+   "sourceSectionId": "the-gerund",
+   "titleZh": "33 · -ya 动词：整个 -ya 脱落，得 harië",
+   "leadZh": "harya- 加 -ië 不能得 haryië（yi 不合法），而是整个 -ya 脱落：harië。verya → verië 可作旁证。",
+   "objectives": [
+    "知道 -ya 动词的 gerund 构成",
+    "知道 yi 不是合法的昆雅组合"
+   ],
+   "rules": [
+    {
+     "id": "r-ger-y1",
+     "headZh": "-ya 整段脱落",
+     "bodyZh": "harya-「拥有」的 gerund 是 harië，不是 haryië——因为 yi 不是可能的昆雅组合。",
+     "en": "yi is not a possible Quenya combination",
+     "zh": "yi 不是可能的昆雅组合。"
+    },
+    {
+     "id": "r-ger-y2",
+     "headZh": "形容词旁证",
+     "bodyZh": "verya「勇猛」→ verië「勇猛」；同一形式大概也是动词 verya-「敢」的 gerund。",
+     "en": "verië",
+     "zh": "勇猛（verya 的抽象名词）。"
+    }
+   ],
+   "examples": [
+    {
+     "en": "harië malta úva carë nér anwavë alya",
+     "zh": "拥有金子不会使人真正富有",
+     "noteZh": "harië 作主语，úva 否定将来。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写成 haryië",
+     "right": "harië",
+     "whyZh": "原文：Otherwise the gerund would have to be haryië, but yi is not a possible Quenya combination。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "又一次音系优先",
+     "bodyZh": "与 ailinen 插 -e- 同理：音系禁止什么，形态就得让路。-ya 脱落不是「规则例外」，而是音系约束的结果。"
+    }
+   ],
+   "recapZh": "harya- → harië；verya → verië。",
+   "selfCheckZh": [
+    {
+     "qZh": "harya- 的 gerund？",
+     "aZh": "harië。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-gerund",
+    "unitIds": [
+     19
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "we-intro",
+   "sourceSectionId": "the-pronoun-quot-we-quot",
+   "titleZh": "34 · 「我们」有不止一个",
+   "leadZh": "已练过 -n／-nyë、-lyë、-s、-ntë、-t。现在进入第一人称复数，而昆雅的「我们」不止一个。",
+   "objectives": [
+    "复习已学的代词词尾",
+    "知道昆雅区分多种「我们」"
+   ],
+   "rules": [
+    {
+     "id": "r-we-i1",
+     "headZh": "先分清 -n 与 -nyë",
+     "bodyZh": "开头这句警告很重要：短形式 -n「我」不可与与格 -n 混淆。同一个 -n 在不同位置是不同东西。",
+     "en": "the short form must not be confused with the dative ending",
+     "zh": "短形式不可与与格词尾混淆。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把动词后的 -n 一律当「我」",
+     "right": "也可能只是与格 -n；看它附在什么上",
+     "whyZh": "原文在讲代词词尾时特意加括号警告这一点。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "本节的读法",
+     "bodyZh": "接下来十几段是昆雅语法里最乱的一处。读的时候抓住一条主线：托尔金改过主意，所以要分清「哪个阶段的形式」。不然会以为原文自相矛盾。"
+    }
+   ],
+   "recapZh": "-n 既可能是「我」，也可能是与格——看位置。",
+   "selfCheckZh": [
+    {
+     "qZh": "-n 一定是「我」吗？",
+     "aZh": "不一定，也可能是与格词尾。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-pronoun-quot-we-quot",
+    "unitIds": [
+     0
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "we-lme",
+   "sourceSectionId": "the-pronoun-quot-we-quot",
+   "titleZh": "35 · -lmë：Andavë laituvalmet",
+   "leadZh": "Cormallen 赞歌里 lait·uva·lme·t ＝「赞美·将·我们·他们」，-lmë 是「我们」。",
+   "objectives": [
+    "能拆解 laituvalmet",
+    "知道 -lmë 是第一个候选词尾"
+   ],
+   "rules": [
+    {
+     "id": "r-we-l1",
+     "headZh": "三层拆解",
+     "bodyZh": "laituvalmet ＝ lait-（赞美）＋ -uva-（将）＋ -lme-（我们）＋ -t（他们）。一个词里两个代词词尾。",
+     "en": "lait·uva·lme·t",
+     "zh": "赞美·将·我们·他们。"
+    },
+    {
+     "id": "r-we-l2",
+     "headZh": "出处",
+     "bodyZh": "这句出自 Cormallen 赞歌：Andavë laituvalmet「长久我们将赞美他们」。",
+     "en": "Andavë laituvalmet",
+     "zh": "长久我们将赞美他们。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 -lme- 当词干的一部分",
+     "right": "它是「我们」的代词词尾",
+     "whyZh": "原文逐段拆作 lait·uva·lme·t 并指明 The ending for \"we\" is seen to be -lmë。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一个词，两个代词",
+     "bodyZh": "laituvalmet 把主语与宾语都编进动词。这种「动词即句子」的写法是昆雅的常态，也是读长词的钥匙：从右往左剥。"
+    }
+   ],
+   "recapZh": "laituvalmet ＝ lait + uva + lme + t。",
+   "selfCheckZh": [
+    {
+     "qZh": "laituvalmet 里的 -t 是什么？",
+     "aZh": "「他们」（宾语）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-pronoun-quot-we-quot",
+    "unitIds": [
+     1
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "we-mme",
+   "sourceSectionId": "the-pronoun-quot-we-quot",
+   "titleZh": "36 · -mmë：vammë「我们不干」",
+   "leadZh": "同一个「我们」，在 vá 的派生形式里却成了 -mmë。这不是笔误，是另一套系统。",
+   "objectives": [
+    "知道 vammë 的形式与意义",
+    "知道 -mmë 与 -lmë 并存"
+   ],
+   "rules": [
+    {
+     "id": "r-we-m1",
+     "headZh": "vá 可带代词词尾",
+     "bodyZh": "感叹词 vá 表拒绝或禁止，可带代词词尾：ván／ványë「我不干」，vammë「我们不干」。",
+     "en": "vammë",
+     "zh": "我们不干。"
+    },
+    {
+     "id": "r-we-m2",
+     "headZh": "两套并存",
+     "bodyZh": "于是「我们」忽然不是 -lmë 而是 -mmë。作者不掩饰：这是个「zoo」。",
+     "en": "the pronominal ending for \"we\" is suddenly not -lmë, but rather -mmë",
+     "zh": "「我们」的代词词尾忽然不是 -lmë，而是 -mmë。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "认为 -lmë 与 -mmë 是同一词尾的变体",
+     "right": "它们后来分属不同范畴（包含／排除、复数／双数）",
+     "whyZh": "原文后文说明 -mmë 后来被重新定为双数。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么会有两套",
+     "bodyZh": "因为托尔金在不同时期设定不同。原文的处理办法不是选一个、丢掉另一个，而是先都摆出来，再讲清楚各自属于哪个阶段。这是读昆雅语料的通用态度。"
+    }
+   ],
+   "recapZh": "vammë：-mmë ＝「我们」（早期排除式）。",
+   "selfCheckZh": [
+    {
+     "qZh": "vammë 是什么意思？",
+     "aZh": "我们不干。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-pronoun-quot-we-quot",
+    "unitIds": [
+     2
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "we-lwe",
+   "sourceSectionId": "the-pronoun-quot-we-quot",
+   "titleZh": "37 · -lwë 与 -lv-：navilwë、omentielvo",
+   "leadZh": "VT42:35 有 navilwë「我们判断」；VT43:6 说「我们」的词尾含 -lv-。omentielvo 里的 -lv- 就是它。",
+   "objectives": [
+    "知道 -lwë 与 -lv- 两个变体",
+    "能指出 omentielvo 里的 -lv-"
+   ],
+   "rules": [
+    {
+     "id": "r-we-lw1",
+     "headZh": "navilwë",
+     "bodyZh": "Bill Welden 的文章引 navilwë「我们判断」，其中 -lwë 是「我们」。",
+     "en": "navilwë",
+     "zh": "我们判断。"
+    },
+    {
+     "id": "r-we-lw2",
+     "headZh": "-lv- 与 omentielvo",
+     "bodyZh": "VT43:6 说「我们」的词尾含 -lv-（不是 -lw-），它与「我们的」词尾密切对应。LotR 里 omentielvo「我们的相遇」正是这个 -lv-。",
+     "en": "omentielvo",
+     "zh": "我们的相遇。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 -lwë 与 -lvë 当拼写自由",
+     "right": "作者认为 -lvë 更可信，并统一用 -lvë",
+     "whyZh": "原文：Various explanations have been offered, none entirely convincing. I will use -lvë here。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一个辅音牵出下一课",
+     "bodyZh": "-lv- 同时出现在「我们」与「我们的」里，这不是巧合，而是同源。下一课讲所有格时会专门处理这次修订，本节只是伏笔。"
+    }
+   ],
+   "recapZh": "navilwë；-lv-（omentielvo）。",
+   "selfCheckZh": [
+    {
+     "qZh": "omentielvo 里的 -lv- 表示什么？",
+     "aZh": "包含式「我们的」。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-pronoun-quot-we-quot",
+    "unitIds": [
+     3
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "we-chaos",
+   "sourceSectionId": "the-pronoun-quot-we-quot",
+   "titleZh": "38 · 两个前提：改过主意 ＋ 昆雅分得更细",
+   "leadZh": "面对一堆「我们」，先认两件事：混乱来自修订；昆雅区分英语不区分的范畴。",
+   "objectives": [
+    "能说出混乱的两个来源",
+    "知道英语的 we 在昆雅被细分"
+   ],
+   "rules": [
+    {
+     "id": "r-we-c1",
+     "headZh": "前提一：修订",
+     "bodyZh": "混乱部分源于托尔金不断的修订，这些样本不属于完全同一形态的昆雅。",
+     "en": "the chaos is partly due to Tolkien's incessant revisions",
+     "zh": "混乱部分源于托尔金不断的修订。"
+    },
+    {
+     "id": "r-we-c2",
+     "headZh": "前提二：区分更细",
+     "bodyZh": "英语的 we 就是 we；精灵却区分好几种「我们」。这是本节的真正主题。",
+     "en": "Quenya upholds distinctions that do not appear in English",
+     "zh": "昆雅维持着英语里不出现的区分。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "拿不同阶段的词尾互相比较",
+     "right": "先标阶段，再比较",
+     "whyZh": "原文第一个前提就是：we should not think that all of these samples belong to quite the same form of Quenya。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "这条方法论适用于全课",
+     "bodyZh": "不只「我们」，与格（-n 曾是属格）、gerund（-ië 的定性）都一样。昆雅材料的混乱多半是历时造成的，不是共时例外。"
+    }
+   ],
+   "recapZh": "两个前提：历时修订；包含／排除之分。",
+   "selfCheckZh": [
+    {
+     "qZh": "昆雅的「我们」比英语多了什么区分？",
+     "aZh": "包含式／排除式（还有单复数与双数）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-pronoun-quot-we-quot",
+    "unitIds": [
+     4
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "we-exclusive",
+   "sourceSectionId": "the-pronoun-quot-we-quot",
+   "titleZh": "39 · 排除式：-mmë 与 vammë 的语境",
+   "leadZh": "排除式「我们」不含被称呼者。vammë 是对「我们」拒绝服从的那一方说的，所以对方在「我们」之外。",
+   "objectives": [
+    "能解释 vammë 为何用排除式",
+    "知道 -mmë 早期是「第一人称复数排除式」"
+   ],
+   "rules": [
+    {
+     "id": "r-we-x1",
+     "headZh": "排除式的定义",
+     "bodyZh": "排除式「我们」排除被称呼者。托尔金把 -mmë 称为「第一〔人称〕复数排除式」（WJ:371）。",
+     "en": "first [person] plural exclusive",
+     "zh": "第一〔人称〕复数排除式。"
+    },
+    {
+     "id": "r-we-x2",
+     "headZh": "vammë 的语境",
+     "bodyZh": "说 vammë 时，被拒绝的那一方站在「我们」群体之外，所以必须用排除式。",
+     "en": "This other party is not included in \"we\"",
+     "zh": "这一方不被包含在「我们」之内。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "对听话人说「我们不干」却用包含式",
+     "right": "若把对方排除在外，用排除式",
+     "whyZh": "原文用 vammë 的语境说明：对方不在「我们」群体内。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "判断口诀",
+     "bodyZh": "问一句：被称呼的人在「我们」里面吗？在 → 包含式；不在 → 排除式。这一条能解决本节大部分例句。"
+    }
+   ],
+   "recapZh": "排除式 ＝ 不含听话人；vammë。",
+   "selfCheckZh": [
+    {
+     "qZh": "排除式「我们」包含听话人吗？",
+     "aZh": "不包含。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-pronoun-quot-we-quot",
+    "unitIds": [
+     5
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "we-inclusive",
+   "sourceSectionId": "the-pronoun-quot-we-quot",
+   "titleZh": "40 · 包含式：laituvalmet 的原始语境",
+   "leadZh": "托尔金最初写 laituvalmet 时，想的是刚铎人彼此鼓励——听话人在「我们」之内，所以是包含式。",
+   "objectives": [
+    "能还原 laituvalmet 的原始语境",
+    "能对比「赞美你们」为何要用排除式"
+   ],
+   "rules": [
+    {
+     "id": "r-we-n1",
+     "headZh": "原始语境",
+     "bodyZh": "赞美 Frodo 与 Sam 的人们是在互相说话，不是对持戒人说话。听话人在「我们」之内，故用包含式 -lmë。",
+     "en": "They encourage one another to praise the Ring-bearers",
+     "zh": "他们彼此鼓励去赞美持戒人。"
+    },
+    {
+     "id": "r-we-n2",
+     "headZh": "反例：赞美你们",
+     "bodyZh": "若直接对 Frodo 与 Sam 说「我们将赞美你们」，就得用排除式——因为他们不在「我们」之内。",
+     "en": "they would have had to use an exclusive \"we\"",
+     "zh": "那就得用排除式「我们」。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 -lmë 永远是包含式",
+     "right": "第二版修订后它变成排除式",
+     "whyZh": "见下一段：the forms in -lm- were not after all inclusive, but exclusive。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "同一句，两种读法",
+     "bodyZh": "laituvalmet 在第一版语境是包含式，在修订后是排除式。形式没变，解释变了。这正是本节要读者养成的习惯：先定阶段，再定意义。"
+    }
+   ],
+   "recapZh": "包含式 ＝ 含听话人；laituvalmet 原读包含。",
+   "selfCheckZh": [
+    {
+     "qZh": "对听话人说「我们将赞美你们」，用哪种？",
+     "aZh": "排除式。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-pronoun-quot-we-quot",
+    "unitIds": [
+     6
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "we-author",
+   "sourceSectionId": "the-pronoun-quot-we-quot",
+   "titleZh": "41 · 作者的「我们」",
+   "leadZh": "本课程作者自称「我们」时把读者包含在内，所以那是包含式；只指自己的「帝王式我们」只能是排除式。",
+   "objectives": [
+    "能判断作者的 we 属哪一类",
+    "知道「帝王式我们」必为排除式"
+   ],
+   "rules": [
+    {
+     "id": "r-we-a1",
+     "headZh": "包含读者的 we",
+     "bodyZh": "作者用「我们」指自己与读者，并在文中直接对读者说话，所以是包含式。",
+     "en": "The author tends to include the reader in this \"we\"",
+     "zh": "作者倾向于把读者包含进这个「我们」。"
+    },
+    {
+     "id": "r-we-a2",
+     "headZh": "帝王式 we",
+     "bodyZh": "只指说话人自己的「我们」只能是排除式——被称呼者不在其中。",
+     "en": "could only be exclusive",
+     "zh": "只能是排除式。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把教材里的 we 当排除式",
+     "right": "它通常包含读者，属包含式",
+     "whyZh": "原文：An author using the word \"we\" to refer to himself and his readers ... would have to use the inclusive \"we\"。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一个玩笑里的知识点",
+     "bodyZh": "这段是全书最像闲聊的地方，但它给出了一条可用的判据：看说话人是否把对方算进来。笑话只是包装。"
+    }
+   ],
+   "recapZh": "作者的 we ＝ 包含式；帝王式 we ＝ 排除式。",
+   "selfCheckZh": [
+    {
+     "qZh": "「朕」式的 we 属哪类？",
+     "aZh": "排除式。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-pronoun-quot-we-quot",
+    "unitIds": [
+     7
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "we-lotr",
+   "sourceSectionId": "the-pronoun-quot-we-quot",
+   "titleZh": "42 · LotR 时期：-lmë 包含、-mmë 排除",
+   "leadZh": "托尔金发表 LotR 时，-lmë 是包含式（laituvalmet、omentielmo），-mmë 是排除式。这是「第一版」的格局。",
+   "objectives": [
+    "知道第一版格局：-lmë 包含、-mmë 排除",
+    "能举 omentielmo 为 -lm- 的证据"
+   ],
+   "rules": [
+    {
+     "id": "r-we-lotr1",
+     "headZh": "第一版格局",
+     "bodyZh": "LotR 发表时，包含式「我们」明确是 -lmë；相应的「我们的」作 omentielmo，含同样的 -lm-。",
+     "en": "omentielmo",
+     "zh": "我们的相遇（第一版）。"
+    },
+    {
+     "id": "r-we-lotr2",
+     "headZh": "-mmë 的定位",
+     "bodyZh": "LotR 出版约五年后，《Quendi and Eldar》明确把 -mmë 定为排除式。本课程第一版也照此办。",
+     "en": "Tolkien explicitly identified -mmë as an ending for exclusive \"we\"",
+     "zh": "托尔金明确把 -mmë 定为排除式「我们」的词尾。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "拿第一版格局解释第二版文本",
+     "right": "第二版已把 -lm- 改为排除式",
+     "whyZh": "下一段即讲这次修订。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么还要讲旧格局",
+     "bodyZh": "因为语料横跨几十年，不标阶段就没法读。作者先把旧格局立清楚，下一段讲修订时才有对照。"
+    }
+   ],
+   "recapZh": "第一版：-lmë 包含、-mmë 排除。",
+   "selfCheckZh": [
+    {
+     "qZh": "第一版里 omentielmo 的 -lm- 是包含还是排除？",
+     "aZh": "包含。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-pronoun-quot-we-quot",
+    "unitIds": [
+     8
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "we-revision",
+   "sourceSectionId": "the-pronoun-quot-we-quot",
+   "titleZh": "43 · 修订：omentielmo → omentielvo",
+   "leadZh": "第二版把 omentielmo 改成 omentielvo：-lm- 其实是排除式，包含式应含 -lv-。",
+   "objectives": [
+    "能说明修订的内容与理由",
+    "知道 Plotz 也收到解释此改动的信"
+   ],
+   "rules": [
+    {
+     "id": "r-we-r1",
+     "headZh": "改动本身",
+     "bodyZh": "Frodo 对 Gildor 的问候里，omentielmo 变成 omentielvo。",
+     "en": "omentielvo",
+     "zh": "我们的相遇（第二版）。"
+    },
+    {
+     "id": "r-we-r2",
+     "headZh": "理由",
+     "bodyZh": "Frodo 是对 Gildor 和其他精灵说话，排除式不恰当；包含式应含 -lv-，故 -lm- 必须改 -lv-。",
+     "en": "The forms in -lm- were not after all inclusive, but exclusive!",
+     "zh": "-lm- 形式毕竟不是包含式，而是排除式！"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 omentielmo 与 omentielvo 只是拼写差异",
+     "right": "这是包含／排除的重新划分",
+     "whyZh": "原文：omentielmo had to become omentielvo，因为包含式改为含 -lv-。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么这条修订算「正典」",
+     "bodyZh": "因为它被写进 LotR 第二版（1966）。作者的理由很实在：读者手上的书就是这个形式，教学必须跟上。"
+    }
+   ],
+   "recapZh": "omentielmo → omentielvo；-lm- 改为排除式。",
+   "selfCheckZh": [
+    {
+     "qZh": "第二版里「我们的相遇」怎么写？",
+     "aZh": "omentielvo。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-pronoun-quot-we-quot",
+    "unitIds": [
+     9
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "we-cormallen",
+   "sourceSectionId": "the-pronoun-quot-we-quot",
+   "titleZh": "44 · 赞歌必须重解",
+   "leadZh": "修订后 laituvalmet 里的 -lmë 成了排除式：意思变成「我们（排除）将长久赞美他们」。",
+   "objectives": [
+    "能说明修订对同一句的影响",
+    "知道形式不变、解释变"
+   ],
+   "rules": [
+    {
+     "id": "r-we-cm1",
+     "headZh": "重解后的意思",
+     "bodyZh": "现在意思大概是：我们，刚铎人民，向宇宙宣告——我们（排除式）将长久赞美持戒人。",
+     "en": "we, the people of Gondor, speaking to the universe in general",
+     "zh": "我们，刚铎人民，向宇宙宣告。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "仍按包含式读 laituvalmet",
+     "right": "第二版之后应读作排除式",
+     "whyZh": "原文：the form laituvalmet suddenly contains an exclusive \"we\" instead。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "修订的连锁反应",
+     "bodyZh": "改一个词尾，整句的语气就变了：从「彼此鼓励」变成「向外界宣告」。这说明包含／排除不是语法装饰，而是语用信息。"
+    }
+   ],
+   "recapZh": "laituvalmet 重解为排除式。",
+   "selfCheckZh": [
+    {
+     "qZh": "修订后 laituvalmet 的 -lmë 是包含还是排除？",
+     "aZh": "排除。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-pronoun-quot-we-quot",
+    "unitIds": [
+     10
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "we-lw",
+   "sourceSectionId": "the-pronoun-quot-we-quot",
+   "titleZh": "45 · 遗留问题：为什么是 -lwë",
+   "leadZh": "若包含式含 -lv-，navilwë 里的 -lwë 又怎么解释？各种解释都不完全令人信服，作者统一用 -lvë。",
+   "objectives": [
+    "知道 -lwë 是个未解之谜",
+    "知道本书的取舍：用 -lvë"
+   ],
+   "rules": [
+    {
+     "id": "r-we-lw3",
+     "headZh": "未解之谜",
+     "bodyZh": "各种解释都提过，没有一个完全令人信服。作者的处理是：本书统一用 -lvë。",
+     "en": "none entirely convincing",
+     "zh": "没有一个完全令人信服。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 navilwë 当标准形式模仿",
+     "right": "本书用 navilvë 式的 -lvë",
+     "whyZh": "原文：I will use -lvë here。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "承认无解也是一种结论",
+     "bodyZh": "这一段没有给出答案，只给出取舍。读原著时要接受这类「悬置」：不是所有问题都有解，教材的职责是标明哪里没解。"
+    }
+   ],
+   "recapZh": "-lwë 未解；本书用 -lvë。",
+   "selfCheckZh": [
+    {
+     "qZh": "本书「我们」用哪个形式？",
+     "aZh": "-lvë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-pronoun-quot-we-quot",
+    "unitIds": [
+     11
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "we-dual",
+   "sourceSectionId": "the-pronoun-quot-we-quot",
+   "titleZh": "46 · 双数「我们」与四个词尾",
+   "leadZh": "-mmë 后来被改成双数。若包含／排除与单复数都要区分，就需要四个词尾：-lvë、-lmë、-mmë、-ngwë。",
+   "objectives": [
+    "知道 -mmë 的重新定位",
+    "知道四个词尾的最终分工（含不确定处）"
+   ],
+   "rules": [
+    {
+     "id": "r-we-d1",
+     "headZh": "双数「我们」",
+     "bodyZh": "双数「我们」只指两个人：「我们俩」。据 VT43:6，双数「我们」的词尾含 -mm-。",
+     "en": "the two of us",
+     "zh": "我们俩。"
+    },
+    {
+     "id": "r-we-d2",
+     "headZh": "-mmë 的重新定位",
+     "bodyZh": "-mmë 早期是排除式复数，后来托尔金决定它应是双数。它究竟是双数包含还是双数排除，无法确定。",
+     "en": "Tolkien changed his mind and decided that -mmë should be dual and not plural",
+     "zh": "托尔金改变主意，决定 -mmë 应是双数而非复数。"
+    },
+    {
+     "id": "r-we-d3",
+     "headZh": "四个词尾",
+     "bodyZh": "若两种区分在所有形式里都要维持，就需要四个「我们」：-lvë（变体 -lwë）、-lmë、-mmë、-ngwë。最终分工：-lvë 包含、-lmë 排除、-mmë 双数（含／排不明）。",
+     "en": "four endings for \"we\" do seem to be implied",
+     "zh": "确实似乎暗示有四个「我们」词尾。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 -mmë 还是排除式复数",
+     "right": "修订后它是双数",
+     "whyZh": "原文：the new ending for exclusive \"we\" is -lmë ... whereas -mmë ... is now \"dual\"。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一张小表就够用",
+     "bodyZh": "练习只用 -lvë（包含）与 -lmë（排除）。-mmë、-ngwë 记住「有这回事、含义不明」即可，不必强行使用。"
+    }
+   ],
+   "recapZh": "-lvë 包含、-lmë 排除、-mmë 双数、-ngwë 存疑。",
+   "selfCheckZh": [
+    {
+     "qZh": "练习里用哪两个词尾？",
+     "aZh": "-lvë（包含）与 -lmë（排除）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-pronoun-quot-we-quot",
+    "unitIds": [
+     12
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "quen",
+   "sourceSectionId": "an-indefinite-pronoun",
+   "titleZh": "47 · quen：不定代词「人」",
+   "leadZh": "英语用 one／you 泛指时，昆雅用 quen——quén「人」的非重读变体。它也能接格词尾。",
+   "objectives": [
+    "知道 quen 的意义与来源",
+    "能构成 queno、quenen"
+   ],
+   "rules": [
+    {
+     "id": "r-q-1",
+     "headZh": "来源与意义",
+     "bodyZh": "quen 本质上是名词 quén「人」的非重读变体；虽与 Quendë「精灵」有关，却不特指精灵。",
+     "en": "essentially an unstressed variant of the noun quén",
+     "zh": "本质上是名词 quén「人」的非重读变体。"
+    },
+    {
+     "id": "r-q-2",
+     "headZh": "可接格词尾",
+     "bodyZh": "属格 queno「人的」，与格 quenen（英语常译 for you）：Matië yávë ná mára quenen「吃果子对你有好处」。",
+     "en": "Matië yávë ná mára quenen",
+     "zh": "吃果子对你有好处。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 quen 当「精灵」",
+     "right": "它是「人、某人」；与精灵无特别关系",
+     "whyZh": "原文：these words have no special reference to Elves。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么英语要绕一下",
+     "bodyZh": "英语的 you 既指听话人也泛指，昆雅用 quen 专门承担泛指，避免歧义。这也解释了 keys 里 for you 的译法常作 quenen。"
+    }
+   ],
+   "recapZh": "quen ＝「人／某人」；queno、quenen。",
+   "selfCheckZh": [
+    {
+     "qZh": "quen 的与格？",
+     "aZh": "quenen。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "an-indefinite-pronoun",
+    "unitIds": [
+     0
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "quen-old",
+   "sourceSectionId": "an-indefinite-pronoun",
+   "titleZh": "48 · 早期的 -o：Kildo kirya ninqe",
+   "leadZh": "早期「Qenya」文本里似乎用 -o 表「人」，但把它转成 LotR 式昆雅并不只是改拼写。",
+   "objectives": [
+    "知道 Kildo kirya ninqe 这条早期语料",
+    "知道作者为何不建议沿用 -o"
+   ],
+   "rules": [
+    {
+     "id": "r-q-o1",
+     "headZh": "早期语料",
+     "bodyZh": "Kildo kirya ninqe 译作 a white ship one saw。这里 -o 似乎表「人」。",
+     "en": "Kildo kirya ninqe",
+     "zh": "（早期 Qenya）人看见一艘白船。"
+    },
+    {
+     "id": "r-q-o2",
+     "headZh": "不能只改拼写",
+     "bodyZh": "转成 LotR 式昆雅不止改作 cildo cirya ninquë：kildo 不合后期系统，-o 在 LotR 阶段的地位也极可疑。所以用 quen 更稳。",
+     "en": "the status of the ending -o at the LotR stage is highly doubtful",
+     "zh": "-o 词尾在 LotR 阶段的地位极为可疑。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 -o 当「人」的合法词尾",
+     "right": "那是早期设定，LotR 式昆雅用 quen",
+     "whyZh": "原文：it is certainly much safer to use the indefinite pronoun quen from a post-LotR source。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "又一条「阶段」教训",
+     "bodyZh": "本课第三次出现同一模式：早期形式不能直接搬进后期系统。前两次是 -n 作属格、-lmë 作包含式。"
+    }
+   ],
+   "recapZh": "Kildo kirya ninqe 是早期语料；后期用 quen。",
+   "selfCheckZh": [
+    {
+     "qZh": "LotR 式昆雅里「人看见」用哪个词？",
+     "aZh": "quen。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "an-indefinite-pronoun",
+    "unitIds": [
+     1
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "summary",
+   "sourceSectionId": "an-indefinite-pronoun",
+   "kind": "summary",
+   "titleZh": "49 · 本课小结",
+   "leadZh": "把与格、gerund、「我们」、quen 四条线收成一张清单。英文小结逐字取自原文。",
+   "objectives": [
+    "能复述与格的单／复／双数词尾",
+    "能复述 gerund 的构成与目的用法",
+    "能说出包含／排除的分工"
+   ],
+   "summaryEn": "Summary of Lesson Thirteen: The Quenya dative case identifies indirect objects, the party indirectly affected by a verbal action (often the beneficiary of this action, though the indirect object may also be adversely affected by it). In the singular, the dative ending is -n (when it is to be added to a noun ending in a consonant, a helping vowel -e- is inserted before it). Nouns with nominative plurals in -i have dative plurals in -in; this ending -in is also used in case of nouns which have nominative plurals in -r, so that the dative form corresponding to nominative Eldar is Eldain. The dual dative ending is -nt, at least in the case of nouns which have nominative dual forms in -t. (Nouns with nominative dual forms in -u should perhaps have dative dual forms in -uen, if we can put any trust in earlier material where the ending -n was actually assigned to the genitive case rather than the dative.) – A gerund is a form of the verb which can function almost like a noun, denoting the corresponding verbal action, but unlike regular verbal nouns, gerunds are still able to take objects. Quenya gerunds are formed with the ending -ië (also a general abstract ending); if this suffix is to be added to an A-stem, the final -a evidently drops out. In the case of verbs in -ya, this entire ending is apparently omitted before the suffix -ië. English infinitives expressing purpose (i.e., infinitives signifying \"[in order] to do\" something) translate into Quenya as gerunds inflected for dative, e.g. hirien \"(in order) to find\". – Quenya has several pronominal endings corresponding to English \"we\". One of them is (apparently) -lvë, denoting a \"we\" that includes the party that is addressed, whereas the ending -lmë expresses an exclusive \"we\", used when the speaker addresses a party outside the \"we\" group that the speaker himself belongs to. (We ignore an earlier conceptual phase, when -lmë was inclusive \"we\" and -mmë the exclusive.) – The indefinite pronoun \"one\" or \"someone\" is in Quenya quen. Presumably it can receive case endings, e.g. genitive queno \"one's\".",
+   "summaryZh": "第十三课小结：昆雅与格标识间接宾语，即间接受动作影响的一方（常是受益者，也可能受损）。单数与格词尾是 -n（加在以辅音结尾的名词上时，前面插入帮助元音 -e-）。主格复数为 -i 的名词，与格复数为 -in；这个 -in 也用于主格复数为 -r 的名词，故主格 Eldar 对应的与格是 Eldain。双数与格词尾是 -nt，至少对主格双数为 -t 的名词如此。（主格双数为 -u 的名词，与格双数也许是 -uen，如果我们可以相信更早材料里把 -n 派给属格而非与格的做法。）——Gerund 是动词的一个形式，几乎能像名词一样使用，表示相应的动作，但与普通动名词性名词不同，gerund 仍能带宾语。昆雅 gerund 由词尾 -ië 构成（也是通用抽象词尾）；若把此后缀加到 A 词干上，末 -a 显然脱落。至于 -ya 动词，整个词尾显然在 -ië 前省略。英语表目的的不定式（即表示「〔为了〕做某事」的不定式）译成昆雅时作与格屈折的 gerund，如 hirien「（为了）找到」。——昆雅有好几个对应英语 we 的代词词尾。其中之一（看来）是 -lvë，表示包含被称呼一方的「我们」，而 -lmë 表示排除式「我们」，用于说话人对着「我们」群体之外的某方说话时。（我们忽略较早的构想阶段，那时 -lmë 是包含式、-mmë 是排除式。）——不定代词「人」「某人」在昆雅里是 quen。想来它能接格词尾，如属格 queno「人的」。",
+   "formulaZh": [
+    "与格单数：-n（Eldan、ciryan、lassen）；辅音结尾插 -e-（aranen、ataren、ailinen）。",
+    "与格复数：-in（lassin、lamnin、Eldain）；-r 不出现。",
+    "与格双数：-nt（ciryant）；-u 双数大概用 -n（Aldun）或 -uen（Alduen，推测）。",
+    "与格表受益（for me）与受损（against us）；无直接宾语、无主语、无动词都可有与格。",
+    "gerund：-ië（hirië、tirië、matië）；A 词干掉 -a（ortië、nurtië）；-ya 整段脱落（harië）。",
+    "表目的：gerund ＋ 与格 -n（hirien、cenien、varien、enyalien）。",
+    "「我们」：-lvë 包含、-lmë 排除（第二版后）；-mmë 双数；-ngwë 存疑。",
+    "quen「人／某人」；queno「人的」、quenen「对人」。"
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 -lmë 当包含式",
+     "right": "第二版后 -lmë 是排除式，包含式用 -lvë",
+     "whyZh": "原文：the new ending for inclusive \"we\" is -lvë (replacing former -lmë)。"
+    }
+   ],
+   "recapZh": "四条线：与格 -n／-in／-nt；gerund -ië；-lvë 对 -lmë；quen。",
+   "selfCheckZh": [
+    {
+     "qZh": "表目的的「为了找到」怎么写？",
+     "aZh": "hirien。"
+    },
+    {
+     "qZh": "第二版后包含式「我们」是？",
+     "aZh": "-lvë。"
+    }
+   ]
+  },
+  {
+   "sectionId": "vocabulary",
+   "sourceSectionId": "vocabulary",
+   "titleZh": "50 · 课末词汇（14 条）",
+   "leadZh": "本课词汇里最值得注意的是 arwa：它作形容词却接属格，等于英语的 with。",
+   "objectives": [
+    "记住 14 条课末词",
+    "掌握 arwa ＋ 属格的用法"
+   ],
+   "bilingual": {
+    "sectionId": "vocabulary",
+    "unitIds": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13
+    ],
+    "labelZh": "词汇"
+   },
+   "table": {
+    "captionZh": "14 条课末词与要点",
+    "headers": [
+     "课末词",
+     "词性 / 释义",
+     "要点"
+    ],
+    "rows": [
+     [
+      "?rasta",
+      "数词「十二」",
+      "由词根 RÁSAT 推得，非明载"
+     ],
+     [
+      "mahta-",
+      "动词「战斗」",
+      "K 题 Mahtalvë"
+     ],
+     [
+      "anta-",
+      "动词「给」",
+      "过去时 ánë（不规则）"
+     ],
+     [
+      "suc-",
+      "动词「喝」",
+      "sucië「喝」（gerund）"
+     ],
+     [
+      "anna",
+      "名词「礼物」",
+      "A 题 i nissen anna"
+     ],
+     [
+      "alassë",
+      "名词「快乐」",
+      "F、L 题的「快乐」"
+     ],
+     [
+      "hroa",
+      "名词「身体」",
+      "与 hrávë「肉」同源"
+     ],
+     [
+      "noa",
+      "名词「主意」",
+      "mára noa「好主意」"
+     ],
+     [
+      "cala",
+      "名词「光」",
+      "Calaquendi、Calacirya"
+     ],
+     [
+      "mára",
+      "形容词「好（合适）」",
+      "非道德意义的「好」"
+     ],
+     [
+      "quen",
+      "不定代词「人」",
+      "queno、quenen"
+     ],
+     [
+      "arwa",
+      "形容词「拥有」",
+      "后接属格：nér arwa collo"
+     ],
+     [
+      "arwë",
+      "arwa 的复数",
+      "Neri arwë collo"
+     ],
+     [
+      "ú",
+      "介词「无」",
+      "也接属格：ú rasseto"
+     ]
+    ]
+   },
+   "rules": [
+    {
+     "id": "r-v-1",
+     "headZh": "anta- 的过去时",
+     "bodyZh": "anta- 的过去时用 ánë（不规则）。《词源》ONO 条目显示 onta- 的过去时既可 ónë 也可 ontanë，所以 anta- 也许两可；本书用可证的 ánë。",
+     "en": "irregular past tense ánë",
+     "zh": "不规则过去时 ánë。"
+    },
+    {
+     "id": "r-v-2",
+     "headZh": "arwa 接属格",
+     "bodyZh": "arwa「拥有」是形容词而非介词，但后面接属格：nér arwa collo「一个有斗篷的人」。指向复数时作 arwë。",
+     "en": "Neri arwë collo",
+     "zh": "拥有斗篷的人们。"
+    },
+    {
+     "id": "r-v-3",
+     "headZh": "arwa 与 ú 都接属格",
+     "bodyZh": "若把 arwa 理解为「有」，那么「有」与「无」（arwa、ú）都接属格。这是本课与上一课属格的接口。",
+     "en": "arwa presumably agrees in number",
+     "zh": "arwa 大概要数一致。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "arwa 后接主格或宾格",
+     "right": "arwa 后接属格（collo、harmaron、ohtarion）",
+     "whyZh": "原文：arwa \"having, possessing\" ... would be followed by a genitive form。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "arwa 是「形容词」却像介词",
+     "bodyZh": "它接属格、意义等于 with，看起来就是介词；但原文强调它是形容词，所以要说 arwë 与复数一致。这种「词性」与「句法行为」不一致的地方，正是昆雅细节的考点。"
+    }
+   ],
+   "recapZh": "anta- → ánë；arwa ＋ 属格；arwë 复数。",
+   "selfCheckZh": [
+    {
+     "qZh": "「一个有斗篷的人」怎么写？",
+     "aZh": "nér arwa collo。"
+    },
+    {
+     "qZh": "anta- 的过去时？",
+     "aZh": "ánë。"
+    }
+   ]
+  },
+  {
+   "sectionId": "exercises",
+   "sourceSectionId": "exercises",
+   "titleZh": "51 · 练习工作台（A–P）",
+   "leadZh": "A–H 昆雅译英，I–P 英译昆雅。答案逐字取自 keys.rtf。",
+   "objectives": [
+    "独立完成 A–P",
+    "用 keys 核对并把错题回链到规则"
+   ],
+   "bilingual": {
+    "sectionId": "exercises",
+    "unitIds": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17
+    ],
+    "labelZh": "练习"
+   },
+   "workflowZh": [
+    "第一遍：先标出每个名词短语是主语、直接宾语还是间接宾语",
+    "看到 for／in order／为了 → 该处应是与格（名词加 -n，或 gerund 加 -n）",
+    "看到 gerund 后面直接跟宾语 → 不要加 of，也不要用属格",
+    "A 词干动词造 gerund：先掉 -a（ortië），-ya 动词整段脱落（harië）",
+    "「我们」先判包含还是排除：听话人在内 → -lvë；在外 → -lmë",
+    "辅音结尾名词加 -n 前，检查是否需要帮助元音 -e-（aranen、ataren）",
+    "点「核对」比对 keys 原文答案",
+    "错题按「回到本课规则」跳回对应规则卡"
+   ],
+   "teachingNoteZh": "keys 对多数题给了注释：I 题的 ohtaren 演示帮助元音 -e-；J 题的 carië 同时带直接宾语 coa 与间接宾语 i seldoin；K 题的 mahtalvë 是包含式、ecénielvë 是完成时；M 题的 lient 是「民族」的双数与格、lelyuvalmë 是排除式；N 题的 arwë 后接属格 limpëo；O 题特意指出 lelya 不能写成 lelien（merilmë lelien 讲不通），而 lerien、antien 才表目的；P 题的 varien 是 varya- 的与格 gerund。",
+   "pitfalls": [
+    {
+     "wrong": "O 题写成 merilmë lelien",
+     "right": "merilmë lelya ... lerien ... antien",
+     "whyZh": "keys：merilmë lelien 这种写法（＝「我们想要〔为了〕去」）讲不通；故「去」用不定式 lelya。"
+    }
+   ],
+   "recapZh": "先判成分，再定格；for／in order → -n。",
+   "selfCheckZh": [
+    {
+     "qZh": "O 题里「去」为什么不用与格 gerund？",
+     "aZh": "「想去」不是目的；用不定式 lelya。"
+    }
+   ]
+  }
+ ]
+}

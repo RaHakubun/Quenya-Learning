@@ -1,0 +1,78 @@
+{
+ "lesson": 10,
+ "introZh": "本课 12 个词覆盖五套规则：nertë 是数词；núra、anwa、nulda、telda、linta 都是形容词，正好拿来练 -vë 副词；hosta-、car-、farya- 三个动词分别给你 -aina、-arna／-ita、-ya 不及物过去时三类形态；nórë、lambë 是名词；ve 与副词词尾 -vë 同源。",
+ "entries": [
+  {
+   "word": "nertë",
+   "posZh": "数词",
+   "glossZh": "九",
+   "noteZh": "不变复数。练习 G「Ilyë nertë andor」、L「nertë farner」、N「i nertë ruhtainë Naucor」都用它。"
+  },
+  {
+   "word": "núra",
+   "posZh": "形容词",
+   "glossZh": "深的",
+   "noteZh": "副词 núravë「深深地」。练习 A「Melinyet núravë」。"
+  },
+  {
+   "word": "anwa",
+   "posZh": "形容词",
+   "glossZh": "真实的、实际的、真正的",
+   "noteZh": "副词 anwavë「真正地、确实」。练习 F「Anwavë ecénien Elda」、M「Anwavë pustuvan」。"
+  },
+  {
+   "word": "nulda",
+   "posZh": "形容词",
+   "glossZh": "秘密的",
+   "noteZh": "副词 nuldavë「秘密地」。练习 I「Elendientë nuldavë」。"
+  },
+  {
+   "word": "telda",
+   "posZh": "形容词",
+   "glossZh": "最终的",
+   "noteZh": "与 Teleri 之名同根——第三支精灵因在大迁徙中总走在最后而得名。副词 teldavë「最终」。练习 E「teldavë ecendielyet」、O「Teldavë cenuvalyet」。"
+  },
+  {
+   "word": "linta",
+   "posZh": "形容词",
+   "glossZh": "迅速的",
+   "noteZh": "Namárië 中复数作 lintë（lintë yuldar「迅速的饮」）。副词 lintavë。练习 D「lintavë」、N「Lintavë hostanentë」。"
+  },
+  {
+   "word": "hosta-",
+   "posZh": "动词",
+   "glossZh": "集合、聚集",
+   "noteZh": "被动分词 hostaina（《Fíriel 之歌》有据形式 hostainiéva），复数 hostainë。练习 J「I hostainë Eldar」、N「hostanentë」。"
+  },
+  {
+   "word": "nórë",
+   "posZh": "名词",
+   "glossZh": "土地",
+   "noteZh": "指与某个特定民族相联系的土地（WJ:413）。练习 I「ter i nórë」。"
+  },
+  {
+   "word": "lambë",
+   "posZh": "名词",
+   "glossZh": "舌头＝语言",
+   "noteZh": "只指「语言」，不指身体部位的舌头。练习 K「Técina lambë…quétina lambë」。"
+  },
+  {
+   "word": "car-",
+   "posZh": "动词",
+   "glossZh": "造、做",
+   "noteZh": "被动分词 carna「被造的」（长词尾形式 cárina）；带宾语词尾的不定式 caritas「做它」。练习 H「caritas」、M「caritas」。"
+  },
+  {
+   "word": "farya-",
+   "posZh": "动词",
+   "glossZh": "足够、够用",
+   "noteZh": "过去时 farnë（不是 **faryanë），因为该动词不及物。练习 H「cenitas farnë」、L「nertë farner」。"
+  },
+  {
+   "word": "ve",
+   "posZh": "介词",
+   "glossZh": "如同、像",
+   "noteZh": "很可能就是副词词尾 -vë 的来源。练习 B「ve Eldar lindar」、K「umë ve quétina lambë」、O「ve emériel(yë) cenitat」。"
+  }
+ ]
+}

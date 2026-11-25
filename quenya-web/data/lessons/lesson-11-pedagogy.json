@@ -1,0 +1,188 @@
+{
+ "lesson": 11,
+ "schemaVersion": 2,
+ "titleZh": "格系统与属格",
+ "titleEn": "The Case System and the Genitive",
+ "summaryZh": "昆雅名词按格屈折，用词形本身承担英语用词序或介词承担的功能（i Elda anta anna i Naucon 的 -n＝to）。英语名词只剩主格与属格；昆雅除主格外还有属格、所有格、与格、向格、离格、位格、工具格（宾格曾在「书本昆雅」中存在，第三纪已失）。属格词尾 -o：以 -a 结尾的名词丢掉 -a（Vardo 而非 **Vardao），以 -o 结尾的名词词尾隐形（ciryamo 既是「水手」也是「水手的」），特殊词干加 -o（rávo、nisso）；复数 -on 加在主格复数上（aldaron、elenion，特殊词干 rávion、nission）；双数 -to（ciryato），但 -u 双数作 -uto 或 -uo 未定。属格不是「所有格」：托尔金明确说它不用于简单拥有，而表来源或起源（róma Oromëo「来自 Oromë 的号角」）、部分（elenion ancalima「群星中最明亮的」、Valion「众维拉的」）、地点（Calaciryo míri、Menelo eleni）、家庭关系（Híni Ilúvataro、Indis i·Ciryamo）、统治者与被统治者（Aran Sindaron、Heru i Million）、「关于」（Quenta Silmarillion、parmar elenion）、「充满」（quanta Eruanno、quanta neno），以及模糊的关联（asëa aranion）。词序前置（Aldaron rámar、Nórëo alcar）与后置（Quenta Silmarillion、i equessi Rúmilo）都合法，后置是多数有据例的常态；词尾必须加在属格名词上，不能照 of 的位置写成 i alcaro Aman。属格使名词限定，后置属格前的 i 可选，前置属格后不加 i。介词 ú「没有」带属格（ú calo）。",
+ "mindmap": {
+  "rootZh": "第 11 课：格系统与属格",
+  "branches": [
+   {
+    "labelZh": "格系统",
+    "sectionId": "case-intro"
+   },
+   {
+    "labelZh": "什么是格",
+    "sectionId": "case-what"
+   },
+   {
+    "labelZh": "昆雅用词尾",
+    "sectionId": "case-quenya"
+   },
+   {
+    "labelZh": "介词带格",
+    "sectionId": "case-govern"
+   },
+   {
+    "labelZh": "主格／宾格",
+    "sectionId": "case-nom-acc"
+   },
+   {
+    "labelZh": "八格清单",
+    "sectionId": "case-list"
+   },
+   {
+    "labelZh": "路线图",
+    "sectionId": "case-plan"
+   },
+   {
+    "labelZh": "英语两格",
+    "sectionId": "gen-nom"
+   },
+   {
+    "labelZh": "英语 's",
+    "sectionId": "gen-eng-form"
+   },
+   {
+    "labelZh": "来源或拥有",
+    "sectionId": "gen-function"
+   },
+   {
+    "labelZh": "属格链",
+    "sectionId": "gen-chain"
+   },
+   {
+    "labelZh": "定语／谓语",
+    "sectionId": "gen-predicate"
+   },
+   {
+    "labelZh": "of 结构",
+    "sectionId": "gen-of"
+   },
+   {
+    "labelZh": "两个昆雅格",
+    "sectionId": "gen-quenya-intro"
+   },
+   {
+    "labelZh": "-o",
+    "sectionId": "gen-form-o"
+   },
+   {
+    "labelZh": "-a 脱落",
+    "sectionId": "gen-form-a"
+   },
+   {
+    "labelZh": "-on",
+    "sectionId": "gen-plural"
+   },
+   {
+    "labelZh": "Silmarillion",
+    "sectionId": "gen-silmarillion"
+   },
+   {
+    "labelZh": "-to",
+    "sectionId": "gen-dual"
+   },
+   {
+    "labelZh": "特殊词干",
+    "sectionId": "gen-stems"
+   },
+   {
+    "labelZh": "不是所有格",
+    "sectionId": "gen-not-possessive"
+   },
+   {
+    "labelZh": "HO",
+    "sectionId": "gen-origin"
+   },
+   {
+    "labelZh": "Oiolossëo",
+    "sectionId": "gen-from"
+   },
+   {
+    "labelZh": "来源属格",
+    "sectionId": "gen-derivative"
+   },
+   {
+    "labelZh": "部分属格",
+    "sectionId": "gen-partitive"
+   },
+   {
+    "labelZh": "物理部分",
+    "sectionId": "gen-partitive2"
+   },
+   {
+    "labelZh": "地点属格",
+    "sectionId": "gen-location"
+   },
+   {
+    "labelZh": "家庭关系",
+    "sectionId": "gen-family"
+   },
+   {
+    "labelZh": "统治关系",
+    "sectionId": "gen-ruler"
+   },
+   {
+    "labelZh": "关于",
+    "sectionId": "gen-about"
+   },
+   {
+    "labelZh": "模糊关系",
+    "sectionId": "gen-vague"
+   },
+   {
+    "labelZh": "kingsfoil",
+    "sectionId": "gen-tolkien-quote"
+   },
+   {
+    "labelZh": "关联属格",
+    "sectionId": "gen-kingsfoil"
+   },
+   {
+    "labelZh": "quanta",
+    "sectionId": "gen-full"
+   },
+   {
+    "labelZh": "谓语属格",
+    "sectionId": "gen-predicate2"
+   },
+   {
+    "labelZh": "词序",
+    "sectionId": "gen-wordorder"
+   },
+   {
+    "labelZh": "常见错误",
+    "sectionId": "gen-mistake"
+   },
+   {
+    "labelZh": "介词词序",
+    "sectionId": "gen-prep-order"
+   },
+   {
+    "labelZh": "冠词",
+    "sectionId": "gen-article"
+   },
+   {
+    "labelZh": "前置＋i",
+    "sectionId": "gen-article2"
+   },
+   {
+    "labelZh": "ú＋属格",
+    "sectionId": "gen-u"
+   },
+   {
+    "labelZh": "原文小结",
+    "sectionId": "summary"
+   },
+   {
+    "labelZh": "课末词汇",
+    "sectionId": "vocabulary"
+   },
+   {
+    "labelZh": "练习 A–P",
+    "sectionId": "exercises"
+   }
+  ]
+ }
+}

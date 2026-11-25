@@ -1,0 +1,104 @@
+{
+  "lesson": 6,
+  "schemaVersion": 2,
+  "titleZh": "动词的过去时",
+  "titleEn": "The Past Tense",
+  "summaryZh": "昆雅过去时一律以 -ë 收尾，最通用的词尾是 -në。规则系统分四类：A 词干直接加 -në（ortanë、ulyanë）；基本动词末辅音为 r、m（大概还有 n）时也直接加 -në（tirnë、tamnë、cennë）；末辅音为 l 时 -në 变为 -lë（villë、mellë）；末辅音为 p、t、c 时用鼻音插入加 -ë，插入音在 p 前为 m（tompë），否则为 n（mantë、tancë）。此外还有若干「替代」构形：拉长词干元音型（lávë、úmë）、A 词干丢词尾型（sérë、ónë、ornë）、-ya 脱落型（farnë、ullë）、-ta 类重复元音型（lahantë、orontë），以及 auta- 的 oantë（唯一「必须」使用的特例）。复数主语的过去时加 -r，且 -ë 上的两点消失（lantanë → lantaner）。",
+  "mindmap": {
+    "rootZh": "第 6 课",
+    "branches": [
+      {
+        "labelZh": "过去时登场",
+        "sectionId": "past-intro"
+      },
+      {
+        "labelZh": "A 词干加 -në",
+        "sectionId": "a-past"
+      },
+      {
+        "labelZh": "「弱」过去时",
+        "sectionId": "weak-past"
+      },
+      {
+        "labelZh": "基本动词加 -në",
+        "sectionId": "primary-n"
+      },
+      {
+        "labelZh": "辅音丛的难题",
+        "sectionId": "cluster-problem"
+      },
+      {
+        "labelZh": "鼻音插入",
+        "sectionId": "nasal-infix"
+      },
+      {
+        "labelZh": "简化说法：换位",
+        "sectionId": "simple-rule"
+      },
+      {
+        "labelZh": "换位还是真插入",
+        "sectionId": "metathesis"
+      },
+      {
+        "labelZh": "-l 结尾加 -lë",
+        "sectionId": "l-final"
+      },
+      {
+        "labelZh": "「规则」的边界",
+        "sectionId": "regular-scope"
+      },
+      {
+        "labelZh": "-r 结尾与 rer-",
+        "sectionId": "r-final"
+      },
+      {
+        "labelZh": "拉长元音型",
+        "sectionId": "lengthened"
+      },
+      {
+        "labelZh": "A 词干丢词尾",
+        "sectionId": "a-drop"
+      },
+      {
+        "labelZh": "lala- 的过去时",
+        "sectionId": "lala-past"
+      },
+      {
+        "labelZh": "-ya 脱落",
+        "sectionId": "ya-drop"
+      },
+      {
+        "labelZh": "-ta 类",
+        "sectionId": "ta-class"
+      },
+      {
+        "labelZh": "oantë",
+        "sectionId": "oante"
+      },
+      {
+        "labelZh": "修订与类推",
+        "sectionId": "revisions"
+      },
+      {
+        "labelZh": "巡览结束",
+        "sectionId": "survey-end"
+      },
+      {
+        "labelZh": "复数过去时",
+        "sectionId": "plural-past"
+      },
+      {
+        "labelZh": "本章小结",
+        "sectionId": "summary"
+      },
+      {
+        "labelZh": "课末词汇",
+        "sectionId": "vocabulary"
+      },
+      {
+        "labelZh": "练习与答案",
+        "sectionId": "exercises"
+      }
+    ]
+  }
+}

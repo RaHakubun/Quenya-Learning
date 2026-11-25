@@ -1,0 +1,212 @@
+{
+ "lesson": 16,
+ "schemaVersion": 2,
+ "titleZh": "工具格与命令式",
+ "titleEn": "The Instrumental case. Verbs with an unaccented vowel + -ta. The imperative. The nai formula.",
+ "summaryZh": "本课四块。①工具格的形式有捷径：与格加 -en，即 -nen／-inen／-nten。细节上有 -n、-r 结尾直接加（elennen、Anarnen），词干 -m- 作 -mnen（talamnen），ln 变 ld（?estelden），-t 结尾无解（natnen 不可能，?nanten 或 natenen），辅音丛词干插元音（nissenen）；ambar「命运」的工具格 ambartanen 露出词干 ambart(a)-。复数 -inen 与 -a／-o／-u 合成双元音（ómainen），与 -ë 经 ei > í（lassínen），与 -i 合并（tárínen）；双数 -nten 属 -t 双数，-u 双数只加 -nen（Aldunen）。②功能有三：工具（ómainen「用声音」）、原因（súrinen「因风」、lestanen「按分量」）、被动分词后的施事（turún' ambartanen「被命运征服」）。但「和……一起」的 with 必须用介词 as，不能用工具格——Tullen as Elda 对 I ulundo palpanë i Nauco Eldanen。工具格还能接关系代词（yanen）、代词词尾（mányanen）、gerund（tiriénen，元音拉长以保重音）。③-ty 前元音不带重音的 -ta 动词：过去时 -tánë（airitánë、ninquitánë、envinyatánë），被动分词鼻音插入 -nta（airinta、ninquinta、envinyanta，对照 -taina 型的 hastaina），主动分词 -lá（airitála）。拉长的动因是重音：重音受威胁则拉长（airitáner、airitánes、airitánen），被后面的词尾带走则不拉长（airitanenyë、airitanelvë）。这类动词多由形容词派生（airë → airita-、vinya → envinyata-、ninquë → ninquitá-、alya → alyata-）。④命令式：原始小品词 â 位置可变，后置成词尾 -a（tira!、heca!、ela! 属化石），前置则成独立词 a／á（a laita te、á vala Manwë!）；基本动词在命令短语里带 -ë（á tirë!），否定用 áva（Áva carë!）。祝愿式 nai「be it that」← nâ-i，置于含将来时动词的句子前：Nai hiruvalyë Valimar!、Nai tiruvantes、Nai Elda tuluva coalvanna!；能否配其他时态不明，练习只用将来时。",
+ "mindmap": {
+  "rootZh": "第 16 课：工具格与命令式",
+  "branches": [
+   {
+    "labelZh": "神秘格 -s",
+    "sectionId": "ins-mystery"
+   },
+   {
+    "labelZh": "与格＋-en",
+    "sectionId": "ins-rule"
+   },
+   {
+    "labelZh": "-n／-r 结尾",
+    "sectionId": "ins-nr"
+   },
+   {
+    "labelZh": "ambartanen",
+    "sectionId": "ins-stem"
+   },
+   {
+    "labelZh": "复数 -inen",
+    "sectionId": "ins-plural"
+   },
+   {
+    "labelZh": "双数 -nten",
+    "sectionId": "ins-dual"
+   },
+   {
+    "labelZh": "功能：工具",
+    "sectionId": "ins-func"
+   },
+   {
+    "labelZh": "伴随用 as",
+    "sectionId": "ins-with"
+   },
+   {
+    "labelZh": "MacTane 对照",
+    "sectionId": "ins-mactane"
+   },
+   {
+    "labelZh": "súrinen",
+    "sectionId": "ins-namarie"
+   },
+   {
+    "labelZh": "lestanen",
+    "sectionId": "ins-measure"
+   },
+   {
+    "labelZh": "rámainen",
+    "sectionId": "ins-wing"
+   },
+   {
+    "labelZh": "ambar／umbar",
+    "sectionId": "ins-ambar"
+   },
+   {
+    "labelZh": "turún[a]",
+    "sectionId": "ins-turun"
+   },
+   {
+    "labelZh": "施事工具格",
+    "sectionId": "ins-agent"
+   },
+   {
+    "labelZh": "yanen",
+    "sectionId": "ins-rel"
+   },
+   {
+    "labelZh": "mányanen",
+    "sectionId": "ins-pron"
+   },
+   {
+    "labelZh": "tiriénen",
+    "sectionId": "ins-ger"
+   },
+   {
+    "labelZh": "本节标题",
+    "sectionId": "ins-ta-head"
+   },
+   {
+    "labelZh": "动词子类",
+    "sectionId": "ins-ta-intro"
+   },
+   {
+    "labelZh": "car- ＋形容词",
+    "sectionId": "ins-caus"
+   },
+   {
+    "labelZh": "tulta-／airita-",
+    "sectionId": "ins-tulta"
+   },
+   {
+    "labelZh": "airitánë",
+    "sectionId": "ins-airita"
+   },
+   {
+    "labelZh": "-tá- 拉长",
+    "sectionId": "ins-tata"
+   },
+   {
+    "labelZh": "ninquitá-",
+    "sectionId": "ins-ninquita"
+   },
+   {
+    "labelZh": "分词问题",
+    "sectionId": "ins-part"
+   },
+   {
+    "labelZh": "Envinyatar",
+    "sectionId": "ins-envinyatar"
+   },
+   {
+    "labelZh": "envinyanta",
+    "sectionId": "ins-envinyanta"
+   },
+   {
+    "labelZh": "airinta",
+    "sectionId": "ins-airinta"
+   },
+   {
+    "labelZh": "airitála",
+    "sectionId": "ins-active"
+   },
+   {
+    "labelZh": "该不该造词",
+    "sectionId": "ins-derive"
+   },
+   {
+    "labelZh": "命令式定义",
+    "sectionId": "imp-intro"
+   },
+   {
+    "labelZh": "原始 â",
+    "sectionId": "imp-prime"
+   },
+   {
+    "labelZh": "tira!",
+    "sectionId": "imp-a"
+   },
+   {
+    "labelZh": "a laita",
+    "sectionId": "imp-particle"
+   },
+   {
+    "labelZh": "á 还是 a",
+    "sectionId": "imp-long"
+   },
+   {
+    "labelZh": "áva",
+    "sectionId": "imp-neg"
+   },
+   {
+    "labelZh": "祝愿式",
+    "sectionId": "nai-intro"
+   },
+   {
+    "labelZh": "Nai hiruvalyë",
+    "sectionId": "nai-namarie"
+   },
+   {
+    "labelZh": "Nai tiruvantes",
+    "sectionId": "nai-cirion"
+   },
+   {
+    "labelZh": "nâ-i 词源",
+    "sectionId": "nai-etym"
+   },
+   {
+    "labelZh": "放在句首",
+    "sectionId": "nai-use"
+   },
+   {
+    "labelZh": "例一",
+    "sectionId": "nai-ex1"
+   },
+   {
+    "labelZh": "例二",
+    "sectionId": "nai-ex2"
+   },
+   {
+    "labelZh": "例三",
+    "sectionId": "nai-ex3"
+   },
+   {
+    "labelZh": "电影用例",
+    "sectionId": "nai-film"
+   },
+   {
+    "labelZh": "其他时态",
+    "sectionId": "nai-tense"
+   },
+   {
+    "labelZh": "小结",
+    "sectionId": "summary"
+   },
+   {
+    "labelZh": "练习 A–P",
+    "sectionId": "exercises"
+   },
+   {
+    "labelZh": "词汇",
+    "sectionId": "vocabulary"
+   }
+  ]
+ }
+}

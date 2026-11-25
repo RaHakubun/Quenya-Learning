@@ -1,0 +1,71 @@
+{
+  "lesson": 1,
+  "source": "less-a.rtf (LESSON ONE), keys.rtf (LESSON ONE)",
+  "titleZh": "昆雅语音与重音",
+  "titleEn": "The sounds of Quenya. Pronunciation and accentuation.",
+  "sections": [
+    {
+      "id": "general-remarks",
+      "headingEn": "GENERAL REMARKS",
+      "headingZh": "总论",
+      "anchor": "GENERAL REMARKS"
+    },
+    {
+      "id": "basic-terms",
+      "headingEn": "BASIC TERMS",
+      "headingZh": "基础术语",
+      "anchor": "BASIC TERMS"
+    },
+    {
+      "id": "sounds",
+      "headingEn": "THE SOUNDS OF QUENYA",
+      "headingZh": "昆雅音位一览",
+      "anchor": "THE SOUNDS OF QUENYA"
+    },
+    {
+      "id": "pronunciation",
+      "headingEn": "PRONUNCIATION",
+      "headingZh": "发音详解",
+      "anchor": "PRONUNCIATION"
+    },
+    {
+      "id": "exercises",
+      "headingEn": "EXERCISES",
+      "headingZh": "练习",
+      "anchor": "EXERCISES"
+    }
+  ],
+  "summaryZh": "原著在章末 *Summary of Lesson One* 中归纳：昆雅元音 a, e, i, o, u（长元音用 á 等标记），宜按意大利语时值发纯元音；长 á、é 应比短 a、e 更「闭」。ë、ä 等分音号不改变发音，仅为英语拼写习惯而设。双元音：ai, au, eu, oi, ui, iu。c 恒为 k；l 为齿化清晰音；r 颤音；s 清音；y 作辅音。t、p、c  ideally 不送气。腭化辅音写 ty、ny 等；唇化辅音写 nw 等，cw 写作 qu。h 在 t 前为 [x]（ach-Laut），但在 ht 前若有 e/i 则为 ich-Laut；hy、hw 分别为腭化 h 与清 w。hl、hr 原为清 l、r，第三纪作普通 l、r。多音节词：若倒数第二音节为长音节（含长元音、双元音、或元音+辅音群/叠字），重音落其上；否则重音一般在倒数第三音节（双音节词则在第一音节）。",
+  "mindmap": {
+    "rootZh": "第 1 课：语音",
+    "rootEn": "Lesson 1: Phonology",
+    "branches": [
+      {
+        "labelZh": "写作语境",
+        "labelEn": "Written language",
+        "sectionId": "general-remarks"
+      },
+      {
+        "labelZh": "元音·辅音·音节",
+        "labelEn": "Vowels · consonants · syllables",
+        "sectionId": "basic-terms"
+      },
+      {
+        "labelZh": "音位清单",
+        "labelEn": "Sound inventory",
+        "sectionId": "sounds"
+      },
+      {
+        "labelZh": "发音 + 重音",
+        "labelEn": "Pronunciation + stress",
+        "sectionId": "pronunciation"
+      },
+      {
+        "labelZh": "重音 / h 练习",
+        "labelEn": "Stress & h exercises",
+        "sectionId": "exercises"
+      }
+    ]
+  },
+  "exerciseGuideZh": "练习 1：标出重读音节（A–J）。练习 2：判断 h 的发音类型 A–T（breath-h / ich-Laut / ach-Laut / 历史 hl·hr）。答案见「显示答案」。"
+}

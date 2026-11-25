@@ -1,0 +1,384 @@
+{
+ "kind": "translation",
+ "introZh": "A–H 为昆雅译英，I–P 为英译昆雅。本课只考一个格——属格，但要辨清它表的关系：来源（H）、部分（C、G）、地点（B、F、I、L）、家庭（F、K）、统治（D）、关于（K）、介词 ú 带格（E、M、O、P）。词尾形态则覆盖 -o／-on／-to、-a 脱落、-o 隐形、特殊词干五类。",
+ "pointMapZh": [
+  {
+   "labelZh": "属格 -o（-a 脱落）",
+   "ruleRef": "rule-gen-a",
+   "noteZh": "A（ohtaro）、D（Atanion 前为 Atano）、F（tário）、H（rocco 同形）、J（arano）、K（Eldo）、L（nórëo）"
+  },
+  {
+   "labelZh": "属格复数 -on",
+   "ruleRef": "rule-gen-plural",
+   "noteZh": "D（nórion）、G（lamnion）、I（síri 前无名）、J（yulmaron）、K（elenion）、N（orontion）、O（lamnion）"
+  },
+  {
+   "labelZh": "特殊词干",
+   "ruleRef": "rule-gen-stem",
+   "noteZh": "A（ohtar 无特殊词干）、G／O（lamn-）、P（rasseto）"
+  },
+  {
+   "labelZh": "双数属格 -to",
+   "ruleRef": "rule-gen-dual",
+   "noteZh": "C（hendu 为双数宾语）、P（rasseto）"
+  },
+  {
+   "labelZh": "来源属格",
+   "ruleRef": "rule-derivative",
+   "noteZh": "A（先前的持有者）、H（肉来自马）"
+  },
+  {
+   "labelZh": "部分属格",
+   "ruleRef": "rule-partitive",
+   "noteZh": "C（眼是身体一部分）、G（角是动物一部分）、J（最大者之一）、N（最高者之一）"
+  },
+  {
+   "labelZh": "地点属格",
+   "ruleRef": "rule-gen-location",
+   "noteZh": "B（星在天上）、F（民族在世界里）、I（鸟在天上）、L（河流在土地里）"
+  },
+  {
+   "labelZh": "家庭关系",
+   "ruleRef": "rule-gen-family",
+   "noteZh": "F（女王的兄弟）、K（精灵的兄弟）"
+  },
+  {
+   "labelZh": "统治关系",
+   "ruleRef": "rule-gen-ruler",
+   "noteZh": "D（人类与万地之王）"
+  },
+  {
+   "labelZh": "关于",
+   "ruleRef": "rule-gen-about",
+   "noteZh": "K（关于星星的书）"
+  },
+  {
+   "labelZh": "ú + 属格",
+   "ruleRef": "rule-u-gen",
+   "noteZh": "E（ú talamion）、M（ú anto）、O（ú lamnion）、P（ú rasseto）"
+  }
+ ],
+ "part1": {
+  "titleZh": "练习一 · 昆雅译英（A–H）",
+  "hintZh": "先圈出属格短语，再判断关系；注意 -a 结尾的名词属格要少一个 a，-o 结尾的名词属格与主格同形。",
+  "items": [
+   {
+    "id": "A",
+    "prompt": "Hirnentë i firin ohtaro macil.",
+    "pointZh": "ohtaro 是属格「战士的」（先前持有者）",
+    "hintsZh": [
+     "hir-「找到」过去时 hirnë，加 -ntë「他们」→ hirnentë。",
+     "ohtar「战士」加属格 -o → ohtaro。",
+     "firin 是「死的」（分词作形容词）；macil「剑」。"
+    ],
+    "ruleRef": "rule-derivative",
+    "ruleLabelZh": "回到规则：来源属格（先前持有者）",
+    "answerKey": "They found the dead warrior's sword.",
+    "answerKeyZh": "他们找到了那死去的战士的剑。",
+    "answerAlt": [
+     "they found the dead warrior's sword",
+     "他们找到了那死去的战士的剑"
+    ],
+    "answerZh": "hir- → hirnë + -ntë = hirnentë；ohtar + -o = ohtaro。keys 注明这是「先前持有者」的来源属格。"
+   },
+   {
+    "id": "B",
+    "prompt": "Menelo eleni sílar.",
+    "pointZh": "Menelo 是地点属格「天上的」",
+    "hintsZh": [
+     "Menel「天空」的属格是 Menelo（词干 Menel-）。",
+     "eleni「星」是 i 复数，作主语。",
+     "sílar 是 sil-「发光」的现在时复数。"
+    ],
+    "ruleRef": "rule-gen-location",
+    "ruleLabelZh": "回到规则：地点属格",
+    "answerKey": "The stars of heaven are shining.",
+    "answerKeyZh": "天上的星星在闪耀。",
+    "answerAlt": [
+     "the stars of heaven are shining",
+     "天上的星星在闪耀"
+    ],
+    "answerZh": "Menel + -o = Menelo；eleni + sílar。keys 注明这是地点属格：星在天上。"
+   },
+   {
+    "id": "C",
+    "prompt": "Tirnen i nisso hendu.",
+    "pointZh": "nisso 是属格「女人的」；hendu 是双数宾语",
+    "hintsZh": [
+     "tir- 过去时第一人称 tirnen「我守望了」。",
+     "nís 的词干是 niss-，加 -o → nisso。",
+     "hendu「一双眼睛」是 hen 的双数形式。"
+    ],
+    "ruleRef": "rule-partitive",
+    "ruleLabelZh": "回到规则：部分属格",
+    "answerKey": "I watched the woman's eyes (dual).",
+    "answerKeyZh": "我守望了那女人的双眼。",
+    "answerAlt": [
+     "i watched the woman's eyes",
+     "我守望了那女人的双眼"
+    ],
+    "answerZh": "tirnen；nís → nisso；hendu 双数。keys 注明这是部分属格：眼睛在物理上是她的一部分。"
+   },
+   {
+    "id": "D",
+    "prompt": "Cenuvantë Aran Atanion ar ilyë nórion.",
+    "pointZh": "Atanion、nórion 都是属格复数，表统治关系",
+    "hintsZh": [
+     "cen- 将来 cenuva，加 -ntë → cenuvantë。",
+     "Atan「人类」的属格复数是 Atanion。",
+     "ilyë nórion「万地的」：nórë 的属格复数 nórion。"
+    ],
+    "ruleRef": "rule-gen-ruler",
+    "ruleLabelZh": "回到规则：统治者属格",
+    "answerKey": "They shall see the King of Men and (of) all lands.",
+    "answerKeyZh": "他们将看见人类与万地之王。",
+    "answerAlt": [
+     "they shall see the king of men and all lands",
+     "they shall see the king of men and of all lands",
+     "他们将看见人类与万地之王"
+    ],
+    "answerZh": "cenuva + -ntë；Atanion、nórion 皆属格复数。keys 注明：属格描述统治者与被统治者（人或领土）。"
+   },
+   {
+    "id": "E",
+    "prompt": "Coa ú talamion umë anwa coa.",
+    "pointZh": "ú 后接属格复数 talamion",
+    "hintsZh": [
+     "talam「地板」的属格复数是 talamion。",
+     "ú「没有」带属格。",
+     "umë 是否定系动词「不是」。"
+    ],
+    "ruleRef": "rule-u-gen",
+    "ruleLabelZh": "回到规则：ú 带属格",
+    "answerKey": "A house without floors is not a real house.",
+    "answerKeyZh": "没有地板的房子不是真正的房子。",
+    "answerAlt": [
+     "a house without floors is not a real house",
+     "没有地板的房子不是真正的房子"
+    ],
+    "answerZh": "ú + talamion；umë + anwa coa。keys 明确：ú 后接属格，故为 ú talamion。"
+   },
+   {
+    "id": "F",
+    "prompt": "I tário úmië torni merir turë Ambaro lier.",
+    "pointZh": "tário 是家庭属格；Ambaro 是地点属格",
+    "hintsZh": [
+     "tári「女王」+ -o → tário（-a 脱落）。",
+     "úmië「邪恶的」修饰 torni「兄弟们」。",
+     "Ambar「世界」+ -o → Ambaro；lier 是 lië「民族」的复数。"
+    ],
+    "ruleRef": "rule-gen-family",
+    "ruleLabelZh": "回到规则：家庭关系属格",
+    "answerKey": "The queen's evil brothers want to rule the peoples of the world.",
+    "answerKeyZh": "女王那些邪恶的兄弟们想统治世界上的各个民族。",
+    "answerAlt": [
+     "the queen's evil brothers want to rule the peoples of the world",
+     "女王那些邪恶的兄弟们想统治世界上的各个民族"
+    ],
+    "answerZh": "tári → tário（家庭关系）；Ambar → Ambaro（地点属格，民族在世界里）；merir + turë。"
+   },
+   {
+    "id": "G",
+    "prompt": "I rassi i lamnion nar altë.",
+    "pointZh": "lamnion 是部分属格复数",
+    "hintsZh": [
+     "rassë「角」的复数是 rassi。",
+     "laman 的词干是 lamn-，属格复数 lamnion。",
+     "nar 是 ná 的复数形式，altë 是 alta 的复数。"
+    ],
+    "ruleRef": "rule-partitive",
+    "ruleLabelZh": "回到规则：部分属格",
+    "answerKey": "The horns of the animals are big.",
+    "answerKeyZh": "那些动物的角很大。",
+    "answerAlt": [
+     "the horns of the animals are big",
+     "那些动物的角很大"
+    ],
+    "answerZh": "lamn- + -ion = lamnion；nar + altë。keys 注明这是部分属格，与 C 同类。"
+   },
+   {
+    "id": "H",
+    "prompt": "I cainen rávi lintavë manter i rocco hrávë.",
+    "pointZh": "rocco 是属格但形式不变（-o 结尾）；表来源",
+    "hintsZh": [
+     "cainen「十」+ rávi「狮子（复数）」。",
+     "manter 是 mat-「吃」的过去时复数。",
+     "rocco 以 -o 结尾，属格词尾隐形，故仍是 rocco。"
+    ],
+    "ruleRef": "rule-derivative",
+    "ruleLabelZh": "回到规则：来源属格",
+    "answerKey": "The ten lions quickly ate the flesh of the horse.",
+    "answerKeyZh": "那十头狮子迅速吃掉了那匹马的肉。",
+    "answerAlt": [
+     "the ten lions quickly ate the flesh of the horse",
+     "那十头狮子迅速吃掉了那匹马的肉"
+    ],
+    "answerZh": "rocco 属格同形（-o 结尾）；hrávë「肉」。keys 注明：这是来源属格，肉来自马。"
+   }
+  ]
+ },
+ "part2": {
+  "titleZh": "练习二 · 英译昆雅（I–P）",
+  "hintZh": "先决定属格短语用前置还是后置（两者都可，keys 多给两种）；再核对词尾：-a 脱落、-o 隐形、复数 -on。遇到「没有」一律用 ú + 属格。",
+  "items": [
+   {
+    "id": "I",
+    "prompt": "The birds of heaven will see ten warriors between the great rivers.",
+    "pointZh": "Menelo 地点属格；cainen ohtari；imbë + 复数",
+    "hintsZh": [
+     "「天上的鸟」可作 Menelo aiwi 或 aiwi Menelo。",
+     "cainen「十」+ ohtari「战士们」。",
+     "imbë「在……之间」后接复数 i altë síri。"
+    ],
+    "ruleRef": "rule-gen-location",
+    "ruleLabelZh": "回到规则：地点属格",
+    "answerKey": "Menelo aiwi [or, (i) aiwi Menelo] cenuvar cainen ohtari imbë i altë síri.",
+    "answerKeyZh": "天上的鸟将看见大河之间的十个战士。",
+    "answerAlt": [
+     "menelo aiwi cenuvar cainen ohtari imbë i altë síri",
+     "aiwi menelo cenuvar cainen ohtari imbë i altë síri",
+     "天上的鸟将看见大河之间的十个战士"
+    ],
+    "answerZh": "Menel → Menelo；aiwi + cenuvar；cainen ohtari；imbë i altë síri。keys 给前置与后置两种词序。"
+   },
+   {
+    "id": "J",
+    "prompt": "The king's thrall poured wine into the biggest of the cups. (\"Biggest, greatest\" = analta.)",
+    "pointZh": "arano 家庭／统治属格；yulmaron 部分属格复数；ulyanë 及物过去时",
+    "hintsZh": [
+     "「国王的奴隶」：i arano mól 或 i mól i arano。",
+     "「最大的杯子」用部分属格：analta i yulmaron。",
+     "「倒」在此及物，过去时用 ulyanë（不是 ullë）。"
+    ],
+    "ruleRef": "rule-partitive",
+    "ruleLabelZh": "回到规则：部分属格（最高级）",
+    "answerKey": "I arano mól [or, (i) mól i arano] ulyanë limpë mir (i) analta i yulmaron [or, mir i yulmaron analta].",
+    "answerKeyZh": "国王的奴隶把酒倒进最大的杯子里。",
+    "answerAlt": [
+     "i arano mól ulyanë limpë mir i analta i yulmaron",
+     "i mól i arano ulyanë limpë mir i yulmaron analta",
+     "国王的奴隶把酒倒进最大的杯子里"
+    ],
+    "answerZh": "arano（属格）；ulyanë（及物）；analta i yulmaron（部分属格）。keys 给出两种词序，并注明 ulyanë 是及物「倒」。"
+   },
+   {
+    "id": "K",
+    "prompt": "The Elf's brother gathered (together) the ten books about stars.",
+    "pointZh": "Eldo 家庭属格；elenion「关于星星的」",
+    "hintsZh": [
+     "Elda + -o → Eldo（-a 脱落）。",
+     "「兄弟」toron，词干 torn-。",
+     "「关于星星的」用属格复数 elenion。"
+    ],
+    "ruleRef": "rule-gen-about",
+    "ruleLabelZh": "回到规则：属格＝关于",
+    "answerKey": "I Eldo toron [or, (i) toron i Eldo] hostanë (i) cainen parmar elenion.",
+    "answerKeyZh": "精灵的兄弟聚集了那十本关于星星的书。",
+    "answerAlt": [
+     "i eldo toron hostanë i cainen parmar elenion",
+     "i toron i eldo hostanë i cainen parmar elenion",
+     "精灵的兄弟聚集了那十本关于星星的书"
+    ],
+    "answerZh": "Elda → Eldo；toron；hostanë；parmar elenion。keys 注明「关于星星的」属「关于」义。"
+   },
+   {
+    "id": "L",
+    "prompt": "The great river of the land poured into a gorge.",
+    "pointZh": "nórëo 地点属格；ullë 不及物过去时",
+    "hintsZh": [
+     "「土地的」：nórë + -o → nórëo（-ë 结尾，不脱落）。",
+     "「大河流进峡谷」是不及物，过去时用 ullë。",
+     "cilya「峡谷」；mir「进入」。"
+    ],
+    "ruleRef": "rule-gen-location",
+    "ruleLabelZh": "回到规则：地点属格",
+    "answerKey": "(I) alta sírë i nórëo [or, i nórëo alta sírë] ullë mir cilya.",
+    "answerKeyZh": "那片土地的大河流进了峡谷。",
+    "answerAlt": [
+     "alta sírë i nórëo ullë mir cilya",
+     "i nórëo alta sírë ullë mir cilya",
+     "那片土地的大河流进了峡谷"
+    ],
+    "answerZh": "nórë → nórëo；ullë（不及物）；mir cilya。keys 特别对比 J 的及物 ulyanë。"
+   },
+   {
+    "id": "M",
+    "prompt": "A man without a mouth cannot speak.",
+    "pointZh": "ú + anto（属格隐形）；umë polë 否定",
+    "hintsZh": [
+     "anto 以 -o 结尾，属格与主格同形，故 ú anto。",
+     "「不能」用 umë + polë（不定式）。",
+     "「说」用不定式 quetë。"
+    ],
+    "ruleRef": "rule-u-gen",
+    "ruleLabelZh": "回到规则：ú 带属格",
+    "answerKey": "Nér ú anto umë polë quetë.",
+    "answerKeyZh": "没有嘴的人不能说话。",
+    "answerAlt": [
+     "nér ú anto umë polë quetë",
+     "没有嘴的人不能说话"
+    ],
+    "answerZh": "ú + anto（属格隐形）；umë polë quetë。keys 注明属格词尾在此隐形。"
+   },
+   {
+    "id": "N",
+    "prompt": "I have seen the greatest of all mountains under the sky.",
+    "pointZh": "orontion 部分属格复数；ecénien 完成时",
+    "hintsZh": [
+     "「所有山的」用属格复数：orontion。",
+     "analta「最高的」与部分属格连用。",
+     "「我见过」用完成时 ecénien。"
+    ],
+    "ruleRef": "rule-partitive",
+    "ruleLabelZh": "回到规则：部分属格（最高级）",
+    "answerKey": "Ecénien (i) analta ilyë orontion nu Menel.",
+    "answerKeyZh": "我见过天空下所有山中最伟大的一座。",
+    "answerAlt": [
+     "ecénien i analta ilyë orontion nu menel",
+     "ecénien analta ilyë orontion nu menel",
+     "我见过天空下所有山中最伟大的一座"
+    ],
+    "answerZh": "cen- 完成 ecénië + -n = ecénien；analta + orontion（部分属格）；nu Menel。"
+   },
+   {
+    "id": "O",
+    "prompt": "I want to find a land without great animals like lions.",
+    "pointZh": "ú + lamnion；ve 引导比较",
+    "hintsZh": [
+     "「没有大动物」：ú + altë lamnion。",
+     "laman 词干 lamn-，属格复数 lamnion。",
+     "「像狮子」用 ve rávi。"
+    ],
+    "ruleRef": "rule-u-gen",
+    "ruleLabelZh": "回到规则：ú 带属格",
+    "answerKey": "Merin hirë nórë ú altë lamnion ve rávi.",
+    "answerKeyZh": "我想找到一片没有狮子之类大动物的土地。",
+    "answerAlt": [
+     "merin hirë nórë ú altë lamnion ve rávi",
+     "我想找到一片没有狮子之类大动物的土地"
+    ],
+    "answerZh": "mer- + -n = merin；hirë 不定式；ú altë lamnion；ve rávi。"
+   },
+   {
+    "id": "P",
+    "prompt": "You will see an animal without horns (dual: a couple of horns)",
+    "pointZh": "rasseto 是双数属格",
+    "hintsZh": [
+     "「一对角」用双数 rasset。",
+     "双数属格 -to：rasseto。",
+     "cenuva + -l(yë)「你」→ cenuval(yë)。"
+    ],
+    "ruleRef": "rule-gen-dual",
+    "ruleLabelZh": "回到规则：双数属格 -to",
+    "answerKey": "Cenuval(yë) laman ú rasseto.",
+    "answerKeyZh": "你将看见一只没有角的动物（一对角）。",
+    "answerAlt": [
+     "cenuval laman ú rasseto",
+     "cenuvalyë laman ú rasseto",
+     "你将看见一只没有角的动物"
+    ],
+    "answerZh": "cenuva + -l(yë)；laman；ú + rasseto（双数属格）。keys 附注：若双数取 -u 形式（rassu），属格或作 rassuo，托尔金的意图无法完全重建。"
+   }
+  ]
+ }
+}

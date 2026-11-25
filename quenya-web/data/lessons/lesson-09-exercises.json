@@ -1,0 +1,350 @@
+{
+  "kind": "translation",
+  "introZh": "A–H 为昆雅译英，I–P 为英译昆雅。本课考三套新规则：不定式（词干 + -ë 或裸词干）、否定动词（um-／úmë／úva + 不定式）、主动分词（-la，可能拉长）。分词常作定语，读题时先把它和所修饰的名词绑在一起。",
+  "pointMapZh": [
+    {
+      "labelZh": "主动分词 -la",
+      "ruleRef": "rule-la",
+      "noteZh": "A、B、C、D、E、F、H、I、L、M、P"
+    },
+    {
+      "labelZh": "分词拉长词干元音",
+      "ruleRef": "rule-lengthen",
+      "noteZh": "A（sílala）、D（túrala）、L（lálala）、P（Veryala 不拉长）"
+    },
+    {
+      "labelZh": "基本动词分词经持续词干",
+      "ruleRef": "rule-primary-la",
+      "noteZh": "D（túrala）、F（caitala）、H（ruhtala）、I（roitala）"
+    },
+    {
+      "labelZh": "不定式",
+      "ruleRef": "rule-infinitive-e",
+      "noteZh": "C、F、G、H、J、K、O"
+    },
+    {
+      "labelZh": "否定动词 + 不定式",
+      "ruleRef": "rule-neg-infinitive",
+      "noteZh": "E、G、H、K、N"
+    },
+    {
+      "labelZh": "否定动词的时态",
+      "ruleRef": "rule-ume",
+      "noteZh": "E（umë）、H（úmë）、K（úmë）、N（úmel／umil／úval）"
+    }
+  ],
+  "part1": {
+    "titleZh": "练习一 · 昆雅译英（A–H）",
+    "hintZh": "先找 -la 分词并确定它修饰哪个名词；再找限定动词；若有限定动词是 um- 系列，后面的动词一律按不定式理解。",
+    "items": [
+      {
+        "id": "A",
+        "prompt": "Sílala Isil ortëa or Ambar.",
+        "pointZh": "分词 sílala 修饰 Isil；ortëa 是现在时",
+        "hintsZh": [
+          "sil-「发白光」的分词：拉长 í 加 -la → sílala。",
+          "Isil「月亮」是主语，sílala 作定语「闪着的」。",
+          "ortëa 是 orta- 的现在时「正在升起」。"
+        ],
+        "ruleRef": "rule-lengthen",
+        "ruleLabelZh": "回到规则：分词拉长词干元音",
+        "answerKey": "[The] shining moon is rising over the world.",
+        "answerKeyZh": "闪着的月亮正升在世界之上。",
+        "answerAlt": [
+          "the shining moon is rising over the world",
+          "闪着的月亮正升在世界之上"
+        ],
+        "answerZh": "sil- → sílala（分词）+ Isil；orta- → ortëa（现在时）。keys 用方括号表示 [The] 可省。keys：\"[The] shining moon is rising over the world.\""
+      },
+      {
+        "id": "B",
+        "prompt": "I cápala Nauco lantanë ter i talan.",
+        "pointZh": "分词 cápala；lantanë 过去时",
+        "hintsZh": [
+          "cap-「跳」的分词：拉长 á 加 -la → cápala。",
+          "它修饰 Nauco「矮人」。",
+          "lantanë 是 lanta- 的过去时；ter i talan「穿过地板」。"
+        ],
+        "ruleRef": "rule-lengthen",
+        "ruleLabelZh": "回到规则：分词拉长词干元音",
+        "answerKey": "The jumping Dwarf fell through the floor.",
+        "answerKeyZh": "那个跳着的矮人穿过地板掉了下去。",
+        "answerAlt": [
+          "the jumping dwarf fell through the floor",
+          "那个跳着的矮人穿过地板掉了下去",
+          "跳跃的矮人从地板掉了下去"
+        ],
+        "answerZh": "cap- → cápala（分词）+ Nauco；lanta- → lantanë。keys：\"The jumping Dwarf fell through the floor.\""
+      },
+      {
+        "id": "C",
+        "prompt": "Polin hlarë lindala vendë.",
+        "pointZh": "不定式 hlarë；分词 lindala",
+        "hintsZh": [
+          "Polin＝pol- + -n「我」，后接不定式 hlarë「听见」。",
+          "linda-「唱」的分词：拉长 í？不——linda- 的 i 后是 nd 辅音丛，故不拉长，作 lindala。",
+          "vendë「少女」是 hlarë 的宾语，lindala 修饰它。"
+        ],
+        "ruleRef": "rule-infinitive-e",
+        "ruleLabelZh": "回到规则：基本动词不定式 -ë",
+        "answerKey": "I can hear a singing maiden.",
+        "answerKeyZh": "我能听见一个唱歌的少女。",
+        "answerAlt": [
+          "i can hear a singing maiden",
+          "我能听见一个唱歌的少女",
+          "我听到一个少女在唱"
+        ],
+        "answerZh": "pol- + -n → Polin；hlar- → hlarë（不定式）；linda- → lindala（nd 辅音丛，不拉长）。keys：\"I can hear a singing maiden.\""
+      },
+      {
+        "id": "D",
+        "prompt": "Minë nér túrala minë macil úva ruhta i tolto taurë ohtari.",
+        "pointZh": "分词 túrala；úva + 不定式 ruhta",
+        "hintsZh": [
+          "tur-「控制、挥动」的分词：先造持续词干 túra，再加 -la → túrala。",
+          "minë「一」重复，表示「一人挥一剑」。",
+          "úva 是否定动词的将来时，后接不定式 ruhta「使恐惧」。"
+        ],
+        "ruleRef": "rule-primary-la",
+        "ruleLabelZh": "回到规则：基本动词经持续词干加 -la",
+        "answerKey": "One man wielding one sword will not terrify the eight mighty warriors.",
+        "answerKeyZh": "一个挥着一把剑的男人不会吓倒那八个强大的战士。",
+        "answerAlt": [
+          "one man wielding one sword will not terrify the eight mighty warriors",
+          "一个挥着一把剑的男人不会吓倒那八个强大的战士"
+        ],
+        "answerZh": "tur- → túra → túrala（分词）；úva + ruhta（不定式）。taurë「强大的」修饰 ohtari。keys：\"One man wielding one sword will not terrify the eight mighty warriors.\""
+      },
+      {
+        "id": "E",
+        "prompt": "Mól mápala taura nér umë saila.",
+        "pointZh": "分词 mápala；umë + 形容词",
+        "hintsZh": [
+          "mapa-「抓住」的分词：丢 -a 加 -la → mapala？注意此处作 mápala，词干元音拉长。",
+          "它修饰 Mól「奴隶」：一个抓着强大男人的奴隶。",
+          "umë 是无定时否定动词，后接形容词 saila「智慧的」＝「不聪明」。"
+        ],
+        "ruleRef": "rule-la",
+        "ruleLabelZh": "回到规则：-la 分词",
+        "answerKey": "A thrall seizing a mighty man is not wise.",
+        "answerKeyZh": "一个抓住强大男人的奴隶并不聪明。",
+        "answerAlt": [
+          "a thrall seizing a mighty man is not wise",
+          "一个抓住强大男人的奴隶并不聪明",
+          "抓住强者的奴隶不聪明"
+        ],
+        "answerZh": "mapa- → mápala（分词）；umë saila＝「不聪明」。keys：\"A thrall seizing a mighty man is not wise.\""
+      },
+      {
+        "id": "F",
+        "prompt": "I tolto rávi caitala nu i aldar ortaner, an i rávi merner matë i neri.",
+        "pointZh": "分词 caitala；不定式 matë；an 引出理由",
+        "hintsZh": [
+          "caita-「卧」的分词：拉长 á？caita- 的元音后是 t（单辅音），故可拉长，作 caitala。",
+          "nu i aldar「在树下」修饰 rávi。",
+          "merner 过去时复数 + 不定式 matë；an 引出理由。"
+        ],
+        "ruleRef": "rule-primary-la",
+        "ruleLabelZh": "回到规则：基本动词经持续词干加 -la",
+        "answerKey": "The eight lions lying under the trees (a)rose, for the lions wanted to eat the men.",
+        "answerKeyZh": "那八头躺在树下的狮子站了起来，因为那些狮子想吃那些人。",
+        "answerAlt": [
+          "the eight lions lying under the trees rose, for the lions wanted to eat the men",
+          "那八头躺在树下的狮子站了起来，因为那些狮子想吃那些人"
+        ],
+        "answerZh": "caita- → caitala（分词）；merner + matë（不定式）；an 引出理由。keys：\"The eight lions lying under the trees (a)rose, for the lions wanted to eat the men.\""
+      },
+      {
+        "id": "G",
+        "prompt": "Rá umë polë pusta matë hrávë.",
+        "pointZh": "umë + polë + pusta + matë 三个动词连用",
+        "hintsZh": [
+          "rá「狮子」是主语。",
+          "umë 否定动词 + 不定式 polë「能」。",
+          "polë 后又接不定式 pusta「停止」，pusta 再带不定式 matë「吃」。"
+        ],
+        "ruleRef": "rule-neg-infinitive",
+        "ruleLabelZh": "回到规则：否定动词 + 不定式",
+        "answerKey": "A lion cannot stop eating [/cease to eat] flesh.",
+        "answerKeyZh": "狮子不能停止吃肉。",
+        "answerAlt": [
+          "a lion cannot stop eating flesh",
+          "狮子不能停止吃肉",
+          "狮子无法停止吃肉"
+        ],
+        "answerZh": "umë + polë + pusta + matë：四层动词链，只有 umë 是限定形式。keys：\"A lion cannot stop eating [/cease to eat] flesh.\""
+      },
+      {
+        "id": "H",
+        "prompt": "I ruhtala ohtar pustanë tirë i lië, an i ohtar úmë saila.",
+        "pointZh": "分词 ruhtala；pustanë + 不定式 tirë；úmë + 形容词",
+        "hintsZh": [
+          "ruhta-「使恐惧」的分词：ruhtala（词干元音后是 ht 辅音丛，不拉长）。",
+          "pustanë 过去时 + 不定式 tirë「守望」。",
+          "úmë saila＝「（当时）不聪明」；an 引出理由。"
+        ],
+        "ruleRef": "rule-neg-infinitive",
+        "ruleLabelZh": "回到规则：否定动词 + 不定式",
+        "answerKey": "The terrifying warrior stopped watching [/ceased to watch] the people, for the warrior was not wise.",
+        "answerKeyZh": "那个可怕的战士停止了守望那些人，因为那战士并不聪明。",
+        "answerAlt": [
+          "the terrifying warrior stopped watching the people, for the warrior was not wise",
+          "那个可怕的战士停止了守望那些人，因为那战士并不聪明"
+        ],
+        "answerZh": "ruhta- → ruhtala；pustanë + tirë；úmë saila。keys 另注可解作 \"stopped guarding\"。keys：\"The terrifying warrior stopped watching [/ceased to watch] the people, for the warrior was not wise.\""
+      }
+    ]
+  },
+  "part2": {
+    "titleZh": "练习二 · 英译昆雅（I–P）",
+    "hintZh": "分词作定语时放在名词前；否定动词后面的动词用不定式；注意 úmë（过去）与 úva（将来）的选择。",
+    "items": [
+      {
+        "id": "I",
+        "prompt": "The man pursuing the Dwarf is a warrior.",
+        "pointZh": "分词 roitala + 系动词 ná",
+        "hintsZh": [
+          "roita-「追赶」的分词：roitala（元音后是 t，可拉长？此处 keys 作 roitala，不拉长）。",
+          "它修饰 i nér：i nér roitala i Nauco「追赶矮人的男人」。",
+          "系动词用 ná「是」。"
+        ],
+        "ruleRef": "rule-la",
+        "ruleLabelZh": "回到规则：-la 分词",
+        "answerKey": "I nér roitala i Nauco ná ohtar.",
+        "answerKeyZh": "那个追赶矮人的男人是个战士。",
+        "answerAlt": [
+          "i nér roitala i Nauco ná ohtar"
+        ],
+        "answerZh": "roita- → roitala（分词）；ná 连接主语与表语。keys：\"I nér roitala i Nauco ná ohtar.\""
+      },
+      {
+        "id": "J",
+        "prompt": "The king wanted to go.",
+        "pointZh": "mer- 过去时 + 不定式 lelya",
+        "hintsZh": [
+          "mer- 的过去时 mernë。",
+          "「去」用不定式 lelya（lelya- 的裸词干）。",
+          "主语 aran 单数。"
+        ],
+        "ruleRef": "rule-a-stem-infinitive",
+        "ruleLabelZh": "回到规则：A 词干裸词干即不定式",
+        "answerKey": "I aran mernë lelya.",
+        "answerKeyZh": "国王想要走。",
+        "answerAlt": [
+          "i aran mernë lelya"
+        ],
+        "answerZh": "mer- → mernë（过去时）；lelya 是不定式。keys：\"I aran mernë lelya.\""
+      },
+      {
+        "id": "K",
+        "prompt": "The maiden did not dare to see the queen.",
+        "pointZh": "úmë + verya + cenë",
+        "hintsZh": [
+          "否定动词过去时 úmë。",
+          "verya「敢」是不定式。",
+          "cenë「看见」也是不定式；i tári 是宾语。"
+        ],
+        "ruleRef": "rule-neg-infinitive",
+        "ruleLabelZh": "回到规则：否定动词 + 不定式",
+        "answerKey": "I vendë úmë verya cenë i tári.",
+        "answerKeyZh": "那少女不敢见王后。",
+        "answerAlt": [
+          "i vendë úmë verya cenë i tári"
+        ],
+        "answerZh": "úmë + verya + cenë 三层；keys 注明 cen- 是否可表「会见」无法确定，也可译「不敢看王后」。keys：\"I vendë úmë verya cenë i tári.\""
+      },
+      {
+        "id": "L",
+        "prompt": "The laughing women went into the house.",
+        "pointZh": "分词 lálala + lender mir",
+        "hintsZh": [
+          "lala-「笑」的分词：拉长 á 加 -la → lálala。",
+          "主语 nissi 复数，分词仍不变。",
+          "lelya- 过去时 lendë → 复数 lender；mir i coa「进屋」。"
+        ],
+        "ruleRef": "rule-lengthen",
+        "ruleLabelZh": "回到规则：分词拉长词干元音",
+        "answerKey": "I lálala nissi lender mir i coa.",
+        "answerKeyZh": "那些笑着的女人走进了屋子。",
+        "answerAlt": [
+          "i lálala nissi lender mir i coa"
+        ],
+        "answerZh": "lala- → lálala（分词，不随数变）；lender + mir i coa。keys：\"I lálala nissi lender mir i coa.\""
+      },
+      {
+        "id": "M",
+        "prompt": "The eight traveling Dwarves can find many treasures.",
+        "pointZh": "分词 lelyala + polir + 不定式 hirë",
+        "hintsZh": [
+          "lelya- 的分词：lelyala。",
+          "pol- 的无定时复数 polir（主语 Naucor）。",
+          "hirë「找到」是不定式；rimbë harmar 是宾语。"
+        ],
+        "ruleRef": "rule-la",
+        "ruleLabelZh": "回到规则：-la 分词",
+        "answerKey": "I tolto lelyala Naucor polir hirë rimbë harmar.",
+        "answerKeyZh": "那八个旅行的矮人能发现许多财宝。",
+        "answerAlt": [
+          "i tolto lelyala Naucor polir hirë rimbë harmar"
+        ],
+        "answerZh": "lelya- → lelyala；polir + hirë；rimbë harmar。keys：\"I tolto lelyala Naucor polir hirë rimbë harmar.\""
+      },
+      {
+        "id": "N",
+        "prompt": "You did not praise the Elf, you do not praise the Man [Atan], and you will not praise the Dwarf.",
+        "pointZh": "úmë 三时态 + 不定式 laita",
+        "hintsZh": [
+          "三个否定动词分别是过去 úmë、无定时 umë、将来 úva，都要加 -lyë「你」。",
+          "úmë + lyë → úmel(yë)；umë + lyë → umil(yë)；úva + lyë → úval(yë)。",
+          "laita「赞美」三次都作不定式。"
+        ],
+        "ruleRef": "rule-neg-endings",
+        "ruleLabelZh": "回到规则：否定动词 + 代词词尾",
+        "answerKey": "Úmel(yë) laita i Elda, umil(yë) laita i Atan, ar úval(yë) laita i Nauco.",
+        "answerKeyZh": "你没有赞美那精灵，你不赞美那人，你也不会赞美那矮人。",
+        "answerAlt": [
+          "Úmel laita i Elda, umil laita i Atan, ar úval laita i Nauco",
+          "Úmelyë laita i Elda, umilyë laita i Atan, ar úvalyë laita i Nauco"
+        ],
+        "answerZh": "úmë + -lyë → úmel(yë)；umë + -lyë → umil(yë)；úva + -lyë → úval(yë)。keys：\"Úmel(yë) laita i Elda, umil(yë) laita i Atan, ar úval(yë) laita i Nauco.\""
+      },
+      {
+        "id": "O",
+        "prompt": "I want to travel through the world and free all peoples.",
+        "pointZh": "Merin + 两个不定式 lelya、lerya",
+        "hintsZh": [
+          "mer- + -n「我」→ Merin(yë)。",
+          "两个不定式用 ar 并列：lelya「旅行」、lerya「释放」。",
+          "ter Ambar「穿过世界」；ilyë lier「所有民族」。"
+        ],
+        "ruleRef": "rule-ar-infinitive",
+        "ruleLabelZh": "回到规则：ar 并列不定式",
+        "answerKey": "Merin(yë) lelya ter Ambar ar lerya ilyë lier.",
+        "answerKeyZh": "我想穿过世界并释放所有民族。",
+        "answerAlt": [
+          "Merin lelya ter Ambar ar lerya ilyë lier",
+          "Merinyë lelya ter Ambar ar lerya ilyë lier"
+        ],
+        "answerZh": "Merin(yë) + lelya + ar + lerya；lerya 在此是不定式（不是分词）。keys：\"Merin(yë) lelya ter Ambar ar lerya ilyë lier.\""
+      },
+      {
+        "id": "P",
+        "prompt": "A daring man went through the gate and into the mountain.",
+        "pointZh": "分词 Veryala + lendë + 两个介词",
+        "hintsZh": [
+          "verya-「敢」的分词 veryala（元音后是单辅音，但 keys 作 Veryala，不拉长）。",
+          "lelya- 过去时 lendë。",
+          "ter i ando「穿过大门」、mir i oron「进山」。"
+        ],
+        "ruleRef": "rule-la",
+        "ruleLabelZh": "回到规则：-la 分词",
+        "answerKey": "Veryala nér lendë ter i ando ar mir i oron.",
+        "answerKeyZh": "一个大胆的人穿过大门，进了山里。",
+        "answerAlt": [
+          "veryala nér lendë ter i ando ar mir i oron"
+        ],
+        "answerZh": "verya- → Veryala（分词）；lendë；ter／mir 两个介词。keys：\"Veryala nér lendë ter i ando ar mir i oron.\""
+      }
+    ]
+  }
+}

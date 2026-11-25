@@ -1,0 +1,78 @@
+{
+ "lesson": 13,
+ "introZh": "本课 12 个词几乎全为练习服务：anta-、mahta-、suc- 提供动词，anna、alassë、hroa、noa、cala 提供名词，mára 是形容词，quen 是不定代词，arwa 是本节最需要留意的词——它是形容词，却接属格。rasta「十二」是由词根推得、并非明载的形式。",
+ "entries": [
+  {
+   "word": "rasta",
+   "posZh": "数词",
+   "glossZh": "十二",
+   "noteZh": "由词根 RÁSAT 推得，未见明载；原文作「?rasta」。练习 C「i rasta Naucoin」、N「rasta yulmar maltava」。"
+  },
+  {
+   "word": "mahta-",
+   "posZh": "动词",
+   "glossZh": "战斗",
+   "noteZh": "练习 K「Mahtalvë séren」、M「mahtuvar i lient」。"
+  },
+  {
+   "word": "anta-",
+   "posZh": "动词",
+   "glossZh": "给",
+   "noteZh": "不规则过去时 ánë（A、I 题）。将来时 antuva（C、F、O 题）；与格接受者随之出现。"
+  },
+  {
+   "word": "suc-",
+   "posZh": "动词",
+   "glossZh": "喝",
+   "noteZh": "gerund sucië（H 题「Sucië limpë」）、目的与格 sucien（N 题）。"
+  },
+  {
+   "word": "anna",
+   "posZh": "名词",
+   "glossZh": "礼物",
+   "noteZh": "A 题「i nissen anna」：i nissen 是与格「给那位女人」。"
+  },
+  {
+   "word": "alassë",
+   "posZh": "名词",
+   "glossZh": "快乐",
+   "noteZh": "F 题「sérë ar alassë i oston」、K 题「anta i lien alassë」、L 题「alta alassë」。"
+  },
+  {
+   "word": "hroa",
+   "posZh": "名词",
+   "glossZh": "身体",
+   "noteZh": "与 hrávë「肉」同源。D 题「tiucë hroar」、H 题「queno hroan」（与格）。"
+  },
+  {
+   "word": "noa",
+   "posZh": "名词",
+   "glossZh": "主意、想法",
+   "noteZh": "F 题「márë noaron」、J 题「ná mára noa」。"
+  },
+  {
+   "word": "cala",
+   "posZh": "名词",
+   "glossZh": "光",
+   "noteZh": "B 题「anta cala」、K 题「ecénielvë i cala」、M 题「hirien cala」。"
+  },
+  {
+   "word": "mára",
+   "posZh": "形容词",
+   "glossZh": "好（合适、有用）",
+   "noteZh": "非道德意义的「好」。F 题「márë noaron」、H 题「umë mára」、J 题「mára noa」。"
+  },
+  {
+   "word": "quen",
+   "posZh": "不定代词",
+   "glossZh": "人、某人",
+   "noteZh": "D 题「carë quen tiuca」、H 题「queno hroan」（属格）、I 题「Quen ánë」。"
+  },
+  {
+   "word": "arwa",
+   "posZh": "形容词",
+   "glossZh": "拥有、支配、有",
+   "noteZh": "后接属格：F 题「Nér arwa márë noaron」、N 题「I neri arwë i mára limpëo」。复数作 arwë。"
+  }
+ ]
+}

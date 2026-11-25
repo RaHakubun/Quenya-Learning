@@ -1,0 +1,2314 @@
+{
+  "lesson": 8,
+  "schemaVersion": 2,
+  "oneLineZh": "完成时＝增音（短词干元音）+ 拉长的词干元音 + -ië：mat- → amátië、tul- → utúlië。辅音丛前不拉长（aharnië），-ya 动词整个丢 -ya（ahánië、utúlië），双元音不拉长（oroitië）。无增音完成时也允许（fírië）。代词多作词尾：-n／-nyë「我」、-l／-lyë「你」、-s「它」；双词尾主语在前、宾语在后（utúvienyes）。",
+  "canDoZh": [
+    "能写出任意基本动词的完成时，并说清增音、拉长、词尾三步",
+    "能判断何时不拉长（辅音丛）与何时整个丢 -ya",
+    "能处理含双元音的动词（oroitië、ahautië）",
+    "能解释无增音完成时（fírië）为何不算错",
+    "能说明元音开头动词的困难与 orórië 的下场",
+    "能拆解 utúvienyes，并说出双词尾的顺序规则",
+    "能说明 -lyë 的单复数争议与 2003 年补记",
+    "能独立完成练习 A–P，用 keys 核对，并把错题回链到对应规则"
+  ],
+  "conceptMap": [
+    {
+      "labelZh": "完成时登场",
+      "noteZh": "最后一个已知时态",
+      "sectionId": "perfect-intro"
+    },
+    {
+      "labelZh": "英语靠 have 绕说",
+      "noteZh": "过去动作 + 与此刻相关",
+      "sectionId": "perfect-english"
+    },
+    {
+      "labelZh": "utúlië、utúvië",
+      "noteZh": "《魔戒》里的真完成时",
+      "sectionId": "perfect-examples"
+    },
+    {
+      "labelZh": "-ië 与拉长",
+      "noteZh": "词尾 -ië + 长词干元音",
+      "sectionId": "perfect-marker"
+    },
+    {
+      "labelZh": "增音",
+      "noteZh": "短词干元音复制到词首",
+      "sectionId": "perfect-augment"
+    },
+    {
+      "labelZh": "五个元音",
+      "noteZh": "amátië、ecénië、itírië、onótië、utúrië",
+      "sectionId": "perfect-vowels"
+    },
+    {
+      "labelZh": "两个术语",
+      "noteZh": "augment 与 reduplication",
+      "sectionId": "perfect-terms"
+    },
+    {
+      "labelZh": "A 词干",
+      "noteZh": "丢 -a：alálië、amápië",
+      "sectionId": "perfect-a-stem"
+    },
+    {
+      "labelZh": "辅音丛前不拉长",
+      "noteZh": "aharnië",
+      "sectionId": "perfect-cluster"
+    },
+    {
+      "labelZh": "-ya 脱落",
+      "noteZh": "ahánië、avánië",
+      "sectionId": "perfect-ya"
+    },
+    {
+      "labelZh": "四个 -ya 实例",
+      "noteZh": "ahánië、ihílië、etélië、utúlië",
+      "sectionId": "perfect-ya-forms"
+    },
+    {
+      "labelZh": "同形歧义",
+      "noteZh": "utúlië＝tulya- ／ tul-",
+      "sectionId": "perfect-ambiguity"
+    },
+    {
+      "labelZh": "双元音",
+      "noteZh": "oroitië、ahautië",
+      "sectionId": "perfect-diphthong"
+    },
+    {
+      "labelZh": "无增音完成时",
+      "noteZh": "fírië、tulier",
+      "sectionId": "perfect-unaugmented"
+    },
+    {
+      "labelZh": "完成时当过去时",
+      "noteZh": "lantië、cárier",
+      "sectionId": "perfect-lantie"
+    },
+    {
+      "labelZh": "省略增音",
+      "noteZh": "允许，但练习统一带",
+      "sectionId": "perfect-unaugmented-ok"
+    },
+    {
+      "labelZh": "元音开头动词",
+      "noteZh": "orórië 被划掉",
+      "sectionId": "perfect-vowel-initial"
+    },
+    {
+      "labelZh": "实用解法",
+      "noteZh": "省增音：antië、onótië",
+      "sectionId": "perfect-vowel-solution"
+    },
+    {
+      "labelZh": "utúlie'n 的 'n",
+      "noteZh": "悦耳？冠词？无定论",
+      "sectionId": "perfect-utulien"
+    },
+    {
+      "labelZh": "代词是什么",
+      "noteZh": "代替名词的速记",
+      "sectionId": "pronouns-what"
+    },
+    {
+      "labelZh": "三个人称",
+      "noteZh": "英语的代词表",
+      "sectionId": "pronouns-persons"
+    },
+    {
+      "labelZh": "各语言的不对称",
+      "noteZh": "hän、atta／att、hem／henna",
+      "sectionId": "pronouns-asymmetry"
+    },
+    {
+      "labelZh": "题外注",
+      "noteZh": "henna／hen 与 nathan",
+      "sectionId": "pronouns-israeli-note"
+    },
+    {
+      "labelZh": "昆雅代词不稳定",
+      "noteZh": "反复修订",
+      "sectionId": "pronouns-quenya-intro"
+    },
+    {
+      "labelZh": "三个特点",
+      "noteZh": "双数、包含／排除、不分性别",
+      "sectionId": "pronouns-quenya-features"
+    },
+    {
+      "labelZh": "代词作词尾",
+      "noteZh": "hiruvalyë",
+      "sectionId": "pronouns-endings"
+    },
+    {
+      "labelZh": "-lyë 的争议",
+      "noteZh": "单复数、礼貌、-llë",
+      "sectionId": "pronouns-lye"
+    },
+    {
+      "labelZh": "-n「我」",
+      "noteZh": "utúlien、maruvan",
+      "sectionId": "pronouns-first"
+    },
+    {
+      "labelZh": "-nyë 与双词尾",
+      "noteZh": "utúvienyes",
+      "sectionId": "pronouns-nye"
+    },
+    {
+      "labelZh": "长短形选择",
+      "noteZh": "linduvanyë／linduvan",
+      "sectionId": "pronouns-long-short"
+    },
+    {
+      "labelZh": "-s「它」",
+      "noteZh": "utúvienyes；polis",
+      "sectionId": "pronouns-s"
+    },
+    {
+      "labelZh": "原文小结",
+      "noteZh": "Summary of Lesson Eight",
+      "sectionId": "summary"
+    },
+    {
+      "labelZh": "课末词汇",
+      "noteZh": "8 个动词的完成时",
+      "sectionId": "vocabulary"
+    },
+    {
+      "labelZh": "练习 A–P",
+      "noteZh": "完成时 + 代词词尾",
+      "sectionId": "exercises"
+    }
+  ],
+  "pathTitleZh": "本课学习路径",
+  "path": [
+    {
+      "step": 1,
+      "labelZh": "完成时：最后一个已知时态",
+      "sectionId": "perfect-intro"
+    },
+    {
+      "step": 2,
+      "labelZh": "英语的完成时靠 have 绕说",
+      "sectionId": "perfect-english"
+    },
+    {
+      "step": 3,
+      "labelZh": "昆雅的真完成时：utúlië、utúvië",
+      "sectionId": "perfect-examples"
+    },
+    {
+      "step": 4,
+      "labelZh": "完成时的标记：-ië 与词干元音拉长",
+      "sectionId": "perfect-marker"
+    },
+    {
+      "step": 5,
+      "labelZh": "增音：把词干元音复制到词首",
+      "sectionId": "perfect-augment"
+    },
+    {
+      "step": 6,
+      "labelZh": "五个元音各来一组",
+      "sectionId": "perfect-vowels"
+    },
+    {
+      "step": 7,
+      "labelZh": "两个术语：增音与重叠",
+      "sectionId": "perfect-terms"
+    },
+    {
+      "step": 8,
+      "labelZh": "A 词干的完成时",
+      "sectionId": "perfect-a-stem"
+    },
+    {
+      "step": 9,
+      "labelZh": "辅音丛前不拉长：aharnië",
+      "sectionId": "perfect-cluster"
+    },
+    {
+      "step": 10,
+      "labelZh": "-ya 动词：整个 -ya 脱落",
+      "sectionId": "perfect-ya"
+    },
+    {
+      "step": 11,
+      "labelZh": "四个 -ya 动词的完成时",
+      "sectionId": "perfect-ya-forms"
+    },
+    {
+      "step": 12,
+      "labelZh": "同形歧义：utúlië 是「已带领」还是「已来到」？",
+      "sectionId": "perfect-ambiguity"
+    },
+    {
+      "step": 13,
+      "labelZh": "含双元音的动词：增音取第一个元音",
+      "sectionId": "perfect-diphthong"
+    },
+    {
+      "step": 14,
+      "labelZh": "无增音完成时：fírië、tulier",
+      "sectionId": "perfect-unaugmented"
+    },
+    {
+      "step": 15,
+      "labelZh": "lantië／cárier：完成时当过去时用",
+      "sectionId": "perfect-lantie"
+    },
+    {
+      "step": 16,
+      "labelZh": "省略增音是允许的",
+      "sectionId": "perfect-unaugmented-ok"
+    },
+    {
+      "step": 17,
+      "labelZh": "以元音开头的动词：增音无处可插",
+      "sectionId": "perfect-vowel-initial"
+    },
+    {
+      "step": 18,
+      "labelZh": "实用解法：这类动词干脆省增音",
+      "sectionId": "perfect-vowel-solution"
+    },
+    {
+      "step": 19,
+      "labelZh": "utúlie'n aurë：那个神秘的 'n",
+      "sectionId": "perfect-utulien"
+    },
+    {
+      "step": 20,
+      "labelZh": "代词：语言的速记装置",
+      "sectionId": "pronouns-what"
+    },
+    {
+      "step": 21,
+      "labelZh": "三个人称与英语的代词表",
+      "sectionId": "pronouns-persons"
+    },
+    {
+      "step": 22,
+      "labelZh": "各语言的不对称：芬兰语与希伯来语",
+      "sectionId": "pronouns-asymmetry"
+    },
+    {
+      "step": 23,
+      "labelZh": "作者的一段题外注（保留原文）",
+      "sectionId": "pronouns-israeli-note"
+    },
+    {
+      "step": 24,
+      "labelZh": "昆雅代词系统：相当不稳定",
+      "sectionId": "pronouns-quenya-intro"
+    },
+    {
+      "step": 25,
+      "labelZh": "昆雅代词的三个特点：双数、包含／排除、不分性别",
+      "sectionId": "pronouns-quenya-features"
+    },
+    {
+      "step": 26,
+      "labelZh": "代词多作词尾：hiruvalyë",
+      "sectionId": "pronouns-endings"
+    },
+    {
+      "step": 27,
+      "labelZh": "-lyë 的单复数与礼貌：一团「即时晦暗」",
+      "sectionId": "pronouns-lye"
+    },
+    {
+      "step": 28,
+      "labelZh": "第一人称：-n「我」",
+      "sectionId": "pronouns-first"
+    },
+    {
+      "step": 29,
+      "labelZh": "-nyë 与双词尾的顺序",
+      "sectionId": "pronouns-nye"
+    },
+    {
+      "step": 30,
+      "labelZh": "长形还是短形：可自由选择",
+      "sectionId": "pronouns-long-short"
+    },
+    {
+      "step": 31,
+      "labelZh": "-s「它」",
+      "sectionId": "pronouns-s"
+    },
+    {
+      "step": 32,
+      "labelZh": "本章小结：原文 Summary 与中文对照",
+      "sectionId": "summary"
+    },
+    {
+      "step": 33,
+      "labelZh": "课末词汇：1 个数词 + 3 个虚词 + 8 个动词",
+      "sectionId": "vocabulary"
+    },
+    {
+      "step": 34,
+      "labelZh": "练习工作台：A–P 与 keys 核对",
+      "sectionId": "exercises"
+    }
+  ],
+  "modules": [
+    {
+      "sectionId": "perfect-intro",
+      "sourceSectionId": "the-perfect-tense",
+      "titleZh": "01 · 完成时：最后一个已知时态",
+      "leadZh": "过去、现在、将来、无定时都讲完了，只剩一个：完成时（perfect）。不定式、动名词、命令式属于动词的其他形式，不算时态。",
+      "objectives": [
+        "能说出本课讲的是哪个时态",
+        "能区分「时态」与不定式／动名词／命令式"
+      ],
+      "rules": [
+        {
+          "id": "rule-last-tense",
+          "headZh": "最后一个已知时态",
+          "bodyZh": "托尔金当然设想昆雅动词有比已出版材料更多的时态，但已知的时态里只剩完成时要讲。不定式、动名词、命令式属于动词的其他形式，不算时态。",
+          "en": "The last known Quenya tense is the perfect.",
+          "zh": "最后一个已知的昆雅时态是完成时。",
+          "exampleZh": "perfect＝完成时"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "把不定式、动名词、命令式也当时态",
+          "right": "它们只是动词的其他形式，不算时态",
+          "whyZh": "原文括号内明确：these don't count as tenses。"
+        }
+      ],
+      "recapZh": "完成时是最后一个已知的昆雅时态。",
+      "selfCheckZh": [
+        {
+          "qZh": "本课讲哪个时态？",
+          "aZh": "完成时（perfect）。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-perfect-tense",
+        "unitIds": [
+          0
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "perfect-english",
+      "sourceSectionId": "the-perfect-tense",
+      "titleZh": "02 · 英语的完成时靠 have 绕说",
+      "leadZh": "英语没有完成时，正如没有将来时。它靠 have 组成短语，强调「过去动作仍与此刻相关」。",
+      "objectives": [
+        "能说明英语完成时的构成方式",
+        "能说出完成时与单纯过去时的语感差别"
+      ],
+      "rules": [
+        {
+          "id": "rule-english-no-perfect",
+          "headZh": "英语没有真正的完成时",
+          "bodyZh": "英语没有完成时，正如没有将来时。它靠 shall／will 表达将来义，也靠含 have 的绕说达成完成时意义。",
+          "en": "Linguistically speaking, English has no perfect tense, just as English has no future tense.",
+          "zh": "从语言学上说，英语没有完成时，正如英语没有将来时。",
+          "exampleZh": "Peter has left／the guests have eaten"
+        },
+        {
+          "id": "rule-perfect-meaning",
+          "headZh": "完成时＝过去动作 + 与此刻相关",
+          "bodyZh": "完成时描述本身已过去的动作，但强调它仍与此刻直接相关（「Peter has left [and he is still gone]」）。英语里这类结构也可描述始于过去、此刻仍在继续的动作（\"The king has ruled for many years\"）。",
+          "en": "The perfect tense thus describes an action that itself is past",
+          "zh": "完成时因此描述一个本身已过去的动作。",
+          "exampleZh": "Peter has left／Peter left"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Peter has left",
+          "zh": "彼得已经离开（而且现在仍不在）",
+          "whyZh": "完成时：过去动作 + 与此刻相关；对比单纯过去时 Peter left 只叙述过去事件。"
+        },
+        {
+          "en": "The king has ruled (or, has been ruling) for many years",
+          "zh": "国王已统治多年",
+          "whyZh": "英语里这类结构也可表始于过去、仍在继续的动作（也可说 has been ruling）。"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "把完成时等同于过去时",
+          "right": "完成时强调过去动作对此刻的关联；过去时只叙述事件",
+          "whyZh": "原文以 Peter has left 对 Peter left 作对比。"
+        }
+      ],
+      "recapZh": "英语用 have 绕说出完成时：过去动作 + 仍与此刻相关。",
+      "selfCheckZh": [
+        {
+          "qZh": "英语靠什么表达完成时？",
+          "aZh": "含 have 的绕说（has left、have eaten）。"
+        },
+        {
+          "qZh": "完成时与过去时的语感差别？",
+          "aZh": "完成时强调过去动作仍与此刻相关。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-perfect-tense",
+        "unitIds": [
+          1
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "perfect-examples",
+      "sourceSectionId": "the-perfect-tense",
+      "titleZh": "03 · 昆雅的真完成时：utúlië、utúvië",
+      "leadZh": "《魔戒》里有真完成时：utúlien「我来了」、utúvienyes「我找到它了」。去掉代词词尾，就得到 utúlië 与 utúvië。",
+      "objectives": [
+        "能从 utúlien 剥出 utúlië",
+        "能把 utúvienyes 拆成 utúvie-nye-s"
+      ],
+      "rules": [
+        {
+          "id": "rule-utulien",
+          "headZh": "utúlië：tul-「来」的完成时",
+          "bodyZh": "《Elendil 的宣言》：Et Eärello Endorenna utúlien＝「自大海之外，我来到了中洲」。去掉表「我」的 -n，得 utúlië。",
+          "en": "Et Eärello Endorenna utúlien",
+          "zh": "自大海之外，我来到了中洲。",
+          "exampleZh": "utúlië + -n = utúlien"
+        },
+        {
+          "id": "rule-utuvie",
+          "headZh": "utúvië：tuv-「找到」的完成时",
+          "bodyZh": "阿拉贡找到白树幼苗时喊 Yé! utúvienyes!「我找到它了！」可拆作 utúvie-nye-s「have found-I-it」，剩下 utúvië。tuv- 别处未见；本课程练习一律用 hir- 表「找到」。",
+          "en": "Yé! utúvienyes!",
+          "zh": "我找到它了！",
+          "exampleZh": "utúvie-nye-s"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Et Eärello Endorenna utúlien",
+          "zh": "自大海之外，我来到了中洲",
+          "whyZh": "utúlië + 代词词尾 -n「我」。"
+        },
+        {
+          "en": "utúvienyes",
+          "zh": "我找到它了",
+          "whyZh": "utúvie（完成时）+ -nyë「我」+ -s「它」，一句压缩进一个词。"
+        }
+      ],
+      "table": {
+        "captionZh": "两个完成时实例",
+        "headers": [
+          "形式",
+          "构成",
+          "出处"
+        ],
+        "rows": [
+          [
+            "utúlië",
+            "tul- + 增音 u + 拉长 ú + -ië",
+            "《Elendil 的宣言》"
+          ],
+          [
+            "utúvië",
+            "tuv- + 增音 u + 拉长 ú + -ië",
+            "阿拉贡的呼喊"
+          ],
+          [
+            "irícië",
+            "ric- + 增音 i + 拉长 í + -ië",
+            "VT39:9"
+          ]
+        ]
+      },
+      "recapZh": "昆雅有真完成时：utúlië「已来」、utúvië「已找到」、irícië「已扭曲」。",
+      "selfCheckZh": [
+        {
+          "qZh": "utúlien 去掉 -n 是什么？",
+          "aZh": "utúlië，tul-「来」的完成时。"
+        },
+        {
+          "qZh": "utúvienyes 怎么拆？",
+          "aZh": "utúvie-nye-s「have found-I-it」。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-perfect-tense",
+        "unitIds": [
+          2
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "perfect-marker",
+      "sourceSectionId": "the-perfect-tense",
+      "titleZh": "04 · 完成时的标记：-ië 与词干元音拉长",
+      "leadZh": "完成时用词尾 -ië 构成，同时词干元音拉长（至少基本动词如此）：utúvië、utúlië、irícië。",
+      "objectives": [
+        "能写出完成时词尾",
+        "能说明词干元音要拉长"
+      ],
+      "rules": [
+        {
+          "id": "rule-ie-ending",
+          "headZh": "词尾 -ië",
+          "bodyZh": "从 utúvië、utúlië、irícië 可见，完成时用词尾 -ië 构成，但动词词干还要作别的处理。",
+          "en": "it is clear that the perfect tense is formed with the ending -ië",
+          "zh": "可见完成时用词尾 -ië 构成。",
+          "exampleZh": "-ië"
+        },
+        {
+          "id": "rule-stem-lengthen",
+          "headZh": "基本动词：词干元音拉长",
+          "bodyZh": "至少就基本动词而言，完成时里词干元音要拉长：utúvië、utúlië、irícië。现在时也拉长（túva、túla、ríca），但完成时的差别不只在词尾。",
+          "en": "the stem-vowel is lengthened: utúvië, utúlië, irícië",
+          "zh": "词干元音要拉长：utúvië、utúlië、irícië。",
+          "exampleZh": "tul- → utúlië"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "以为完成时只是「现在时换个词尾」",
+          "right": "词尾是 -ië 而非 -a，且还要加增音前缀",
+          "whyZh": "原文：the perfect tense formation differs from the present tense not only in the fact that the former receives the ending -ië instead of -a。"
+        }
+      ],
+      "recapZh": "完成时＝词干元音拉长 + 词尾 -ië（还要加增音，下一步）。",
+      "selfCheckZh": [
+        {
+          "qZh": "完成时的词尾是什么？",
+          "aZh": "-ië。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-perfect-tense",
+        "unitIds": [
+          3
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "perfect-augment",
+      "sourceSectionId": "the-perfect-tense",
+      "titleZh": "05 · 增音：把词干元音复制到词首",
+      "leadZh": "完成时在所有已知时态中独一无二地带前缀，其形式总是与词干元音相同（但短）：tuv- → utúvië，ric- → irícië。",
+      "objectives": [
+        "能说出增音的形式规律",
+        "能给基本动词加上正确的增音"
+      ],
+      "rules": [
+        {
+          "id": "rule-augment",
+          "headZh": "增音（augment）＝短词干元音",
+          "bodyZh": "完成时带一种前缀，形式可变，因为它总是与词干元音相同（但短）。故 tuv-、tul-（词干元音 u）→ utúvië、utúlië；ric-（i）→ irícië。",
+          "en": "This prefix is variable in form, for it is always the same as the stem-vowel (but short).",
+          "zh": "这个前缀形式可变，因为它总是与词干元音相同（但是短音）。",
+          "exampleZh": "mat- → amátië；cen- → ecénië；tir- → itírië；not- → onótië；tur- → utúrië"
+        }
+      ],
+      "examples": [
+        {
+          "en": "mat- \"eat\" vs. amátië \"has eaten\"",
+          "zh": "吃／已吃",
+          "whyZh": "词干元音 a → 增音 a-，词干元音拉长为 á。"
+        },
+        {
+          "en": "cen- \"see\" vs. ecénië \"has seen\"",
+          "zh": "看见／已看见",
+          "whyZh": "词干元音 e → 增音 e-，拉长 é。"
+        },
+        {
+          "en": "tir- \"watch\" vs. itírië \"has watched\"",
+          "zh": "守望／已守望",
+          "whyZh": "词干元音 i → 增音 i-，拉长 í。"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "把增音写成元音的长音（如 útúlië）",
+          "right": "增音总是短元音：utúlië",
+          "whyZh": "原文：it is always the same as the stem-vowel (but short)。"
+        }
+      ],
+      "recapZh": "增音＝把词干元音（短）复制到词首，再加拉长的词干元音与 -ië。",
+      "selfCheckZh": [
+        {
+          "qZh": "tur- 的完成时？",
+          "aZh": "utúrië（增音 u- + 拉长 ú + -ië）。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-perfect-tense",
+        "unitIds": [
+          4
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "perfect-vowels",
+      "sourceSectionId": "the-perfect-tense",
+      "titleZh": "06 · 五个元音各来一组",
+      "leadZh": "词干元音 A、E、I、O、U 各配一个完成时例子（由作者构造）：amátië、ecénië、itírië、onótië、utúrië。",
+      "objectives": [
+        "能把五个词干元音与对应完成时配对",
+        "能归纳「增音＝词干元音」的规律"
+      ],
+      "rules": [
+        {
+          "id": "rule-vowel-a",
+          "headZh": "A：mat- → amátië",
+          "bodyZh": "词干元音 a 的动词，完成时以 a- 为增音，词干 a 拉长为 á。",
+          "en": "Stem-vowel A: mat- \"eat\" vs. amátië \"has eaten\"",
+          "zh": "词干元音 A：mat-「吃」对 amátië「已吃」。",
+          "exampleZh": "mat- → amátië"
+        },
+        {
+          "id": "rule-vowel-e",
+          "headZh": "E：cen- → ecénië",
+          "bodyZh": "词干元音 e 的动词，完成时以 e- 为增音，词干 e 拉长为 é。",
+          "en": "Stem-vowel E: cen- \"see\" vs. ecénië \"has seen\"",
+          "zh": "词干元音 E：cen-「看见」对 ecénië「已看见」。",
+          "exampleZh": "cen- → ecénië"
+        },
+        {
+          "id": "rule-vowel-i",
+          "headZh": "I：tir- → itírië",
+          "bodyZh": "词干元音 i 的动词，完成时以 i- 为增音，词干 i 拉长为 í。",
+          "en": "Stem-vowel I: tir- \"watch\" vs. itírië \"has watched\"",
+          "zh": "词干元音 I：tir-「守望」对 itírië「已守望」。",
+          "exampleZh": "tir- → itírië"
+        },
+        {
+          "id": "rule-vowel-o",
+          "headZh": "O：not- → onótië",
+          "bodyZh": "词干元音 o 的动词，完成时以 o- 为增音，词干 o 拉长为 ó。",
+          "en": "Stem-vowel O: not- \"reckon\" vs. onótië \"has reckoned\"",
+          "zh": "词干元音 O：not-「计算」对 onótië「已计算」。",
+          "exampleZh": "not- → onótië"
+        },
+        {
+          "id": "rule-vowel-u",
+          "headZh": "U：tur- → utúrië",
+          "bodyZh": "词干元音 u 的动词，完成时以 u- 为增音，词干 u 拉长为 ú。",
+          "en": "Stem-vowel U: tur- \"govern\" vs. utúrië \"has governed\"",
+          "zh": "词干元音 U：tur-「统治」对 utúrië「已统治」。",
+          "exampleZh": "tur- → utúrië"
+        }
+      ],
+      "table": {
+        "captionZh": "五个词干元音的完成时",
+        "headers": [
+          "词干元音",
+          "动词",
+          "完成时"
+        ],
+        "rows": [
+          [
+            "A",
+            "mat-「吃」",
+            "amátië"
+          ],
+          [
+            "E",
+            "cen-「看见」",
+            "ecénië"
+          ],
+          [
+            "I",
+            "tir-「守望」",
+            "itírië"
+          ],
+          [
+            "O",
+            "not-「计算」",
+            "onótië"
+          ],
+          [
+            "U",
+            "tur-「统治」",
+            "utúrië"
+          ]
+        ]
+      },
+      "recapZh": "五个元音各有固定套路：a→amátië、e→ecénië、i→itírië、o→onótië、u→utúrië。",
+      "selfCheckZh": [
+        {
+          "qZh": "cen- 的完成时？",
+          "aZh": "ecénië。"
+        },
+        {
+          "qZh": "not- 的完成时？",
+          "aZh": "onótië。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-perfect-tense",
+        "unitIds": [
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "perfect-terms",
+      "sourceSectionId": "the-perfect-tense",
+      "titleZh": "07 · 两个术语：增音与重叠",
+      "leadZh": "完成时里这个前缀叫「增音」（augment）；把词的一部分复制一遍，语言学术语叫「重叠」（reduplication）。",
+      "objectives": [
+        "能正确使用 augment 与 reduplication 两个术语"
+      ],
+      "rules": [
+        {
+          "id": "rule-terms",
+          "headZh": "augment 与 reduplication",
+          "bodyZh": "完成时里的前缀通常称增音（augment）；复制词的一部分这种过程叫重叠（reduplication）。所以说：昆雅完成时含一个重叠的词干元音，作为增音前缀。",
+          "en": "one feature of the Quenya perfect tense is that it includes a reduplicated stem-vowel that is prefixed as an augment",
+          "zh": "昆雅完成时的一个特征是，它含一个重叠的词干元音，作为增音前缀。",
+          "exampleZh": "reduplicated stem-vowel + augment"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "把 augment 与 reduplication 混为一谈",
+          "right": "reduplication 是「复制」这个过程，augment 是复制出来、加在词首的那个成分",
+          "whyZh": "原文先说这个过程叫 reduplication，再说这个前缀叫 augment。"
+        }
+      ],
+      "recapZh": "reduplication＝复制；augment＝复制出来加在词首的成分。",
+      "selfCheckZh": [
+        {
+          "qZh": "完成时词首那个成分叫什么？",
+          "aZh": "增音（augment）；形成它的过程叫重叠（reduplication）。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-perfect-tense",
+        "unitIds": [
+          10
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "perfect-a-stem",
+      "sourceSectionId": "the-perfect-tense",
+      "titleZh": "08 · A 词干的完成时",
+      "leadZh": "A 词干的证据极少。一般原则提示：加 -ië 前丢掉词尾 -a。lala- → alálië，mapa- → amápië；móta- → omótië。",
+      "objectives": [
+        "能写出 A 词干的完成时",
+        "能说明增音为何总是短元音"
+      ],
+      "rules": [
+        {
+          "id": "rule-a-stem-perfect",
+          "headZh": "A 词干：丢 -a 再加 -ië",
+          "bodyZh": "证据极其稀少。一般原则提示 A 词干在加 -ië 前丢掉词尾 -a：lala-「笑」→ alálië、mapa-「抓住」→ amápië。若词干元音本来就长，完成时里仍长（反正本来也要拉长）；但增音总该是短元音，故 móta-「劳作」→ omótië。",
+          "en": "General principles suggest that they would drop the final -a before the ending -ië is added.",
+          "zh": "一般原则提示它们会在加 -ië 之前丢掉词尾 -a。",
+          "exampleZh": "lala- → alálië；mapa- → amápië；móta- → omótië"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "把 móta- 的完成时写成 mótie 或 omótie",
+          "right": "omótië（丢 -a，加 -ië；增音仍是短的 o-）",
+          "whyZh": "原文：a verb like móta- \"toil\" may have the perfect tense omótië。"
+        }
+      ],
+      "recapZh": "A 词干：丢 -a + 拉长词干元音 + -ië，前面加短增音。",
+      "selfCheckZh": [
+        {
+          "qZh": "mapa- 的完成时？",
+          "aZh": "amápië。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-perfect-tense",
+        "unitIds": [
+          11
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "perfect-cluster",
+      "sourceSectionId": "the-perfect-tense",
+      "titleZh": "09 · 辅音丛前不拉长：aharnië",
+      "leadZh": "harna-「伤」的词干元音后是 rn。昆雅不喜欢长元音紧接辅音丛，所以这类动词不拉长：「已伤」是 aharnië，不是 **ahárnië。",
+      "objectives": [
+        "能判断哪些动词不拉长词干元音",
+        "能写出 aharnië 并说明理由"
+      ],
+      "rules": [
+        {
+          "id": "rule-no-lengthen-cluster",
+          "headZh": "辅音丛前不拉长",
+          "bodyZh": "很多 A 词干在词干元音后带辅音丛（如 harna- 的 rn）。昆雅不喜欢长元音紧接辅音丛，故这类动词不发生词干元音拉长，其余照常：「已伤」＝aharnië，而非 **ahárnië。",
+          "en": "Since Quenya isn't fond of long vowels immediately in front of consonant clusters, we must assume that the lengthening of the stem-vowels simply does not occur in verbs of this shape.",
+          "zh": "由于昆雅不喜欢长元音紧接辅音丛，必须假定这类动词根本不发生词干元音拉长。",
+          "exampleZh": "harna- → aharnië（非 **ahárnië）"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "写 **ahárnië",
+          "right": "aharnië",
+          "whyZh": "原文直接以 **ahárnië 标出被排除的形式。"
+        }
+      ],
+      "recapZh": "词干元音后接辅音丛 → 不拉长：aharnië。",
+      "selfCheckZh": [
+        {
+          "qZh": "「已伤」怎么写？",
+          "aZh": "aharnië（harna- 的 rn 使元音不拉长）。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-perfect-tense",
+        "unitIds": [
+          12
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "perfect-ya",
+      "sourceSectionId": "the-perfect-tense",
+      "titleZh": "10 · -ya 动词：整个 -ya 脱落",
+      "leadZh": "hanya- 按规则会得 **ahanyië，但昆雅没有 yi 这个组合。avánië 提示解法：完成时里整个 -ya 脱落，剩下部分按基本动词处理。",
+      "objectives": [
+        "能说明 -ya 动词为什么不能直接加 -ië",
+        "能写出 ahánië 并说明其来历"
+      ],
+      "rules": [
+        {
+          "id": "rule-ya-problem",
+          "headZh": "为什么不能 **ahanyië",
+          "bodyZh": "hanya-「理解」按规则会得 **ahanyië（或 **ahányië，因为 ny 算辅音丛还是单一辅音不清楚）。但这样的形式不可能：yi 这个组合在昆雅里不出现。",
+          "en": "such a form is impossible, for the combination yi does not occur in Quenya",
+          "zh": "这样的形式不可能，因为 yi 这个组合在昆雅里不出现。",
+          "exampleZh": "**ahanyië（排除）"
+        },
+        {
+          "id": "rule-ya-drop",
+          "headZh": "-ya 整个脱落",
+          "bodyZh": "《Namárië》的 avánië（复数 avánier）提供了线索：完成时里整个词尾 -ya 先脱落，再加 -ië，剩下的部分按基本动词处理，因此同时有增音与拉长。",
+          "en": "In the perfect tense, the whole ending -ya is dropped before -ië is added, and what remains of the verb is treated just as if it were a primary verb.",
+          "zh": "完成时里整个词尾 -ya 先脱落，再加 -ië，剩下的部分按基本动词处理。",
+          "exampleZh": "hanya- → ahánië"
+        }
+      ],
+      "examples": [
+        {
+          "en": "yéni avánier ve lintë yuldar lisse-miruvóreva",
+          "zh": "岁月已逝去，如甜蜜酒的迅疾一饮",
+          "whyZh": "《Namárië》。avánië 是完成时，主语 yéni 复数故加 -r；托尔金后来把它解释为 auta- 的完成时，但早年可能视为 vanya- 的完成时。"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "写 **ahanyië 或 **ahányië",
+          "right": "ahánië",
+          "whyZh": "yi 在昆雅里不出现；-ya 必须整个脱落。"
+        }
+      ],
+      "recapZh": "-ya 动词：整个 -ya 脱落，剩下部分按基本动词加增音、拉长、-ië。",
+      "selfCheckZh": [
+        {
+          "qZh": "hanya- 的完成时？",
+          "aZh": "ahánië。"
+        },
+        {
+          "qZh": "为什么不能写 **ahanyië？",
+          "aZh": "因为昆雅里没有 yi 这个组合。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-perfect-tense",
+        "unitIds": [
+          13,
+          14
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "perfect-ya-forms",
+      "sourceSectionId": "the-perfect-tense",
+      "titleZh": "11 · 四个 -ya 动词的完成时",
+      "leadZh": "ahánië、ihílië、etélië、utúlië——注意每个的增音都取自脱落 -ya 后剩下的词干元音。",
+      "objectives": [
+        "能写出四个 -ya 动词的完成时",
+        "能指出 utúlië 与 tul- 的完成时同形"
+      ],
+      "rules": [
+        {
+          "id": "rule-ya-examples",
+          "headZh": "四个实例",
+          "bodyZh": "hanya- → ahánië、hilya- → ihílië、telya- → etélië、tulya- → utúlië。规律：丢 -ya，剩下词干（han-、hil-、tel-、tul-）按基本动词处理。",
+          "en": "hanya- \"understand\", perfect ahánië \"has understood\"",
+          "zh": "hanya-「理解」，完成时 ahánië「已理解」。",
+          "exampleZh": "hilya- → ihílië；telya- → etélië；tulya- → utúlië"
+        }
+      ],
+      "table": {
+        "captionZh": "-ya 动词的完成时",
+        "headers": [
+          "动词",
+          "完成时",
+          "释义"
+        ],
+        "rows": [
+          [
+            "hanya-",
+            "ahánië",
+            "已理解"
+          ],
+          [
+            "hilya-",
+            "ihílië",
+            "已跟随"
+          ],
+          [
+            "telya-",
+            "etélië",
+            "已完成"
+          ],
+          [
+            "tulya-",
+            "utúlië",
+            "已带领"
+          ]
+        ]
+      },
+      "recapZh": "四个 -ya 动词：ahánië、ihílië、etélië、utúlië。",
+      "selfCheckZh": [
+        {
+          "qZh": "telya- 的完成时？",
+          "aZh": "etélië。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-perfect-tense",
+        "unitIds": [
+          15,
+          16,
+          17,
+          18
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "perfect-ambiguity",
+      "sourceSectionId": "the-perfect-tense",
+      "titleZh": "12 · 同形歧义：utúlië 是「已带领」还是「已来到」？",
+      "leadZh": "从完成时看不出原动词。utúlië 既是 tulya-「带领」的完成时，也是 tul-「来」的完成时；ahárië 既是 harya 的，也可能是 har- 的。只能靠语境。",
+      "objectives": [
+        "能举出两组同形歧义",
+        "能说明为什么必须靠语境"
+      ],
+      "rules": [
+        {
+          "id": "rule-homophone",
+          "headZh": "完成时无法反推原动词",
+          "bodyZh": "从完成时形式无法确定原动词词干。ihílië 也可能是 **hil- 或 **hila- 的完成时；utúlië 既是 tulya-「带领」的，也是 tul-「来」的；ahárië 既是 harya「拥有」的（「已拥有」），也可能是 har-「坐」的（「已坐、一直坐着」）。",
+          "en": "from the perfect forms you cannot determine with certainty what the original verb stem looks like",
+          "zh": "从完成时形式无法确定原动词词干的样子。",
+          "exampleZh": "utúlië：tulya- ／ tul-"
+        }
+      ],
+      "examples": [
+        {
+          "en": "utúlië",
+          "zh": "已带领（tulya-）／已来到（tul-）",
+          "whyZh": "两个不同动词的完成时同形，只能靠语境分辨。"
+        },
+        {
+          "en": "ahárië",
+          "zh": "已拥有（harya）／已坐、一直坐着（har-）",
+          "whyZh": "har- 只有复数现在时 hárar「正坐着」有据（UT:305、317）。"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "看到 utúlië 就认定是「已来到」",
+          "right": "也可能是 tulya-「带领」的完成时",
+          "whyZh": "原文：one must apparently depend on the context。"
+        }
+      ],
+      "recapZh": "完成时同形：utúlië（tulya-／tul-）、ahárië（harya／har-），靠语境分辨。",
+      "selfCheckZh": [
+        {
+          "qZh": "utúlië 可能来自哪两个动词？",
+          "aZh": "tulya-「带领」与 tul-「来」。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-perfect-tense",
+        "unitIds": [
+          19
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "perfect-diphthong",
+      "sourceSectionId": "the-perfect-tense",
+      "titleZh": "13 · 含双元音的动词：增音取第一个元音",
+      "leadZh": "taita- → ataitië、roita- → oroitië、hauta- → ahautië。双元音里的 -i／-u 来自原来的 -y／-w，不算词干元音。",
+      "objectives": [
+        "能处理含双元音的动词",
+        "能说明为什么双元音不能拉长"
+      ],
+      "rules": [
+        {
+          "id": "rule-diphthong",
+          "headZh": "双元音：增音取第一个元音",
+          "bodyZh": "若动词含 -i 或 -u 的双元音，完成时里充当增音的大概是这个双元音的第一个元音：taita- → ataitië、roita- → oroitië、hauta- → ahautië。双元音的一部分几乎无法拉长，故不会有 **atáitië、**oróitië、**aháutië。这些动词的词根是 TAY、ROY、KHAW，故词干元音分别是 A、O、A；双元音里的 -i／-u 源自原来的 -y／-w，不算词干元音。",
+          "en": "Where a verb contains a diphthong in -i or -u, it is probably the first vowel of this diphthong that functions as an augment in the perfect tense.",
+          "zh": "若动词含 -i 或 -u 的双元音，完成时里充当增音的大概是这个双元音的第一个元音。",
+          "exampleZh": "taita- → ataitië；roita- → oroitië；hauta- → ahautië"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "写 **atáitië、**aháutië",
+          "right": "ataitië、ahautië（双元音不拉长）",
+          "whyZh": "原文直接以 **atáitië、**oróitië、**aháutië 标出被排除的形式。"
+        }
+      ],
+      "recapZh": "双元音动词：增音取双元音第一个元音，且不拉长。",
+      "selfCheckZh": [
+        {
+          "qZh": "hauta- 的完成时？",
+          "aZh": "ahautië。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-perfect-tense",
+        "unitIds": [
+          20
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "perfect-unaugmented",
+      "sourceSectionId": "the-perfect-tense",
+      "titleZh": "14 · 无增音完成时：fírië、tulier",
+      "leadZh": "材料里有无增音的完成时：fírië「已断气」。早期「Qenya」里「精灵们已来到」作 i·Eldar tulier，连拉长都还没有。",
+      "objectives": [
+        "能举出无增音完成时的例子",
+        "能说明增音是较晚才出现的"
+      ],
+      "rules": [
+        {
+          "id": "rule-unaugmented",
+          "headZh": "无增音完成时确实存在",
+          "bodyZh": "MR:250 提到 fírië「已呼出／已死」，增音缺失，但没有理由认为 ifírië 会错。原文说有些完成时按规则构成，只是不带增音前缀。",
+          "en": "The material contains some examples of perfect-tense verbs that are constructed according to the rules set forth about, except that they do not have any augment prefixed.",
+          "zh": "材料里有些完成时动词按上述规则构成，只是不带任何增音前缀。",
+          "exampleZh": "fírië（MR:250）"
+        },
+        {
+          "id": "rule-late-augment",
+          "headZh": "增音是较晚的想法",
+          "bodyZh": "《魔戒》里的完成时（utúlien、utúvienyes）第一版就有增音，但给完成时加增音这整个想法在托尔金的昆雅演变里出现较晚。最早「Qenya」里「精灵们已来到」作 i·Eldar tulier（LT1:114、270）：有 -ie-，但没有增音、也没有拉长。",
+          "en": "the whole idea of augmenting perfect-tense verbs appeared relatively late in Tolkien's evolution of Quenya",
+          "zh": "给完成时动词加增音这整个想法，在托尔金的昆雅演变里出现得较晚。",
+          "exampleZh": "i·Eldar tulier → Eldar utúlier"
+        }
+      ],
+      "examples": [
+        {
+          "en": "fírië",
+          "zh": "已呼出／已断气",
+          "whyZh": "MR:250 的无增音完成时；译文 \"she hath breathed forth\" 里没有可指认的「她」成分，显然是意会。"
+        },
+        {
+          "en": "i·Eldar tulier",
+          "zh": "精灵们已来到",
+          "whyZh": "托尔金最早的「Qenya」：有 -ie-，无增音、无拉长。更新为《魔戒》风格应是 Eldar utúlier。"
+        }
+      ],
+      "recapZh": "无增音完成时存在（fírië）；增音是昆雅演变后期才出现的。",
+      "selfCheckZh": [
+        {
+          "qZh": "fírië 的「完整」形式是什么？",
+          "aZh": "ifírië（原文说没有理由认为它会错）。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-perfect-tense",
+        "unitIds": [
+          21,
+          22
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "perfect-lantie",
+      "sourceSectionId": "the-perfect-tense",
+      "titleZh": "15 · lantië／cárier：完成时当过去时用",
+      "leadZh": "lantië 被译作 \"fell\"，cárier 被译作 \"made\"——都是「作过去时用的完成时」。cárier 拉长而 lantier 不拉长，正说明辅音丛前不许长元音。",
+      "objectives": [
+        "能解释 lantië 为什么译作 fell",
+        "能用 cárier 与 lantier 的对比说明拉长条件"
+      ],
+      "rules": [
+        {
+          "id": "rule-lantie",
+          "headZh": "lantië：完成时被译作过去时",
+          "bodyZh": "LR:56 有 lantië（复数 lantier），看似无增音完成时。托尔金译作 \"fell\"（lantië nu huinë、ëari lantier），仿佛过去时。但他后来说「过去时与完成时的形式在昆雅里逐渐紧密关联」（WJ:366）；SD:310 记载他把 lantier 改成 lantaner，即用真过去时替换「作过去时用的完成时」。",
+          "en": "he later noted that \"the forms of past and perfect became progressively more closely associated in Quenya\" (WJ:366)",
+          "zh": "他后来指出「过去时与完成时的形式在昆雅里逐渐紧密关联」（WJ:366）。",
+          "exampleZh": "lantië nu huinë；ëari lantier"
+        },
+        {
+          "id": "rule-carier",
+          "headZh": "cárier：拉长的完成时",
+          "bodyZh": "《Fíriel 之歌》有 cárier 表「made」（含复数 -r）。既然 cárier 拉长了而 lantier 没有，只能假定 lantier 保持短音纯属音系原因：辅音丛前不许长元音。作者推荐 alantië、acárië。",
+          "en": "Since the stem-vowel is lengthened in cárier, we must assume that it stays short in lantier for purely phonological reasons",
+          "zh": "既然 cárier 里词干元音拉长了，就必须假定 lantier 里它保持短音纯属音系原因。",
+          "exampleZh": "cárier；alantië；acárië"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "以为 lantier 是过去时",
+          "right": "它是（无增音的）完成时，只是托尔金把它当过去时用",
+          "whyZh": "原文：a perfect-used-as-past。"
+        }
+      ],
+      "recapZh": "lantië／cárier 都是「作过去时用的完成时」；辅音丛前不拉长（lantier 对 cárier）。",
+      "selfCheckZh": [
+        {
+          "qZh": "lantië 为什么没有拉长？",
+          "aZh": "因为词干元音后是辅音丛 nt，辅音丛前不允许长元音。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-perfect-tense",
+        "unitIds": [
+          23,
+          24
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "perfect-unaugmented-ok",
+      "sourceSectionId": "the-perfect-tense",
+      "titleZh": "16 · 省略增音是允许的",
+      "leadZh": "fírië 表明即便《魔戒》风格昆雅也允许省略增音。诗歌里若多出的音节破坏格律，也可省。但本课程练习一律带增音。",
+      "objectives": [
+        "能说明何时可以省略增音",
+        "能说出本课程练习的处理方式"
+      ],
+      "rules": [
+        {
+          "id": "rule-unaugment-allowed",
+          "headZh": "省略增音：允许但不常用",
+          "bodyZh": "《魔戒》之后的 fírië 表明即便《魔戒》风格昆雅也允许省略增音：只要词干元音后无辅音丛，仅用 -ië + 拉长即可。也许无增音完成时在口语／非正式语言里更常见；诗歌里若多出的音节破坏格律也可省（故《Namárië》作 vánier，尽管 1966 年托尔金改为 avánier）。但本课程练习里所有完成时都带增音。",
+          "en": "even in LotR-style Quenya, it is permissible to leave out the augment",
+          "zh": "即便在《魔戒》风格昆雅里，省略增音也是允许的。",
+          "exampleZh": "fírië／ifírië；vánier／avánier"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "以为省略增音就是错",
+          "right": "fírië 证明允许；但本课程练习统一带增音",
+          "whyZh": "原文：in the exercises I made for this course, all perfect-tense forms do include the augment。"
+        }
+      ],
+      "recapZh": "增音可省（口语、诗歌），但本课程练习一律带。",
+      "selfCheckZh": [
+        {
+          "qZh": "《Namárië》第一版的 avánier 写作什么？",
+          "aZh": "vánier（无增音）；1966 年第二版补上增音。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-perfect-tense",
+        "unitIds": [
+          25
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "perfect-vowel-initial",
+      "sourceSectionId": "the-perfect-tense",
+      "titleZh": "17 · 以元音开头的动词：增音无处可插",
+      "leadZh": "anta-、onot-、atalta- 这类动词首元音就是词干元音，前面没有辅音可插增音。流行解法是把整个第一音节重叠：orórië。",
+      "objectives": [
+        "能说明元音开头动词的困难",
+        "能举出 orórië 并指出它被托尔金划掉"
+      ],
+      "rules": [
+        {
+          "id": "rule-vowel-initial-problem",
+          "headZh": "首元音即词干元音",
+          "bodyZh": "有前缀的动词，增音可插在前缀与基本词干之间（enyal- → enayálië）。但 anta-「给」没有任何前缀，首元音就是词干元音；onot-「数齐」的前缀 o- 恰与词干元音相同；atalta- 已把词干元音当前缀。这些情况都难以再加增音：不能写 a'antië、o'onótië、a'ataltië。",
+          "en": "Verbs beginning in a vowel pose a problem.",
+          "zh": "以元音开头的动词有麻烦。",
+          "exampleZh": "anta-；onot-；atalta-；enyal- → enayálië"
+        },
+        {
+          "id": "rule-ororie",
+          "headZh": "重叠整个第一音节：orórië",
+          "bodyZh": "流行的设想是把整个第一音节重叠为增音：anta- → anantië 等。VT41 出版后这理论几乎被证实：托尔金把 orórië 列为 ora-「催促」的完成时（VT41:13、18）。重叠辅音 r 把增音与词干首元音隔开，避免了 **o'órië。但托尔金写完又把它划掉了。",
+          "en": "Tolkien listed orórië as the perfect tense of the verb ora- \"urge\"",
+          "zh": "托尔金把 orórië 列为动词 ora-「催促」的完成时。",
+          "exampleZh": "orórië（被划掉）；**o'órië（排除）"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "以为 orórië 已是定论",
+          "right": "托尔金写完又划掉了；原文说「谁也说不清」",
+          "whyZh": "原文：after writing down the form orórië, Tolkien struck it out!"
+        }
+      ],
+      "recapZh": "元音开头动词难加增音；orórië 的重叠法有据但被划掉。",
+      "selfCheckZh": [
+        {
+          "qZh": "enyal- 的完成时大概是什么？",
+          "aZh": "enayálië（增音插在前缀 en- 与词干 yal- 之间）。"
+        },
+        {
+          "qZh": "orórië 的结局是什么？",
+          "aZh": "托尔金写下后又划掉了。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-perfect-tense",
+        "unitIds": [
+          26,
+          27
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "perfect-vowel-solution",
+      "sourceSectionId": "the-perfect-tense",
+      "titleZh": "18 · 实用解法：这类动词干脆省增音",
+      "leadZh": "既然无增音完成时允许，最省事的办法就是元音开头动词不加增音：anta- → antië、onot- → onótië。作者在练习里干脆避开这类动词。",
+      "objectives": [
+        "能给出元音开头动词的实用处理",
+        "能说明 orië 的性质存疑"
+      ],
+      "rules": [
+        {
+          "id": "rule-omit-augment",
+          "headZh": "省略增音的实用解",
+          "bodyZh": "元音开头动词该如何加增音不清楚，作者在练习里干脆避开它们的完成时。既然无增音完成时允许，最简办法就是省增音：anta- → antië、onot- → onótië（但这与 not- 的完成时同形！）。被否掉的 orórië 之后托尔金写了 orië；作者期待带长音的 órië，故 orië 更像动名词。",
+          "en": "the easiest solution must be to simply omit the augment in the case of such verbs",
+          "zh": "最简单的办法就是这类动词直接省略增音。",
+          "exampleZh": "anta- → antië；onot- → onótië；orië（性质存疑）"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "把 orië 当成 ora- 的完成时",
+          "right": "作者期待 órië；orië 更像动名词",
+          "whyZh": "原文：orië looks more like a quite different form of the verb (a gerund)。"
+        }
+      ],
+      "recapZh": "元音开头动词：省增音（antië、onótië），或干脆避开。",
+      "selfCheckZh": [
+        {
+          "qZh": "anta- 的完成时按实用解法怎么写？",
+          "aZh": "antië（省略增音）。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-perfect-tense",
+        "unitIds": [
+          28
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "perfect-utulien",
+      "sourceSectionId": "the-perfect-tense",
+      "titleZh": "19 · utúlie'n aurë：那个神秘的 'n",
+      "leadZh": "《精灵宝钻》有 utúlie'n aurë「白昼已来临」。utúlië 是完成时没问题，但多出的 'n 至今无定论：或为悦耳、或为冠词。",
+      "objectives": [
+        "能说明 'n 的两种解释",
+        "能说明作者为何在练习里不用它"
+      ],
+      "rules": [
+        {
+          "id": "rule-utulien-n",
+          "headZh": "utúlie'n 的 'n 无定论",
+          "bodyZh": "utúlië 显然是 tul- 的完成时，但附加的 'n 神秘。它不像 utúlien 里的 -n「我」（译文是「the day has come」）。可能只为悦耳，避免元音相连；也可能代表冠词的另一种形态（故＝utúlië in aurë？见 PM:395）。作者在练习里从不用这个 'n；Christopher Gilson 主张 'n＝「the」。",
+          "en": "the added 'n is something of a mystery",
+          "zh": "附加的 'n 有点神秘。",
+          "exampleZh": "utúlie'n aurë"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "把 utúlie'n 的 -n 当作「我」",
+          "right": "译文是「the day has come」，不可能有「我」",
+          "whyZh": "原文：No such ending can be present in utúlie'n, given Tolkien's translation。"
+        }
+      ],
+      "recapZh": "utúlie'n 的 'n 功能不明（悦耳？冠词？），本课程练习不用它。",
+      "selfCheckZh": [
+        {
+          "qZh": "utúlie'n aurë 译作什么？",
+          "aZh": "「白昼已来临」（the day has come）。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-perfect-tense",
+        "unitIds": [
+          29
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "pronouns-what",
+      "sourceSectionId": "pronouns",
+      "titleZh": "20 · 代词：语言的速记装置",
+      "leadZh": "代词就是「代替名词」的词或词尾，用来回指已提到的名词，免得反复重复。",
+      "objectives": [
+        "能用自己的话定义代词",
+        "能举例说明代词如何避免重复"
+      ],
+      "rules": [
+        {
+          "id": "rule-pronoun-def",
+          "headZh": "代词＝代替名词",
+          "bodyZh": "pronoun 字面就是「for (instead of) a noun」。代词是能替换名词的词或词尾，常回指已提到的名词，使语言免于反复重复。",
+          "en": "it simply means \"for (instead of) a noun\"",
+          "zh": "它的意思就是「代替名词」。",
+          "exampleZh": "you、they、I"
+        }
+      ],
+      "examples": [
+        {
+          "en": "you",
+          "zh": "你（代替对方的名字）",
+          "whyZh": "不必每次称呼对方都重复名字。"
+        },
+        {
+          "en": "they",
+          "zh": "他们（代替「刚才提到的那群人」）",
+          "whyZh": "英语有简短利落的 they，不必说「此刻正在讨论的人们」。"
+        }
+      ],
+      "recapZh": "代词＝代替名词的词或词尾，作用是避免重复。",
+      "selfCheckZh": [
+        {
+          "qZh": "pronoun 字面意思是什么？",
+          "aZh": "「代替名词」。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "pronouns",
+        "unitIds": [
+          0,
+          1
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "pronouns-persons",
+      "sourceSectionId": "pronouns",
+      "titleZh": "21 · 三个人称与英语的代词表",
+      "leadZh": "第一人称指自己一方，第二人称指被称呼者，第三人称指其他。英语表里第一、第二人称较简单，第三人称单数分 he／she／it。",
+      "objectives": [
+        "能说出三个人称各指什么",
+        "能背出英语三个人称的主要形式"
+      ],
+      "rules": [
+        {
+          "id": "rule-three-persons",
+          "headZh": "三个人称",
+          "bodyZh": "人称代词习惯上分三个「人称」；此处的「人称」只是代词类别的既定术语，并不表示这些代词只指有感知的存在。",
+          "en": "Customarily, they are divided into three different \"persons\"",
+          "zh": "习惯上它们分为三个「人称」。",
+          "exampleZh": "第一、第二、第三人称"
+        },
+        {
+          "id": "rule-english-table",
+          "headZh": "英语的代词表",
+          "bodyZh": "第一人称：I／me／my、mine；we／us／our、ours。第二人称：you（主宾同形）／your、yours；古英语另有 thou／thee／thy、thine。第三人称：he／she／it，宾格 him／her／it，所有格 his／her、hers／its；复数 they／them／their、theirs。",
+          "en": "In English, this traditional tripartite classification produces a table something like this",
+          "zh": "在英语里，这种传统的三分产生大致如下的表。",
+          "exampleZh": "I／you／he, she, it"
+        }
+      ],
+      "table": {
+        "captionZh": "英语人称代词",
+        "headers": [
+          "人称",
+          "主格",
+          "宾格",
+          "所有格"
+        ],
+        "rows": [
+          [
+            "1 单",
+            "I",
+            "me",
+            "my / mine"
+          ],
+          [
+            "1 复",
+            "we",
+            "us",
+            "our / ours"
+          ],
+          [
+            "2",
+            "you（古 thou）",
+            "you（古 thee）",
+            "your / yours（古 thy / thine）"
+          ],
+          [
+            "3 单",
+            "he / she / it",
+            "him / her / it",
+            "his / her / its"
+          ],
+          [
+            "3 复",
+            "they",
+            "them",
+            "their / theirs"
+          ]
+        ]
+      },
+      "pitfalls": [
+        {
+          "wrong": "把「人称」理解为「只指人」",
+          "right": "「人称」只是代词类别的术语，it 也属第三人称",
+          "whyZh": "原文括号：not that the pronouns involved only refer to sentient beings。"
+        }
+      ],
+      "recapZh": "三个人称；英语第二人称单复数同形，第三人称单数分性别。",
+      "selfCheckZh": [
+        {
+          "qZh": "英语第二人称单复数有区别吗？",
+          "aZh": "没有，都是 you（古英语另有 thou）。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "pronouns",
+        "unitIds": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "pronouns-asymmetry",
+      "sourceSectionId": "pronouns",
+      "titleZh": "22 · 各语言的不对称：芬兰语与希伯来语",
+      "leadZh": "英语在第二人称放弃单复数之分，却在第三人称单数极讲究。芬兰语 hän 兼指 he／she；希伯来语连「你」「他们」都分性别。",
+      "objectives": [
+        "能举出英语代词系统的不对称",
+        "能用芬兰语、希伯来语说明「区分是任意的」"
+      ],
+      "rules": [
+        {
+          "id": "rule-english-asymmetry",
+          "headZh": "英语的不对称",
+          "bodyZh": "英语代词通常保持单复数之分（I／we），但第二人称放弃（you 通吃）；第三人称单数却极讲究：he／she／it 依性别与性质区分。",
+          "en": "The system is not necessarily symmetric, either – certainly not so in English.",
+          "zh": "这套系统也未必对称——英语肯定不对称。",
+          "exampleZh": "you 通吃；he／she／it 三分"
+        },
+        {
+          "id": "rule-other-languages",
+          "headZh": "别的语言怎么分",
+          "bodyZh": "芬兰语（托尔金创造昆雅的首要灵感）只有一个 hän 兼指「他」「她」。希伯来语走得更远：连「你」都分（atta／att），复数「他们」也分（hem／henna）。",
+          "en": "Finnish, ever relevant for this study since it was Tolkien's foremost inspiration for Quenya, only has a single word (hän) that covers both \"he\" and \"she\"",
+          "zh": "芬兰语（托尔金创造昆雅的首要灵感）只有一个词 hän 兼指「他」和「她」。",
+          "exampleZh": "hän；atta／att；hem／henna"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "以为「分性别」是语言普遍现象",
+          "right": "哪些区分被建入代词表相当任意",
+          "whyZh": "原文：it is quite arbitrary what other distinctions languages build into their pronoun tables。"
+        }
+      ],
+      "recapZh": "代词表的区分是任意的：英语不对称，芬兰语不分性别，希伯来语连「你」都分。",
+      "selfCheckZh": [
+        {
+          "qZh": "芬兰语用什么词兼指 he 与 she？",
+          "aZh": "hän。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "pronouns",
+        "unitIds": [
+          6,
+          7
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "pronouns-israeli-note",
+      "sourceSectionId": "pronouns",
+      "titleZh": "23 · 作者的一段题外注（保留原文）",
+      "leadZh": "这一段与昆雅无关，是作者回应以色列读者来信的注，涉及希伯来语 henna／hen 与 nathan 的读音。原文未删节，此处照译。",
+      "objectives": [
+        "知道这段是题外注，不影响昆雅规则",
+        "能说出作者预设的是圣经希伯来语音系"
+      ],
+      "keyPoints": [
+        {
+          "termZh": "henna 与 hen",
+          "term": "henna / hen",
+          "explainZh": "henna 是较长的形式，见于《圣经》（如《创世记》6:2）；现代以色列希伯来语作 hen。"
+        },
+        {
+          "termZh": "hem 与 henna",
+          "term": "hem / henna",
+          "explainZh": "混合群体在语法上按阳性处理（Eli Cherniavsky 的说明）。"
+        },
+        {
+          "termZh": "nathan 的读音",
+          "term": "nathan",
+          "explainZh": "作者预设古典「圣经」音系，不是现代以色列读音（故 nathan 不作 natan）。"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "把这段当成昆雅语法的一部分",
+          "right": "它只是题外注，讲希伯来语代词与读音",
+          "whyZh": "原文标题即 NOTE FOR ISRAELIS (everybody else can happily ignore it)。"
+        }
+      ],
+      "recapZh": "题外注：henna／hen、hem 与 nathan 的读音；作者用圣经希伯来语音系。",
+      "selfCheckZh": [
+        {
+          "qZh": "作者为什么提 nathan？",
+          "aZh": "预告下一课会用到，并说明自己按圣经希伯来语读作 nathan 而非现代 natan。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "pronouns",
+        "unitIds": [
+          8
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "pronouns-quenya-intro",
+      "sourceSectionId": "pronouns",
+      "titleZh": "24 · 昆雅代词系统：相当不稳定",
+      "leadZh": "关于昆雅代词很难说得很确定：材料大量未刊，代词表经历无数次修订。有人说托尔金从未理清每个细节——作者认为他理清了，只是理清太多次。",
+      "objectives": [
+        "能说明昆雅代词研究的困难",
+        "能复述作者对「托尔金没理清」这一说法的回应"
+      ],
+      "rules": [
+        {
+          "id": "rule-unstable",
+          "headZh": "代词系统不稳定",
+          "bodyZh": "关于昆雅代词系统很难说得很确定。即便大量材料仍不为学界所见，已可安全地说精灵语的代词相当「不稳定」，代词表经历无数次修订。有人认为托尔金从未完全理清每个细节；作者则认为他理清了——问题是理清得太多次。",
+          "en": "the pronouns of Tolkien's Elvish languages were rather \"unstable\"",
+          "zh": "托尔金精灵语的代词相当「不稳定」。",
+          "exampleZh": "代词表反复修订"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "以为已出版材料足以定论昆雅代词",
+          "right": "材料大量未刊，很多细节只能存疑",
+          "whyZh": "原文：Even now, with enormous amounts of material still unavailable to scholarship..."
+        }
+      ],
+      "recapZh": "昆雅代词系统不稳定、反复修订，很多细节无法定论。",
+      "selfCheckZh": [
+        {
+          "qZh": "为什么昆雅代词难讲清？",
+          "aZh": "材料大量未刊，且托尔金反复修订代词表。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "pronouns",
+        "unitIds": [
+          9,
+          10
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "pronouns-quenya-features",
+      "sourceSectionId": "pronouns",
+      "titleZh": "25 · 昆雅代词的三个特点：双数、包含／排除、不分性别",
+      "leadZh": "第一人称除单复数还有双数（「你和我」）；「我们」分是否包含听者；「他／她／它」可能合并。",
+      "objectives": [
+        "能说出昆雅代词的三个特点",
+        "能解释「包含式／排除式」的意思"
+      ],
+      "rules": [
+        {
+          "id": "rule-dual",
+          "headZh": "第一人称有双数",
+          "bodyZh": "正如名词有双数，代词至少也有一些双数：第一人称除「我」「我们」外，还有意为「你（单）和我」或「我们俩」的双数代词。",
+          "en": "just as Quenya has a dual form of the noun in addition to the singular and plural forms, so there are also at least some dual pronouns",
+          "zh": "正如昆雅名词除单复数外还有双数，代词至少也有一些双数。",
+          "exampleZh": "「你和我」＝双数"
+        },
+        {
+          "id": "rule-inclusive",
+          "headZh": "「我们」分包含／排除",
+          "bodyZh": "昆雅依被称呼的一方是否包含在「我们」之内，而有不同的词或词尾。",
+          "en": "there are separate words or endings for \"we\", depending on whether or not the party that is addressed is included",
+          "zh": "昆雅依被称呼的一方是否包含在「我们」之内，而有不同的词或词尾。",
+          "exampleZh": "包含式／排除式"
+        },
+        {
+          "id": "rule-no-gender",
+          "headZh": "「他／她／它」可能合并",
+          "bodyZh": "昆雅看来并不总是保持 he、she 乃至 it 的区分；这些都可能由同一个代词涵盖。",
+          "en": "Quenya does not always maintain the distinction between \"he\", \"she\" and even \"it\"",
+          "zh": "昆雅并不总是保持「他」「她」乃至「它」的区分。",
+          "exampleZh": "单一第三人称代词"
+        }
+      ],
+      "recapZh": "昆雅代词：有双数、我们分包含／排除、第三人称可能不分性别。",
+      "selfCheckZh": [
+        {
+          "qZh": "昆雅第一人称有哪三种数？",
+          "aZh": "单数、双数、复数。"
+        },
+        {
+          "qZh": "「包含式」是什么意思？",
+          "aZh": "「我们」包含被称呼的一方。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "pronouns",
+        "unitIds": [
+          11,
+          12
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "pronouns-endings",
+      "sourceSectionId": "pronouns",
+      "titleZh": "26 · 代词多作词尾：hiruvalyë",
+      "leadZh": "昆雅代词通常以词尾出现。《Namárië》末行 hiruvalyë「你将找到」＝hiruva + -lyë。独立代词往往带强调。",
+      "objectives": [
+        "能拆解 hiruvalyë",
+        "能说明昆雅代词与英语代词的位置差异"
+      ],
+      "rules": [
+        {
+          "id": "rule-endings-not-words",
+          "headZh": "代词作词尾，不作独立词",
+          "bodyZh": "在昆雅里代词通常以词尾出现，不常作独立的词（作独立词时往往带强调，效果像英语斜体）。《Namárië》末行 hiruvalyë＝hiruva「将找到」+ -lyë「你」。-lyë 可加在任何动词上表示主语是「你」。",
+          "en": "in Quenya, pronouns typically appear as endings, not so often as independent words",
+          "zh": "在昆雅里，代词通常以词尾出现，不常作独立的词。",
+          "exampleZh": "hiruva + -lyë = hiruvalyë"
+        }
+      ],
+      "examples": [
+        {
+          "en": "hiruvalyë",
+          "zh": "你将找到",
+          "whyZh": "hiruva（hir- 的将来时）+ -lyë（第二人称单数主语词尾）；托尔金译作 \"thou shalt find\"。"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "把 -lyë 当成独立的词",
+          "right": "它是加在动词后的代词词尾",
+          "whyZh": "原文：The suffix -lyë can be attached to any verb to indicate that its subject is \"you\"。"
+        }
+      ],
+      "recapZh": "昆雅代词多作动词词尾：hiruvalyë＝hiruva + -lyë。",
+      "selfCheckZh": [
+        {
+          "qZh": "hiruvalyë 怎么拆？",
+          "aZh": "hiruva「将找到」+ -lyë「你」。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "pronouns",
+        "unitIds": [
+          13
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "pronouns-lye",
+      "sourceSectionId": "pronouns",
+      "titleZh": "27 · -lyë 的单复数与礼貌：一团「即时晦暗」",
+      "leadZh": "-lyë 是否兼包单复数？它大概是礼貌形式。2003 年的补记又提出 -llë 才是复数。唯一确定的是：-lyë（短 -l）可译作 you 或 thou。",
+      "objectives": [
+        "能说明 -lyë 的三个未定问题",
+        "能复述 2003 年补记的新信息",
+        "能说出作者在练习里的处理"
+      ],
+      "rules": [
+        {
+          "id": "rule-lye",
+          "headZh": "-lyë：单数？复数？",
+          "bodyZh": "《Namárië》里 -lyë 是单数（译作 thou），但 PM:42-43 的附录草稿说精灵语不区分单复数 you，只有「亲昵／客气」之分。凯兰崔尔对弗罗多这样近乎陌生的人用 -lyë，看来是礼貌的「你」。",
+          "en": "It is unclear whether or not this ending -lyë covers both singular and plural \"you\"",
+          "zh": "这个 -lyë 是否兼包单复数「你」，并不清楚。",
+          "exampleZh": "hiruvalyë（thou）"
+        },
+        {
+          "id": "rule-wj364",
+          "headZh": "WJ:364 的 -t／-l",
+          "bodyZh": "《Quendi and Eldar》（《魔戒》后约五年）暗示有区分单复数的词尾：单数 -t、复数 -l；-l 可能是 -lyë 的缩略，那么 -lyë 就该是复数。但托尔金在《Namárië》里无疑用它作单数。",
+          "en": "Tolkien did imply the existence of pronominal endings that make a distinction between singular and plural \"you\" (WJ:364)",
+          "zh": "托尔金确实暗示存在区分单复数「你」的代词词尾（WJ:364）。",
+          "exampleZh": "-t（单）／-l（复）"
+        },
+        {
+          "id": "rule-politeness",
+          "headZh": "礼貌的单数＝把人当多数称呼",
+          "bodyZh": "把一个人当作几个人来称呼，可以是表示尊敬、强调对方重要性的方式；世界语言里有平行现象（如法语 vous、英语 you 的历史）。",
+          "en": "The idea of addressing a single person as if (s)he were several people could be a way of showing respect",
+          "zh": "把一个人当作几个人来称呼，可以是表示尊敬的方式。",
+          "exampleZh": "法语 tu／vous"
+        },
+        {
+          "id": "rule-update-2003",
+          "headZh": "2003 年补记：-llë 是复数",
+          "bodyZh": "据 VT43:36，（某一版）昆雅以 -lyë 为单数「你／thou」，复数「你」用 -llë。于是 -l 可能只是两者共用的缩短形式。唯一剩下的正典「事实」是：-lyë（短 -l）可译作 you 或 thou；要明确复数可用 -llë。",
+          "en": "Quenya has -lyë as the ending for a distinctly singular \"you\" or \"thou\", the ending for plural \"you\" being -llë instead",
+          "zh": "昆雅以 -lyë 为明确的单数「你／thou」词尾，复数「你」的词尾则是 -llë。",
+          "exampleZh": "-lyë（单）／-llë（复）"
+        }
+      ],
+      "examples": [
+        {
+          "en": "hamil",
+          "zh": "你判断",
+          "whyZh": "VT42:33，短词尾 -l 加在动词上；语境不能确定单复数。"
+        },
+        {
+          "en": "hiruvalyë",
+          "zh": "你将找到",
+          "whyZh": "《Namárië》里译作 thou，是单数用法；但按 PM:42-43 也可能是复数。"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "断言 -lyë 只能是单数或只能是复数",
+          "right": "两种用法都有据，细节在托尔金笔下反复变动",
+          "whyZh": "原文：Tolkien probably changed his mind back and forth about the details。"
+        }
+      ],
+      "closeReadingZh": [
+        {
+          "headZh": "作者为什么最后说「绝不会错」",
+          "bodyZh": "因为托尔金自己在单复数之间摇摆，任何一方都无法被证伪。作者的对策是把译文写成中性的 you：既不声称单数、也不声称复数。这是本课程面对「材料不足」时的一贯做法——把可操作的部分（词尾形式）教清楚，把不可判定的部分如实标注。"
+        }
+      ],
+      "recapZh": "-lyë（短 -l）＝礼貌的「你」，单复数不明；2003 年补记提出 -llë 为复数。练习里一律译作中性 you。",
+      "selfCheckZh": [
+        {
+          "qZh": "-lyë 是单数还是复数？",
+          "aZh": "两者都有据：它作礼貌单数（thou），也可能是复数；2003 年补记提出 -llë 专作复数。"
+        },
+        {
+          "qZh": "作者在练习里怎么译 -lyë？",
+          "aZh": "中性的 you。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "pronouns",
+        "unitIds": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "pronouns-first",
+      "sourceSectionId": "pronouns",
+      "titleZh": "28 · 第一人称：-n「我」",
+      "leadZh": "「我」最常由词尾 -n 表示：utúlien「我来了」、maruvan「我将居留」。世界语言里「我」常带鼻音，托尔金也喜欢这个联想。",
+      "objectives": [
+        "能写出 -n 的两个实例",
+        "能说明 -n 加在什么位置"
+      ],
+      "rules": [
+        {
+          "id": "rule-n",
+          "headZh": "-n＝「我」",
+          "bodyZh": "第一人称单数「我」最常由词尾 -n 表示。语言学家注意到世界语言里「我」常含 N 或 M 这类鼻音；托尔金似乎喜欢这个联想，并用进几种语言（比较辛达林语 im）。",
+          "en": "The pronoun \"I\" is most often represented by the ending -n.",
+          "zh": "代词「我」最常由词尾 -n 表示。",
+          "exampleZh": "utúlien；maruvan"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Et Eärello Endorenna utúlien",
+          "zh": "自大海之外，我来到了中洲",
+          "whyZh": "utúlië（tul- 的完成时）+ -n「我」。"
+        },
+        {
+          "en": "Sinomë maruvan",
+          "zh": "在此地我将居留",
+          "whyZh": "maruva（mar- 的将来时）+ -n「我」。"
+        }
+      ],
+      "recapZh": "-n 加在动词后表示主语是「我」：utúlien、maruvan。",
+      "selfCheckZh": [
+        {
+          "qZh": "maruvan 怎么构成？",
+          "aZh": "maruva（mar-「居留」的将来时）+ -n「我」。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "pronouns",
+        "unitIds": [
+          21,
+          22,
+          23
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "pronouns-nye",
+      "sourceSectionId": "pronouns",
+      "titleZh": "29 · -nyë 与双词尾的顺序",
+      "leadZh": "utúvienyes＝utúvie-nyë-s「我已找到它」。规则：主语词尾先加，宾语词尾后加；后面还要接词尾时，必须用长形 -nyë。",
+      "objectives": [
+        "能拆解 utúvienyes",
+        "能说出双词尾的顺序规则",
+        "能说明何时必须用长形 -nyë"
+      ],
+      "rules": [
+        {
+          "id": "rule-nye",
+          "headZh": "-nyë＝「我」的长形",
+          "bodyZh": "「我」还有一个较长的变体 -nyë，与 -lyë／-l 的长短交替平行。utúvienyes 里 -nyë 表示主语「我」。",
+          "en": "the ending -n for \"I\" also occurs as a longer variant, -nyë",
+          "zh": "表示「我」的词尾 -n 也有较长的变体 -nyë。",
+          "exampleZh": "utúvie-nyë = 我已找到"
+        },
+        {
+          "id": "rule-order",
+          "headZh": "双词尾：主语先，宾语后",
+          "bodyZh": "若动词带两个代词词尾，第一个表主语，第二个表宾语：utúvie+nyë「我已找到」+s「它」＝utúvienyes。",
+          "en": "the subject ending is attached first and the object ending next",
+          "zh": "主语词尾先加，宾语词尾随后。",
+          "exampleZh": "utúvie-nyë-s"
+        },
+        {
+          "id": "rule-long-before-ending",
+          "headZh": "后接词尾时必须用长形",
+          "bodyZh": "**utúviens 不是可能的昆雅词，所以后面还要接另一个代词词尾时，「我」必须用长形 -nyë（-nye-）；「你」同理必须用 -lyë（-lye-）：**utúviels 不可能，须作 utúvielyes。",
+          "en": "The long form -nyë (-nye-), NOT short -n, must be used for \"I\" if another pronominal ending is to follow it.",
+          "zh": "若后面还要接另一个代词词尾，「我」必须用长形 -nyë，而非短形 -n。",
+          "exampleZh": "utúvielyes（非 **utúviels）"
+        }
+      ],
+      "examples": [
+        {
+          "en": "utúvienyes",
+          "zh": "我已找到它",
+          "whyZh": "utúvie + -nyë「我」+ -s「它」；整句压缩进一个词。"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "写 **utúviens",
+          "right": "utúvienyes",
+          "whyZh": "原文直接以 **utúviens 标出不可能的形式。"
+        }
+      ],
+      "recapZh": "双词尾：主语 -nyë 在前、宾语 -s 在后；后接词尾时不能用短形 -n。",
+      "selfCheckZh": [
+        {
+          "qZh": "utúvienyes 由哪三部分组成？",
+          "aZh": "utúvie + -nyë「我」+ -s「它」。"
+        },
+        {
+          "qZh": "为什么不能写 **utúviens？",
+          "aZh": "短词尾 -n 后不能再接 -s。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "pronouns",
+        "unitIds": [
+          24,
+          25,
+          26
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "pronouns-long-short",
+      "sourceSectionId": "pronouns",
+      "titleZh": "30 · 长形还是短形：可自由选择",
+      "leadZh": "没有第二个词尾时，-nyë 与 -n 完全可选（linduvanyë／maruvan）。但 -n 常见得多。长短之分在写诗时最有用：可以增减一个音节。",
+      "objectives": [
+        "能说明长短形何时可互换",
+        "能说明 -n 为何更常见",
+        "能解释 -nyë／-lyë 对重音的影响"
+      ],
+      "rules": [
+        {
+          "id": "rule-optional",
+          "headZh": "长短形可自由选择",
+          "bodyZh": "只要后面不接第二个代词词尾，「我」用 -nyë 还是 -n 完全可选：linduvanyë 与 maruvan 可互换为 linduvan、maruvanyë。",
+          "en": "it is apparently wholly optional whether one uses the long ending -nyë or the short ending -n for \"I\"",
+          "zh": "「我」用长词尾 -nyë 还是短词尾 -n 看来完全可选。",
+          "exampleZh": "linduvanyë／linduvan"
+        },
+        {
+          "id": "rule-n-common",
+          "headZh": "-n 更常见",
+          "bodyZh": "短词尾 -n 比 -nyë 常见得多：polin「我能」、tirin「我守望」，以及《词源》里大量第一人称无定时形式（carin、lirin、turin…）。托尔金常按第一人称无定时引用基本动词，此时 -i- 因后接词尾而保留。",
+          "en": "the short ending -n is much more common than the longer suffix -nyë",
+          "zh": "短词尾 -n 比长词尾 -nyë 常见得多。",
+          "exampleZh": "polin；tirin；carin；turin"
+        },
+        {
+          "id": "rule-stress",
+          "headZh": "重音：-nyë／-lyë 前移",
+          "bodyZh": "ny、ly 算辅音丛，故 -nyë、-lyë 使重音落在词尾之前的音节：hiruvanyë 重音在 a。若不合诗律，可改用 hiruvan，让重音落到第一音节的 i。",
+          "en": "the ending -nyë, as well as -lyë for \"you\", cause the accent to fall on the syllable preceding the ending",
+          "zh": "词尾 -nyë 以及表「你」的 -lyë 会使重音落在词尾之前的音节上。",
+          "exampleZh": "hiruvanyë／hiruvan"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "以为 -nyë 比 -n 更「正式」所以更该用",
+          "right": "两者只是长短不同，语体上没有高低",
+          "whyZh": "原文：wholly optional ... could be scrambled to produce linduvan, maruvanyë of exactly the same meaning。"
+        }
+      ],
+      "recapZh": "长短形可互换；-n 更常见；-nyë／-lyë 使重音前移，写诗时正好用来调节音节。",
+      "selfCheckZh": [
+        {
+          "qZh": "hiruvanyë 的重音在哪？",
+          "aZh": "在 a（ny 算辅音丛，重音前移）。"
+        },
+        {
+          "qZh": "为什么诗人喜欢长短两形并存？",
+          "aZh": "可以按格律增减一个音节。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "pronouns",
+        "unitIds": [
+          27,
+          28,
+          29
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "pronouns-s",
+      "sourceSectionId": "pronouns",
+      "titleZh": "31 · -s「它」",
+      "leadZh": "utúvienyes 里的 -s 表示宾语「它」；它也可能作主语（「它能」大概是 polis）。第三人称的细节留到第 15 课。",
+      "objectives": [
+        "能说明 -s 的两种可能功能",
+        "知道第三人称细节留待第 15 课"
+      ],
+      "rules": [
+        {
+          "id": "rule-s",
+          "headZh": "-s＝「它」",
+          "bodyZh": "utúvienyes 里的 -s 作宾语代词「它」。它看来也可作主语：若 polin 是「我能」，「它能」大概是 polis。练习里 -s 只按 utúvienyes 的方式使用：加在另一个代词词尾之后表宾语。",
+          "en": "As for the ending -s meaning \"it\", occurring as an object pronoun in utúvienyes",
+          "zh": "至于表示「它」的词尾 -s（在 utúvienyes 里作宾语代词）……",
+          "exampleZh": "utúvienyes；polis"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "以为 -s 只能作宾语",
+          "right": "它看来也可作主语（polis）",
+          "whyZh": "原文：it seems that it may also be used as a subject。"
+        }
+      ],
+      "recapZh": "-s＝「它」，可作宾语（utúvienyes），也可能作主语（polis）。",
+      "selfCheckZh": [
+        {
+          "qZh": "「它能」大概怎么写？",
+          "aZh": "polis。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "pronouns",
+        "unitIds": [
+          30
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "summary",
+      "kind": "summary",
+      "sourceSectionId": "pronouns",
+      "titleZh": "32 · 本章小结：原文 Summary 与中文对照",
+      "leadZh": "左侧是 less-b.rtf 第 8 课 Summary 原文（未删节），右侧是等价中文翻译。",
+      "objectives": [
+        "能复述完成时的构成（词尾、拉长、增音）",
+        "能复述代词词尾与双词尾顺序"
+      ],
+      "summaryEn": "Summary of Lesson Eight: The Quenya perfect tense is formed by adding the ending -ië to the verbal stem (if the stem ends in a vowel, it is apparently omitted before -ië is added; verbs in -ya seem to lose this entire ending). Unless followed by a consonant cluster, the stem-vowel is lengthened. Normally it is also reduplicated as an augment prefixed to the verb (ric- \"twist\" vs. irícië \"has twisted\", hanya- \"understand\" vs. ahánië \"has understood\"). However, there also appear some unaugmented perfects in the published corpus (notably fírië rather than ifírië for \"has expired\"), so it may be permissible to leave out the augment and still have a valid perfect tense form. It is somewhat unclear how the augment is to be prefixed to verbal stems beginning in a vowel. – Quenya pronouns most typically appear as endings rather than separate words. Among these pronominal endings we have -n or -nyë \"I\", -l or -lyë \"thou, you\" and -s \"it\". Two pronominal endings may be added to the same verb, the first of them denoting the subject of the verb, the second its object.",
+      "summaryZh": "第八课小结：昆雅完成时靠给动词词干加词尾 -ië 构成（若词干以元音结尾，加 -ië 前显然省去该元音；-ya 动词似乎丢掉整个词尾）。除非后面接辅音丛，词干元音要拉长。通常还把它重叠为加在动词前的增音（ric-「扭曲」对 irícië「已扭曲」，hanya-「理解」对 ahánië「已理解」）。不过已出版语料里也出现一些无增音完成时（尤其 fírië 而非 ifírië 表「已断气」），所以省略增音而仍得有效完成时形式也许是允许的。以元音开头的动词词干该如何加增音，有些不清楚。——昆雅代词最典型地以词尾而非独立的词出现。这些代词词尾中有 -n 或 -nyë「我」、-l 或 -lyë「你」、-s「它」。同一个动词可加两个代词词尾，第一个表主语，第二个表宾语。",
+      "formulaZh": [
+        "完成时＝（增音）+ 拉长的词干元音 + -ië。",
+        "增音＝短词干元音：a-、e-、i-、o-、u-。",
+        "辅音丛前不拉长：aharnië、alantië。",
+        "-ya 动词：整个 -ya 脱落（ahánië、ihílië、etélië、utúlië）。",
+        "双元音：增音取第一个元音，且不拉长（aitië 型）。",
+        "代词词尾：-n／-nyë「我」、-l／-lyë「你」、-s「它」；双词尾主语在前、宾语在后。"
+      ],
+      "selfCheckZh": [
+        {
+          "qZh": "完成时的三个要素是什么？",
+          "aZh": "增音 + 拉长的词干元音 + 词尾 -ië。"
+        },
+        {
+          "qZh": "小结用什么例子说明「无增音完成时」？",
+          "aZh": "fírië（而非 ifírië）。"
+        },
+        {
+          "qZh": "两个代词词尾的顺序？",
+          "aZh": "主语词尾先加，宾语词尾后加。"
+        }
+      ]
+    },
+    {
+      "sectionId": "vocabulary",
+      "sourceSectionId": "vocabulary",
+      "titleZh": "33 · 课末词汇：1 个数词 + 3 个虚词 + 8 个动词",
+      "leadZh": "本课词汇以动词为主（tul-、lanta-、nurta-、lerya-、metya-、roita-、laita-），正好用来练完成时。",
+      "objectives": [
+        "能默写 12 个词并标出词性",
+        "能写出 8 个动词的完成时",
+        "能说明 an 与 imbë 的用法"
+      ],
+      "rules": [
+        {
+          "id": "rule-an",
+          "headZh": "an＝「因为」",
+          "bodyZh": "an 引出说明理由的句子，相当于英语 for／since／because。",
+          "en": "an \"for\" (or \"since, because\", introducing a sentence giving a reason",
+          "zh": "an「因为」（或「既然、由于」，引出说明理由的句子）。",
+          "exampleZh": "…, an i aran elérië ilyë móli."
+        }
+      ],
+      "table": {
+        "captionZh": "12 词与完成时推演",
+        "headers": [
+          "课末词",
+          "词性 / 释义",
+          "完成时",
+          "说明"
+        ],
+        "rows": [
+          [
+            "otso",
+            "数词「七」",
+            "—",
+            "不变复数"
+          ],
+          [
+            "seldo",
+            "名词「男孩」",
+            "—",
+            "复数 seldor"
+          ],
+          [
+            "mól",
+            "名词「奴隶」",
+            "—",
+            "复数 móli"
+          ],
+          [
+            "an",
+            "连词「因为」",
+            "—",
+            "引出理由句"
+          ],
+          [
+            "tul-",
+            "动词「来」",
+            "utúlië",
+            "keys I 题"
+          ],
+          [
+            "lanta-",
+            "动词「落」",
+            "alantië",
+            "keys O 题（alantiel）"
+          ],
+          [
+            "nurta-",
+            "动词「藏」",
+            "unurtië",
+            "keys M 题"
+          ],
+          [
+            "lerya-",
+            "动词「释放」",
+            "elérië",
+            "keys N 题"
+          ],
+          [
+            "metya-",
+            "动词「结束」",
+            "emétië",
+            "keys P 题"
+          ],
+          [
+            "roita-",
+            "动词「追赶」",
+            "oroitië",
+            "keys L 题"
+          ],
+          [
+            "laita-",
+            "动词「赞美」",
+            "alaitië",
+            "keys N 题"
+          ],
+          [
+            "imbë",
+            "介词「在……之间」",
+            "—",
+            "keys K 题"
+          ]
+        ]
+      },
+      "pitfalls": [
+        {
+          "wrong": "把 lerya- 的完成时写成 eleryië",
+          "right": "elérië（-ya 整个脱落）",
+          "whyZh": "-ya 动词完成时里整个 -ya 脱落，剩下 ler- 按基本动词处理。"
+        }
+      ],
+      "recapZh": "8 个动词的完成时：utúlië、alantië、unurtië、elérië、emétië、oroitië、alaitië、ihírië。",
+      "selfCheckZh": [
+        {
+          "qZh": "nurta- 的完成时？",
+          "aZh": "unurtië。"
+        },
+        {
+          "qZh": "roita- 的完成时？",
+          "aZh": "oroitië（双元音 oi，增音取 o）。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "vocabulary",
+        "unitIds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "labelZh": "词汇"
+      }
+    },
+    {
+      "sectionId": "exercises",
+      "sourceSectionId": "exercises",
+      "titleZh": "34 · 练习工作台：A–P 与 keys 核对",
+      "leadZh": "A–H 昆雅译英，I–P 英译昆雅。本课只考完成时与代词词尾；F、G、H 三题带 -lyë 或 -nyë／-s。",
+      "objectives": [
+        "独立完成 A–P，不先展开答案",
+        "能说出每题完成时的增音与是否拉长",
+        "核对后能把错题回链到对应规则卡"
+      ],
+      "workflowZh": [
+        "第一遍：遮住答案，先找动词并定出词干元音",
+        "加增音（短词干元音），拉长词干元音，再加 -ië",
+        "检查是否有辅音丛（不拉长）或 -ya（整个脱落）",
+        "再看有没有代词词尾：-lyë「你」、-n／-nyë「我」、-s「它」",
+        "点「核对」比对 keys 原文答案",
+        "错题按「回到本课规则」跳回规则卡",
+        "最后展开 keys 全文与 EXERCISES 原文复核"
+      ],
+      "teachingNoteZh": "keys 对第 2 部分给出两个可替换形式：N 题「Alaitien [or, alaitienyë]」、O 题「Alantiel [or, alantielyë]」——长短代词词尾可自由选择。P 题 emétienyes 则是「完成时 + -nyë + -s」的三段式，与本课 utúvienyes 同构。",
+      "bilingual": {
+        "sectionId": "exercises",
+        "unitIds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "labelZh": "练习"
+      }
+    }
+  ]
+}

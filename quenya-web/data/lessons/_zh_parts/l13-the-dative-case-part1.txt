@@ -1,0 +1,39 @@
+与格
+
+第五课引入语法宾语——动词主语所行动作之「目标」：I Elda máta massa「精灵在吃面包」，i Nauco hirnë harma「矮人找到了宝藏」。
+
+本课迄今所涉皆为直接宾语：直接被动词行为影响。古代昆雅有直接宾语专用格——宾格——第三纪昆雅已无独立形式。但还有间接宾语，昆雅语法亦给予专门形式。标间接宾语的与格在第三纪仍健在。先谈与格构造前，细看间接宾语。
+
+间接宾语逻辑上为句中动词行为间接影响的对象，常是行为受益方（亦可为受损方）。典型例为动词「给」，必涉三方：给与之主语、所给之物（直接宾语）、受赠者（间接宾语、受益方）：
+
+那人〔主语〕给了男孩〔间接宾语〕一本书〔直接宾语〕。
+
+现代英语（不同于德语等）无独立与格，上例中「男孩」无额外词尾标间接宾语；英语常靠词序，间接宾语塞在直接宾语前，如上「男孩」在「书」前。同英语常以含 of 短语代属格，无与格时常用介词 circumlocution：表与格功能最常见介词为 to、for。可说「那人把一本书给了男孩」；for 例：「我们为孩子们做了这事」「人们为女王工作」。
+
+昆雅中这些例子的「男孩」「孩子们」「女王」皆为间接宾语，相应名词变与格，无需固定词序或 to/for。参 Namárië 中问句，代词 ni「我」出现于与格：
+
+Sí man i yulma nin enquantuva?「如今谁将为我重斟此杯？」
+
+此处译作 for 者非独立词，乃 nin 末 -n——昆雅与格尾。nin =「我-与」= 英语 for me。亦可译 to me，或在英语靠词序表间接宾语时 simply me。动词「给」anta-，「你将给我一本书」大概 antuvalyë nin parma。nin 亦见于 Fíriel 之歌末行（LR:72），托尔金译「父亲将……给我什么？」亦可「……给我」。
+
+Plotz 信证实 -n 不仅用于代词，亦可加于普通名词（ciryan 为 cirya「船」的与格，lassen 为 lassë「叶」）。可造句 carnelyes i Naucon「你为矮人做了这事」、i nér antuva i parma Eldan「那人将把书给精灵」。英语后者亦可「那人将给精灵一本书」，词序示 Elf 为间接宾语。昆雅词序自由（高度屈折之长！），格尾示间接宾语在句中何处皆然。可把间接宾语前置以强调：Eldan i nér antuva i parma ≈「是给精灵〔非矮人等〕那人将把书给出」。直接、间接宾语谁先谁后不甚要紧；i nér antuva i parma Eldan =「那人将把书给精灵」，i nér antuva Eldan i parma =「那人将给精灵书」。
+
+复数与格尾 -in。名义复数 -i 者事实上再加 -n；Plotz 有 lassin 为 lassi「叶」的与格。laman（lamn-）「动物」复数与格 lamnin =「给/为动物」。但 -in 亦加于平时复数 -r 者，复数标记 -r 不出现在与格。Fíriel 之歌首行（「父为精灵造了世界」）示 Elda 复数与格 Eldain。-in 与名词末元音 merge 成双元音 ai。Fíriel 之歌亦有「凡人」复数与格 Fírimoin（nom. Fírimor，LR:245；托尔金后以 Silmarillion 章12 之 Fírimar，与格则 Fírimain）。
+
+上课言复数领属 -iva 加于 -i 尾或词干 -i 之名（tári、lómë）时不甚清楚。与格复数遇同问题。单数「给/为女王」大概 tárin；对 tári 加 -in 或仍 tárin（末 -i 与 -in 首 i 合并）。两元音或并成长 i 得 tárín「给/为诸女王」，但昆雅极少末非重读音节之长元音（虽有 palantír）。或 tárin 兼单复，靠语境。
+
+双数与格尾 Plotz 作 -nt；cirya 双数与格 ciryant =「给/为一对船」。-nt 合与格 -n 与双数 -t。第一课已言 -nt 似 LotR 式昆雅唯一词末辅音丛允许例。——或仅名义双数 -t 者有 -nt 双数与格；双数 -u 者或仅用简单 -n。再以 Aldu「两树」：与格或非 Aldunt 而 Aldun（或 Ar-Veruen 相关或 Alduen）。两面皆缺例。
+
+有些句含间接宾语（昆雅与格宾语）而无直接宾语。昆雅「人们为国王工作」中英语 for 以 -n 加于 aran（大概 aranen，助音 -e- 插入）。至少一例仅有与格宾语无直接宾语：托尔金主祷文译本以「我们」的与格译「……得罪我们的人」（冒犯可无损友，与格表 adversely affected；语境定 against us 或 for us，「为我们犯罪」在此无义）。「冒犯/犯罪」不可有直接宾语，但某方可间接受影响，故昆雅以与格宾语呈现。
+
+与格亦可出现于无语法主语之句——近代英语几乎不见。可比「在我看来……」类：形式主语 it 实为虚词。口语可省 it：「seems to me that…」。此类可比昆雅 orë nin caritas，字面「〔无〕驱我去做」，英语约「我想〔愿〕去做」（VT41:13）。句 orë nin caritas 无主语，有与格宾语 nin。or-/ora-「驱、促」属无人称动词，后课再论。
+
+与格甚至可无动词之短语中出现。托尔金《荣耀归于父》部分：Alcar i ataren ar i yondon ar i airefëan =「荣耀归于父与子与圣灵」（VT43:36）。注意 -n 加于 atar、yondo、airefëa；（ataren 中插入 -e-，因 **atarn 不可能）。
+
+-n 的更早用途：托尔金昆雅漫长演化中 -n 不总为与格尾。自 LotR 视角，《词源学》（三十年代中）「错」在把 -n 作属格尾，如 LEP 工作日 Ar Manwen、Ar Ulmon（ar(ë)「日」，后 aurë/ré）。1940 年代 SD:303 Quenta Eldalien「精灵史」。Namárië 草稿 Vardan 为属格「瓦尔达的」，后划掉改 Vardo。似乎定格 -n 改属格、-o 变与格之交点，但 -o 属格更早即有（三十年代诗 ciryo/kiryo「船的」）。Fíriel 之歌前 LotR 期「Qenya」已用 -n（pl. -in）为与格，如上例。后 -n 一度再作属格（Namárië 草稿暗示），终局反映于 LotR 及 Plotz：-o 属格、-n 与格。
+
+《词源学》 obsolete 属格仍有趣。AY 中 ailin「池、湖」「g.sg.」ailinen：按后期修订应读与格「为湖」非属格「湖的」。示 -n 加于辅音尾 like ailin 时：因 **ailinn 不可能，插入 e 得 ailinen。-n 义改后，插助元音原则仍有效。〔2002 末更新：ataren 为 atar 属格，VT43:36——确为 LotR 后与格 -n 仍用连接元音。〕
+
+名词有特殊词干——加尾时末辅音变——变化亦在额外 -e- 前：Etym LIN2 Laurelin（Laurelind-）「g.sg.」Laurelinden，LotR 式为与格，形式本身或仍有效。lis（liss-）「蜜」lissen 同（LIS）。nís（niss-）大概 nissen。
+
+《词源学》一「属格」或照亮 -u 双数之后与格形：BES/LEP  Valinorean  weekday Arveruen / Ar-Veruen「配偶日」。veruen 为双数 veru「配偶」之「属格」。仍用助元音 -e-（令人惊讶，或以为 **verun 可接受）。若 veruen 在 -n 重定义为与格后仍为有效 LotR 式与格，则 -u 双数与格可为 -uen，Aldu 与格非 Aldunt/Aldun 而 Alduen。然立足不牢，本课不基于此类假设设练。

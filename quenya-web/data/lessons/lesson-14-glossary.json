@@ -1,0 +1,78 @@
+{
+ "lesson": 14,
+ "introZh": "本课 12 个词服务于两条主线：方位（ambo、mindon、Númen、haira、et）与动词（equë、auta-、menta-、ruc-）。ruc- 的宾语用离格，auta- 有两套过去时，这两个最值得单独记。",
+ "entries": [
+  {
+   "word": "minya",
+   "posZh": "序数词",
+   "glossZh": "第一",
+   "noteZh": "minë「一」＋ -ya。第一宗族本名 Minyar，字面「Firsts」。练习 F「I minya cirya」。"
+  },
+  {
+   "word": "equë",
+   "posZh": "无时态动词",
+   "glossZh": "说（引出引语）",
+   "noteZh": "不加 -r，极少接词尾。练习 H「Equë Nessimë Calandilenna」、I「Equë Calandil Nessimenna」、N「equë Calandil ar Nessimë」。"
+  },
+  {
+   "word": "auta-",
+   "posZh": "动词",
+   "glossZh": "离开、逝去",
+   "noteZh": "物理离开用 oantë／oantië（E 题 oantë），消失逝去用 vánë／avánië（B 题 avánier）。"
+  },
+  {
+   "word": "menta-",
+   "posZh": "动词",
+   "glossZh": "派、送",
+   "noteZh": "练习 D「mentien harmalvar」（目的与格 gerund）、N「Mentuvalmë」。"
+  },
+  {
+   "word": "ruc-",
+   "posZh": "动词",
+   "glossZh": "怕、感到恐惧",
+   "noteZh": "宾语用离格：G 题「rucë i rávillon」、O 题「Rucin(yë) altë rasselyalto」。"
+  },
+  {
+   "word": "ambo",
+   "posZh": "名词",
+   "glossZh": "丘、山",
+   "noteZh": "词干 amb-。I 题「i ambonna」、M 题「i ambollon」。"
+  },
+  {
+   "word": "mindon",
+   "posZh": "名词",
+   "glossZh": "（大）塔",
+   "noteZh": "A 题「i mindonello」、K 题「i mindonna」。"
+  },
+  {
+   "word": "Númen",
+   "posZh": "名词（专名）",
+   "glossZh": "西",
+   "noteZh": "作专名不加冠词。F 题「Númello」、L 题「Númenna」、M 题「anhaira Númello」。"
+  },
+  {
+   "word": "sambë",
+   "posZh": "名词",
+   "glossZh": "房间、室",
+   "noteZh": "H 题「sambenyallo」、M 题双数向格 sambenta、P 题「sambelvanna」。"
+  },
+  {
+   "word": "yondo",
+   "posZh": "名词",
+   "glossZh": "儿子",
+   "noteZh": "H 题「Yondonya」、K 题「yondonyar」、M 题「yondolyan」。"
+  },
+  {
+   "word": "haira",
+   "posZh": "形容词",
+   "glossZh": "远的、遥远的",
+   "noteZh": "D 题「haira nórenna」、M 题最高级 anhaira。"
+  },
+  {
+   "word": "et",
+   "posZh": "副词／介词",
+   "glossZh": "出",
+   "noteZh": "后接离格表「out of」。I 题「et i coallo」、M 题「(et) anhaira Númello」。"
+  }
+ ]
+}

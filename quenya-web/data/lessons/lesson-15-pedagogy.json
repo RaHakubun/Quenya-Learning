@@ -1,0 +1,248 @@
+{
+ "lesson": 15,
+ "schemaVersion": 2,
+ "titleZh": "-rya 与位格、关系句",
+ "titleEn": "The ending -rya and more about possessive pronominal endings. The Locative case. Relative sentences. Third Person obscurities.",
+ "summaryZh": "本课四块。①所有格代词词尾 -rya 兼表 his／her／its，昆雅不区分「他的」「她的」；-rya 后仍可加数、格词尾（samberya、samberyo、samberyava），双数性由 -t 表示（máryat、péryat、aldaryat），连本来用 -u 的名词也如此。长元音词干在辅音丛前缩短（mannar 而非 mánnar），却在 ry、ly、ny、ty 前不缩短（márya、mánya、málya），而 -lva／-lma 前又缩短（malva、malma）；作者承认这是矛盾，只能按可证形式记。-ta 扩展不定式本可接表宾语的代词词尾（caritas），也可接表主语的所有格词尾（caritalya(s)），已接近 gerund。②位格 -ssë（coassë、coanyassë、lúmessë），复数 -ssen（ciryassen），双数 -tsë（sambetsë）；接辅音结尾名词时，-l、-n 后作 -dë（meneldë、cemendë），-s、-t 后也许作 -së；也可丢末辅音或插 -e-（elenessë）；-r 结尾直接加 -ssë（Ambassë）。重音随格词尾前移。③关系句用 ya「which, that」，可变格变数（yassë／yassen、yanna／yannar、yallo、yan／yain、yo／yaron、yava）；冠词 i 也可作关系代词，但不能接词尾（i Eru i or ilyë mahalmar ëa tennoio）；i 置于动词前＝「那……的人」（i carir quettar）。关系代词在宾格位置常可省，但作者倾向保留。④第三人称单数：早期材料有 -ro「他」、-rë「她」，LotR 之后只有 -s 一例，兼指 he／she／it、主宾皆可；-ryë 是有人从 -rya 外推的较长形式，未证，练习只用 -s。",
+ "mindmap": {
+  "rootZh": "第 15 课：-rya 与位格、关系句",
+  "branches": [
+   {
+    "labelZh": "-rya 总说",
+    "sectionId": "ry-intro"
+   },
+   {
+    "labelZh": "máryat",
+    "sectionId": "ry-forms"
+   },
+   {
+    "labelZh": "coarya",
+    "sectionId": "ry-his"
+   },
+   {
+    "labelZh": "双数 -t",
+    "sectionId": "dual-t"
+   },
+   {
+    "labelZh": "-u 名词",
+    "sectionId": "dual-u"
+   },
+   {
+    "labelZh": "重音证据",
+    "sectionId": "ry-cluster"
+   },
+   {
+    "labelZh": "长元音缩短",
+    "sectionId": "ry-long"
+   },
+   {
+    "labelZh": "矛盾",
+    "sectionId": "ry-explain"
+   },
+   {
+    "labelZh": "五个词",
+    "sectionId": "ry-words"
+   },
+   {
+    "labelZh": "分音节",
+    "sectionId": "ry-split"
+   },
+   {
+    "labelZh": "读音之争",
+    "sectionId": "ry-pronounce"
+   },
+   {
+    "labelZh": "-ta 不定式",
+    "sectionId": "inf-ta"
+   },
+   {
+    "labelZh": "接近 gerund",
+    "sectionId": "inf-ger"
+   },
+   {
+    "labelZh": "mi 与 mí",
+    "sectionId": "loc-intro"
+   },
+   {
+    "labelZh": "-ssë",
+    "sectionId": "loc-sse"
+   },
+   {
+    "labelZh": "抽象词尾",
+    "sectionId": "loc-note1"
+   },
+   {
+    "labelZh": "两格重叠",
+    "sectionId": "loc-note2"
+   },
+   {
+    "labelZh": "复数 -ssen",
+    "sectionId": "loc-plural"
+   },
+   {
+    "labelZh": "双数 -tsë",
+    "sectionId": "loc-dual"
+   },
+   {
+    "labelZh": "辅音结尾",
+    "sectionId": "loc-cons"
+   },
+   {
+    "labelZh": "-dë 之争",
+    "sectionId": "loc-new"
+   },
+   {
+    "labelZh": "menelessë",
+    "sectionId": "loc-simple"
+   },
+   {
+    "labelZh": "-u 双数位格",
+    "sectionId": "loc-dual-u"
+   },
+   {
+    "labelZh": "代词位格",
+    "sectionId": "loc-pron"
+   },
+   {
+    "labelZh": "ya 总说",
+    "sectionId": "rel-intro"
+   },
+   {
+    "labelZh": "合并两句",
+    "sectionId": "rel-example"
+   },
+   {
+    "labelZh": "两个 i",
+    "sectionId": "rel-i"
+   },
+   {
+    "labelZh": "VT42 反例",
+    "sectionId": "rel-vt42"
+   },
+   {
+    "labelZh": "主宾说",
+    "sectionId": "rel-subjobj"
+   },
+   {
+    "labelZh": "i 不可变格",
+    "sectionId": "rel-decl"
+   },
+   {
+    "labelZh": "yar",
+    "sectionId": "rel-yar"
+   },
+   {
+    "labelZh": "与格 yan",
+    "sectionId": "rel-dat"
+   },
+   {
+    "labelZh": "属格 yo",
+    "sectionId": "rel-gen"
+   },
+   {
+    "labelZh": "所有格 yava",
+    "sectionId": "rel-poss"
+   },
+   {
+    "labelZh": "向格 yanna",
+    "sectionId": "rel-all"
+   },
+   {
+    "labelZh": "离格 yallo",
+    "sectionId": "rel-abl"
+   },
+   {
+    "labelZh": "位格 yassë",
+    "sectionId": "rel-loc"
+   },
+   {
+    "labelZh": "主格",
+    "sectionId": "rel-nom"
+   },
+   {
+    "labelZh": "双数一套",
+    "sectionId": "rel-dual"
+   },
+   {
+    "labelZh": "可省",
+    "sectionId": "rel-omit"
+   },
+   {
+    "labelZh": "冠词可省",
+    "sectionId": "rel-article"
+   },
+   {
+    "labelZh": "i ＋动词",
+    "sectionId": "rel-free"
+   },
+   {
+    "labelZh": "例句",
+    "sectionId": "rel-free-ex"
+   },
+   {
+    "labelZh": "旧版设想",
+    "sectionId": "rel-old"
+   },
+   {
+    "labelZh": "教学约定",
+    "sectionId": "rel-muddy"
+   },
+   {
+    "labelZh": "语序",
+    "sectionId": "rel-order"
+   },
+   {
+    "labelZh": "Namárië",
+    "sectionId": "rel-namarie"
+   },
+   {
+    "labelZh": "第三人称",
+    "sectionId": "tp-intro"
+   },
+   {
+    "labelZh": "-ro",
+    "sectionId": "tp-ro"
+   },
+   {
+    "labelZh": "-ro 读音",
+    "sectionId": "tp-ro2"
+   },
+   {
+    "labelZh": "词尾来历",
+    "sectionId": "tp-origin"
+   },
+   {
+    "labelZh": "eques",
+    "sectionId": "tp-post"
+   },
+   {
+    "labelZh": "tulis",
+    "sectionId": "tp-tulis"
+   },
+   {
+    "labelZh": "-ryë",
+    "sectionId": "tp-rye"
+   },
+   {
+    "labelZh": "只用 -s",
+    "sectionId": "tp-practice"
+   },
+   {
+    "labelZh": "小结",
+    "sectionId": "summary"
+   },
+   {
+    "labelZh": "练习 A–P",
+    "sectionId": "exercises"
+   },
+   {
+    "labelZh": "出处",
+    "sectionId": "ex-url"
+   },
+   {
+    "labelZh": "词汇",
+    "sectionId": "vocabulary"
+   }
+  ]
+ }
+}

@@ -1,0 +1,176 @@
+{
+ "lesson": 12,
+ "schemaVersion": 2,
+ "titleZh": "所有格与动名词",
+ "titleEn": "The Possessive Case and Verbal Nouns",
+ "summaryZh": "所有格（或形容词格）由 -va 构成（辅音后 -wa：atarwa；复数 -iva：Eldaiva；双数 -uva／-twa：Alduva、ciryatwa）。加 -va 时，三音节以上、末两音节为短元音的名词要拉长末元音以保重音（Oromë → Oroméva），Eruva 是两音节例外；倒数第二音节含 ui 也拉长（huinë → huinéva、muilë → muiléva、cuilë → cuiléva），但 lassë 作 lasseva；属格 -o 不拉长（Oromëo）。所有格表当前拥有（coa i Eldava、Mindon Eldaliéva）、永久属性（alcar Oroméva）、某地特征（Taurë Huinéva、nórë morniéva）、材料（rië telpeva、ramba muiléva）；与属格的差别是时间与视角：róma Oroméva 是仍在他手中的号角，róma Oromëo 是来自他的号角（WJ:368-369）。所有格通常后置，唯一前置例是 Eruva lissë（VT44:12）；被支配名词已限定，i 可省；拿不准属格还是所有格时选属格（托尔金晚期有偏爱属格的趋势，lambë Quendion 即例）。动名词由 -më（melmë、carmë）、-ië（tyalië、nainië）、-lë（laitalë、hostalë、nurtalë）、拉长 + -ë（sérë、sírë）或裸 A 词干（vanta、lanta）构成；动名词的主语用属格 -o（Altariello nainië、Oiencarmë Eruo），宾语用所有格 -va（Nurtalë Valinóreva），两者可并用且 -o 在前（Eruo melmë Ataniva 对 Atanion melmë Eruva）。",
+ "mindmap": {
+  "rootZh": "第 12 课：所有格与动名词",
+  "branches": [
+   {
+    "labelZh": "命名",
+    "sectionId": "poss-name"
+   },
+   {
+    "labelZh": "功能",
+    "sectionId": "poss-what"
+   },
+   {
+    "labelZh": "-va／-wa",
+    "sectionId": "poss-form"
+   },
+   {
+    "labelZh": "双数",
+    "sectionId": "poss-dual"
+   },
+   {
+    "labelZh": "-iva",
+    "sectionId": "poss-plural"
+   },
+   {
+    "labelZh": "双元音",
+    "sectionId": "poss-diphthong"
+   },
+   {
+    "labelZh": "-i 词干",
+    "sectionId": "poss-i-stem"
+   },
+   {
+    "labelZh": "简单拥有",
+    "sectionId": "poss-ownership"
+   },
+   {
+    "labelZh": "托尔金原话",
+    "sectionId": "poss-quote"
+   },
+   {
+    "labelZh": "Mindon",
+    "sectionId": "poss-mindon"
+   },
+   {
+    "labelZh": "前置孤例",
+    "sectionId": "poss-precede"
+   },
+   {
+    "labelZh": "冠词",
+    "sectionId": "poss-article"
+   },
+   {
+    "labelZh": "永久属性",
+    "sectionId": "poss-attribute"
+   },
+   {
+    "labelZh": "材料",
+    "sectionId": "poss-material"
+   },
+   {
+    "labelZh": "描述",
+    "sectionId": "poss-descriptive"
+   },
+   {
+    "labelZh": "抽象",
+    "sectionId": "poss-abstract"
+   },
+   {
+    "labelZh": "拿不准",
+    "sectionId": "poss-doubt"
+   },
+   {
+    "labelZh": "矛盾",
+    "sectionId": "poss-contradiction"
+   },
+   {
+    "labelZh": "过渡",
+    "sectionId": "poss-more"
+   },
+   {
+    "labelZh": "拉长",
+    "sectionId": "note1"
+   },
+   {
+    "labelZh": "Eruva",
+    "sectionId": "note1-eru"
+   },
+   {
+    "labelZh": "huinéva",
+    "sectionId": "note1-huine"
+   },
+   {
+    "labelZh": "-o 不拉长",
+    "sectionId": "note1-gen"
+   },
+   {
+    "labelZh": "特殊词干",
+    "sectionId": "note2"
+   },
+   {
+    "labelZh": "随数 -vë",
+    "sectionId": "note3"
+   },
+   {
+    "labelZh": "Namárië 矛盾",
+    "sectionId": "note3-namarie"
+   },
+   {
+    "labelZh": "动名词",
+    "sectionId": "vn-intro"
+   },
+   {
+    "labelZh": "-ing",
+    "sectionId": "vn-english"
+   },
+   {
+    "labelZh": "-më",
+    "sectionId": "vn-me"
+   },
+   {
+    "labelZh": "-ië",
+    "sectionId": "vn-ie"
+   },
+   {
+    "labelZh": "拉长 + -ë",
+    "sectionId": "vn-e"
+   },
+   {
+    "labelZh": "裸 A 词干",
+    "sectionId": "vn-a"
+   },
+   {
+    "labelZh": "-lë",
+    "sectionId": "vn-le"
+   },
+   {
+    "labelZh": "主语属格",
+    "sectionId": "vn-subject"
+   },
+   {
+    "labelZh": "标题错误",
+    "sectionId": "vn-subject2"
+   },
+   {
+    "labelZh": "宾语属格",
+    "sectionId": "vn-object"
+   },
+   {
+    "labelZh": "Nurtalë",
+    "sectionId": "vn-nurtale"
+   },
+   {
+    "labelZh": "主宾并用",
+    "sectionId": "vn-combine"
+   },
+   {
+    "labelZh": "原文小结",
+    "sectionId": "summary"
+   },
+   {
+    "labelZh": "课末词汇",
+    "sectionId": "vocabulary"
+   },
+   {
+    "labelZh": "练习 A–P",
+    "sectionId": "exercises"
+   }
+  ]
+ }
+}

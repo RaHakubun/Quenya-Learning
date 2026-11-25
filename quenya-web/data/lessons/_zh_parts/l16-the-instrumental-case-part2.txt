@@ -1,0 +1,17 @@
+非重读元音 + -ta 动词
+
+课程例 car-+形容词或错植英语习语；无常帆风顺 Tolkien 例 adjective+car-。昆雅有表 causative 的 -ta 动词；地道或许用它们。
+
+-causative 以一词表「使对象具有形容词性质」。-ta 在动词中常见（pusta-），偶作使役：tul- / tulta- summon。
+
+自形容词加 -ta 得使役动词，例少：airë > airita- hallow。-ë > -i- in stem：airita-。
+
+所见唯一时态 airitánë past（Bodleian c.1966 手稿，VT32:7 脚注；将刊 VT——至今待）。含 -në；加 past 时 -ta > -tá- 吸重音，避 **airitanë 重 rit。**Airitanë 别扭。再缀尾使重音移开时或不必加长：?airitanelvë 重 -ne-，-ta 无重。
+
+规则（until further ending shifts stress）：此类动词（-ta 前为非重读元音）past 无附加 stress-shifting 后缀时 -ta > -tá- + -në：airitánë。Airitáner、airitánes、airitánen 须保 -tá-；airitanenyë 用 -nyë 或可不加 long on tá。
+
+Etym NIK-W- ninquitá- whiten from ninquë，ninquitánë；ninquita shine white 或另一 verb。
+
+分词证据分散：Aragorn Envinyatar「Renewer」<- envinyata- renew；MR:405 Arda Envinyanta「Arda Healed/Renewed」对 Hastaina「Marred」——同书对照。envinyanta 对「普通」-ta 分词 -taina：同一昆雅阶段内 -ta 使役用鼻音插入 envinyanta/airinta/ninquinta；past ninquitánë、envinyatánë。主动分词 -la 或 airitála、envinyatátala。
+
+可自形容词造 -ta 动词吗？hiritaryas carnë lierya alya 或 better hiritaryas alyatánë lierya（alyata- enrich，part. alyanta）。写作者「仅 Tolkien 词」vs「按原则派生」无 easy answer。

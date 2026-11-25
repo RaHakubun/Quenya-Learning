@@ -1,0 +1,32 @@
+动名词
+
+名词与动词通常为不同词类；上一课的动词性名词确为名词。动词有一形动名词，几近打破名/动二分：动名词是「扮作名词的动词」。
+
+奇理誓有 enyalien，字面「为追忆」=「以志铭记」。前缀 en-「再-」，末 -n 为上节与格，对应英语 for。剥去后剩 yalië，托尔金 UT:317 云其为动词 yal-「召、唤」的「不定式（或动名词式）」。-ië 为造不定式/动名词之用尾。
+
+本课早期讨论另一种不定式：动词词干（主要动词加 -ë），如 polin quetë「我能说」（VT41:6）。托尔金 UT:317 称 -ië 为不定式尾，polin quetië 或亦可。Nancy Martsch《Basic Quenya》全书以 -ië 为不定式尾；或无大错，托尔金想象古精灵语不定式 -ie（Etym NAR2 trenarie「复述」称 inf.）。然许多 -ië 形式最好还是称作动名词而非不定式。
+
+英语动名词 -ing，如 finding vs find。「finding the treasure was wonderful」中 finding 作名词为句子主语，但仍带宾语「the treasure」，故为动名词非抽象名词（后者须 of 结构：「the finding of the treasure」）。上一课宾语属格 Nurtalë Valinóreva 可参。
+
+托尔金指出奇理誓 -ië 形式「支配直接宾语」（UT:317）。NOTE：昆雅与英语一样动名词与抽象名词并非总可分清；-ië 亦可造抽象，如 tyalië（动词 tyal-）; mornië「黑暗」。例证稀少，但英昆雅动名词常作主语，如：
+
+Hirië harma caruva nér alya「找到宝藏将使人致富」
+Tirië i aiwi anta i vendin alta alassë「看鸟给少女们〔vendin 与格〕大乐」
+
+动名词可带宾语，亦可独自作主语：Matië ná i analta alassë ilyë tiucë Naucoron「吃是全胖矮人最大之乐」。
+
+大概亦可作宾语，如英语「I love fishing」：melin tirië i aiwi（「watching」为 melin 之宾语，「the birds」为 tirië 之宾语）。或 melin tirë i aiwi 用不定式「love to watch」。两可。
+
+术语或许比托尔金自用更严：tirë 作不定式，tirië 仅称动名词——然 UT:317 托尔金称 -ië 形式兼「不定式」与「动名词」。Etym 中一 -ie 明示不定式。polin quetë 示 -ië 非普适不定式尾。polin quetië 可否？「I want finding」式 merin hirië harma 可否？此类 safer 用词干不定式 hirë。
+
+主语动作时英昆雅一定程度上不定式/动名词可互换。「To err / Erring is human」。昆雅作主语 safer 用 -ië 动名词，然无实例难断托尔金好恶。
+
+有一重要用法万幸存于 corpus：英语表目的的 to 不定式，昆雅常以带与格的动名词译。奇理誓 Vanda sina termaruva Elenna·nórëo alcar enyalien；UT:305 译「此誓将立于星之地的荣光之记忆中」，更字面「此誓将为追忆〔那〕Elenna 国之荣耀而立」。UT:317 论 enyalien：yal-「召」，不定/动名词 en-yalië，此处与格「为重召、为纪念」，且支配直接宾语 alcar：「追忆/纪念荣耀」。
+
+动名词可接名词格：enyalië + 与格 -n 得 enyalien。句 termaruva 之间接宾语利益方为 enyalië；enyalien 以 Elenna·nórëo alcar 为宾语。英语不说 stand for recalling...，而 stand to recall...；但仍示英 purpose infinitive → 昆雅与格动名词。「来看王」= utúlientë cenien i aran「来为看王而来」。规则：英中可于不定式前加 in order 而不毁义者，表目的，译昆雅与格动名词。
+
+A 词干动词加 -ië：无直接明示，间接证据的结论一致：末 -a 脱落。-ië 前加于 A 词干时 -a 落。Etym ORO orta- 与 ortie（古）; 昆雅 gerund ortië「升起」。ora- VT41:13 orië 或为动名词。naina- > nainië 同理。
+
+ -ië 作一般抽象尾如 -ness：自形容词加时 -a 脱落，mornië 自 morna，látië 自 láta。-ië 与动名词 -ië 同源，区别常模糊。自 A 词干得 ortië、nutië；句 ortië Pelóri nurtien Valinor úmë mára noa「升起佩洛理以藏维林诺不是好主意」（MR:401,405 托尔金批评）。
+
+-ya 动词如 harya-：整个 -ya 在 -ië 前脱落，否则 **haryië（yi 不可能）。verya > verië；harya- 动名词大概 harië。

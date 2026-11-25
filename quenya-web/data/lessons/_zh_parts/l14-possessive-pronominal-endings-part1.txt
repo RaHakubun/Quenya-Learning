@@ -1,0 +1,48 @@
+领属代词尾
+
+我们已讨论多种可缀于动词、作主语代词的首人称等词尾：-nyë（常缩 -n）「我」、-lyë「你」、-ntë「他们」、-lvë 与 -lmë「我们」（包括式与排除式——尚有 -mmë、-ngwë，其在托尔金晚期情景中用途不甚明朗）。亦已说明：昆雅代词多以词尾出现，不像英语那样常用独立词。
+
+代词亦可表占有、所属。英语有 my/mine、your(s)、our(s)、their(s)，昆雅亦有相应尾，但逻辑上加在名词上而非动词。例：「我的」为 -nya，coanya「我的房子」，nórenya「我的土地」。重音落在代词尾前一音节：co-A-nya、nó-RE-nya。诸领属尾皆以辅音丛起首，按常则，倒数第二音节元音后为辅音丛时重音在其上。
+
+注意已介绍的主语尾均以 -ë 结尾：-nyë「我」、-lyë「你」等。对应领属尾可将末元音改为 -a：
+
+-nyë「我」/ -nya「我的」
+-lyë「你」/ -lya「你的」
+-lvë 包括式「我们」/ -lva「我们的」〔包括式〕
+-lmë 排除式「我们」/ -lma「我们的」〔排除式〕
+
+故有 coanya「我的房」，亦有 coalya「你的房」；coalva 与 coalma 英语皆可作 our house。
+
+NOTE：包括式与排除式「我们的」之別，与上一课 we 的 including/exclusive 对应。若受话人亦属房主，用 coalva；若谈话对象不在「我们」内，用 coalma。
+
+合理推测 -ntë「他们」有 -nta「他们的」，虽无刊例。-nta 或与双数向格 -nta「向一对……」同形，语境可辨；（如 ciryanta 是「向一对船」还是「他们的船」。尚可想 ciryantanta「向他们那对船」！本课不设 -nta 练习，但建议作者可采用。
+
+将领属代词尾与格、数词尾合用，名词可能形式数目骤增，看似数百种，然仅为有限词尾之组合，记忆负担仍可控。
+
+以下示 sambelya「你的房间」（sambë「房间」+ -lya「你的」）依本课迄今各数、各格之完整形式。初看或觉繁难，其实不然：从 sambelya 出发，像任何 -a 结尾名词一样加数、格尾即可。因此有复数 -r：sambelyar「你们的房间」，而单用 sambë 时复数为 i-复数 sambi「诸室」。
+
+¤ 主格/宾格：单数 sambelya，双数 sambelyat，复数 sambelyar。（古代有独立宾格时，或见 sambelyá、sambelyai；本课不用独立宾格。）
+
+¤ 属格：单数 sambelyo（-o 照例取代 sambelya 末 -a，即使该 -a 属于词尾一部分）；双数 sambelyato；复数 sambelyaron。
+
+¤ 领属格：单数 sambelyava；双数 ?sambelyatwa；复数 sambelyaiva。（此处英译与属格相同，然二格语义微殊。）
+
+¤ 与格：sambelyan；双数 sambelyant；复数 sambelyain。
+
+¤ 向格：sambelyanna；双数 sambelyanta；复数 sambelyannar。
+
+¤ 离格：sambelyallo；双数 sambelyalto；复数 sambelyallon（或 -llor）。（向、离格重音在格尾前元音上，如 sambelyAllo，列单诸式皆依常则。）
+
+NOTE：Elendil 宣言有 sinomë maruvan, ar hildinyar「在此地将我驻足，与我的继承人们」。hildinyar「我的嗣子们」或暗示：复数为 -i 的名词（如 hildi）加领属与次级复数标记时先取该 -i，「你们的房间」或应为 sambilyar 而非上列 sambelyar；也可能 hildinyar 有特殊之处，见下。
+
+通常先加领属尾，再加格、数尾：「从你的房间」为 sambelyallo 而非 sambellolya。托尔金例证：Anar caluva tielyanna「日将照你的道」（UT:22,51）——tië + -lya，tielya 再加向格 -nna「在上」。后刊文本偶现 tiennalya 反序；本课采用 canonical「领属先于格」。
+
+最著名的精灵问候「星耀我们会晤之时刻上」：Elen síla lúmenn' omentielvo。本课语法已足析此句：Elen「星」，síla「照耀」（sil- 现在/持续）；lúmenn'/lúmenna「在时辰」（lúmë + 向格 -nna，表 upon）；omentielvo = omentië「会晤」+ -lva 包括式 our + 属格 -o（-o 取代末 -a）→「我们会晤的」。
+
+初版 LotR（1954–55）作 omentielmo，1966 修订改为 omentielvo。变更多源、说法略矛盾的记述。托尔金拟「内部」解释，Carpenter 辑《书信》#205 注（Letters:447）略述：
+
+昆雅双数曲折与人涉及之人数有关；托尔金评凡人常误。本作称「米纳斯提利斯》（Thain's Book）抄本为 omentielvo，而弗罗多『原件』（佚）或为 omentielmo；语境中 omentielvo 正确。
+
+整件事晦暗，欲知 Carpenter 依据。弗罗多稿何错？为何语境定 omentielvo？据此，涉及「双数曲折」。课程初版解为：弗罗多对 Gildor 说此话，应 dual our（仅二人）；他却用 plural our。然「我们会晤」或可指霍比特人群遇精灵群，人数远超二，plural 亦合理。仍能自 Carpenter 扑朔注读出：omentielvo =「我俩会晤的」，omentielmo =「我们会晤的」；笔者曾试图把 -lv- 与双数 -u 联，以为 -lv-  pronoun 表「你我」双数 we。
+
+嗣后出现另一解——后经缮写本更正的弗罗多笔误。Dick Plotz（Introduction to Elvish, Jim Allan 编, p.20）自述致 Ballantine 的错误「更正」：

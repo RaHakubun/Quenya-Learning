@@ -1,0 +1,78 @@
+{
+ "lesson": 18,
+ "introZh": "本课词汇几乎全是语法工具：五个独立代词（ni、le、tye、me、te）、否定兼介词 lá、三个特殊动词（palu-、or-、óla-）。真正的「生词」只有 lempëa、enquëa、urco 三个。",
+ "entries": [
+  {
+   "word": "lempëa",
+   "posZh": "序数词",
+   "glossZh": "第五",
+   "noteZh": "由 lempë「five」把末元音换成 -ëa。旧形式是 lemenya／lepenya，已被取代。练习 E「i lempëa aran」、P「i lempëa aurë」。"
+  },
+  {
+   "word": "enquëa",
+   "posZh": "序数词",
+   "glossZh": "第六",
+   "noteZh": "由 enquë「six」加 -ëa。练习 D「I enquëa auressë」、E「I enquëa aran」、P「I enquëa aurë」。"
+  },
+  {
+   "word": "urco",
+   "posZh": "名词（U 词干）",
+   "glossZh": "妖怪、bogey",
+   "noteZh": "词干 urcu-，主格复数 urqui（＝urcwi）。练习 K「I urqui tírar nye」、M「urquion」。"
+  },
+  {
+   "word": "lá",
+   "posZh": "否定词／介词",
+   "glossZh": "不；beyond（超出）",
+   "noteZh": "两义并存：否定词「not」（置于被否定的词前），以及比较用的介词「beyond」。托尔金一度放弃它，晚年又引回（VT42:32-34）。练习 A、G、L、M、P 用否定义；E、P 用比较义。"
+  },
+  {
+   "word": "ni",
+   "posZh": "独立代词",
+   "glossZh": "我",
+   "noteZh": "宾格 nye「me」；接格词尾时用最简形式 ni：nin、ninna、nillo、nissë。见于「北极」句子 ni véla tye。「我」通常仍用词尾 -n(yë)，ni 是替代。"
+  },
+  {
+   "word": "le",
+   "posZh": "独立代词",
+   "glossZh": "你（礼貌或复数）",
+   "noteZh": "对应词尾 -lyë，属「L」形式；辛达林里已丢失，靠《A Elbereth Gilthoniel》的借词 le 反证其在昆雅存留。练习 B「óluva len」、H「Cennelmë le」。"
+  },
+  {
+   "word": "tye",
+   "posZh": "独立宾格代词",
+   "glossZh": "你（亲昵，thee）",
+   "noteZh": "属「T」形式，与 -lyë／le 不可混用。主语形式据说作 ce，但未定。练习 A「cenien tye」、L「cenien tye」。"
+  },
+  {
+   "word": "me",
+   "posZh": "独立代词",
+   "glossZh": "我们（排除式）",
+   "noteZh": "对应词尾 -lmë；双数 met「我们俩」（《Namárië》imbë met）；与格 men、离格 mello、位格 messë。练习 A「cenien me」、G「men」、H「nu me」。"
+  },
+  {
+   "word": "ta",
+   "posZh": "独立代词",
+   "glossZh": "它、那",
+   "noteZh": "《词源》TA 条；向格 tanna「thither」。据 VT43:20，另一版昆雅用 ta 指物的「they／them」，但本书练习仍用单数义。练习 F「cárala ta i analta coa」、H「lantanelyë mir ta」、O「cára ta」。"
+  },
+  {
+   "word": "te",
+   "posZh": "独立宾格代词",
+   "glossZh": "他们（them）",
+   "noteZh": "Cormallen 的 a laita te「bless them」；接格词尾时作 tie-（与格 tien）。练习 C「tiruvar te」、J「Á tulta te ninna」。"
+  },
+  {
+   "word": "palu-",
+   "posZh": "动词（U 词干）",
+   "glossZh": "展开、扩张",
+   "noteZh": "《词源》里唯一的 U 词干动词，另有 palya-。主动分词 ?palula（应作 pálula），现在时 pálua，过去时 ?palunë。练习 F「Palunes coarya」、O「pálula coarya」。"
+  },
+  {
+   "word": "óla-",
+   "posZh": "动词（无人称）",
+   "glossZh": "做梦",
+   "noteZh": "无人称动词，做梦者用与格：óla i venden Eldaron「少女梦见精灵」。练习 B「Nai óluva len Eldaron」、M「Lá óluva i seldon urquion」。"
+  }
+ ]
+}

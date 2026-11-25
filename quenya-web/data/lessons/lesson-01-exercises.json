@@ -1,0 +1,57 @@
+{
+  "introZh": "发音的细微差别无法在线上批改，故本课练习只涵盖两项可自检内容：重音位置与字母 h 的读法。请先独立完成，再展开对照答案。",
+  "introEn": "As far as the most critical subtleties of pronunciation are concerned, I unfortunately cannot make any exercises; we are not in a classroom so that I can comment on your pronunciation. But regarding stress (accent) and the pronunciation of h, it is possible to make exercises.",
+  "part1": {
+    "titleZh": "练习一 · 标出重读音节",
+    "titleEn": "1. Determine which vowel (single vowel or diphthong) receives the accent in the words below.",
+    "hintZh": "在「你的标注」中写下承受重音的元音或双元音（如 a、ë、ui），点「核对」；需要规则说明时点「显示解析」。",
+    "items": [
+      {"id": "A", "word": "Alcar", "glossZh": "荣耀", "glossEn": "glory", "answerVowel": "a", "answerSyllable": "双音节词：重音在第一音节（短 a）"},
+      {"id": "B", "word": "Alcarë", "glossZh": "荣耀（较长形式）", "glossEn": "longer variant", "answerVowel": "ë", "answerSyllable": "倒数第二音节为长 ë，重音在 ë"},
+      {"id": "C", "word": "Alcarinqua", "glossZh": "辉煌的", "glossEn": "glorious", "answerVowel": "i", "answerSyllable": "倒数第二音节不满足「长音节」条件，重音在倒数第三音节 rin（元音 i）"},
+      {"id": "D", "word": "Calima", "glossZh": "明亮的", "glossEn": "bright", "answerVowel": "a", "answerSyllable": "倒数第二音节 li 为短音节，重音在倒数第三音节 ca（元音 a）"},
+      {"id": "E", "word": "Oronti", "glossZh": "群山", "glossEn": "mountains", "answerVowel": "o", "answerSyllable": "倒数第二音节 ron 含辅音群 nt，为长音节，重音在 o"},
+      {"id": "F", "word": "Únótimë", "glossZh": "不可数的", "glossEn": "uncountable", "answerVowel": "ó", "answerSyllable": "倒数第二音节含长 ó，重音在 ó"},
+      {"id": "G", "word": "Envinyatar", "glossZh": "更新者", "glossEn": "renewer", "answerVowel": "a", "answerSyllable": "倒数第二音节 ya 后为辅音群 t，为长音节，重音在 ya 的 a"},
+      {"id": "H", "word": "Ulundë", "glossZh": "洪水", "glossEn": "flood", "answerVowel": "u", "answerSyllable": "倒数第二音节 lun 含辅音群 nd，为长音节，重音在 u"},
+      {"id": "I", "word": "Eäruilë", "glossZh": "海藻", "glossEn": "seaweed", "answerVowel": "ui", "answerSyllable": "倒数第二音节含双元音 ui，为长音节，重音在 ui"},
+      {"id": "J", "word": "Ercassë", "glossZh": "冬青", "glossEn": "holly", "answerVowel": "a", "answerSyllable": "倒数第二音节 cass 含叠字 ss，为长音节，重音在 a"}
+    ],
+    "extra": {
+      "titleZh": "附加题 · 电影中的重音",
+      "titleEn": "Extra exercise on stress (Christopher Lee / Isengard)",
+      "sceneZh": "萨鲁曼吟诵：Nai yarvaxëa rasselya taltuva notto-carinnar!（愿你血污的角崩塌在仇敌头上！）演员重音：nai yarVAXëa RASSelya TALTuva notto-CARinnar。",
+      "sceneEn": "Peter Jackson's Fellowship: Saruman's invocation with accented syllables as noted in the course.",
+      "analysisZh": "yarvaxëa、taltuva 正确。rasselya 应为 rassELya（非 RASSelya）；notto-carinnar 应为 notto-carINNar（非 CARinnar）。可理解为魔法咒语专用格律放宽了规则，但按正课规则应如上。",
+      "sourceNote": "keys.rtf LESSON ONE, note on Christopher Lee"
+    }
+  },
+  "part2": {
+    "titleZh": "练习二 · h 的发音分类",
+    "titleEn": "2. Sort the words into categories A, B, C, D (hw/hy digraphs excluded).",
+    "optionsZh": [
+      "A：气音 h（如 English high）",
+      "B：ich-Laut（如 German ich，英语 huge 中 h 的弱化版）",
+      "C：ach-Laut（[x]，如 German ach / Scottish loch）",
+      "D：h 不单独发音，仅标示古清辅音（hl、hr 等）"
+    ],
+    "optionsEn": [
+      "A: breath-h like English high",
+      "B: like ch in German ich / English huge",
+      "C: like ch in German ach [x]",
+      "D: h not pronounced; marks archaic unvoiced consonant"
+    ],
+    "items": [
+      {"id": "K", "word": "Ohtar", "glossZh": "战士", "answer": "C", "answerZh": "ach-Laut（词中 ht）"},
+      {"id": "L", "word": "Hrávë", "glossZh": "肉体", "answer": "D", "answerZh": "古清 r，第三纪作普通 r"},
+      {"id": "M", "word": "Nahta", "glossZh": "一口（食物）", "answer": "C", "answerZh": "ach-Laut"},
+      {"id": "N", "word": "Heru", "glossZh": "领主", "answer": "A", "answerZh": "词首气音 h（早期 Valinorean 曾为 ach-Laut）"},
+      {"id": "O", "word": "Nehtë", "glossZh": "矛头", "answer": "B", "answerZh": "ht 前为 e → ich-Laut"},
+      {"id": "P", "word": "Mahalma", "glossZh": "王座", "answer": "A", "answerZh": "第三纪作气音 h（早期流亡昆雅或为 C）", "answerAlt": "C", "answerAltNoteZh": "答案键说明早期或可标 C"},
+      {"id": "Q", "word": "Hellë", "glossZh": "天空", "answer": "A", "answerZh": "气音 h"},
+      {"id": "R", "word": "Tihtala", "glossZh": "眨眼", "answer": "B", "answerZh": "ht 前为 i"},
+      {"id": "S", "word": "Hlócë", "glossZh": "蛇", "answer": "D", "answerZh": "古清 l"},
+      {"id": "T", "word": "Hísië", "glossZh": "薄雾", "answer": "A", "answerZh": "气音 h"}
+    ]
+  }
+}

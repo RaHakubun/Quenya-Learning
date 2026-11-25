@@ -1,0 +1,1669 @@
+{
+  "lesson": 3,
+  "schemaVersion": 2,
+  "oneLineZh": "这一课加两个东西：双数（成对的两个用 -u / -t）和词干（接词尾时词形可能变）。判据都是看词的形状，不是看意思。",
+  "canDoZh": [
+    "给出一个本课名词，能判断该不该用双数，并写出正确的 -u 或 -t 形式",
+    "能解释 ciryat 与 atta ciryar 的分工，并说明为什么不是同义",
+    "能写出 aldu 而不是 **aldau，并说清 -u 顶掉词尾元音的机制",
+    "能举出两个不按语音判据走的化石双数，并说明成对器官的倾向",
+    "能写出 hen、talan、oron 等词的词干，并推出复数",
+    "能独立完成练习 A–P，用 keys 核对，并把错题回链到对应规则"
+  ],
+  "conceptMap": [
+    {
+      "labelZh": "双数是什么",
+      "noteZh": "两个词尾 -u / -t；英语没有对应",
+      "sectionId": "dual-basics"
+    },
+    {
+      "labelZh": "-u 与天然成对",
+      "noteZh": "peu、veru、Aldu",
+      "sectionId": "dual-u-pair"
+    },
+    {
+      "labelZh": "-u 顶掉词尾元音",
+      "noteZh": "aldu 而非 **aldau",
+      "sectionId": "dual-u-displacement"
+    },
+    {
+      "labelZh": "-t 与「纯计数」",
+      "noteZh": "源自 ata；后期只用于成对",
+      "sectionId": "dual-t-numerative"
+    },
+    {
+      "labelZh": "选 -t 还是 -u",
+      "noteZh": "含 t / d 就改用 -u",
+      "sectionId": "dual-choice"
+    },
+    {
+      "labelZh": "化石双数",
+      "noteZh": "veru、peu；成对器官用 -u",
+      "sectionId": "dual-fossils"
+    },
+    {
+      "labelZh": "什么是词干",
+      "noteZh": "tál (tal-)、hen (hend-)",
+      "sectionId": "stem-what"
+    },
+    {
+      "labelZh": "词干与更早的词形",
+      "noteZh": "talan → talami、filit → filici",
+      "sectionId": "stem-history"
+    },
+    {
+      "labelZh": "独立形是缩短形",
+      "noteZh": "meren、nis、Silmaril、Sindel",
+      "sectionId": "stem-fuller"
+    },
+    {
+      "labelZh": "缩合型词干",
+      "noteZh": "ferni、lamni、selli",
+      "sectionId": "stem-contraction"
+    },
+    {
+      "labelZh": "词尾元音复原",
+      "noteZh": "lómi-、súri-、ruscu-",
+      "sectionId": "stem-vowel-shift"
+    },
+    {
+      "labelZh": "别慌",
+      "noteZh": "多数词没有特殊词干",
+      "sectionId": "stem-perspective"
+    },
+    {
+      "labelZh": "本章小结",
+      "noteZh": "原文 Summary 中英对照",
+      "sectionId": "summary"
+    },
+    {
+      "labelZh": "课末词汇",
+      "noteZh": "12 个新词 + q-vocab 交叉引用",
+      "sectionId": "vocabulary"
+    },
+    {
+      "labelZh": "练习与答案",
+      "noteZh": "A–P 工作台、考点回链、keys.rtf",
+      "sectionId": "exercises"
+    }
+  ],
+  "pathTitleZh": "本课学习路径",
+  "path": [
+    {
+      "step": 1,
+      "labelZh": "双数是什么",
+      "sectionId": "dual-basics"
+    },
+    {
+      "step": 2,
+      "labelZh": "-u 与天然成对",
+      "sectionId": "dual-u-pair"
+    },
+    {
+      "step": 3,
+      "labelZh": "-u 顶掉词尾元音",
+      "sectionId": "dual-u-displacement"
+    },
+    {
+      "step": 4,
+      "labelZh": "-t 与「纯计数」",
+      "sectionId": "dual-t-numerative"
+    },
+    {
+      "step": 5,
+      "labelZh": "选 -t 还是 -u",
+      "sectionId": "dual-choice"
+    },
+    {
+      "step": 6,
+      "labelZh": "化石双数与身体部位",
+      "sectionId": "dual-fossils"
+    },
+    {
+      "step": 7,
+      "labelZh": "什么是词干",
+      "sectionId": "stem-what"
+    },
+    {
+      "step": 8,
+      "labelZh": "词干与更早的词形",
+      "sectionId": "stem-history"
+    },
+    {
+      "step": 9,
+      "labelZh": "独立形是缩短形",
+      "sectionId": "stem-fuller"
+    },
+    {
+      "step": 10,
+      "labelZh": "缩合型词干",
+      "sectionId": "stem-contraction"
+    },
+    {
+      "step": 11,
+      "labelZh": "词尾元音 -o / -ë 的复原",
+      "sectionId": "stem-vowel-shift"
+    },
+    {
+      "step": 12,
+      "labelZh": "别慌：多数词很规矩",
+      "sectionId": "stem-perspective"
+    },
+    {
+      "step": 13,
+      "labelZh": "本章小结",
+      "sectionId": "summary"
+    },
+    {
+      "step": 14,
+      "labelZh": "课末词汇",
+      "sectionId": "vocabulary"
+    },
+    {
+      "step": 15,
+      "labelZh": "练习工作台",
+      "sectionId": "exercises"
+    }
+  ],
+  "modules": [
+    {
+      "sectionId": "dual-basics",
+      "sourceSectionId": "dual-number",
+      "titleZh": "01 · 双数是什么：两个词尾 -u 与 -t",
+      "leadZh": "复数管「三个以上」，双数只管「两个」，而且这两个必须是某种意义上的「一对」。英语没有这个范畴，所以翻译时要么补出「一对」，要么退回复数加数词 atta。",
+      "objectives": [
+        "能说出双数指「两个／一对事物」，与复数不是数量对立而是范畴不同",
+        "能写出双数的两个词尾 -u 与 -t",
+        "能解释为什么英语没有双数、汉译时该怎么处理"
+      ],
+      "rules": [
+        {
+          "id": "rule-dual-two-endings",
+          "headZh": "双数 = 名词 + -u 或 -t（二选一）",
+          "bodyZh": "昆雅除了复数，还有双数（dual number），专门指两个、一对事物。构成方式是加两个词尾之一：-u 或 -t。选哪一个不是随意的，后面三步会给出判据。",
+          "en": "The dual is formed with one out of two endings: -u or -t.",
+          "zh": "双数由两个词尾之一构成：-u 或 -t。",
+          "exampleZh": "alda「树」→ Aldu（双圣树）；cirya「船」→ ciryat（一对船）"
+        }
+      ],
+      "keyPoints": [
+        {
+          "term": "dual number",
+          "termZh": "双数",
+          "explainZh": "语法范畴，指「两个」；与复数并列，不是复数的子集。本课所有双数形式都必须指某种天然或逻辑上的一对。"
+        },
+        {
+          "term": "atta",
+          "termZh": "数词「二」",
+          "explainZh": "当两个事物只是偶然凑在一起、不构成一对时，不用双数，改用常规复数加 atta：atta ciryar「两条船」。"
+        }
+      ],
+      "table": {
+        "captionZh": "本课出现的双数形式（含作者明确标注为推测的）",
+        "headers": [
+          "单数",
+          "双数",
+          "词尾",
+          "依据与说明"
+        ],
+        "rows": [
+          [
+            "alda「树」",
+            "Aldu",
+            "-u",
+            "正文：专指维林诺的双圣树"
+          ],
+          [
+            "cirya「船」",
+            "ciryat",
+            "-t",
+            "Plotz Letter：a couple of ships"
+          ],
+          [
+            "lassë「叶」",
+            "lasset",
+            "-t",
+            "Plotz Letter：a couple of leaves"
+          ],
+          [
+            "pé「嘴唇」",
+            "peu",
+            "-u",
+            "VT39:9、11：一个人的一对嘴唇"
+          ],
+          [
+            "veru「夫妻」",
+            "veru（本身即双数）",
+            "-u",
+            "LR:352；无对应单数「配偶」"
+          ],
+          [
+            "hen「眼睛」",
+            "hendu",
+            "-u",
+            "WJ:337 复合词 hendumaica 或含此双数"
+          ],
+          [
+            "ranco「手臂」",
+            "rancu",
+            "-u",
+            "作者推测，无传世例证"
+          ],
+          [
+            "tál「脚」",
+            "talu",
+            "-u",
+            "作者推测；元音缩短见词干一节"
+          ]
+        ]
+      },
+      "pitfalls": [
+        {
+          "wrong": "凡是「两个」都写双数，用 ciryat 表示任意两条船",
+          "right": "任意两条船写 atta ciryar；只有成对时才写 ciryat",
+          "whyZh": "正文明确：后期昆雅语里双数只用于天然或逻辑上的一对；只是碰巧一起看见的两条船，用数词 atta 加常规复数。"
+        },
+        {
+          "wrong": "把双数当成「比复数少一点」的数量级",
+          "right": "双数讲的是「是否成对」，不是数量多少",
+          "whyZh": "双数是与单数、复数并列的第三个范畴；判断依据是语义上的配对关系，不是数目大小。"
+        }
+      ],
+      "closeReadingZh": [
+        {
+          "headZh": "为什么一门课要先讲「虚构时间线」里的语义差别",
+          "bodyZh": "因为 -u 与 -t 在本课要合成一条规则，而合成之前必须先知道它们原本不同：-u 管天然成对，-t 管纯计数。作者把这条史料放在最前面，是为了让后面「后期昆雅语里两者含义相同」这个转折站得住脚；否则读者会以为两个词尾从一开始就可以随便换。"
+        },
+        {
+          "headZh": "汉语学习者可以借用的类比",
+          "bodyZh": "汉语用词汇手段说「一双筷子」「一对夫妻」，昆雅把这一层做进名词词尾。反过来，汉语说「两个杯子」时不会暗示这两个杯子有什么关系，昆雅若用双数就会强加这层含义——这正是最容易出错的地方。"
+        }
+      ],
+      "recapZh": "双数 = 名词 + -u 或 -t，专门指成对的两个。英语没有这个范畴；汉语靠「一双／一对」这类词表达，昆雅靠词尾。",
+      "selfCheckZh": [
+        {
+          "qZh": "双数的两个词尾是什么？",
+          "aZh": "-u 与 -t。"
+        },
+        {
+          "qZh": "「两条只是碰巧停在一起的船」该怎么写？",
+          "aZh": "atta ciryar——用数词 atta 加常规复数，不用双数。"
+        },
+        {
+          "qZh": "双数与复数的根本区别是什么？",
+          "aZh": "双数要求两个事物构成天然或逻辑上的一对；复数只表示数量，不要求配对关系。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "dual-number",
+        "unitIds": [
+          0
+        ],
+        "labelZh": "课文 01"
+      }
+    },
+    {
+      "sectionId": "dual-u-pair",
+      "sourceSectionId": "dual-number",
+      "titleZh": "02 · -u 的原始功能：天然成对",
+      "leadZh": "-u 来自原始精灵语 -û，最初只管「逻辑上的一对」。本节的三个例子 peu、veru、Aldu 都不是「两个东西」，而是「一对东西」。",
+      "objectives": [
+        "能说出 -u 的来源与原始功能",
+        "能用 peu 解释「一对嘴唇」与「两片嘴唇」的区别",
+        "能说明 Aldu 为什么不能译成「两棵树」"
+      ],
+      "rules": [
+        {
+          "id": "rule-dual-u-natural-pair",
+          "headZh": "-u：天然成对、逻辑上的一对",
+          "bodyZh": "词尾 -u 来自原始精灵语 -û，原本用于「天然成对」的情形——两个事物或两个人以某种方式同属一个逻辑上的对。所以它翻成英语时常常要加 pair of，而不是光说 two。",
+          "en": "The ending -u (from Primitive Elvish -û) was originally used in the case of natural pairs, of two things or persons somehow belonging together as a logical couple.",
+          "zh": "词尾 -u（来自原始精灵语 -û）最初用于天然成对的情形，即两个事物或两个人以某种方式同属一个逻辑上的一对。",
+          "exampleZh": "pé「嘴唇」→ peu「（一个人的）一对嘴唇」"
+        }
+      ],
+      "examples": [
+        {
+          "en": "peu",
+          "zh": "（一个人的）一对嘴唇",
+          "whyZh": "VT39:9、11 的例子。指一个人的上下唇这一对，而不是「一个人的上唇 + 另一个人的下唇」——后者只是「两片嘴唇」，不构成天然的一对。"
+        },
+        {
+          "en": "veru",
+          "zh": "已婚的一对、夫妻",
+          "whyZh": "本身就是双数形式。这个词没有对应的单数「配偶」；同根另有 verno「丈夫」与 vessë「妻子」（LR:352）。"
+        },
+        {
+          "en": "Aldu",
+          "zh": "（维林诺的）双圣树",
+          "whyZh": "alda「树」的双数。指的不是任意一对树，而是神话中的 Two Trees of Valinor，所以必须用双数。"
+        }
+      ],
+      "exceptions": [
+        {
+          "titleZh": "veru 没有单数「配偶」",
+          "bodyZh": "veru 表示「已婚的一对／夫妻」，但找不到一个对应的单数「配偶」词。要分别说丈夫和妻子时，用同根的 verno 与 vessë（LR:352）。也就是说，这个词的双数不是从单数派生出来的，它本身就是词条。",
+          "sourceEn": "The noun veru, meaning \"married pair\" or \"husband and wife\", has dual form; in this case there does not seem to be a corresponding singular \"spouse\" (but we have verno \"husband\" and vessë \"wife\" from the same root; see LR:352).",
+          "anchor": "#unit-dual-number-1"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "把 Aldu 译成「两棵树」",
+          "right": "Aldu = 维林诺的双圣树，是一个专名性的「一对」",
+          "whyZh": "正文说得很直接：alda 以双数出现时，指的不是任意一对树，而是 the Two Trees of Valinor。"
+        },
+        {
+          "wrong": "以为 peu 是 pé 加 -u 的机械结果，所以任何以元音结尾的词都照此办理",
+          "right": "peu 是例外，其 e 原本不在词尾（来自 peñû）",
+          "whyZh": "下一步会讲：-u 一般会顶掉词尾元音，peu 之所以看起来没顶掉，是因为它来自 peñû 而非 peñe。"
+        }
+      ],
+      "closeReadingZh": [
+        {
+          "headZh": "为什么「一对嘴唇」这个例子值得细看",
+          "bodyZh": "它同时演示了两件事：一是双数的语义门槛（必须是天然的一对），二是词源的干扰（表面形态可能骗人）。作者用一整句解释 peu 的 e 为何不算「词尾元音被保留」，其实是在提醒：判断双数形式不能只看字母，要看它从哪个原始形式来。"
+        }
+      ],
+      "recapZh": "-u 原本专管天然成对：peu「一对嘴唇」、veru「夫妻」、Aldu「双圣树」。翻成英语常要加 pair of。",
+      "selfCheckZh": [
+        {
+          "qZh": "-u 来自哪个原始形式？原本表示什么？",
+          "aZh": "来自原始精灵语 -û；原本表示天然成对、逻辑上的一对。"
+        },
+        {
+          "qZh": "「一个人的上唇加另一个人的下唇」能用 peu 吗？",
+          "aZh": "不能。那只是「两片嘴唇」，不构成天然的一对。"
+        },
+        {
+          "qZh": "veru 的单数是什么？",
+          "aZh": "没有对应的单数「配偶」；同根有 verno「丈夫」和 vessë「妻子」。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "dual-number",
+        "unitIds": [
+          1
+        ],
+        "labelZh": "课文 02"
+      }
+    },
+    {
+      "sectionId": "dual-u-displacement",
+      "sourceSectionId": "dual-number",
+      "titleZh": "03 · -u 顶掉词尾元音：aldu 而不是 **aldau",
+      "leadZh": "这是本课最容易写错的一步：-u 不是「加」在词尾元音后面，而是把它换掉。alda + -u = aldu。",
+      "objectives": [
+        "能正确写出以元音结尾名词的双数形式（-u 顶掉词尾元音）",
+        "能说明 **aldau 为什么错，以及 PM:138 那条材料说明了什么",
+        "能解释 Aldaru 与 peu 这两个看似违反规则的例子"
+      ],
+      "rules": [
+        {
+          "id": "rule-dual-u-displaces",
+          "headZh": "-u 顶掉词尾元音，不是叠加",
+          "bodyZh": "如果词尾 -u 加在以元音结尾的名词上，这个元音会被顶掉。所以 alda 的双数是 aldu，不是 **aldau。注意这是「替换」而不是「追加」，与复数 -r 直接追加的做法不同。",
+          "en": "Notice that if the ending -u is added to a noun ending in a vowel, this vowel is displaced: hence the dual of alda is aldu rather than **aldau",
+          "zh": "注意：如果词尾 -u 加在以元音结尾的名词上，这个元音会被顶掉：因此 alda 的双数是 aldu，而不是 **aldau。",
+          "exampleZh": "alda → aldu（不是 **aldau）"
+        }
+      ],
+      "exceptions": [
+        {
+          "titleZh": "PM:138 的 **aldau：托尔金一度考虑过",
+          "bodyZh": "PM:138 引用了《魔戒》附录的一份草稿，其中似乎表明托尔金一度恰恰考虑过 **aldau 这种形式。也就是说，规则不是「从未有人这样写过」，而是「最终没有采用」。学习时仍以 aldu 为准。",
+          "sourceEn": "though a word quoted in PM:138, reproducing a draft for the LotR Appendices, seems to suggest that Tolkien for a moment considered precisely the latter form",
+          "anchor": "#unit-dual-number-2"
+        },
+        {
+          "titleZh": "Aldaru：把双数词尾加在复数上",
+          "bodyZh": "有一份旧材料写作 Aldaru，显然是把双数词尾 -u 加到了常规复数 aldar「树」上。这看来是托尔金早期的试验，到他写《魔戒》时大概早已废弃。",
+          "sourceEn": "There is also an old source that has Aldaru, apparently formed by adding the dual ending -u to the normal plural aldar \"trees\", but this seems to be an early experiment of Tolkien's that was probably long obsolete by the time he wrote LotR.",
+          "anchor": "#unit-dual-number-2"
+        },
+        {
+          "titleZh": "peu 的 e 为什么没被顶掉",
+          "bodyZh": "表面上 peu 违反了「顶掉词尾元音」的规则。原因是词源：昆雅 pé 本应来自原始精灵语 peñe，而双数 peu 本应来自 peñû（VT39:9）——所以 peu 里的 e 原本并不在词尾，自然谈不上被顶掉。",
+          "sourceEn": "However, Quenya pé is meant to descend from primitive Elvish peñe, whereas the dual form peu is meant to come from peñû (VT39:9) – so the e of peu was not originally final.",
+          "anchor": "#unit-dual-number-2"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "**aldau",
+          "right": "aldu",
+          "whyZh": "-u 顶掉词尾的 -a；原文直接以「aldu rather than **aldau」的形式给出对照。"
+        },
+        {
+          "wrong": "Aldaru（把 -u 加到复数 aldar 上）",
+          "right": "Aldu",
+          "whyZh": "Aldaru 只见于旧材料，是早期试验；正文判断它到《魔戒》时代早已废弃。双数加在单数词干上，不加在复数上。"
+        }
+      ],
+      "recapZh": "-u 是替换词尾元音：alda → aldu。**aldau 与 Aldaru 都是史料里的弯路，不作为答案。",
+      "selfCheckZh": [
+        {
+          "qZh": "alda 的双数怎么写？为什么不是 **aldau？",
+          "aZh": "aldu；-u 会把词尾的 -a 顶掉，不是叠加。"
+        },
+        {
+          "qZh": "Aldaru 是什么？能用吗？",
+          "aZh": "旧材料里把 -u 加到复数 aldar 上的形式，属于早期试验，到《魔戒》时代大概早已废弃，不用。"
+        },
+        {
+          "qZh": "peu 保留了 e，是否说明「顶掉」规则有例外？",
+          "aZh": "不是例外：peu 来自 peñû，那个 e 原本不在词尾，所以不适用「顶掉词尾元音」。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "dual-number",
+        "unitIds": [
+          2
+        ],
+        "labelZh": "课文 03"
+      }
+    },
+    {
+      "sectionId": "dual-t-numerative",
+      "sourceSectionId": "dual-number",
+      "titleZh": "04 · -t 与「纯计数」：从 ata 到 atta",
+      "leadZh": "-t 代表古老要素 ata，与数词 atta「二」同源，原本只管「数量是二」。但在后期昆雅语里，它也被限制为「成对」——于是两个词尾合流。",
+      "objectives": [
+        "能说出 -t 的来源（ata）与「纯计数」的原义",
+        "能解释 ciryat 与 atta ciryar 在早期、后期昆雅语中的不同地位",
+        "能说明本课程为什么采用「后期」标准"
+      ],
+      "rules": [
+        {
+          "id": "rule-dual-t-numerative",
+          "headZh": "-t 来自 ata，原本「纯计数」",
+          "bodyZh": "据《Letters:427》，-t 代表古老要素 ata，与数词 atta「二」同源。「纯计数」意为：它只管数量是二，不管两者有没有关系。所以早期 ciryat 可以指任意两条船，相当于 atta ciryar 的口语简写。",
+          "en": "As for the other dual ending, -t, it according to Letters:427 represents an old element ata.",
+          "zh": "至于另一个双数词尾 -t，据《Letters:427》，它代表一个古老的要素 ata。",
+          "exampleZh": "cirya「船」→ ciryat（早期可指任意两条船）"
+        },
+        {
+          "id": "rule-dual-later-pair",
+          "headZh": "后期昆雅语：-t 也只用于成对",
+          "bodyZh": "托尔金进一步指出，「在后期的昆雅语中」，双数形式「只惯用于指天然成对之物」。于是 -t 与 -u 的含义合流：双数一律要求配对关系，只是两个东西就用 atta + 复数。",
+          "en": "Tolkien further noted that \"in later Q[uenya]\", the dual forms were \"only usual with reference to natural pairs\".",
+          "zh": "托尔金进一步指出，「在后期的昆雅语中」，双数形式「只惯用于指天然成对之物」。",
+          "exampleZh": "ciryat 只用于「一对船」（如姊妹船）；任意两条船 → atta ciryar"
+        }
+      ],
+      "table": {
+        "captionZh": "同一对名词，三种说法的分工",
+        "headers": [
+          "说法",
+          "形式",
+          "适用情形",
+          "依据"
+        ],
+        "rows": [
+          [
+            "双数 -t",
+            "ciryat",
+            "后期昆雅语：两条船构成一对（如姊妹船）",
+            "Plotz Letter；Letters:427"
+          ],
+          [
+            "双数 -u",
+            "aldu 类",
+            "词中含 t / d，或属化石双数",
+            "Letters:427；本课规则"
+          ],
+          [
+            "数词 + 复数",
+            "atta ciryar",
+            "任意两条船，不构成一对",
+            "正文明确给出"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "ciryat",
+          "zh": "一对船（后期只指构成一对的两条船）",
+          "whyZh": "Plotz Letter 作 a couple of ships。早期可泛指任意两条，后期收窄为「成对」。"
+        },
+        {
+          "en": "atta ciryar",
+          "zh": "两条船（任意两条）",
+          "whyZh": "正文给的对照形式：不构成一对时不用双数，改用数词 atta 加常规复数。"
+        }
+      ],
+      "exceptions": [
+        {
+          "titleZh": "「后期」到底指什么时候？作者说无法确定",
+          "bodyZh": "「后期」昆雅语可能指中洲作为仪式语言的昆雅语，而不是维林诺精灵的日常口语。作者明确说无法确定。但他同时确定：本课程瞄准的第三纪昆雅语一定属于「后期」，所以按「双数必须成对」来教。",
+          "sourceEn": "Precisely what he means by \"later\" Quenya cannot be determined; it could refer to Quenya as a ritual language in Middle-earth rather than the vernacular of the Eldar in Valinor.",
+          "anchor": "#unit-dual-number-3"
+        },
+        {
+          "titleZh": "ciriat 这个拼法大概是笔误",
+          "bodyZh": "《Letters:427》里把 ciryat 拼作 ciriat，作者猜测是笔误。看到这个拼法不必当成另一条规则。",
+          "sourceEn": "A dual like ciryat \"2 ships\" (curiously spelt \"ciriat\" in Letters:427, perhaps a typo)",
+          "anchor": "#unit-dual-number-3"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "用 ciryat 表示「（随便看到的）两条船」",
+          "right": "atta ciryar",
+          "whyZh": "后期昆雅语的双数只用于成对；任意两条船用数词加复数。这是本课练习 I 与 J 的分水岭。"
+        },
+        {
+          "wrong": "以为 -t 与 -u 从头到尾完全同义",
+          "right": "历史上不同源、不同义；后期才合流",
+          "whyZh": "-u 原本管天然成对，-t 原本纯计数；合流发生在「后期」，这也是选哪个词尾要靠语音条件来定的原因。"
+        }
+      ],
+      "closeReadingZh": [
+        {
+          "headZh": "一条规则背后是两种历史的叠压",
+          "bodyZh": "读这一段要抓住两层：共时层面（今天怎么写）与历时层面（为什么这样写）。共时规则只有一句「双数必须成对，词尾看语音条件」；历时解释却要交代两个词尾各自的来历。作者把两层分开写，是为了让学习者知道哪一层是必须遵守的、哪一层只是理解用的背景。"
+        }
+      ],
+      "recapZh": "-t 源自 ata，原本纯计数；后期昆雅语里也要求成对。任意两个 → atta + 复数；成对的两个 → 双数。",
+      "selfCheckZh": [
+        {
+          "qZh": "-t 与哪个数词同源？",
+          "aZh": "atta「二」；-t 代表古老要素 ata。"
+        },
+        {
+          "qZh": "「纯计数」是什么意思？",
+          "aZh": "只管数量是二，不管两者有没有配对关系。"
+        },
+        {
+          "qZh": "作者为什么采用「双数必须成对」这条规则？",
+          "aZh": "因为本课程瞄准的第三纪昆雅语必定属于托尔金所说的「后期」昆雅语。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "dual-number",
+        "unitIds": [
+          3
+        ],
+        "labelZh": "课文 04"
+      }
+    },
+    {
+      "sectionId": "dual-choice",
+      "sourceSectionId": "dual-number",
+      "titleZh": "05 · 选 -t 还是 -u：看语音，不看意义",
+      "leadZh": "两个词尾含义已经一样，剩下的只是「哪个好听」。判据只有一条：词里已有 t 或 d，就用 -u；否则用 -t。",
+      "objectives": [
+        "能按「含 t / d 否」这条判据为名词选双数词尾",
+        "能用 ciryat、lasset 说明无 t / d 时用 -t",
+        "能说出以辅音结尾的名词为何没有定论"
+      ],
+      "rules": [
+        {
+          "id": "rule-dual-euphony",
+          "headZh": "悦耳原则：含 t / d → 用 -u；否则用 -t",
+          "bodyZh": "托尔金说「t 或 u 的选择由悦耳与否决定」，并举例：如果要接双数词尾的词本身已含 t 或相近的 d，则 -u 优于 -t。所以 -t 是首选，遇到 t / d 才换成 -u（记住 -u 会顶掉词尾元音）。",
+          "en": "In Letters:427, Tolkien noted that \"the choice of t or u [was] decided by euphony\", sc. by what sounded well",
+          "zh": "在《Letters:427》中，托尔金指出「t 或 u 的选择由悦耳与否（euphony）决定」，也就是由听起来是否好听决定。",
+          "exampleZh": "alda → aldu（词中有 d，故用 -u，且顶掉 -a）",
+          "noteZh": "注意判据看的是整个词里有没有 t / d，不只是词尾。"
+        }
+      ],
+      "table": {
+        "captionZh": "双数词尾判定表（先看成对，再看语音）",
+        "headers": [
+          "步骤",
+          "问题",
+          "是",
+          "否"
+        ],
+        "rows": [
+          [
+            "1",
+            "两个事物是否构成天然或逻辑上的一对？",
+            "进入第 2 步",
+            "不用双数：atta + 常规复数"
+          ],
+          [
+            "2",
+            "词里是否已含 t 或 d？",
+            "用 -u（顶掉词尾元音）",
+            "用 -t"
+          ],
+          [
+            "3",
+            "词是否以辅音结尾？",
+            "大概也用 -u，但无例证",
+            "—"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "ciryat",
+          "zh": "一对船",
+          "whyZh": "cirya 中无 t / d，取首选词尾 -t，直接加在 -a 之后（Plotz Letter）。"
+        },
+        {
+          "en": "lasset",
+          "zh": "一对叶子",
+          "whyZh": "lassë 中无 t / d，取 -t；Plotz Letter 明确列出。"
+        },
+        {
+          "en": "aldu",
+          "zh": "（双圣）树",
+          "whyZh": "alda 含 d，故改用 -u，并顶掉词尾 -a。"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "**aldat",
+          "right": "aldu",
+          "whyZh": "原文直接以「the dual of alda is aldu rather than **aldat」给出对照：含 d 时不能用 -t。"
+        },
+        {
+          "wrong": "以为「含 t / d」只指词尾那个音",
+          "right": "指整个词里是否出现 t 或 d",
+          "whyZh": "alda 的 d 在词中而非词尾，仍然触发改用 -u；orsont- 这类词干里的 t 也一样（练习 L 的 orontu）。"
+        }
+      ],
+      "closeReadingZh": [
+        {
+          "headZh": "为什么「好听」也能成为一条规则",
+          "bodyZh": "在托尔金的构想里，昆雅语是精灵的母语，语音和谐不是装饰而是构词约束——就像复数用 -i 还是 -r 也由词的形状决定。所以「悦耳」在这里不是主观偏好，而是一条可操作的共时规则：避免词里堆太多 t 类音。作者把它与复数规则并列，正是在提示你：昆雅的词尾选择普遍是「看形状」，不是「看意思」。"
+        },
+        {
+          "headZh": "为什么辅音结尾的双数没有答案",
+          "bodyZh": "-t 直接加在辅音结尾的词上会产生昆雅音系不允许的词末辅音丛，所以大概也会优先用 -u；但如果非要用 -t，可能得先插一个元音，形成 -et 这样的长词尾。作者坦言没有例证，并在练习里绕开这个问题——这是本课唯一被明确排除在考试范围外的情形。"
+        }
+      ],
+      "recapZh": "先判是否成对；再看词里有没有 t / d：有就用 -u（顶掉词尾元音），没有就用 -t。辅音结尾的情形本课不考。",
+      "selfCheckZh": [
+        {
+          "qZh": "给 oron (oront-)「山」造双数，用哪个词尾？为什么？",
+          "aZh": "-u：词干 oront- 里含 t，故写 orontu（keys 第 3 课 L 题）。"
+        },
+        {
+          "qZh": "给 aiwë「鸟」造双数，用哪个词尾？",
+          "aZh": "-t：词中无 t / d，写 aiwet（keys 第 3 课 N 题）。"
+        },
+        {
+          "qZh": "为什么辅音结尾名词的双数没有确定答案？",
+          "aZh": "-t 会造成不允许的词末辅音丛；大概优先用 -u，但没有例证。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "dual-number",
+        "unitIds": [
+          4
+        ],
+        "labelZh": "课文 05"
+      }
+    },
+    {
+      "sectionId": "dual-fossils",
+      "sourceSectionId": "dual-number",
+      "titleZh": "06 · 化石双数与成对的身体部位",
+      "leadZh": "veru、peu 没有 t / d，却仍用 -u。这类「化石」保留了更古老的系统；peu 还牵出一条子规则：成对的身体部位用 -u。",
+      "objectives": [
+        "能举出两个不按语音判据走的化石双数",
+        "能说出成对器官用 -u 的倾向及其证据强度",
+        "能区分「有传世例证」与「作者推测」的形式"
+      ],
+      "rules": [
+        {
+          "id": "rule-dual-fossil",
+          "headZh": "化石双数：无 t / d 也用 -u",
+          "bodyZh": "昆雅有一批古老双数不遵守「-t 优先」的规则。veru「已婚的一对」与 peu「双唇」就是证据：词中并无 t 或 d，词尾仍是 -u。它们大概反映更古老的系统——只有 -u 才表示天然或逻辑上的一对。",
+          "en": "The examples veru \"married pair\" and peu \"lips, pair of lips\" are proof of that; here there is no t or d present, but the ending is still -u rather than -t.",
+          "zh": "veru「已婚的一对」和 peu「双唇、一对嘴唇」就是证据；这里并没有 t 或 d，词尾却仍是 -u 而不是 -t。",
+          "exampleZh": "veru、peu（都不是按语音判据得来的）"
+        },
+        {
+          "id": "rule-dual-bodyparts",
+          "headZh": "成对的身体部位 → -u",
+          "bodyZh": "peu「（一对）嘴唇」这个例子提示：成对出现的身体部位（眼睛、手臂、腿等）用词尾 -u。不过如果双数词尾之前还插入了别的词尾，也可能改用 -t，这一点后面某课再谈。",
+          "en": "The example peu \"(pair of) lips\" suggests that the ending -u is used in the case of body-parts occurring in pairs, such as eyes, arms, legs.",
+          "zh": "peu「（一对）嘴唇」这个例子提示：成对出现的身体部位（如眼睛、手臂、腿）用词尾 -u。",
+          "exampleZh": "ranco → rancu（作者推测）；hen (hend-) → hendu"
+        }
+      ],
+      "examples": [
+        {
+          "en": "veru",
+          "zh": "已婚的一对、夫妻",
+          "whyZh": "化石双数：无 t / d，仍用 -u。本身即词条，无单数「配偶」。"
+        },
+        {
+          "en": "peu",
+          "zh": "（一对）嘴唇",
+          "whyZh": "化石双数，同时是「成对器官用 -u」这条子规则的起点。"
+        },
+        {
+          "en": "hendu",
+          "zh": "（一对）眼睛",
+          "whyZh": "hen 的词干 hend- 含 d，本来也会用 -u；WJ:337 的 hendumaica 可能含此双数。"
+        },
+        {
+          "en": "rancu",
+          "zh": "（一个人的）一对手臂",
+          "whyZh": "作者明确标注为 best guess，没有传世例证。按成对器官用 -u 的倾向推出。"
+        },
+        {
+          "en": "talu",
+          "zh": "一对脚",
+          "whyZh": "作者推测；元音 á 在词尾前缩短，见词干一节。"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "把 rancu、talu 当成有据可查的传世形式",
+          "right": "它们是作者按规则给出的推测，教材已标注",
+          "whyZh": "正文对 ranco 说「is not attested, but my best guess is that it would be rancu」，对 tál 说「probably has the dual talu」。"
+        },
+        {
+          "wrong": "以为所有身体部位都无条件用 -u",
+          "right": "若双数词尾前还插入别的词尾，可能改用 -t",
+          "whyZh": "正文在括号里补了这一限制，并说明将在后面某课处理。"
+        }
+      ],
+      "recapZh": "化石双数 veru、peu 不按语音判据；成对器官倾向用 -u（hendu、rancu、talu），但 rancu 与 talu 属推测。",
+      "selfCheckZh": [
+        {
+          "qZh": "为什么说 veru 与 peu 是「化石」？",
+          "aZh": "词中没有 t 或 d，按语音判据该用 -t，却仍用 -u；它们保留了只有 -u 表示成对的古老系统。"
+        },
+        {
+          "qZh": "「成对器官用 -u」这条子规则有什么限制？",
+          "aZh": "如果双数词尾之前还插入别的词尾，可能改用 -t；本课不展开。"
+        },
+        {
+          "qZh": "rancu 与 talu 有传世例证吗？",
+          "aZh": "没有，都是作者按规则给出的推测，教材已明确标注。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "dual-number",
+        "unitIds": [
+          5
+        ],
+        "labelZh": "课文 06"
+      }
+    },
+    {
+      "sectionId": "stem-what",
+      "sourceSectionId": "stem-variation",
+      "titleZh": "07 · 什么是词干：tál (tal-)、hen (hend-)",
+      "leadZh": "词干是「接词尾时用的那个形式」，它本身不单独出现。教材用「独立形 (词干-)」的写法标注：tál (tal-)、hen (hend-)。",
+      "objectives": [
+        "能用自己的话说出「词干」是什么",
+        "能读懂 tál (tal-)、hen (hend-) 这种标注",
+        "能写出 tál 与 hen 的复数、双数"
+      ],
+      "rules": [
+        {
+          "id": "rule-stem-definition",
+          "headZh": "加词尾时词形会变：tál → tal-",
+          "bodyZh": "给 tál「脚」加词尾（复数 -i、双数 -u）时，长元音 á 缩短为 a：复数 tali 而不是 **táli，双数 talu 而不是 **tálu。这时我们说 tál 的词干是 tal-。",
+          "en": "If you add an ending to tál \"foot\", for instance -i for plural or -u for dual, the long vowel á is shortened to a.",
+          "zh": "比如给 tál「脚」加词尾——复数加 -i、双数加 -u——长元音 á 就缩短为 a。",
+          "exampleZh": "tál → tali（复）、talu（双）；不是 **táli、**tálu"
+        },
+        {
+          "id": "rule-stem-notation",
+          "headZh": "词干不单独出现，只用来接词尾",
+          "bodyZh": "「词干」形式本身不单独出现，它是你用来接词尾的形式。教材的标注法是：先写独立形式，再在括号里给出词干并保留连字符，例如 tál (tal-)、hen (hend-)。",
+          "en": "The \"stem\" form does not occur by itself, but is the form you add endings to.",
+          "zh": "「词干」形式本身不单独出现，它是你用来接词尾的形式。",
+          "exampleZh": "hen (hend-)「眼睛」→ 复数 hendi，不是 **heni"
+        }
+      ],
+      "table": {
+        "captionZh": "本课两个词干示例",
+        "headers": [
+          "独立形",
+          "词干",
+          "复数",
+          "双数",
+          "变化原因"
+        ],
+        "rows": [
+          [
+            "tál「脚」",
+            "tal-",
+            "tali",
+            "talu",
+            "单音节长元音在加词尾后缩短"
+          ],
+          [
+            "hen「眼睛」",
+            "hend-",
+            "hendi",
+            "hendu",
+            "词末不允许 -nd，接词尾时 -nd- 得以出现"
+          ]
+        ]
+      },
+      "pitfalls": [
+        {
+          "wrong": "**táli / **tálu",
+          "right": "tali / talu",
+          "whyZh": "原文以对照形式给出：复数「feet」是 tali rather than **táli，双数是 talu rather than **tálu。"
+        },
+        {
+          "wrong": "**heni",
+          "right": "hendi",
+          "whyZh": "原文：hen 的复数是 hendi，not just **heni。词干 hend- 里的 d 必须出现。"
+        }
+      ],
+      "recapZh": "词干 = 接词尾时用的形式，不单独出现。tál (tal-)、hen (hend-)；复数 tali、hendi。",
+      "selfCheckZh": [
+        {
+          "qZh": "「词干」和「词」有什么区别？",
+          "aZh": "词干不单独出现，只用于接词尾；独立形式才是词条本身。"
+        },
+        {
+          "qZh": "写出 tál 的复数与双数。",
+          "aZh": "tali、talu（长元音 á 缩短为 a）。"
+        },
+        {
+          "qZh": "写出 hen 的复数与双数。",
+          "aZh": "hendi、hendu（用词干 hend-）。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "stem-variation",
+        "unitIds": [
+          0,
+          1
+        ],
+        "labelZh": "课文 07"
+      }
+    },
+    {
+      "sectionId": "stem-history",
+      "sourceSectionId": "stem-variation",
+      "titleZh": "08 · 词干为什么会变：词末允许的音在作怪",
+      "leadZh": "词干往往保留了更早的词形——那些不允许出现在词末的音，在接词尾时就露出来了。talan → talami、filit → filici 都是这个道理。",
+      "objectives": [
+        "能解释单音节长元音缩短的条件",
+        "能用「词末允许音」解释 talan → talami、filit → filici",
+        "能说出词干形式与原始词根的关系"
+      ],
+      "rules": [
+        {
+          "id": "rule-stem-monosyllable",
+          "headZh": "单音节词拉长元音，带词尾后不拉长",
+          "bodyZh": "tál 与 tal- 的差别，来自「单音节词里元音常被拉长」：词一旦带上词尾就不止一个音节，拉长没有发生。最初这个元音在所有形式里都是短的。同类的另一个例子是 nér「男人」对复数 neri。",
+          "en": "In the case of tál vs. tal-, the variation is apparently due to the fact that vowels were often lengthened in words of only one syllable, but when the word had endings the word obviously got to have more than one syllable and so the lengthening did not occur",
+          "zh": "就 tál 与 tal- 而言，这种变化显然是因为：单音节词里的元音常被拉长，但词带上词尾后显然就不止一个音节，于是拉长没有发生。",
+          "exampleZh": "nér → neri（MR:213/LR:354）"
+        },
+        {
+          "id": "rule-stem-final-consonant",
+          "headZh": "词末不允许的音，在词尾前保留",
+          "bodyZh": "昆雅语演化出一条规则：词末只允许少数几个辅音，m 不在其中。于是古词 talam 在独立时被改成 talan；但复数 talami 中 m 不在词末，因此原样保留。词干 talam- 正是原始词根 TALAM 的形式（LR:390）。",
+          "en": "The stem is talam- because this is the form of the Primitive Elvish root-word: TALAM (LR:390).",
+          "zh": "词干是 talam-，因为这是原始精灵语词根 TALAM 的形式（LR:390）。",
+          "exampleZh": "talan → talami；filit → filici（原始词根 PHILIK）"
+        }
+      ],
+      "table": {
+        "captionZh": "词末限制造成的词干变化",
+        "headers": [
+          "独立形",
+          "词干",
+          "复数",
+          "不允许的词末音",
+          "原始词根"
+        ],
+        "rows": [
+          [
+            "talan「地板」",
+            "talam-",
+            "talami",
+            "-m",
+            "TALAM（LR:390）"
+          ],
+          [
+            "filit「小鸟」",
+            "filic-",
+            "filici",
+            "-k",
+            "PHILIK（LR:381）"
+          ],
+          [
+            "hen「眼睛」",
+            "hend-",
+            "hendi",
+            "-nd",
+            "KHEN-D-E（LR:364）"
+          ],
+          [
+            "nér「男人」",
+            "ner-",
+            "neri",
+            "—（元音长短）",
+            "—（MR:213/LR:354）"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "talami",
+          "zh": "地板（复数）",
+          "whyZh": "不是 **talani。m 在词末不被允许，独立时变 n；接词尾时不在词末，故保留 m。"
+        },
+        {
+          "en": "filici",
+          "zh": "小鸟（复数）",
+          "whyZh": "词末不允许 -k，独立时变 -t（filit）；接词尾时保持 k，拼作 c。"
+        },
+        {
+          "en": "hendi",
+          "zh": "眼睛（复数）",
+          "whyZh": "词末不允许 -nd，独立时简化为 -n（hen）；接词尾时 -nd- 出现。"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "**talani",
+          "right": "talami",
+          "whyZh": "原文：复数「floors」不是我们可能预期的 **talani，而是 talami。"
+        },
+        {
+          "wrong": "以为词干是「新造出来的形式」",
+          "right": "词干通常就是更古老的形式，独立形才是被改造过的",
+          "whyZh": "talam- 是原始词根 TALAM 的形状；talan 是词末限制作用后的结果。"
+        }
+      ],
+      "closeReadingZh": [
+        {
+          "headZh": "为什么作者说词干「透露」了古形",
+          "bodyZh": "因为音变通常只发生在特定位置。词末的限制把 m、k、nd 这类音改掉了，但词中间不受影响；于是接词尾时，那个被改掉的音又回来了。这等于让学习者通过词干看到一层更早的语言状态——这也是作者说「词干形式通常能透露该词较早阶段的样子」的意思。"
+        },
+        {
+          "headZh": "不要把词干当成第三条记忆负担",
+          "bodyZh": "作者特意说明：不必记住下面所有词和例子，只要体会词干变化是怎么回事。真正要记的只有课末 12 个词里的 talan (talam-)、nér (ner-)、nís (niss-)、sar (sard-)、oron (oront-)、hen (hend-) 这几个带词干标注的词。"
+        }
+      ],
+      "recapZh": "词干常保留更早的词形：词末不允许的音（m、k、nd）在接词尾时回归。talan → talami、filit → filici、hen → hendi。",
+      "selfCheckZh": [
+        {
+          "qZh": "为什么 talan 的复数是 talami 而不是 **talani？",
+          "aZh": "词干是 talam-（原始词根 TALAM）；m 不允许出现在词末，独立时改成 n，接词尾时保留。"
+        },
+        {
+          "qZh": "filit 的词干为什么是 filic-？",
+          "aZh": "原始词根 PHILIK；词末不允许 -k，独立时变 -t，非词末时保持 k（拼作 c）。"
+        },
+        {
+          "qZh": "nér 的复数为什么是 neri？",
+          "aZh": "单音节词拉长元音，带词尾后不止一个音节，拉长不发生，元音回到短的 e。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "stem-variation",
+        "unitIds": [
+          2
+        ],
+        "labelZh": "课文 08"
+      }
+    },
+    {
+      "sectionId": "stem-fuller",
+      "sourceSectionId": "stem-variation",
+      "titleZh": "09 · 独立形是缩短形：meren、nis、Silmaril、Sindel",
+      "leadZh": "这一类的方向与上一节相反：独立形式被简化了，词干才是「完整」的。所以 meren 的复数是 merendi，Silmaril 的复数是 Silmarilli。",
+      "objectives": [
+        "能说出「独立形缩短、词干完整」这一类词的特点",
+        "能写出 meren、nis、Silmaril、Sindel 的复数",
+        "能解释复合词第二成分缩减后为何又出现完整形式"
+      ],
+      "rules": [
+        {
+          "id": "rule-stem-shortened",
+          "headZh": "独立形简化，词干保留完整形式",
+          "bodyZh": "有些词的独立形式是简化或缩短形式，词干形式反而反映更完整的形式。例如 merendë「宴席」常缩短为 meren，但词干仍是 merend-，所以复数是 merendi。",
+          "en": "In some cases, the \"independent\" form is a simplified or shortened form of a word, while the stem form reflects the fuller form.",
+          "zh": "有些情况下，「独立」形式是词的简化或缩短形式，而词干形式反映的是更完整的形式。",
+          "exampleZh": "meren → merendi；nis → nissi；Silmaril → Silmarilli"
+        },
+        {
+          "id": "rule-stem-compound",
+          "headZh": "复合词：第二成分缩减，接词尾时复原",
+          "bodyZh": "复合词中的第二个成分常被缩减，但在词尾之前可能出现更完整的形式。Sindel「灰精灵」把 -el 作为 Elda 的缩减形式包含在内，复数不是 **Sindeli，而是 Sindeldi，保留了 -ld-。",
+          "en": "In the case of compound words, sc. words made up from several other words, the second element in the compound is often reduced, but a fuller form may turn up before an ending.",
+          "zh": "就复合词（即由若干别的词构成的词）而言，复合词中的第二个成分常被缩减，但在词尾之前可能出现更完整的形式。",
+          "exampleZh": "Sindel → Sindeldi（不是 **Sindeli，也不是 **Sindeldar）"
+        }
+      ],
+      "table": {
+        "captionZh": "独立形缩短型：四个例子",
+        "headers": [
+          "完整 / 词干",
+          "独立形",
+          "复数",
+          "说明"
+        ],
+        "rows": [
+          [
+            "merend-",
+            "meren",
+            "merendi",
+            "merendë「宴席」常缩短为 meren（LR:372）"
+          ],
+          [
+            "niss-",
+            "nis / nís",
+            "nissi",
+            "双写 S 在词尾前保留（LR:377、MR:213）"
+          ],
+          [
+            "Silmarill-",
+            "Silmaril",
+            "Silmarilli",
+            "双写 L 在词尾前保留"
+          ],
+          [
+            "Sindeld-",
+            "Sindel",
+            "Sindeldi",
+            "复合词含 Elda 的缩减形式 -el（WJ:384）"
+          ]
+        ]
+      },
+      "pitfalls": [
+        {
+          "wrong": "**mereni",
+          "right": "merendi",
+          "whyZh": "原文：meren 的复数是 merendi，不是 **mereni；词干 merend- 里的 d 必须出现。"
+        },
+        {
+          "wrong": "**Sindeli",
+          "right": "Sindeldi",
+          "whyZh": "原文：Sindel 的复数不是 **Sindeli，而是 Sindeldi，保留 Elda 中的 -ld-。"
+        },
+        {
+          "wrong": "**Sindeldar",
+          "right": "Sindeldi",
+          "whyZh": "原文明确：复合词中词尾的 -a 已丢失，所以不可能有 **Sindeldar。"
+        }
+      ],
+      "recapZh": "独立形可能被缩短，词干才是完整形：merendi、nissi、Silmarilli、Sindeldi。",
+      "selfCheckZh": [
+        {
+          "qZh": "meren 的复数为什么是 merendi？",
+          "aZh": "词干是 merend-（完整形式 merendë 常缩短为 meren）；接词尾时 d 出现。"
+        },
+        {
+          "qZh": "Sindel 的复数为什么不是 **Sindeldar？",
+          "aZh": "复合词中 Elda 的词尾 -a 已丢失，只保留 -ld-，故为 Sindeldi。"
+        },
+        {
+          "qZh": "nissë 独立时写作 nis 或 nís，为什么复数仍是 nissi？",
+          "aZh": "双写 S 在词尾前保留；词干是 niss-。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "stem-variation",
+        "unitIds": [
+          3
+        ],
+        "labelZh": "课文 09"
+      }
+    },
+    {
+      "sectionId": "stem-contraction",
+      "sourceSectionId": "stem-variation",
+      "titleZh": "10 · 缩合型词干：ferni、lamni、selli",
+      "leadZh": "这一类的词干不是「更古老的形式」，而是加词尾时被压紧了。常见于含两个相同元音的双音节词。",
+      "objectives": [
+        "能识别缩合型词干与「复原古形」型的区别",
+        "能写出 feren、laman、seler 的复数",
+        "能解释 seler → selli 中 lr → ll 的原因"
+      ],
+      "rules": [
+        {
+          "id": "rule-stem-contraction",
+          "headZh": "缩合：词干不反映更完整的形式",
+          "bodyZh": "有些词加词尾时会缩合，这时词干并不反映更古老、更完整的形式。缩合常发生在含两个相同元音的双音节词中：feren「山毛榉」在词尾前缩减为 fern-，复数 ferni 而非 **fereni。",
+          "en": "In some cases a word may be contracted when you add endings to it. In such cases the stem-form does not reflect the older, more complete form of the word.",
+          "zh": "有些情况下，加词尾时词会发生缩合。这种情况下，词干形式并不反映该词更古老、更完整的形式。",
+          "exampleZh": "feren → ferni；laman → lamni；seler → selli"
+        }
+      ],
+      "table": {
+        "captionZh": "缩合型词干三例",
+        "headers": [
+          "独立形",
+          "缩合词干",
+          "复数",
+          "说明"
+        ],
+        "rows": [
+          [
+            "feren「山毛榉」",
+            "fern-",
+            "ferni",
+            "不是 **fereni"
+          ],
+          [
+            "laman「动物」",
+            "lamn-",
+            "lamni",
+            "WJ:416；未缩合的 lamani 也曾使用"
+          ],
+          [
+            "seler「姐妹」",
+            "sell-",
+            "selli",
+            "预期 **selri，但 lr 不允许，改为 ll"
+          ]
+        ]
+      },
+      "pitfalls": [
+        {
+          "wrong": "**fereni",
+          "right": "ferni",
+          "whyZh": "原文：feren 在词尾前缩减为 fern-，复数 ferni 而非 **fereni。"
+        },
+        {
+          "wrong": "**selri",
+          "right": "selli",
+          "whyZh": "lr 在昆雅语中不是允许的辅音丛，缩合后进一步变为 ll；实际复数是 selli。"
+        }
+      ],
+      "recapZh": "缩合型词干是「压紧」而非「复原」：ferni、lamni、selli。lamani 也曾存在，但 selli 是唯一形式。",
+      "selfCheckZh": [
+        {
+          "qZh": "缩合型词干与上一节的「完整词干」有何不同？",
+          "aZh": "缩合型的词干比独立形更短，不反映更古老的形式；完整型的词干比独立形更长。"
+        },
+        {
+          "qZh": "为什么 seler 的复数是 selli 而不是 **selri？",
+          "aZh": "lr 不是昆雅语允许的辅音丛，缩合后改为 ll。"
+        },
+        {
+          "qZh": "laman 的复数只有 lamni 一种吗？",
+          "aZh": "不是；WJ:416 说未缩减的 lamani 也曾在使用。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "stem-variation",
+        "unitIds": [
+          4
+        ],
+        "labelZh": "课文 10"
+      }
+    },
+    {
+      "sectionId": "stem-vowel-shift",
+      "sourceSectionId": "stem-variation",
+      "titleZh": "11 · 词尾元音 -o / -ë 的「复原」：lómi-、súri-、ruscu-",
+      "leadZh": "有些词的词尾 -ë、-o 原本是 -i、-u，只在词尾时才变。接词尾时原始音质回来：lómë 的词干是 lómi-。",
+      "objectives": [
+        "能说明 -ë / -o 与原始 -i / -u 的对应",
+        "能写出 lómë、rusco 加双数词尾后的推测形式",
+        "能指出这一现象的证据强度（例证少、无充分论述）"
+      ],
+      "rules": [
+        {
+          "id": "rule-stem-vowel-shift",
+          "headZh": "lómë 的词干是 lómi-",
+          "bodyZh": "据 SD:415，lómë「夜」的「词干」是 lómi-，意思是：在它后面加词尾时，词尾元音 -ë 变为 -i-。所以加双数 -t 大概得到 lómit 而不是 lómet。原因是 lómë 来自原始精灵语 dômi，而 -i 除非在词尾，从不变成 -e。",
+          "en": "According to SD:415, the Quenya noun lómë \"night\" has the \"stem\" lómi-, evidently meaning that the final vowel -ë changes to -i- if you add an ending after it.",
+          "zh": "据 SD:415，昆雅语名词 lómë「夜」的「词干」是 lómi-，显然意思是：如果在它后面加词尾，词尾元音 -ë 就变为 -i-。",
+          "exampleZh": "lómë → lómit（推测，而非 lómet）",
+          "noteZh": "这是「推测」而非传世例证；正文用 presumably。"
+        }
+      ],
+      "table": {
+        "captionZh": "-o / -ë 复原为 -u- / -i- 的例子",
+        "headers": [
+          "独立形",
+          "词干",
+          "加词尾的推测形式",
+          "证据"
+        ],
+        "rows": [
+          [
+            "tundo「丘」",
+            "tundu-",
+            "tundur（而非 tundor）",
+            "LR:395；两种形式都无传世例证"
+          ],
+          [
+            "lómë「夜」",
+            "lómi-",
+            "lómit（而非 lómet）",
+            "SD:415"
+          ],
+          [
+            "súrë「风」",
+            "súri-",
+            "（lírinen、súrinen 被视为旁证）",
+            "MC:222；作者说「有人认为」"
+          ],
+          [
+            "rusco「狐狸」",
+            "ruscu-",
+            "ruscut（而非 ruscot）",
+            "VT41:10"
+          ]
+        ]
+      },
+      "pitfalls": [
+        {
+          "wrong": "lómet",
+          "right": "lómit",
+          "whyZh": "原文：给 lómë 加双数 -t 大概会产生 lómit 而不是 lómet。"
+        },
+        {
+          "wrong": "ruscot",
+          "right": "ruscut",
+          "whyZh": "原文：rusco 的词干是 ruscu-，加双数词尾应得 ruscut 而不是 ruscot。"
+        }
+      ],
+      "closeReadingZh": [
+        {
+          "headZh": "为什么这一节的语气明显更谨慎",
+          "bodyZh": "注意作者用词：tundur「may well be」、lómit「presumably」、súrinen「Some think」、rusco「is said to have」。四种说法都在降低确定性。原因是证据只有 SD:415 与 VT41:10 两处明确陈述，没有成体系的论述。读到这里要能分辨：哪些是必须遵守的规则（-u 顶掉词尾元音、含 t/d 用 -u），哪些只是有据的推测（本节全部）。"
+        }
+      ],
+      "recapZh": "词尾 -ë / -o 有时源自 -i / -u，接词尾时复原：lómi-、súri-、ruscu-、tundu-。全部属推测性规则，例证稀少。",
+      "selfCheckZh": [
+        {
+          "qZh": "lómë 的词干是什么？加双数 -t 得到什么？",
+          "aZh": "lómi-；大概得到 lómit（而非 lómet）。"
+        },
+        {
+          "qZh": "为什么 -ë 会在词尾前变回 -i-？",
+          "aZh": "它来自原始精灵语的 -i，而 -i 除非处于词尾，从不变成 -e。"
+        },
+        {
+          "qZh": "这一节的规则确定性如何？",
+          "aZh": "较低：只有 SD:415、VT41:10 等少数明确陈述，作者用 presumably、may well be 等措辞。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "stem-variation",
+        "unitIds": [
+          5,
+          6
+        ],
+        "labelZh": "课文 11"
+      }
+    },
+    {
+      "sectionId": "stem-perspective",
+      "sourceSectionId": "stem-variation",
+      "titleZh": "12 · 别慌：大多数昆雅词很规矩",
+      "leadZh": "词干变化看起来吓人，但作者明确说：大多数词没有特殊词干，直接加词尾即可；需要记的会在首次出现时标注。",
+      "objectives": [
+        "能说出「大多数词无特殊词干」这一判断",
+        "能说明教材在何处标注词干（首次给出该词时）",
+        "能对本课 12 个词逐一判断是否带词干"
+      ],
+      "rules": [
+        {
+          "id": "rule-stem-majority",
+          "headZh": "默认假设：没有特殊词干",
+          "bodyZh": "大多数昆雅词相当规矩，没有需要记住的独特词干形式——直接加词尾就行。在确实知道存在特殊词干（或有充分理由怀疑）的地方，如果与练习相关，教材会在第一次给出该词时标明。",
+          "en": "Most Quenya words seem to be quite well-behaved, with no distinct \"stem\" form to remember; you just add the ending and that's it.",
+          "zh": "大多数昆雅词似乎相当规矩，没有需要记住的独特「词干」形式；你只管加词尾，就这样。",
+          "exampleZh": "alda、cirya、aiwë、ando、ranco 都没有特殊词干"
+        }
+      ],
+      "table": {
+        "captionZh": "本课 12 词中哪些带词干",
+        "headers": [
+          "课末词",
+          "是否带词干",
+          "词干",
+          "复数"
+        ],
+        "rows": [
+          [
+            "atta",
+            "否（数词）",
+            "—",
+            "—"
+          ],
+          [
+            "hen",
+            "是",
+            "hend-",
+            "hendi"
+          ],
+          [
+            "ranco",
+            "否",
+            "—",
+            "rancor（按 -o 加 -r）"
+          ],
+          [
+            "ando",
+            "否",
+            "—",
+            "andor（按 -o 加 -r）"
+          ],
+          [
+            "cirya",
+            "否",
+            "—",
+            "ciryar"
+          ],
+          [
+            "aiwë",
+            "否",
+            "—",
+            "aiwi（按 -ë 换 -i）"
+          ],
+          [
+            "talan",
+            "是",
+            "talam-",
+            "talami"
+          ],
+          [
+            "nér",
+            "是",
+            "ner-",
+            "neri"
+          ],
+          [
+            "nís",
+            "是",
+            "niss-",
+            "nissi"
+          ],
+          [
+            "sar",
+            "是",
+            "sard-",
+            "sardi"
+          ],
+          [
+            "alda",
+            "否",
+            "—",
+            "aldar"
+          ],
+          [
+            "oron",
+            "是",
+            "oront-",
+            "oronti"
+          ]
+        ]
+      },
+      "pitfalls": [
+        {
+          "wrong": "给每个词都硬找一个词干",
+          "right": "先按无词干处理，遇到教材标注再记",
+          "whyZh": "作者明确说大多数词没有独特词干；无差别地猜词干会造出并不存在的形式。"
+        },
+        {
+          "wrong": "把词干标注当成「另一个要背的词条」",
+          "right": "词干是接词尾的工具，不是独立词条",
+          "whyZh": "词干形式本身不单独出现；它只是告诉你加词尾时用哪个形状。"
+        }
+      ],
+      "recapZh": "默认没有特殊词干；教材在首次出现时标注。本课 12 词里有 6 个带词干：hen、talan、nér、nís、sar、oron。",
+      "selfCheckZh": [
+        {
+          "qZh": "作者对「词干恐惧」的回应是什么？",
+          "aZh": "大多数词没有特殊词干，直接加词尾即可；需要记的会在首次出现时标注。"
+        },
+        {
+          "qZh": "本课 12 个词里，哪些带词干？",
+          "aZh": "hen (hend-)、talan (talam-)、nér (ner-)、nís (niss-)、sar (sard-)、oron (oront-)。"
+        },
+        {
+          "qZh": "词干形式能单独当词用吗？",
+          "aZh": "不能；它本身不单独出现，只用于接词尾。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "stem-variation",
+        "unitIds": [
+          7
+        ],
+        "labelZh": "课文 12"
+      }
+    },
+    {
+      "sectionId": "summary",
+      "kind": "summary",
+      "sourceSectionId": "stem-variation",
+      "titleZh": "13 · 本章小结：原文 Summary 与中文对照",
+      "leadZh": "左侧是 less-a.rtf 第 3 课 Summary 原文（未删节），右侧是等价中文翻译；下方口诀只作记忆辅助，不替代原文。",
+      "objectives": [
+        "能复述双数的两个词尾与选用条件",
+        "能复述词干变化的三种来源",
+        "能指出小结里哪一句对应练习的哪一题"
+      ],
+      "summaryEn": "Summary of Lesson Three: In addition to the plural form(s), Quenya also has a dual number used for a pair of things forming some kind of natural or logical couple. (We must assume that two things only casually associated would be denoted by a normal plural in conjunction with the numeral atta \"two\".) The dual is formed with one out of two endings: -t or -u (the latter displaces final vowels; the dual of alda \"tree\" is therefore aldu rather than aldau). One's first choice seems to be -t, but if the word this ending is to be added to already contains a t or a d, the alternative ending -u is preferred instead (for reasons of euphony – if you like, to avoid \"crowding\" the word with t's or similar sounds!) However, there seems to be a number of old, \"fossilized\" dual forms that end in -u even though there is no d or t in the word, such as veru \"married pair\" and peu \"pair of lips\". The latter example may suggest that all body-parts occurring in pairs are denoted by dual forms in -u rather than -t, regardless of the shape of the word (though the ending -t is evidently preferred if other endings intrude before the dual ending itself; more on this later).\n\nQuite a few Quenya words subtly change when endings are appended to them, e.g. talan \"floor\" turning into talam- in the plural form talami. We would then call talam- the stem form of talan. Similarly, the final vowels -o and -ë sometimes appear as -u- and -i-, respectively, if some ending is added; thus lómë \"night\" has the stem lómi-. In many cases, the stem-form echoes the older shape of words (sounds or combinations that could not survive at the end of a word being preserved where not final), though the stem-form may also represent a contraction.",
+      "summaryZh": "第三课小结：除了复数形式之外，昆雅语还有双数，用于指构成某种天然或逻辑一对的两个事物。（我们必须假定：只是偶然相关的两个事物，会用常规复数配合数词 atta「二」来表示。）双数由两个词尾之一构成：-t 或 -u（后者顶掉词尾元音；因此 alda「树」的双数是 aldu 而不是 aldau）。首选似乎是 -t，但如果要接这个词尾的词本身已含 t 或 d，则改用另一个词尾 -u（出于悦耳——如果你愿意，也可以说是为了避免词里「挤满」t 或类似的音！）然而，似乎有一批古老的、「化石化的」双数形式以 -u 结尾，尽管词中并无 d 或 t，如 veru「已婚的一对」和 peu「一对嘴唇」。后一个例子可能提示：所有成对出现的身体部位都用 -u 双数而非 -t，不论词的形状如何（不过，如果双数词尾之前还插入了别的词尾，显然优先用 -t；这一点后面再谈）。\n\n相当多的昆雅词在接词尾时会发生细微变化，例如 talan「地板」在复数形式 talami 中变成 talam-。我们就把 talam- 称为 talan 的词干形式。同样，词尾元音 -o 和 -ë 在加词尾时有时分别表现为 -u- 和 -i-；因此 lómë「夜」有词干 lómi-。在许多情况下，词干形式呼应了词更古老的形状（那些无法在词末存活的音或组合，在非词末位置得以保留），不过词干形式也可能代表一种缩合。",
+      "formulaZh": [
+        "双数判定：先问「是否成对」→ 否：atta + 复数；是：进入词尾选择。",
+        "词尾选择：词中含 t / d → -u（顶掉词尾元音）；不含 → -t。",
+        "化石双数：veru、peu 无 t / d 也用 -u；成对器官倾向 -u。",
+        "词干三来源：① 词末禁音复原（talam-、filic-、hend-）② 独立形缩短（merend-、niss-、Silmarill-）③ 缩合（fern-、lamn-、sell-）。",
+        "词尾元音复原：-ë → -i-（lómi-）、-o → -u-（ruscu-），属推测性规则。"
+      ],
+      "selfCheckZh": [
+        {
+          "qZh": "不看原文，写出双数规则的三步判定。",
+          "aZh": "① 是否成对：否则用 atta + 复数；② 词中是否含 t / d：含则用 -u（顶掉词尾元音）；③ 否则用 -t。"
+        },
+        {
+          "qZh": "小结把词干变化的来源归为哪两类？",
+          "aZh": "一类是词干呼应更古老的词形（词末不能存活的音在非词末保留），另一类是词干代表缩合。"
+        },
+        {
+          "qZh": "中文小结与英文 Summary 有没有增删？",
+          "aZh": "没有；中文是等价翻译，口诀另列，便于记忆但不替代原文。"
+        }
+      ]
+    },
+    {
+      "sectionId": "vocabulary",
+      "kind": "vocabulary",
+      "sourceSectionId": "vocabulary",
+      "titleZh": "14 · 课末词汇：12 个新词",
+      "leadZh": "这 12 个词来自 less-a.rtf 第 3 课课末 VOCABULARY，是本课练习唯一会使用的词。带词干标注的六个词要连词干一起记。",
+      "objectives": [
+        "能默写 12 个词的昆雅形式与中文义",
+        "能指出哪六个词带词干，并写出词干",
+        "能为本课名词推出双数形式（按 -t / -u 判据）",
+        "会用总词汇表按英文或昆雅词反查"
+      ],
+      "table": {
+        "captionZh": "12 词的双数推演（★ 为有传世例证，其余为按规则推演）",
+        "headers": [
+          "课末词",
+          "中文",
+          "双数",
+          "依据"
+        ],
+        "rows": [
+          [
+            "atta",
+            "二（数词）",
+            "—",
+            "数词，不变双数；用于 atta + 复数"
+          ],
+          [
+            "hen (hend-)",
+            "眼睛",
+            "hendu",
+            "WJ:337 复合词 hendumaica 或含此双数"
+          ],
+          [
+            "ranco",
+            "手臂",
+            "rancu",
+            "成对器官用 -u；作者推测"
+          ],
+          [
+            "ando",
+            "门",
+            "andu",
+            "含 d，故用 -u；keys 第 3 课 M 题"
+          ],
+          [
+            "cirya",
+            "船",
+            "ciryat",
+            "无 t / d，用 -t；Plotz Letter"
+          ],
+          [
+            "aiwë",
+            "鸟",
+            "aiwet",
+            "无 t / d，用 -t；keys 第 3 课 N 题"
+          ],
+          [
+            "talan (talam-)",
+            "地板",
+            "—（本课未给）",
+            "词干 talam- 含 t，按判据应为 -u 型"
+          ],
+          [
+            "nér (ner-)",
+            "男人",
+            "—（本课未给）",
+            "词干 ner- 无 t / d，按判据应为 -t 型"
+          ],
+          [
+            "nís (niss-)",
+            "女人",
+            "—（本课未给）",
+            "词干 niss- 无 t / d，按判据应为 -t 型"
+          ],
+          [
+            "sar (sard-)",
+            "石头",
+            "—（本课未给）",
+            "词干 sard- 含 d，按判据应为 -u 型"
+          ],
+          [
+            "alda",
+            "树",
+            "aldu（Aldu）",
+            "含 d，用 -u 并顶掉 -a"
+          ],
+          [
+            "oron (oront-)",
+            "山",
+            "orontu",
+            "词干 oront- 含 t；keys 第 3 课 L 题"
+          ]
+        ]
+      },
+      "pitfalls": [
+        {
+          "wrong": "把 sar 当成「石料、石头（物质）」",
+          "right": "sar (sard-) 指一块小石头，不是作为材料的石头",
+          "whyZh": "课末词汇表明确：a small stone – not \"stone\" as a substance or material。"
+        },
+        {
+          "wrong": "把 nér / nís 只理解成「精灵男性／女性」",
+          "right": "指任何有智能种族的成年男性／女性，精灵、凡人或其他",
+          "whyZh": "课末词汇表两条释义都补了 adult male / female of any sentient race。"
+        }
+      ],
+      "closeReadingZh": [
+        {
+          "headZh": "为什么本课的词几乎都能推出双数",
+          "bodyZh": "因为双数的判据只有一条语音条件（含不含 t / d），而词干标注已经把答案透露了一半：oront- 里有 t、sard- 里有 d、talam- 里有 t，一眼就能判。作者把词干标注放在词汇表里，实际是给了你做题的工具。"
+        },
+        {
+          "headZh": "表里「—（本课未给）」是什么意思",
+          "bodyZh": "指该词的复数或双数在本课正文与 keys 中都没有出现。上表按规则给出了判据方向，但没有把推测形式写成答案；练习 A–P 也不会考这些形式。这是本课程的一贯做法：有据的给形式，无据的只给判据。"
+        }
+      ],
+      "recapZh": "12 词里六个带词干（hend-、talam-、ner-、niss-、sard-、oront-）；双数看词中有无 t / d。",
+      "selfCheckZh": [
+        {
+          "qZh": "默写「眼睛、山、石头、男人、女人、地板」六个词及其词干。",
+          "aZh": "hen (hend-)、oron (oront-)、sar (sard-)、nér (ner-)、nís (niss-)、talan (talam-)。"
+        },
+        {
+          "qZh": "ando「门」的双数为什么是 andu？",
+          "aZh": "词中含 d，按悦耳判据改用 -u，并顶掉词尾 -o。"
+        },
+        {
+          "qZh": "aiwë「鸟」的双数为什么是 aiwet？",
+          "aZh": "词中无 t / d，取首选词尾 -t，直接加在 -ë 之后。"
+        }
+      ],
+      "showOriginal": true,
+      "bilingual": {
+        "sectionId": "vocabulary",
+        "unitIds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "labelZh": "词汇"
+      }
+    },
+    {
+      "sectionId": "exercises",
+      "kind": "exercises",
+      "sourceSectionId": "exercises",
+      "titleZh": "15 · 练习工作台：A–P 与 keys 核对",
+      "leadZh": "练习一昆雅译英（A–H，含两道「有什么区别」的追问），练习二英译昆雅（I–P）。每题标注考点、分步提示与规则回链。",
+      "objectives": [
+        "独立完成 A–P，不先展开答案",
+        "能说出每题考的是「双数成对」还是「词尾语音判据」",
+        "核对后能把错题回链到对应规则卡",
+        "能展开 keys.rtf 第 3 课全文答案逐题复核"
+      ],
+      "workflowZh": [
+        "第一遍：遮住答案，只看题干与考点，写下译文",
+        "B、D 两题要额外回答「与上一题的区别」，先用中文写清再译",
+        "拿不准时点「分步提示」，不要直接点「显示答案」",
+        "点「核对」：系统比对 keys 原文答案、可接受的替代译文与中文等价答案",
+        "错题按「回到本课规则」跳回规则卡，重读后再改",
+        "最后展开 keys.rtf 全文答案与下方 EXERCISES 原文，逐题复核"
+      ],
+      "teachingNoteZh": "keys.rtf 的篇首说明提醒：课程仍在修订，个别练习与答案可能对不上；若出现不一致，优先以 keys.rtf 原文为准（见全站「练习答案」页）。",
+      "bilingual": {
+        "sectionId": "exercises",
+        "unitIds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "labelZh": "练习"
+      }
+    }
+  ]
+}

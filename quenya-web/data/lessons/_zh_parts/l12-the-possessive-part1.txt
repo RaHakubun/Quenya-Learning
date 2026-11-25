@@ -1,0 +1,37 @@
+领属格
+
+就其功能而言，本格——较之于托尔金讨论昆雅语法时常称为「属格」的 -o(n) 格——更贴近英语所有格 -'s。即便如此，在某些语境中本格也宜译为英语 of 结构。
+
+领属格加尾 -va，如 Elda 的 Eldava。加于辅音结尾名词时，该尾大概为 -wa。-va 本源于形容词尾，见于 anwa「真实的」、helwa「浅蓝的」等；原始精灵语为 -wâ，昆雅词间 w 通常变 v（如 terêwâ > tereva）。多数昆雅名词以元音结尾，-wâ 加身后 w 多成元音间音而变 v（Eldâ-wâ > Eldava）。辅音尾名词如 atar「父亲」，atar-wâ 大概得 atarwa，w 非元音间故保持。
+
+Plotz 信未列领属双数形，但难想象其不存在；本课练习不作稍属假设的双数练习。推测 -u 双数后简加 -va，如 Aldu「两树」的 Alduva；-t 双数如 ciryat「一对船」大概为 ciryatwa（tw 辅音丛使重音在倒数第二音节）。
+
+Plotz 同样未列领属复数，曾致研究者以为本格无复数；但 WJ:368 明言领属复数为 -iva（-va + 复数标记 -i）。加于平时复数 -r 的名词如 Eldar 时，非 **Eldarva，而为 Eldaiva，例证 lambë Eldaiva「精灵的语言」（WJ:369）。-iva 为昆雅创新，非上古精灵语继承。
+
+当初 -iva 首元音与名词末元音合并成双元音如 ai（Elda + iva = Eldaiva），重音在 eld-AI-va。许多 -ë 名词古或类似得 ei 双元音；lassë「叶」复数领属或曾为 lasseiva（?lasseiwâ）。ei 在昆雅中终成 long í，故现行或 lassíva（长 í 吸重音）。Plotz 信中另一格复数 lassínen（工具格，第十六课）似亦证实该原则：lassínen 大概表 lasseinen，类推 lasseiva > lassíva。
+
+将 -iva 加于已有 -i 的名词如 tári「女王」或词干 -i 的 lómë（lómi-）「夜」时如何，不甚清楚。两 i 或合并为长 í：?táríva、?lómíva（单数 táriva、lómiva 重第一音节，复数因长元音重倒数第二音节——若确实合并）。亦可能 táriva 兼指单复数，靠语境分辨「女王的」与「诸女王的」。
+
+关于形式的若干说明见下文「各类附注」；此处回到功能。
+
+本格表单纯占有，即英语属格典型职能。上一课述昆雅属格多表来源、起源，而非单纯所有。属格若表所有者与所拥有物的关系，多指既往而非当下所有。托尔金以属格与领属格对照说明，我们不妨引文并重述属格职能：
+
+「『占有』以形容词尾 -va 标示……故『奥龙泉的号角』若仍在其手中为 róma Oroméva……而 róma Oromëo 表『来自奥力的号角』，如礼物。收礼者自豪展示时可以说『这是奥力的号角』；若说『这曾是奥力的号角』，则用 Oroméva。同样 lambë Eldaron 不宜表『精灵的语言』（除非整语被他族接纳），而应为……lambë Eldaiva。」（WJ:368-369）
+
+故领属格可表所论时点（过去或现在）的单纯所有（来源、既往所有由属格标示）。《精灵宝钻》例 Mindon Eldaliéva「精灵族的塔」，指为精灵族所有的塔。另有 (i) coa i Eldava「精灵的房子/精灵的房子」、i parmar i vendíva「少女们的书」、i míri i Naucoiva「矮人的宝石」。语序上，领属形式在近乎所有存例中为短语末词；被领属名词（所受之物）通常在前。
+
+课程初版写：或可倒置为 ?i Eldava coa，仿英语词序，但宜俟书面确证。2002 年 6 月 VT44:12 出现 Amillë Eruva lissëo「神圣恩宠之母」，字面似「上帝之恩宠之母」。除去 Amillë 及 lissë「恩宠」上属格 -o，余 Eruva lissë 为「上帝之恩宠」。或为领属前置的独例；然逆序仍更常见，lissë Eruva 亦可。下文练习一律让领属形式跟在所饰名词后。
+
+被领属名词在多数例中不加冠词，已足够确定：Róma Oroméva 非不定「奥力某号角之一」；不定义用「松散复合」无格尾：Oromë róma =「一只奥力号角」。Róma Oroméva 即「奥力的号角」，róma 由 Oroméva 限定。亦可加 i róma Oroméva 而不改义；如上一课属格短语。存例 i arani Eldaivë「精灵诸王」（WJ:369；多指集会中的精灵王，而 i arani Eldaron 指精灵中的王或统治精灵的王）。冠词可省：Arani Eldaivë 义同，由 Eldaivë 限定 arani。（-iva 作 -ivë 见下文；或与 LotR 矛盾，可读 Eldaiva。）
+
+领属未必仅窄义「占有」，亦可表人与较抽象属性、性质之关系；此类语境属格亦可用。托尔金言「奥力的荣光」有二式：领属-形容词式 alcar Oroméva，表其 alcar 为永久属性；属格 alcar Oromëo 强调奥力为荣光之源，指「当下所见从其发出或叙事中某刻」——重瞬间非永恒状态（WJ:369）。奇理誓以属格 Elenna·nórëo alcar「埃伦娜之地的荣光」。若改领属 (i) alcar Elenna·nóreva，似强调埃伦娜「荣光」为土地永久属性；中土时代誓时埃伦娜已灭，其「荣光」远非永久，故或许不妥。
+
+自制例 Elenna·nóreva 将领属加于非有情名词，并无不当：有 Taurë Huinéva「幽暗森林」、Nurtalë Valinóreva「维林诺之隐藏」。无有情者时领属语义有别，无「所有」可言。Namárië 首例（多年唯一例）yuldar...lisse-miruvóreva「甘蜜酒之饮」（散文版 RGEO:68 紧贴 yuldar lisse-miruvóreva）。此格尾这里含「（由……）构成」：yuldar 由 lisse-miruvórë「甘蜜酒」组成。依此，rië「冠」、telpë「银」可合为 rië telpeva「银冠」。领属表材料时，被领属名词未必由其「限定」（非必「那顶银冠」）；否则 yuldar lisse-miruvóreva 须作 **「那些甘蜜酒之饮」，而托尔金未如此译。早年仅 Namárië 一例时，研究者称 -va 为「构成格」。此用法须记，今知仅为次要功能之一。
+
+Yet -va 本为形容词尾，故本格易取「描述」功能。托尔金言属格 -o 不宜「作形容词描述性质」（WJ:368），那是 -va 之能。Taurë Huinéva（Etym PHUY）为「幽暗之森林」；taurë「森林」、huinë「深影、幽暗」。几近将 huinéva 作形容词译「幽暗的/阴影的森林」。森林以「幽暗」为特征。-va 可表何物何人之特征。Eruva lissë（VT44:12）亦可归入：可译「上帝之恩宠」，但托尔金译主祷文系列此处为「神圣恩宠」，Eruva 或最好理解为形容词「神圣的」——述恩宠之神圣品质。
+
+「特征」亦可为抽象或行动：早期材料（LT1:14）Mar Vanwa Tyaliéva「失乐小屋」—— mar 以 vanwa tyalië「失落的游戏」为特征（须读 LT1/2 最早 Silmarillion 稿方晓指涉）。然属格亦可用于此类语境：晚文 Quendi and Eldar 有 Rithil-Anamo「末日之环/审判之环」（WJ:401；rithil 古昆雅「环」，流亡昆雅或 risil）。非指魔戒，而指 Máhanaxar。anamo 仅此一见，为 anama/anan（词干 anam-）之属格，义「审判、评判」——圈内所行之法。领属或亦可替用（?Rithil Anamáva / ?Rithil Ananwa）而不改义。
+
+有时难断属格或领属；托尔金之选偶令人惊讶。Noldo-quentasta Ingoldova「英格洛多的诺多史」（VT39:16）——英格洛多为作者。强调 hardly 在其「拥有」该史（除非维林诺有版权争讼）；他是作者、源头，或期望属格。但属格亦可表「关于」（如 Quenta Silmarillion），Noldo-quentasta Ingoldo 属格或解作「关于英格洛多的诺多史」。
+
+有一例与他早先论述公然矛盾：已引其言 lambë Eldaron 不宜表「精灵的语言」（暗示语从他族传来须用领属 lambë Eldaiva）；然极晚材料 PM:395 用 lambë Quendion「精灵的语言」，Quendion 确为复数属格。换 Quendë 代 Elda 或难改系统结论：按 Quendi and Eldar 宜 lambë Quendíva。「神话内」可解为偏好属格、与领属区辨模糊之趋势（WJ:369）。两可时或宜选属格。

@@ -1,0 +1,1404 @@
+{
+  "lesson": 2,
+  "schemaVersion": 2,
+  "oneLineZh": "这一课只做两件事：按词尾把名词变成复数（-r / -i），再用 i 表示「这个／这些」；昆雅用词尾承担英语用小词承担的信息。",
+  "canDoZh": [
+    "给出一个本课名词，能按词尾判断复数用 -r 还是 -i，并写出正确形式",
+    "能解释 tië → tier 与 Quendë → Quendi 为什么走两条不同的路",
+    "能说出 -li 部分复数为何本课不练，并知道去附录哪一节查",
+    "能写出 i 的用法，并列举三类「不该加 i」的情况",
+    "能独立完成练习 A–P，用 keys 核对，并把错题回链到对应规则",
+    "能默写课末 12 个词，并在总词汇表中反查"
+  ],
+  "conceptMap": [
+    {
+      "labelZh": "名词与屈折观",
+      "noteZh": "几百种形式 = 词尾组合，不是几百个词",
+      "sectionId": "nouns-and-forms"
+    },
+    {
+      "labelZh": "两种复数",
+      "noteZh": "-li 部分复数暂缓；只练常规复数",
+      "sectionId": "two-plurals"
+    },
+    {
+      "labelZh": "常规复数 -r",
+      "noteZh": "-a / -i / -o / -u / -ië 结尾",
+      "sectionId": "plural-r"
+    },
+    {
+      "labelZh": "常规复数 -i",
+      "noteZh": "-ë 结尾（替换）与辅音结尾（追加）",
+      "sectionId": "plural-i"
+    },
+    {
+      "labelZh": "例外与史料",
+      "noteZh": "-lë、Ingwer、早期 Qenya；练习边界",
+      "sectionId": "plural-exceptions"
+    },
+    {
+      "labelZh": "「精灵」诸词",
+      "noteZh": "Quendë / Elda / Avari；为什么练习用 Elda",
+      "sectionId": "elf-words"
+    },
+    {
+      "labelZh": "定冠词 i",
+      "noteZh": "i = the；无 a/an",
+      "sectionId": "article-i"
+    },
+    {
+      "labelZh": "冠词省略",
+      "noteZh": "专有名词／整个民族／诗歌格律",
+      "sectionId": "article-omission"
+    },
+    {
+      "labelZh": "本章小结",
+      "noteZh": "原文 Summary + 中文口诀",
+      "sectionId": "summary"
+    },
+    {
+      "labelZh": "课末词汇",
+      "noteZh": "12 个新词 + q-vocab 交叉引用",
+      "sectionId": "vocabulary"
+    },
+    {
+      "labelZh": "练习与答案",
+      "noteZh": "A–P 工作台、考点回链、keys.rtf",
+      "sectionId": "exercises"
+    }
+  ],
+  "pathTitleZh": "第 2 课学习路径（按语法点分层）",
+  "path": [
+    {
+      "step": 1,
+      "labelZh": "名词与屈折观",
+      "sectionId": "nouns-and-forms"
+    },
+    {
+      "step": 2,
+      "labelZh": "两种复数",
+      "sectionId": "two-plurals"
+    },
+    {
+      "step": 3,
+      "labelZh": "常规复数 -r",
+      "sectionId": "plural-r"
+    },
+    {
+      "step": 4,
+      "labelZh": "常规复数 -i",
+      "sectionId": "plural-i"
+    },
+    {
+      "step": 5,
+      "labelZh": "例外与史料",
+      "sectionId": "plural-exceptions"
+    },
+    {
+      "step": 6,
+      "labelZh": "「精灵」诸词精读",
+      "sectionId": "elf-words"
+    },
+    {
+      "step": 7,
+      "labelZh": "定冠词 i",
+      "sectionId": "article-i"
+    },
+    {
+      "step": 8,
+      "labelZh": "冠词省略",
+      "sectionId": "article-omission"
+    },
+    {
+      "step": 9,
+      "labelZh": "本章小结",
+      "sectionId": "summary"
+    },
+    {
+      "step": 10,
+      "labelZh": "课末词汇",
+      "sectionId": "vocabulary"
+    },
+    {
+      "step": 11,
+      "labelZh": "练习与答案",
+      "sectionId": "exercises"
+    }
+  ],
+  "modules": [
+    {
+      "sectionId": "nouns-and-forms",
+      "sourceSectionId": "_preamble",
+      "titleZh": "01 · 名词与「几百种形式」：先建立正确的心理模型",
+      "leadZh": "原著先拿英语名词的四种形式作对照，再说昆雅名词可以有几百种形式。重点不是「要背几百个词形」，而是「少数词尾可以互相组合」。",
+      "objectives": [
+        "能说出名词的判定标准：指称事物，含抽象概念与物质名词",
+        "能用自己的话解释「屈折」与「词尾」的差别",
+        "能说明英语与昆雅在「谁承担语法信息」上的分工差异",
+        "能解释为什么「几百种形式」不等于「几百个要背的词」"
+      ],
+      "rules": [
+        {
+          "id": "rule-noun",
+          "headZh": "名词 = 指称「事物」的词，不限于看得见的实物",
+          "bodyZh": "无生命、有生命、自然物、人造物、具体物、抽象概念（如「恨」）、人名，乃至「金」「水」这类物质，都算名词。中文里「东西」这个词容易让人误以为只指实物，这里要放宽。",
+          "en": "Words that denote things, as opposed to for instance actions, are called nouns.",
+          "zh": "指称事物（而非例如动作）的词称为名词。",
+          "exampleZh": "stone 石 / person 人 / tree 树 / bridge 桥 / hatred 恨 / Peter 人名 / gold 金 / water 水"
+        },
+        {
+          "id": "rule-inflection",
+          "headZh": "屈折 = 改词形来适配语法环境",
+          "bodyZh": "英语 Mary → Mary's（领属）、tree → trees（复数），都是改词形；一个英语名词最多四种形式。昆雅走同一条路，只是把更多语法信息压进词尾。",
+          "en": "a noun can be inflected, that is, it appears in various forms to modify its meaning, or to make it fit into a specific grammatical context",
+          "zh": "名词可以屈折，即以不同形式出现，用以改变词义，或使它适配特定的语法语境。"
+        },
+        {
+          "id": "rule-endings-vs-words",
+          "headZh": "英语用小词前置，昆雅用词尾后置",
+          "bodyZh": "英语说 for / in / on / from / to / of / with + 名词，昆雅把同样的意思做成词尾；此外还有两类复数、双数、以及 -rya-「她的」这类领属词尾。máryat「她的双手」里 -t 就是「成双」的词尾。",
+          "en": "endings expressing meanings that in English would be denoted by placing small words like \"for, in/on, from, to, of, with\" etc. in front of the noun instead",
+          "zh": "这些词尾表达的意思，在英语里是靠把 for、in/on、from、to、of、with 之类的小词放在名词前面来表示的。"
+        }
+      ],
+      "keyPoints": [
+        {
+          "term": "inflection",
+          "termZh": "屈折",
+          "explainZh": "同一个词因语法功能而变形。汉语几乎没有屈折，所以中文学习者要刻意建立「一词多形」的意识。"
+        },
+        {
+          "term": "ending",
+          "termZh": "词尾 / 后缀",
+          "explainZh": "加在词干末尾的语法标记。本课只学其中一类：复数词尾 -r 与 -i。"
+        },
+        {
+          "term": "partitive plural",
+          "termZh": "部分复数",
+          "explainZh": "-li，功能未定，本课只登记不练习，详见附录第一节。"
+        }
+      ],
+      "table": {
+        "captionZh": "英语与昆雅：同一批语法信息放在哪里",
+        "headers": [
+          "语法信息",
+          "英语的做法",
+          "昆雅的做法",
+          "中文类比"
+        ],
+        "rows": [
+          [
+            "复数",
+            "词尾 -s：tree → trees",
+            "词尾 -r / -i：Elda → Eldar",
+            "「们」也是后附成分，但可选"
+          ],
+          [
+            "领属",
+            "Mary's house 中的 -'s",
+            "词尾（如 -rya-「她的」）",
+            "「的」是后置虚词"
+          ],
+          [
+            "「在／从／向／用…」",
+            "前置介词 in / from / to / with",
+            "格词尾（后续课程）",
+            "「在…里」是前置 + 后置框式"
+          ],
+          [
+            "数量：成双",
+            "two / a pair of",
+            "双数词尾 -u / -t（第 3 课）",
+            "「俩」「一双」"
+          ]
+        ]
+      },
+      "closeReadingZh": [
+        {
+          "headZh": "为什么「几百种形式」不是吓人的数字",
+          "bodyZh": "作者给了一个计数类比：数到 250 不需要 250 个不同的数字符号，只要 0–9 十个数字。昆雅同理——词尾种类不多，但数、格、领属等可以叠加，组合数自然膨胀。所以学习策略是「逐个掌握词尾 + 学会组合」，而不是「逐个背词形」。中文母语者尤其要防一个反向误判：汉语靠语序和虚词，容易下意识把昆雅一个长词当成一个不可拆的整体；正确做法是先切出词干，再逐层剥词尾。"
+        },
+        {
+          "headZh": "作者为什么要专门安抚读者",
+          "bodyZh": "他同时挡掉两种极端：一是「昆雅难得可怕」，二是「昆雅是词形丰富的超级语言」。他的判断很克制——两种语言只是组织信息的方式不同：英语偏好一串短词，昆雅偏好把要表达的意思揉成一个大词块。这个定位决定了后面所有章节的学法：每学一个词尾，都问「它在英语／汉语里对应哪个小词」。"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "把 A Quenya noun comes in hundreds of different forms 读成「要背几百个词形」",
+          "right": "记住「少数词尾 × 可组合」；本课只先取「复数」这一维",
+          "whyZh": "原著紧接着就用 0–9 数到 250 的类比否定了这种读法。"
+        },
+        {
+          "wrong": "把词尾 -r 一律理解成「复数标记」",
+          "right": "-r 是否复数要看它是不是附加在词干之后；tasar「柳树」里的 -r 是词干本身",
+          "whyZh": "课末 VOCABULARY 明确提醒：tasar 看起来像 **tasa 的复数，但并不存在 **tasa 这个词。"
+        }
+      ],
+      "recapZh": "昆雅把英语的「小词 + 名词」压成「名词 + 词尾」。形式多，不是词多，是组合多。本课只取「复数」这一维，其余词尾留到后续课文。",
+      "selfCheckZh": [
+        {
+          "qZh": "用一句话说明英语与昆雅在表达「在…里」这类意思时的差别。",
+          "aZh": "英语把 in 之类的小词放在名词前；昆雅把同样的意思做成加在名词末尾的格词尾。"
+        },
+        {
+          "qZh": "máryat「她的双手」里至少叠了几层语法信息？",
+          "aZh": "-rya- 表示领属「她的」，末尾 -t 表示天然成双的一双手。原著即用此例说明词尾可以叠加；至于词干如何切分，这一段并未展开。"
+        },
+        {
+          "qZh": "为什么汉语母语者学昆雅名词时容易「看不出词尾」？",
+          "aZh": "汉语靠语序与虚词、几乎不改词形；需要刻意练习「先切词干、再逐层剥词尾」的阅读动作。"
+        }
+      ],
+      "teachingNoteZh": "先别急着背规则表。把「词尾组合」这个模型立住，后面 -r / -i、格词尾、领属词尾才会显得是同一套机制的延伸，而不是一串孤立词尾。",
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "labelZh": "课文 01"
+      }
+    },
+    {
+      "sectionId": "two-plurals",
+      "sourceSectionId": "_preamble",
+      "titleZh": "02 · 两种复数：-li 先搁置，本课只练「常规复数」",
+      "leadZh": "昆雅有两种复数。作者把 -li 部分复数整段挂起，理由是语义没搞清；本课所有练习只考「常规复数」。",
+      "objectives": [
+        "能说出两种复数的名称与词尾形式",
+        "能复述 -li 的两种竞争性解读（many vs some）",
+        "能解释作者为什么不用 -li 出题",
+        "知道去附录哪一节查 -li 的专题讨论"
+      ],
+      "rules": [
+        {
+          "id": "rule-partitive-li",
+          "headZh": "部分复数 = 名词 + -li",
+          "bodyZh": "托尔金称之为 partitive plural（WJ:388），也在《词源》TELES 条里叫 general pl[ural]。Elda「精灵」→ Eldali。它到底和常规复数在语义上差多少，学界没有定论。",
+          "en": "One is formed by adding the ending -li to the noun. Tolkien called this the \"partitive plural\" (WJ:388) or a \"general pl[ural]\"",
+          "zh": "其中一种是在名词后加词尾 -li。托尔金称之为「部分复数」（WJ:388），或「一般复数」。",
+          "exampleZh": "Elda → Eldali（不是本课练习答案；练习里 Elves 用 Eldar）"
+        }
+      ],
+      "exceptions": [
+        {
+          "titleZh": "-li 的语义未定：先「许多」，后「某些／一些」",
+          "bodyZh": "长期以来的解读是 Eldali ≈ many Elves「许多精灵」；但若干现存例句里看不出「许多」的含义。另一种提议是 several / some Elves，即「某个更大群体中的一部分」——「部分复数」这个名称本身也指向这个方向。材料太少，作者拒绝把如此试探性的结论喂给做题的学生。",
+          "sourceEn": "However, I will for the most part leave the partitive plural alone throughout this course.",
+          "anchor": "../appendix.html#appendix-what-is-the-function-of-the-partitive-plural"
+        }
+      ],
+      "table": {
+        "captionZh": "两种复数对照（本课只考右列）",
+        "headers": [
+          "复数类型",
+          "词尾",
+          "例",
+          "本课是否出题"
+        ],
+        "rows": [
+          [
+            "部分复数 / general plural",
+            "-li",
+            "Elda → Eldali",
+            "否；功能未定，见附录"
+          ],
+          [
+            "常规复数（本课重点）",
+            "-r / -i",
+            "Elda → Eldar、aran → arani",
+            "是；A–P 全部按此规则"
+          ]
+        ]
+      },
+      "closeReadingZh": [
+        {
+          "headZh": "为什么一门课敢整段跳过一个语法点",
+          "bodyZh": "因为「能造出形式」和「知道什么时候用」是两件事。-li 的形式有据（Plotz Letter、Namárië 等），但功能只有推测；若拿推测出题，学生会把它内化成规则。作者的处理是把证据分级：正文只教可检验的规则，附录收纳证据不足、不宜出题的专题，并明说自己也无法保证托尔金不会在某处用 -li 代替常规复数。读附录时也要保持这个分级意识。"
+        },
+        {
+          "headZh": "中文学习者要防的直觉",
+          "bodyZh": "汉语的「一些」「许多」是可选修饰语，不影响名词本身；昆雅却把「部分」做进词尾。因此不要把 Eldali 直接对译成「许多精灵」然后当规则用——那只是早期研究者的一种假说。"
+        }
+      ],
+      "recapZh": "-li 是部分复数，形式明确、功能存疑；本课不练、不考。练习里所有「复数」都指常规复数 -r / -i。",
+      "selfCheckZh": [
+        {
+          "qZh": "作者给 -li 找了哪两种语义解释？",
+          "aZh": "早期认为是「许多」（many Elves）；后来倾向「若干／某些」（several / some Elves），即大群体中的一个子集。"
+        },
+        {
+          "qZh": "练习 J「Elves.」为什么答案是 Eldar 而不是 Eldali？",
+          "aZh": "课程约定练习只用常规复数；Elda 以 -a 结尾，常规复数加 -r 得 Eldar。"
+        },
+        {
+          "qZh": "想深究 -li 应该打开哪个页面？",
+          "aZh": "全站「附录」页第一节 WHAT IS THE FUNCTION OF THE PARTITIVE PLURAL?，那里同时讨论构形与语义之争。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          5
+        ],
+        "labelZh": "课文 02"
+      }
+    },
+    {
+      "sectionId": "plural-r",
+      "sourceSectionId": "_preamble",
+      "titleZh": "03 · 常规复数之一：-r（元音结尾与 -ië）",
+      "leadZh": "第一条可操作的规则：以 -a / -i / -o / -u 结尾，或以 -ië 结尾的名词，复数加 -r。《精灵宝钻》里大量族群名称都是这个类型。",
+      "objectives": [
+        "能背出「加 -r」的五种词尾形状",
+        "能把 Elda / Vala / Ainu / Noldo / Valië 正确变复数",
+        "能解释 tië → tier 为什么去掉分音符",
+        "能说出 quendi → quendir 属于哪一类"
+      ],
+      "rules": [
+        {
+          "id": "rule-plural-r",
+          "headZh": "-a / -i / -o / -u / -ië 结尾 → 加 -r",
+          "bodyZh": "直接追加，不改动词干。原著给的例子都是《精灵宝钻》里的族群名，正好覆盖四类元音；-ië 单独列出，因为它含 -ë 却走 -r，是最容易误判的一组。",
+          "en": "Nouns ending in any of the four vowels -a, -o, -i or -u , plus nouns ending in the group -ië, form their plural with the ending -r.",
+          "zh": "以 -a、-o、-i、-u 四个元音中任意一个结尾的名词，以及以 -ië 这一组结尾的名词，都用词尾 -r 构成复数。",
+          "exampleZh": "Elda → Eldar｜Vala → Valar｜Ainu → Ainur｜Noldo → Noldor｜Valië → Valier｜lië → lier",
+          "noteZh": "注意 -ië 是整体：虽然末位是 -ë，但不按 -ë → -i 的规则处理。"
+        },
+        {
+          "id": "rule-ie-spelling",
+          "headZh": "-ië 加 -r 后写成 -ier，分音符要去掉",
+          "bodyZh": "ë 上的两点只是拼写提示：告诉读者词末的 e 要发音、不是哑音。一旦加了词尾，这个 e 不再位于词末，提示就没有必要了，两点随之消失。Namárië 里 tië「路」→ tier「众路」即此。",
+          "en": "the diaeresis in tië is dropped in the plural form tier because the dots are there merely to mark that final -ë is not silent",
+          "zh": "tië 中的分音符在复数 tier 里被省去，因为那两点只是用来标记词末 -ë 不哑音。",
+          "exampleZh": "tië → tier（原著明确否定 **tii 这一拗口形式）"
+        }
+      ],
+      "table": {
+        "captionZh": "走 -r 的词尾形状与例词",
+        "headers": [
+          "单数词尾",
+          "复数形式",
+          "原著例词",
+          "本课词例"
+        ],
+        "rows": [
+          [
+            "-a",
+            "+-r → -ar",
+            "Elda → Eldar、Vala → Valar",
+            "Elda → Eldar"
+          ],
+          [
+            "-o",
+            "+-r → -or",
+            "Noldo → Noldor",
+            "rocco → roccor"
+          ],
+          [
+            "-u",
+            "+-r → -ur",
+            "Ainu → Ainur；quendu → quendur",
+            "—"
+          ],
+          [
+            "-i",
+            "+-r → -ir",
+            "quendi → quendir（MR:229）",
+            "tári（本课练习只用单数）"
+          ],
+          [
+            "-ië",
+            "去两点 +-r → -ier",
+            "Valië → Valier、tië → tier",
+            "lië → lier"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Elda \"Elf\", plural Eldar",
+          "zh": "Elda「精灵」，复数 Eldar「精灵们／众精灵」",
+          "whyZh": "-a 结尾走 -r；练习 J 的答案就是它。"
+        },
+        {
+          "en": "For another example of -ië, cf. tier for \"paths\" in Namárië; compare singular tië \"path\".",
+          "zh": "再看一个 -ië 的例子：《Namárië》里表「众路」的 tier，对照单数 tië「路」。",
+          "whyZh": "-ië 不走 -ë → -i，而走 -r；否则会造出作者明确否定的 **tii。"
+        },
+        {
+          "en": "in MR:229 we have quendir as the pl. of quendi \"Elf-woman\"",
+          "zh": "MR:229 里 quendir 是 quendi「精灵女子」的复数。",
+          "whyZh": "单数 quendi 以 -i 结尾，按规则加 -r；不要把它和专有名词 Quendi「众精灵」混为一谈。"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "tië → **tii（照搬 -ë → -i）",
+          "right": "tië → tier",
+          "whyZh": "-ië 被作者整体划入 -r 类，且明确指出 **tii 是要避免的拗口形式。"
+        },
+        {
+          "wrong": "把 Valië、lië 照搬「-ë → -i」（会得到双 i 相连的形式，参原著 **tii）",
+          "right": "Valië → Valier／lië → lier",
+          "whyZh": "同一条 -ië 规则；练习 L「Peoples.」答案 lier 就是这个。"
+        },
+        {
+          "wrong": "把 ë 当成独立元音音位去记「ë → i」的音变",
+          "right": "ë 只是拼写标记，规则看的是词尾形状",
+          "whyZh": "两点的作用是防止英语读者把词末 -e 读成哑音，与音值无关。"
+        }
+      ],
+      "closeReadingZh": [
+        {
+          "headZh": "为什么 -ië 偏偏走 -r",
+          "bodyZh": "原著在讲 -ië 时直接给出动机：若按「-ë → -i」处理，tië 会变成 **tii，而作者用 Hence we avoid the awkward plural form **tii 明确说这是要避开的拗口形式。所以 -ië 整体走 -r、普通 -ë 走 -i，是有原文依据的分工，不是要死记的任意例外。"
+        },
+        {
+          "headZh": "为什么作者要插一段拼写说明",
+          "bodyZh": "因为英文读者看到 tië 与 tier 会以为「元音变了」。实际上发音环境没变，只是分音符的适用条件（e 在词末）消失了。中文学习者没有英语哑音 e 的负担，反而容易理解：把它当成「拼音标注」而不是「另一个字母」。"
+        }
+      ],
+      "recapZh": "四个单元音 + -ië → 加 -r；-ië 加 -r 写 -ier 并去掉两点。口诀：见 -ië，别当 -ë。",
+      "selfCheckZh": [
+        {
+          "qZh": "写出 rocco、Elda、lië 的常规复数。",
+          "aZh": "roccor、Eldar、lier。"
+        },
+        {
+          "qZh": "为什么 tier 里没有 ë 上的两点？",
+          "aZh": "两点只标记词末 -ë 要发音；加了词尾后 e 不再在词末，标记失效。"
+        },
+        {
+          "qZh": "quendir 是哪种词尾形状的复数？",
+          "aZh": "单数 quendi 以 -i 结尾，按规则加 -r。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "labelZh": "课文 03"
+      }
+    },
+    {
+      "sectionId": "plural-i",
+      "sourceSectionId": "_preamble",
+      "titleZh": "04 · 常规复数之二：-i（-ë 结尾与辅音结尾）",
+      "leadZh": "第二条可操作的规则分两种情形：-ë 结尾是「替换」，辅音结尾是「追加」。作者顺带交代了 -r 与 -i 的历史层次，说明它们不是新旧替代关系。",
+      "objectives": [
+        "能区分「-i 替换 -ë」与「-i 追加到辅音后」",
+        "能写出 Quendë / vendë / aran / tasar / elen 的复数",
+        "能解释为什么 -r 与 -i 并存而不是一旧一新",
+        "能辨析单数 quendi 与复数 Quendi"
+      ],
+      "rules": [
+        {
+          "id": "rule-plural-i",
+          "headZh": "-ë 结尾 → -i 替换词末 -ë（不是叠加）",
+          "bodyZh": "Quendë → Quendi、vendë → vendi、lassë → lassi。托尔金在 WJ:361 说「以 -e 结尾的名词，大多数以 -i 构成复数」——注意 majority 一词已经预告了例外。",
+          "en": "nouns ending in -ë typically form their plurals in -i, and as we see, this -i replaces the final -ë instead of being added to it",
+          "zh": "以 -ë 结尾的名词通常以 -i 构成复数；可以看到，这个 -i 是替换词末的 -ë，而不是加在它后面。",
+          "exampleZh": "Quendë → Quendi｜vendë → vendi｜lassë → lassi"
+        },
+        {
+          "id": "rule-consonant-i",
+          "headZh": "辅音结尾 → 直接加 -i",
+          "bodyZh": "elen「星」→ Eleni（Namárië、WJ:362）、Atan → Atani「人类」、Casar「矮人」→ Casari（WJ:388）。课末词里 aran → arani、tasar → tasari 同属此类。",
+          "en": "These nouns, just like those that end in -ë, are seen to have plurals in -i.",
+          "zh": "这些名词与以 -ë 结尾的名词一样，复数也用 -i。",
+          "exampleZh": "aran → arani（练习 E、K）｜tasar → tasari（练习 I）｜elen → Eleni",
+          "noteZh": "tasar 词末的 -r 是词干的一部分，不是复数词尾；别把它当成已经变过复数。"
+        }
+      ],
+      "table": {
+        "captionZh": "第 2 课完整复数判定表（练习只考此表）",
+        "headers": [
+          "单数词尾",
+          "复数规则",
+          "例",
+          "练习对应题"
+        ],
+        "rows": [
+          [
+            "-a / -i / -o / -u",
+            "追加 -r",
+            "Elda → Eldar、rocco → roccor",
+            "A、J"
+          ],
+          [
+            "-ië",
+            "去两点 + -r",
+            "lië → lier",
+            "L"
+          ],
+          [
+            "-ë（不含 -ië）",
+            "-i 替换 -ë",
+            "vendë → vendi",
+            "H、O"
+          ],
+          [
+            "辅音",
+            "追加 -i",
+            "aran → arani、tasar → tasari",
+            "E、I、K"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Quendi is the plural form of Quendë \"Elf\"; nouns ending in -ë typically form their plurals in -i",
+          "zh": "Quendi 是 Quendë「精灵」的复数；以 -ë 结尾的名词通常以 -i 构成复数。",
+          "whyZh": "替换式变化：原著说这个 -i 是取代词末 -ë，而不是加在它后面。"
+        },
+        {
+          "en": "Eleni \"stars\", the plural form of elen \"star\", occurs in Namárië",
+          "zh": "《Namárië》里出现 Eleni「众星」，是 elen「星」的复数。",
+          "whyZh": "辅音结尾直接加 -i；同一形式在冠词章节还会以 i eleni「那些星」再次出现。"
+        },
+        {
+          "en": "This singular word quendi \"Elf-woman\" must not be confused with the plural word Quendi",
+          "zh": "单数词 quendi「精灵女子」不可与复数词 Quendi「众精灵」混淆。",
+          "whyZh": "一个是以 -i 结尾的单数名词（复数为 quendir），一个是 Quendë 的复数；靠大小写与语境区分。"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "把 -i 当成追加，直接接在 -ë 之后",
+          "right": "Quendë → Quendi／vendë → vendi",
+          "whyZh": "-i 是替换词末 -ë，不是追加。"
+        },
+        {
+          "wrong": "给辅音结尾的 aran 加 -r",
+          "right": "aran → arani",
+          "whyZh": "辅音结尾归 -i 类；-r 只给元音结尾的名词。"
+        },
+        {
+          "wrong": "tasar 已经是复数，单数应作 **tasa",
+          "right": "tasar 是单数「柳树」，复数 tasari",
+          "whyZh": "-r 是词干本身；课末词汇表专门提醒过，且练习 I 答案 Tasari 可反证。"
+        }
+      ],
+      "closeReadingZh": [
+        {
+          "headZh": "为什么 -ë 是「替换」而不是「叠加」",
+          "bodyZh": "原著只陈述事实：-i 是「取代」词末 -ë，而不是「加在后面」；并交代它来自原始精灵语 -î，没有进一步解释原因。作者引 WJ:361 时特意保留 the majority of which 的措辞，是因为例子里确有 -ë 名词走 -r（下一模块）。读原著时留意这类限定词，它们往往就是例外的入口。"
+        },
+        {
+          "headZh": "为什么两套复数词尾能长期并存",
+          "bodyZh": "历史层次上 -i 更古老：直接来自原始精灵语 -î，Quendi 对应原始 Kwendî；-r 是后起的「表示众多」的手段，PM:402 说这一创新始于Noldor。但作者随即补了一句现实层面的事实：在托尔金的构思里，两者从一战期间的早期「Qenya」到 1973 年一直并存（Qendi 与 Eldar 同期出现）。所以别把 -r 当成「更新的规则」去替换 -i——它们是按词尾形状分工的两套，同时有效。"
+        },
+        {
+          "headZh": "对中文学习者的实际影响",
+          "bodyZh": "汉语复数不靠词尾，容易只记住「加个东西」。这里要记两个动作：替换（删 -ë 再写 -i）与追加（辅音后写 -i）。做题时先圈出词干最后一个字母，再选动作，比凭语感快且不易错。"
+        }
+      ],
+      "recapZh": "-ë → 删 ë 写 i；辅音 → 直接写 i；其余元音与 -ië → 写 r。-r 与 -i 是分工，不是新旧。",
+      "selfCheckZh": [
+        {
+          "qZh": "写出 vendë、aran、tasar、lië 的复数。",
+          "aZh": "vendi、arani、tasari、lier。"
+        },
+        {
+          "qZh": "Quendi 和 quendi 有什么区别？",
+          "aZh": "Quendi 是 Quendë「精灵」的复数（专有／通称）；小写 quendi 是单数「精灵女子」，其复数为 quendir。"
+        },
+        {
+          "qZh": "为什么说 -r 不是「后来取代 -i 的新规则」？",
+          "aZh": "托尔金构思中两者自 1915 到 1973 一直并存；它们按词尾形状分配，而非历时替代。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          13,
+          16,
+          17
+        ],
+        "labelZh": "课文 04"
+      }
+    },
+    {
+      "sectionId": "plural-exceptions",
+      "sourceSectionId": "_preamble",
+      "titleZh": "05 · 例外、史料与「考试边界」",
+      "leadZh": "作者用整整一段列出 -ë 名词不走 -i 的各种情形，最后明确划界：本课的练习词全部遵循常规规则。这一段的价值是「知道边界在哪」，不是「背例外」。",
+      "objectives": [
+        "能列出至少三类 -ë 名词用 -r 的情形",
+        "能说清 Parma Eldalamberon 这个名称错在哪",
+        "能解释为什么早期 Qenya 的 lasser 不能当标准昆雅",
+        "能复述作者对练习题的承诺及其教学含义"
+      ],
+      "rules": [
+        {
+          "id": "rule-exercise-boundary",
+          "headZh": "本课练习词一律走常规规则",
+          "bodyZh": "作者明确承诺：练习里出现的词都遵循「-ë（不含 -ië）→ -i」这条常规规则。所以做题时遇到看似例外的形式，先回查自己有没有判错词尾，而不是怀疑题目超纲。",
+          "en": "As far as I know, the words in the exercises below all follow the normal rule: Nouns ending in -ë, except as a part of -ië, have plurals in -i.",
+          "zh": "据我所知，下面练习里的词都遵循常规规则：以 -ë 结尾（作为 -ië 一部分者除外）的名词，复数用 -i。",
+          "exampleZh": "练习 H Vendi、O i vendi 都是 vendë → vendi，没有例外。"
+        }
+      ],
+      "exceptions": [
+        {
+          "titleZh": "-ië 已讲：tier 而非 **tii",
+          "bodyZh": "这是最容易解释的一类例外：-ë 属于 -ië 时走 -r，复数为 -ier，同时避开 **tii。",
+          "sourceEn": "Hence we avoid the awkward plural form **tii.",
+          "anchor": "#rule-ie-spelling"
+        },
+        {
+          "titleZh": "-lë 类：tyeller / maller，而非 **tyelli / **malli",
+          "bodyZh": "《魔戒》附录 E 有 tyeller「等级」（tyellë 的复数）；LR:47 记 mallë「路」的复数是 maller。作者猜测：若按常规写 **-li，会与部分复数词尾 -li 撞形，故避用。但他明说例证不足以证实或否证，因此不据此出题，只在自己写作时遵循。",
+          "sourceEn": "It may be that nouns in -lë have plurals in -ler because \"regular\" **-li might cause confusion with the partitive plural ending -li",
+          "anchor": "#unit-_preamble-14"
+        },
+        {
+          "titleZh": "早期研究者的误判：Parma Eldalamberon",
+          "bodyZh": "tyeller 曾让早期研究者误以为 -ë 名词普遍变 -er，于是把 lambë「语言」的复数写成 **lamber，用进早期期刊名 Parma Eldalamberon「精灵语之书」。现在已知正确复数是 lambi；错误虽早已被公认，刊名却没改成 Parma Eldalambion。作者的站名 Ardalambion 也因此常被新生问「为什么不叫 Ardalamberon」。",
+          "sourceEn": "the correct plural must be lambi",
+          "anchor": "#unit-_preamble-14"
+        },
+        {
+          "titleZh": "托尔金自己也不一致：Ingwi 与 Ingwer",
+          "bodyZh": "PM:332 记 Ingwë「第一亲族精灵／其王」的复数为 Ingwi，符合预期；几页之后的 PM:340 却出现 Ingwer，并说Vanyar自称 Ingwer——也许是Vanyar的特殊用法。",
+          "sourceEn": "In PM:332, the plural form of Ingwë \"Elf of the First Clan [also name of the king of that clan]\" is given as Ingwi, just as we would expect; yet a few pages later, in PM:340, we find Ingwer instead",
+          "anchor": "#unit-_preamble-14"
+        },
+        {
+          "titleZh": "历时差异：早期 Qenya 更多 -er",
+          "bodyZh": "早期诗 Narqelion 里 lassë「叶」的复数是 lasser，而《魔戒》Namárië 里托尔金用的是 lassi。早期材料不能当作第三纪昆雅的规则。",
+          "sourceEn": "the early poem Narqelion has lasser as the plural of lassë \"leaf\", but in Namárië in LotR Tolkien used the plural form lassi",
+          "anchor": "#unit-_preamble-14"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "由 tyeller 推出「-ë 名词普遍变 -er」",
+          "right": "-er 只是少数／早期／存疑形式；常规仍是 -i",
+          "whyZh": "这正是早期研究者犯过、并遗留到期刊名里的错误。"
+        },
+        {
+          "wrong": "拿 Narqelion 的 lasser 当作标准昆雅复数",
+          "right": "以《魔戒》时期的 lassi 为准",
+          "whyZh": "托尔金的语言设定历经数十年演变，早期 Qenya 与后续昆雅不是同一阶段。"
+        },
+        {
+          "wrong": "把作者的猜测（-lë 避撞 -li）当成可考规则",
+          "right": "登记为「存疑假说」，练习不考",
+          "whyZh": "原文明说缺少更多例证来证实或否证，且拒绝据此出题。"
+        }
+      ],
+      "closeReadingZh": [
+        {
+          "headZh": "为什么作者把例外讲得这么细，却一道题都不考",
+          "bodyZh": "这是很值得学的一种教学设计：把「有文献证据的规则」「托尔金本人前后不一致」「研究者的历史误判」「作者自己的推测」四层信息分开陈列，最后只用第一层出题。学生因此知道规则的可靠程度，而不会把「书里出现过」自动升级成「可以用」。中文学习材料里常把这类史料压成一句「有例外」，反而让人不知道哪些例外值得记。"
+        },
+        {
+          "headZh": "读原文时该怎么抓重点",
+          "bodyZh": "盯限定措辞：as far as I know、It may be、Unfortunately we lack more examples、I don't dare to construct any exercises。这些句子标记的是证据等级，而不是客套话。本模块的「边界规则」正是从这种措辞里读出来的。"
+        }
+      ],
+      "recapZh": "例外分四类：-ië、-lë（存疑）、托尔金前后不一、早期 Qenya；只有「-ië」进入本课规则。练习词全部遵循常规规则，遇到「例外」先查自己判没判错词尾。",
+      "selfCheckZh": [
+        {
+          "qZh": "Parma Eldalamberon 这个刊名错在哪里？正确形式应该是什么？",
+          "aZh": "把 lambë「语言」的复数误作 **lamber；正确是 lambi，刊名按此应为 Parma Eldalambion。"
+        },
+        {
+          "qZh": "lasser 与 lassi 哪个能用于本课练习？",
+          "aZh": "lassi。《Namárië》代表《魔戒》时期昆雅；lasser 出自早期 Qenya 的 Narqelion。"
+        },
+        {
+          "qZh": "做题时遇到看着像例外的词，第一步该做什么？",
+          "aZh": "回查词尾判定（是否 -ië、是否辅音结尾、词末 -r 是否属于词干），因为作者承诺练习词都走常规规则。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          14,
+          15
+        ],
+        "labelZh": "课文 05"
+      }
+    },
+    {
+      "sectionId": "elf-words",
+      "sourceSectionId": "_preamble",
+      "titleZh": "06 · 精读：为什么昆雅有不止一个「精灵」",
+      "leadZh": "这是本课唯一一整段 NOTE。它讲的是词义与叙事设定，不是新语法，但直接决定练习里 Elf 该译作哪个词。",
+      "objectives": [
+        "能画出 Quendi = Eldar + Avari 的关系",
+        "能区分 Quendë / Elda / quendu / quendi / nér / nís",
+        "能说明为什么本课程练习统一用 Elda",
+        "能解释 Eldalië 的构词与语义范围"
+      ],
+      "keyPoints": [
+        {
+          "term": "Quendë pl. Quendi",
+          "termZh": "「能言者」／众精灵（通称）",
+          "explainZh": "适用最广，关联 quet-「说」与原始词根 KWE-；后成为博学大师使用的技术性通称，日常少用。"
+        },
+        {
+          "term": "Elda pl. Eldar",
+          "termZh": "「星之民」／艾尔达",
+          "explainZh": "源自欧洛米所赐 Eldâi；后专指接受维拉邀请、踏上大远行的精灵（含未抵达Aman的Sindar）。本课练习标准译法。"
+        },
+        {
+          "term": "Avari",
+          "termZh": "「拒绝者」",
+          "explainZh": "拒绝邀请者。Quendi 可二分为 Eldar + Avari，叙事里几乎不出现。"
+        },
+        {
+          "term": "Eldalië",
+          "termZh": "「精灵之民」",
+          "explainZh": "Elda + lië「族民、百姓」的复合；WJ:374 说使用者「大概没在想Avari」。"
+        }
+      ],
+      "table": {
+        "captionZh": "「精灵」相关词辨析",
+        "headers": [
+          "词",
+          "含义",
+          "范围 / 语体",
+          "本课练习"
+        ],
+        "rows": [
+          [
+            "Quendë pl. Quendi",
+            "精灵（通称）",
+            "所有精灵；技术性、博学大师用语",
+            "不用"
+          ],
+          [
+            "Elda pl. Eldar",
+            "艾尔达／星之民",
+            "接受邀请者；日常通用词",
+            "用（J 题 Eldar）"
+          ],
+          [
+            "Avari",
+            "拒绝者",
+            "拒绝邀请者，叙事中几乎不出现",
+            "不用"
+          ],
+          [
+            "quendu / quendi",
+            "精灵男子／精灵女子",
+            "性别特指，非通用「男人／女人」",
+            "不用"
+          ],
+          [
+            "nér / nís",
+            "男人／女人",
+            "适用于任何有智种族",
+            "不用"
+          ],
+          [
+            "lië / Eldalië",
+            "族民／精灵之民",
+            "lië 指整个族群；本课词汇表词",
+            "用（F、L 题）"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Elda \"Elf\", plural Eldar",
+          "zh": "Elda「精灵」，复数 Eldar",
+          "whyZh": "练习里 Elf 的标准译法；按 -a → -r 变形。"
+        },
+        {
+          "en": "This form is at least associated with the word \"to speak\" (quet-), and Tolkien speculated that ultimately these words were indeed related via a very primitive base KWE- having to do with vocal speech (see WJ:391-392).",
+          "zh": "这个形式至少与 quet-「说」相关联；托尔金还推测二者最终同源，经由一个与发声言语有关的极原始词基 KWE-（WJ:391-392）。",
+          "whyZh": "解释了精灵自称「能言者」的由来：初醒时他们不知道还有别的会说话的生灵。"
+        },
+        {
+          "en": "Eldalië (which combines Elda with lië \"people, folk\")",
+          "zh": "Eldalië 由 Elda 与 lië「族民、百姓」复合而成。",
+          "whyZh": "课末词 lië 的复数 lier（练习 L）正是从这个词来的。"
+        }
+      ],
+      "closeReadingZh": [
+        {
+          "headZh": "一段命名史，解释了两套词的来历",
+          "bodyZh": "精灵在 Cuiviénen 湖畔醒来时自称 Quendi（原始精灵语实为 Kwendî），因为很长一段时间里他们不知道还有其他会说话的生灵；托尔金推测这些词与原始词根 KWE-（发声说话）有关。后来维拉欧洛米在星空下找到他们，用他们自己发展出的语言给了新名 Eldâi，常译「星之民」，昆雅里演变为 Eldar（单数 Elda）。"
+        },
+        {
+          "headZh": "语义为什么会收缩成二分",
+          "bodyZh": "Eldar 起初指整个精灵种族，后来只用于接受维拉邀请、前往并居住于Aman、踏上大远行的一支（也适用于途中留在Beleriand、未真正抵达Aman的Sindar／灰精灵）。拒绝者称 Avari「拒绝者」。于是所有精灵 Quendi = Eldar + Avari；叙事里重要的只有前者。到后期昆雅，Quendë/Quendi 保留为唯一真正 universal 的通称，但成了博学大师的技术用语，日常口语说 Elda。"
+        },
+        {
+          "headZh": "这条 NOTE 对做题有什么用",
+          "bodyZh": "作者明说：本课程练习一律用 Elda 译 English「Elf」，不管它在神话里有多专门的含义；导言里也说过练习尽量避开托尔金叙事的具体指涉。所以练习 J「Elves.」的答案只能是 Eldar，不能写 Quendi。把这条约定当成「课程内部术语表」记，比纠结神话设定更有效。"
+        },
+        {
+          "headZh": "三组最容易混的形式",
+          "bodyZh": "① 小写单数 quendi「精灵女子」vs 大写复数 Quendi「众精灵」（前者复数 quendir）；② quendu/quendi 是「精灵男人／女人」的特指，通用「男人／女人」是 nér/nís；③ Eldalië 里的 lië 是「族民」，不是部分复数 -li，附录第一节则指出二者同源于词根 LI。作者引 WJ:374 说，Aman的精灵用 Eldalië 时「笼统地指整个精灵种族，大概没在想Avari」。"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "把练习 J 的 Elves 译成 Quendi",
+          "right": "译成 Eldar",
+          "whyZh": "作者明确约定练习用 Elda 作 Elf 的标准译法，避开神话专门含义。"
+        },
+        {
+          "wrong": "把 quendi 当成 Quendi 的单数",
+          "right": "quendi 是阴性单数「精灵女子」；Quendi 是 Quendë 的复数",
+          "whyZh": "原文用 must not be confused with 专门提醒，且 quendi 的复数是 quendir。"
+        },
+        {
+          "wrong": "把 lië 当成部分复数词尾 -li",
+          "right": "lië 是独立名词「族民、百姓」，复数 lier",
+          "whyZh": "两者同源于 LI，但一个是词、一个是词尾；练习 L 答案 lier 可反证。"
+        }
+      ],
+      "recapZh": "Quendi = Eldar + Avari；Quendë 是技术通称，Elda 是日常词，也是本课练习的标准译法。lië「族民」→ lier。",
+      "selfCheckZh": [
+        {
+          "qZh": "用等式写出 Quendi、Eldar、Avari 的关系。",
+          "aZh": "Quendi（所有精灵）= Eldar（接受邀请者）+ Avari（拒绝者）。"
+        },
+        {
+          "qZh": "为什么作者不直接教 Quendë 而用 Elda？",
+          "aZh": "Quendë 虽是最通用的通称，却是博学大师的技术用语；日常词是 Elda，且课程练习刻意避开神话叙事细节。"
+        },
+        {
+          "qZh": "「男人／女人」在昆雅里的通用词是什么？",
+          "aZh": "nér 与 nís；quendu/quendi 只用于特指精灵性别。"
+        }
+      ],
+      "teachingNoteZh": "这一节没有新词尾，但可以顺手复习两条已学规则：Elda → Eldar（-a → -r）、lië → lier（-ië → -ier）。",
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          18
+        ],
+        "labelZh": "课文 06 · NOTE"
+      }
+    },
+    {
+      "sectionId": "article-i",
+      "sourceSectionId": "the-article",
+      "titleZh": "07 · 定冠词 i：昆雅只有一个冠词",
+      "leadZh": "昆雅只有一个冠词 i，对应英语 the；没有 a/an。对中文母语者来说，「没有冠词」并不陌生，真正要练的是反向翻译时别硬加词。",
+      "objectives": [
+        "能写出 i = the，并给出 i eleni 的分析",
+        "能解释为什么昆雅不需要不定冠词",
+        "能把 Elen síla… 里的 elen 正确译成「一颗星／星」",
+        "能辨认 i-mar / i·coimas 只是书写变体"
+      ],
+      "rules": [
+        {
+          "id": "rule-article-i",
+          "headZh": "定冠词 i = 英语 the",
+          "bodyZh": "因为昆雅没有不定冠词需要与之区分，讨论昆雅时可以直接说「冠词」。《Namárië》里 i eleni「那些星」即 i + 复数 Eleni。",
+          "en": "The Quenya word corresponding to English \"the\" is i.",
+          "zh": "与英语 the 对应的昆雅词是 i。",
+          "exampleZh": "i eleni「那些星」｜i rocco「那匹马」｜i roccor「那些马」"
+        },
+        {
+          "id": "rule-no-indefinite",
+          "headZh": "没有 a/an：无冠词即不定",
+          "bodyZh": "昆雅无法区分 a star 与 star，两者都是 elen。英译时按英语语法需要补 a：Elen síla lúmenn' omentielvo 译作「一颗星照耀在我们相会的时刻」。阿拉伯语、希伯来语、古典希腊语、世界语都是同型系统。",
+          "en": "Quenya has no word corresponding to English \"a, an\".",
+          "zh": "昆雅没有与英语 a、an 相对应的词。",
+          "exampleZh": "elen =「星」或「一颗星」；arani =「国王们」或「一些国王」。",
+          "noteZh": "定冠词「缺席」本身已足以标记普通名词是不定的，不定冠词在信息上是冗余的。"
+        }
+      ],
+      "table": {
+        "captionZh": "英语冠词 → 昆雅",
+        "headers": [
+          "英语",
+          "昆雅",
+          "说明",
+          "本课例"
+        ],
+        "rows": [
+          [
+            "the horse",
+            "i rocco",
+            "i + 单数",
+            "练习 C"
+          ],
+          [
+            "the horses",
+            "i roccor",
+            "i + 复数（-r）",
+            "练习 D"
+          ],
+          [
+            "a horse / horse",
+            "rocco",
+            "不加任何词",
+            "练习 B 的 Aran 同理"
+          ],
+          [
+            "a star shines…",
+            "Elen síla…",
+            "英译时按英语语法补 a",
+            "课文原句"
+          ]
+        ]
+      },
+      "examples": [
+        {
+          "en": "Namárië has i eleni for \"the stars\".",
+          "zh": "《Namárië》里用 i eleni 表示「那些星」。",
+          "whyZh": "i 不随数变化；复数体现在名词词尾 Eleni 上，不是冠词上——这和英语 the 一样，但和汉语「这些」不同。"
+        },
+        {
+          "en": "Elen síla lúmenn' omentielvo, \"a star shines upon the hour of our meeting\"",
+          "zh": "Elen síla lúmenn' omentielvo，「一颗星照耀在我们相会的时刻」。",
+          "whyZh": "句首只有 elen，没有任何对应 a 的成分；a 是英译时补的。"
+        },
+        {
+          "en": "Sometimes, Tolkien connects the article to the next word by means of a hyphen or a dot: i-mar \"the earth\" (Fíriel's Song), i·coimas \"the lifebread\" (PM:396).",
+          "zh": "i-mar「大地」、i·coimas「生命之粮」。",
+          "whyZh": "连字符／中点只是把 i 与后一词连写，不是另一个冠词；《魔戒》里不这么写，本课程也不采用。"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "看到中文「一匹马」就在昆雅里加一个词",
+          "right": "直接写 rocco",
+          "whyZh": "昆雅没有不定冠词；「一」是汉语／英语的表达习惯，不是昆雅的语法成分。"
+        },
+        {
+          "wrong": "把 i-mar 里的连字符当成屈折或复合词标记",
+          "right": "只是书写连写变体",
+          "whyZh": "作者明说《魔戒》不用这种写法，本课也不采用。"
+        },
+        {
+          "wrong": "以为 i 要随单复数变形",
+          "right": "i 恒定；数由名词词尾表达",
+          "whyZh": "i rocco / i roccor 对照可见，变的只有名词。"
+        }
+      ],
+      "closeReadingZh": [
+        {
+          "headZh": "为什么少一个冠词反而是「更简单」",
+          "bodyZh": "作者的逻辑是信息论式的：如果「有 the」表示确定，那么「没有 the」已经足够表示不确定，再设一个专门的 a/an 属于冗余。托尔金索性不要它，学生只需记 i = the。汉语同样没有冠词系统，所以中文学习者理解「elen 可译『星』也可译『一颗星』」并不难；难点在反向——从中文／英文译回昆雅时，别把「一／a」也译进去。"
+        },
+        {
+          "headZh": "练习 B 为什么有两种答案",
+          "bodyZh": "Aran 是光杆名词，理论上可译「国王」或「一位国王」，取决于英语上下文需要什么。keys 给的正是这条说明。它同时检验两件事：懂不懂「无冠词 = 不定」，以及能不能接受「答案不唯一」。"
+        }
+      ],
+      "recapZh": "i = the，恒定不变；没有 a/an，光杆名词自行承担不定／泛指。译回昆雅时，中文的「一」不要带进去。",
+      "selfCheckZh": [
+        {
+          "qZh": "写出「那匹马」「那些马」的昆雅形式。",
+          "aZh": "i rocco、i roccor（练习 C、D）。"
+        },
+        {
+          "qZh": "为什么 elen 既能译「星」又能译「一颗星」？",
+          "aZh": "昆雅无不定冠词；定冠词缺席即表示不定，具体译法由英语／汉语语法决定。"
+        },
+        {
+          "qZh": "i-mar 与 i mar 有语法差别吗？",
+          "aZh": "没有，只是连写方式不同；作者说明《魔戒》不这样写，本课也不采用。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-article",
+        "unitIds": [
+          0,
+          1,
+          2
+        ],
+        "labelZh": "课文 07"
+      }
+    },
+    {
+      "sectionId": "article-omission",
+      "sourceSectionId": "the-article",
+      "titleZh": "08 · 什么时候不加 i：专有名词、整个民族、诗歌",
+      "leadZh": "英语要 the 的地方，昆雅未必加 i。三类情况：天体名当专有名词、指整个民族／种族、诗歌里的格律省略。第三类不是规则，只是观察。",
+      "objectives": [
+        "能说出三类不该加 i 的情形",
+        "能解释 Anar / Isil 为什么不加 i",
+        "能说明 Valar 与 i Valar 的语义差别",
+        "能判断练习 P 该写什么，并说出 keys 里的理由"
+      ],
+      "rules": [
+        {
+          "id": "rule-proper-name",
+          "headZh": "专有名词不加冠词：Anar / Isil",
+          "bodyZh": "Anar caluva tielyanna 译「太阳将照在你的路上」，昆雅原句里没有冠词；「太阳」不是 **i Anar，就是 Anar。作者类比：英语也不会说 the Mars。Isil（月亮）同理，《精灵宝钻》第 11 章把两者都当专有名词处理。",
+          "en": "\"The Sun\" is not **i Anar, but simply Anar.",
+          "zh": "「太阳」不是 **i Anar，就是 Anar。",
+          "exampleZh": "练习 P：Anar ar Isil「太阳与月亮」，而非 **i Anar ar i Isil。"
+        },
+        {
+          "id": "rule-whole-people",
+          "headZh": "指整个民族／种族的复数前通常不加 i",
+          "bodyZh": "Valar valuvar「维拉的旨意将行」（字面「维拉们将统辖」）里，「维拉们」就是 Valar，不是 i Valar；lambë Quendion「众精灵的语言」、coimas Eldaron「艾尔达的行路粮」同理。括号里的 -on 是「的」，加在复数 Quendi / Eldar 之后，不影响前面该不该有冠词。",
+          "en": "before a plural denoting an entire people (or even race), the article is not normally used.",
+          "zh": "在表示整个民族（乃至种族）的复数之前，通常不用冠词。",
+          "exampleZh": "Valar valuvar｜Eldar nar vanyë「精灵是美的」（泛指整个种族）"
+        },
+        {
+          "id": "rule-poetry",
+          "headZh": "诗歌中可能无特别理由地省略 i",
+          "bodyZh": "《Namárië》首行 ai! laurië lantar lassi súrinen 托尔金译「啊！如金般落下那些叶…」，但 lassi 前没有 i；《Markirya》也有多处。作者猜是格律考虑，并明说这看不出特别理由——因此不能由此造规则。",
+          "en": "Occasionally, especially in poetry, the article seemingly drops out for no special reason.",
+          "zh": "偶尔，尤其在诗歌里，冠词看似没有特别理由就消失了。",
+          "exampleZh": "ai! laurië lantar lassi súrinen（无 i）"
+        }
+      ],
+      "exceptions": [
+        {
+          "titleZh": "专有名词：Anar、Isil",
+          "bodyZh": "被当作只指一个天体的名字，因此不加 i；英语里说 the Sun 是英语习惯，不是昆雅语法。",
+          "sourceEn": "Clearly Anar is perceived as a proper name, designating one celestial body only",
+          "anchor": "#unit-the-article-3"
+        },
+        {
+          "titleZh": "整个民族：Valar、Eldar、Vanyar、Noldor、Lindar、Teleri、Atani",
+          "bodyZh": "作者说，只要考虑的是整个种族／民族，这类复数前大概都不加冠词；加了 i 反而把范围缩小成「某一群」。",
+          "sourceEn": "Also notice that before a plural denoting an entire people (or even race), the article is not normally used.",
+          "anchor": "#unit-the-article-4"
+        },
+        {
+          "titleZh": "诗歌省略：不是规则",
+          "bodyZh": "《Namárië》《Markirya》里的省略被归因于格律，作者用 seemingly、Perhaps 之类措辞，明确表示推测。",
+          "sourceEn": "Perhaps it is simply omitted because of metric considerations.",
+          "anchor": "#unit-the-article-6"
+        }
+      ],
+      "examples": [
+        {
+          "en": "For instance, the sentence Anar caluva tielyanna is translated \"the Sun shall shine upon your path\" (UT:22, 51); yet there is no article in the Quenya sentence.",
+          "zh": "Anar caluva tielyanna，「太阳将照耀在你的路上」。",
+          "whyZh": "英译有 the，昆雅原句没有冠词；Anar 按专有名词处理。"
+        },
+        {
+          "en": "\"Elves are beautiful\" = Eldar nar vanyë; if you say \"the Elves are beautiful\" = i Eldar nar vanyë, you are probably describing once particular group of Elves, not the entire race",
+          "zh": "「精灵是美的」= Eldar nar vanyë；「那些精灵是美的」= i Eldar nar vanyë。",
+          "whyZh": "不加 i 指整个种族；加 i 指某一特定的一群。这是本课最实用的一条语义对立。"
+        },
+        {
+          "en": "The first line of Namárië, ai! laurië lantar lassi súrinen, Tolkien translated \"ah! like gold fall the leaves...\" – though there is no i before lassi \"leaves\" in the Quenya text.",
+          "zh": "「啊！如金般落下那些叶……」",
+          "whyZh": "英译有 the leaves，昆雅 lassi 前却无 i；属诗歌省略，不要推广成规则。"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "**i Anar ar i Isil",
+          "right": "Anar ar Isil",
+          "whyZh": "keys 在 P 题答案后附了理由：这两个天体名在昆雅里似作专有名词，不需要定冠词。"
+        },
+        {
+          "wrong": "用 i Valar 表示「维拉们」整个种族",
+          "right": "Valar（不加 i）",
+          "whyZh": "加 i 会把语义缩成「某一群维拉」；作者用英语 Men vs the Men 类比。"
+        },
+        {
+          "wrong": "把 lambë Quendion 写成 **lambë i Quendion",
+          "right": "lambë Quendion",
+          "whyZh": "-on 是「的」词尾，加在复数之后；它不改变冠词是否出现，原句本就不加 i。"
+        },
+        {
+          "wrong": "由《Namárië》推出「诗歌里一律省 i」",
+          "right": "登记为格律性省略，不造规则",
+          "whyZh": "作者用的是 seemingly / Perhaps，且明说看不出特别理由。"
+        }
+      ],
+      "closeReadingZh": [
+        {
+          "headZh": "「the Valar」为什么在昆雅里变成光杆 Valar",
+          "bodyZh": "托尔金的英文叙事里写 the Valar、the Eldar，但那是英语习惯。作者拿叙事里 Men 的用法类比：「Men awoke…」「Men were at first very few…」里的 Men 指人类整个种族，而 the Men 只指某个偶然的群体。昆雅的族群复数同理：不加 i 是泛指整个种族，加 i 是把话题限定到某一群。于是 Eldar nar vanyë 与 i Eldar nar vanyë 不是「同一个意思的两种写法」，而是范围不同的两句话。"
+        },
+        {
+          "headZh": "别把格词尾和冠词绑在一起",
+          "bodyZh": "lambë Quendion、coimas Eldaron 里 -on 是「的」，附着在复数 Quendi / Eldar 上。作者特意补一句：这个词尾不应影响前面该不该有冠词。换句话说，「格」与「限定」是两套独立维度；后面学格变化时也要保持这个切分。"
+        },
+        {
+          "headZh": "为什么这三条对做题最关键",
+          "bodyZh": "练习 P 的答案 Anar ar Isil 直接考第一条，keys 还把理由写进了答案括注；练习 J 的 Eldar 与「整个民族」用法相关；而 F、G、M、O 里的 i 则检验你有没有把「不加 i」过度推广。做题时逐题问一句：这里指的是一个确定的对象，还是整个类／一个名字？"
+        }
+      ],
+      "recapZh": "该加 i：确定的某个／某些对象。不该加 i：专有名词（Anar/Isil）、整个民族（Valar/Eldar）、诗歌格律省略。第三类只是观察，不是规则。",
+      "selfCheckZh": [
+        {
+          "qZh": "写出「太阳与月亮」，并说明为什么没有 i。",
+          "aZh": "Anar ar Isil；Anar、Isil 在昆雅里作专有名词，指独一无二的天体，不需定冠词。"
+        },
+        {
+          "qZh": "Eldar nar vanyë 与 i Eldar nar vanyë 意思一样吗？",
+          "aZh": "不一样。前者泛指整个精灵种族「精灵是美的」；后者指某一特定的一群精灵「那些精灵是美的」。"
+        },
+        {
+          "qZh": "《Namárië》里 lassi 前没有 i，能不能推出一条规则？",
+          "aZh": "不能。作者只推测与格律有关，且明说看不出特别理由；这属于观察而非规则。"
+        }
+      ],
+      "teachingNoteZh": "本模块直接对应练习 P 与 keys 的答案附注。做完 P 后回来重读「专有名词」与「整个民族」两条，比只记答案有用。",
+      "bilingual": {
+        "sectionId": "the-article",
+        "unitIds": [
+          3,
+          4,
+          5,
+          6
+        ],
+        "labelZh": "课文 08"
+      }
+    },
+    {
+      "sectionId": "summary",
+      "kind": "summary",
+      "sourceSectionId": "the-article",
+      "titleZh": "09 · 本章小结：原文 Summary 与中文等价小结",
+      "leadZh": "左侧是原著 Summary of Lesson Two 英文全文，右侧是中文等价小结与口诀。逐段对照区附在下方。",
+      "objectives": [
+        "能不看提示复述两条复数规则",
+        "能不看提示说出冠词的两条规则与三类省略",
+        "能用小结表自查本课全部考点"
+      ],
+      "summaryEn": "Summary of Lesson Two: There is a plural ending -li the function of which we don't fully understand, so we will leave it alone for now. The normal plural is formed by adding -r to nouns ending in any of the vowels -a, -i, -o, -u, plus nouns ending in -ië. If, on the other hand, the noun ends in -ë (except, of course, as part of -ië) the plural ending is usually -i (displacing the final -ë); nouns ending in a consonant also form their plurals in -i. The Quenya definite article, corresponding to English \"the\", is i; there is no indefinite article like English \"a, an\".",
+      "summaryZh": "第 2 课小结：复数词尾 -li 的功能我们还没完全弄明白，暂时搁置。常规复数的构成是：以 -a、-i、-o、-u 任一元音结尾，以及以 -ië 结尾的名词，加 -r；若名词以 -ë 结尾（当然不包括作为 -ië 一部分的情形），复数通常用 -i，且这个 -i 是取代词末 -ë；以辅音结尾的名词也用 -i 构成复数。昆雅的定冠词相当于英语 the，是 i；没有英语 a、an 那样的不定冠词。",
+      "formulaZh": [
+        "看词尾定复数：-a/-i/-o/-u/-ië → -r；-ë → 删 ë 写 i；辅音 → 直接写 i。",
+        "冠词只有 i = the；光杆名词自己表示不定，中文的「一」不要译进去。",
+        "三类不加 i：专有名词、整个民族、诗歌格律；只有前两类是可判断的规则。"
+      ],
+      "selfCheckZh": [
+        {
+          "qZh": "不看提示，写出四条复数判定规则。",
+          "aZh": "元音 -a/-i/-o/-u 加 -r；-ië 去两点加 -r；-ë 由 -i 替换；辅音加 -i。"
+        },
+        {
+          "qZh": "不看提示，写出冠词的两条规则。",
+          "aZh": "i = the 且不变形；无不定冠词，无冠词即不定／泛指。"
+        },
+        {
+          "qZh": "本节中文小结与英文 Summary 有没有增删？",
+          "aZh": "没有；中文是等价翻译，口诀另列在下方，便于记忆但不替代原文。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-article",
+        "unitIds": [
+          7
+        ],
+        "labelZh": "原文 Summary"
+      }
+    },
+    {
+      "sectionId": "vocabulary",
+      "kind": "vocabulary",
+      "sourceSectionId": "vocabulary",
+      "titleZh": "10 · 课末词汇：12 个新词",
+      "leadZh": "作者说明：课文正文会顺带提到不少词，但练习只使用课末 VOCABULARY 表里的词，所以这才是需要认真记的部分；每课 12 个，取托尔金精灵偏好的十二进制。",
+      "objectives": [
+        "能默写 12 个词的昆雅形式与中文义",
+        "能指出每个名词按本课规则该怎么变复数",
+        "能说明 tasar 词末 -r 不是复数词尾",
+        "会用总词汇表按英文或昆雅词反查"
+      ],
+      "table": {
+        "captionZh": "12 词复数自检（按本课规则推演；练习未出现的复数不强行造词）",
+        "headers": [
+          "课末词",
+          "中文",
+          "复数 / 说明",
+          "对应规则"
+        ],
+        "rows": [
+          [
+            "minë",
+            "一（数词）",
+            "数词；练习 F 作限定语",
+            "每课新增一个数词"
+          ],
+          [
+            "Anar",
+            "（那位）太阳",
+            "专有名词，不加 i；练习 P",
+            "冠词省略①"
+          ],
+          [
+            "Isil",
+            "（那位）月亮",
+            "专有名词，不加 i；练习 P",
+            "冠词省略①"
+          ],
+          [
+            "ar",
+            "和、与",
+            "连词；练习 F、G、N、O、P",
+            "—"
+          ],
+          [
+            "Elda",
+            "精灵",
+            "Eldar（-a → -r）；练习 J",
+            "rule-plural-r"
+          ],
+          [
+            "lië",
+            "族民、百姓",
+            "lier（-ië → -ier）；练习 F、L",
+            "rule-ie-spelling"
+          ],
+          [
+            "vendë",
+            "少女",
+            "vendi（-ë → -i）；练习 H、N、O",
+            "rule-plural-i"
+          ],
+          [
+            "rocco",
+            "（快）马",
+            "roccor（-o → -r）；练习 A、C、D、M",
+            "rule-plural-r"
+          ],
+          [
+            "aran",
+            "国王",
+            "arani（辅音 → -i）；练习 B、E、F、G、K",
+            "rule-consonant-i"
+          ],
+          [
+            "tári",
+            "女王",
+            "练习中只用单数；按词尾形状属 -i 结尾一类（正文规则为加 -r，本课未给出该词复数实例）",
+            "rule-plural-r"
+          ],
+          [
+            "tasar",
+            "柳树",
+            "tasari（辅音 → -i）；练习 I、M",
+            "rule-consonant-i"
+          ],
+          [
+            "nu",
+            "在…之下",
+            "介词；练习 F、M",
+            "—"
+          ]
+        ]
+      },
+      "pitfalls": [
+        {
+          "wrong": "把 tasar 里的 -r 当复数词尾，倒推出单数 **tasa",
+          "right": "tasar 本身就是单数「柳树」，复数 tasari",
+          "whyZh": "课末词汇表明确说明并不存在 **tasa，-r 属于词干；练习 I 答案 Tasari 也是证据。"
+        },
+        {
+          "wrong": "把 lië 与部分复数 -li 混为一谈",
+          "right": "lië 是独立名词，复数 lier",
+          "whyZh": "附录第一节指出二者同源于词根 LI，但词与词尾层级不同；练习 L 答案 lier。"
+        }
+      ],
+      "closeReadingZh": [
+        {
+          "headZh": "为什么这张表值得单独背",
+          "bodyZh": "作者把「正文里出现过的词」和「练习会用到的词」切开了：前者只用于讲规则，后者才是要求学生记住并会用的。后续课程的练习还会复用前面各课的词汇，所以第 2 课这 12 个词会一路跟到第 20 课。他引《魔戒》里佛罗多听加拉德瑞尔唱《Namárië》后「精灵语的词句铭刻在他记忆中」来打趣，也是在说：这张表是长期投资。"
+        },
+        {
+          "headZh": "怎么把词汇表和语法规则接起来",
+          "bodyZh": "别孤立背 12 个词，按复数规则分组记：-r 组（Elda、rocco、lië）、-i 组（vendë、aran、tasar）、不变组（minë、ar、nu、Anar、Isil）。上表就是按这个思路排的；做完练习 A–P 后回头逐词说出它属于哪组，比抄写有效。"
+        }
+      ],
+      "recapZh": "12 个词按复数规则分三组记；Anar / Isil 不加 i，tasar 的 -r 是词干。总词汇表可离线反查。",
+      "selfCheckZh": [
+        {
+          "qZh": "默写「马、国王、少女、柳树、族民」五个词及其复数。",
+          "aZh": "rocco/roccor、aran/arani、vendë/vendi、tasar/tasari、lië/lier。"
+        },
+        {
+          "qZh": "哪两个词在练习里必须写成不带 i 的形式？为什么？",
+          "aZh": "Anar 与 Isil；它们被当作专有名词，不需要定冠词。"
+        },
+        {
+          "qZh": "为什么 tasar 不是复数？",
+          "aZh": "词末 -r 属于词干本身；并不存在单数 **tasa，其复数另加 -i 作 tasari。"
+        }
+      ],
+      "teachingNoteZh": "建议先遮住中文列默写 12 词，再打开总词汇表页用搜索框反查英文释义；全程离线可用。",
+      "showOriginal": false,
+      "bilingual": {
+        "sectionId": "vocabulary",
+        "unitIds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "labelZh": "词汇"
+      }
+    },
+    {
+      "sectionId": "exercises",
+      "kind": "exercises",
+      "sourceSectionId": "exercises",
+      "titleZh": "11 · 练习工作台：A–P 与 keys 核对",
+      "leadZh": "练习一昆雅译英（A–H），练习二英译昆雅（I–P）。每题都标了考点、分步提示与规则回链；核对后显示 keys 原文答案、中文解析。",
+      "objectives": [
+        "独立完成 A–P，不先展开答案",
+        "每题能说出考的是哪条规则",
+        "核对后能把错题回链到对应规则卡",
+        "能展开 keys.rtf 第 2 课全文答案逐题复核"
+      ],
+      "workflowZh": [
+        "第一遍：遮住答案，只看题干与考点，写下译文",
+        "拿不准时点「分步提示」，不要直接点「显示答案」",
+        "点「核对」：系统会比对 keys 原文答案、可接受的替代译文与中文等价答案",
+        "错题按「回到本课规则」链接跳回对应规则卡，重读后再改",
+        "最后展开 keys.rtf 全文答案与下方 EXERCISES 原文，逐题复核"
+      ],
+      "teachingNoteZh": "keys.rtf 的篇首说明提醒：课程仍在修订，个别练习与答案可能对不上；若出现不一致，优先以 keys.rtf 原文为准（见全站「练习答案」页）。",
+      "bilingual": {
+        "sectionId": "exercises",
+        "unitIds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "labelZh": "练习"
+      }
+    }
+  ]
+}

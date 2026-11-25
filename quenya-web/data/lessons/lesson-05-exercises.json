@@ -1,0 +1,360 @@
+{
+  "kind": "translation",
+  "introZh": "A–H 为昆雅译英，I–P 为英译昆雅。本课考点集中在三处：现在时怎么构成（拉长还是只加 -ëa）、动词是否与主语数一致、an- 的同化。M 题的同化是本课唯一的「陷阱题」。",
+  "pointMapZh": [
+    {
+      "labelZh": "基本动词现在时：拉长元音 + -a",
+      "ruleRef": "rule-present-primary",
+      "noteZh": "C、I"
+    },
+    {
+      "labelZh": "短 A 词干：-a → -e（-ëa）",
+      "ruleRef": "rule-a-present",
+      "noteZh": "A、G、K"
+    },
+    {
+      "labelZh": "复杂 A 词干：不拉长，只加 -ëa",
+      "ruleRef": "rule-cluster",
+      "noteZh": "E、F、L、M、N、O"
+    },
+    {
+      "labelZh": "动词只跟主语一致（-r）",
+      "ruleRef": "rule-verb-only-subject",
+      "noteZh": "G、L、N、O、P"
+    },
+    {
+      "labelZh": "an- + 形容词（最高级）",
+      "ruleRef": "rule-superlative",
+      "noteZh": "B、D、E、H、I、J"
+    },
+    {
+      "labelZh": "an- 的同化：s 前 → ss",
+      "ruleRef": "rule-an-assimilation",
+      "noteZh": "M"
+    }
+  ],
+  "part1": {
+    "titleZh": "练习一 · 昆雅译英（A–H）",
+    "hintZh": "先看动词属哪类词干，再看主语单复数决定要不要 -r，最后看有没有 an- 前缀。",
+    "items": [
+      {
+        "id": "A",
+        "prompt": "I nís lálëa.",
+        "pointZh": "短 A 词干 lala- 的现在时 lálëa",
+        "hintsZh": [
+          "lala- 是短 A 词干（词根 + 单纯 -a）。",
+          "拉长词干元音 a → á，词尾 -a 变 -e。",
+          "得 lálëa；主语 nís 单数，故不加 -r。"
+        ],
+        "ruleRef": "rule-a-present",
+        "ruleLabelZh": "回到规则：短 A 词干 -a → -e",
+        "answerKey": "The woman is laughing.",
+        "answerKeyZh": "那个女人正在笑。",
+        "answerAlt": [
+          "the woman is laughing",
+          "那个女人在笑",
+          "女人正在笑"
+        ],
+        "answerZh": "lala- → lálëa（拉长 + -a 变 -e）；主语单数不加 -r。keys：\"The woman is laughing.\""
+      },
+      {
+        "id": "B",
+        "prompt": "I antiuca Nauco máta.",
+        "pointZh": "an- + tiuca；mat- 的现在时 máta",
+        "hintsZh": [
+          "antiuca 是 an- + tiuca「厚的、胖的」；t 属可原样添加的首音，故不同化。",
+          "máta 是基本动词 mat-「吃」的现在时（拉长 a）。",
+          "主语 Nauco 单数，动词不加 -r。"
+        ],
+        "ruleRef": "rule-superlative",
+        "ruleLabelZh": "回到规则：an- + 形容词",
+        "answerKey": "The fattest Dwarf is eating.",
+        "answerKeyZh": "那个最胖的矮人正在吃。",
+        "answerAlt": [
+          "the fattest dwarf is eating",
+          "最胖的矮人正在吃",
+          "那个最胖的矮人在吃"
+        ],
+        "answerZh": "an + tiuca = antiuca（t 前不同化）；mat- → máta。keys：\"The fattest Dwarf is eating.\""
+      },
+      {
+        "id": "C",
+        "prompt": "I tári tíra i aran.",
+        "pointZh": "基本动词 tir- 的现在时 tíra；主宾各一",
+        "hintsZh": [
+          "tir- 是基本动词，现在时拉长 i → í 并加 -a。",
+          "主语是 i tári「女王」，宾语是 i aran「国王」。",
+          "主语单数，动词不加 -r。"
+        ],
+        "ruleRef": "rule-present-primary",
+        "ruleLabelZh": "回到规则：拉长元音 + -a",
+        "answerKey": "The queen is watching the king.",
+        "answerKeyZh": "那个女王正在看着那个国王。",
+        "answerAlt": [
+          "the queen is watching the king",
+          "女王在看着国王",
+          "那位女王正在看守那位国王"
+        ],
+        "answerZh": "tir- → tíra；语序主—动—宾。keys：\"The queen is watching the king.\""
+      },
+      {
+        "id": "D",
+        "prompt": "I analta oron ná taura.",
+        "pointZh": "an- + alta；oron 的词干 oront- 不影响此处单数",
+        "hintsZh": [
+          "analta 是 an- + alta「大的」。",
+          "oron 是单数「山」，此处用独立形。",
+          "ná 是系词单数，taura 单数与 oron 一致。"
+        ],
+        "ruleRef": "rule-superlative",
+        "ruleLabelZh": "回到规则：an- + 形容词",
+        "answerKey": "The greatest mountain is mighty.",
+        "answerKeyZh": "那座最大的山是强大的。",
+        "answerAlt": [
+          "the greatest mountain is mighty",
+          "最大的山是强大的",
+          "那座最大的山很强大"
+        ],
+        "answerZh": "an + alta = analta；主语单数 → ná、taura 单数。keys：\"The greatest mountain is mighty.\""
+      },
+      {
+        "id": "E",
+        "prompt": "I nér tultëa i anvanya vendë.",
+        "pointZh": "复杂 A 词干 tulta- 的现在时 tultëa；an- + vanya",
+        "hintsZh": [
+          "tulta- 词干元音后有辅音丛 lt，故不拉长，只加 -ëa。",
+          "anvanya 是 an- + vanya「美的」。",
+          "主语 nér 单数，动词不加 -r。"
+        ],
+        "ruleRef": "rule-cluster",
+        "ruleLabelZh": "回到规则：辅音丛前不拉长",
+        "answerKey": "The man is summoning the most beautiful maiden.",
+        "answerKeyZh": "那个男人正在召唤最美的少女。",
+        "answerAlt": [
+          "the man is summoning the most beautiful maiden",
+          "那个男人正在召唤最美丽的少女",
+          "男人在召唤最美的少女"
+        ],
+        "answerZh": "tulta- → tultëa（不拉长）；an + vanya = anvanya。keys：\"The man is summoning the most beautiful maiden.\""
+      },
+      {
+        "id": "F",
+        "prompt": "I aiwë lindëa.",
+        "pointZh": "复杂 A 词干 linda- 的现在时 lindëa",
+        "hintsZh": [
+          "linda- 词干元音后有辅音丛 nd，不拉长。",
+          "只加 -ëa，得 lindëa。",
+          "主语 aiwë 单数，不加 -r。"
+        ],
+        "ruleRef": "rule-cluster",
+        "ruleLabelZh": "回到规则：辅音丛前不拉长",
+        "answerKey": "The bird is singing.",
+        "answerKeyZh": "那只鸟正在唱歌。",
+        "answerAlt": [
+          "the bird is singing",
+          "那只鸟在唱歌",
+          "鸟正在歌唱"
+        ],
+        "answerZh": "linda- → lindëa（nd 前不拉长）。keys：\"The bird is singing.\""
+      },
+      {
+        "id": "G",
+        "prompt": "I Naucor mápëar i canta Eldar.",
+        "pointZh": "复数主语 → -r；mápëa + r",
+        "hintsZh": [
+          "Naucor 是 Nauco 的复数，主语复数。",
+          "mápëa 是短 A 词干 mapa- 的现在时，加 -r 得 mápëar。",
+          "宾语 i canta Eldar 是复数，但不影响动词。"
+        ],
+        "ruleRef": "rule-verb-only-subject",
+        "ruleLabelZh": "回到规则：动词只跟主语一致",
+        "answerKey": "The Dwarves are seizing the four Elves.",
+        "answerKeyZh": "那些矮人正在抓那四个精灵。",
+        "answerAlt": [
+          "the dwarves are seizing the four elves",
+          "矮人们正在抓住那四个精灵",
+          "那些矮人正在抓四个精灵"
+        ],
+        "answerZh": "主语复数 → mápëar；宾语虽也是复数，动词只与主语一致。keys：\"The Dwarves are seizing the four Elves.\""
+      },
+      {
+        "id": "H",
+        "prompt": "I antaura aran ná saila.",
+        "pointZh": "an- + taura；系词 ná + 单数谓语形容词",
+        "hintsZh": [
+          "antaura 是 an- + taura「强大的」；t 前不同化。",
+          "主语 aran 单数，系词用 ná。",
+          "saila 与单数主语一致，用单数。"
+        ],
+        "ruleRef": "rule-superlative",
+        "ruleLabelZh": "回到规则：an- + 形容词",
+        "answerKey": "The mightiest king is wise.",
+        "answerKeyZh": "那个最强大的国王是智慧的。",
+        "answerAlt": [
+          "the mightiest king is wise",
+          "最强大的国王是智慧的",
+          "那位最强的国王很智慧"
+        ],
+        "answerZh": "an + taura = antaura；单数主语 → ná + saila。keys：\"The mightiest king is wise.\""
+      }
+    ]
+  },
+  "part2": {
+    "titleZh": "练习二 · 英译昆雅（I–P）",
+    "hintZh": "先定主语与宾语，再选动词的现在时形式。带「最」的形容词一律先想 an-，再检查首音要不要同化。",
+    "items": [
+      {
+        "id": "I",
+        "prompt": "The woman is watching the greatest (/biggest) ship.",
+        "pointZh": "tir- 现在时 tíra；an- + alta = analta",
+        "hintsZh": [
+          "「正在看」用现在时 tíra（基本动词 tir-）。",
+          "「最大的」是 an- + alta = analta。",
+          "语序：主语 + 动词 + 宾语。"
+        ],
+        "ruleRef": "rule-present-primary",
+        "ruleLabelZh": "回到规则：拉长元音 + -a",
+        "answerKey": "I nís tíra i analta cirya.",
+        "answerKeyZh": "那个女人正在看着那艘最大的船。",
+        "answerAlt": [
+          "i nís tíra i analta cirya",
+          "I nís tíra i analta cirya"
+        ],
+        "answerZh": "tir- → tíra；alta → analta；宾语 cirya 不带宾格标记。keys：\"I nís tíra i analta cirya.\""
+      },
+      {
+        "id": "J",
+        "prompt": "The most evil (/evilest) men are dead.",
+        "pointZh": "an- + úmië；复数主语 → nar；firini",
+        "hintsZh": [
+          "úmëa 是 -ëa 类形容词，复数 úmië。",
+          "「最邪恶的」是 an- + úmië = anúmië。",
+          "主语 neri 复数 → 系词 nar；firin 复数 firini。"
+        ],
+        "ruleRef": "rule-superlative",
+        "ruleLabelZh": "回到规则：an- + 形容词",
+        "answerKey": "I anúmië neri nar firini.",
+        "answerKeyZh": "那些最邪恶的男人们死了。",
+        "answerAlt": [
+          "i anúmië neri nar firini",
+          "I anúmië neri nar firini"
+        ],
+        "answerZh": "an + úmië = anúmië；复数主语 → nar；firin → firini。keys：\"I anúmië neri nar firini.\""
+      },
+      {
+        "id": "K",
+        "prompt": "The Elf is seizing the book.",
+        "pointZh": "mapa- 现在时 mápëa；必须带宾语",
+        "hintsZh": [
+          "mapa- 是短 A 词干，现在时 mápëa。",
+          "主语 I Elda 单数，不加 -r。",
+          "宾语 i parma；不用宾格。"
+        ],
+        "ruleRef": "rule-a-present",
+        "ruleLabelZh": "回到规则：短 A 词干 -a → -e",
+        "answerKey": "I Elda mápëa i parma.",
+        "answerKeyZh": "那个精灵正在抓那本书。",
+        "answerAlt": [
+          "i Elda mápëa i parma",
+          "I Elda mápëa i parma"
+        ],
+        "answerZh": "mapa- → mápëa；宾语 parma 用普通形式。keys：\"I Elda mápëa i parma.\""
+      },
+      {
+        "id": "L",
+        "prompt": "Four men are lying under a tree.",
+        "pointZh": "caita- 现在时 caitëa；复数主语 → caitëar",
+        "hintsZh": [
+          "「躺」用 caita-，复杂 A 词干，现在时 caitëa。",
+          "主语 neri 复数 → caitëar。",
+          "「在树下」用 nu alda（nu 是介词）。"
+        ],
+        "ruleRef": "rule-cluster",
+        "ruleLabelZh": "回到规则：辅音丛前不拉长",
+        "answerKey": "Canta neri caitëar nu alda.",
+        "answerKeyZh": "四个男人正躺在一棵树下。",
+        "answerAlt": [
+          "canta neri caitëar nu alda",
+          "Canta neri caitëar nu alda"
+        ],
+        "answerZh": "caita- → caitëa → caitëar（复数主语）；nu alda 无冠词。keys：\"Canta neri caitëar nu alda.\""
+      },
+      {
+        "id": "M",
+        "prompt": "The wisest Elf is reading a book",
+        "pointZh": "an- + saila → assaila（s 前完全同化）",
+        "hintsZh": [
+          "「最智慧的」是 an- + saila。",
+          "s 前 an- 的 n 完全同化，得 assaila。",
+          "cenda- 现在时 cendëa；主语单数不加 -r。"
+        ],
+        "ruleRef": "rule-an-assimilation",
+        "ruleLabelZh": "回到规则：s 前完全同化",
+        "answerKey": "I assaila Elda cendëa parma",
+        "answerKeyZh": "那个最智慧的精灵正在读一本书。",
+        "answerAlt": [
+          "i assaila Elda cendëa parma",
+          "I assaila Elda cendëa parma"
+        ],
+        "answerZh": "keys 明确：an-saila 经同化成为 assaila；cenda- → cendëa。"
+      },
+      {
+        "id": "N",
+        "prompt": "The king and the queen are reading the book.",
+        "pointZh": "两个主语 → -r；cendëar",
+        "hintsZh": [
+          "两个并列主语等同复数主语。",
+          "cenda- 现在时 cendëa，加 -r 得 cendëar。",
+          "宾语 i parma 是单数，不影响动词。"
+        ],
+        "ruleRef": "rule-verb-only-subject",
+        "ruleLabelZh": "回到规则：多个主语也取 -r",
+        "answerKey": "I aran ar i tári cendëar i parma.",
+        "answerKeyZh": "国王和女王正在读那本书。",
+        "answerAlt": [
+          "i aran ar i tári cendëar i parma",
+          "I aran ar i tári cendëar i parma"
+        ],
+        "answerZh": "并列主语 → cendëar。keys：\"I aran ar i tári cendëar i parma.\""
+      },
+      {
+        "id": "O",
+        "prompt": "The birds are singing.",
+        "pointZh": "aiwë 复数 aiwi；linda- 复数 lindëar",
+        "hintsZh": [
+          "aiwë 是 -ë 类名词，复数 aiwi。",
+          "linda- 现在时 lindëa，复数主语加 -r 得 lindëar。",
+          "无冠词时可加 i 表定指，keys 作 I aiwi。"
+        ],
+        "ruleRef": "rule-verb-only-subject",
+        "ruleLabelZh": "回到规则：动词只跟主语一致",
+        "answerKey": "I aiwi lindëar.",
+        "answerKeyZh": "那些鸟正在唱歌。",
+        "answerAlt": [
+          "i aiwi lindëar",
+          "I aiwi lindëar"
+        ],
+        "answerZh": "aiwë → aiwi；linda- → lindëar。keys：\"I aiwi lindëar.\""
+      },
+      {
+        "id": "P",
+        "prompt": "The four Dwarves are watching a bird.",
+        "pointZh": "Naucor 复数；tir- 复数 tírar；宾语 aiwë 单数",
+        "hintsZh": [
+          "Nauco 的复数是 Naucor。",
+          "主语复数 → tíra 加 -r 得 tírar。",
+          "宾语 aiwë 是单数，不影响动词。"
+        ],
+        "ruleRef": "rule-verb-only-subject",
+        "ruleLabelZh": "回到规则：动词只跟主语一致",
+        "answerKey": "I canta Naucor tírar aiwë.",
+        "answerKeyZh": "那四个矮人正在看着一只鸟。",
+        "answerAlt": [
+          "i canta Naucor tírar aiwë",
+          "I canta Naucor tírar aiwë"
+        ],
+        "answerZh": "主语 Naucor 复数 → tírar；宾语单数无影响。keys：\"I canta Naucor tírar aiwë.\""
+      }
+    ]
+  }
+}

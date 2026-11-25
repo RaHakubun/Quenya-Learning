@@ -1,0 +1,180 @@
+{
+ "kind": "translation",
+ "introZh": "请先在文稿框中写出译文，再点「核对」比对 keys.rtf；也可直接「显示答案」。",
+ "part1": {
+  "titleZh": "练习一 · 译成中文（或你使用的语言）",
+  "hintZh": "昆雅 → 目标语；对照词汇表与正文例句。",
+  "items": [
+   {
+    "id": "A",
+    "prompt": "Utúlientë cenien me, lá cenien tye.",
+    "glossZh": "",
+    "answerKey": "They have come to see us, not to see thee.",
+    "answerZh": "keys：They have come to see us, not to see thee."
+   },
+   {
+    "id": "B",
+    "prompt": "Nai óluva len Eldaron!",
+    "glossZh": "",
+    "answerKey": "May you dream about Elves! (Wish that you will dream about Elves!)",
+    "answerZh": "keys：May you dream about Elves! (Wish that you will dream about Elves!)"
+   },
+   {
+    "id": "C",
+    "prompt": "Neldë neri lelyuvar tanna, ar i Naucor tiruvar te, an i neri haryar harma i ná alta lá malta.",
+    "glossZh": "",
+    "answerKey": "Three men will go thither, and the Dwarves will watch them, for the men possess a treasure that is greater than [lit. \"great beyond\"] gold.",
+    "answerZh": "keys：Three men will go thither, and the Dwarves will watch them, for the men possess a treasure that is greater than [lit. \"great beyond\"] gold."
+   },
+   {
+    "id": "D",
+    "prompt": "I enquëa auressë ornë tien tulë ninna.",
+    "glossZh": "",
+    "answerKey": "On the sixth day they felt moved to come to me. [Lit. \"...(it) impelled for them to come to me.\"]",
+    "answerZh": "keys：On the sixth day they felt moved to come to me. [Lit. \"...(it) impelled for them to come to me.\"]"
+   },
+   {
+    "id": "E",
+    "prompt": "I enquëa aran i nórëo ná saila lá atarerya i lempëa aran.",
+    "glossZh": "",
+    "answerKey": "The sixth king of the land is wiser than [\"wise beyond\"] his father the fifth king.",
+    "answerZh": "keys：The sixth king of the land is wiser than [\"wise beyond\"] his father the fifth king."
+   },
+   {
+    "id": "F",
+    "prompt": "Palunes coarya, cárala ta i analta coa i mallëo.",
+    "glossZh": "",
+    "answerKey": "(S)he expanded his/her house, making it [or, that] the biggest house of the street.",
+    "answerZh": "keys：(S)he expanded his/her house, making it [or, that] the biggest house of the street."
+   },
+   {
+    "id": "G",
+    "prompt": "Carnelyes tien; lá carnelyes men.",
+    "glossZh": "",
+    "answerKey": "You did it for them; you did not do it for us. (Alternatively, \"you made it for them; you did not make it for us\": Car- covers both \"do\" and \"make\".)",
+    "answerZh": "keys：You did it for them; you did not do it for us. (Alternatively, \"you made it for them; you did not make it for us\": Car- covers both \"do\" and \"make\".)"
+   },
+   {
+    "id": "H",
+    "prompt": "Cennelmë le i cilyassë nu me, an lantanelyë mir ta.",
+    "glossZh": "",
+    "answerKey": "We saw you in the gorge under us, for you fell into it.",
+    "answerZh": "keys：We saw you in the gorge under us, for you fell into it."
+   }
+  ]
+ },
+ "part2": {
+  "titleZh": "练习二 · 译成昆雅",
+  "hintZh": "目标语 → 昆雅；注意复数、冠词 i、词序。",
+  "items": [
+   {
+    "id": "I",
+    "prompt": "My right arm is stronger than my left arm.",
+    "glossZh": "",
+    "answerKey": "Forya rancunya ná polda lá hyarya rancunya.",
+    "answerZh": "keys：Forya rancunya ná polda lá hyarya rancunya."
+   },
+   {
+    "id": "J",
+    "prompt": "Summon them to [allative] me!",
+    "glossZh": "",
+    "answerKey": "Á tulta te ninna!",
+    "answerZh": "keys：Á tulta te ninna!"
+   },
+   {
+    "id": "K",
+    "prompt": "The bogies are watching me, for I fear them [Quenya: \"fear from them\", ablative].",
+    "glossZh": "",
+    "answerKey": "I urqui tírar nye, an rucin(yë) tiello.",
+    "answerZh": "keys：I urqui tírar nye, an rucin(yë) tiello."
+   },
+   {
+    "id": "L",
+    "prompt": "We [exclusive] will not come to see thee in the night.",
+    "glossZh": "",
+    "answerKey": "Lá tuluvalmë cenien tye i lómissë.",
+    "answerZh": "keys：Lá tuluvalmë cenien tye i lómissë."
+   },
+   {
+    "id": "M",
+    "prompt": "The boy will not dream about [genitive] bogies.",
+    "glossZh": "",
+    "answerKey": "Lá óluva i seldon urquion.",
+    "answerZh": "keys：Lá óluva i seldon urquion."
+   },
+   {
+    "id": "N",
+    "prompt": "The two women said: \"Your king did not want to give us [dual dative] the things taken [or, \"seized\" – mapainë, pl.] from us [dual ablative] by his warriors.\"",
+    "glossZh": "",
+    "answerKey": "I atta nissi quenter: \"Aranelya lá mernë anta ment i engwi mapainë melto ohtariryainen.\"",
+    "answerZh": "keys：I atta nissi quenter: \"Aranelya lá mernë anta ment i engwi mapainë melto ohtariryainen.\""
+   },
+   {
+    "id": "O",
+    "prompt": "The man expanding his house is doing that [or, it] (in order) to make many rooms for [dative] all his things.",
+    "glossZh": "",
+    "answerKey": "I nér pálula coarya cára ta carien rimbë sambi ilyë engweryain.",
+    "answerZh": "keys：I nér pálula coarya cára ta carien rimbë sambi ilyë engweryain."
+   },
+   {
+    "id": "P",
+    "prompt": "The sixth day will be [nauva] better than the fifth day, and we [exclusive] will not feel moved to leave [auta]. [\"Better than\" = \"good beyond\"!]",
+    "glossZh": "",
+    "answerKey": "I enquëa aurë nauva mára lá i lempëa aurë, ar lá oruva men auta. Other word-orders would apparently also be possible, such as prefixing some independent pronouns to verbs: K) nye-tírar rather than tírar nye, L) tye-cenien rather than cenien tye, N) ment-anta rather than anta ment, O) ta-cára rather than cára ta, P) men-oruva rather than oruva men.",
+    "answerZh": "keys：I enquëa aurë nauva mára lá i lempëa aurë, ar lá oruva men auta. Other word-orders would apparently also be possible, such as prefixing some independent pronouns to verbs: K) nye-tírar rather than tírar nye, L) tye-cenien rather than cenien tye, N) ment-anta rather than anta ment, O) ta-cára rather than cára ta, P) men-oruva rather than oruva men."
+   }
+  ]
+ },
+ "pointMapZh": [
+  {
+   "labelZh": "独立宾格 te",
+   "ruleRef": "r-pn16",
+   "noteZh": "C（tiruvar te）、J（Á tulta te ninna）"
+  },
+  {
+   "labelZh": "独立代词 me",
+   "ruleRef": "r-pn12",
+   "noteZh": "A（cenien me）、H（nu me）"
+  },
+  {
+   "labelZh": "独立代词 le（L 形式）",
+   "ruleRef": "r-pn14",
+   "noteZh": "B（óluva len）、H（Cennelmë le）"
+  },
+  {
+   "labelZh": "独立宾格 tye（T 形式）",
+   "ruleRef": "r-pn27",
+   "noteZh": "A（cenien tye）、L（cenien tye）"
+  },
+  {
+   "labelZh": "代词接单数格词尾／双数词尾",
+   "ruleRef": "r-pn59",
+   "noteZh": "D（tien tulë ninna）、G（tien／men）、N（ment／melto）"
+  },
+  {
+   "labelZh": "无人称动词＋与格",
+   "ruleRef": "r-im3",
+   "noteZh": "D（ornë tien tulë ninna）、P（lá oruva men auta）"
+  },
+  {
+   "labelZh": "lá 作否定词",
+   "ruleRef": "r-la5",
+   "noteZh": "A（lá cenien tye）、G（lá carnelyes men）、L（Lá tuluvalmë）、M（Lá óluva）、P（lá oruva men）"
+  },
+  {
+   "labelZh": "lá 作比较的「beyond」",
+   "ruleRef": "r-la22",
+   "noteZh": "E（saila lá atarerya）、I（polda lá hyarya）、P（mára lá i lempëa aurë）"
+  },
+  {
+   "labelZh": "U 词干动词",
+   "ruleRef": "r-uv6",
+   "noteZh": "F（Palunes、cárala）、O（pálula）"
+  },
+  {
+   "labelZh": "序数 lempëa／enquëa",
+   "ruleRef": "r-v18-1",
+   "noteZh": "D（enquëa）、E（enquëa、lempëa）、P（enquëa、lempëa）"
+  }
+ ]
+}

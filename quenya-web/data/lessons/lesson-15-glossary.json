@@ -1,0 +1,78 @@
+{
+ "lesson": 15,
+ "introZh": "本课 12 个词分属三条线：序数与时间（tatya、aurë、hrívë、apa）、身体与方位（má、pé、Hyarmen、hyarya）、以及关系与居住（ya、mar-、veru、mallë）。má、pé 的双数与 -rya 组合（máryat、péryat）是本课最该背下来的两个形式。",
+ "entries": [
+  {
+   "word": "tatya",
+   "posZh": "序数词",
+   "glossZh": "第二",
+   "noteZh": "第二宗族本名 Tatyar，字面「Seconds, Second Ones」；该宗族的 Eldarin 一支后来改称 Noldor（WJ:380-381）。变体 atya 与基本数词 atta「二」联系更清楚。第 17 课会讲「第二」后来如何改由 attëa 表达。练习 A「i tatya auressë」、D「Tatya hrívessë」。"
+  },
+  {
+   "word": "mar-",
+   "posZh": "动词",
+   "glossZh": "居住、居留",
+   "noteZh": "指「在某地居住」意义上的 live，参 Elendil 的宣言 sinomë maruvan「in this place will I abide」。练习 D「marnes i coassë」、E「maris nórelvassë」、J「i nís i marë i coassë」、L「i marir i mindonissen」、P「maruva séressë」。"
+  },
+  {
+   "word": "ya",
+   "posZh": "关系代词",
+   "glossZh": "那……的、which／that",
+   "noteZh": "常带格词尾；与关系代词 i 交替使用，但 i 显然不能接格词尾。练习 D「ya marnes」、G「yar ihíries」、H「yat itíries」「yant ánes」、K「yallo ulyanes」、L「yannar lelyëa」、M「ya carnes」、O「yallo polë quen cenë」、P「yo aran」「ya meluvantë」。"
+  },
+  {
+   "word": "aurë",
+   "posZh": "名词",
+   "glossZh": "日、白天",
+   "noteZh": "指实际有光的那段白天，不是完整的 24 小时周期。练习 A「i tatya auressë」用的是位格。"
+  },
+  {
+   "word": "veru",
+   "posZh": "名词（古双数）",
+   "glossZh": "（已婚）夫妇、一对配偶",
+   "noteZh": "古双数形式，看来没有单数；同根只有分性别的 verno「husband」与 vessë「wife」。练习 H「i veru yat itíries」、I「Cennes veru i mallessë」。"
+  },
+  {
+   "word": "má",
+   "posZh": "名词",
+   "glossZh": "手",
+   "noteZh": "长元音词干。接 -rya 时元音不缩短（márya），接格词尾前则缩短（massë、mannar）。练习 F「hyarya massë」、J「máryat」「hyarya máryassë」、K「máryatsë」。"
+  },
+  {
+   "word": "pé",
+   "posZh": "名词",
+   "glossZh": "唇",
+   "noteZh": "主格双数 peu（据 VT39:9，反映 LotR 之后的材料）。更早《Etymologies》PEG 条曾把 pé 释作「mouth」，但 LotR 附录 E 给的「嘴」是 anto。练习 J「péryat」。"
+  },
+  {
+   "word": "mallë",
+   "posZh": "名词",
+   "glossZh": "路、街",
+   "noteZh": "主格复数 maller（LR:47、56；SD:310）——正如第二课所推测，-lë 结尾的名词复数常作 -ler 而非 -li。练习 I「i mallessë」、N「i mallessen」。"
+  },
+  {
+   "word": "hrívë",
+   "posZh": "名词",
+   "glossZh": "冬天",
+   "noteZh": "练习 B「i hrívessë」「apa i hrívë」、D「Tatya hrívessë」。"
+  },
+  {
+   "word": "apa",
+   "posZh": "介词",
+   "glossZh": "在……之后",
+   "noteZh": "参 Apanónar「the Afterborn」（人类），精灵则是 Firstborn；VT44:36 确认 apa 也单独出现在托尔金的笔记里。练习 B「apa i hrívë」、M「apa sucitaryas」、N「Apa oantelmë」。"
+  },
+  {
+   "word": "Hyarmen",
+   "posZh": "名词",
+   "glossZh": "南方",
+   "noteZh": "方位词，末 -n 在格词尾前脱落（Hyarmenna、Hyarmello）。练习 B「Hyarmessë」「Hyarmello」、N「(i) Hyarmessë」。"
+  },
+  {
+   "word": "hyarya",
+   "posZh": "形容词",
+   "glossZh": "左的",
+   "noteZh": "由 Hyarmen「南方」派生——面南时左手朝东，故「南」与「左」同源。练习 F「hyarya massë」、J「hyarya máryassë」。"
+  }
+ ]
+}

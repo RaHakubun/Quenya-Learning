@@ -1,0 +1,189 @@
+{
+  "lesson": 1,
+  "pathTitleZh": "本课学习路径",
+  "path": [
+    {
+      "step": 1,
+      "labelZh": "建立观念：昆雅是书面传承的语言",
+      "sectionId": "general-remarks"
+    },
+    {
+      "step": 2,
+      "labelZh": "术语打底：元音、辅音、音节、清浊",
+      "sectionId": "basic-terms"
+    },
+    {
+      "step": 3,
+      "labelZh": "音位清单：昆雅里到底有哪些音",
+      "sectionId": "the-sounds-of-quenya"
+    },
+    {
+      "step": 4,
+      "labelZh": "能读出来：元音、双元音、辅音、重音",
+      "sectionId": "pronunciation"
+    },
+    {
+      "step": 5,
+      "labelZh": "动手练：标重音 & 判断 h",
+      "sectionId": "exercises"
+    }
+  ],
+  "modules": [
+    {
+      "sectionId": "general-remarks",
+      "titleZh": "模块一 · 为什么必须先学发音",
+      "leadZh": "原著指出：现实中学昆雅的人多半是「写作者」、分散各地，主要靠文字交流——但即便如此，仍须知道托尔金设想中的读法，且主要依据是《魔戒》附录 E 等书面说明，而非少数录音。",
+      "objectives": [
+        "理解课程把学习者称为 writers 的语境",
+        "知道发音知识的首要文献来源（Appendix E、笔记）",
+        "了解存在 Tolkien 本人录音，但非唯一标准"
+      ],
+      "keyPoints": [
+        {
+          "term": "phonology",
+          "termZh": "音系 / 音位规则",
+          "explainZh": "一种语言有哪些音、如何组合——昆雅音系精心设计，相对欧洲语言显得「整齐」，这是本课后续一切规则的基础。"
+        }
+      ],
+      "teachingNoteZh": "学习建议：先不要急着背音位表。弄清「书面学习 ≠ 可以忽视读音」这一点，后面每个音才有动力去练准。"
+    },
+    {
+      "sectionId": "basic-terms",
+      "titleZh": "模块二 · 语言学基础术语",
+      "leadZh": "若不熟悉语音学术语，请精读本节；有语言学背景者可快速浏览。后文所有发音描述都建立在这些概念上。",
+      "objectives": [
+        "区分元音（气流不受阻）与辅音（气流受阻）",
+        "理解清浊（voicing）与塞音、摩擦音、鼻音",
+        "理解音节（syllable）如何构成昆雅长词"
+      ],
+      "keyPoints": [
+        {
+          "term": "vowels / consonants",
+          "termZh": "元音 / 辅音",
+          "explainZh": "元音靠舌位、唇形「塑形」；辅音则阻碍、摩擦或经鼻腔。早期精灵语称辅音为 tapta「受阻音」。"
+        },
+        {
+          "term": "voicing",
+          "termZh": "清浊",
+          "explainZh": "声带是否振动：f 清 vs v 浊。昆雅（诺多方言）中浊塞音 d、b、g 分布极窄，多仅见于 nd、mb、ng 等群。"
+        },
+        {
+          "term": "syllables",
+          "termZh": "音节",
+          "explainZh": "节奏单位。昆雅词常两到三音节，加词尾或复合后更长（如 Ainulindalë）。"
+        }
+      ],
+      "table": {
+        "captionZh": "本模块术语对照",
+        "headers": ["英文术语", "中文", "与本课关系"],
+        "rows": [
+          ["vowel", "元音", "a e i o u 及长短、双元音"],
+          ["consonant", "辅音", "下一模块完整列表"],
+          ["plosive / fricative / nasal", "塞音 / 摩擦音 / 鼻音", "理解 h、qu 等描述"],
+          ["syllable", "音节", "标重音、划分练习的基础"]
+        ]
+      },
+      "teachingNoteZh": "自测：能否用一句话说明「为什么 anna 与 ana 在昆雅里必须听得出差别」？（提示：双辅音 nn vs 单 n。）"
+    },
+    {
+      "sectionId": "the-sounds-of-quenya",
+      "titleZh": "模块三 · 昆雅音位一览",
+      "leadZh": "第三纪昆雅的核心音位：五个单元音（长短）、六个常见双元音、一组辅音（含 qu、ny、ly 等二合字母）。拼写保留 hl、hr 以记录历史音位。",
+      "objectives": [
+        "列出短元音 a e i o u 与长元音 á é í ó ú",
+        "记住双元音 ai oi ui au eu iu（后两者稀少）",
+        "认识辅音字母与 qu = cw / 音节划分（alqua 两音节）",
+        "了解词中、词末辅音群限制"
+      ],
+      "keyPoints": [
+        {
+          "term": "diphthongs",
+          "termZh": "双元音",
+          "explainZh": "ai, oi, ui；au, eu, iu。与「元音连写但分属不同音节」（hiatus，如 Eä）不同。"
+        },
+        {
+          "term": "qu",
+          "termZh": "qu",
+          "explainZh": "审美拼写，音值为 cw/kw；无真正元音 u，计音节时不拆开成三音节。"
+        },
+        {
+          "term": "double consonants",
+          "termZh": "长辅音",
+          "explainZh": "cc ll mm nn pp rr ss tt — 与短辅音对立，有辨义功能（anna gift vs ana towards）。"
+        },
+        {
+          "term": "clusters",
+          "termZh": "辅音群",
+          "explainZh": "昆雅不允许词首辅音群；词中有 ld mb nd 等；词末通常仅 -l -n -r -s -t（多数词以元音结尾）。"
+        }
+      ],
+      "table": {
+        "captionZh": "元音与双元音速查",
+        "headers": ["类型", "形式", "备注"],
+        "rows": [
+          ["短元音", "a e i o u", "全部位置须发清楚，忌英语 schwa 化"],
+          ["长元音", "á é í ó ú", "用尖音符标记长度"],
+          ["双元音 -i", "ai, oi, ui", "一个音节内完成"],
+          ["双元音 -u", "au, eu, iu", "eu、iu 很少见"]
+        ]
+      },
+      "teachingNoteZh": "背诵任务：抄一遍辅音列表（c k d f g gw h hy hw l ly m n nw ny p qu r ry s t ty v y w），标出你不确定的项，在模块四逐条攻克。"
+    },
+    {
+      "sectionId": "pronunciation",
+      "titleZh": "模块四 · 发音与重音（核心技能）",
+      "leadZh": "托尔金建议以意大利语元音为模范：各位置的元音都要「纯」、长短分明。多音节词重音规则决定朗读是否像昆雅；h 的读法分多种类型（练习题第二题考点）。",
+      "objectives": [
+        "短 a 与长 á 的音质与音长区分",
+        "掌握六个双元音的参考读法（如 ai = aisle，非 mail）",
+        "理解倒数第二音节为「长音节」时重音在其上，否则多在倒数第三音节",
+        "区分 h：气音 h、ich-Laut（ht+ e/i）、ach-Laut（ht 等）、历史 hl/hr"
+      ],
+      "keyPoints": [
+        {
+          "term": "stress",
+          "termZh": "重音",
+          "explainZh": "长音节 = 长元音 / 双元音 / 元音+辅音群或叠字。例：palantír 重音在 ant（非末尾 ír）；palantíri 则 í 为倒数第二长音节。"
+        },
+        {
+          "term": "h-types",
+          "termZh": "h 的类型（练习用）",
+          "explainZh": "A 气音 h；B ht 前 e/i 为 ich-Laut（Nehtë）；C ach-Laut（Nahta、Ohtar）；D 古 hl/hr 第三纪作普通 l、r。"
+        }
+      ],
+      "table": {
+        "captionZh": "h 的发音类型（对应练习 2）",
+        "headers": ["选项", "名称", "典型例词（课文）", "说明"],
+        "rows": [
+          ["A", "breath-h", "Heru, Hellë, Hísië", "英语式 h；第三纪常见"],
+          ["B", "ich-Laut", "Nehtë, Tihtala", "h + t，前为 e 或 i"],
+          ["C", "ach-Laut", "Ohtar, Nahta", "h + t，其他元音环境"],
+          ["D", "古清 l/r", "Hrávë, Hlócë", "书写保留，读如普通 r、l"]
+        ]
+      },
+      "checklistZh": [
+        "朗读一组最短对立：cu（短 u） vs cú（长 ú）",
+        "对一个五音节词手动划分音节再标重音",
+        "各读一遍 ach-Laut 与 ich-Laut 例词，体会舌位差别"
+      ],
+      "teachingNoteZh": "章末 Summary（原文）是本模块浓缩版；完成三句 checklist 后再展开阅读原文对照细节。"
+    },
+    {
+      "sectionId": "exercises",
+      "titleZh": "模块五 · 练习教学",
+      "leadZh": "因无法在课堂上纠正口音，本课练习聚焦可自检的两项：重音位置与 h 的类型。请先独立作答，再对照 keys.rtf。",
+      "objectives": [
+        "练习 1：在单词中标出承受重音的元音或双元音（A–J）",
+        "练习 2：为含 h 的词选择发音类型 K–T",
+        "理解电影中 Saruman 吟诵时的重音偏差（原文讨论 rasselya 等）"
+      ],
+      "workflowZh": [
+        "第一遍：只看习题题干，遮住答案",
+        "标重音时念出声，确认倒数第二/第三音节规则",
+        "第二遍：h 类题先找 ht/he/hi 环境，再选 A–D",
+        "第三遍：展开答案，记录错题对应模块编号复习"
+      ],
+      "teachingNoteZh": "先在「练习工作台」独立完成；题干与 keys.rtf 答案分别在下方中英对照区与可展开答案块中，均未删改。"
+    }
+  ]
+}

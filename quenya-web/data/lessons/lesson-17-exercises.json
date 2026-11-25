@@ -1,0 +1,180 @@
+{
+ "kind": "translation",
+ "introZh": "请先在文稿框中写出译文，再点「核对」比对 keys.rtf；也可直接「显示答案」。",
+ "part1": {
+  "titleZh": "练习一 · 译成中文（或你使用的语言）",
+  "hintZh": "昆雅 → 目标语；对照词汇表与正文例句。",
+  "items": [
+   {
+    "id": "A",
+    "prompt": "Engwë sina ná i macil hirna Calandil Hallanen.",
+    "glossZh": "",
+    "answerKey": "This thing is the sword found by Calandil [the] Tall. (Calandil Hallanen \"by C. [the] Tall\": notice how the case ending for instrumental is added to the last word of the phrase.)",
+    "answerZh": "keys：This thing is the sword found by Calandil [the] Tall. (Calandil Hallanen \"by C. [the] Tall\": notice how the case ending for instrumental is added to the last word of the phrase.)"
+   },
+   {
+    "id": "B",
+    "prompt": "Ilyë lamni avánier nórë sinallo.",
+    "glossZh": "",
+    "answerKey": "All animals have disappeared from this land (nórë sinallo = \"from this land\"; again notice how the case ending, here for ablative, is added to the last word – the demonstrative sina \"this\". However, nórello sina would perhaps be equally possible.)",
+    "answerZh": "keys：All animals have disappeared from this land (nórë sinallo = \"from this land\"; again notice how the case ending, here for ablative, is added to the last word – the demonstrative sina \"this\". However, nórello sina would perhaps be equally possible.)"
+   },
+   {
+    "id": "C",
+    "prompt": "Ango harnanë forya rancurya, ar eques: \"Nai ilyë angwi firuvar!\"",
+    "glossZh": "",
+    "answerKey": "A snake wounded his/her right arm, and (s)he said: \"Wish that all snakes will [or, would] die!\" (Rancurya = \"his [or, her] arm\"; notice how ranco \"arm\" appears in the form rancu- before endings, since it is a U-stem. Possibly, the dual \"pair of arms\" would also have the form rancu, but if that form were intended here, we would also see the extra dual marker -t following the ending -rya. Cf. máryat = \"her (pair of) hands\" in Namárië.)",
+    "answerZh": "keys：A snake wounded his/her right arm, and (s)he said: \"Wish that all snakes will [or, would] die!\" (Rancurya = \"his [or, her] arm\"; notice how ranco \"arm\" appears in the form rancu- before endings, since it is a U-stem. Possibly, the dual \"pair of arms\" would also have the form rancu, but if that form were intended here, we would also see the extra dual marker -t following the ending -rya. Cf. máryat = \"her (pair of) hands\" in Namárië.)"
+   },
+   {
+    "id": "D",
+    "prompt": "Lómë yanassë hirnentë Nauco tana ambo entassë.",
+    "glossZh": "",
+    "answerKey": "That night, they found that Dwarf on the hill over there [literally: on yonder hill]. (Lómë yanassë = \"in that night\", but English would simply say \"that night\" in such a context. Yana may signify \"that\" of something that existed formerly or in the past, and since the reference is to a night in the past, this word is appropriate here – if we have reconstructed Tolkien's intentions correctly! Cf. also hrívë yanassë \"in/during that winter\" in exercise H below. Nauco tana: \"that Dwarf\", the word tana \"that\" simply focusing on individual identity. Ambo entassë: \"on yonder hill, on the hill over there\": the word enta apparently means \"that\" with emphasis on spatial position.)",
+    "answerZh": "keys：That night, they found that Dwarf on the hill over there [literally: on yonder hill]. (Lómë yanassë = \"in that night\", but English would simply say \"that night\" in such a context. Yana may signify \"that\" of something that existed formerly or in the past, and since the reference is to a night in the past, this word is appropriate here – if we have reconstructed Tolkien's intentions correctly! Cf. also hrívë yanassë \"in/during that winter\" in exercise H below. Nauco tana: \"that Dwarf\", the word tana \"that\" simply focusing on individual identity. Ambo entassë: \"on yonder hill, on the hill over there\": the word enta apparently means \"that\" with emphasis on spatial position.)"
+   },
+   {
+    "id": "E",
+    "prompt": "I hallë ciryar oantier Formenna; ciryar tanë úvar tulë i nórennar Hyarmeno.",
+    "glossZh": "",
+    "answerKey": "The tall ships have passed away north(wards); those ships will not come to the lands of (the) South. (Ciryar tanë \"those ships\": we surmise that tana \"that\" can have the plural form tanë \"those\", the demonstrative behaving like an adjective.)",
+    "answerZh": "keys：The tall ships have passed away north(wards); those ships will not come to the lands of (the) South. (Ciryar tanë \"those ships\": we surmise that tana \"that\" can have the plural form tanë \"those\", the demonstrative behaving like an adjective.)"
+   },
+   {
+    "id": "F",
+    "prompt": "I cantëa auressë tári yana firnë anguo sangwanen.",
+    "glossZh": "",
+    "answerKey": "On the fourth day, that queen died by [/from] the poison of a snake. (Tári yana: \"that queen\" of a queen who is dead, yana being used of something that is past – but \"that queen\" could probably also be tári tana, merely focusing on personal identity.)",
+    "answerZh": "keys：On the fourth day, that queen died by [/from] the poison of a snake. (Tári yana: \"that queen\" of a queen who is dead, yana being used of something that is past – but \"that queen\" could probably also be tári tana, merely focusing on personal identity.)"
+   },
+   {
+    "id": "G",
+    "prompt": "I poldë ranqui i nerion Formello polir mapa i ehti ohtari mahtalallon.",
+    "glossZh": "",
+    "answerKey": "The strong arms of the men from (the) North can seize the spears from fighting warriors. (Ohtari mahtalallon \"from fighting warriors\": notice how the word ohtari \"warriors\" receives only the simplest plural ending, normally associated with the nominative case, but the plural ablative ending -llon added to the participle mahtala \"fighting\" indicates that the whole phrase is in the ablative case. – The word order mahtala ohtarillon would be equally possible: Here the ablative ending is added to the noun \"warriors\", since it is now the last word of the phrase.)",
+    "answerZh": "keys：The strong arms of the men from (the) North can seize the spears from fighting warriors. (Ohtari mahtalallon \"from fighting warriors\": notice how the word ohtari \"warriors\" receives only the simplest plural ending, normally associated with the nominative case, but the plural ablative ending -llon added to the participle mahtala \"fighting\" indicates that the whole phrase is in the ablative case. – The word order mahtala ohtarillon would be equally possible: Here the ablative ending is added to the noun \"warriors\", since it is now the last word of the phrase.)"
+   },
+   {
+    "id": "H",
+    "prompt": "Hrívë yanassë marnentë i cantëa coassë mallë tano.",
+    "glossZh": "",
+    "answerKey": "That winter, they lived (/dwelt) in the fourth house of that road (/street). (Hrívë yanassë: locative \"during/in that winter\"; cf. Exercise D above. Mallë tano \"of that road\", genitive of mallë tana \"that road\" – the genitive ending -o displacing a final -a as usual.)",
+    "answerZh": "keys：That winter, they lived (/dwelt) in the fourth house of that road (/street). (Hrívë yanassë: locative \"during/in that winter\"; cf. Exercise D above. Mallë tano \"of that road\", genitive of mallë tana \"that road\" – the genitive ending -o displacing a final -a as usual.)"
+   }
+  ]
+ },
+ "part2": {
+  "titleZh": "练习二 · 译成昆雅",
+  "hintZh": "目标语 → 昆雅；注意复数、冠词 i、词序。",
+  "items": [
+   {
+    "id": "I",
+    "prompt": "Watch that Dwarf, and don't watch this Elf!",
+    "glossZh": "",
+    "answerKey": "Á tirë Nauco tana, ar áva tirë Elda sina! (Alternatively Nauco enta = \"yonder Dwarf\" = \"that Dwarf over there\".)",
+    "answerZh": "keys：Á tirë Nauco tana, ar áva tirë Elda sina! (Alternatively Nauco enta = \"yonder Dwarf\" = \"that Dwarf over there\".)"
+   },
+   {
+    "id": "J",
+    "prompt": "A land without snakes is a good land, for many Men [Atani] have died by (instrumental) snake-poison.",
+    "glossZh": "",
+    "answerKey": "Nórë ú angwion ná mára nórë, an rimbë Atani ifírier angusangwanen. (Ú angwion \"without snakes\": as the student hopefully remembers, the preposition ú \"without\" governs the genitive case. Angusangwanen \"by snake-poison\": notice how the U-stem noun ango \"snake\" appears as angu- in a compound.)",
+    "answerZh": "keys：Nórë ú angwion ná mára nórë, an rimbë Atani ifírier angusangwanen. (Ú angwion \"without snakes\": as the student hopefully remembers, the preposition ú \"without\" governs the genitive case. Angusangwanen \"by snake-poison\": notice how the U-stem noun ango \"snake\" appears as angu- in a compound.)"
+   },
+   {
+    "id": "K",
+    "prompt": "During (locative) the fourth night I saw a terrifying warrior on that road, and I raised my arms (dual).",
+    "glossZh": "",
+    "answerKey": "I cantëa lómissë cennen(yë) ruhtala ohtar mallë tanassë, ar ortanen(yë) rancunyat. (Alternatively mallë entassë = \"on yonder road\", \"on that road [over there]\". Rancuryat \"my arms\" is here unmistakably dual, because of the dual ending -t following the pronominal ending -nya \"my\". Compare/contrast Exercise C above.)",
+    "answerZh": "keys：I cantëa lómissë cennen(yë) ruhtala ohtar mallë tanassë, ar ortanen(yë) rancunyat. (Alternatively mallë entassë = \"on yonder road\", \"on that road [over there]\". Rancuryat \"my arms\" is here unmistakably dual, because of the dual ending -t following the pronominal ending -nya \"my\". Compare/contrast Exercise C above.)"
+   },
+   {
+    "id": "L",
+    "prompt": "Wish that [= nai] the strong son of Calandil the Tall will come to this land, for he will protect these cities in which we (inclusive) dwell!",
+    "glossZh": "",
+    "answerKey": "Nai Calandil Hallo polda yondo [or, ...i polda yondo Calandil Hallo] tuluva nórë sinanna, an varyuvas ostor sinë yassen marilvë! (As in Exercise A above, the case ending is added to the last word of the phrase Calandil Halla \"Calandil [the] Tall\", and as in the attested example Elendil Vorondo \"of Elendil the Faithful [Elendil Voronda]\", the genitive ending displaces a final -a.)",
+    "answerZh": "keys：Nai Calandil Hallo polda yondo [or, ...i polda yondo Calandil Hallo] tuluva nórë sinanna, an varyuvas ostor sinë yassen marilvë! (As in Exercise A above, the case ending is added to the last word of the phrase Calandil Halla \"Calandil [the] Tall\", and as in the attested example Elendil Vorondo \"of Elendil the Faithful [Elendil Voronda]\", the genitive ending displaces a final -a.)"
+   },
+   {
+    "id": "M",
+    "prompt": "That tower (or, yonder tower) is the fourth tower made by Elves in this land.",
+    "glossZh": "",
+    "answerKey": "Mindon enta ná i cantëa mindon carna Eldainen nórë sinassë.",
+    "answerZh": "keys：Mindon enta ná i cantëa mindon carna Eldainen nórë sinassë."
+   },
+   {
+    "id": "N",
+    "prompt": "Those books are gone [vanwë the pl. of vanwa]; they have disappeared from your room.",
+    "glossZh": "",
+    "answerKey": "Parmar tanë nar vanwë; avánientë sambelyallo.",
+    "answerZh": "keys：Parmar tanë nar vanwë; avánientë sambelyallo."
+   },
+   {
+    "id": "O",
+    "prompt": "On that day you shall see your son.",
+    "glossZh": "",
+    "answerKey": "Aurë entassë cenuval(yë) yondolya. (Alternatively aurë tanassë, but enta can refer to something that lies in the future, and as is evident from the phrase \"shall see\", the reference is here to a future day.)",
+    "answerZh": "keys：Aurë entassë cenuval(yë) yondolya. (Alternatively aurë tanassë, but enta can refer to something that lies in the future, and as is evident from the phrase \"shall see\", the reference is here to a future day.)"
+   },
+   {
+    "id": "P",
+    "prompt": "On that day they came from that [/yonder] mountain and went to this house.",
+    "glossZh": "",
+    "answerKey": "Aurë yanassë tullentë oron entallo ar lender coa sinanna. (Alternatively aurë tanassë again, but yana can refer to something that lies in the past, and as is evident from the past tense verb \"came\", the reference is here to a day in the past. – In some texts, Tolkien uses túlë rather than tullë as the past tense \"came\" [LR:47, SD:246], but tullë is attested elsewhere and fits the general patterns better. Cf. some forms discussed earlier: villë \"flew\", ullë \"poured\".) Insofar as the system of adding case endings to the \"last declinable word\" is not necessarily obligatory, the endings could probably be added to the relevant nouns as well, e.g. mallessë tana (or, enta) rather than mallë tanassë (or, entassë) for \"on that road\" in Exercise K.",
+    "answerZh": "keys：Aurë yanassë tullentë oron entallo ar lender coa sinanna. (Alternatively aurë tanassë again, but yana can refer to something that lies in the past, and as is evident from the past tense verb \"came\", the reference is here to a day in the past. – In some texts, Tolkien uses túlë rather than tullë as the past tense \"came\" [LR:47, SD:246], but tullë is attested elsewhere and fits the general patterns better. Cf. some forms discussed earlier: villë \"flew\", ullë \"poured\".) Insofar as the system of adding case endings to the \"last declinable word\" is not necessarily obligatory, the endings could probably be added to the relevant nouns as well, e.g. mallessë tana (or, enta) rather than mallë tanassë (or, entassë) for \"on that road\" in Exercise K."
+   }
+  ]
+ },
+ "pointMapZh": [
+  {
+   "labelZh": "指示词 sina",
+   "ruleRef": "r-dm3",
+   "noteZh": "B（nórë sinallo）、I（Elda sina）、L（nórë sinanna）、M（nórë sinassë）、P（coa sinanna）"
+  },
+  {
+   "labelZh": "指示词 tana／tanë",
+   "ruleRef": "r-dm7",
+   "noteZh": "D（Nauco tana）、E（ciryar tanë）、H（mallë tano）、I（Nauco tana）、N（Parmar tanë）"
+  },
+  {
+   "labelZh": "指示词 enta（那边／未来）",
+   "ruleRef": "r-dm10",
+   "noteZh": "D（ambo entassë）、M（Mindon enta）、O（Aurë entassë）、P（oron entallo）"
+  },
+  {
+   "labelZh": "指示词 yana（过去）",
+   "ruleRef": "r-dm16",
+   "noteZh": "D（Lómë yanassë）、F（tári yana）、H（Hrívë yanassë）、P（Aurë yanassë）"
+  },
+  {
+   "labelZh": "末位可变化词变格",
+   "ruleRef": "r-lw1",
+   "noteZh": "A（Calandil Hallanen）、B（nórë sinallo）、G（ohtari mahtalallon）、H（mallë tano）、K（mallë tanassë）、L（Calandil Hallo）"
+  },
+  {
+   "labelZh": "U 词干接词尾用 -u-",
+   "ruleRef": "r-u7",
+   "noteZh": "C（rancurya）、J（angusangwanen）、K（rancunyat）"
+  },
+  {
+   "labelZh": "U 词干主格复数 -ngwi／-nqui",
+   "ruleRef": "r-u12",
+   "noteZh": "C（angwi）、G（ranqui）"
+  },
+  {
+   "labelZh": "U 词干属格复数",
+   "ruleRef": "r-u27",
+   "noteZh": "J（angwion）"
+  },
+  {
+   "labelZh": "序数 -ëa",
+   "ruleRef": "r-or3",
+   "noteZh": "F（cantëa）、H（cantëa）、K（cantëa）、M（cantëa）"
+  },
+  {
+   "labelZh": "属格 -o 取代末 -a",
+   "ruleRef": "r-lw5",
+   "noteZh": "H（mallë tano）、L（Calandil Hallo）"
+  }
+ ]
+}

@@ -1,0 +1,78 @@
+{
+  "lesson": 5,
+  "introZh": "以下 12 词来自 less-a.rtf 第 5 课课末 VOCABULARY。前四个不是动词：canta 是数词，Nauco、parma 是名词，tiuca 是形容词。其余八个是动词，词表里带连字符，表示「词干到此为止，后面接词尾」。按现在时规则分组：基本动词（tir-、mat-）拉长词干元音；短 A 词干（mapa-、lala-）得 -ëa；复杂 A 词干（caita-、tulta-、linda-、cenda-）只加 -ëa 不拉长。「总表」一行由 q-vocab.rtf 自动交叉引用。",
+  "entries": [
+    {
+      "word": "canta",
+      "posZh": "数词",
+      "glossZh": "四",
+      "noteZh": "本课新增数词，不变复数。练习 G「i canta Eldar」、L「Canta neri」、P「i canta Naucor」都用它作前置限定语。"
+    },
+    {
+      "word": "Nauco",
+      "posZh": "名词",
+      "glossZh": "矮人",
+      "noteZh": "-o 结尾，复数 Naucor（加 -r）。练习 G、P 都考它的复数；注意它是族称，作专有名词倾向时不加冠词，但练习里都带 i 表示定指一群。"
+    },
+    {
+      "word": "parma",
+      "posZh": "名词",
+      "glossZh": "书",
+      "noteZh": "-a 结尾，复数 parmar。练习 K、M、N 都用它作宾语；本课程不用宾格，故仍写 parma。"
+    },
+    {
+      "word": "tiuca",
+      "posZh": "形容词",
+      "glossZh": "厚的、胖的",
+      "noteZh": "-a 类形容词，复数 tiucë（-a → -ë）。练习 B 的 antiuca 是 an- + tiuca：t 属可原样添加的首音，故不作同化。"
+    },
+    {
+      "word": "mapa-",
+      "posZh": "动词",
+      "glossZh": "抓、夺取",
+      "noteZh": "短 A 词干（词根 MAP + 单纯 -a）。现在时 mápëa：拉长词干元音 a → á，词尾 -a 变 -e。练习 K 用它；依其意义必须带宾语。"
+    },
+    {
+      "word": "tir-",
+      "posZh": "动词",
+      "glossZh": "看、守卫",
+      "noteZh": "基本动词（词根 TIR 直用）。现在时 tíra：拉长 i → í 并加 -a。练习 C、I、P 都用它；第三人称单复数靠 -r 区分（tíra / tírar）。"
+    },
+    {
+      "word": "lala-",
+      "posZh": "动词",
+      "glossZh": "笑",
+      "noteZh": "短 A 词干。现在时 lálëa（练习 A）。据晚近材料 PM:359 意为「笑」；《词源》LA 条另有来源不同、意为「否认」的 lala-，本课程只用「笑」义。"
+    },
+    {
+      "word": "caita-",
+      "posZh": "动词",
+      "glossZh": "躺（横躺，不是「说谎」）",
+      "noteZh": "复杂 A 词干。现在时 caitëa，不拉长词干元音（练习 L 作 caitëar，因主语 neri 是复数）。"
+    },
+    {
+      "word": "tulta-",
+      "posZh": "动词",
+      "glossZh": "召唤",
+      "noteZh": "复杂 A 词干（词根 TUL + -ta），与基本动词 tul-「来」同根。现在时 tultëa，不拉长（练习 E）。"
+    },
+    {
+      "word": "linda-",
+      "posZh": "动词",
+      "glossZh": "唱歌",
+      "noteZh": "复杂 A 词干。现在时 lindëa，不拉长（练习 F）；复数主语作 lindëar（练习 O）。参 Ainulindalë「埃努的大乐章」。"
+    },
+    {
+      "word": "mat-",
+      "posZh": "动词",
+      "glossZh": "吃",
+      "noteZh": "基本动词（词根 MAT 直用）。现在时 máta：拉长 a → á 并加 -a。宾语可省（I Elda máta 已是完整句），练习 B 就只到 máta 为止。"
+    },
+    {
+      "word": "cenda-",
+      "posZh": "动词",
+      "glossZh": "读",
+      "noteZh": "复杂 A 词干。现在时 cendëa，不拉长（练习 M）；复数主语作 cendëar（练习 N）。"
+    }
+  ]
+}

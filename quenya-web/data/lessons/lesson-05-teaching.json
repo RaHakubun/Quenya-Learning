@@ -1,0 +1,1659 @@
+{
+  "lesson": 5,
+  "schemaVersion": 2,
+  "oneLineZh": "这一课讲动词的现在时：基本动词拉长词干元音加 -a，A 词干把 -a 变 -e 得 -ëa；动词只跟主语数一致（复数加 -r）；最高级用前缀 an-。",
+  "canDoZh": [
+    "能把一个昆雅动词判为基本动词或 A 词干，并说出判据",
+    "能写出基本动词的现在时（síla、quéta、máta）",
+    "能写出 A 词干的现在时，并解释为什么复杂 A 词干不拉长元音",
+    "能判断动词该不该加 -r，并说明宾语为何不影响",
+    "能用 an- 构成最高级并处理 p / l / r / s / m 前的同化",
+    "能独立完成练习 A–P，用 keys 核对，并把错题回链到对应规则"
+  ],
+  "conceptMap": [
+    {
+      "labelZh": "词类与动词登场",
+      "noteZh": "nu、ar 只是顺带；动词才是重点",
+      "sectionId": "parts-of-speech"
+    },
+    {
+      "labelZh": "动词带来动作",
+      "noteZh": "ná 之外，动词表示「做什么」",
+      "sectionId": "verb-intro"
+    },
+    {
+      "labelZh": "时态：本课只讲现在时",
+      "noteZh": "现在／过去／将来；本课只练现在",
+      "sectionId": "tense-intro"
+    },
+    {
+      "labelZh": "先说清证据有多薄",
+      "noteZh": "Plotz Letter 只给了名词",
+      "sectionId": "verb-warning"
+    },
+    {
+      "labelZh": "两大类：A 词干",
+      "noteZh": "以 -a 结尾；-ya / -ta 派生",
+      "sectionId": "a-stems"
+    },
+    {
+      "labelZh": "基本动词",
+      "noteZh": "词根直用；mat-、tac-、tul-",
+      "sectionId": "primary-verbs"
+    },
+    {
+      "labelZh": "词干元音",
+      "noteZh": "pusta- 的词干元音是 u 不是 a",
+      "sectionId": "stem-vowel"
+    },
+    {
+      "labelZh": "基本动词的现在时",
+      "noteZh": "拉长元音 + -a：síla、quéta",
+      "sectionId": "present-primary"
+    },
+    {
+      "labelZh": "A 词干的现在时：-ëa",
+      "noteZh": "óra-a → órëa；mápëa、lálëa",
+      "sectionId": "a-present"
+    },
+    {
+      "labelZh": "复杂 A 词干与辅音丛",
+      "noteZh": "长元音不能出现在辅音丛前",
+      "sectionId": "a-complex"
+    },
+    {
+      "labelZh": "造句：三个模板",
+      "noteZh": "Isil síla / I Elda lálëa / Lassë lantëa",
+      "sectionId": "sentence-building"
+    },
+    {
+      "labelZh": "NOTE：Hostetter 的批评",
+      "noteZh": "-ëa 现在时仍属争议",
+      "sectionId": "note-hostetter"
+    },
+    {
+      "labelZh": "主语与宾语",
+      "noteZh": "主语做，宾语承受",
+      "sectionId": "subject-object"
+    },
+    {
+      "labelZh": "宾语可省与必用",
+      "noteZh": "lanta- 无宾语；mapa- 必须有",
+      "sectionId": "object-optional"
+    },
+    {
+      "labelZh": "宾格：书本昆雅，本课程不用",
+      "noteZh": "ciryá、ciryai；本课程不采用",
+      "sectionId": "accusative"
+    },
+    {
+      "labelZh": "动词与主语数一致",
+      "noteZh": "动词只跟主语一致，取 -r",
+      "sectionId": "verb-agreement"
+    },
+    {
+      "labelZh": "复数主语与多个主语",
+      "noteZh": "I arani mátar；宾语复数不影响",
+      "sectionId": "plural-subject"
+    },
+    {
+      "labelZh": "双数主语：本课程避开",
+      "noteZh": "Aldu sílat? 无定论，练习避开",
+      "sectionId": "verb-dual"
+    },
+    {
+      "labelZh": "语序：SV 为常态",
+      "noteZh": "SV 为常态；诗歌可倒装",
+      "sectionId": "word-order"
+    },
+    {
+      "labelZh": "比较级与最高级",
+      "noteZh": "A ná calima lá B；-er / -est",
+      "sectionId": "comparison"
+    },
+    {
+      "labelZh": "最高级：前缀 an-",
+      "noteZh": "ancalima 是唯一传世例证",
+      "sectionId": "superlative"
+    },
+    {
+      "labelZh": "an- 的加法与同化",
+      "noteZh": "p→m、l/r/s/m 全同化",
+      "sectionId": "an-assimilation"
+    },
+    {
+      "labelZh": "本章小结",
+      "noteZh": "原文 Summary 中英对照",
+      "sectionId": "summary"
+    },
+    {
+      "labelZh": "课末词汇",
+      "noteZh": "12 个词（含 7 个动词）",
+      "sectionId": "vocabulary"
+    },
+    {
+      "labelZh": "练习工作台",
+      "noteZh": "A–P 工作台、考点回链",
+      "sectionId": "exercises"
+    }
+  ],
+  "pathTitleZh": "本课学习路径",
+  "path": [
+    {
+      "step": 1,
+      "labelZh": "词类与动词登场",
+      "sectionId": "parts-of-speech"
+    },
+    {
+      "step": 2,
+      "labelZh": "动词带来动作",
+      "sectionId": "verb-intro"
+    },
+    {
+      "step": 3,
+      "labelZh": "时态：本课只讲现在时",
+      "sectionId": "tense-intro"
+    },
+    {
+      "step": 4,
+      "labelZh": "先说清证据有多薄",
+      "sectionId": "verb-warning"
+    },
+    {
+      "step": 5,
+      "labelZh": "两大类：A 词干",
+      "sectionId": "a-stems"
+    },
+    {
+      "step": 6,
+      "labelZh": "基本动词",
+      "sectionId": "primary-verbs"
+    },
+    {
+      "step": 7,
+      "labelZh": "词干元音",
+      "sectionId": "stem-vowel"
+    },
+    {
+      "step": 8,
+      "labelZh": "基本动词的现在时",
+      "sectionId": "present-primary"
+    },
+    {
+      "step": 9,
+      "labelZh": "A 词干的现在时：-ëa",
+      "sectionId": "a-present"
+    },
+    {
+      "step": 10,
+      "labelZh": "复杂 A 词干与辅音丛",
+      "sectionId": "a-complex"
+    },
+    {
+      "step": 11,
+      "labelZh": "造句：三个模板",
+      "sectionId": "sentence-building"
+    },
+    {
+      "step": 12,
+      "labelZh": "NOTE：Hostetter 的批评",
+      "sectionId": "note-hostetter"
+    },
+    {
+      "step": 13,
+      "labelZh": "主语与宾语",
+      "sectionId": "subject-object"
+    },
+    {
+      "step": 14,
+      "labelZh": "宾语可省与必用",
+      "sectionId": "object-optional"
+    },
+    {
+      "step": 15,
+      "labelZh": "宾格：书本昆雅，本课程不用",
+      "sectionId": "accusative"
+    },
+    {
+      "step": 16,
+      "labelZh": "动词与主语数一致",
+      "sectionId": "verb-agreement"
+    },
+    {
+      "step": 17,
+      "labelZh": "复数主语与多个主语",
+      "sectionId": "plural-subject"
+    },
+    {
+      "step": 18,
+      "labelZh": "双数主语：本课程避开",
+      "sectionId": "verb-dual"
+    },
+    {
+      "step": 19,
+      "labelZh": "语序：SV 为常态",
+      "sectionId": "word-order"
+    },
+    {
+      "step": 20,
+      "labelZh": "比较级与最高级",
+      "sectionId": "comparison"
+    },
+    {
+      "step": 21,
+      "labelZh": "最高级：前缀 an-",
+      "sectionId": "superlative"
+    },
+    {
+      "step": 22,
+      "labelZh": "an- 的加法与同化",
+      "sectionId": "an-assimilation"
+    },
+    {
+      "step": 23,
+      "labelZh": "本章小结",
+      "sectionId": "summary"
+    },
+    {
+      "step": 24,
+      "labelZh": "课末词汇",
+      "sectionId": "vocabulary"
+    },
+    {
+      "step": 25,
+      "labelZh": "练习工作台",
+      "sectionId": "exercises"
+    }
+  ],
+  "modules": [
+    {
+      "sectionId": "parts-of-speech",
+      "sourceSectionId": "_preamble",
+      "titleZh": "01 · 词类回顾：介词与连词只是顺带",
+      "leadZh": "nu 是介词、ar 是连词，它们在昆雅里的表现与英语对应词差不多，记住词就行。真正要讲的是动词。",
+      "objectives": [
+        "能说出介词与连词在昆雅中不必专门学语法的原因",
+        "能举出 nu 与 ar 的用例"
+      ],
+      "rules": [
+        {
+          "id": "rule-parts-of-speech",
+          "headZh": "词类可数，但介词连词不必细讲",
+          "bodyZh": "任何语言的词汇都可分成若干词类。介词（如 nu「在……之下」）与连词（如 ar「和」）在昆雅中的表现与英语对应词大体相同，多数情况下只需记住相应的昆雅词。",
+          "en": "in Quenya they seem to behave pretty much like their English equivalents, so for the most part you simply have to learn the corresponding Quenya words.",
+          "zh": "它们在昆雅里的表现与英语对应词大体相同，所以多数情况下你只需记住相应的昆雅词。",
+          "exampleZh": "nu i alda「在树下」；Anar ar Isil「太阳和月亮」"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "以为介词、连词也有复杂的屈折要学",
+          "right": "它们基本是「记词」问题",
+          "whyZh": "正文明确：在昆雅里它们与英语对应词表现差不多，多数情况只需记词。"
+        }
+      ],
+      "recapZh": "介词 nu、连词 ar 只需记词；本课重点转向动词。",
+      "selfCheckZh": [
+        {
+          "qZh": "为什么作者说介词与连词不必专门讲？",
+          "aZh": "因为它们在昆雅中的表现与英语对应词大体相同，多数情况只需记住词本身。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          0
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "verb-intro",
+      "sourceSectionId": "_preamble",
+      "titleZh": "02 · 动词带来动作",
+      "leadZh": "ná 只是把名词与谓语连起来；其他动词几乎都充满意义——它们告诉我们某人「做什么」。",
+      "objectives": [
+        "能说明 ná 与其他动词的功能差别",
+        "能说出动词在句中的基本作用"
+      ],
+      "rules": [
+        {
+          "id": "rule-verb-meaning",
+          "headZh": "动词不只说「是」，还说「做」",
+          "bodyZh": "系词 ná 只协调名词与谓语，几乎不提供额外信息。其他动词（几乎全部）充满意义：它们告诉我们某人或某物做什么。动词把动作带入语言。",
+          "en": "They don't just tell us what someone or something \"is\", but what someone or something does.",
+          "zh": "它们不只告诉我们某人或某物「是」什么，还告诉我们某人或某物「做」什么。",
+          "exampleZh": "Aran ná taura（是）对 I Elda máta（做）"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "把 ná 当成典型动词",
+          "right": "它是特例：几乎不携带词汇意义",
+          "whyZh": "正文说「As verbs go, this one is not very exciting」，其余动词几乎都充满意义。"
+        }
+      ],
+      "recapZh": "动词分两类功能：系词只联结，普通动词表动作。",
+      "selfCheckZh": [
+        {
+          "qZh": "为什么说 ná 不是典型的动词？",
+          "aZh": "它只协调名词与谓语、澄清句中成分关系，几乎不提供额外信息；其他动词几乎都表示动作。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          1
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "tense-intro",
+      "sourceSectionId": "_preamble",
+      "titleZh": "03 · 时态：本课只讲现在时",
+      "leadZh": "动词形式提供动作时间的信息。本课程共讲五种时态，本课只处理现在时。",
+      "objectives": [
+        "能说出时态的作用",
+        "能列举本课程将讲的时态数量"
+      ],
+      "rules": [
+        {
+          "id": "rule-tense",
+          "headZh": "时态 = 动词的「时间形式」",
+          "bodyZh": "动词不同的「时间形式」叫作各种时态：现在时、过去时、将来时。本课只处理现在时。（现在／过去／将来这三重组合并不代表时态的全部；本课程将讨论共五种时态。）",
+          "en": "The different \"time-forms\" of the verb are called various tenses; we speak of present tense, past tense and future tense.",
+          "zh": "动词不同的「时间形式」叫作各种时态；我们说现在时、过去时和将来时。",
+          "exampleZh": "dances（现在）／danced（过去）"
+        }
+      ],
+      "recapZh": "时态是动词的时间形式；本课程共五种，本课只讲现在时。",
+      "selfCheckZh": [
+        {
+          "qZh": "本课程总共讲几种时态？本课讲几种？",
+          "aZh": "共五种；本课只讲现在时。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          2,
+          3
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "verb-warning",
+      "sourceSectionId": "_preamble",
+      "titleZh": "04 · 先说清证据有多薄",
+      "leadZh": "Plotz Letter 只列了名词变格，动词部分从未跟上。现在时的信息来自 VT41 的零星材料加语言学推论。",
+      "objectives": [
+        "能说明昆雅动词材料的匮乏程度",
+        "能说出本课结论的性质（推论而非定论）"
+      ],
+      "rules": [
+        {
+          "id": "rule-no-info",
+          "headZh": "动词材料极少，规则多为推论",
+          "bodyZh": "关于昆雅动词我们没有多少明确信息。Plotz Letter 列出了名词变格，本应随后跟上动词信息，但从未出现。相关著作尚未出版。关于现在时，VT41（2000 年 7 月）出现了一些零星信息；结合语言学推论，可看出托尔金设想系统的主要特征。",
+          "en": "We don't have much explicit information about the Quenya verb.",
+          "zh": "关于昆雅动词，我们没有多少明确信息。",
+          "exampleZh": "VT41 是现在时信息的主要来源"
+        }
+      ],
+      "closeReadingZh": [
+        {
+          "headZh": "为什么作者要花一整段讲「材料没出版」",
+          "bodyZh": "因为这一课的大量结论是推论。作者先把证据状态摆在前面，读者才能正确评估后面每条规则的确定性：哪些有传世例证（síla、quéta、órëa），哪些是外推（calyëa、tultëa、fainëa）。这也是他后面在 NOTE 里接受 Hostetter 批评的前提。"
+        }
+      ],
+      "recapZh": "动词材料稀缺；本课规则多为结合 VT41 的推论，需与「传世例证」区分。",
+      "selfCheckZh": [
+        {
+          "qZh": "为什么昆雅动词的规则多半是推论？",
+          "aZh": "Plotz Letter 只列名词变格，动词信息从未跟上；相关著作尚未出版，只有 VT41 等零星材料。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          4
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "a-stems",
+      "sourceSectionId": "_preamble",
+      "titleZh": "05 · 第一大类：A 词干（派生动词）",
+      "leadZh": "以 -a 结尾、由词根加词尾派生的动词。最常见词尾是 -ya 与 -ta，其次是 -na 或单纯的 -a。",
+      "objectives": [
+        "能说出 A 词干的两个名称及理由",
+        "能按词尾识别 A 词干并指出其词根"
+      ],
+      "rules": [
+        {
+          "id": "rule-a-stems",
+          "headZh": "A 词干 = 以 -a 结尾的派生动词",
+          "bodyZh": "第一类也是最大的一类可称为 A 词干，因为它们都以 -a 结尾。另一名称是派生动词：它们从不代表赤裸的原始词根，而是通过加词尾派生。最常见词尾是 -ya 与 -ta，-na 或单纯的 -a 少见得多。",
+          "en": "The first and largest category is what can be termed A-stems, for they all end in -a.",
+          "zh": "第一类也是最大的一类，可称为 A 词干，因为它们都以 -a 结尾。",
+          "exampleZh": "calya-（KAL）、tulta-（TUL）、harna-（SKAR）、mapa-（MAP）"
+        }
+      ],
+      "table": {
+        "captionZh": "A 词干例词与词根",
+        "headers": [
+          "动词",
+          "释义",
+          "词根",
+          "说明"
+        ],
+        "rows": [
+          [
+            "calya-",
+            "照亮",
+            "KAL",
+            "-ya 派生"
+          ],
+          [
+            "tulta-",
+            "派人去请、取来、召唤",
+            "TUL",
+            "-ta 派生"
+          ],
+          [
+            "harna-",
+            "使受伤",
+            "SKAR",
+            "原始词首 sk- → h-"
+          ],
+          [
+            "mapa-",
+            "抓、夺取",
+            "MAP",
+            "单纯 -a 派生"
+          ]
+        ]
+      },
+      "pitfalls": [
+        {
+          "wrong": "把 calya- 的 -ya 当成词根的一部分",
+          "right": "-ya 是派生词尾，词根是 KAL",
+          "whyZh": "正文：A 词干「从不代表赤裸的原始词根，而是通过加词尾派生」，并逐个标出词根。"
+        }
+      ],
+      "recapZh": "A 词干以 -a 结尾，是「词根 + 词尾」；常见词尾 -ya、-ta。",
+      "selfCheckZh": [
+        {
+          "qZh": "A 词干为什么又叫「派生动词」？",
+          "aZh": "因为它们不是赤裸词根，而是词根加词尾（-ya、-ta、-na 或 -a）派生出来的。"
+        },
+        {
+          "qZh": "tulta- 与 tul- 有什么关系？",
+          "aZh": "同出词根 TUL；tulta- 是加 -ta 派生的「派人去请、召唤」，tul- 是「来」。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "primary-verbs",
+      "sourceSectionId": "_preamble",
+      "titleZh": "06 · 第二大类：基本动词",
+      "leadZh": "没有 -ya / -ta / -na / -a 词尾，直接就是词根：mat-、tac-、tul-、mel-、sir-。",
+      "objectives": [
+        "能说出基本动词的判定标准",
+        "能举出三个基本动词及其词根"
+      ],
+      "rules": [
+        {
+          "id": "rule-primary",
+          "headZh": "基本动词 = 词根不加成分",
+          "bodyZh": "另一类是非派生的或基本动词：它们不显示 -ya、-ta、-na 或 -a 这样的词尾，本质上代表未加任何成分的原始词根。mat-「吃」直接来自词根 MAT-；tac-「系紧」代表 TAK-；tul-「来」对应 TUL-。",
+          "en": "These are verbs that display no such ending as -ya, -ta, -na or -a.",
+          "zh": "这类动词不显示 -ya、-ta、-na 或 -a 这样的词尾。",
+          "exampleZh": "mat-（MAT-）、tac-（TAK-）、tul-（TUL-）、mel-（MEL-）、sir-（SIR-）"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "把 tul- 与 tulta- 当成同一个词的两个变体",
+          "right": "它们是同根的两个不同动词",
+          "whyZh": "正文：tulta- 是「同根、借词尾 -ta 派生」的动词，与 tul-「来」意义不同。"
+        }
+      ],
+      "recapZh": "基本动词 = 赤裸词根：mat-、tac-、tul-、mel-、sir-。",
+      "selfCheckZh": [
+        {
+          "qZh": "怎样判断一个动词是基本动词？",
+          "aZh": "它不带 -ya、-ta、-na 或 -a 这类派生词尾，本质上是未加成分的原始词根。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          11
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "stem-vowel",
+      "sourceSectionId": "_preamble",
+      "titleZh": "07 · 词干元音：不是随便哪个元音",
+      "leadZh": "mel- 的词干元音是 e；pusta- 的词干元音是 u 而不是词尾里的 a。判据是「底层词根的元音」。",
+      "objectives": [
+        "能定义词干元音",
+        "能判断派生词的词干元音为何不是词尾元音"
+      ],
+      "rules": [
+        {
+          "id": "rule-stem-vowel",
+          "headZh": "词干元音 = 底层词根的元音",
+          "bodyZh": "词干元音是动词背后那个词根元音在昆雅中的呈现。mel- 的词干元音是 e（唯一元音）。派生词的词尾元音不算：pusta- 由词根 PUS 派生，词干元音是 u 而不是 a。绝大多数情况下词干元音就是动词的第一个元音，但未必（可能有前缀）。",
+          "en": "Pusta-, for instance, is derived from a root PUS, and its stem-vowel is therefore u, not a.",
+          "zh": "例如 pusta- 由词根 PUS 派生，其词干元音因此是 u 而不是 a。",
+          "exampleZh": "mel- → e；pusta- → u；ora- → o"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "把 pusta- 的词干元音当成词尾的 a",
+          "right": "是 u，来自词根 PUS",
+          "whyZh": "正文明确：所加词尾（这里 -ta 与 -a）的元音不算词干元音。"
+        }
+      ],
+      "recapZh": "词干元音来自底层词根，不是派生词尾的元音。",
+      "selfCheckZh": [
+        {
+          "qZh": "pusta- 的词干元音是什么？为什么？",
+          "aZh": "u；它由词根 PUS 派生，词尾 -ta 的 a 不算词干元音。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          12
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "present-primary",
+      "sourceSectionId": "_preamble",
+      "titleZh": "08 · 基本动词的现在时：拉长元音 + -a",
+      "leadZh": "mel- → méla、sil- → síla、quet- → quéta。这条规则有传世例证，而且现在时表示「正在……」。",
+      "objectives": [
+        "能按「拉长词干元音 + -a」写出基本动词的现在时",
+        "能说明现在时表示持续动作、宜译作 is -ing"
+      ],
+      "rules": [
+        {
+          "id": "rule-present-primary",
+          "headZh": "现在时 = 拉长词干元音 + 加 -a",
+          "bodyZh": "méla 与 síla 与词干 mel-、sil- 的关系相同：现在时由拉长词干元音（加尖音符表示）并加词尾 -a 构成。VT41:13 的 quéta（来自 quet-「说」）支持这一结论。",
+          "en": "the present-tense forms are derived by lengthening the stem-vowel (this is denoted by supplying an accent, of course) and adding the ending -a",
+          "zh": "现在时形式由拉长词干元音（当然用加尖音符表示）并加词尾 -a 构成。",
+          "exampleZh": "mel- → méla；sil- → síla；quet- → quéta"
+        },
+        {
+          "id": "rule-continuous",
+          "headZh": "现在时 ≈ 正在……",
+          "bodyZh": "昆雅现在时确切表示持续或正在进行的动作，最好用英语 is ...-ing 译。quéta 是「正在说」而非仅「说」。mat- 的现在时 máta（原始语 mâtâ「持续形式」）也强调动作进行。",
+          "en": "the Quenya present tense properly denotes a continuous or ongoing action that is best translated using the English \"is ...-ing\" construction",
+          "zh": "昆雅现在时似乎确切表示持续或正在进行的动作，最好用英语「is ...-ing」结构来译。",
+          "exampleZh": "Síla ≈ is shining；quéta ≈ is saying"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Yonya inyë tye-méla",
+          "zh": "我的儿子，我也爱你",
+          "whyZh": "LR:61，埃兰迪尔对儿子赫伦迪尔说的话；méla 是 mel-「爱」的现在时。"
+        },
+        {
+          "en": "elen síla lúmenn' omentielvo",
+          "zh": "一颗星照在我们相会之时",
+          "whyZh": "《魔戒》著名问候；síla 是 sil-「照耀」的现在时。"
+        },
+        {
+          "en": "quéta",
+          "zh": "正在说",
+          "whyZh": "VT41:13；quet-「说」的现在时，证明拉长 + -a 这条规则。"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "mela（不拉长元音）",
+          "right": "méla",
+          "whyZh": "正文：现在时由拉长词干元音构成，méla 带尖音符。"
+        },
+        {
+          "wrong": "把 síla 只译成「照耀」",
+          "right": "更贴切是「正在照耀」",
+          "whyZh": "正文：昆雅现在时表示持续动作，宜用 is -ing 译；「后者似乎才是最字面的意思」。"
+        }
+      ],
+      "recapZh": "基本动词现在时 = 拉长词干元音 + -a（méla、síla、quéta）；语义上是「正在……」。",
+      "selfCheckZh": [
+        {
+          "qZh": "写出 sil-、quet-、mel- 的现在时。",
+          "aZh": "síla、quéta、méla。"
+        },
+        {
+          "qZh": "为什么 síla 更宜译作「正在照耀」？",
+          "aZh": "昆雅现在时表示持续或进行中的动作，最贴近英语 is -ing。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          13,
+          14
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "a-present",
+      "sourceSectionId": "_preamble",
+      "titleZh": "09 · A 词干的现在时：óra-a → órëa",
+      "leadZh": "规则一样，但要处理词干末尾的 -a：它变成 e，避免两个 a 相连。所以 ora- → órëa、mapa- → mápëa。",
+      "objectives": [
+        "能按 órëa 的模式写出短 A 词干的现在时",
+        "能解释 -a 为何变 -e"
+      ],
+      "rules": [
+        {
+          "id": "rule-a-present",
+          "headZh": "A 词干：-a 变 -e，得 -ëa",
+          "bodyZh": "A 词干构成现在时的规则与基本动词大致相同，但要贴合其形状。唯一传世例证是 ora-「催促」的现在时 órëa：词干元音拉长、加词尾 -a；由于词干已以 -a 结尾，这个元音改为 e，以免两个 a 相连。所以 mapa-、lala- 的现在时作 mápëa、lálëa。",
+          "en": "this vowel is changed to e so as to avoid two a's in sequence: What would be óra-a manifests as órëa",
+          "zh": "这个元音改为 e，以避免两个 a 相连：本应是 óra-a 的形式表现为 órëa。",
+          "exampleZh": "ora- → órëa；mapa- → mápëa；lala- → lálëa"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "óra-a（两个 a 直接相连）",
+          "right": "órëa",
+          "whyZh": "正文：本应是 óra-a 的形式表现为 órëa，因为要避免两个 a 相连。"
+        }
+      ],
+      "recapZh": "短 A 词干现在时：拉长词干元音，词尾 -a 变 -e，得 -ëa（órëa、mápëa、lálëa）。",
+      "selfCheckZh": [
+        {
+          "qZh": "ora- 的现在时是什么？为什么不是 óra-a？",
+          "aZh": "órëa；词干末尾的 -a 改为 e，以免两个 a 相连。"
+        },
+        {
+          "qZh": "lala- 的现在时怎么写？",
+          "aZh": "lálëa（keys 第 5 课 A 题：I nís lálëa）。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          15,
+          16
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "a-complex",
+      "sourceSectionId": "_preamble",
+      "titleZh": "10 · 复杂 A 词干：辅音丛前不拉长",
+      "leadZh": "calya-、tulta- 这类词干元音后有辅音丛，长元音不允许出现在它前面，所以只加 -ëa：calyëa、tultëa。",
+      "objectives": [
+        "能说明复杂 A 词干为何不拉长元音",
+        "能写出 calya-、lanta-、pusta- 的现在时"
+      ],
+      "rules": [
+        {
+          "id": "rule-cluster",
+          "headZh": "辅音丛前不能用长元音",
+          "bodyZh": "昆雅有一条音系规则，禁止长元音紧接在辅音丛之前。若按 órëa 的模式类推，会得到 ?cályëa、?túltëa，但 ?túltëa 看来不能存在。缺少实例，只能假定这种情况下元音拉长取消，于是 calya- → calyëa、tulta- → tultëa；lanta-、harna-、pusta- 同理作 lantëa、harnëa、pustëa。",
+          "en": "there seems to be a phonological rule in Quenya prohibiting a long vowel immediately in front of a consonant cluster",
+          "zh": "昆雅似乎有一条音系规则，禁止长元音紧接在辅音丛之前。",
+          "exampleZh": "calya- → calyëa；tulta- → tultëa；lanta- → lantëa"
+        },
+        {
+          "id": "rule-diphthong",
+          "headZh": "双元音同理不能拉长",
+          "bodyZh": "双元音与辅音丛前的元音一样无法拉长，所以 faina-「发光」、auta-「经过」的现在时大概是 fainëa、autëa。",
+          "en": "The present-tense forms of verbs like faina- \"emit light\" or auta- \"pass\" would presumably be fainëa, autëa.",
+          "zh": "faina-「发光」或 auta-「经过」这类动词的现在时大概是 fainëa、autëa。",
+          "exampleZh": "fainëa、autëa"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "?túltëa（拉长元音 + 辅音丛）",
+          "right": "tultëa",
+          "whyZh": "正文：长元音不能出现在辅音丛之前，?túltëa 看来不能存在。"
+        },
+        {
+          "wrong": "*lántëa（与 lálëa 平行）",
+          "right": "lantëa",
+          "whyZh": "unit 22 的例子明确：不可能有 *lántëa，因为长元音不能出现在辅音丛前。"
+        }
+      ],
+      "recapZh": "复杂 A 词干（元音后有辅音丛）只加 -ëa，不拉长元音：calyëa、tultëa、lantëa、pustëa；双元音同理（fainëa）。",
+      "selfCheckZh": [
+        {
+          "qZh": "为什么 tulta- 的现在时是 tultëa 而不是 ?túltëa？",
+          "aZh": "词干元音后有辅音丛 lt，长元音不能出现在辅音丛之前。"
+        },
+        {
+          "qZh": "写出 lanta-、pusta-、faina- 的现在时。",
+          "aZh": "lantëa、pustëa、fainëa。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          17,
+          18
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "sentence-building",
+      "sourceSectionId": "_preamble",
+      "titleZh": "11 · 造句：三个模板",
+      "leadZh": "Isil síla（基本动词）、I Elda lálëa（短 A 词干）、Lassë lantëa（复杂 A 词干）——这三句就是本课的句型。",
+      "objectives": [
+        "能默写三个造句模板并说明各自来源",
+        "能按同一模式自造新句"
+      ],
+      "examples": [
+        {
+          "en": "Isil síla",
+          "zh": "月亮正在照耀",
+          "whyZh": "现在时 síla 由基本动词 sil-「照耀」构成：拉长元音 + -a。"
+        },
+        {
+          "en": "I Elda lálëa",
+          "zh": "那个精灵正在笑",
+          "whyZh": "现在时由短 A 词干 lala-「笑」构成：拉长 + -a 变 -e。"
+        },
+        {
+          "en": "Lassë lantëa",
+          "zh": "一片叶子正在落",
+          "whyZh": "现在时由复杂 A 词干 lanta-「落」构成；不能有 *lántëa，因为长元音不能出现在辅音丛 lt 之前。"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "把三句当成同一条规则的三个结果",
+          "right": "三句分属三种词干类型，规则细节不同",
+          "whyZh": "正文在每句后都注明词干类型与具体处理方式。"
+        }
+      ],
+      "recapZh": "三模板：基本动词拉长元音；短 A 词干 -a→-e；复杂 A 词干只加 -ëa。",
+      "selfCheckZh": [
+        {
+          "qZh": "三句分别用了哪类动词？",
+          "aZh": "Isil síla 用基本动词 sil-；I Elda lálëa 用短 A 词干 lala-；Lassë lantëa 用复杂 A 词干 lanta-。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          19,
+          20,
+          21,
+          22
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "note-hostetter",
+      "sourceSectionId": "_preamble",
+      "titleZh": "12 · NOTE：Hostetter 的批评与「-ëa 属争议」",
+      "leadZh": "基本动词的规则无人质疑；A 词干的 -ëa 现在时只有一个例子 órëa，因此被批评为可能是短暂摇摆。",
+      "objectives": [
+        "能说明 -ëa 现在时为何有争议",
+        "能说出作者给写作者的建议"
+      ],
+      "rules": [
+        {
+          "id": "rule-ea-disputed",
+          "headZh": "-ëa 现在时属争议区",
+          "bodyZh": "VT 编辑 Hostetter 批评了部分推论。基本动词拉长元音加 -a 无人质疑；但 A 词干有 -ëa 现在时这一说法有争议——它只依据 órëa 一个例子，而正是 Hostetter 发表了该形式。作者没有改动练习，但建议写作者在了解更多之前可以避开 -ëa 现在时。",
+          "en": "the notion that A-stems have present-tense forms in -ëa has proved controversial",
+          "zh": "「A 词干有 -ëa 现在时形式」这一说法被证明有争议。",
+          "exampleZh": "唯一依据：órëa（来自 ora-「推动」）"
+        }
+      ],
+      "closeReadingZh": [
+        {
+          "headZh": "这条 NOTE 为什么重要",
+          "bodyZh": "它把本课规则分成两档：基本动词的现在时（méla、síla、quéta）有多个传世例证；A 词干的 -ëa（órëa、mápëa、lálëa）只有一个例子，且连发表者本人都只是「提议」它属现在时。练习照旧，但作者明说写作者可以避开——这是本课程处理不确定性的标准做法：给规则，也给出规则的置信度。"
+        }
+      ],
+      "recapZh": "基本动词现在时可靠；A 词干 -ëa 现在时只有 órëa 一例，属争议区，写作者可避开。",
+      "selfCheckZh": [
+        {
+          "qZh": "为什么 -ëa 现在时被质疑？",
+          "aZh": "它只依据 órëa 一个例子，可能只是托尔金构想中的短暂摇摆。"
+        },
+        {
+          "qZh": "作者因此改动练习了吗？",
+          "aZh": "没有；但建议写作者在了解更多前可以避开 -ëa 现在时。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          23
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "subject-object",
+      "sourceSectionId": "_preamble",
+      "titleZh": "13 · 主语与宾语",
+      "leadZh": "主语 = 做动作的一方；宾语 = 动作的承受者。宾语是主动主语的对立面。",
+      "objectives": [
+        "能定义主语与宾语",
+        "能在昆雅句中指认主宾"
+      ],
+      "rules": [
+        {
+          "id": "rule-subject",
+          "headZh": "主语 = 执行动作的一方",
+          "bodyZh": "句中含表示动作的动词时，必须交代是谁在做这个动作。做出动词所述动作的一方构成主语。Isil síla 中 Isil 是主语；i Elda máta 中 i Elda 是主语。",
+          "en": "The party that does whatever the verb tells us is being done, constitutes the subject of the sentence.",
+          "zh": "做出动词所述动作的一方，构成句子的主语。",
+          "exampleZh": "Isil síla；i Elda máta"
+        },
+        {
+          "id": "rule-object",
+          "headZh": "宾语 = 动作的目标",
+          "bodyZh": "动作的目标叫宾语，它是主动主语的对立面：主语做某事，宾语是主语对其做某事的东西。i Elda máta massa 中 massa 是宾语。「对……做某事」有时须作宽泛理解（如「看见」并不物理影响宾语）。",
+          "en": "The target of the verbal action is called the object, the passive counterpart of the active subject",
+          "zh": "动作的目标叫作宾语，它是主动主语的对立面。",
+          "exampleZh": "i Elda máta massa「那个精灵正在吃面包」"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "以为宾语必须被动作「物理影响」",
+          "right": "「看见」这类也可带宾语",
+          "whyZh": "正文明确：「对……做某事」有时须作更宽泛的理解，如「主语看见宾语」。"
+        }
+      ],
+      "recapZh": "主语做，宾语承受。宾语不必被物理影响（如「看见」）。",
+      "selfCheckZh": [
+        {
+          "qZh": "i Elda máta massa 里哪个是宾语？",
+          "aZh": "massa「面包」；它是吃的目标。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          24,
+          25
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "object-optional",
+      "sourceSectionId": "_preamble",
+      "titleZh": "14 · 宾语可省，也可必须",
+      "leadZh": "lanta- 没有宾语；mat- 可有可无；mapa- 必须有，否则句子不完整。",
+      "objectives": [
+        "能按动词意义判断宾语是否必需",
+        "能举出三类动词的例子"
+      ],
+      "rules": [
+        {
+          "id": "rule-object-optional",
+          "headZh": "宾语：没有／可选／必需",
+          "bodyZh": "有些动词不能带宾语（lanta-「落」：i Elda lantëa）。有些可选（mat-「吃」：I Elda máta (massa) 本身就是完整句）。有些依其意义必须有宾语（mapa-「抓取」：i Elda mápëa 只会引出「抓什么？」）。",
+          "en": "But some verbs by their meaning demand an object, and the sentence would be felt to be incomplete without it.",
+          "zh": "但有些动词依其意义要求宾语，缺了它句子会被觉得不完整。",
+          "exampleZh": "lanta-（无）／mat-（可选）／mapa-（必需）"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "把 mapa- 当不及物动词用（i Elda mápëa 就算完整）",
+          "right": "必须补宾语",
+          "whyZh": "正文：这句话只会引出「正在抓什么？」，必须补出宾语才完整。"
+        }
+      ],
+      "recapZh": "lanta- 无宾语；mat- 可选；mapa- 必需。",
+      "selfCheckZh": [
+        {
+          "qZh": "为什么 i Elda mápëa 不算完整句？",
+          "aZh": "mapa- 依其意义要求宾语；这句话只会引出「正在抓什么？」，须补宾语。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          26
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "accusative",
+      "sourceSectionId": "_preamble",
+      "titleZh": "15 · 宾格：书本昆雅有，本课程不用",
+      "leadZh": "Plotz Letter 提到书面昆雅里宾语有专门形式（ciryá、ciryai），但实际文本中从不出现，作者也不用。",
+      "objectives": [
+        "能说明宾格形式的样子",
+        "能说出作者不采用它的两条理由"
+      ],
+      "rules": [
+        {
+          "id": "rule-accusative",
+          "headZh": "宾格：有记载，但不用",
+          "bodyZh": "Plotz Letter 说「书本昆雅」中名词作宾语有专门形式：以元音结尾的单数名词拉长该元音（cirya → ciryá），用 -r 复数的名词改用 -i（ciryar → ciryai）。但这个宾格不见于任何实际文本（包括《Namárië》与《Markirya》末版），作者在本课程练习与自己的创作中都不用。",
+          "en": "I do not use the distinct accusative in the exercises I have made for this course",
+          "zh": "我在为本课程所编的练习中不使用这一独立宾格。",
+          "exampleZh": "ciryá（宾格单数）、ciryai（宾格复数）——本课程仍写 cirya(r)"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "在练习里给宾语加长元音或改 -i",
+          "right": "本课程一律写普通形式 cirya / ciryar",
+          "whyZh": "作者明确不用独立宾格；且它不见于任何实际文本，说明使用远非普遍。"
+        }
+      ],
+      "recapZh": "宾格 ciryá / ciryai 只见于 Plotz Letter 的描述，实际文本无例；本课程不用。",
+      "selfCheckZh": [
+        {
+          "qZh": "「书本昆雅」的宾格怎么构成？",
+          "aZh": "元音结尾单数名词拉长词尾元音（ciryá）；用 -r 复数的名词改 -i（ciryai）。"
+        },
+        {
+          "qZh": "本课程为什么不用宾格？",
+          "aZh": "它不见于任何实际文本，使用远非普遍；作者在练习与创作中都不用。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          27
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "verb-agreement",
+      "sourceSectionId": "_preamble",
+      "titleZh": "16 · 动词与主语数一致",
+      "leadZh": "laurië lantar lassi：lassi 是复数主语，所以动词取 -r。这个 -r 对所有动词、所有时态通用。",
+      "objectives": [
+        "能说明动词数一致的规则",
+        "能解释 lantar 的 -r 从哪来"
+      ],
+      "rules": [
+        {
+          "id": "rule-verb-agree",
+          "headZh": "动词与主语数一致，词尾 -r",
+          "bodyZh": "正如形容词与名词数一致，动词与主语数一致。laurië lantar lassi 中主语 lassi 是复数，动词 lanta- 取词尾 -r 成 lantar。名词的复数有 -r 与 -i 两种，但动词的复数词尾 -r 似乎是通用的，且用于所有时态。",
+          "en": "Just like adjectives agree in number with the nouns they describe, verbs agree in number with their subjects.",
+          "zh": "正如形容词与其描述的名词数一致，动词也与其主语数一致。",
+          "exampleZh": "elen síla「一颗星在照」→ eleni sílar「群星在照」"
+        },
+        {
+          "id": "rule-nar",
+          "headZh": "nar 就是 ná + -r",
+          "bodyZh": "动词复数词尾我们其实已在 nar「是（复）」中见过，它是 ná 的复数。至于 ná 为什么不变成 ?nár，作者说后者可能也有效，但短 a 的 nar 至少较不易与名词 nár「火焰」混淆。",
+          "en": "(One may ask why ná does not turn into ?nár with the long vowel intact.",
+          "zh": "（有人会问为什么 ná 不变成保留长元音的 ?nár。",
+          "exampleZh": "ná → nar"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "以为动词复数也像名词一样有 -i 型",
+          "right": "动词复数一律 -r",
+          "whyZh": "正文：就动词而言，复数词尾 -r 似乎是通用的，不论动词长什么样。"
+        },
+        {
+          "wrong": "把 lantar 当成现在时",
+          "right": "它是无定时态；现在时应是 lantëar",
+          "whyZh": "正文：动词以所谓无定时态出现，稍后讨论；可把 lantar 与 lantëar 对应 fall 与 are falling。"
+        }
+      ],
+      "recapZh": "动词与主语数一致，复数一律加 -r（所有时态通用）；nar = ná + -r。",
+      "selfCheckZh": [
+        {
+          "qZh": "laurië lantar lassi 中动词为什么带 -r？",
+          "aZh": "主语 lassi「叶子」是复数，动词须与主语数一致。"
+        },
+        {
+          "qZh": "nar 与 ná 是什么关系？",
+          "aZh": "nar 是 ná 的复数形式，即 ná + 复数词尾 -r。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          28,
+          29
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "plural-subject",
+      "sourceSectionId": "_preamble",
+      "titleZh": "17 · 复数主语与多个主语",
+      "leadZh": "一个复数主语、或两个并列的单数主语，都让动词取 -r；但宾语是复数时动词不变。",
+      "objectives": [
+        "能判断何时用 -r",
+        "能说明宾语不影响动词"
+      ],
+      "rules": [
+        {
+          "id": "rule-verb-only-subject",
+          "headZh": "只跟主语一致，宾语不影响",
+          "bodyZh": "多于一个主语与单个复数主语效果相同，动词都取 -r：I arani mátar、I aran ar i tári mátar。反之，复数宾语或多个宾语对动词没有影响：i aran máta massa ar apsa。动词只与主语数一致。",
+          "en": "The verb agrees in number with the subject only.",
+          "zh": "动词只与主语数一致。",
+          "exampleZh": "I aran máta massa ar apsa（宾语复数，动词仍单数）"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "I aran mátar massa ar apsa（因为宾语多就把动词变复数）",
+          "right": "I aran máta massa ar apsa",
+          "whyZh": "正文明确：复数宾语或多个宾语对动词没有影响，动词只与主语一致。"
+        },
+        {
+          "wrong": "I aran ar i tári máta（两个主语仍用单数）",
+          "right": "I aran ar i tári mátar",
+          "whyZh": "正文：多于一个主语与复数主语效果相同，动词取 -r。"
+        }
+      ],
+      "recapZh": "复数主语或多个主语 → -r；宾语多少不影响动词。",
+      "selfCheckZh": [
+        {
+          "qZh": "I aran ar i tári 后面动词用 máta 还是 mátar？",
+          "aZh": "mátar；两个并列主语等同复数主语。"
+        },
+        {
+          "qZh": "宾语是复数时动词要变吗？",
+          "aZh": "不变；动词只与主语数一致。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          30,
+          31,
+          32,
+          33
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "verb-dual",
+      "sourceSectionId": "_preamble",
+      "titleZh": "18 · 双数主语：可能另有形式，但本课程避开",
+      "leadZh": "一般假定动词只有一种复数形式；但双数主语（Aldu sílat?）没有例证，作者干脆不在练习里出双数主语。",
+      "objectives": [
+        "能说明双数主语的不确定性",
+        "能说出作者的处理方式"
+      ],
+      "rules": [
+        {
+          "id": "rule-verb-dual",
+          "headZh": "双数主语：无定论，练习避开",
+          "bodyZh": "一般假定动词只有一种复数形式，-r 通用（主语为常规复数、双数或 -li 形式时都一样）。但没有《魔戒》式昆雅的实际例证，作者不排除存在专门的双数动词形式（词尾 -t，如 Aldu sílat）。由于无法确定，他在练习中避开双数主语。",
+          "en": "I will simply avoid dual subjects in the exercises I make for this course.",
+          "zh": "所以我在为本课程所编的练习中干脆避开双数主语。",
+          "exampleZh": "Aldu sílat? / Aldu sílar?（均无定论）"
+        }
+      ],
+      "recapZh": "动词对双数主语的形式无定论（可能是 -t）；本课程练习不出双数主语。",
+      "selfCheckZh": [
+        {
+          "qZh": "双数主语的动词该用什么词尾？",
+          "aZh": "无定论；一般假定用 -r，但也可能是 -t（如 Aldu sílat）。"
+        },
+        {
+          "qZh": "作者如何处理这一不确定性？",
+          "aZh": "在为本课程所编的练习中避开双数主语。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          34
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "word-order",
+      "sourceSectionId": "_preamble",
+      "titleZh": "19 · 语序：主—动—宾是常态",
+      "leadZh": "散文体《Namárië》把诗歌版的倒装重组成 SVO，这是「正常语序」的主要依据。倒装要小心主宾混淆。",
+      "objectives": [
+        "能说出昆雅散文的常态语序",
+        "能说明倒装何时安全、何时危险"
+      ],
+      "rules": [
+        {
+          "id": "rule-word-order",
+          "headZh": "SVO 是常态",
+          "bodyZh": "英语一般按主语、动词、宾语排列，昆雅散文中最典型的语序也是如此（lassi lantar、mornië caita）。散文体《Namárië》把诗歌版的 lantar lassi、caita mornië 重组成主语在前，这是「正常语序」的主要依据。诗歌中语序灵活：Auta i lómë!、máryat Elentári ortanë、ilyë tier undulávë lumbulë。",
+          "en": "This is our main basis for assuming that this is the normal order, preferred where there are no poetic or dramatic considerations to be made.",
+          "zh": "这是我们假定这才是正常语序、在没有诗歌或戏剧考虑时优先采用的主要依据。",
+          "exampleZh": "lassi lantar（散文）对 lantar lassi（诗歌）"
+        },
+        {
+          "id": "rule-inversion",
+          "headZh": "倒装要防主宾混淆",
+          "bodyZh": "把宾语放在主语之前有时会让人搞不清谁是主宾（昆雅最常见形式不保留独立宾格）。但当主语单数、宾语复数（或反之）时完全允许：只与主语一致的动词会间接指明主语。ilyë tier undulávë lumbulë 中 undulávë 没有 -r，故主语必是单数 lumbulë 而非复数 tier。",
+          "en": "Such inversions are however quite permissible when the subject is singular and the object is plural or vice versa.",
+          "zh": "不过当主语单数而宾语复数、或反之，这种倒装完全允许。",
+          "exampleZh": "ilyë tier undulávë lumbulë"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "以为动词提前就是疑问句",
+          "right": "昆雅不用这种方式构成疑问",
+          "whyZh": "正文明确：英语里动词提前可构成疑问，但这种方式显然在昆雅中不成立。"
+        },
+        {
+          "wrong": "随意把宾语前置",
+          "right": "主宾同为数时容易混淆，须靠语境或数一致",
+          "whyZh": "正文：昆雅最常见形式不保留独立宾格，倒装可能造成主宾混淆。"
+        }
+      ],
+      "recapZh": "常态 SVO；诗歌可倒装；主宾数不同时倒装安全，因为动词 -r 会指明主语。",
+      "selfCheckZh": [
+        {
+          "qZh": "昆雅散文的常态语序是什么？依据是什么？",
+          "aZh": "主—动—宾；依据是散文体《Namárië》把诗歌版的倒装重组成 SVO。"
+        },
+        {
+          "qZh": "ilyë tier undulávë lumbulë 的主语是哪个词？为什么？",
+          "aZh": "lumbulë「阴影」；动词 undulávë 没有 -r，故主语是单数，不可能是复数的 tier。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          35,
+          36,
+          37
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "comparison",
+      "sourceSectionId": "more-about-adjectives",
+      "titleZh": "20 · 比较级与最高级：英语怎么做，昆雅知道多少",
+      "leadZh": "英语有 -er / -est；昆雅直到 2001 年才出现比较公式 A ná calima lá B，最高级则靠前缀 an-。",
+      "objectives": [
+        "能说明比较级与最高级的功能",
+        "能说出昆雅比较公式及其出处"
+      ],
+      "rules": [
+        {
+          "id": "rule-comparison",
+          "headZh": "比较：A ná calima lá B",
+          "bodyZh": "英语用 -er / -est 或 more / most。昆雅在 2001 年出现比较公式：「A 比 B 更亮」可作「A ná calima lá B」，字面「A 是 明亮的 超过 B」（VT42:32）。但 lá 另有其他含义，其比较用法留到第十八课。",
+          "en": "\"A is brighter than B\" may be expressed as \"A ná calima lá B\", literally \"A is bright beyond B\" (VT42:32).",
+          "zh": "「A 比 B 更亮」可表达为「A ná calima lá B」，字面「A 是 明亮的 超过 B」（VT42:32）。",
+          "exampleZh": "A ná calima lá B"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "以为昆雅有 -er / -est 式词尾",
+          "right": "已出版的比较手段是 lá 公式，最高级是 an- 前缀",
+          "whyZh": "正文：已出版材料没有比较级词尾；比较用 lá 公式，最高级用 an-。"
+        }
+      ],
+      "recapZh": "比较用 A ná calima lá B；最高级用前缀 an-。",
+      "selfCheckZh": [
+        {
+          "qZh": "昆雅怎么说「A 比 B 更亮」？",
+          "aZh": "A ná calima lá B（VT42:32）。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "more-about-adjectives",
+        "unitIds": [
+          0,
+          1
+        ],
+        "labelZh": "课文 20"
+      }
+    },
+    {
+      "sectionId": "superlative",
+      "sourceSectionId": "more-about-adjectives",
+      "titleZh": "21 · 最高级：前缀 an-（ancalima 是唯一例证）",
+      "leadZh": "托尔金把 ancalima 译作「exceedingly bright」，又称 an- 为「最高级或强调前缀」。到底是「最」还是「极」，材料只够给出倾向。",
+      "objectives": [
+        "能说明 an- 的来源与译法争议",
+        "能举出 ancalima 的上下文证据"
+      ],
+      "rules": [
+        {
+          "id": "rule-superlative",
+          "headZh": "最高级 = an- + 形容词",
+          "bodyZh": "托尔金解释《魔戒》中的 ancalima 为 calima 加要素 an-，后者是「最高级或强调前缀」。因此许多写作者把 an- 当作英语 -est 的等价物，如 anvanya「最美的」。但必须理解 ancalima 仍是 an- 用于此义的唯一传世例证。",
+          "en": "many writers have used the prefix an- as the equivalent of the English ending -est, to construct the superlative form of adjectives",
+          "zh": "许多写作者把前缀 an- 当作英语词尾 -est 的等价物来构成形容词最高级。",
+          "exampleZh": "calima → ancalima；vanya → anvanya"
+        },
+        {
+          "id": "rule-superlative-evidence",
+          "headZh": "「最」还是「极」？",
+          "bodyZh": "托尔金把 ancalima 译作「exceedingly bright」而非「brightest」，所以 an- 也许意味着「非常、极其」。但上下文暗示比较：Aiya Eärendil Elenion Ancalima 他后来释为「欢呼吧埃兰迪尔，众星中最明亮者」（Letters:385），而埃雅仁迪尔在神话中正是最亮的星。所以这里确实是真正的最高级。",
+          "en": "but is should be understood that ancalima remains our sole attested example of an- used in this sense",
+          "zh": "但应理解 ancalima 仍是 an- 用于此义的唯一传世例证。",
+          "exampleZh": "Aiya Eärendil Elenion Ancalima"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "把 an- 当成有大量例证支持的确定规则",
+          "right": "只有 ancalima 一例",
+          "whyZh": "正文两次强调 ancalima 是唯一传世例证。"
+        }
+      ],
+      "recapZh": "最高级用 an-；唯一例证 ancalima；「最」与「极」的细微差别尚无定论。",
+      "selfCheckZh": [
+        {
+          "qZh": "ancalima 的出处与释义是什么？",
+          "aZh": "《魔戒》尸罗巢穴中佛罗多的话 Aiya Eärendil Elenion Ancalima；托尔金释为「众星中最明亮者」（Letters:385）。"
+        },
+        {
+          "qZh": "为什么说 an- 的语义仍有疑问？",
+          "aZh": "托尔金把它译作「exceedingly bright」，又称其为「最高级或强调前缀」，两种理解都说得通。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "more-about-adjectives",
+        "unitIds": [
+          2,
+          3
+        ],
+        "labelZh": "课文 21"
+      }
+    },
+    {
+      "sectionId": "an-assimilation",
+      "sourceSectionId": "more-about-adjectives",
+      "titleZh": "22 · an- 的加法与同化：p → m、l/r/s/m 全同化",
+      "leadZh": "an- 不能机械地加到任何形容词前。元音与 c/n/qu/t/v/w/y 前可原样加；p 前 n 变 m；l/r/s/m 前完全同化。",
+      "objectives": [
+        "能按首音判断 an- 是否原样添加",
+        "能写出 ampitya、allauca、arringa、assarda、ammoina"
+      ],
+      "rules": [
+        {
+          "id": "rule-an-cluster",
+          "headZh": "可原样添加的首音",
+          "bodyZh": "an- 可「原样」加在以元音或 c-、n-、qu-、t-、v-、w-、y- 开头的形容词前：analta、ancalima、annorna、anquanta、anvanya、anwenya、anyára。以 f-、h- 开头的可能也可（无例证）：?anfána、?anhalla。",
+          "en": "An- can be prefixed \"as is\" to adjectives beginning in a vowel or in c-, n-, qu-, t-, v-, w-, and y-:",
+          "zh": "an- 可以「原样」加在以元音或 c-、n-、qu-、t-、v-、w-、y- 开头的形容词前。",
+          "exampleZh": "an + calima = ancalima；an + vanya = anvanya"
+        },
+        {
+          "id": "rule-an-m",
+          "headZh": "p 前 n → m",
+          "bodyZh": "在辅音 p- 之前，an 的 n 大概会以双唇闭合的方式发音（p 的发音涉及这种闭合），于是 n 变成 m：pitya → ampitya（不可能的 anpitya 被改造为允许形式）。",
+          "en": "hence n would turn into m.",
+          "zh": "于是 n 会变成 m。",
+          "exampleZh": "an + pitya = ampitya"
+        },
+        {
+          "id": "rule-an-assimilation",
+          "headZh": "l / r / s / m 前完全同化",
+          "bodyZh": "在 l-、r-、s-、m- 之前，an- 末尾的 n 大概会完全同化，即变得与后随辅音相同：lauca → allauca、ringa → arringa、sarda → assarda、moina → ammoina。传世旁证：Númellótë 中 nl → ll（UT:227），Elemmírë 中 nm → mm。",
+          "en": "Before the consonants l-, r-, s-, and m-, the final n of an- would probably be fully assimilated, that is, it becomes identical to the following consonant",
+          "zh": "在辅音 l-、r-、s-、m- 之前，an- 末尾的 n 大概会完全同化，即变得与后随辅音相同。",
+          "exampleZh": "allauca、arringa、assarda、ammoina"
+        }
+      ],
+      "table": {
+        "captionZh": "按首音决定 an- 的处理",
+        "headers": [
+          "首音",
+          "处理",
+          "例"
+        ],
+        "rows": [
+          [
+            "元音、c、n、qu、t、v、w、y",
+            "原样加",
+            "analta、ancalima、annorna、anquanta、anvanya、anwenya、anyára"
+          ],
+          [
+            "f、h",
+            "可能原样（无例证）",
+            "?anfána、?anhalla"
+          ],
+          [
+            "p",
+            "n → m",
+            "ampitya"
+          ],
+          [
+            "l、r、s、m",
+            "完全同化",
+            "allauca、arringa、assarda、ammoina"
+          ],
+          [
+            "其他",
+            "不确定（插元音或同化）",
+            "—"
+          ]
+        ]
+      },
+      "pitfalls": [
+        {
+          "wrong": "anpitya",
+          "right": "ampitya",
+          "whyZh": "正文：昆雅没有 np；anpitya 是不可能的形式，被改造为 ampitya。"
+        },
+        {
+          "wrong": "*anlauca",
+          "right": "allauca",
+          "whyZh": "正文明确：*anlauca 是不可能存在的词，an- + lauca 得 allauca。"
+        },
+        {
+          "wrong": "ansaila（未同化）",
+          "right": "assaila",
+          "whyZh": "keys 第 5 课 M 题：an-saila 经同化成为 assaila。"
+        }
+      ],
+      "recapZh": "元音与 c/n/qu/t/v/w/y 前原样加；p 前 n→m；l/r/s/m 前完全同化；其余不确定。",
+      "selfCheckZh": [
+        {
+          "qZh": "写出 an- 加在 pitya、lauca、saila、moina 上的结果。",
+          "aZh": "ampitya、allauca、assaila、ammoina。"
+        },
+        {
+          "qZh": "为什么 anpitya 不可能存在？",
+          "aZh": "昆雅没有 np 这一辅音丛；须改造为 ampitya。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "more-about-adjectives",
+        "unitIds": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21
+        ],
+        "labelZh": "课文 22"
+      }
+    },
+    {
+      "sectionId": "summary",
+      "kind": "summary",
+      "sourceSectionId": "more-about-adjectives",
+      "titleZh": "23 · 本章小结：原文 Summary 与中文对照",
+      "leadZh": "左侧是 less-a.rtf 第 5 课 Summary 原文（未删节），右侧是等价中文翻译。",
+      "objectives": [
+        "能复述两类动词与各自的现在时规则",
+        "能复述动词数一致与 an- 最高级"
+      ],
+      "summaryEn": "Summary of Lesson Five: Two major categories of Quenya verbs are the primary verbs, that represent a primitive root with no additions, and the A-stems, that have added an ending including the vowel a to the original root (sometimes -a alone, but more commonly some longer ending like -ya or -ta). The primary verbs form their present tense by lengthening the stem-vowel and adding -a, e.g. síla \"is shining\" from sil- \"to shine\". The A-stems form their present tense by somewhat the same rule, but when the ending -a is added to such a stem (already ending in -a), what would be -aa is changed to -ëa. In our one attested example of what may be the present tense of an A-stem, órëa from ora- \"to impel\", the stem-vowel has been lengthened. However, as far as we understand Quenya phonology, a long vowel cannot normally occur in front of a consonant cluster, and most A-stems do have a consonant cluster following the stem-vowel (e.g. lanta- \"to fall\", hilya- \"to follow\"). Presumably such verbs would form their present tense in -ëa, but the stem-vowel would remain short. Only the (relatively few) A-stems that do not have a consonant cluster following the stem-vowel can lengthen it in the present tense. (NOTE: Some consider all present-tense forms in -ëa speculative, and students should understand that given the scarcity of source material, new publications may significantly alter the picture. The use of such forms in the exercises below should be considered tentative reconstruction or extrapolation, not necessarily \"Tolkien fact\".) – A verb agrees with its subject in number, receiving the ending -r if the subject is plural: elen síla \"a star is shining\", eleni sílar \"stars are shining\".\n\nA superlative form of adjectives can be derived by adding the prefix an-, as in ancalima \"brightest\" from calima \"bright\". We must, however, assume that the n of this prefix is in many cases assimilated to the first consonant of the adjective, or consonant clusters that Quenya phonology does not allow would arise. For instance, an- + lauca \"warm\" may produce allauca for \"warmest\" (*anlauca being an impossible word).",
+      "summaryZh": "第五课小结：昆雅动词的两大类别是基本动词与 A 词干。基本动词代表未加成分的原始词根；A 词干则在原词根上加了含元音 a 的词尾（有时只是 -a，但更常见是 -ya 或 -ta 这样的更长词尾）。基本动词通过拉长词干元音并加 -a 构成现在时，如由 sil-「照耀」得 síla「正在照耀」。A 词干大致按同一规则构成现在时，但当词尾 -a 加到这种（已以 -a 结尾的）词干上时，本应是 -aa 的形式变为 -ëa。在我们唯一可能是 A 词干现在时的传世例证 órëa（来自 ora-「推动」）中，词干元音被拉长了。然而，就我们对昆雅音系的了解，长元音通常不能出现在辅音丛之前，而多数 A 词干在词干元音之后确有辅音丛（如 lanta-「落」、hilya-「跟随」）。这类动词大概以 -ëa 构成现在时，但词干元音保持短。只有（相对少数）词干元音之后没有辅音丛的 A 词干才能在现在时中拉长它。（NOTE：有人认为所有 -ëa 现在时形式都属推测，学生应理解：鉴于原始材料稀少，新出版物可能显著改变这幅图景。下面练习中使用这类形式应视为试探性的重构或外推，未必是「托尔金事实」。）——动词与其主语数一致：主语复数时取词尾 -r：elen síla「一颗星正在照耀」，eleni sílar「群星正在照耀」。\n\n形容词的最高级可通过加前缀 an- 派生，如由 calima「明亮的」得 ancalima「最明亮的」。然而我们必须假定这个前缀的 n 在许多情况下会同化于形容词的第一个辅音，否则会产生昆雅音系不允许的辅音丛。例如 an- + lauca「暖的」可能产生 allauca「最暖的」（*anlauca 是不可能存在的词）。",
+      "formulaZh": [
+        "两类动词：基本动词（词根直用）／A 词干（词根 + -ya / -ta / -na / -a）。",
+        "基本动词现在时：拉长词干元音 + -a（méla、síla、quéta）。",
+        "短 A 词干：-a → -e，得 -ëa（órëa、mápëa、lálëa）。",
+        "复杂 A 词干：元音后有辅音丛，不拉长，只加 -ëa（calyëa、tultëa、lantëa）。",
+        "数一致：动词只跟主语，复数一律 -r（nar = ná + r）；宾语不影响。",
+        "语序：SVO 为常态；倒装安全的前提是主宾数不同。",
+        "最高级：an- + 形容词；p 前 n→m，l/r/s/m 前全同化。"
+      ],
+      "selfCheckZh": [
+        {
+          "qZh": "不看原文，写出两类动词的现在时规则。",
+          "aZh": "基本动词拉长词干元音 + -a；A 词干同法但词尾 -a 变 -e（-ëa）；复杂 A 词干不拉长。"
+        },
+        {
+          "qZh": "动词复数词尾是什么？受宾语影响吗？",
+          "aZh": "-r；不受宾语影响，只与主语数一致。"
+        },
+        {
+          "qZh": "an- 加在 lauca 上为什么得 allauca？",
+          "aZh": "l 前 n 完全同化；*anlauca 是不可能存在的词。"
+        }
+      ]
+    },
+    {
+      "sectionId": "vocabulary",
+      "kind": "vocabulary",
+      "sourceSectionId": "vocabulary",
+      "titleZh": "24 · 课末词汇：4 个名词/形容词 + 7 个动词",
+      "leadZh": "本课词汇以动词为主。动词要连词干一起记（词干末尾的连字符表示要接词尾），名词与形容词则按第 2、4 课规则变复数。",
+      "objectives": [
+        "能默写 12 个词并标出词性",
+        "能写出 7 个动词的现在时",
+        "能说明 lala- 的两个来源"
+      ],
+      "table": {
+        "captionZh": "12 词与现在时推演",
+        "headers": [
+          "课末词",
+          "词性 / 释义",
+          "现在时",
+          "说明"
+        ],
+        "rows": [
+          [
+            "canta",
+            "数词「四」",
+            "—",
+            "不变复数"
+          ],
+          [
+            "Nauco",
+            "名词「矮人」",
+            "—",
+            "复数 Naucor（-o 加 -r）"
+          ],
+          [
+            "parma",
+            "名词「书」",
+            "—",
+            "复数 parmar"
+          ],
+          [
+            "tiuca",
+            "形容词「厚的、胖的」",
+            "—",
+            "复数 tiucë（-a → -ë）"
+          ],
+          [
+            "mapa-",
+            "动词「抓、夺取」",
+            "mápëa",
+            "短 A 词干"
+          ],
+          [
+            "tir-",
+            "动词「看、守卫」",
+            "tíra",
+            "基本动词，拉长 i"
+          ],
+          [
+            "lala-",
+            "动词「笑」",
+            "lálëa",
+            "短 A 词干"
+          ],
+          [
+            "caita-",
+            "动词「躺」",
+            "caitëa",
+            "复杂 A 词干（元音后接 t？按 -ëa 处理）"
+          ],
+          [
+            "tulta-",
+            "动词「召唤」",
+            "tultëa",
+            "复杂 A 词干，不拉长"
+          ],
+          [
+            "linda-",
+            "动词「唱歌」",
+            "lindëa",
+            "复杂 A 词干，不拉长"
+          ],
+          [
+            "mat-",
+            "动词「吃」",
+            "máta",
+            "基本动词，拉长 a"
+          ],
+          [
+            "cenda-",
+            "动词「读」",
+            "cendëa",
+            "复杂 A 词干，不拉长"
+          ]
+        ]
+      },
+      "pitfalls": [
+        {
+          "wrong": "把 caita- 理解成「说谎」",
+          "right": "它指「横躺」",
+          "whyZh": "课末词汇表明确：lie horizontally, not \"tell a lie\"。"
+        },
+        {
+          "wrong": "把 lala- 与《词源》里意为「否认」的 lala- 混为一谈",
+          "right": "本课程只用 lala- 表示「笑」",
+          "whyZh": "词表说明：早期材料中来源不同的 lala- 意为「否认」，这里只用「笑」义。"
+        }
+      ],
+      "closeReadingZh": [
+        {
+          "headZh": "为什么动词要带连字符记",
+          "bodyZh": "词表里 mapa-、tir-、lala-、caita-、tulta-、linda-、mat-、cenda- 都带连字符。这个连字符是「词干到此为止，后面要接词尾」的记号：现在时、复数、时态变化都加在这个位置。漏掉连字符往往意味着把词尾当成了词的一部分。"
+        }
+      ],
+      "recapZh": "7 个动词按两类词干记；现在时：基本动词拉长元音，短 A 词干 -ëa，复杂 A 词干只加 -ëa。",
+      "selfCheckZh": [
+        {
+          "qZh": "写出 mapa-、tir-、mat-、tulta- 的现在时。",
+          "aZh": "mápëa、tíra、máta、tultëa。"
+        },
+        {
+          "qZh": "caita- 的意思是什么？",
+          "aZh": "躺（横躺），不是「说谎」。"
+        }
+      ],
+      "showOriginal": true,
+      "bilingual": {
+        "sectionId": "vocabulary",
+        "unitIds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "labelZh": "词汇"
+      }
+    },
+    {
+      "sectionId": "exercises",
+      "kind": "exercises",
+      "sourceSectionId": "exercises",
+      "titleZh": "25 · 练习工作台：A–P 与 keys 核对",
+      "leadZh": "A–H 昆雅译英，I–P 英译昆雅。考点只有两个：现在时怎么构成（-ëa 还是拉长）、动词是否与主语一致。M 题另考 an- 的同化。",
+      "objectives": [
+        "独立完成 A–P，不先展开答案",
+        "能说出每题的现在时形式依据哪类词干",
+        "核对后能把错题回链到对应规则卡"
+      ],
+      "workflowZh": [
+        "第一遍：遮住答案，先判断动词属基本动词还是 A 词干",
+        "A 词干再看词干元音后有无辅音丛，决定拉不拉长",
+        "然后看主语单复数，决定动词要不要 -r",
+        "点「核对」比对 keys 原文答案",
+        "错题按「回到本课规则」跳回规则卡",
+        "最后展开 keys 全文与 EXERCISES 原文复核"
+      ],
+      "teachingNoteZh": "keys.rtf 的篇首说明提醒：课程仍在修订，个别练习与答案可能对不上；若出现不一致，优先以 keys.rtf 原文为准。",
+      "bilingual": {
+        "sectionId": "exercises",
+        "unitIds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "labelZh": "练习"
+      }
+    }
+  ]
+}

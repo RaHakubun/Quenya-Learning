@@ -1,0 +1,4137 @@
+{
+ "lesson": 19,
+ "schemaVersion": 2,
+ "oneLineZh": "to be 的可证形式只有 ná「is」／nar「are」／nauva「will be」；nalyë 证明加词尾时用短形式 na-（nan、nal、nas、nalmë、nantë），过去时用 né／ner（外推）并作 ne-（nenyë、nes）；现在时系词可整个省略（aistana elyë）；ëa 是另一个「is」，意为 exists，过去时 engë，用于存在与位置（Eru ëa、Eä malta i orontissen）；是非问在句首加 ma，名词性从句用 sa 引出。",
+ "canDoZh": [
+  "能写 ná／nar／nauva 并说明各自出处",
+  "能给系词加代词词尾（nalyë、nenyë、nauvalmë）",
+  "知道 ?nánë 不可信，过去时用 né／ner",
+  "能造无系词判断句（inyë Elda、aistana elyë）",
+  "能区分 ná（系词）与 ëa（存在、在场、位置）",
+  "能写 ëa 的过去时 engë 并解释其音变",
+  "能用 ma 造是非问，并说明它只是最佳推测",
+  "能用 sa 造名词性从句（istan sa ëalyë sinomë）"
+ ],
+ "conceptMap": [
+  {
+   "labelZh": "最后一课",
+   "noteZh": "材料状况",
+   "sectionId": "pre-intro"
+  },
+  {
+   "labelZh": "小标题：晦暗的 to be",
+   "noteZh": "附注",
+   "sectionId": "be-forms"
+  },
+  {
+   "labelZh": "三个可证形式：ná、nar、nauva",
+   "noteZh": "问题",
+   "sectionId": "be-attested"
+  },
+  {
+   "labelZh": "不定式：?Merin ná Elda",
+   "noteZh": "缺口",
+   "sectionId": "be-inf"
+  },
+  {
+   "labelZh": "关键证据：nalyë「thou art」",
+   "noteZh": "长期不明",
+   "sectionId": "be-nalye"
+  },
+  {
+   "labelZh": "反例：早期诗里的 náre",
+   "noteZh": "不一致",
+   "sectionId": "be-nare"
+  },
+  {
+   "labelZh": "转折句：从 nalyë 外推",
+   "noteZh": "选择",
+   "sectionId": "be-pattern"
+  },
+  {
+   "labelZh": "单数：nan／nat／nal／nas",
+   "noteZh": "第一人称",
+   "sectionId": "be-sg"
+  },
+  {
+   "labelZh": "复数：nalmë／nalvë／nammë／nantë",
+   "noteZh": "三个「我们」",
+   "sectionId": "be-pl"
+  },
+  {
+   "labelZh": "旧方案：nályë 与 nalyë 可以并存",
+   "noteZh": "旧版",
+   "sectionId": "be-old"
+  },
+  {
+   "labelZh": "将来时：nauva 直接加词尾",
+   "noteZh": "规则",
+   "sectionId": "be-future"
+  },
+  {
+   "labelZh": "两个词尾：nanyes「I am he」",
+   "noteZh": "可能性",
+   "sectionId": "be-two"
+  },
+  {
+   "labelZh": "干脆不用系词：aistana elyë",
+   "noteZh": "替代方案",
+   "sectionId": "be-zero"
+  },
+  {
+   "labelZh": "过去时「was」：从 ?nánë 到 né",
+   "noteZh": "缺口",
+   "sectionId": "be-past"
+  },
+  {
+   "labelZh": "Gilson 的论证（引文）",
+   "noteZh": "现象",
+   "sectionId": "be-gilson"
+  },
+  {
+   "labelZh": "né：当作「几乎可证」",
+   "noteZh": "前提",
+   "sectionId": "be-ne"
+  },
+  {
+   "labelZh": "ner「were」与 -në 的存留",
+   "noteZh": "可能被放弃",
+   "sectionId": "be-ner"
+  },
+  {
+   "labelZh": "过去时加词尾：nenyë、nelyë、nes",
+   "noteZh": "类推",
+   "sectionId": "be-past-end"
+  },
+  {
+   "labelZh": "完成时：?anaië 只是权宜",
+   "noteZh": "五个时态",
+   "sectionId": "be-perfect"
+  },
+  {
+   "labelZh": "命令式「be!」：á na／na／nai",
+   "noteZh": "不确定",
+   "sectionId": "be-imper"
+  },
+  {
+   "labelZh": "另一套：ye／yéva／-ië（建议放弃）",
+   "noteZh": "另一套",
+   "sectionId": "be-ye"
+  },
+  {
+   "labelZh": "另一个动词：ëa",
+   "noteZh": "不是废弃词",
+   "sectionId": "ea-intro"
+  },
+  {
+   "labelZh": "Eä：宇宙之名本是个动词",
+   "noteZh": "出处",
+   "sectionId": "ea-name"
+  },
+  {
+   "labelZh": "ëa 与 ná 的分工：两种假说",
+   "noteZh": "两义",
+   "sectionId": "ea-vs-na"
+  },
+  {
+   "labelZh": "作者的理论：ëa＝exists",
+   "noteZh": "证据",
+   "sectionId": "ea-exist"
+  },
+  {
+   "labelZh": "托尔金造的 ëa：Cirion 的誓言",
+   "noteZh": "坦白",
+   "sectionId": "ea-cirion"
+  },
+  {
+   "labelZh": "规则：讲位置用 ëa",
+   "noteZh": "规则",
+   "sectionId": "ea-position"
+  },
+  {
+   "labelZh": "ëa 的变位：euva 与 engë",
+   "noteZh": "现在时",
+   "sectionId": "ea-inflect"
+  },
+  {
+   "labelZh": "engë 为何长这样：eññ- → ng",
+   "noteZh": "原始形式",
+   "sectionId": "ea-enge"
+  },
+  {
+   "labelZh": "ëa 接词尾：ëan、ëalmë、enges",
+   "noteZh": "规则",
+   "sectionId": "ea-endings"
+  },
+  {
+   "labelZh": "小标题：ma 是疑问助词吗",
+   "noteZh": "标题",
+   "sectionId": "ma-head"
+  },
+  {
+   "labelZh": "缺的正是最常见的一类",
+   "noteZh": "回顾",
+   "sectionId": "ma-missing"
+  },
+  {
+   "labelZh": "英语怎么造是非问",
+   "noteZh": "问题",
+   "sectionId": "ma-english"
+  },
+  {
+   "labelZh": "助词方案：波兰语 czy、世界语 chu",
+   "noteZh": "最简单",
+   "sectionId": "ma-particle"
+  },
+  {
+   "labelZh": "昆雅呢：tences i parma 怎么问",
+   "noteZh": "追问",
+   "sectionId": "ma-quenya"
+  },
+  {
+   "labelZh": "线索：疑问元素 ma 与 maquet-",
+   "noteZh": "托尔金的说法",
+   "sectionId": "ma-element"
+  },
+  {
+   "labelZh": "手稿：确有把 ma 称作助词的记载",
+   "noteZh": "证据",
+   "sectionId": "ma-ms"
+  },
+  {
+   "labelZh": "四个示范：加 ma 即成问",
+   "noteZh": "例一",
+   "sectionId": "ma-examples"
+  },
+  {
+   "labelZh": "间接疑问：ma＝whether",
+   "noteZh": "可能",
+   "sectionId": "ma-dep"
+  },
+  {
+   "labelZh": "另一个 ma：不定代词「某物」",
+   "noteZh": "假设",
+   "sectionId": "ma-indef"
+  },
+  {
+   "labelZh": "第三种 that",
+   "noteZh": "已有的 that",
+   "sectionId": "sa-intro"
+  },
+  {
+   "labelZh": "名词性从句是什么",
+   "noteZh": "名词的功能",
+   "sectionId": "sa-clause"
+  },
+  {
+   "labelZh": "昆雅的对应词是哪个",
+   "noteZh": "问题",
+   "sectionId": "sa-q"
+  },
+  {
+   "labelZh": "唯一证据：Merin 句",
+   "noteZh": "来源晦暗",
+   "sectionId": "sa-merin"
+  },
+  {
+   "labelZh": "可疑之处：4 月 1 日的帖子",
+   "noteZh": "疑点一",
+   "sectionId": "sa-doubt"
+  },
+  {
+   "labelZh": "造句：istan sa ëalyë sinomë",
+   "noteZh": "例一",
+   "sectionId": "sa-examples"
+  },
+  {
+   "labelZh": "表意图的 that 从句",
+   "noteZh": "英语用法",
+   "sectionId": "sa-intent"
+  },
+  {
+   "labelZh": "本课小结",
+   "noteZh": "",
+   "sectionId": "summary"
+  },
+  {
+   "labelZh": "练习 A–P",
+   "noteZh": "题面约定",
+   "sectionId": "exercises"
+  },
+  {
+   "labelZh": "课末词汇",
+   "noteZh": "两个序数",
+   "sectionId": "vocabulary"
+  }
+ ],
+ "pathTitleZh": "学习路径",
+ "path": [
+  {
+   "step": 1,
+   "labelZh": "最后一课",
+   "sectionId": "pre-intro"
+  },
+  {
+   "step": 2,
+   "labelZh": "小标题：晦暗的 to be",
+   "sectionId": "be-forms"
+  },
+  {
+   "step": 3,
+   "labelZh": "三个可证形式：ná、nar、nauva",
+   "sectionId": "be-attested"
+  },
+  {
+   "step": 4,
+   "labelZh": "不定式：?Merin ná Elda",
+   "sectionId": "be-inf"
+  },
+  {
+   "step": 5,
+   "labelZh": "关键证据：nalyë「thou art」",
+   "sectionId": "be-nalye"
+  },
+  {
+   "step": 6,
+   "labelZh": "反例：早期诗里的 náre",
+   "sectionId": "be-nare"
+  },
+  {
+   "step": 7,
+   "labelZh": "转折句：从 nalyë 外推",
+   "sectionId": "be-pattern"
+  },
+  {
+   "step": 8,
+   "labelZh": "单数：nan／nat／nal／nas",
+   "sectionId": "be-sg"
+  },
+  {
+   "step": 9,
+   "labelZh": "复数：nalmë／nalvë／nammë／nantë",
+   "sectionId": "be-pl"
+  },
+  {
+   "step": 10,
+   "labelZh": "旧方案：nályë 与 nalyë 可以并存",
+   "sectionId": "be-old"
+  },
+  {
+   "step": 11,
+   "labelZh": "将来时：nauva 直接加词尾",
+   "sectionId": "be-future"
+  },
+  {
+   "step": 12,
+   "labelZh": "两个词尾：nanyes「I am he」",
+   "sectionId": "be-two"
+  },
+  {
+   "step": 13,
+   "labelZh": "干脆不用系词：aistana elyë",
+   "sectionId": "be-zero"
+  },
+  {
+   "step": 14,
+   "labelZh": "过去时「was」：从 ?nánë 到 né",
+   "sectionId": "be-past"
+  },
+  {
+   "step": 15,
+   "labelZh": "Gilson 的论证（引文）",
+   "sectionId": "be-gilson"
+  },
+  {
+   "step": 16,
+   "labelZh": "né：当作「几乎可证」",
+   "sectionId": "be-ne"
+  },
+  {
+   "step": 17,
+   "labelZh": "ner「were」与 -në 的存留",
+   "sectionId": "be-ner"
+  },
+  {
+   "step": 18,
+   "labelZh": "过去时加词尾：nenyë、nelyë、nes",
+   "sectionId": "be-past-end"
+  },
+  {
+   "step": 19,
+   "labelZh": "完成时：?anaië 只是权宜",
+   "sectionId": "be-perfect"
+  },
+  {
+   "step": 20,
+   "labelZh": "命令式「be!」：á na／na／nai",
+   "sectionId": "be-imper"
+  },
+  {
+   "step": 21,
+   "labelZh": "另一套：ye／yéva／-ië（建议放弃）",
+   "sectionId": "be-ye"
+  },
+  {
+   "step": 22,
+   "labelZh": "另一个动词：ëa",
+   "sectionId": "ea-intro"
+  },
+  {
+   "step": 23,
+   "labelZh": "Eä：宇宙之名本是个动词",
+   "sectionId": "ea-name"
+  },
+  {
+   "step": 24,
+   "labelZh": "ëa 与 ná 的分工：两种假说",
+   "sectionId": "ea-vs-na"
+  },
+  {
+   "step": 25,
+   "labelZh": "作者的理论：ëa＝exists",
+   "sectionId": "ea-exist"
+  },
+  {
+   "step": 26,
+   "labelZh": "托尔金造的 ëa：Cirion 的誓言",
+   "sectionId": "ea-cirion"
+  },
+  {
+   "step": 27,
+   "labelZh": "规则：讲位置用 ëa",
+   "sectionId": "ea-position"
+  },
+  {
+   "step": 28,
+   "labelZh": "ëa 的变位：euva 与 engë",
+   "sectionId": "ea-inflect"
+  },
+  {
+   "step": 29,
+   "labelZh": "engë 为何长这样：eññ- → ng",
+   "sectionId": "ea-enge"
+  },
+  {
+   "step": 30,
+   "labelZh": "ëa 接词尾：ëan、ëalmë、enges",
+   "sectionId": "ea-endings"
+  },
+  {
+   "step": 31,
+   "labelZh": "小标题：ma 是疑问助词吗",
+   "sectionId": "ma-head"
+  },
+  {
+   "step": 32,
+   "labelZh": "缺的正是最常见的一类",
+   "sectionId": "ma-missing"
+  },
+  {
+   "step": 33,
+   "labelZh": "英语怎么造是非问",
+   "sectionId": "ma-english"
+  },
+  {
+   "step": 34,
+   "labelZh": "助词方案：波兰语 czy、世界语 chu",
+   "sectionId": "ma-particle"
+  },
+  {
+   "step": 35,
+   "labelZh": "昆雅呢：tences i parma 怎么问",
+   "sectionId": "ma-quenya"
+  },
+  {
+   "step": 36,
+   "labelZh": "线索：疑问元素 ma 与 maquet-",
+   "sectionId": "ma-element"
+  },
+  {
+   "step": 37,
+   "labelZh": "手稿：确有把 ma 称作助词的记载",
+   "sectionId": "ma-ms"
+  },
+  {
+   "step": 38,
+   "labelZh": "四个示范：加 ma 即成问",
+   "sectionId": "ma-examples"
+  },
+  {
+   "step": 39,
+   "labelZh": "间接疑问：ma＝whether",
+   "sectionId": "ma-dep"
+  },
+  {
+   "step": 40,
+   "labelZh": "另一个 ma：不定代词「某物」",
+   "sectionId": "ma-indef"
+  },
+  {
+   "step": 41,
+   "labelZh": "第三种 that",
+   "sectionId": "sa-intro"
+  },
+  {
+   "step": 42,
+   "labelZh": "名词性从句是什么",
+   "sectionId": "sa-clause"
+  },
+  {
+   "step": 43,
+   "labelZh": "昆雅的对应词是哪个",
+   "sectionId": "sa-q"
+  },
+  {
+   "step": 44,
+   "labelZh": "唯一证据：Merin 句",
+   "sectionId": "sa-merin"
+  },
+  {
+   "step": 45,
+   "labelZh": "可疑之处：4 月 1 日的帖子",
+   "sectionId": "sa-doubt"
+  },
+  {
+   "step": 46,
+   "labelZh": "造句：istan sa ëalyë sinomë",
+   "sectionId": "sa-examples"
+  },
+  {
+   "step": 47,
+   "labelZh": "表意图的 that 从句",
+   "sectionId": "sa-intent"
+  },
+  {
+   "step": 48,
+   "labelZh": "本课小结",
+   "sectionId": "summary"
+  },
+  {
+   "step": 49,
+   "labelZh": "练习 A–P",
+   "sectionId": "exercises"
+  },
+  {
+   "step": 50,
+   "labelZh": "课末词汇",
+   "sectionId": "vocabulary"
+  }
+ ],
+ "modules": [
+  {
+   "sectionId": "pre-intro",
+   "sourceSectionId": "_preamble",
+   "titleZh": "00 · 最后一课",
+   "leadZh": "作者开篇即声明：本课已进入「语言晦暗之处的暮光带」。读完这一课，昆雅语法里「确定」的部分就基本用尽了。",
+   "objectives": [
+    "知道本课的性质",
+    "对「事实」保持谨慎"
+   ],
+   "rules": [
+    {
+     "id": "r-pre1",
+     "headZh": "材料状况",
+     "bodyZh": "我们正迅速耗尽关于昆雅那些相当确定的「事实」。",
+     "en": "We are now fast exhausting the reasonably certain",
+     "zh": "我们正迅速耗尽那些相当确定的「事实」。"
+    },
+    {
+     "id": "r-pre2",
+     "headZh": "连事实也要存疑",
+     "bodyZh": "正如作者一直试图说明的，许多「事实」也必须视为暂定的推断。",
+     "en": "must be considered tentative deductions",
+     "zh": "必须视为暂定的推断。"
+    },
+    {
+     "id": "r-pre3",
+     "headZh": "本课位置",
+     "bodyZh": "这最后一课正式课已经远远走进了语言晦暗之处的暮光带。",
+     "en": "already moving far into the twilight zone of linguistic obscurities",
+     "zh": "已远远走进语言晦暗之处的暮光带。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把本课的形式当定论背下来",
+     "right": "本课多数形式是「最佳推测」",
+     "whyZh": "作者开篇就把整课定位为 tentative deductions。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "读法建议",
+     "bodyZh": "本课要区分三种可信度：可证（ná、nar、nalyë、engë）、有强旁证（né）、纯外推（?anaië、naccë、ma 作助词）。作者对每一处都做了标注，读时留意这些标记。"
+    }
+   ],
+   "recapZh": "最后一课；事实稀少，多为推断。",
+   "selfCheckZh": [
+    {
+     "qZh": "本课的定位是什么？",
+     "aZh": "已进入材料晦暗处，多数形式属推断。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "_preamble",
+    "unitIds": [
+     0
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "be-forms",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "01 · 小标题：晦暗的 to be",
+   "leadZh": "原文标题下附注「兼论 ëa 这一形式」——本课两条主线就是 to be 的 N 系形式与 ëa。",
+   "objectives": [
+    "知道本课两条主线",
+    "知道 ëa 单列"
+   ],
+   "rules": [
+    {
+     "id": "r-be1",
+     "headZh": "附注",
+     "bodyZh": "标题下附注「including some remarks on the form ëa」，即兼论 ëa 这一形式。",
+     "en": "including some remarks on the form ëa",
+     "zh": "兼论 ëa 这一形式。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 ëa 只是 ná 的变体",
+     "right": "ëa 是另一个动词，意义有别",
+     "whyZh": "作者为它单列附注，后文更用整节说明它与 ná 的分工。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "标题的信息",
+     "bodyZh": "「The obscure verb to be」——obscure 是关键词：不是「难」，而是「材料不明」。这个形容词决定了全课的语气。"
+    }
+   ],
+   "recapZh": "本课：to be 的诸形式，兼论 ëa。",
+   "selfCheckZh": [
+    {
+     "qZh": "标题里的 obscure 指什么？",
+     "aZh": "材料不明，而非语法复杂。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     0
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "be-attested",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "02 · 三个可证形式：ná、nar、nauva",
+   "leadZh": "《Namárië》有系词 ná「is」；同诗草稿把系词与复数主语结合得 nar「are」；2001 年 VT42 刊出将来时 nauva「will be」。",
+   "objectives": [
+    "能写 ná／nar／nauva",
+    "知道三者都来自《Namárië》一系材料"
+   ],
+   "rules": [
+    {
+     "id": "r-be2",
+     "headZh": "问题",
+     "bodyZh": "「to be」的各种形式一直是个难题。",
+     "en": "have always been a problem",
+     "zh": "一直是个难题。"
+    },
+    {
+     "id": "r-be3",
+     "headZh": "ná",
+     "bodyZh": "《魔戒》版《Namárië》里有系词 ná「is」。",
+     "en": "includes the copula ná",
+     "zh": "含系词 ná。",
+     "exampleZh": "ná"
+    },
+    {
+     "id": "r-be4",
+     "headZh": "nar",
+     "bodyZh": "同一首诗的草稿把系词与复数主语结合，得出形式 nar「are」。",
+     "en": "resulting in the form nar",
+     "zh": "得出形式 nar。",
+     "exampleZh": "nar"
+    },
+    {
+     "id": "r-be5",
+     "headZh": "nauva",
+     "bodyZh": "2001 年 7 月，将来时形式 nauva「will be」终于出现在《Vinyar Tengwar》42 期第 34 页。",
+     "en": "the future-tense form nauva",
+     "zh": "将来时形式 nauva。",
+     "exampleZh": "nauva"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 nar 是独立词根",
+     "right": "它是 ná 接复数主语的短形式",
+     "whyZh": "原文说草稿把 copula 与复数主语 combined，resulting in nar。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "三个形式的地位不同",
+     "bodyZh": "ná 与 nar 出自诗歌（一正一稿），nauva 出自语言学刊物。三者都算「可证」，但都不是散文例句——这已是本课最好的材料。"
+    }
+   ],
+   "recapZh": "ná「is」、nar「are」、nauva「will be」。",
+   "selfCheckZh": [
+    {
+     "qZh": "「are」？",
+     "aZh": "Nar。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     1
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "be-inf",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "03 · 不定式：?Merin ná Elda",
+   "leadZh": "若干时态与不定式都缺失。唯一线索是：A 词干动词的不定式与词干同形。故 ná 或许也能作不定式。",
+   "objectives": [
+    "知道不定式是缺口",
+    "知道 ?Merin ná Elda 是推测"
+   ],
+   "rules": [
+    {
+     "id": "r-be6",
+     "headZh": "缺口",
+     "bodyZh": "若干时态形式以及不定式是缺失的。",
+     "en": "Several tense-forms, as well as the infinitive, are missing",
+     "zh": "若干时态形式以及不定式缺失。"
+    },
+    {
+     "id": "r-be7",
+     "headZh": "线索",
+     "bodyZh": "我们唯一的线索是一个显而易见的事实：A 词干动词的不定式与动词干本身相同，不加任何东西。",
+     "en": "the infinitive of A-stem verbs is identical to the verbal stem itself",
+     "zh": "A 词干动词的不定式与动词干相同。"
+    },
+    {
+     "id": "r-be8",
+     "headZh": "词源",
+     "bodyZh": "《词源》里 NÂ 被列为「昆雅『to be』动词的词干」。",
+     "en": "NÂ",
+     "zh": "（to be 的词干）",
+     "exampleZh": "NÂ"
+    },
+    {
+     "id": "r-be9",
+     "headZh": "推论",
+     "bodyZh": "故可以设想 ná 也能作不定式：「I want to be an Elf」＝?Merin ná Elda。",
+     "en": "?Merin ná Elda",
+     "zh": "我想做精灵（推测形式）。",
+     "exampleZh": "?Merin ná Elda"
+    },
+    {
+     "id": "r-be10",
+     "headZh": "保留",
+     "bodyZh": "但托尔金当然也可能想的是完全不同的东西。",
+     "en": "Tolkien may have imagined something entirely different",
+     "zh": "托尔金也可能想的是完全不同的东西。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 ?Merin ná Elda 当标准答案",
+     "right": "它只是按 A 词干类推的猜测",
+     "whyZh": "原文以 conceivably 引出，并以 But of course ... may have imagined something entirely different 收尾。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "类推的边界",
+     "bodyZh": "「A 词干不定式＝词干」这条规律本身可靠（如 linda「sing」），但 ná 不是普通 A 词干动词，所以类推只能给「可能」。"
+    }
+   ],
+   "recapZh": "不定式缺失；?Merin ná Elda 是类推。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我想做精灵」的推测写法？",
+     "aZh": "?Merin ná Elda。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     2
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "be-nalye",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "04 · 关键证据：nalyë「thou art」",
+   "leadZh": "2002 年 VT43 刊出 nalyë。它含词尾 -lyë，并显示加词尾时系词取短形式 na-；nar（而非 ?nár）也支持这一点。",
+   "objectives": [
+    "能写 nalyë",
+    "知道加词尾时用 na-"
+   ],
+   "rules": [
+    {
+     "id": "r-be11",
+     "headZh": "长期不明",
+     "bodyZh": "ná、nauva 及其他时态形式能否与常规代词词尾结合？几十年来这一点不清楚也不确定。",
+     "en": "this was unclear and uncertain",
+     "zh": "这一点不清楚也不确定。"
+    },
+    {
+     "id": "r-be12",
+     "headZh": "nalyë",
+     "bodyZh": "2002 年 1 月，托尔金的例子 nalyë「thou art」终于在 VT43:27 刊出。",
+     "en": "nalyë",
+     "zh": "你是。",
+     "exampleZh": "nalyë"
+    },
+    {
+     "id": "r-be13",
+     "headZh": "含词尾",
+     "bodyZh": "这个例子清楚含有众所周知的词尾 -lyë「you, thou」。",
+     "en": "incorporates the well-known ending -lyë",
+     "zh": "含有众所周知的词尾 -lyë。"
+    },
+    {
+     "id": "r-be14",
+     "headZh": "短形式",
+     "bodyZh": "它还似乎告诉我们：要加词尾时，系词取短形式 na-。",
+     "en": "the copula assumes the short form na-",
+     "zh": "系词取短形式 na-。"
+    },
+    {
+     "id": "r-be15",
+     "headZh": "旁证",
+     "bodyZh": "复数主语用的 nar「are」（而非 ?nár）也指向同一方向。",
+     "en": "points in the same direction",
+     "zh": "指向同一方向。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 ✗ nályë 作为唯一正确形式",
+     "right": "加词尾用 nalyë；nályë 只是可能的变体",
+     "whyZh": "nalyë 是可证形式；作者在下文说 nályë 与 nalyë 或许能并存，但练习一律用短 na-。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一个词解决两个问题",
+     "bodyZh": "nalyë 同时证明了两件事：系词能接代词词尾，且接词尾时元音缩短。这一条是本节后面所有变位表的基础。"
+    }
+   ],
+   "recapZh": "nalyë；加词尾用 na-。",
+   "selfCheckZh": [
+    {
+     "qZh": "「你是」？",
+     "aZh": "Nalyë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     3
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "be-nare",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "05 · 反例：早期诗里的 náre",
+   "leadZh": "1915–16 年的《Narqelion》里有 náre。Gilson 认为它意为「it is」，其中的 -re 是第三人称标记。",
+   "objectives": [
+    "知道 náre 这条早期材料",
+    "知道它与后期形式不一致"
+   ],
+   "rules": [
+    {
+     "id": "r-be16",
+     "headZh": "不一致",
+     "bodyZh": "不过已刊语料未必完全一致。",
+     "en": "may not be wholly consistent",
+     "zh": "未必完全一致。"
+    },
+    {
+     "id": "r-be17",
+     "headZh": "Narqelion",
+     "bodyZh": "在极早期（有人甚至说是第一篇）「Qenya」诗《Narqelion》（1915 或 1916 年）里，托尔金用了形式 náre。",
+     "en": "Tolkien used the form náre",
+     "zh": "托尔金用了形式 náre。",
+     "exampleZh": "náre"
+    },
+    {
+     "id": "r-be18",
+     "headZh": "无法确定",
+     "bodyZh": "由于这首诗没有托尔金本人直接给出的译文，我们无法完全确定它的意思。",
+     "en": "we cannot be entirely certain what it means",
+     "zh": "我们无法完全确定它的意思。"
+    },
+    {
+     "id": "r-be19",
+     "headZh": "Gilson 的结论",
+     "bodyZh": "Gilson 参照几乎同时期的《Qenya 词汇表》分析全诗，结论是 náre 可能意为「it is」（VT40:31）。",
+     "en": "náre may mean",
+     "zh": "náre 可能意为……"
+    },
+    {
+     "id": "r-be20",
+     "headZh": "-re",
+     "bodyZh": "第三人称标记 -re（或写作 -rë）在托尔金后来的昆雅里或许也存在，只是后期我们可能期待它意为「she」而非「it」——见第 15 课。",
+     "en": "A 3rd person marker -re",
+     "zh": "第三人称标记 -re。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "用 náre 表示「it is」",
+     "right": "它是早期形式，后期用 nas 或省略系词",
+     "whyZh": "原文说 corpus may not be wholly consistent，并指出后期 -re 可能意为 she。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "如何处理反例",
+     "bodyZh": "作者没有隐藏 náre，而是说明它属于哪个阶段、为何不能与后期形式混用。这是本课反复出现的处理方式：先给证据，再给年代。"
+    }
+   ],
+   "recapZh": "náre＝早期「it is」；-re 为第三人称标记。",
+   "selfCheckZh": [
+    {
+     "qZh": "náre 出自哪首诗？",
+     "aZh": "《Narqelion》（1915–16）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     4
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "be-pattern",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "06 · 转折句：从 nalyë 外推",
+   "leadZh": "作者在此明确选择立场：宁可从《魔戒》之后的 nalyë 外推，于是有了下面一张变位表。",
+   "objectives": [
+    "知道作者的方法论",
+    "准备读变位表"
+   ],
+   "rules": [
+    {
+     "id": "r-be21",
+     "headZh": "选择",
+     "bodyZh": "不过，从《魔戒》之后的例子 nalyë 外推似乎更好。",
+     "en": "it seems better to extrapolate from the post-LotR example nalyë",
+     "zh": "从《魔戒》之后的 nalyë 外推似乎更好。"
+    },
+    {
+     "id": "r-be22",
+     "headZh": "结果",
+     "bodyZh": "若如此，可能出现下面这个模式。",
+     "en": "the following pattern might emerge",
+     "zh": "可能出现下面这个模式。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为变位表是「已证事实」",
+     "right": "它是从 nalyë 一个点外推出来的",
+     "whyZh": "原文用 might emerge，且表里多处带问号。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一个证据撑起一张表",
+     "bodyZh": "整张表只由 nalyë 一个可证形式支撑，其余按「na- ＋ 已知词尾」类推。表里带 ? 或括号的形式，可信度更低。"
+    }
+   ],
+   "recapZh": "以 nalyë 为支点外推整张变位表。",
+   "selfCheckZh": [
+    {
+     "qZh": "变位表的外推支点是哪个形式？",
+     "aZh": "nalyë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     5
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "be-sg",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "07 · 单数：nan／nat／nal／nas",
+   "leadZh": "四个单数形式：nan 或 nanyë「I am」、nat「you〔亲昵〕are」、nal 或 nalyë「you〔礼貌〕are」、nas「he/she/it is」。",
+   "objectives": [
+    "能写四个单数形式",
+    "知道 nat 属 T 形式、nal 属 L 形式"
+   ],
+   "rules": [
+    {
+     "id": "r-be23",
+     "headZh": "第一人称",
+     "bodyZh": "nan 或 nanyë「I am」。",
+     "en": "nan or nanyë",
+     "zh": "我是。",
+     "exampleZh": "nan／nanyë"
+    },
+    {
+     "id": "r-be24",
+     "headZh": "第二人称亲昵",
+     "bodyZh": "nat「you〔亲昵单数〕are」，或许还有长形式（naccë 或 natyë？？？）。",
+     "en": "nat",
+     "zh": "你（亲昵）是。",
+     "exampleZh": "nat／naccë／natyë"
+    },
+    {
+     "id": "r-be25",
+     "headZh": "第二人称礼貌",
+     "bodyZh": "nal 或 nalyë「you〔礼貌〕are」；若「you」明确为复数，或许是 nallë。",
+     "en": "nal or nalyë",
+     "zh": "你（礼貌）是。",
+     "exampleZh": "nal／nalyë／nallë"
+    },
+    {
+     "id": "r-be26",
+     "headZh": "第三人称",
+     "bodyZh": "nas「he/she/it is」，可以设想有长形式 ?naryë；也可能有区分性别的形式 naro「he is」、narë「she is」。",
+     "en": "nas",
+     "zh": "他／她／它是。",
+     "exampleZh": "nas／?naryë／naro／narë"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 nat 与 nal 当同义可换",
+     "right": "nat 属 T 形式（亲昵），nal 属 L 形式（礼貌）",
+     "whyZh": "原文分别标注 intimate singular 与 polite，与第 18、19 课的分工一致。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "表里的问号",
+     "bodyZh": "naccë、natyë、?naryë 都带问号甚至三个问号。作者用标点直接标注可信度：单问号＝推测，三问号＝几乎没把握。"
+    }
+   ],
+   "recapZh": "nan／nanyë、nat、nal／nalyë、nas。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我是」？",
+     "aZh": "Nan 或 nanyë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     6,
+     7,
+     8,
+     9
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "be-pl",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "08 · 复数：nalmë／nalvë／nammë／nantë",
+   "leadZh": "排除式 nalmë、包含式 nalvë、双数 nammë、第三人称复数 nantë——词尾全用已知的 -lmë、-lvë、-mmë、-ntë。",
+   "objectives": [
+    "能写四个复数形式",
+    "能区分排除与包含"
+   ],
+   "rules": [
+    {
+     "id": "r-be27",
+     "headZh": "三个「我们」",
+     "bodyZh": "nalmë「we〔排除〕are」、nalvë「we〔包含〕are」、nammë「we〔双数〕are」。",
+     "en": "nalmë",
+     "zh": "我们是（排除）。",
+     "exampleZh": "nalmë／nalvë／nammë"
+    },
+    {
+     "id": "r-be28",
+     "headZh": "第三人称复数",
+     "bodyZh": "nantë「they are」。",
+     "en": "nantë",
+     "zh": "他们是。",
+     "exampleZh": "nantë"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "混用 nalmë 与 nalvë",
+     "right": "nalmë 排除听者，nalvë 包含听者",
+     "whyZh": "与第 18 课的 -lmë／-lvë 分工一致。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "这张表为什么整齐",
+     "bodyZh": "因为复数词尾都以辅音起首，正好符合「辅音丛前用短 na-」的条件，所以全都规规矩矩地变成 na- ＋ 词尾，没有例外。"
+    }
+   ],
+   "recapZh": "nalmë、nalvë、nammë、nantë。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我们是」（包含）？",
+     "aZh": "Nalvë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     10,
+     11
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "be-old",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "09 · 旧方案：nályë 与 nalyë 可以并存",
+   "leadZh": "作者旧版假定「辅音＋y」的词尾不能缩短前面的元音，故得 nályë。他现在仍不觉得这不可能——因为 ná 单独出现时也能作 na。",
+   "objectives": [
+    "知道旧方案为何不同",
+    "知道两版或可并存"
+   ],
+   "rules": [
+    {
+     "id": "r-be29",
+     "headZh": "旧版",
+     "bodyZh": "在本课最初的版本里（当时 nalyë 尚未出现），作者提出过一套相似但不完全相同的系统。",
+     "en": "I suggested a similar but not wholly identical system",
+     "zh": "提出过一套相似但不完全相同的系统。"
+    },
+    {
+     "id": "r-be30",
+     "headZh": "旧版的规则",
+     "bodyZh": "凡后面要跟辅音丛时就用短形式 na-，如接词尾 -lmë、-lvë、-mmë、-ntë 时。",
+     "en": "whenever a consonant cluster was to follow",
+     "zh": "凡后面要跟辅音丛时。"
+    },
+    {
+     "id": "r-be31",
+     "headZh": "旧版的假设",
+     "bodyZh": "作者假定带「辅音＋y」的词尾（-nyë、-lyë，加上外推的 ?-tyë、?-ryë）没有能力缩短前面的元音。",
+     "en": "would not have the power to shorten a preceding vowel",
+     "zh": "没有能力缩短前面的元音。"
+    },
+    {
+     "id": "r-be32",
+     "headZh": "类比",
+     "bodyZh": "比较《Namárië》里 má「hand」的 á 在所有格词尾 -rya 前仍保持长音：máryat「her hands」（双数）。",
+     "en": "máryat",
+     "zh": "她的双手。",
+     "exampleZh": "máryat"
+    },
+    {
+     "id": "r-be33",
+     "headZh": "结果",
+     "bodyZh": "这套系统会得出 nályë 而非如今可证的 nalyë。",
+     "en": "This system would produce nályë",
+     "zh": "这套系统会得出 nályë。"
+    },
+    {
+     "id": "r-be34",
+     "headZh": "作者的判断",
+     "bodyZh": "他至今仍不觉得这完全不可能：系词 ná 即使单独出现也可作短形式 na（VT43:26），故 nályë 与 nalyë 大概能在同一版昆雅里并存。",
+     "en": "variants like nályë and nalyë could probably coexist",
+     "zh": "nályë 与 nalyë 大概能并存。"
+    },
+    {
+     "id": "r-be35",
+     "headZh": "但练习用短的",
+     "bodyZh": "不过要加词尾时，本课练习里一律用短 na- 的形式。",
+     "en": "I have consistently used forms with short na-",
+     "zh": "一律用短 na- 的形式。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为旧方案已被证伪",
+     "right": "作者只说它不如 nalyë 有据，并未证伪",
+     "whyZh": "原文：I still don't think this is entirely implausible。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "máryat 这条类比",
+     "bodyZh": "作者用「长元音在 -rya 前不变短」来支持 nályë。这条类比本身成立，只是托尔金实际写的 nalyë 表明系词另有规则。旧方案因此不是错，而是被更强的证据取代。"
+    }
+   ],
+   "recapZh": "旧版 nályë；新版 nalyë；二者或可并存，练习用短的。",
+   "selfCheckZh": [
+    {
+     "qZh": "本课练习用哪个形式？",
+     "aZh": "短 na- 的 nalyë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     12
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "be-future",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "10 · 将来时：nauva 直接加词尾",
+   "leadZh": "nauva 不必改动就能接所有代词词尾：nauvan 或 nauvanyë「I will be」、nauvalmë「we will be」。",
+   "objectives": [
+    "能写 nauvan／nauvalmë",
+    "知道 nauva 不需要短化"
+   ],
+   "rules": [
+    {
+     "id": "r-be36",
+     "headZh": "规则",
+     "bodyZh": "将来时 nauva「will be」应能不加改动地接所有代词词尾。",
+     "en": "receive all pronominal endings with no modifications",
+     "zh": "不加改动地接所有代词词尾。"
+    },
+    {
+     "id": "r-be37",
+     "headZh": "例子",
+     "bodyZh": "nauvan 或 nauvanyë「I will be」、nauvalmë「we will be」等等。",
+     "en": "nauvan or nauvanyë",
+     "zh": "我将会是。",
+     "exampleZh": "nauvan／nauvanyë／nauvalmë"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 nauva 也短化成 ✗ nauva- → na-",
+     "right": "nauva 保持原形加词尾",
+     "whyZh": "原文说 with no modifications，与 ná 的短化形成对照。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么 nauva 不用短化",
+     "bodyZh": "因为 nauva 以元音 -a 结尾，接词尾时不会产生辅音丛。短化只为避免难发的辅音丛，nauva 没这个问题。"
+    }
+   ],
+   "recapZh": "nauvan、nauvanyë、nauvalmë。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我们将会是」（排除）？",
+     "aZh": "Nauvalmë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     13
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "be-two",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "11 · 两个词尾：nanyes「I am he」",
+   "leadZh": "ná 或许能接两个代词词尾，分表主语与谓语：nanyes。可比 utúvienyes「I have found it」，第二个词尾表宾语。",
+   "objectives": [
+    "知道 nanyes 的构成",
+    "知道这是推测"
+   ],
+   "rules": [
+    {
+     "id": "r-be38",
+     "headZh": "可能性",
+     "bodyZh": "动词 ná 或许甚至能接两个代词词尾，分别表主语与谓语，如 nanyes＝「I am he」。",
+     "en": "nanyes",
+     "zh": "我就是他。",
+     "exampleZh": "nanyes"
+    },
+    {
+     "id": "r-be39",
+     "headZh": "类比",
+     "bodyZh": "比较托尔金造的形式 utúvienyes＝「I have found it」，第二个词尾表宾语。",
+     "en": "utúvienyes",
+     "zh": "我已找到它。",
+     "exampleZh": "utúvienyes"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为双词尾是常规",
+     "right": "这是「或许」，唯一旁证是 utúvienyes",
+     "whyZh": "原文用 Perhaps 引出，且以 utúvienyes 作 compare。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "两个词尾各管什么",
+     "bodyZh": "nanyes＝na（是）＋n（我）＋s（他／它）：第一个词尾是主语，第二个是谓语。这种「一句两标」在昆雅里罕见但有旁证。"
+    }
+   ],
+   "recapZh": "nanyes＝I am he；参 utúvienyes。",
+   "selfCheckZh": [
+    {
+     "qZh": "nanyes 是什么意思？",
+     "aZh": "我就是他。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     14
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "be-zero",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "12 · 干脆不用系词：aistana elyë",
+   "leadZh": "托尔金译《圣母经》「blessed art thou」时直接写 aistana elyë，没有系词。故可造 inyë Elda、elyë vanya 这类无系词句。",
+   "objectives": [
+    "能造无系词句",
+    "知道短代词也可用"
+   ],
+   "rules": [
+    {
+     "id": "r-be39b",
+     "headZh": "替代方案",
+     "bodyZh": "除了给系词 na- 加词尾，也可以干脆用一个独立代词而省略系词：意思自明。",
+     "en": "leave out the copula altogether",
+     "zh": "完全省略系词。"
+    },
+    {
+     "id": "r-be40",
+     "headZh": "托尔金的例子",
+     "bodyZh": "托尔金在昆雅版《圣母经》里译「blessed art thou」时，直接写作 aistana elyë，即 aistana「blessed」后紧跟 elyë「thou」。",
+     "en": "aistana elyë",
+     "zh": "你是蒙福的。",
+     "exampleZh": "aistana elyë"
+    },
+    {
+     "id": "r-be41",
+     "headZh": "没有系词",
+     "bodyZh": "昆雅文本里没有系词「art」。",
+     "en": "There is no copula",
+     "zh": "没有系词。"
+    },
+    {
+     "id": "r-be42",
+     "headZh": "造句",
+     "bodyZh": "故可放心造无系词句，如 inyë Elda「I〔am〕an Elf」或 elyë vanya「you〔are〕beautiful」。",
+     "en": "inyë Elda",
+     "zh": "我是精灵。",
+     "exampleZh": "inyë Elda／elyë vanya"
+    },
+    {
+     "id": "r-be43",
+     "headZh": "短代词同样可用",
+     "bodyZh": "较短、较不强调的代词大概同样可用：Ni Elda、le vanya（或 lye vanya）。",
+     "en": "Ni Elda, le vanya",
+     "zh": "我是精灵；你美丽。",
+     "exampleZh": "Ni Elda／le vanya"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为必须有 ná 才成句",
+     "right": "现在时系词可省",
+     "whyZh": "原文以托尔金的 aistana elyë 为证，明说 There is no copula。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "最省力的造句法",
+     "bodyZh": "这条对本课练习极有用：凡是「X 是 Y」的现在时判断句，都可以直接「代词＋名词／形容词」，不必纠结 ná 的变位。"
+    }
+   ],
+   "recapZh": "aistana elyë；inyë Elda；Ni Elda。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我是精灵」两种写法？",
+     "aZh": "Inyë Elda ／ Ni Elda。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     15
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "be-past",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "13 · 过去时「was」：从 ?nánë 到 né",
+   "leadZh": "我们没有「was」的确定证据。给 NÂ 加 -në 得 ?nánë，但太别扭；托尔金很可能设想过不规则形式 né，长期传闻见于未刊手稿。",
+   "objectives": [
+    "知道 ?nánë 不可信",
+    "知道 né 的来源是传闻＋Gilson"
+   ],
+   "rules": [
+    {
+     "id": "r-be44",
+     "headZh": "缺口",
+     "bodyZh": "但我们并不总能不用「to be」，另一个问题与过去时「was」有关；我们没有它的确定证据。",
+     "en": "We have no certain attestations of it",
+     "zh": "我们没有它的确定证据。"
+    },
+    {
+     "id": "r-be45",
+     "headZh": "机械构造",
+     "bodyZh": "给词干 NÂ 加常规过去时标记 -në 当然会得出 ?nánë 之类，但这个别扭的形式看起来极不可能。",
+     "en": "?nánë",
+     "zh": "（机械构造的过去时）",
+     "exampleZh": "?nánë"
+    },
+    {
+     "id": "r-be46",
+     "headZh": "不规则",
+     "bodyZh": "托尔金很可能设想过一个不规则形式。",
+     "en": "Tolkien actually envisioned an irregular form",
+     "zh": "托尔金很可能设想过不规则形式。"
+    },
+    {
+     "id": "r-be47",
+     "headZh": "né",
+     "bodyZh": "形式 né「was」长期传闻见于托尔金未刊手稿。",
+     "en": "A form né",
+     "zh": "形式 né。",
+     "exampleZh": "né"
+    },
+    {
+     "id": "r-be48",
+     "headZh": "线索",
+     "bodyZh": "最接近证实这一假设的，是 Gilson 对《Narqelion》的分析。",
+     "en": "the same very early",
+     "zh": "同一首极早期……"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 ✗ nánë 表示「was」",
+     "right": "用 né（ner 用于复数）",
+     "whyZh": "原文说 ?nánë seems most improbable，且全课一律用 né。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么 ?nánë 不行",
+     "bodyZh": "ná 已是长元音词干，再加 -në 会得到两个相邻的重音单位，形式笨重。昆雅的不规则动词往往正是这样产生的：常用词抵抗规则化。"
+    }
+   ],
+   "recapZh": "?nánë 不可信；né「was」为最佳选择。",
+   "selfCheckZh": [
+    {
+     "qZh": "「was」用哪个形式？",
+     "aZh": "Né。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     16
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "be-gilson",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "14 · Gilson 的论证（引文）",
+   "leadZh": "这段引文是全课最技术性的一段：Gilson 从 kanda-／kandane 这类动词出发，论证 -ne 原本可能就是「was」，而 QL 的现在时是 ná。",
+   "objectives": [
+    "能读懂引文的论证链",
+    "知道 -a／-e 的对立"
+   ],
+   "rules": [
+    {
+     "id": "r-be49",
+     "headZh": "现象",
+     "bodyZh": "Qenya 过去时有多种构成法，其中一类常见类型见于 kanda-「blaze」，过去时 kandane。",
+     "en": "The Qenya preterite has a variety of formations",
+     "zh": "Qenya 过去时有多种构成法。"
+    },
+    {
+     "id": "r-be50",
+     "headZh": "假设",
+     "bodyZh": "有可能 kanda-ne 这类形式本是由动词干加「to be」动词的某形式构成的构造。",
+     "en": "actually arose as a construction with the verb-stem plus a form of the verb",
+     "zh": "本是由动词干加「to be」某形式构成的构造。"
+    },
+    {
+     "id": "r-be51",
+     "headZh": "英语类比",
+     "bodyZh": "即「blazed」之义在句法上来自「was blazing」「did blaze」这类短语。",
+     "en": "derived syntactically as in English phrases",
+     "zh": "在句法上来自英语短语。"
+    },
+    {
+     "id": "r-be52",
+     "headZh": "词尾即 was",
+     "bodyZh": "由原本无时的词干 kanda-「(to) blaze, blazing」与词尾 -ne「was」所表的过去时结合。",
+     "en": "combined with the past tense expressed in the ending -ne",
+     "zh": "与词尾 -ne 所表的过去时结合。"
+    },
+    {
+     "id": "r-be53",
+     "headZh": "平行",
+     "bodyZh": "若过去时为 né 或 ne，便与某些动词平行：那些动词的现在时与过去时仅靠 -a 变 -e 区分，如 panta- 过去时 pante、sanga- 过去时 sange。",
+     "en": "pret. pante",
+     "zh": "过去时 pante。",
+     "exampleZh": "panta-／pante；sanga-／sange"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把这段当已证结论",
+     "right": "它是 Gilson 的论证，作者转述并接受其结论",
+     "whyZh": "引文本身用 It is possible that，作者随后才说可以「当作几乎可证」。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "论证的三步",
+     "bodyZh": "①过去时词尾 -ne 广泛存在；②它可能与独立词「was」同源；③QL 的现在时正是 ná。三步合起来，né 就有了历史依据，而不只是传闻。"
+    }
+   ],
+   "recapZh": "-ne 或即「was」；a／e 对立提供平行。",
+   "selfCheckZh": [
+    {
+     "qZh": "引文用哪两个动词说明 a／e 对立？",
+     "aZh": "panta-／pante 与 sanga-／sange。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     17
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "be-ne",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "15 · né：当作「几乎可证」",
+   "leadZh": "作者的推理颇有趣：Gilson 能接触几乎全部手稿，却只说「推断」，大概是版权所限。故可把 né＝was 当作 as-good-as-attested。",
+   "objectives": [
+    "知道作者的推理",
+    "知道 né 的可信度等级"
+   ],
+   "rules": [
+    {
+     "id": "r-be54",
+     "headZh": "前提",
+     "bodyZh": "既然 Gilson 实际上能接触到托尔金几乎全部语言学手稿，他必定完全清楚材料里是否有 né。",
+     "en": "he must know perfectly well whether a form né",
+     "zh": "他必定完全清楚是否有 né。"
+    },
+    {
+     "id": "r-be55",
+     "headZh": "推测",
+     "bodyZh": "那么我们便可假定：他觉得若直说就会侵犯某人的版权，于是只好假装只是从已刊材料推断。",
+     "en": "pretend that he is merely deducing this word",
+     "zh": "假装只是从已刊材料推断。"
+    },
+    {
+     "id": "r-be56",
+     "headZh": "结论",
+     "bodyZh": "把 Gilson 的文章与「不会写自己知道是错的东西」的表态合起来看，我们显然可以把 né＝was 当作「几乎等于可证」的词。",
+     "en": "as-good-as-attested word",
+     "zh": "几乎等于可证的词。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 né 有直接例句",
+     "right": "它靠推理与旁证成立，无散文例句",
+     "whyZh": "原文全程用 assume、apparently，并以 as-good-as-attested 定性。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "学术共同体的证据",
+     "bodyZh": "这一段不是语法，而是「如何评价证据」。作者把版权限制、编者表态、材料可达性都纳入推理——这是本书方法论最坦率的一处。"
+    }
+   ],
+   "recapZh": "né 为 as-good-as-attested。",
+   "selfCheckZh": [
+    {
+     "qZh": "作者为何相信 Gilson 知道答案？",
+     "aZh": "他能接触几乎全部手稿。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     18
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "be-ner",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "16 · ner「were」与 -në 的存留",
+   "leadZh": "即便 né 在早期 Qenya 里存在，后期也可能被放弃。但 -në 从未被放弃，故 né 或许活到了《魔戒》风格。复数则外推 ner。",
+   "objectives": [
+    "能写 ner",
+    "知道 ner 是外推"
+   ],
+   "rules": [
+    {
+     "id": "r-be57",
+     "headZh": "可能被放弃",
+     "bodyZh": "即便这样的词在早期「Qenya」里存在，它在更接近《魔戒》的昆雅里当然也可能已被放弃。",
+     "en": "it may of course have been abandoned",
+     "zh": "当然也可能已被放弃。"
+    },
+    {
+     "id": "r-be58",
+     "headZh": "反证",
+     "bodyZh": "但可以注意：过去时词尾 -në 从未被放弃。",
+     "en": "the past tense ending -në was never abandoned",
+     "zh": "过去时词尾 -në 从未被放弃。"
+    },
+    {
+     "id": "r-be59",
+     "headZh": "推论",
+     "bodyZh": "若 Gilson 关于这个词尾与「was」有关的理论确实反映托尔金的想法，né 或许一直活到了《魔戒》风格的昆雅里。",
+     "en": "may have survived into LotR-style Quenya",
+     "zh": "或许活到了《魔戒》风格的昆雅里。"
+    },
+    {
+     "id": "r-be60",
+     "headZh": "现实需要",
+     "bodyZh": "写作者几乎离不开「was」一词，目前我们没有比 né 更好的选择。",
+     "en": "we have no better alternative than né",
+     "zh": "没有比 né 更好的选择。"
+    },
+    {
+     "id": "r-be61",
+     "headZh": "ner",
+     "bodyZh": "仿照 ná／nar 这一对，人们还外推出 ner「were」，用于复数或多个主语。",
+     "en": "extrapolated a form ner",
+     "zh": "外推出 ner。",
+     "exampleZh": "ner"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 ner 当可证形式",
+     "right": "它只是按 nar 类推",
+     "whyZh": "原文用 people have also extrapolated，明确标为外推。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一条「存留论证」",
+     "bodyZh": "作者用「-në 没被放弃」来支持「né 没被放弃」。这是间接论证：词尾存活不等于词干存活，但比纯猜测有力。"
+    }
+   ],
+   "recapZh": "né（单）／ner（复，外推）。",
+   "selfCheckZh": [
+    {
+     "qZh": "「they were」？",
+     "aZh": "Ner（外推）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     19
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "be-past-end",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "17 · 过去时加词尾：nenyë、nelyë、nes",
+   "leadZh": "既然 nalyë 证明现在时系词能接词尾，过去时应当同样。词尾前或作 ne-：nenyë、nelyë、nes、nentë。",
+   "objectives": [
+    "能写 nenyë／nelyë／nes",
+    "知道过去时也常省略系词"
+   ],
+   "rules": [
+    {
+     "id": "r-be62",
+     "headZh": "类推",
+     "bodyZh": "既然 nalyë 表明现在时系词能接代词词尾，我们便可假定过去时「was」同样如此。",
+     "en": "this is equally true of the past-tense form",
+     "zh": "过去时形式同样如此。"
+    },
+    {
+     "id": "r-be63",
+     "headZh": "形式",
+     "bodyZh": "它在各词尾前或许作 ne-：nenyë「I was」、nelyë「you were」、nes「he/she/it was」、nentë「they were」等等。",
+     "en": "nenyë",
+     "zh": "我曾是。",
+     "exampleZh": "nenyë／nelyë／nes／nentë"
+    },
+    {
+     "id": "r-be64",
+     "headZh": "省略",
+     "bodyZh": "但过去时里系词很可能也常常干脆省略，用独立代词代替词尾。",
+     "en": "the copula would most often simply be omitted",
+     "zh": "系词常常干脆省略。"
+    },
+    {
+     "id": "r-be65",
+     "headZh": "歧义",
+     "bodyZh": "Elyë vanya 依上下文可作过去时「you〔were〕beautiful」或现在时「you〔are〕beautiful」。",
+     "en": "Elyë vanya",
+     "zh": "你（曾／正）美丽。",
+     "exampleZh": "Elyë vanya"
+    },
+    {
+     "id": "r-be66",
+     "headZh": "例外",
+     "bodyZh": "不过作者怀疑将来时系词 nauva 很少这样省略。",
+     "en": "would rarely be omitted like this",
+     "zh": "很少这样省略。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 Elyë vanya 一定指现在",
+     "right": "时态靠上下文定",
+     "whyZh": "原文明说 according to context，两种读法都成立。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "省略带来的歧义",
+     "bodyZh": "省略系词省力，代价是时态不明。昆雅接受这种歧义，因为上下文通常足够。写作时若时态关键，就加 nenyë／nes 这类形式。"
+    }
+   ],
+   "recapZh": "nenyë、nelyë、nes、nentë；Elyë vanya 两可。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我曾是」？",
+     "aZh": "Nenyë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     20
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "be-perfect",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "18 · 完成时：?anaië 只是权宜",
+   "leadZh": "昆雅可证五个时态。to be 缺完成时「has been」。常规完成时加增音＋长元音＋-ië，但 NÂ 套不进去：?anáië 不稳定，?anaië 也不像。",
+   "objectives": [
+    "知道五个时态",
+    "知道完成时是空白"
+   ],
+   "rules": [
+    {
+     "id": "r-be67",
+     "headZh": "五个时态",
+     "bodyZh": "昆雅可证有五个时态：现在时（或持续体）、不定过去时、过去时、将来时、完成时。",
+     "en": "Five Quenya tenses are attested",
+     "zh": "可证有五个时态。"
+    },
+    {
+     "id": "r-be68",
+     "headZh": "to be 的覆盖",
+     "bodyZh": "to be 可能不区分现在时与不定过去时（ná 兼二者）；过去时或为 né；将来时可证为 nauva。",
+     "en": "ná",
+     "zh": "是（兼现在时与不定过去时）。",
+     "exampleZh": "ná／né／nauva"
+    },
+    {
+     "id": "r-be69",
+     "headZh": "常规完成时",
+     "bodyZh": "通常完成时由加一个与词干元音相近的增音、在正常位置拉长词干元音、再加词尾 -ië 构成，如 utúlië。",
+     "en": "utúlië",
+     "zh": "已来。",
+     "exampleZh": "utúlië"
+    },
+    {
+     "id": "r-be70",
+     "headZh": "套不进去",
+     "bodyZh": "但词干 NÂ 如何嵌入这个模式，就不太清楚了。",
+     "en": "it is less than clear how the stem NÂ could be fitted into this pattern",
+     "zh": "NÂ 如何嵌入这个模式不太清楚。"
+    },
+    {
+     "id": "r-be71",
+     "headZh": "?anáië",
+     "bodyZh": "形式 ?anáië 会很不稳定；á 与 i 组成的 ái 会趋向变成双元音 ai。",
+     "en": "?anáië",
+     "zh": "（不稳定的完成时）",
+     "exampleZh": "?anáië／?anaië"
+    },
+    {
+     "id": "r-be72",
+     "headZh": "仍不理想",
+     "bodyZh": "然而 ?anaië 仍不像是特别可能的形式，只能推荐给真正走投无路的写作者。",
+     "en": "does not strike me as a particularly likely form",
+     "zh": "不像是特别可能的形式。"
+    },
+    {
+     "id": "r-be73",
+     "headZh": "无从知道",
+     "bodyZh": "目前根本无从知道精灵会怎么说「has been」。",
+     "en": "it is simply impossible to tell how the Eldar would say",
+     "zh": "根本无从知道精灵会怎么说。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "用 ?anaië 当「has been」的标准译法",
+     "right": "这是空白，尽量绕开",
+     "whyZh": "原文说 could recommend it to really desperate writers only。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么完成时这么难",
+     "bodyZh": "完成时要求词干有「可拉长的元音」和「可加增音的首音节」。NÂ 只有一个长元音、没有辅音首，增音与拉长都无处安放，所以规则失灵。"
+    }
+   ],
+   "recapZh": "完成时缺失；?anaië 仅为权宜。",
+   "selfCheckZh": [
+    {
+     "qZh": "「has been」有确定说法吗？",
+     "aZh": "没有。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     21
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "be-imper",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "19 · 命令式「be!」：á na／na／nai",
+   "leadZh": "「be!」也不确定。作者自造 ána；但《主祷文》里托尔金用 na（na airë esselya），且 na 可作表愿望的助词。nai 或许就是 na-i。",
+   "objectives": [
+    "能写 na airë esselya",
+    "知道 nai 的可能来源"
+   ],
+   "rules": [
+    {
+     "id": "r-be71b",
+     "headZh": "不确定",
+     "bodyZh": "ná 的命令式也有些不确定；「be!」如「be good!」该怎么说，远非显然。",
+     "en": "somewhat uncertain",
+     "zh": "有些不确定。"
+    },
+    {
+     "id": "r-be74",
+     "headZh": "自造形式",
+     "bodyZh": "作者有时用自造形式 ána，把 ná（-na）与命令助词 á 的前置变体结合。",
+     "en": "the invented form ána",
+     "zh": "自造形式 ána。",
+     "exampleZh": "ána"
+    },
+    {
+     "id": "r-be75",
+     "headZh": "类比",
+     "bodyZh": "就形式而言，ána 与 ná 的关系，正像托尔金的 áva「don't!」与简单否定词 vá 的关系。",
+     "en": "the same relationship to ná as",
+     "zh": "与 ná 的关系正如……"
+    },
+    {
+     "id": "r-be76",
+     "headZh": "托尔金的写法",
+     "bodyZh": "在昆雅版《主祷文》里，托尔金把「hallowed be thy name」译作 na airë esselya 或 esselya na airë。",
+     "en": "na airë esselya",
+     "zh": "愿你的名受尊为圣。",
+     "exampleZh": "na airë esselya／esselya na airë"
+    },
+    {
+     "id": "r-be77",
+     "headZh": "na 也是助词",
+     "bodyZh": "但 na 似乎也能作仅表愿望的助词；托尔金指出 na 置于句前表示「let it be」（VT43:14）。",
+     "en": "na preceding a sentence indicates",
+     "zh": "na 置于句前表示……"
+    },
+    {
+     "id": "r-be78",
+     "headZh": "例",
+     "bodyZh": "他把「thy will be done」译作 na carë indómelya，显然是「let-it-be〔that one〕does thy will」。",
+     "en": "na carë indómelya",
+     "zh": "愿你的旨意成就。",
+     "exampleZh": "na carë indómelya"
+    },
+    {
+     "id": "r-be79",
+     "headZh": "nai",
+     "bodyZh": "或许第 16 课「祝愿公式」里的 nai（如 nai hiruvalyë Valimar）其实就是 na-i「be (it) that」。",
+     "en": "na-i",
+     "zh": "（nai 的可能分析）",
+     "exampleZh": "nai＝na-i"
+    },
+    {
+     "id": "r-be80",
+     "headZh": "保留",
+     "bodyZh": "就目前看来 na 似乎是「be!」的最佳选择，但作者不会据此设计练习。",
+     "en": "na seems the best option",
+     "zh": "na 似乎是最佳选择。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 ána 是标准形式",
+     "right": "它是作者自造；托尔金写的是 na",
+     "whyZh": "原文用 the invented form ána，而托尔金文本用 na airë esselya。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一个词的三种身份",
+     "bodyZh": "na 在昆雅里至少三用：命令式「be!」、表愿望的助词「let it be」、以及 nai 的前半。三者可能同源，这正是作者提出 nai＝na-i 的理由。"
+    }
+   ],
+   "recapZh": "na airë esselya；na carë indómelya；nai 或＝na-i。",
+   "selfCheckZh": [
+    {
+     "qZh": "「愿你的名受尊为圣」？",
+     "aZh": "Na airë esselya。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     22
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "be-ye",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "20 · 另一套：ye／yéva／-ië（建议放弃）",
+   "leadZh": "《Fíriel 之歌》有 ye「is」、yéva「will be」，也可作词尾 -ië、-iéva（márië、hostainiéva）。但托尔金似乎放弃了。",
+   "objectives": [
+    "知道 ye／yéva 这套",
+    "知道作者建议不用"
+   ],
+   "rules": [
+    {
+     "id": "r-be81",
+     "headZh": "另一套",
+     "bodyZh": "除「N 系」形式（ná／nar、né、nauva，或许还有 na），材料里还有几个意义相关但形式完全不同的词。",
+     "en": "a few entirely different forms of related meaning",
+     "zh": "几个意义相关但形式完全不同的词。"
+    },
+    {
+     "id": "r-be82",
+     "headZh": "ye／yéva",
+     "bodyZh": "《魔戒》前的《Fíriel 之歌》有 ye 表「is」、yéva 表「will be」。",
+     "en": "yéva",
+     "zh": "将是。",
+     "exampleZh": "ye／yéva"
+    },
+    {
+     "id": "r-be83",
+     "headZh": "词尾化",
+     "bodyZh": "它们也可不作独立词而变成词尾，表现为 -ië 与 -iéva，可证于 márië「is good」、hostainiéva「will be counted」。",
+     "en": "márië",
+     "zh": "是好的。",
+     "exampleZh": "márië／hostainiéva"
+    },
+    {
+     "id": "r-be84",
+     "headZh": "被放弃",
+     "bodyZh": "但如第 4 课指出的，托尔金似乎已放弃这类形式。",
+     "en": "Tolkien may seem to have abandoned such forms",
+     "zh": "托尔金似乎已放弃这类形式。"
+    },
+    {
+     "id": "r-be85",
+     "headZh": "为什么",
+     "bodyZh": "-ië 另有太多含义（动名词 enyalië、抽象名词 verië、阴性 Valië），托尔金可能已决定不该再让它背上「is」之义。",
+     "en": "should not be burdened with the meaning",
+     "zh": "不该再让它背上这个意义。"
+    },
+    {
+     "id": "r-be86",
+     "headZh": "建议",
+     "bodyZh": "少数写作者用过 -ië「is」，但作者的建议是让《Fíriel 之歌》的这些构造安息。",
+     "en": "my advice would be to let these formations",
+     "zh": "建议让这些构造安息。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "用 márië 表示「is good」",
+     "right": "用 ná mára",
+     "whyZh": "原文说这类形式已被放弃，建议 rest in peace。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一词多义的代价",
+     "bodyZh": "-ië 已承担动名词、抽象名词、阴性三种功能。再加「is」会让 márië 这类词歧义爆炸。这是昆雅「宁可另造也不叠义」的又一例。"
+    }
+   ],
+   "recapZh": "ye／yéva／-ië 属早期方案，建议不用。",
+   "selfCheckZh": [
+    {
+     "qZh": "「is good」该怎么说？",
+     "aZh": "Ná mára（不用 márië）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     23
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ea-intro",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "21 · 另一个动词：ëa",
+   "leadZh": "ëa（大写 Eä）不是被放弃的词——它见于《魔戒》之后的著作，而那些著作里就含 ná。故它与 ná 并存，意义有别。",
+   "objectives": [
+    "知道 ëa 与 ná 并存",
+    "知道它出自晚期材料"
+   ],
+   "rules": [
+    {
+     "id": "r-ea1",
+     "headZh": "不是废弃词",
+     "bodyZh": "另一个该考虑的动词绝非托尔金放弃的词。",
+     "en": "definitely not a word Tolkien abandoned",
+     "zh": "绝非托尔金放弃的词。"
+    },
+    {
+     "id": "r-ea2",
+     "headZh": "年代",
+     "bodyZh": "它见于《魔戒》出版之后的著作，而那些著作里就含《Namárië》，其中正有动词 ná。",
+     "en": "postdating the publication of LotR",
+     "zh": "《魔戒》出版之后。"
+    },
+    {
+     "id": "r-ea3",
+     "headZh": "并存",
+     "bodyZh": "故它显然意在与此 ná 并存，且大概表达略为不同的意义色彩。",
+     "en": "clearly meant to coexist with ná",
+     "zh": "显然意在与此 ná 并存。"
+    },
+    {
+     "id": "r-ea4",
+     "headZh": "名字",
+     "bodyZh": "我们说的是动词 ëa（大写作 Eä）。",
+     "en": "ëa",
+     "zh": "存在／是。",
+     "exampleZh": "ëa／Eä"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 ëa 当 ná 的同义替代",
+     "right": "二者意义有别，ëa 更偏「存在」",
+     "whyZh": "原文说 probably expresses a somewhat different shade of meaning，下一节展开。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么先讲年代",
+     "bodyZh": "因为昆雅材料按年代分层。ëa 与 ná 同见于晚期文本，这一点本身就排除了「ëa 是早期形式、后来被 ná 取代」的误解。"
+    }
+   ],
+   "recapZh": "ëa 与 ná 并存，意义有别。",
+   "selfCheckZh": [
+    {
+     "qZh": "ëa 是早期还是晚期形式？",
+     "aZh": "晚期，与 ná 并存。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     24
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ea-name",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "22 · Eä：宇宙之名本是个动词",
+   "leadZh": "《爱努林达列》里 Eru 说「Eä! Let these things Be!」。托尔金解释：Eä 作为宇宙之名原本不是名词，而是动词「It is」。",
+   "objectives": [
+    "能引 Eä! 的出处",
+    "知道 Eä 是动词而非名词"
+   ],
+   "rules": [
+    {
+     "id": "r-ea5",
+     "headZh": "出处",
+     "bodyZh": "《精灵宝钻》的读者会从创世神话里记得这个词：Eru Ilúvatar 用这个词赋予爱努的大乐章以客观存在。",
+     "en": "grants objective existence to the Music of the Ainur",
+     "zh": "赋予大乐章以客观存在。"
+    },
+    {
+     "id": "r-ea6",
+     "headZh": "原话",
+     "bodyZh": "「I know the desire of your minds that what ye have seen should verily be...even as ye yourselves are, and yet other. Therefore I say: Eä! Let these things Be!」（《爱努林达列》）",
+     "en": "Let these things Be!",
+     "zh": "让这些事物存在！",
+     "exampleZh": "Eä!"
+    },
+    {
+     "id": "r-ea7",
+     "headZh": "托尔金的解释",
+     "bodyZh": "托尔金解释说，Eä 作为宇宙之名原本不是名词，而其实是动词。",
+     "en": "is not originally a noun, but actually a verb",
+     "zh": "原本不是名词，而是动词。"
+    },
+    {
+     "id": "r-ea8",
+     "headZh": "精灵的称法",
+     "bodyZh": "「精灵称世界、宇宙为 Eä——It is」（《书信集》284 页脚注）。",
+     "en": "The Elves called the World, the Universe, Eä",
+     "zh": "精灵称世界、宇宙为 Eä。"
+    },
+    {
+     "id": "r-ea9",
+     "headZh": "MR 的表述",
+     "bodyZh": "「这个世界，或宇宙，〔造物主〕称之为 Eä，一个意为『It is』或『Let it Be』的精灵语词」（MR:330）。",
+     "en": "an Elvish word that means",
+     "zh": "一个精灵语词，意为……"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 Eä 当纯名词「宇宙」",
+     "right": "它本是动词「It is／Let it be」",
+     "whyZh": "原文两次强调 not originally a noun, but actually a verb。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "命名即创世",
+     "bodyZh": "Eru 说「Eä」就把宇宙造成了——这个词既是命令也是陈述。理解这一点，才能理解为什么 ëa 同时有「is」与「let it be」两义（下一段）。"
+    }
+   ],
+   "recapZh": "Eä＝It is／Let it Be；本为动词。",
+   "selfCheckZh": [
+    {
+     "qZh": "Eä 作为宇宙之名，本是什么词类？",
+     "aZh": "动词。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     25
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ea-vs-na",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "23 · ëa 与 ná 的分工：两种假说",
+   "leadZh": "ëa 既是「is」也是「let it be」（与 heca!、ela! 同类）。有人提出 ná／ëa 之别是「此刻」与「恒常」，如西班牙语的两种系词。",
+   "objectives": [
+    "知道 ëa 的两义",
+    "知道「西班牙语」假说"
+   ],
+   "rules": [
+    {
+     "id": "r-ea10",
+     "headZh": "两义",
+     "bodyZh": "ëa 既可是现在时（或不定过去时）「〔它〕是」，也可是命令式「让它存在！」。",
+     "en": "can be either the present",
+     "zh": "既可是现在时……"
+    },
+    {
+     "id": "r-ea11",
+     "headZh": "平行",
+     "bodyZh": "作命令式时，它与 heca!「be gone!」、ela!「look!」这类单字 -a 命令式平行。",
+     "en": "such one-word imperatives in -a as heca!",
+     "zh": "如 heca! 这类单字 -a 命令式。"
+    },
+    {
+     "id": "r-ea12",
+     "headZh": "问题",
+     "bodyZh": "ëa「is」与 ná 在意义上如何不同？",
+     "en": "How does ëa",
+     "zh": "ëa 与 ná 有何不同？"
+    },
+    {
+     "id": "r-ea13",
+     "headZh": "假说一",
+     "bodyZh": "有人提出：一个动词的「is」只指某个具体场合，另一个指永久或习惯状态。",
+     "en": "one of these verbs means",
+     "zh": "其中一个动词意为……"
+    },
+    {
+     "id": "r-ea14",
+     "headZh": "例子",
+     "bodyZh": "「the man is drunk」：一个「is」只表示他此刻醉了，另一个则暗示他惯常是个酒鬼。",
+     "en": "the man is drunk",
+     "zh": "那人醉了。"
+    },
+    {
+     "id": "r-ea15",
+     "headZh": "西班牙语",
+     "bodyZh": "这类系统的平行例子可见于西班牙语（托尔金喜爱的语言）。",
+     "en": "Parallels to such a system can be found in Spanish",
+     "zh": "平行例子可见于西班牙语。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把这套「此刻／恒常」当定论",
+     "right": "作者随即押注另一理论",
+     "whyZh": "原文用 It has been suggested，下一段开头即 but I would put my money on another theory。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "ser 与 estar",
+     "bodyZh": "作者暗指西班牙语的 ser／estar 之别。这是理解本段最省力的类比：一个说「本质如此」，一个说「此刻如此」。但他并不采纳这个解释。"
+    }
+   ],
+   "recapZh": "ëa＝is／let it be；「此刻 vs 恒常」只是假说。",
+   "selfCheckZh": [
+    {
+     "qZh": "ëa 除「是」还能表什么？",
+     "aZh": "命令式「让它存在」。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     26
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ea-exist",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "24 · 作者的理论：ëa＝exists",
+   "leadZh": "托尔金也把 ëa 译作「exists」。故 ëa 比 ná 更绝对：ná 是系词（接名词／形容词／介词短语），ëa 指坚实独立的存在。",
+   "objectives": [
+    "能区分 ná 与 ëa 的用法",
+    "能写 Eru ëa、Eä malta"
+   ],
+   "rules": [
+    {
+     "id": "r-ea16",
+     "headZh": "证据",
+     "bodyZh": "托尔金不只把 ëa 译作「is」，也用过「exists」（VT39:7）。",
+     "en": "he also used the rendering",
+     "zh": "他也用过这个译法。"
+    },
+    {
+     "id": "r-ea17",
+     "headZh": "推论",
+     "bodyZh": "这暗示 ëa 的意义比 ná 更绝对。",
+     "en": "a more absolute meaning than ná",
+     "zh": "比 ná 更绝对的意义。"
+    },
+    {
+     "id": "r-ea18",
+     "headZh": "同源名词",
+     "bodyZh": "动词 ëa 与名词 engwë「thing」有关——「物」被感知为「存在的东西」。",
+     "en": "engwë",
+     "zh": "物。",
+     "exampleZh": "engwë"
+    },
+    {
+     "id": "r-ea19",
+     "headZh": "ná 的用法",
+     "bodyZh": "ná 只是系词，用于描述某物状态的短语，引出名词、形容词甚至介词短语。",
+     "en": "a mere copula",
+     "zh": "只是系词。"
+    },
+    {
+     "id": "r-ea20",
+     "headZh": "三例",
+     "bodyZh": "sambë sina ná caimasan「this room is a bedchamber」、sambë sina ná pitya「this room is small」、sambë sina ná ve i sambë yassë hirnenyet。",
+     "en": "sambë sina ná caimasan",
+     "zh": "这房间是卧室。",
+     "exampleZh": "sambë sina ná caimasan／pitya"
+    },
+    {
+     "id": "r-ea21",
+     "headZh": "ëa 的用法",
+     "bodyZh": "ëa 指某主语的坚实、独立的存在或在场，或许除主语外不需任何附加成分（如 Eru ëa＝「God exists」）。",
+     "en": "the solid, independent existence or presence",
+     "zh": "坚实、独立的存在或在场。"
+    },
+    {
+     "id": "r-ea22",
+     "headZh": "ëala",
+     "bodyZh": "ëala（显然是 ëa 的主动分词）也作名词「being」——指自然状态为无肉身存在的灵；炎魔就是 ëalar（MR:165）。",
+     "en": "were ëalar",
+     "zh": "是 ëalar。",
+     "exampleZh": "ëala／ëalar"
+    },
+    {
+     "id": "r-ea23",
+     "headZh": "there is",
+     "bodyZh": "在句首时 ëa 或可与英语「there is」同用：Eä malta i orontissen、ëa nér i sambessë、ëar neldë nissi i coassë。",
+     "en": "Eä malta i orontissen",
+     "zh": "山中有金子。",
+     "exampleZh": "Eä malta i orontissen"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "用 ná 说「山里有金子」",
+     "right": "用 ëa：Eä malta i orontissen",
+     "whyZh": "原文说 ëa 用于存在／在场／位置，ná 只作系词。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一句话记住分工",
+     "bodyZh": "ná 后面要接东西（名词／形容词／短语），ëa 后面可以不接东西。所以「X 是 Y」用 ná，「X 存在」用 ëa。"
+    }
+   ],
+   "recapZh": "ná＝系词；ëa＝存在；Eru ëa；Eä malta i orontissen。",
+   "selfCheckZh": [
+    {
+     "qZh": "「神存在」？",
+     "aZh": "Eru ëa。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     27
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ea-cirion",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "25 · 托尔金造的 ëa：Cirion 的誓言",
+   "leadZh": "作者自造的例句之外，真实例句见于 Cirion 的誓言：i Eru i or ilyë mahalmar ëa tennoio。另有《主祷文》的 i ëa han ëa。",
+   "objectives": [
+    "能引 Cirion 誓言",
+    "知道 i ëa han ëa 的争议"
+   ],
+   "rules": [
+    {
+     "id": "r-ea24",
+     "headZh": "坦白",
+     "bodyZh": "然而上一段所有句子都是作者造的。",
+     "en": "were constructed by me",
+     "zh": "是作者造的。"
+    },
+    {
+     "id": "r-ea25",
+     "headZh": "真实例",
+     "bodyZh": "托尔金造的、ëa 真正出现在句子里的例子极少，其中之一见于 Cirion 的誓言。",
+     "en": "forms part of Cirion",
+     "zh": "见于 Cirion 的……"
+    },
+    {
+     "id": "r-ea26",
+     "headZh": "句子",
+     "bodyZh": "Eä 作关系从句的动词出现：i Eru i or ilyë mahalmar ëa tennoio「the One〔God〕who is above all thrones forever」。",
+     "en": "i Eru i or ilyë mahalmar ëa tennoio",
+     "zh": "高于一切宝座直到永远的那一位。",
+     "exampleZh": "i Eru i or ilyë mahalmar ëa tennoio"
+    },
+    {
+     "id": "r-ea27",
+     "headZh": "不矛盾",
+     "bodyZh": "既然字面意思完全可以是 Eru 存在于这个崇高位置，这与上述解释并不矛盾。",
+     "en": "does not contradict the interpretation",
+     "zh": "与上述解释并不矛盾。"
+    },
+    {
+     "id": "r-ea28",
+     "headZh": "主祷文",
+     "bodyZh": "在《主祷文》译本里，托尔金把「〔our Father〕who is in heaven」译作 i ëa han ëa。",
+     "en": "i ëa han ëa",
+     "zh": "（主祷文中的措辞）",
+     "exampleZh": "i ëa han ëa"
+    },
+    {
+     "id": "r-ea29",
+     "headZh": "理论",
+     "bodyZh": "有理论认为它意为「〔our Father〕who is beyond Eä」，即超出受造的宇宙；不过第二个 ëa 并未大写为专名。",
+     "en": "who is beyond Eä",
+     "zh": "在 Eä 之外的那一位。"
+    },
+    {
+     "id": "r-ea30",
+     "headZh": "确定的部分",
+     "bodyZh": "第一个 ëa 肯定是动词「is」。",
+     "en": "The first ëa is certainly the verb",
+     "zh": "第一个 ëa 肯定是动词。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 i ëa han ëa 直译成「在天上的」",
+     "right": "它字面是「在 Eä 之外的」",
+     "whyZh": "原文说 it is not a direct translation of the traditional wording，并给出 beyond Eä 的理论。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么这条证据重要",
+     "bodyZh": "它同时印证两点：ëa 用于「位于某处」（or ilyë mahalmar），且它出现在关系从句里作谓语。前者正是下一段要立为规则的用法。"
+    }
+   ],
+   "recapZh": "i Eru i or ilyë mahalmar ëa tennoio；i ëa han ëa。",
+   "selfCheckZh": [
+    {
+     "qZh": "Cirion 誓言里的 ëa 前面是什么？",
+     "aZh": "or ilyë mahalmar（高于一切宝座）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     28
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ea-position",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "26 · 规则：讲位置用 ëa",
+   "leadZh": "描述某物的位置时，该用 ëa 而非 ná。位置可由介词短语或位格名词指明。",
+   "objectives": [
+    "知道位置句用 ëa",
+    "能写 i sambë yassë ëa i harma"
+   ],
+   "rules": [
+    {
+     "id": "r-ea31",
+     "headZh": "规则",
+     "bodyZh": "描述某物的位置时，该用 ëa 而非 ná。",
+     "en": "is the verb to use when describing the position of something",
+     "zh": "描述位置时该用的动词。"
+    },
+    {
+     "id": "r-ea32",
+     "headZh": "两种指明方式",
+     "bodyZh": "位置或由含介词的短语指明（如 or ilyë mahalmar、han ëa），或由位格名词指明。",
+     "en": "appearing in the locative case",
+     "zh": "以位格出现。"
+    },
+    {
+     "id": "r-ea33",
+     "headZh": "例句",
+     "bodyZh": "或许可有 i sambë yassë ëa i harma ëa or i sambë yassë ëa i nér sí「the room where the treasure is, is above the room where the man is now」。",
+     "en": "i sambë yassë ëa i harma ëa or i sambë yassë ëa i nér sí",
+     "zh": "藏宝的房间在那人此刻所在房间之上。"
+    },
+    {
+     "id": "r-ea34",
+     "headZh": "概括",
+     "bodyZh": "所谈的不只是单纯状态，而是存在、在场、位置。",
+     "en": "not so much to mere states as to existence, presence, position",
+     "zh": "不是单纯状态，而是存在、在场、位置。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "用 ná 说「书在桌上」",
+     "right": "用 ëa",
+     "whyZh": "原文明确：ëa, rather than ná, is the verb to use when describing the position。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "这句长句怎么拆",
+     "bodyZh": "i sambë yassë ëa i harma（藏宝的房间）＋ ëa（在）＋ or i sambë yassë ëa i nér sí（那人此刻所在的房间之上）。两个关系从句各含一个 ëa，主句再一个。"
+    }
+   ],
+   "recapZh": "位置用 ëa；i sambë yassë ëa i harma…",
+   "selfCheckZh": [
+    {
+     "qZh": "「书在桌上」用 ná 还是 ëa？",
+     "aZh": "Ëa。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     29
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ea-inflect",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "27 · ëa 的变位：euva 与 engë",
+   "leadZh": "Eä 本身即现在时／不定过去时，命令式同形。将来时或作 euva。过去时曾在 ëanë 与 engë 之间，现由 VT43:36 确证为 engë。",
+   "objectives": [
+    "能写 euva／engë",
+    "知道 engë 的出处"
+   ],
+   "rules": [
+    {
+     "id": "r-ea35",
+     "headZh": "现在时",
+     "bodyZh": "Eä 本身似乎就是现在时或不定过去时；命令式（《爱努林达列》里 Eru 所用）与之同形。",
+     "en": "would seem to be the present or aorist form",
+     "zh": "似乎就是现在时或不定过去时。"
+    },
+    {
+     "id": "r-ea36",
+     "headZh": "不定式与将来",
+     "bodyZh": "或许 ëa 也能作不定式；将来时或作 euva。",
+     "en": "something like euva",
+     "zh": "或作 euva。",
+     "exampleZh": "euva"
+    },
+    {
+     "id": "r-ea37",
+     "headZh": "完成时",
+     "bodyZh": "完成时「has existed」似乎连一丝把握都谈不上重建。",
+     "en": "seems impossible to reconstruct with even a shadow of confidence",
+     "zh": "连一丝把握都谈不上重建。"
+    },
+    {
+     "id": "r-ea38",
+     "headZh": "过去时的两种可能",
+     "bodyZh": "过去时在作者初版时尚不确定，但如他所论，只能是 ëanë 或 engë。",
+     "en": "it had to be either ëanë or engë",
+     "zh": "只能是 ëanë 或 engë。",
+     "exampleZh": "ëanë／engë"
+    },
+    {
+     "id": "r-ea39",
+     "headZh": "确证",
+     "bodyZh": "engë 现由 VT43:36 证实，见于托尔金未完成的《光荣颂》译本：Alcar i ataren ar i yondon ar i airefëan tambë engë i...",
+     "en": "Alcar i ataren ar i yondon ar i airefëan tambë engë i",
+     "zh": "愿光荣归于父、子及圣灵，正如……",
+     "exampleZh": "tambë engë"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 ✗ ëanë 作过去时",
+     "right": "用 engë",
+     "whyZh": "engë 已由 VT43:36 明确证实，ëanë 只是被排除的备选。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一个「预言成真」的例子",
+     "bodyZh": "作者最初只能推断「ëanë 或 engë」，后来材料证实是 engë。这段值得注意：它说明严谨的推断可以被新证据验证。"
+    }
+   ],
+   "recapZh": "现在时 ëa；将来 euva；过去 engë。",
+   "selfCheckZh": [
+    {
+     "qZh": "ëa 的过去时？",
+     "aZh": "Engë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     30
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ea-enge",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "28 · engë 为何长这样：eññ- → ng",
+   "leadZh": "ëa 代表原始 eñâ；ñ 在元音间消失，但过去时的鼻音插入在 ñ 前表现为另一个 ñ，得 eññ-，后变 ng，故为 engë。",
+   "objectives": [
+    "能解释 engë 的音变",
+    "知道 tëa／tengë 这条旁证"
+   ],
+   "rules": [
+    {
+     "id": "r-ea40",
+     "headZh": "原始形式",
+     "bodyZh": "托尔金显然意在让 ëa 代表原始形式 eñâ，符号 ñ 代表英语 king 里的 ng。",
+     "en": "primitive eñâ",
+     "zh": "原始形式 eñâ。",
+     "exampleZh": "eñâ"
+    },
+    {
+     "id": "r-ea41",
+     "headZh": "消失",
+     "bodyZh": "在昆雅里，这个音在元音之间已消失。",
+     "en": "had been lost between vowels",
+     "zh": "在元音之间已消失。"
+    },
+    {
+     "id": "r-ea42",
+     "headZh": "鼻音插入",
+     "bodyZh": "但过去时曾由鼻音插入法构成，而在 ñ 前这个插入音表现为另一个 ñ，于是得 eññ-。",
+     "en": "formed by means of nasal infixion",
+     "zh": "由鼻音插入法构成。"
+    },
+    {
+     "id": "r-ea43",
+     "headZh": "变 ng",
+     "bodyZh": "这个双 ññ 后来变成昆雅的 ng（如英语 finger，带清晰的 g 音）：故过去时成了 engë。",
+     "en": "came to be engë",
+     "zh": "成了 engë。"
+    },
+    {
+     "id": "r-ea44",
+     "headZh": "旁证",
+     "bodyZh": "这一类动词已知只有另一个，即 tëa「indicate」，过去时 tengë（VT39:6-7）。",
+     "en": "Only one other verb of this class is known",
+     "zh": "这一类动词已知只有另一个。",
+     "exampleZh": "tëa／tengë"
+    },
+    {
+     "id": "r-ea45",
+     "headZh": "推断史",
+     "bodyZh": "正是这个例子使人推测 ëa 的过去时是 engë，之后 VT43:36 才给出明确证实。",
+     "en": "explicit confirmation",
+     "zh": "明确证实。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 engë 是不规则怪形",
+     "right": "它有音变依据",
+     "whyZh": "原文说 it is historically justified，并给出 eññ- → ng 的路径。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一个音变解释一个怪形",
+     "bodyZh": "记住路径：eñâ →（过去时鼻音插入）eññ- → eng- ＋ -ë。这样 engë 就从「例外」变成「可解释」。"
+    }
+   ],
+   "recapZh": "eñâ → eññ- → engë；旁证 tëa／tengë。",
+   "selfCheckZh": [
+    {
+     "qZh": "engë 的 ng 从哪来？",
+     "aZh": "原始 ñ 与鼻音插入的 ñ 合并成 ññ，后变 ng。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     31
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ea-endings",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "29 · ëa 接词尾：ëan、ëalmë、enges",
+   "leadZh": "ëa 想必能像其他动词一样接代词词尾：ëan「I exist」、ëalmë「we exist」、enges「it existed」。",
+   "objectives": [
+    "能写 ëan／ëalmë",
+    "知道 enges 的构成"
+   ],
+   "rules": [
+    {
+     "id": "r-ea46",
+     "headZh": "规则",
+     "bodyZh": "动词 ëa 想必能像其他动词一样接代词词尾。",
+     "en": "can presumably receive pronominal endings like any other verb",
+     "zh": "想必能像其他动词一样接代词词尾。"
+    },
+    {
+     "id": "r-ea47",
+     "headZh": "例子",
+     "bodyZh": "ëan「I exist」、ëalmë「we exist」、enges「it existed」等等。",
+     "en": "ëan",
+     "zh": "我存在。",
+     "exampleZh": "ëan／ëalmë／enges"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 ✗ ëanyë 表「我存在」",
+     "right": "ëan 即可",
+     "whyZh": "原文例子给的是 ëan，与 ná 的 nan／nanyë 两可不同。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "短词尾优先",
+     "bodyZh": "ëa 接的是短词尾（-n、-lmë、-s），与普通动词一致。这也说明 ëa 是常规动词，不需要像 ná 那样特殊对待。"
+    }
+   ],
+   "recapZh": "ëan、ëalmë、enges。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我存在」？",
+     "aZh": "Ëan。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     32
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ma-head",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "30 · 小标题：ma 是疑问助词吗",
+   "leadZh": "原文换小标题「MA: AN INTERROGATIVE PARTICLE?」——本课最后一节，处理是非问句。",
+   "objectives": [
+    "知道本节主题",
+    "知道 ma 是关键词"
+   ],
+   "rules": [
+    {
+     "id": "r-ma1",
+     "headZh": "标题",
+     "bodyZh": "小标题作 MA: AN INTERROGATIVE PARTICLE?，即「ma：疑问助词？」。",
+     "en": "MA: AN INTERROGATIVE PARTICLE?",
+     "zh": "ma：疑问助词？"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 ma 已被确认为助词",
+     "right": "标题带问号，全节都在评估证据",
+     "whyZh": "标题的问号本身就是作者的立场标记。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么用问号",
+     "bodyZh": "因为托尔金没有留下一个真正的 ma 疑问句。整节的结构是：先说明缺什么，再给出可用的方案，最后交代证据的弱点。"
+    }
+   ],
+   "recapZh": "本节：ma 能否作是非问助词。",
+   "selfCheckZh": [
+    {
+     "qZh": "本节的标题带什么标点？",
+     "aZh": "问号。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     33
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ma-missing",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "31 · 缺的正是最常见的一类",
+   "leadZh": "上一课给了 man／mana／manen，但它们构造的是特指问。最常见的、能用 yes／no 回答的那类问句，已刊材料里没有例证。",
+   "objectives": [
+    "知道是非问句无例证",
+    "知道特指问与是非问的分工"
+   ],
+   "rules": [
+    {
+     "id": "r-ma2",
+     "headZh": "回顾",
+     "bodyZh": "上一课介绍了 man「who?」、mana「what?」、manen「how?」。",
+     "en": "man",
+     "zh": "谁。",
+     "exampleZh": "man／mana／manen"
+    },
+    {
+     "id": "r-ma3",
+     "headZh": "局限",
+     "bodyZh": "它们可用于构造某些类型的疑问句，但最常见的一类在已刊材料里没有例证。",
+     "en": "not exemplified in published material",
+     "zh": "在已刊材料里没有例证。"
+    },
+    {
+     "id": "r-ma4",
+     "headZh": "问题",
+     "bodyZh": "那种可以用简单的「yes」或「no」回答的疑问句，该怎么构造？",
+     "en": "may be answered with a simple",
+     "zh": "可以用简单的……回答。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 man 也能问「是不是」",
+     "right": "man 问「谁」，是非问另需手段",
+     "whyZh": "原文把两类问句分开，并明说 yes/no 类没有例证。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "两类问句",
+     "bodyZh": "特指问（wh- 问句）问「谁／什么／如何」，答案是一个成分；是非问问「是否如此」，答案是 yes／no。昆雅前者有词，后者缺手段——这正是本节要填的洞。"
+    }
+   ],
+   "recapZh": "特指问有 man／mana／manen；是非问无例证。",
+   "selfCheckZh": [
+    {
+     "qZh": "昆雅缺哪类问句的例证？",
+     "aZh": "是非问（yes/no）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     34
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ma-english",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "32 · 英语怎么造是非问",
+   "leadZh": "英语两条路：把动词前移（Is it so?），或加 do 并把原动词变不定式（Did he write the book?）。",
+   "objectives": [
+    "知道英语的两种手段",
+    "知道前移只适用于少数动词"
+   ],
+   "rules": [
+    {
+     "id": "r-ma5",
+     "headZh": "问题",
+     "bodyZh": "英语用各种办法从简单断言得到「某事是否真如此」的疑问。",
+     "en": "from a simple assertion to a question",
+     "zh": "从简单断言到疑问。"
+    },
+    {
+     "id": "r-ma6",
+     "headZh": "前移",
+     "bodyZh": "像「it is so」「he has come」这类断言，可把动词前移变成疑问。",
+     "en": "by fronting the verb",
+     "zh": "把动词前移。"
+    },
+    {
+     "id": "r-ma7",
+     "headZh": "局限",
+     "bodyZh": "但在当代英语里，这个办法只适用于少数动词。",
+     "en": "only works with a few verbs",
+     "zh": "只适用于少数动词。"
+    },
+    {
+     "id": "r-ma8",
+     "headZh": "do 支撑",
+     "bodyZh": "像「he wrote the book」这样的断言，要在句首加一个 do 的形式、把限定动词变成不定式。",
+     "en": "turn what used to be the finite verb into an infinitive",
+     "zh": "把限定动词变成不定式。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为英语只有一种疑问手段",
+     "right": "前移与 do 支撑并存",
+     "whyZh": "原文并列两种 procedure，并指出前者适用范围窄。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么讲英语",
+     "bodyZh": "作者用英语的复杂性作衬托：如果一门语言只需塞一个助词就能问「是否」，那比英语省力得多——这正是他接下来要推荐的方案。"
+    }
+   ],
+   "recapZh": "英语：动词前移 或 do ＋不定式。",
+   "selfCheckZh": [
+    {
+     "qZh": "「Did he write the book?」用了哪种手段？",
+     "aZh": "do 支撑。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     35
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ma-particle",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "33 · 助词方案：波兰语 czy、世界语 chu",
+   "leadZh": "最简单的办法是塞一个只表「这是疑问」的助词。波兰语 czy、世界语 chu 都是这样，且对语言创造者很有吸引力。",
+   "objectives": [
+    "知道助词方案",
+    "知道 czy／chu 的例子"
+   ],
+   "rules": [
+    {
+     "id": "r-ma9",
+     "headZh": "最简单",
+     "bodyZh": "显然，把断言变成疑问最简单的办法，是塞进某种助词，只表示「这不是在断言，而是在问」。",
+     "en": "the simplest way of turning an assertion",
+     "zh": "把断言变成疑问最简单的办法。"
+    },
+    {
+     "id": "r-ma10",
+     "headZh": "现实语言",
+     "bodyZh": "我们这个世界上的许多语言确实用这类助词（如波兰语 czy）。",
+     "en": "e.g. Polish czy",
+     "zh": "如波兰语 czy。",
+     "exampleZh": "czy"
+    },
+    {
+     "id": "r-ma11",
+     "headZh": "对创造者的吸引力",
+     "bodyZh": "这种构造是非问句的简单优雅办法，对语言创造者似乎也颇有吸引力。",
+     "en": "considerable appeal to language-constructors",
+     "zh": "对语言创造者颇有吸引力。"
+    },
+    {
+     "id": "r-ma12",
+     "headZh": "世界语",
+     "bodyZh": "世界语有疑问助词 chu（cxu），显然据波兰语词造；加在句首即成疑问：Chu li skribis la libron?",
+     "en": "Chu li skribis la libron?",
+     "zh": "他写那本书了吗？",
+     "exampleZh": "chu／cxu"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 czy 当昆雅词",
+     "right": "它只是波兰语的类比",
+     "whyZh": "原文以 e.g. 标明是举例，不是同源。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么这个方案「优雅」",
+     "bodyZh": "因为它不改动词、不改语序，只在句首加一个词。对一门人造语言来说，这是成本最低的疑问手段。"
+    }
+   ],
+   "recapZh": "助词方案：czy／chu；句首加一词。",
+   "selfCheckZh": [
+    {
+     "qZh": "世界语的疑问助词？",
+     "aZh": "chu（cxu）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     36
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ma-quenya",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "34 · 昆雅呢：tences i parma 怎么问",
+   "leadZh": "把陈述句 tences i parma「(s)he wrote the book」变成疑问，昆雅有没有可塞进去的助词？",
+   "objectives": [
+    "能写 tences i parma",
+    "知道这是本节的核心例句"
+   ],
+   "rules": [
+    {
+     "id": "r-ma13",
+     "headZh": "追问",
+     "bodyZh": "那么昆雅呢？仍以这个例子为凭：陈述句 tences i parma 怎么变成疑问？",
+     "en": "tences i parma",
+     "zh": "他写了那本书。",
+     "exampleZh": "tences i parma"
+    },
+    {
+     "id": "r-ma14",
+     "headZh": "问题",
+     "bodyZh": "昆雅有没有可塞进去的疑问助词？",
+     "en": "Does Quenya have an interrogative particle",
+     "zh": "昆雅有疑问助词吗？"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 tences 是复数",
+     "right": "它是 tence「wrote」＋ -s「he/she」",
+     "whyZh": "原文译作 (s)he wrote the book，-s 为第三人称单数词尾。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一个例句贯穿全节",
+     "bodyZh": "tences i parma 会在下面反复出现：先作陈述，再加 ma 变疑问。作者用同一句演示，便于读者只看变化的部分。"
+    }
+   ],
+   "recapZh": "tences i parma＝他写了那本书。",
+   "selfCheckZh": [
+    {
+     "qZh": "tences i parma 的意思？",
+     "aZh": "他／她写了那本书。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     37
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ma-element",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "35 · 线索：疑问元素 ma 与 maquet-",
+   "leadZh": "托尔金称 ma 或 man 为「Eldarin interrogative element」。man 是「who」，但最短的 ma 能否作助词？旁证：maquet-「ask」＝ma-say。",
+   "objectives": [
+    "知道 ma 被称为疑问元素",
+    "知道 maquet- 的构成"
+   ],
+   "rules": [
+    {
+     "id": "r-ma15",
+     "headZh": "托尔金的说法",
+     "bodyZh": "在 PM:357 里，托尔金把 ma 或 man 称作「Eldarin interrogative element」。",
+     "en": "Eldarin interrogative element",
+     "zh": "精灵语疑问元素。"
+    },
+    {
+     "id": "r-ma16",
+     "headZh": "问题",
+     "bodyZh": "man 是昆雅的「who」，但最短的「疑问元素」ma 能否作疑问助词？有些写作者作了这个假设。",
+     "en": "function as an interrogative particle",
+     "zh": "作疑问助词。"
+    },
+    {
+     "id": "r-ma17",
+     "headZh": "旁证",
+     "bodyZh": "昆雅表「ask」的一个动词是 maquet-（过去时 maquentë，PM:403）。",
+     "en": "maquet-",
+     "zh": "问。",
+     "exampleZh": "maquet-／maquentë"
+    },
+    {
+     "id": "r-ma18",
+     "headZh": "推论",
+     "bodyZh": "既然 maquet- 透明地意为「ma-say」，便可怀疑昆雅的疑问句常以某种方式涉及 ma。",
+     "en": "transparently means",
+     "zh": "透明地意为……"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 ma 与 man 当同一词",
+     "right": "man 是「who」；ma 是更短的元素",
+     "whyZh": "原文把二者并称 element，但又说 man is the Quenya word for who。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "构词法作证据",
+     "bodyZh": "maquet-＝ma＋quet-（说）。这类复合词的第一个成分往往保留古老的功能词，所以它是 ma 曾经活跃的间接证据。"
+    }
+   ],
+   "recapZh": "ma／man＝疑问元素；maquet-＝ma＋说。",
+   "selfCheckZh": [
+    {
+     "qZh": "maquet- 由什么构成？",
+     "aZh": "ma ＋ quet-（说）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     38
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ma-ms",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "36 · 手稿：确有把 ma 称作助词的记载",
+   "leadZh": "作者得知有一份手稿确实把 ma 称作疑问助词。若它相当于 czy／chu，则句首加 ma 即可成问——但无可证例句。",
+   "objectives": [
+    "知道这条手稿证据",
+    "知道例句都是自造"
+   ],
+   "rules": [
+    {
+     "id": "r-ma19",
+     "headZh": "证据",
+     "bodyZh": "作者得知有一份托尔金手稿确实把 ma 称作疑问助词。",
+     "en": "there is a Tolkien manuscript which does refer to ma as an interrogative particle",
+     "zh": "有一份手稿确实把 ma 称作疑问助词。"
+    },
+    {
+     "id": "r-ma20",
+     "headZh": "做法",
+     "bodyZh": "若托尔金指的是 czy／chu 那样的助词，则只要塞进一个 ma（最可能在句首）就能把陈述句变成是非问句。",
+     "en": "most likely at the beginning of the sentence",
+     "zh": "最可能在句首。"
+    },
+    {
+     "id": "r-ma21",
+     "headZh": "保留",
+     "bodyZh": "但这类例句无可证者（no attested examples）。",
+     "en": "no attested examples",
+     "zh": "无可证例句。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把下面的例句当托尔金原文",
+     "right": "它们全是作者按方案自造",
+     "whyZh": "原文在此就标明 no attested examples。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "证据的层级",
+     "bodyZh": "「手稿提到 ma 是助词」是一级证据，「ma 能这样造句」是二级推论。作者分开说，读者才不会被例句的整齐误导。"
+    }
+   ],
+   "recapZh": "手稿提及 ma 为助词；例句自造。",
+   "selfCheckZh": [
+    {
+     "qZh": "这些 ma 疑问句有托尔金原文吗？",
+     "aZh": "没有。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     39
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ma-examples",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "37 · 四个示范：加 ma 即成问",
+   "leadZh": "四对句子演示同一操作：句首加 Ma。注意 ëa 句里 ma 后的 ëa 不变形。",
+   "objectives": [
+    "能仿造是非问",
+    "知道 ma 加在句首"
+   ],
+   "rules": [
+    {
+     "id": "r-ma22",
+     "headZh": "例一",
+     "bodyZh": "Tences i parma → Ma tences i parma?「Did (s)he write the book?」",
+     "en": "Ma tences i parma?",
+     "zh": "他写那本书了吗？",
+     "exampleZh": "Ma tences i parma?"
+    },
+    {
+     "id": "r-ma23",
+     "headZh": "例二",
+     "bodyZh": "Nís enta ná Elda → Ma nís enta ná Elda?「Is that woman an Elf?」",
+     "en": "Ma nís enta ná Elda?",
+     "zh": "那个女人是精灵吗？",
+     "exampleZh": "Ma nís enta ná Elda?"
+    },
+    {
+     "id": "r-ma24",
+     "headZh": "例三",
+     "bodyZh": "Eä malta i orontessë → Ma ëa malta i orontessë?「Is〔there〕gold in the mountain?」",
+     "en": "Ma ëa malta i orontessë?",
+     "zh": "山里有金子吗？",
+     "exampleZh": "Ma ëa malta i orontessë?"
+    },
+    {
+     "id": "r-ma25",
+     "headZh": "例四",
+     "bodyZh": "I nér caruva coa → Ma i nér caruva coa?「Is the man going to build a house?」",
+     "en": "Ma i nér caruva coa?",
+     "zh": "那人要建房子吗？",
+     "exampleZh": "Ma i nér caruva coa?"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 ma 放在动词后",
+     "right": "放句首",
+     "whyZh": "原文说 most likely at the beginning of the sentence，四例皆如此。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "四个例子各测一件事",
+     "bodyZh": "例一测过去时、例二测系词句、例三测 ëa 存在句、例四测将来时。四句覆盖了本课全部动词形态，说明 ma 的插入不挑句型。"
+    }
+   ],
+   "recapZh": "Ma ＋陈述句＝是非问。",
+   "selfCheckZh": [
+    {
+     "qZh": "「山里有金子吗？」？",
+     "aZh": "Ma ëa malta i orontessë?"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     40,
+     41,
+     42,
+     43
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ma-dep",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "38 · 间接疑问：ma＝whether",
+   "leadZh": "ma 或许也用于间接疑问，相当于 whether：Umin ista ma utúlies「I don't know whether (s)he has come」。但这仍是推测。",
+   "objectives": [
+    "知道 ma 可表 whether",
+    "知道这条最弱"
+   ],
+   "rules": [
+    {
+     "id": "r-ma26",
+     "headZh": "可能",
+     "bodyZh": "可以设想 ma 也用于所谓间接疑问，相当于英语的 whether。",
+     "en": "with the force of English",
+     "zh": "相当于英语的……"
+    },
+    {
+     "id": "r-ma27",
+     "headZh": "例句",
+     "bodyZh": "Umin ista ma utúlies「I don't know whether (s)he has come」。",
+     "en": "Umin ista ma utúlies",
+     "zh": "我不知道他是否来了。",
+     "exampleZh": "Umin ista ma utúlies"
+    },
+    {
+     "id": "r-ma28",
+     "headZh": "保留",
+     "bodyZh": "但这只是推测，且必须强调：我们尚未在托尔金写的任何真实昆雅句子里见到疑问助词 ma。",
+     "en": "we have yet to see the interrogative particle ma in any actual Quenya sentence",
+     "zh": "尚未在托尔金写的真实句子里见到 ma。"
+    },
+    {
+     "id": "r-ma29",
+     "headZh": "年代",
+     "bodyZh": "把 ma 称作疑问助词的那份手稿显然相当早，故这个助词很可能属于某个「Qenya」变体。",
+     "en": "may well belong to some variant of",
+     "zh": "很可能属于某个变体。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "用 ma 造间接疑问并当作标准",
+     "right": "这只是推测用法",
+     "whyZh": "原文用 This is speculation, however，并强调无真实例句。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "Umin ista 的结构",
+     "bodyZh": "Umin＝否定动词 um- ＋ -n「我」；ista 为不定式「知道」。所以整句是「我不是知道〔是否……〕」，与第 18 课的 um- 用法一致。"
+    }
+   ],
+   "recapZh": "ma＝whether（推测）；Umin ista ma utúlies。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我不知道他是否来了」？",
+     "aZh": "Umin ista ma utúlies。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     44
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ma-indef",
+   "sourceSectionId": "the-verb-quot-to-be-quot",
+   "titleZh": "39 · 另一个 ma：不定代词「某物」",
+   "leadZh": "《魔戒》之后的材料里有个意义完全不同的 ma，作不定代词「something, a thing」（VT42:34）。两个 ma 能否共存，是品味问题。",
+   "objectives": [
+    "知道 ma 的双重身份",
+    "知道作者的最终建议"
+   ],
+   "rules": [
+    {
+     "id": "r-ma30",
+     "headZh": "假设",
+     "bodyZh": "即便假定作者构造例句时所预设的系统确实对应托尔金某一阶段的想法，他后来也很可能定了别的方案。",
+     "en": "he may very well have decided upon something else later",
+     "zh": "他后来也很可能定了别的方案。"
+    },
+    {
+     "id": "r-ma31",
+     "headZh": "另一个 ma",
+     "bodyZh": "《魔戒》之后的某些昆雅材料片段里含一个意义完全不同的 ma：作不定代词「something, a thing」（VT42:34）。",
+     "en": "an indefinite pronoun",
+     "zh": "不定代词。"
+    },
+    {
+     "id": "r-ma32",
+     "headZh": "无从判断",
+     "bodyZh": "这是否意味着疑问助词 ma 已被放弃，无从判断（PM:357 至少证实 ma 作为疑问「元素」活到了《魔戒》之后）。",
+     "en": "is impossible to say",
+     "zh": "无从判断。"
+    },
+    {
+     "id": "r-ma33",
+     "headZh": "品味问题",
+     "bodyZh": "两个 ma 能否共存于同一版昆雅，是品味问题，除非将来发现托尔金真处理过这个问题。",
+     "en": "a matter of taste",
+     "zh": "是品味问题。"
+    },
+    {
+     "id": "r-ma34",
+     "headZh": "结论",
+     "bodyZh": "目前，上面勾画的系统大概是我们在昆雅里构造是非问句所能做到的最好方案。",
+     "en": "probably the best we can do",
+     "zh": "大概是我们所能做到的最好方案。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "在同一段文字里既用 ma 作助词又作「某物」",
+     "right": "择一，避免混淆",
+     "whyZh": "原文说两个 ma 能否共存 is a matter of taste，暗示会有歧义。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "本课的收尾语气",
+     "bodyZh": "「大概是我们所能做到的最好方案」——不是「这就是规则」。全课以这种诚实的限度感收束，与开篇的 twilight zone 呼应。"
+    }
+   ],
+   "recapZh": "ma 亦作不定代词「某物」；是非问方案为最佳推测。",
+   "selfCheckZh": [
+    {
+     "qZh": "晚期材料里 ma 还能是什么意思？",
+     "aZh": "不定代词「某物」。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-verb-quot-to-be-quot",
+    "unitIds": [
+     45
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "sa-intro",
+   "sourceSectionId": "sa-introducing-nominal-clauses",
+   "titleZh": "40 · 第三种 that",
+   "leadZh": "我们已见过 ta（代词）与 enta、tana（指示词）。但还有第三种「that」——引出名词性从句的助词。",
+   "objectives": [
+    "知道三种 that",
+    "知道本节讲第三种"
+   ],
+   "rules": [
+    {
+     "id": "r-sa1",
+     "headZh": "已有的 that",
+     "bodyZh": "我们已介绍过几个可译作「that」的词：代词 ta，以及指示词 enta 与 tana（tanya）。",
+     "en": "the pronoun ta",
+     "zh": "代词 ta。",
+     "exampleZh": "ta／enta／tana"
+    },
+    {
+     "id": "r-sa2",
+     "headZh": "另一种",
+     "bodyZh": "但还有另一种「that」——在任何篇幅较长的文本里都很常见。",
+     "en": "another kind of",
+     "zh": "另一种……"
+    },
+    {
+     "id": "r-sa3",
+     "headZh": "定义",
+     "bodyZh": "我们说的是作助词、引出所谓名词性从句的「that」。",
+     "en": "introducing so-called nominal clauses",
+     "zh": "引出所谓名词性从句。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 sa 与 ta 混用",
+     "right": "ta 是代词，sa 是连词性助词",
+     "whyZh": "原文把二者分列，sa 的功能是 turning a sentence into a nominal clause。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "三种 that 的分工",
+     "bodyZh": "ta＝「它／那」（代词）；enta／tana＝「那个」（指示词，作定语）；sa＝「……这件事」（引出从句）。前两种指物，第三种指「一整句话」。"
+    }
+   ],
+   "recapZh": "ta／enta／tana／sa 四种「that」。",
+   "selfCheckZh": [
+    {
+     "qZh": "引出名词性从句的 that 是哪个词？",
+     "aZh": "sa。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "sa-introducing-nominal-clauses",
+    "unitIds": [
+     0,
+     1
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "sa-clause",
+   "sourceSectionId": "sa-introducing-nominal-clauses",
+   "titleZh": "41 · 名词性从句是什么",
+   "leadZh": "名词在句中可作主语或宾语。有时要把整个句子当名词用，英语就在前面加 that：「That you are here」可作宾语或主语。",
+   "objectives": [
+    "理解名词性从句",
+    "能分析 I know that you are here"
+   ],
+   "rules": [
+    {
+     "id": "r-sa4",
+     "headZh": "名词的功能",
+     "bodyZh": "名词在句中可承担多种功能，常作动词的主语或宾语。",
+     "en": "nouns can take on various functions in a sentence",
+     "zh": "名词在句中可承担多种功能。"
+    },
+    {
+     "id": "r-sa5",
+     "headZh": "例子",
+     "bodyZh": "名词 Elda 在 istan Elda「I know an Elf」里作动词 ista- 的宾语。",
+     "en": "istan Elda",
+     "zh": "我认识一个精灵。",
+     "exampleZh": "istan Elda"
+    },
+    {
+     "id": "r-sa6",
+     "headZh": "把句子当名词",
+     "bodyZh": "有时把整个句子当作名词来处理是有用的，这样它就能承担类似名词的功能。",
+     "en": "treat an entire sentence as a noun",
+     "zh": "把整个句子当作名词。"
+    },
+    {
+     "id": "r-sa7",
+     "headZh": "英语手段",
+     "bodyZh": "英语可在「you are here」前放一个 that 来标示其名词性地位：「That you are here」。",
+     "en": "That you are here",
+     "zh": "你在这里（这件事）",
+     "exampleZh": "That you are here"
+    },
+    {
+     "id": "r-sa8",
+     "headZh": "作宾语",
+     "bodyZh": "整个短语可作动词的宾语：「I know that you are here」。",
+     "en": "I know that you are here",
+     "zh": "我知道你在这里。"
+    },
+    {
+     "id": "r-sa9",
+     "headZh": "作主语",
+     "bodyZh": "它也可作主语，如「that you are here is good」；但英语常宁可用虚主语 it，把真主语放句末。",
+     "en": "is good",
+     "zh": "是好的。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 that 从句总是宾语",
+     "right": "也可作主语",
+     "whyZh": "原文并列 object 与 subject 两种用法。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "虚主语 it",
+     "bodyZh": "英语说「It is good that you are here」，it 只是占位。作者特意指出这一点，因为昆雅不需要这种占位词（见下文）。"
+    }
+   ],
+   "recapZh": "sa 从句＝把整句当名词，可作主语或宾语。",
+   "selfCheckZh": [
+    {
+     "qZh": "「I know that you are here」里从句作什么？",
+     "aZh": "宾语。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "sa-introducing-nominal-clauses",
+    "unitIds": [
+     2
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "sa-q",
+   "sourceSectionId": "sa-introducing-nominal-clauses",
+   "titleZh": "42 · 昆雅的对应词是哪个",
+   "leadZh": "问题提出：作助词、构成名词性从句的「that」，昆雅用什么词？答案在下一段——sa。",
+   "objectives": [
+    "知道本节要解决的问题",
+    "准备读 Merin 句"
+   ],
+   "rules": [
+    {
+     "id": "r-sa10",
+     "headZh": "问题",
+     "bodyZh": "那么，作助词、构成这类名词性从句的「that」，昆雅的对等词是什么？",
+     "en": "What, then, is the Quenya equivalent",
+     "zh": "昆雅的对等词是什么？"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 ta 就是答案",
+     "right": "ta 是代词，不能引出从句",
+     "whyZh": "上文已把 ta 归为代词一类，本节另找助词。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "设问的作用",
+     "bodyZh": "这一句只是过渡，但它把「代词 that」与「助词 that」彻底分开，为 sa 的出现腾出位置。"
+    }
+   ],
+   "recapZh": "问题：从句助词 that 用哪个词？",
+   "selfCheckZh": [
+    {
+     "qZh": "本节要填的是哪个词？",
+     "aZh": "sa。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "sa-introducing-nominal-clauses",
+    "unitIds": [
+     3
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "sa-merin",
+   "sourceSectionId": "sa-introducing-nominal-clauses",
+   "titleZh": "43 · 唯一证据：Merin 句",
+   "leadZh": "唯一证据来自 Dawson 的转引：merin sa haryalyë alassë「I wish that you have happiness」。sa 把整句变成名词性从句，作 merin 的宾语。",
+   "objectives": [
+    "能引 Merin 句",
+    "知道 sa 在句中的作用"
+   ],
+   "rules": [
+    {
+     "id": "r-sa11",
+     "headZh": "来源晦暗",
+     "bodyZh": "这个重要助词唯一的证据来自一个相当晦暗的来源。",
+     "en": "a rather obscure source",
+     "zh": "相当晦暗的来源。"
+    },
+    {
+     "id": "r-sa12",
+     "headZh": "转引",
+     "bodyZh": "几年前，一个自称 Michael Dawson 的人在托尔金网络邮件列表上发帖，声称是从一封旧书信转引两手。",
+     "en": "quoting at two removes",
+     "zh": "转引两手。"
+    },
+    {
+     "id": "r-sa13",
+     "headZh": "句子",
+     "bodyZh": "那是一句昆雅问候语，含 merin sa haryalyë alassë，据说字面意为「I wish that you have happiness」。",
+     "en": "merin sa haryalyë alassë",
+     "zh": "我愿你幸福。",
+     "exampleZh": "merin sa haryalyë alassë"
+    },
+    {
+     "id": "r-sa14",
+     "headZh": "meriu／merin",
+     "bodyZh": "开头的 merin 在帖中实作 meriu；托尔金手迹里 n 与 u 常极难分辨，而 meriu 毫无意义，译文解决了问题。",
+     "en": "lower-case n and u are often very difficult to distinguish",
+     "zh": "小写 n 与 u 常极难分辨。"
+    },
+    {
+     "id": "r-sa15",
+     "headZh": "sa 的作用",
+     "bodyZh": "sa 作助词，把 haryalyë alassë 变成名词性从句，以便作 merin 的宾语。",
+     "en": "turning the sentence",
+     "zh": "把句子变成……"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 meriu 当正确形式",
+     "right": "应是 merin",
+     "whyZh": "原文说 Meriu would be a quite meaningless form。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么这句话重要",
+     "bodyZh": "它是 sa 唯一的用例，而昆雅极缺连词。整节的语法都建在这一句上，所以作者紧接着就要审查它的可信度。"
+    }
+   ],
+   "recapZh": "merin sa haryalyë alassë；sa 引出从句。",
+   "selfCheckZh": [
+    {
+     "qZh": "Merin 句里的 sa 起什么作用？",
+     "aZh": "把整句变成名词性从句，作 merin 的宾语。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "sa-introducing-nominal-clauses",
+    "unitIds": [
+     4
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "sa-doubt",
+   "sourceSectionId": "sa-introducing-nominal-clauses",
+   "titleZh": "44 · 可疑之处：4 月 1 日的帖子",
+   "leadZh": "并非人人相信这句子为真：联系人无果，帖子发于 4 月 1 日。但 Hostetter 认其为真。sa 本身可信，年代大概很早。",
+   "objectives": [
+    "知道证据的可疑点",
+    "知道 sa 可能属早期"
+   ],
+   "rules": [
+    {
+     "id": "r-sa16",
+     "headZh": "疑点一",
+     "bodyZh": "并非人人相信常被称作「Merin 句」的这个句子真是托尔金所作。",
+     "en": "not everyone is convinced",
+     "zh": "并非人人相信。"
+    },
+    {
+     "id": "r-sa17",
+     "headZh": "疑点二",
+     "bodyZh": "多次尝试联系这位 Dawson 至今无果，而帖子发于 4 月 1 日，这多少令人不安。",
+     "en": "his posting was made on April 1",
+     "zh": "帖子发于 4 月 1 日。"
+    },
+    {
+     "id": "r-sa18",
+     "headZh": "支持",
+     "bodyZh": "但 Hostetter（几乎看过全部语言学手稿）在 VT41:18 评论过这个句子，显然认其为真，尽管他后来说明它不见于他所知的任何手稿。",
+     "en": "recognized it as genuine",
+     "zh": "认其为真。"
+    },
+    {
+     "id": "r-sa19",
+     "headZh": "sa 本身",
+     "bodyZh": "sa 这个词本身并非不可信：它基本可意为「it」（与词尾 -s 有关）。",
+     "en": "it could mean basically",
+     "zh": "它基本可意为……"
+    },
+    {
+     "id": "r-sa20",
+     "headZh": "语义",
+     "bodyZh": "故 merin sa haryalyë alassë 原本或基本上表示「I wish it〔, namely that〕you have happiness」。",
+     "en": "I wish it",
+     "zh": "我希望它〔即〕……"
+    },
+    {
+     "id": "r-sa21",
+     "headZh": "年代",
+     "bodyZh": "但即便 sa 真是托尔金所作，也无从说它属于哪个阶段；作者猜它相当早，因为词汇与《词源》吻合（注意 harya- 仅见于《词源》）。",
+     "en": "probably quite early",
+     "zh": "大概相当早。"
+    },
+    {
+     "id": "r-sa22",
+     "headZh": "可能被放弃",
+     "bodyZh": "故 sa 很可能在托尔金出版《魔戒》时已被放弃；但写作者几乎离不开这个词，目前 sa 是唯一选择。",
+     "en": "sa is our sole alternative",
+     "zh": "sa 是我们唯一的选择。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 sa 当《魔戒》风格的确定词",
+     "right": "它可能属早期，晚期无证",
+     "whyZh": "原文说 may well have been abandoned by the time Tolkien published LotR。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "作者如何处理可疑证据",
+     "bodyZh": "三步：列出疑点、给出支持、再判定年代。结论不是「信」或「不信」，而是「用它，但知道它的分量」。这是全书方法论的缩影。"
+    }
+   ],
+   "recapZh": "Merin 句可疑但被接受；sa 或属早期。",
+   "selfCheckZh": [
+    {
+     "qZh": "sa 与哪个词尾有关？",
+     "aZh": "-s（「它」）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "sa-introducing-nominal-clauses",
+    "unitIds": [
+     5
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "sa-examples",
+   "sourceSectionId": "sa-introducing-nominal-clauses",
+   "titleZh": "45 · 造句：istan sa ëalyë sinomë",
+   "leadZh": "「I know that you are here」可作 istan sa ëalyë sinomë；「That you are here is good」作 sa ëalyë sinomë ná mára；昆雅不需要虚主语。",
+   "objectives": [
+    "能造 sa 从句",
+    "知道昆雅不用虚主语 it"
+   ],
+   "rules": [
+    {
+     "id": "r-sa23",
+     "headZh": "例一",
+     "bodyZh": "「I know that you are here」或可作 istan sa ëalyë sinomë。",
+     "en": "istan sa ëalyë sinomë",
+     "zh": "我知道你在这里。",
+     "exampleZh": "istan sa ëalyë sinomë"
+    },
+    {
+     "id": "r-sa24",
+     "headZh": "为什么用 ëa",
+     "bodyZh": "这里用 ëa 而非 ná，因为上文推论：讨论某位置时用 ëa。",
+     "en": "ëa rather than ná is the word used",
+     "zh": "用 ëa 而非 ná。"
+    },
+    {
+     "id": "r-sa25",
+     "headZh": "例二",
+     "bodyZh": "「That you are here is good」想必同样可作 sa ëalyë sinomë ná mára。",
+     "en": "sa ëalyë sinomë ná mára",
+     "zh": "你在这里是好事。",
+     "exampleZh": "sa ëalyë sinomë ná mára"
+    },
+    {
+     "id": "r-sa26",
+     "headZh": "例三",
+     "bodyZh": "「It is good that you are here」或对应 ná mára sa ëalyë sinomë（若 ná 可以前移）。",
+     "en": "ná mára sa ëalyë sinomë",
+     "zh": "你在这里是好事（虚主语式）。",
+     "exampleZh": "ná mára sa ëalyë sinomë"
+    },
+    {
+     "id": "r-sa27",
+     "headZh": "无虚主语",
+     "bodyZh": "昆雅几乎不需要英语句里 it 那样的虚主语，故作者不期待见到 nas、nás 之类。",
+     "en": "would hardly need a dummy-subject",
+     "zh": "几乎不需要虚主语。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 ✗ sa ëalyë sinomë ná mára 时用 ná 说位置",
+     "right": "从句内用 ëa，主句判断用 ná",
+     "whyZh": "位置用 ëa（ëalyë sinomë），判断「是好事」用 ná mára，二者分工不同。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "两个动词各就各位",
+     "bodyZh": "这句同时用上本课两条主线：从句里的 ëa（存在／位置）与主句的 ná（系词）。看懂这一点，就掌握了全课的骨架。"
+    }
+   ],
+   "recapZh": "istan sa ëalyë sinomë；sa … ná mára。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我知道你在这里」？",
+     "aZh": "Istan sa ëalyë sinomë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "sa-introducing-nominal-clauses",
+    "unitIds": [
+     6
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "sa-intent",
+   "sourceSectionId": "sa-introducing-nominal-clauses",
+   "titleZh": "46 · 表意图的 that 从句",
+   "leadZh": "古一点的英语里，that 从句可表意图，如托尔金例「he withheld them … that the Quendi should not be afraid」。昆雅 sa 能否这样用，未知。",
+   "objectives": [
+    "知道 that 可表意图",
+    "知道这是昆雅的空白"
+   ],
+   "rules": [
+    {
+     "id": "r-sa28",
+     "headZh": "英语用法",
+     "bodyZh": "在（略古的）英语里，that 从句可表意图。",
+     "en": "may describe an intention",
+     "zh": "可表意图。"
+    },
+    {
+     "id": "r-sa29",
+     "headZh": "托尔金例",
+     "bodyZh": "例：「The titles that〔the Vala Oromë〕bore were many and glorious; but he withheld them at that time, that the Quendi should not be afraid」（WJ:401）。",
+     "en": "that the Quendi should not be afraid",
+     "zh": "为使昆迪不致害怕。"
+    },
+    {
+     "id": "r-sa30",
+     "headZh": "现代习语",
+     "bodyZh": "现代习语会在 that 前加个 so，意思不变。",
+     "en": "modern idiom would slip in a",
+     "zh": "现代习语会加一个……"
+    },
+    {
+     "id": "r-sa31",
+     "headZh": "未知",
+     "bodyZh": "昆雅的 sa 从句能否这样用，值得知道；若不能，我们就真不知道这个意思在昆雅里怎么表达。",
+     "en": "we do not really know how to express this meaning",
+     "zh": "我们真不知道这个意思怎么表达。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "用 sa 表「为了」并当作定论",
+     "right": "这只是未决问题",
+     "whyZh": "原文用 It would be interesting to know whether，并承认若不成立则无从表达。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么用古英语例",
+     "bodyZh": "因为现代英语已改用 so that。托尔金的文风偏古，作者用这个例子说明「that 表意图」在托尔金笔下仍然活着——但这不能证明昆雅也如此。"
+    }
+   ],
+   "recapZh": "sa 表意图＝未决。",
+   "selfCheckZh": [
+    {
+     "qZh": "sa 能表「为了」吗？",
+     "aZh": "未知。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "sa-introducing-nominal-clauses",
+    "unitIds": [
+     7
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "summary",
+   "sourceSectionId": "sa-introducing-nominal-clauses",
+   "kind": "summary",
+   "titleZh": "47 · 本课小结",
+   "leadZh": "四块收成一张清单：to be 的 N 系形式、ëa、疑问助词 ma、从句助词 sa。英文小结逐字取自原文。",
+   "objectives": [
+    "能写 ná／nar／nauva／né／ner",
+    "能给系词加代词词尾（nalyë、nenyë）",
+    "能区分 ná（系词）与 ëa（存在）",
+    "能用 ma 造是非问",
+    "能用 sa 造名词性从句"
+   ],
+   "summaryEn": "Summary of Lesson Twenty: The verb \"to be\" is poorly attested in Quenya. Ná means \"is\"; it has been hinted that né is the word for \"was\"; nauva is attested as the future tense \"will be\". The attested example nalyë \"thou art\" seems to indicate that the normal pronominal endings can be added to forms of the verb \"to be\"; ná assumes the shorter form na- before endings (cf. also nar \"are\"). If né is indeed the word for \"was\", analogy would suggest that it appears as ne- when endings are to be added. Instead of using forms of \"to be\" with a pronominal ending attached, it is also permissible to use an independent pronoun and leave out the copula altogether (cf. a wording like aistana elyë \"blessed [art] thou\" in Tolkien's Hail Mary translation). Another verb also translated \"is\" is ëa (past tense engë), which more properly means \"exists\": it would be used for \"is\" in contexts discussing the presence, existence or position of something (in the latter case ëa may connect with a prepositional phrase, as in the attested example i or ilyë mahalmar ëa \"[God,] who is above all thrones\"). – According to certain pieces of evidence, Quenya (or at least some variant of \"Qenya\") had an interrogative particle ma. Presumably it can be added (at the beginning?) of declarative statements to turn them into yes/no questions. – According to one (possibly dubious) source, the form sa can be used for \"that\" as a particle introducing nominal clauses (as in \"I know that you are here\", \"he said that this is true\", etc.)",
+   "summaryZh": "第二十课小结：「to be」动词在昆雅里证据稀少。ná 意为「is」；有迹象表明 né 是「was」；nauva 可证为将来时「will be」。可证的例子 nalyë「thou art」似乎表明常规代词词尾可加在「to be」的诸形式上；ná 在词尾前取较短形式 na-（参 nar「are」）。若 né 确为「was」，类推便提示它加词尾时作 ne-。除用带词尾的「to be」形式外，也允许用独立代词而完全省略系词（参托尔金《圣母经》译本里 aistana elyë「blessed〔art〕thou」）。另一个也译作「is」的动词是 ëa（过去时 engë），它更确切地意为「exists」：在讨论某物的在场、存在或位置时用它表「is」（后者中 ëa 可与介词短语相连，如可证例 i or ilyë mahalmar ëa）。——据某些证据，昆雅（或至少某个「Qenya」变体）有疑问助词 ma，想必可以加在陈述句（的开头？）以变成是非问句。——据一个（可能可疑的）来源，sa 可作引出名词性从句的「that」助词。",
+   "formulaZh": [
+    "现在时：ná「is」／nar「are」；加词尾用 na-：nan／nanyë、nat、nal／nalyë、nas、nalmë／nalvë／nammë、nantë。",
+    "将来时：nauva；nauvan／nauvanyë、nauvalmë（不加改动）。",
+    "过去时：né「was」／ner「were」（外推）；加词尾作 ne-：nenyë、nelyë、nes、nentë。",
+    "无系词：aistana elyë、inyë Elda、elyë vanya、Ni Elda。",
+    "ëa「exists」：现在时 ëa、过去时 engë、将来时 euva；ëan、ëalmë、enges。",
+    "ná vs ëa：ná 是系词（接名词／形容词／短语）；ëa 表存在、在场、位置（Eru ëa、Eä malta i orontissen）。",
+    "是非问：句首加 ma（Ma tences i parma?）；间接疑问 ma＝whether（推测）。",
+    "名词性从句：sa（istan sa ëalyë sinomë；sa … ná mára）。"
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 ?nánë 表「was」",
+     "right": "né／ner",
+     "whyZh": "?nánë seems most improbable。"
+    },
+    {
+     "wrong": "用 ná 说位置或存在",
+     "right": "用 ëa",
+     "whyZh": "ëa, rather than ná, is the verb to use when describing the position。"
+    },
+    {
+     "wrong": "以为 ma 疑问句有托尔金原文",
+     "right": "全部自造",
+     "whyZh": "原文标明 no attested examples。"
+    }
+   ],
+   "recapZh": "ná／nar／nauva／né；nalyë；ëa／engë；ma；sa。",
+   "selfCheckZh": [
+    {
+     "qZh": "「你是」？",
+     "aZh": "Nalyë。"
+    },
+    {
+     "qZh": "「神存在」？",
+     "aZh": "Eru ëa。"
+    },
+    {
+     "qZh": "「他写那本书了吗？」？",
+     "aZh": "Ma tences i parma?"
+    },
+    {
+     "qZh": "「我知道你在这里」？",
+     "aZh": "Istan sa ëalyë sinomë。"
+    }
+   ]
+  },
+  {
+   "sectionId": "exercises",
+   "sourceSectionId": "exercises",
+   "titleZh": "48 · 练习 A–P",
+   "leadZh": "A–H 译成英语，I–P 译成昆雅。答案逐字取自 keys.rtf，可用工作台核对。",
+   "objectives": [
+    "能独立完成 A–P",
+    "能用 keys 逐题核对",
+    "能判断何时用 ná、何时用 ëa"
+   ],
+   "rules": [
+    {
+     "id": "r-ex20-1",
+     "headZh": "题面约定",
+     "bodyZh": "「译成昆雅」部分为方便起见，用 L 形式而非 T 形式译「you」。",
+     "en": "using L-forms rather than T-forms",
+     "zh": "用 L 形式而非 T 形式。"
+    },
+    {
+     "id": "r-ex20-2",
+     "headZh": "两种 is",
+     "bodyZh": "练习同时考 ná（系词）与 ëa（存在／位置）：D、F、H 用 ëa，A、C、P 用 ná 或省略系词。",
+     "en": "Ma sintelyë sa nu i coa ëa nurtaina harma?",
+     "zh": "你知道房子下面藏着宝物吗？"
+    },
+    {
+     "id": "r-ex20-3",
+     "headZh": "是非问",
+     "bodyZh": "D、E、G、M 都是是非问，句首加 Ma。",
+     "en": "Ma lertan lelya nómë sinallo?",
+     "zh": "我可以离开此地吗？"
+    },
+    {
+     "id": "r-ex20-4",
+     "headZh": "sa 从句",
+     "bodyZh": "B、D、H、L、N、O 都含 sa 从句；注意从句内的时态与人称词尾。",
+     "en": "sa",
+     "zh": "（引出名词性从句）",
+     "exampleZh": "sa"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "在 D 里用 ná 说「房子下面有宝物」",
+     "right": "用 ëa：nu i coa ëa nurtaina harma",
+     "whyZh": "存在句用 ëa，ná 只作系词。"
+    },
+    {
+     "wrong": "在 M 里把「直到第九年」写成 i nertëa loa 之外的格",
+     "right": "tenna i nertëa loa",
+     "whyZh": "tenna 是介词「until」，后面接宾格形式。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "做题顺序建议",
+     "bodyZh": "先判断句子是「X 是 Y」（ná／省略）还是「有／在」（ëa），再判断是否是非问（加 ma），最后看有没有从句（加 sa）。三步定完，剩下的只是词形。"
+    }
+   ],
+   "recapZh": "ná vs ëa；是非问加 ma；从句加 sa。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我可以离开此地吗？」？",
+     "aZh": "Ma lertan lelya nómë sinallo?"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "exercises",
+    "unitIds": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "vocabulary",
+   "sourceSectionId": "vocabulary",
+   "titleZh": "49 · 课末词汇",
+   "leadZh": "本课 13 段词汇：两个序数（nertëa、quainëa）、ma 与 sa、nómë 与 sinomë、tenna、ëa、mal、né、ista-、lerta-，以及两条长注。",
+   "objectives": [
+    "能读 nertëa、quainëa",
+    "能读 ëa、né、ista-、lerta-",
+    "能区分三个「can」"
+   ],
+   "rules": [
+    {
+     "id": "r-v20-1",
+     "headZh": "两个序数",
+     "bodyZh": "nertëa「ninth」、quainëa「tenth」；后者据 VT42 的数词文本，与《词源》的 cainen 属不同词源。",
+     "en": "nertëa",
+     "zh": "第九。",
+     "exampleZh": "nertëa／quainëa"
+    },
+    {
+     "id": "r-v20-2",
+     "headZh": "ma 与 sa",
+     "bodyZh": "ma 是可能的疑问助词；sa 引出名词性从句（据一个价值颇可疑的来源）。",
+     "en": "ma",
+     "zh": "（疑问助词）",
+     "exampleZh": "ma／sa"
+    },
+    {
+     "id": "r-v20-3",
+     "headZh": "地点词",
+     "bodyZh": "nómë「place」、sinomë「here」（＝si- ＋ -nomë）；tenna 介词「until, as far as」。",
+     "en": "nómë",
+     "zh": "地方。",
+     "exampleZh": "nómë／sinomë／tenna"
+    },
+    {
+     "id": "r-v20-4",
+     "headZh": "ëa",
+     "bodyZh": "ëa「is」＝「exists」，过去时 engë，将来时或作 euva。",
+     "en": "ëa",
+     "zh": "存在。",
+     "exampleZh": "ëa／engë／euva"
+    },
+    {
+     "id": "r-v20-5",
+     "headZh": "mal 与 né",
+     "bodyZh": "mal 连词「but」；né 有迹象表明是 ná 的过去时，即「was」。",
+     "en": "mal",
+     "zh": "但是。",
+     "exampleZh": "mal／né"
+    },
+    {
+     "id": "r-v20-6",
+     "headZh": "ista-",
+     "bodyZh": "ista-「to know」，过去时不规则作 sintë（而非 **istanë）；完成时或作 isintië。",
+     "en": "sintë",
+     "zh": "知道（过去时）。",
+     "exampleZh": "ista-／sintë"
+    },
+    {
+     "id": "r-v20-7",
+     "headZh": "lerta-",
+     "bodyZh": "lerta-「can」，意为「被允许」；英语在此义上常用 may。",
+     "en": "lerta-",
+     "zh": "可以（被允许）。",
+     "exampleZh": "lerta-"
+    },
+    {
+     "id": "r-v20-8",
+     "headZh": "三个 can",
+     "bodyZh": "pol- 指身体能力、lerta- 指被允许、ista- 指「会」（知识）；故 istas tecë＝他会写（识字母），polis tecë＝他身体能写，lertas tecë＝他被允许写。",
+     "en": "at least three Quenya verbs",
+     "zh": "至少三个昆雅动词。",
+     "exampleZh": "pol-／lerta-／ista-"
+    },
+    {
+     "id": "r-v20-9",
+     "headZh": "but 的诸多说法",
+     "bodyZh": "《词源》NDAN 条有 ná／nán，《Fíriel 之歌》用 nan；《主祷文》诸稿有 anat、onë、ono，晚期又有 nó。作者选歧义最少的 mal。",
+     "en": "mal strikes me as the least ambiguous",
+     "zh": "mal 在我看来歧义最少。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 ista- 的过去时写成 **istanë",
+     "right": "sintë",
+     "whyZh": "词汇节明确标注 irregular past tense sintë instead of **istanë。"
+    },
+    {
+     "wrong": "用 nan 表「but」",
+     "right": "用 mal",
+     "whyZh": "nan 与「I am」可能混淆，作者选 mal 因其歧义最少。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "三个 can 怎么记",
+     "bodyZh": "用身体／许可／知识三分：pol-（力气）、lerta-（允许）、ista-（会）。同一个英语词在昆雅里必须按语境选对，这是本课最实用的一条。"
+    }
+   ],
+   "recapZh": "nertëa、quainëa、ma、sa、nómë、sinomë、tenna、ëa、mal、né、ista-、lerta-。",
+   "selfCheckZh": [
+    {
+     "qZh": "「他会写（识字母）」？",
+     "aZh": "Istas tecë。"
+    },
+    {
+     "qZh": "「我可以去（被允许）」？",
+     "aZh": "Lertan lelya。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "vocabulary",
+    "unitIds": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12
+    ],
+    "labelZh": "课文"
+   }
+  }
+ ]
+}

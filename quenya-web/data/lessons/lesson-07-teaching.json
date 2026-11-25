@@ -1,0 +1,1671 @@
+{
+  "lesson": 7,
+  "schemaVersion": 2,
+  "oneLineZh": "将来时用 -uva：基本动词直接加（hiruva），A 词干丢 -a 再加（linduva）。无定时（aorist）对动作持续时间不作标记，典型用于瞬时、习惯、无时间性的动作；A 词干＝词干本身（lanta），基本动词加 -i，词末变 -ë（matë），接词尾时保留 mati-（matir）。",
+  "canDoZh": [
+    "能写出基本动词与 A 词干的将来时（hiruva、linduva），并说明 A 词干为什么丢 -a",
+    "能说清英语没有真正的将来时、昆雅有，因此 -uva 是屈折词尾而非助动词",
+    "能解释 quantuva 与 quat- 的矛盾，并说明「将来时要不要鼻音插入」为何无法定论",
+    "能用一句话界定无定时：对持续时间不作标记，而非「表示瞬时」",
+    "能区分无定时与现在时（quetë / quéta），并说明二者在托尔金笔下为何会互换",
+    "能写出 A 词干与基本动词的无定时单复数形式（lanta / lantar，matë / matir）",
+    "能复述三则 NOTE：ettuler、tápë 与 móta、-ëa 争议的规避法",
+    "能独立完成练习 A–P，用 keys 核对，并把错题回链到对应规则"
+  ],
+  "conceptMap": [
+    {
+      "labelZh": "本课导论",
+      "noteZh": "两个新时态：将来时 + 无定时",
+      "sectionId": "lesson-intro"
+    },
+    {
+      "labelZh": "将来时标记 -uva",
+      "noteZh": "hiruva、cenuva、tiruva、hlaruva",
+      "sectionId": "future-marker"
+    },
+    {
+      "labelZh": "A 词干丢 -a",
+      "noteZh": "linduva、oruva；antáva 是旧方案",
+      "sectionId": "future-a-stem"
+    },
+    {
+      "labelZh": "quantuva 与 quat-",
+      "noteZh": "将来时要不要鼻音插入？悬而未决",
+      "sectionId": "future-quat"
+    },
+    {
+      "labelZh": "将来时加 -r",
+      "noteZh": "elen siluva / eleni siluvar",
+      "sectionId": "future-plural"
+    },
+    {
+      "labelZh": "什么是无定时",
+      "noteZh": "术语 2000 年才由 VT41:17 证实",
+      "sectionId": "aorist-intro"
+    },
+    {
+      "labelZh": "希腊语的来历",
+      "noteZh": "aoristos＝无限制；与未完整体相对",
+      "sectionId": "aorist-greek"
+    },
+    {
+      "labelZh": "表「一般真理」",
+      "noteZh": "carir、polin quetë、caita、lantar",
+      "sectionId": "aorist-general-truth"
+    },
+    {
+      "labelZh": "托尔金也在摇摆",
+      "noteZh": "órenya quetë / quéta nin",
+      "sectionId": "aorist-vs-present"
+    },
+    {
+      "labelZh": "与现在关联",
+      "noteZh": "Caveney 的「现在无定时」",
+      "sectionId": "aorist-orientation"
+    },
+    {
+      "labelZh": "对持续不作标记",
+      "noteZh": "auta i lómë＝is passing",
+      "sectionId": "aorist-unmarked"
+    },
+    {
+      "labelZh": "对应英语一般现在时",
+      "noteZh": "topë covers / tópa is covering",
+      "sectionId": "aorist-english-simple"
+    },
+    {
+      "labelZh": "三个反例",
+      "noteZh": "untúpa、hárar、tye-méla",
+      "sectionId": "aorist-counterexamples"
+    },
+    {
+      "labelZh": "怎么选",
+      "noteZh": "唯一硬规则 + 其余看语境",
+      "sectionId": "aorist-choice"
+    },
+    {
+      "labelZh": "无定时怎么构成",
+      "noteZh": "A 词干＝词干；基本动词 -i / -ë",
+      "sectionId": "aorist-formation"
+    },
+    {
+      "labelZh": "三则 NOTE",
+      "noteZh": "ettuler、tápë、-ëa 争议",
+      "sectionId": "aorist-notes"
+    },
+    {
+      "labelZh": "原文小结",
+      "noteZh": "Summary of Lesson Seven",
+      "sectionId": "summary"
+    },
+    {
+      "labelZh": "课末词汇",
+      "noteZh": "12 词：数词、名词、动词",
+      "sectionId": "vocabulary"
+    },
+    {
+      "labelZh": "练习 A–P",
+      "noteZh": "8 题昆雅译英 + 8 题英译昆雅",
+      "sectionId": "exercises"
+    }
+  ],
+  "pathTitleZh": "本课学习路径",
+  "path": [
+    {
+      "step": 1,
+      "labelZh": "本课导论：两个新时态",
+      "sectionId": "lesson-intro"
+    },
+    {
+      "step": 2,
+      "labelZh": "将来时标记 -uva",
+      "sectionId": "future-marker"
+    },
+    {
+      "step": 3,
+      "labelZh": "A 词干丢 -a",
+      "sectionId": "future-a-stem"
+    },
+    {
+      "step": 4,
+      "labelZh": "quantuva 与 quat-",
+      "sectionId": "future-quat"
+    },
+    {
+      "step": 5,
+      "labelZh": "将来时加 -r",
+      "sectionId": "future-plural"
+    },
+    {
+      "step": 6,
+      "labelZh": "什么是无定时",
+      "sectionId": "aorist-intro"
+    },
+    {
+      "step": 7,
+      "labelZh": "希腊语的来历",
+      "sectionId": "aorist-greek"
+    },
+    {
+      "step": 8,
+      "labelZh": "表「一般真理」",
+      "sectionId": "aorist-general-truth"
+    },
+    {
+      "step": 9,
+      "labelZh": "托尔金也在摇摆",
+      "sectionId": "aorist-vs-present"
+    },
+    {
+      "step": 10,
+      "labelZh": "与现在关联",
+      "sectionId": "aorist-orientation"
+    },
+    {
+      "step": 11,
+      "labelZh": "对持续不作标记",
+      "sectionId": "aorist-unmarked"
+    },
+    {
+      "step": 12,
+      "labelZh": "对应英语一般现在时",
+      "sectionId": "aorist-english-simple"
+    },
+    {
+      "step": 13,
+      "labelZh": "三个反例",
+      "sectionId": "aorist-counterexamples"
+    },
+    {
+      "step": 14,
+      "labelZh": "怎么选",
+      "sectionId": "aorist-choice"
+    },
+    {
+      "step": 15,
+      "labelZh": "无定时怎么构成",
+      "sectionId": "aorist-formation"
+    },
+    {
+      "step": 16,
+      "labelZh": "三则 NOTE",
+      "sectionId": "aorist-notes"
+    },
+    {
+      "step": 17,
+      "labelZh": "原文小结",
+      "sectionId": "summary"
+    },
+    {
+      "step": 18,
+      "labelZh": "课末词汇",
+      "sectionId": "vocabulary"
+    },
+    {
+      "step": 19,
+      "labelZh": "练习 A–P",
+      "sectionId": "exercises"
+    }
+  ],
+  "modules": [
+    {
+      "sectionId": "lesson-intro",
+      "sourceSectionId": "the-future-tense",
+      "titleZh": "01 · 本课导论：将来时与无定时",
+      "leadZh": "本课加两个新时态。将来时的功能一望即知；无定时（aorist）却要花不少段落才说得清——本课大半篇幅都在界定它。",
+      "objectives": [
+        "能说出本课新增的两个时态",
+        "能说清为什么将来时好讲、无定时难讲"
+      ],
+      "rules": [
+        {
+          "id": "rule-two-tenses",
+          "headZh": "本课新增两个时态",
+          "bodyZh": "将来时（future）指将来的动作，功能直白。无定时（aorist）则要花很多段落才能界定其功能，本课按「将来时 → 无定时功能 → 无定时构成 → 三则 NOTE」的顺序推进。",
+          "en": "In this lesson we will introduce two new tenses of the verb, the future and the aorist.",
+          "zh": "本课介绍动词的两个新时态：将来时与无定时。",
+          "exampleZh": "将来时：hiruva「将找到」；无定时：quetë「说」"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "以为 aorist 就是「过去时的一种」",
+          "right": "昆雅 aorist 一般与现在相关，与希腊语的过去义并不相同",
+          "whyZh": "正文：the Quenya aorist is generally associated with the present, not with the past as in Greek。名称来自希腊语法，功能却已被托尔金改造（详见第 10 步）。"
+        }
+      ],
+      "recapZh": "本课两个新时态：将来时（-uva）与无定时（对持续时间不作标记）。",
+      "selfCheckZh": [
+        {
+          "qZh": "本课引入哪两个时态？",
+          "aZh": "将来时与无定时（aorist）。"
+        },
+        {
+          "qZh": "哪个时态的功能更难界定？",
+          "aZh": "无定时——原文说要花不少段落才能定义它的功能。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-future-tense",
+        "unitIds": [
+          0
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "future-marker",
+      "sourceSectionId": "the-future-tense",
+      "titleZh": "02 · 将来时：词尾 -uva",
+      "leadZh": "英语没有真正的将来时，只能靠 shall / will 绕说；昆雅有屈折的将来时，标记是词尾 -uva。",
+      "objectives": [
+        "能说明英语为什么没有「真正的将来时」",
+        "能写出 -uva 构成的将来时并指出出处"
+      ],
+      "rules": [
+        {
+          "id": "rule-english-no-future",
+          "headZh": "英语没有独立的将来时",
+          "bodyZh": "英语没有那种只指将来、单一屈折的动词形式，只能靠 shall / will 组成短语，甚至用现在时表将来（He comes tomorrow）。因此语言学家把英语「现在时」称作「非过去时」：它同时覆盖现在与将来。",
+          "en": "English (unlike, say, French) has no distinct future tense.",
+          "zh": "英语（不像法语）没有独立的将来时。",
+          "exampleZh": "shall come / will come / is going to come / He comes tomorrow"
+        },
+        {
+          "id": "rule-uva",
+          "headZh": "将来时标记：-uva",
+          "bodyZh": "昆雅有真正的将来时形式，标记看来就是词尾 -uva，可能是普遍适用的。基本动词直接把 -uva 加到词干上：hir- → hiruva。",
+          "en": "what seems to be the normal – possibly universal – Quenya future tense marker: the ending -uva",
+          "zh": "看来是常规——也许是普遍适用——的昆雅将来时标记：词尾 -uva。",
+          "exampleZh": "hir- → hiruva；cen- → cenuva；tir- → tiruva；hlar- → hlaruva"
+        }
+      ],
+      "examples": [
+        {
+          "en": "nai elyë hiruva",
+          "zh": "也许你会找到［它］",
+          "whyZh": "《Namárië》末尾；hir-「找到」+ -uva，托尔金译作 \"maybe thou shalt find [it]\"。"
+        },
+        {
+          "en": "cenuva \"shall heed\", tiruva \"shall watch\" and hlaruva \"shall hear\"",
+          "zh": "将留意／将守望／将听见",
+          "whyZh": "《Markirya》诗中的三例，分别来自 cen-、tir-、hlar-，印证 -uva 的普遍性。"
+        },
+        {
+          "en": "írë Anarinya queluva",
+          "zh": "当我的太阳衰竭［字面：将衰竭］之时",
+          "whyZh": "LR:63 托尔金把 queluva 译作 \"faileth\"，那只是英语非过去时兼包将来；上下文（\"What will Ilúvatar ... give me in that day\"）明确属将来。"
+        }
+      ],
+      "table": {
+        "captionZh": "将来时实例与出处",
+        "headers": [
+          "动词",
+          "将来时",
+          "出处"
+        ],
+        "rows": [
+          [
+            "hir-「找到」",
+            "hiruva",
+            "《Namárië》：nai elyë hiruva"
+          ],
+          [
+            "cen-「看见、留意」",
+            "cenuva",
+            "《Markirya》"
+          ],
+          [
+            "tir-「守望」",
+            "tiruva",
+            "《Markirya》"
+          ],
+          [
+            "hlar-「听见」",
+            "hlaruva",
+            "《Markirya》"
+          ],
+          [
+            "quel-「衰竭」",
+            "queluva",
+            "LR:63（译作 faileth）"
+          ]
+        ]
+      },
+      "pitfalls": [
+        {
+          "wrong": "把 -uva 当成英语 will 那样的助动词",
+          "right": "-uva 是加在动词词干上的屈折词尾，一个词就是将来时",
+          "whyZh": "原文强调昆雅 \"do possess true future tense forms of the verb\"，与英语的 shall / will 短语相对。"
+        }
+      ],
+      "recapZh": "英语靠 shall / will；昆雅靠词尾 -uva（hiruva、cenuva、tiruva、hlaruva）。",
+      "selfCheckZh": [
+        {
+          "qZh": "昆雅将来时的标记是什么？",
+          "aZh": "词尾 -uva。"
+        },
+        {
+          "qZh": "queluva 被译作 faileth，是否说明它不是将来时？",
+          "aZh": "不是。那只是英语非过去时兼包将来；上下文明确指将来。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-future-tense",
+        "unitIds": [
+          1,
+          2
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "future-a-stem",
+      "sourceSectionId": "the-future-tense",
+      "titleZh": "03 · A 词干的将来时：丢掉 -a 再加 -uva",
+      "leadZh": "A 词干（linda-、ora-）加 -uva 前要先丢掉词尾的 -a：linduva、oruva。早先的 antáva 方案已被 -uva 取代。",
+      "objectives": [
+        "能写出 A 词干的将来时并说明 -a 为什么丢",
+        "能解释 antáva 与 antuva 的关系"
+      ],
+      "rules": [
+        {
+          "id": "rule-a-drop-future",
+          "headZh": "A 词干：丢 -a 再加 -uva",
+          "bodyZh": "词尾 -uva 也用于数量更多的 A 词干动词，但 A 词干要在加词尾之前丢掉词尾的 -a。所以 linda- 的将来时是 linduva，而不是把 -uva 直接接在 -a 后面。",
+          "en": "which however lose their final -a before the future tense ending is added",
+          "zh": "不过它们在加将来时词尾前丢掉词尾的 -a。",
+          "exampleZh": "linda- → linduva；ora- → oruva"
+        },
+        {
+          "id": "rule-anta-uva",
+          "headZh": "antáva 是《魔戒》之前的旧方案",
+          "bodyZh": "《Fíriel 之歌》（《魔戒》之前）里 anta-「给」的将来时作 antáva：把词尾 -a 拉长为 -á 再加 -va。但后来出现 linduva、oruva（而非 **lindáva、**oráva），说明托尔金最终让 -uva 成为差不多普遍适用的标记。作者猜测《魔戒》风格昆雅里 anta- 的将来时应是 antuva。",
+          "en": "A-stem verbs form their future tense by lengthening the final -a to -á and adding the ending -va",
+          "zh": "A 词干把词尾的 -a 拉长为 -á，再加词尾 -va。",
+          "exampleZh": "anta- → antáva（旧）→ antuva（推测）",
+          "noteZh": "oruva 的出处是 VT41:13、18；托尔金写作 oruv·，编者指出那个点可能是不完整的 a。"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "把 -uva 直接接在 A 词干的 -a 后面，或照搬 antáva 的旧方案",
+          "right": "linduva、oruva、antuva",
+          "whyZh": "原文以 **lindáva、**oráva 标出被排除的形式；A 词干的 -a 必须在 -uva 前脱落。antuva 是作者据 linduva、oruva 作出的推测。"
+        }
+      ],
+      "recapZh": "A 词干丢 -a 再加 -uva：linda- → linduva；anta- → antuva（antáva 是旧方案）。",
+      "selfCheckZh": [
+        {
+          "qZh": "linda- 的将来时怎么写？",
+          "aZh": "linduva（丢 -a 再加 -uva），不是 lindauva。"
+        },
+        {
+          "qZh": "antáva 为什么不算标准答案？",
+          "aZh": "它是《魔戒》之前的方案；后来 linduva、oruva 表明 -uva 成了普遍标记，作者推测应为 antuva。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-future-tense",
+        "unitIds": [
+          3,
+          4
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "future-quat",
+      "sourceSectionId": "the-future-tense",
+      "titleZh": "04 · quantuva 与 quat-：一个悬而未决的难题",
+      "leadZh": "《Namárië》有 enquantuva「将重新装满」，去掉 en- 得 quantuva。可托尔金后来又把动词「装满」引作 quat-。于是问题来了：将来时到底要不要鼻音插入？",
+      "objectives": [
+        "能复述 quantuva 与 quat- 的矛盾",
+        "能列出两种处理方案及其依据",
+        "能说明为什么作者不给唯一答案"
+      ],
+      "rules": [
+        {
+          "id": "rule-quantuva",
+          "headZh": "enquantuva：将来时 quantuva",
+          "bodyZh": "《魔戒》的《Namárië》里有将来时 enquantuva「将重新装满」。去掉前缀 en-「再」得 quantuva「将装满」，旧解是动词 quanta-「装满」的将来时（QL:78 作 qanta-，与形容词 quanta「满的」相关）。但出版《魔戒》约五年后，托尔金在《Quendi and Eldar》里把动词「装满」引作 quat-（WJ:392），过去时大概是 quantë。",
+          "en": "In Namárië in LotR occurs the future tense form enquantuva, \"shall refill\".",
+          "zh": "《魔戒》的《Namárië》里有将来时形式 enquantuva「将重新装满」。",
+          "exampleZh": "enquantuva → 去 en- → quantuva"
+        },
+        {
+          "id": "rule-nasal-future",
+          "headZh": "将来时要不要鼻音插入？",
+          "bodyZh": "若「装满」真是 quat-，而将来时是 quantuva，是否该推论：凡过去时用「鼻音插入 + -ë」的动词，将来时也用「鼻音插入 + -uva」？即 mat- → mantuva、top- → tompuva、tac- → tancuva。另一方案是直接加 -uva：matuva、topuva、tacuva。一般原则倾向后者，但 quantuva 与 quat- 并存是反证。",
+          "en": "should we conclude that the same verbs that form their past tense with nasal-infixion + the ending -ë similarly form their future tense with nasal-infixion + the ending -uva?",
+          "zh": "我们是否该推论：凡以「鼻音插入 + 词尾 -ë」构成过去时的动词，也同样以「鼻音插入 + 词尾 -uva」构成将来时？",
+          "exampleZh": "方案 A：mantuva / tompuva / tancuva；方案 B：matuva / topuva / tacuva"
+        },
+        {
+          "id": "rule-root-kwata",
+          "headZh": "quat- 也许只是词根 KWATA 的呈现",
+          "bodyZh": "原文措辞是「动词词干 *KWATA，昆雅 quat-『装满』」。若 quat- 只是古老词干在昆雅里的样子，真正的动词仍可以是 quanta-，将来时 quantuva。类比《词源》PAT 条：词根 PAT 产生动词 panta-「打开」，另有形容词 panta「打开的」，与 quanta「满的」+ quanta-「装满」完全平行。",
+          "en": "the verb stem *KWATA, Q quat- 'fill'",
+          "zh": "动词词干 *KWATA，昆雅 quat-「装满」。",
+          "exampleZh": "PAT → panta-「打开」／panta「打开的」；KWATA → quanta-「装满」／quanta「满的」"
+        }
+      ],
+      "exceptions": [
+        {
+          "titleZh": "第一种解释：quat- 确是动词，quantuva 却预设 quanta-",
+          "bodyZh": "也许托尔金只是忘了自己已发表过 A 词干 quanta-「装满」的某个形式，于是不再有自由把它改成基本动词 quat-。原文举 PM:367–371 为例：托尔金推演出一套精细解释，发现与《魔戒》已发表内容冲突，只好废弃——一个附录里的脚注逼他否掉自己的新想法。",
+          "sourceEn": "Perhaps Tolkien had just plain forgotten that he had already published a form of the A-stem verb quanta- \"fill\""
+        },
+        {
+          "titleZh": "第二种解释：quat- 只是词根形式，动词仍是 quanta-",
+          "bodyZh": "若 quat- 仅表示古老词干 KWATA 在昆雅的样子，则动词「装满」仍是 quanta-，将来时 quantuva 顺理成章，将来时无需鼻音插入。",
+          "sourceEn": "If quat- is merely the way the ancient stem KWATA appears in Quenya, the actual verb \"fill\" could still be quanta- with future tense quantuva."
+        },
+        {
+          "titleZh": "作者的结论：材料不足，容许两种「方言」",
+          "bodyZh": "现有材料无法定论。写作者可以同样合理地让过去时有鼻音插入的动词在将来时也插入，也可以对 quat- 另作解释、将来时一律加 -uva。在这个细节上容忍略有差异的方言，直到将来的出版物给出答案。",
+          "sourceEn": "material presently available does not allow any certain conclusion in this matter"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "断言 mat- 的将来时一定是 mantuva",
+          "right": "mantuva 与 matuva 都有理据，取决于你如何解释 quat-/quantuva",
+          "whyZh": "原文：material presently available does not allow any certain conclusion；作者自己用过带鼻音插入的形式，但也承认可能只是 quat- 的词根呈现。"
+        },
+        {
+          "wrong": "把 quantuva 当成 quat- 的直接将来时",
+          "right": "quantuva 预设一个更长的 A 词干 quanta-",
+          "whyZh": "原文：the future tense quantuva still presupposes a longer A-stem quanta-。"
+        }
+      ],
+      "closeReadingZh": [
+        {
+          "headZh": "为什么这一段明确不下结论",
+          "bodyZh": "注意作者的推理顺序：先摆出《Namárië》的 enquantuva（已出版的硬证据），再摆出 WJ:392 的 quat-（晚期材料），然后指出两者不能同时成立为「同一动词的规则形式」，最后给出两条都能自圆的解释。写作时正确的态度不是选边，而是说明「为何无法定论」。"
+        }
+      ],
+      "recapZh": "quantuva 与 quat- 的矛盾无定论：要么将来时也鼻音插入（mantuva），要么 quat- 只是词根呈现、将来时一律加 -uva（matuva）。",
+      "selfCheckZh": [
+        {
+          "qZh": "quantuva 是从哪个词形得来的？",
+          "aZh": "《Namárië》的 enquantuva 去掉前缀 en-「再」。"
+        },
+        {
+          "qZh": "为什么不能断定 mat- 的将来时是 mantuva？",
+          "aZh": "因为 quantuva 与 quat- 无法同时按规则解释，材料不足，原文明确不下结论。"
+        },
+        {
+          "qZh": "作者给写作者的建议是什么？",
+          "aZh": "两种做法都合理，可容忍方言差异，等将来的出版物裁定。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-future-tense",
+        "unitIds": [
+          5,
+          6,
+          7,
+          8
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "future-plural",
+      "sourceSectionId": "the-future-tense",
+      "titleZh": "05 · 将来时的复数：加 -r",
+      "leadZh": "将来时和其他时态一样，主语为复数时加 -r：elen siluva「一颗星将照耀」，eleni siluvar「群星将照耀」。",
+      "objectives": [
+        "能给将来时加上复数 -r"
+      ],
+      "rules": [
+        {
+          "id": "rule-future-plural",
+          "headZh": "复数主语加 -r",
+          "bodyZh": "将来时像所有其他时态一样，在主语为复数时接受词尾 -r。这与过去时、现在时的复数标记完全一致。",
+          "en": "the future tense, like all other tenses, receives the ending -r where it occurs with a plural subject",
+          "zh": "将来时像所有其他时态一样，在主语为复数时加词尾 -r。",
+          "exampleZh": "elen siluva「一颗星将照耀」→ eleni siluvar「群星将照耀」"
+        }
+      ],
+      "examples": [
+        {
+          "en": "elen siluva",
+          "zh": "一颗星将照耀",
+          "whyZh": "主语 elen 单数，将来时 siluva 不加 -r。"
+        },
+        {
+          "en": "eleni siluvar",
+          "zh": "群星将照耀",
+          "whyZh": "主语 eleni 复数，将来时加 -r：siluva → siluvar。"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "复数主语仍写 siluva",
+          "right": "eleni siluvar",
+          "whyZh": "原文：the future tense, like all other tenses, receives the ending -r where it occurs with a plural subject。"
+        }
+      ],
+      "recapZh": "将来时复数加 -r：siluva → siluvar。",
+      "selfCheckZh": [
+        {
+          "qZh": "「群星将照耀」怎么写？",
+          "aZh": "eleni siluvar。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-future-tense",
+        "unitIds": [
+          9
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "aorist-intro",
+      "sourceSectionId": "the-aorist",
+      "titleZh": "06 · 什么是无定时（aorist）",
+      "leadZh": "过去、现在、将来三个时态讲完了，昆雅动词还有别的时态。其一叫 aorist；这个术语曾长期被质疑，直到 2000 年 7 月一份托尔金文本面世。",
+      "objectives": [
+        "能说出 aorist 这个术语的文献依据",
+        "能说清为什么它的功能难以界定"
+      ],
+      "rules": [
+        {
+          "id": "rule-aorist-name",
+          "headZh": "术语由 2000 年面世的文本证实",
+          "bodyZh": "把 aorist 这个术语用于昆雅语法，曾长期有人质疑。但一份 2000 年 7 月终于面世的托尔金文本表明，他确实发明过一个他称为 aorist 的昆雅时态（VT41:17）。",
+          "en": "a Tolkien text that finally became available in July 2000 demonstrates that he had indeed invented a Quenya tense he called aorist (VT41:17).",
+          "zh": "一份 2000 年 7 月才面世的托尔金文本表明，他确实发明过一个他称为 aorist 的昆雅时态（VT41:17）。",
+          "exampleZh": "VT41:17"
+        },
+        {
+          "id": "rule-aorist-function",
+          "headZh": "功能远非显然",
+          "bodyZh": "过去、现在、将来是「干什么用的」人人都懂，aorist 的功能却不那么显然。有些语言学家甚至说它按某些定义根本不算「时态」；不过托尔金在 VT41:17 确实用了 \"aorist tense\" 的说法。这个问题纯属学院之争，本课不讨论。",
+          "en": "it is hardly equally obvious what function the aorist tense has",
+          "zh": "无定时有什么功能却远非同样显然。",
+          "noteZh": "原文括号内补充：Some linguists would say that the aorist is strictly not a \"tense\" at all。"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "把「无定时」理解成「没有时间的时态」",
+          "right": "名称来自希腊语 aoristos「无限制」，指对动作的持续不作限定，不是「没有时间」",
+          "whyZh": "正文：it comes from Greek and literally means something like \"unlimited\" or \"undetermined\"；且昆雅 aorist 一般与现在相关。"
+        }
+      ],
+      "recapZh": "aorist 是托尔金确曾使用的术语（VT41:17），但它的功能要花大力气界定。",
+      "selfCheckZh": [
+        {
+          "qZh": "aorist 这个术语的文献依据是什么？",
+          "aZh": "2000 年 7 月面世的托尔金文本，VT41:17。"
+        },
+        {
+          "qZh": "为什么有人否认它是「时态」？",
+          "aZh": "按「时态」的某些定义它不合；但托尔金本人用了 \"aorist tense\" 这个说法。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-aorist",
+        "unitIds": [
+          0,
+          1
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "aorist-greek",
+      "sourceSectionId": "the-aorist",
+      "titleZh": "07 · 希腊语的来历：aoristos＝无限制",
+      "leadZh": "aorist 一词来自希腊语法：它与「未完整体」相对，对动作持续不作任何暗示，还可表达不受时间限制的一般真理。昆雅的用法不同，但功能有重叠。",
+      "objectives": [
+        "能解释 aoristos 的字面义",
+        "能说明希腊语 aorist 与 imperfect 的分工",
+        "能指出昆雅与希腊语的异同"
+      ],
+      "rules": [
+        {
+          "id": "rule-aoristos",
+          "headZh": "词源：无限制、未限定",
+          "bodyZh": "aorist 来自希腊语，字面意思大致是「无限制」或「未限定」。这个词最初是为描述希腊语的某种动词形式而造的。",
+          "en": "it comes from Greek and literally means something like \"unlimited\" or \"undetermined\"",
+          "zh": "它来自希腊语，字面意思大致是「无限制」或「未限定」。",
+          "exampleZh": "希腊语 aoristos"
+        },
+        {
+          "id": "rule-greek-contrast",
+          "headZh": "希腊语里与「未完整体」相对",
+          "bodyZh": "希腊语里 aorist 与过去时即「未完整体」（imperfect）相对：imperfect 用于一段时期内正在进行的过去动作，aorist 对「持续」不作暗示，只表示一个过去动作。与 imperfect 相对时，它可用于一瞬的或明确完成的动作。它还有与过去无关的用法：表达不受特定时间限制的一般真理，如「羊吃草」。",
+          "en": "In Greek this form contrasts with the past tense or \"imperfect\"",
+          "zh": "在希腊语里，这种形式与过去时即「未完整体」相对。",
+          "exampleZh": "sheep eat grass"
+        },
+        {
+          "id": "rule-quenya-differs",
+          "headZh": "昆雅用法不同，功能有重叠",
+          "bodyZh": "希腊语的 aorist 与昆雅的 aorist 用法并不完全相同，但功能在某些方面确有重叠——这想必正是托尔金借用这个希腊语法术语的原因。本课先确定昆雅 aorist 的功能，再讲构成。",
+          "en": "the Quenya aorist is not used in quite the same way",
+          "zh": "昆雅的无定时用法并不完全相同。",
+          "exampleZh": "重叠处：都能表达「一般真理」"
+        }
+      ],
+      "table": {
+        "captionZh": "希腊语 aorist 与昆雅 aorist",
+        "headers": [
+          "",
+          "希腊语",
+          "昆雅"
+        ],
+        "rows": [
+          [
+            "时间取向",
+            "与过去相关（与 imperfect 相对）",
+            "一般与现在相关"
+          ],
+          [
+            "是否标记持续",
+            "不暗示持续",
+            "不作标记"
+          ],
+          [
+            "典型用法",
+            "一瞬／已完成的过去动作",
+            "瞬时、习惯、无时间性的动作"
+          ],
+          [
+            "共同点",
+            "可表达一般真理",
+            "可表达一般真理"
+          ]
+        ]
+      },
+      "pitfalls": [
+        {
+          "wrong": "把希腊语「aorist＝过去」直接搬到昆雅",
+          "right": "昆雅 aorist 一般与现在相关，希腊语才与过去相关",
+          "whyZh": "正文 the-aorist[6]：the Quenya aorist is generally associated with the present, not with the past as in Greek。"
+        }
+      ],
+      "recapZh": "aoristos＝无限制；希腊语里与 imperfect 相对、可表一般真理；昆雅借用术语但改造了用法。",
+      "selfCheckZh": [
+        {
+          "qZh": "aoristos 字面是什么意思？",
+          "aZh": "「无限制」或「未限定」。"
+        },
+        {
+          "qZh": "希腊语 imperfect 表示什么？",
+          "aZh": "一段时期内正在进行的过去动作。"
+        },
+        {
+          "qZh": "两种语言的无定时在哪一点上重叠？",
+          "aZh": "都能表达「一般真理」。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-aorist",
+        "unitIds": [
+          2,
+          3
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "aorist-general-truth",
+      "sourceSectionId": "the-aorist",
+      "titleZh": "08 · 功能一：表达「一般真理」",
+      "leadZh": "i carir quettar ómainen：精灵「用声音造词」是贯穿历史的一般习性，所以用无定时 carir。polin quetë、caita mornië、lantar lassi 同理。",
+      "objectives": [
+        "能用 carir 说明「一般真理」的用法",
+        "能说明为什么 lantar 不是现在时 lantëar",
+        "能写出「羊吃草」的昆雅说法"
+      ],
+      "rules": [
+        {
+          "id": "rule-general-truth",
+          "headZh": "无定时可表「一般真理」",
+          "bodyZh": "昆雅无定时和希腊语的一样，可用来表达「一般真理」。carir 表示精灵的一般习性，涵盖过去、现在与将来；polin quetë 表示说话者的一般能力（「我（一向）能说」），而不只是此刻适用。",
+          "en": "The Quenya aorist, like the Greek one, can be used to express \"general truths\".",
+          "zh": "昆雅的无定时和希腊语的一样，可用来表达「一般真理」。",
+          "exampleZh": "i carir quettar ómainen；polin quetë"
+        }
+      ],
+      "examples": [
+        {
+          "en": "i carir quettar ómainen",
+          "zh": "那些用声音造词的人",
+          "whyZh": "WJ:391。carir 是 car- 的复数无定时，表示精灵贯穿历史的一般习性，涵盖过去、现在、将来。"
+        },
+        {
+          "en": "polin quetë",
+          "zh": "我（一向）能说",
+          "whyZh": "VT41:6。无定时 quetë 表达一般能力，而不是「此刻正在说」。"
+        },
+        {
+          "en": "sindanóriello caita mornië",
+          "zh": "自灰之国，黑暗卧伏",
+          "whyZh": "《Namárië》。用无定时 caita 而非现在时 caitëa（is lying），因为这是中洲的一般状态，不是转瞬即逝的现象。"
+        },
+        {
+          "en": "laurië lantar lassi",
+          "zh": "如金，叶落",
+          "whyZh": "《Namárië》开篇。lantar 是无定时 + 复数 -r，不是现在时 lantëar；下文 yéni únótimë「数不清的漫长岁月」表明这是周而复始的秋日凋零。"
+        },
+        {
+          "en": "mámar matir salquë",
+          "zh": "羊吃草",
+          "whyZh": "「羊吃草」这个一般真理最好用无定时：máma「羊」（单数）+ matir（复数无定时）+ salquë「草」。"
+        },
+        {
+          "en": "i máma matë salquë",
+          "zh": "那只羊吃草",
+          "whyZh": "无定时也可描述单个人的能力或习惯；此处主语单数，matë 不加 -r。"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "把 laurië lantar lassi 的 lantar 当作现在时",
+          "right": "lantar 是无定时 lanta + 复数 -r；现在时会是 lantëar",
+          "whyZh": "原文：this is not just a here-and-now description of leaves that are falling (which would presumably be lantëar, present tense)。"
+        },
+        {
+          "wrong": "以为「一般真理」只能用于全人类、全宇宙",
+          "right": "也可用于单个人的能力或习惯（polin quetë、i máma matë salquë）",
+          "whyZh": "原文：the aorist can also be used to describe the abilities or habits of a single individual。"
+        }
+      ],
+      "recapZh": "无定时的第一功能：表达超越此时此地的一般真理或一般能力（carir、polin quetë、caita、lantar）。",
+      "selfCheckZh": [
+        {
+          "qZh": "carir 为什么用无定时？",
+          "aZh": "它表示精灵贯穿历史的一般习性，涵盖过去、现在与将来。"
+        },
+        {
+          "qZh": "「羊吃草」用昆雅怎么说？",
+          "aZh": "mámar matir salquë（单数羊 máma，草 salquë）。"
+        },
+        {
+          "qZh": "「那只羊吃草」又怎么说？",
+          "aZh": "i máma matë salquë（主语单数，matë 不加 -r）。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-aorist",
+        "unitIds": [
+          4
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "aorist-vs-present",
+      "sourceSectionId": "the-aorist",
+      "titleZh": "09 · 托尔金自己也在两者间摇摆",
+      "leadZh": "órenya quetë nin 与 órenya quéta nin 几乎同义；elen síla 在早期草稿里作 silë。可见无定时与现在时在某种程度上可以互换。",
+      "objectives": [
+        "能举出托尔金摇摆的两组例子",
+        "能说明这种摇摆意味着什么"
+      ],
+      "rules": [
+        {
+          "id": "rule-tolkien-wavers",
+          "headZh": "托尔金本人在两者间摇摆",
+          "bodyZh": "无定时并不只用于「无时间性的真理」。有些情形里托尔金自己在无定时与现在时之间摇摆，后者更典型地描述此时此地正在进行的状况。这种犹疑表明两个时态在某种程度上可以互换。",
+          "en": "In some cases Tolkien himself seems to waver in the choice between the aorist and the present tense",
+          "zh": "在某些情形里，托尔金自己似乎在无定时与现在时之间摇摆。",
+          "exampleZh": "órenya quetë nin（VT41:11）／órenya quéta nin（VT41:13）"
+        }
+      ],
+      "examples": [
+        {
+          "en": "órenya quetë nin",
+          "zh": "我心告诉我",
+          "whyZh": "VT41:11，用无定时。"
+        },
+        {
+          "en": "órenya quéta nin",
+          "zh": "我心告诉我",
+          "whyZh": "VT41:13，改用现在时；原文说两种说法 apparently quite synonymous。"
+        },
+        {
+          "en": "elen síla lúmenn' omentielvo",
+          "zh": "一颗星照耀［或更确切说：正照耀］在我们相会之时",
+          "whyZh": "托尔金最终用现在时 síla；但更早草稿用无定时 silë（RS:324）。这句只与「我们的相会」相关，无法表达超越时间的一般真理，可见这种语境里用无定时也允许。"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "认为无定时只能用于「一般真理」",
+          "right": "托尔金在只关乎此刻的语境里也用过（或考虑过）无定时",
+          "whyZh": "原文：it is apparently permissible to use an aorist form even in such a context。"
+        }
+      ],
+      "recapZh": "托尔金自己在两者间摇摆：quetë / quéta、silë / síla，说明两时态可互换。",
+      "selfCheckZh": [
+        {
+          "qZh": "举一组托尔金摇摆的例子。",
+          "aZh": "órenya quetë nin（VT41:11）与 órenya quéta nin（VT41:13）。"
+        },
+        {
+          "qZh": "elen síla 的早期草稿用的是什么形式？",
+          "aZh": "无定时 silë（RS:324）。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-aorist",
+        "unitIds": [
+          5
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "aorist-orientation",
+      "sourceSectionId": "the-aorist",
+      "titleZh": "10 · 昆雅的无定时与「现在」关联",
+      "leadZh": "希腊语的 aorist 与过去相关，昆雅的却一般与现在相关。Caveney 把这称为托尔金的「现在无定时」：用无定时对比「现在的一般动作」与「现在的持续动作」。",
+      "objectives": [
+        "能说明昆雅与希腊语在时间取向上的差别",
+        "能复述 Caveney 的「现在无定时」说法"
+      ],
+      "rules": [
+        {
+          "id": "rule-present-oriented",
+          "headZh": "昆雅 aorist 一般与现在相关",
+          "bodyZh": "昆雅 aorist 一般与现在相关，而不像希腊语那样与过去相关。这是理解昆雅无定时的关键：它不是「过去时的一种」。",
+          "en": "the Quenya aorist is generally associated with the present, not with the past as in Greek",
+          "zh": "昆雅无定时一般与现在相关，而不像希腊语那样与过去相关。",
+          "exampleZh": "quetë「说」／quéta「正在说」"
+        },
+        {
+          "id": "rule-caveney",
+          "headZh": "Caveney：「现在无定时」",
+          "bodyZh": "Jerry Caveney（Elfling 邮件组，2000 年 8 月 3 日）认为，托尔金拿过「无定时体」的想法，改问：假如一门语言用无定时来对比「现在的一般（无限制）动作」与「现在的持续动作」，而不是像古典希腊语那样对比「过去的一般动作」与「现在的持续动作」，会怎样？结果就是「现在无定时」。英语、法语只能靠额外的词区分（I walk / I am walking；je marche / je suis en train de marcher）。",
+          "en": "What if a language used the aorist to contrast present general (unlimited) actions to present continuative actions",
+          "zh": "假如一门语言用无定时来对比「现在的一般（无限制）动作」与「现在的持续动作」……",
+          "exampleZh": "I walk / I am walking；je marche / je suis en train de marcher"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "把 Caveney 的话当成托尔金原话",
+          "right": "那是 Caveney 在 Elfling 邮件组上的评论，属于后人的解读",
+          "whyZh": "原文明确标注出处：As Jerry Caveney wrote about Tolkien on the Elfling list (August 3, 2000)。"
+        }
+      ],
+      "recapZh": "昆雅无定时与现在关联；Caveney 称之为「现在无定时」，对比「一般现在」与「持续现在」。",
+      "selfCheckZh": [
+        {
+          "qZh": "昆雅 aorist 与哪个时间相关？",
+          "aZh": "一般与现在相关，不同于希腊语的过去取向。"
+        },
+        {
+          "qZh": "英语靠什么区分 I walk 与 I am walking？",
+          "aZh": "靠额外的词（助动词 + -ing）；昆雅靠无定时与现在时的对立。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-aorist",
+        "unitIds": [
+          6,
+          7
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "aorist-unmarked",
+      "sourceSectionId": "the-aorist",
+      "titleZh": "11 · 关键：无定时对「持续」不作标记",
+      "leadZh": "Hostetter 说它表「点状、习惯性或无持续性」的动作；更准确的说法是：现在时明确标记进行，无定时根本不标记持续。所以 auta 也能译作 is passing。",
+      "objectives": [
+        "能复述 Hostetter 的定义",
+        "能解释「不作标记」与「表示瞬时」的区别",
+        "能说出选择时态的唯一硬规则"
+      ],
+      "rules": [
+        {
+          "id": "rule-hostetter",
+          "headZh": "Hostetter：点状、习惯性、无持续性",
+          "bodyZh": "Carl F. Hostetter 认为昆雅无定时用于描述「点状的、习惯性的，或在其他意义上无持续性的」动作（VT41:15）。这在多数情况下大概是对的，说的正是无定时的典型功能。",
+          "en": "punctual, habitual, or otherwise durationless",
+          "zh": "点状的、习惯性的，或在其他意义上无持续性的。",
+          "exampleZh": "VT41:15"
+        },
+        {
+          "id": "rule-unmarked",
+          "headZh": "更准确：对持续时间不作标记",
+          "bodyZh": "有些例子表明更好的说法是：现在时明确标识正在进行的动作，而无定时在持续时间上根本不作标记。它未必与持续性现在时相对；无定时本身不表示动作必须是非持续的。它是「一般」形式，一个万用的「现在时」，只是不回答动作是持续、习惯还是瞬时。Novák 的评语：「无定时如此 aoristos，几乎什么都能表达。」",
+          "en": "the Quenya aorist is simply unmarked as far as duration is concerned",
+          "zh": "昆雅无定时在持续时间这一点上根本不作标记。",
+          "exampleZh": "mámar matir salquë 也可理解为「羊正在吃草」"
+        },
+        {
+          "id": "rule-auta",
+          "headZh": "auta i lómë＝is passing",
+          "bodyZh": "感叹语 auta i lómë!「夜正在逝去」（《精灵宝钻》第 20 章）里的 auta 看来是无定时（现在时大概是 autëa），托尔金却译作 \"is passing\" 而非 \"passes\"。可见无定时也能用于正在进行的动作，只是语法上未标记为如此。",
+          "en": "auta i lómë! \"the night is passing\"",
+          "zh": "auta i lómë!「夜正在逝去」",
+          "exampleZh": "auta（无定时）／autëa（现在时）"
+        },
+        {
+          "id": "rule-only-rule",
+          "headZh": "唯一的硬规则",
+          "bodyZh": "在两者间选择，唯一可依的硬性规则是：现在时不应被用于完全无持续性的动作。昆雅现在时总是用于某种持续的动作（有些学生因此改称「持续体」）。除此一条，写作者可相当自由地选择。",
+          "en": "the present tense should not be used with reference to entirely duration-less actions",
+          "zh": "现在时不应被用于完全无持续性的动作。",
+          "exampleZh": "瞬时动作（如「他跳」）只能用无定时"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "以为无定时＝「只能表示瞬时动作」",
+          "right": "无定时只是不标记持续；它也能描述进行中的动作（auta＝is passing）",
+          "whyZh": "原文：the aorist can also be used for an ongoing action; it just isn't explicitly marked as such。"
+        },
+        {
+          "wrong": "用现在时描述完全无持续性的动作",
+          "right": "这类动作必须用无定时",
+          "whyZh": "原文：the present tense should not be used with reference to entirely duration-less actions。"
+        }
+      ],
+      "recapZh": "无定时对持续不作标记：可表瞬时、习惯、一般真理，甚至进行中的动作（auta）。唯一硬规则是现在时不能用于完全无持续性的动作。",
+      "selfCheckZh": [
+        {
+          "qZh": "Hostetter 怎么概括无定时的功能？",
+          "aZh": "点状的、习惯性的，或在其他意义上无持续性的动作（VT41:15）。"
+        },
+        {
+          "qZh": "为什么说「不作标记」比「表示瞬时」更准确？",
+          "aZh": "因为 auta 也被译作 is passing，说明无定时也能用于进行中的动作。"
+        },
+        {
+          "qZh": "选择时态的唯一硬规则是什么？",
+          "aZh": "现在时不能用于完全无持续性的动作。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-aorist",
+        "unitIds": [
+          8,
+          9
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "aorist-english-simple",
+      "sourceSectionId": "the-aorist",
+      "titleZh": "12 · 对应英语的一般现在时",
+      "leadZh": "实用对应：昆雅无定时 ≈ 英语一般现在时（covers、hews、watch）；昆雅现在时 ≈ is ...-ing（is covering）。",
+      "objectives": [
+        "能给出无定时／现在时的英语对译公式",
+        "能说明 -n 不是无定时标记"
+      ],
+      "rules": [
+        {
+          "id": "rule-simple-present",
+          "headZh": "无定时 ≈ 英语一般现在时",
+          "bodyZh": "总的来说，昆雅无定时对应英语一般现在时（带 -s 或不带词尾）；昆雅现在时则常用 \"is ...-ing\" 来译。因此无定时可描述被视为无持续性或习惯性的动作：capë 既可指一瞬（「他跳」），也可指习惯（「任何青蛙都会跳」）。",
+          "en": "the Quenya aorist corresponds to the English simple present",
+          "zh": "昆雅无定时对应英语的一般现在时。",
+          "exampleZh": "topë covers／tópa is covering；macë hews／máca is hewing；tirin I watch／tíran I am watching"
+        }
+      ],
+      "table": {
+        "captionZh": "无定时与现在时的对译",
+        "headers": [
+          "无定时",
+          "英语",
+          "现在时",
+          "英语"
+        ],
+        "rows": [
+          [
+            "topë",
+            "covers",
+            "tópa",
+            "is covering"
+          ],
+          [
+            "macë",
+            "hews",
+            "máca",
+            "is hewing"
+          ],
+          [
+            "tirin",
+            "I watch",
+            "tíran",
+            "I am watching"
+          ],
+          [
+            "quetë",
+            "says",
+            "quéta",
+            "is saying"
+          ],
+          [
+            "capë",
+            "jumps",
+            "—",
+            "—"
+          ]
+        ]
+      },
+      "pitfalls": [
+        {
+          "wrong": "把 tirin / tíran 的 -n 当成无定时标记",
+          "right": "-n 表示「我」，将在下一课讨论",
+          "whyZh": "原文：The ending -n in the examples tirin/tíran, as well as in the form polin \"I can\" cited above, signifies \"I\": This suffix will be discussed in the next lesson。"
+        },
+        {
+          "wrong": "把这条对应当成铁律",
+          "right": "它只是实用公式；托尔金本人也有用现在时译作一般现在时的反例（下一步）",
+          "whyZh": "原文用 generally 与 often 限定，并紧接着给出反例。"
+        }
+      ],
+      "recapZh": "实用公式：英语一般现在时 → 昆雅无定时；英语 is ...-ing → 昆雅现在时。",
+      "selfCheckZh": [
+        {
+          "qZh": "「covers」对应哪个昆雅形式？",
+          "aZh": "topë（无定时）；现在时是 tópa「is covering」。"
+        },
+        {
+          "qZh": "tirin 里的 -n 是什么？",
+          "aZh": "表示「我」的词尾，下一课讲。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-aorist",
+        "unitIds": [
+          10
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "aorist-counterexamples",
+      "sourceSectionId": "the-aorist",
+      "titleZh": "13 · 三个反例：现在时也能表一般事态",
+      "leadZh": "untúpa「笼罩」、hárar「坐着」、tye-méla「爱着」——都是现在时，却都在说一般事态。这说明现在时也可表达「一般真理」，只是这更典型地属于无定时。",
+      "objectives": [
+        "能举出三个「该用无定时却用了现在时」的例子",
+        "能说明这些反例证明什么"
+      ],
+      "rules": [
+        {
+          "id": "rule-untupe",
+          "headZh": "untúpa：现在时译作 covers",
+          "bodyZh": "《Namárië》：hísië untúpa Calaciryo míri「雾笼罩着 Calacirya 的宝石」。现在时 untúpa 更字面是 is covering，托尔金却写作 covers。改用无定时（大概是 untupë）也绝不会错——雾笼罩宝石显然被视为一般事态，而非即将过去的气象现象。",
+          "en": "hísië untúpa Calaciryo míri \"mist covers the jewels of Calacirya\"",
+          "zh": "雾笼罩着 Calacirya 的宝石",
+          "exampleZh": "untúpa（现在时）／untupë（无定时，推测）"
+        },
+        {
+          "id": "rule-harar",
+          "headZh": "hárar：现在时表「坐在」",
+          "bodyZh": "《Cirion 的誓言》（UT:305、317）：i hárar mahalmassen mi Númen「那些坐在西方宝座上者」，指维拉。他们亘古登座是「一般真理」，正如精灵造词是普遍真理；可托尔金用了看来是现在时的 hárar（单数 hára，提示基本动词 har-「坐」），复数无定时大概会是 harir。UT:305 译作 \"sit\"，UT:317 译作 \"are sitting\"。",
+          "en": "i hárar mahalmassen mi Númen",
+          "zh": "那些坐在西方宝座上者",
+          "exampleZh": "hárar（现在时）／harir（无定时，推测）"
+        },
+        {
+          "id": "rule-mela",
+          "headZh": "tye-méla：现在时表恒久情感",
+          "bodyZh": "yonya inyë tye-méla「我也，我的儿子，我爱你」（LR:61）用现在时而非无定时。字面上 inyë tye-méla 似乎意为「我正在爱你」，但所指必是相当恒久的情感状态。作者说：若是别人写的，他会强烈建议改用无定时 melë——其实他至今仍认为这里无定时更好，尽管写这话的是托尔金本人。",
+          "en": "yonya inyë tye-méla, \"I too, my son, I love thee\"",
+          "zh": "我也，我的儿子，我爱你",
+          "exampleZh": "méla（现在时）／melë（无定时，作者认为更好）"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "看到现在时表一般真理就判为「错」",
+          "right": "原文说这证明现在时也可描述一般真理或恒久状况",
+          "whyZh": "原文：this example confirms that the present tense can also be used to describe \"general truths\" or more or less permanent situations, though this is more typically the domain of the aorist。"
+        }
+      ],
+      "closeReadingZh": [
+        {
+          "headZh": "注意作者的分寸：允许 vs 建议",
+          "bodyZh": "作者说 untúpa、hárar 是「可允许的另一种选择」，但对 tye-méla 明确表示「若是别人写的，我会建议改」。这不是自相矛盾，而是承认规则有弹性、同时保留个人判断。读原文时要区分「托尔金这样写了」与「作者认为这样更好」。"
+        }
+      ],
+      "recapZh": "三个反例（untúpa、hárar、tye-méla）证明现在时也能表一般事态，只是这更典型地属于无定时。",
+      "selfCheckZh": [
+        {
+          "qZh": "untúpa 的无定时大概是什么形式？",
+          "aZh": "untupë。"
+        },
+        {
+          "qZh": "hárar 的复数无定时大概是什么？",
+          "aZh": "harir。"
+        },
+        {
+          "qZh": "这三个反例证明了什么？",
+          "aZh": "现在时也能描述一般真理或恒久状况，虽然这更典型地是无定时的领域。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-aorist",
+        "unitIds": [
+          11,
+          12
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "aorist-choice",
+      "sourceSectionId": "the-aorist",
+      "titleZh": "14 · 到底怎么选：一条硬规则 + 语境",
+      "leadZh": "两个时态功能重叠到让人怀疑是否还有必要区分。唯一硬规则：完全无持续性的动作必须用无定时；其余看语境。作者自己的公式是「一般现在时→无定时，is ...-ing→现在时」。",
+      "objectives": [
+        "能说出唯一硬规则",
+        "能复述作者在练习中采用的公式",
+        "能在具体句子里作出选择并说明理由"
+      ],
+      "rules": [
+        {
+          "id": "rule-choice",
+          "headZh": "唯一硬规则",
+          "bodyZh": "唯一具体的规则是：若某种现在动作无论如何都不能被视为持续的、而是完全无持续性的，就必须用无定时。其余语境里两个时态看来都行；用无定时也未必意味着动作无持续性——它也可表一般真理，甚至进行中的动作（auta）。必须把语境考虑进去。",
+          "en": "the only concrete rule being that if some kind of present action cannot in any way be seen as continuous, but is entirely duration-less, one must use the aorist",
+          "zh": "唯一具体的规则是：若某种现在动作无论如何都不能被视为持续的、而是完全无持续性的，就必须用无定时。",
+          "exampleZh": "auta＝is passing（无定时也可表进行）"
+        },
+        {
+          "id": "rule-author-practice",
+          "headZh": "作者在练习里采用的公式",
+          "bodyZh": "作者说：语言不是我造的，将来的出版物也许会把托尔金的微妙区分讲清。但在本课程的练习里，他用无定时对应英语一般现在时，用昆雅现在时对应 \"is... -ing\" 结构。按这个公式转写，大多数时候不会犯明显的错。",
+          "en": "I have used aorists for the English simple present, whereas I use the Quenya present tense for the English \"is... -ing\" construction",
+          "zh": "我用无定时对应英语一般现在时，用昆雅现在时对应 \"is... -ing\" 结构。",
+          "exampleZh": "he jumps → capë；he is jumping → cápa（按公式推演）"
+        }
+      ],
+      "workflowZh": [
+        "第一步：这个动作能不能被看成「持续的」？完全不能 → 必须用无定时。",
+        "第二步：能看成持续的，看英语原文是一般现在时还是 is ...-ing。",
+        "第三步：一般现在时 → 无定时；is ...-ing → 现在时（作者的实用公式）。",
+        "第四步：若两者都说得通，按语境判断——是「一般真理／习惯」还是「此刻正在进行」。",
+        "第五步：写完后回查有没有把现在时用在完全无持续性的动作上。"
+      ],
+      "pitfalls": [
+        {
+          "wrong": "纠结「哪个才是唯一正确答案」",
+          "right": "除「无持续性动作必须用无定时」外，两者常可互换，语境优先",
+          "whyZh": "原文：In just about all other contexts, either tense will apparently do ... The context must be taken into consideration。"
+        }
+      ],
+      "recapZh": "硬规则一条（无持续性→无定时），其余看语境；实用公式：一般现在时→无定时，is ...-ing→现在时。",
+      "selfCheckZh": [
+        {
+          "qZh": "什么时候必须用无定时？",
+          "aZh": "动作完全无持续性、无法被视为持续的时候。"
+        },
+        {
+          "qZh": "作者在练习里用什么对应 is ...-ing？",
+          "aZh": "昆雅现在时。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-aorist",
+        "unitIds": [
+          13,
+          14
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "aorist-formation",
+      "sourceSectionId": "the-aorist",
+      "titleZh": "15 · 无定时怎么构成：A 词干＝词干，基本动词 -i／-ë",
+      "leadZh": "A 词干的无定时就是词干本身（lanta）；基本动词原本加 -i（mati），词末 -i 变 -ë（matë），但接词尾时保留 mati-（matir）。",
+      "objectives": [
+        "能写出 A 词干的无定时单复数",
+        "能解释 -i 与 -ë 的交替",
+        "能说明为什么是 matir 而不是 matë + r"
+      ],
+      "rules": [
+        {
+          "id": "rule-a-stem-aorist",
+          "headZh": "A 词干：无定时＝词干本身",
+          "bodyZh": "原始精灵语里规则很简单：派生／A 词干动词的无定时与词干完全相同，不必有显式时态标记（需要时再加 -r 等次级词尾）。这套系统在昆雅里延续：lanta-「落」的无定时就是 lanta。",
+          "en": "In the case of a \"derived\" or A-stem verb, the aorist tense is simply identical to the verbal stem itself",
+          "zh": "就「派生」或 A 词干动词而言，无定时形式与动词词干完全相同。",
+          "exampleZh": "lanta- → lanta；laurië lantar lassi（加复数 -r）"
+        },
+        {
+          "id": "rule-primary-i",
+          "headZh": "基本动词：加 -i",
+          "bodyZh": "基本或无词尾动词原本靠加词尾 -i 构成无定时：「吃」大概是 mati。-i 是否严格算时态标记尚有争议（若算，A 词干无定时也该有它）。作者倾向把它看作「补位」词尾：无定时通常与词干相同，但基本动词词干没有词尾，于是用 -i 补上。",
+          "en": "they originally (in Primitive Elvish) formed their aorist tense by adding the ending -i",
+          "zh": "它们在原始精灵语里原本靠加词尾 -i 构成无定时。",
+          "exampleZh": "mat- → mati"
+        },
+        {
+          "id": "rule-final-i-to-e",
+          "headZh": "词末 -i → -ë",
+          "bodyZh": "自原始精灵语以来的音系演变添了一个小麻烦：短 -i 处在词末时会变成 -ë（如 morë「黑」源自 mori）。于是旧形式 mati 在昆雅里成了 matë。",
+          "en": "Where final, the short -i of Primitive Elvish was at some point changed to -ë.",
+          "zh": "短 -i 处在词末时会变成 -ë。",
+          "exampleZh": "mati → matë；mori → morë"
+        },
+        {
+          "id": "rule-shielded",
+          "headZh": "接词尾时保留 mati-",
+          "bodyZh": "由于 -i → -ë 只发生在词末，若后面还要接词尾（如复数 -r），-i 就被「遮蔽」而不再处于词末，因此不变：Nauco matë「一个矮人吃」，但 Naucor matir「矮人们吃」。",
+          "en": "The ending \"shielded\" the final -i so that it was not really final at all",
+          "zh": "词尾「遮蔽」了词末的 -i，使它其实不再处于词末。",
+          "exampleZh": "matë（单数）／matir（复数）"
+        }
+      ],
+      "table": {
+        "captionZh": "两类动词的无定时",
+        "headers": [
+          "动词",
+          "无定时（单数）",
+          "复数（加 -r）",
+          "说明"
+        ],
+        "rows": [
+          [
+            "lanta-「落」",
+            "lanta",
+            "lantar",
+            "A 词干＝词干本身（《Namárië》）"
+          ],
+          [
+            "mat-「吃」",
+            "matë",
+            "matir",
+            "-i → -ë；接词尾保留 mati-"
+          ],
+          [
+            "car-「做、造」",
+            "carë",
+            "carir",
+            "WJ:391 的 carir 证实"
+          ],
+          [
+            "quet-「说」",
+            "quetë",
+            "quetir",
+            "与现在时 quéta 相对"
+          ],
+          [
+            "sil-「照耀」",
+            "silë",
+            "silir",
+            "早期草稿的 silë（RS:324）"
+          ]
+        ]
+      },
+      "pitfalls": [
+        {
+          "wrong": "把复数写成 matë 直接加 -r（把 -ë 当作不变的词干末元音）",
+          "right": "matir、quetir——接词尾时保留 -i",
+          "whyZh": "原文：we still see mati- if the aorist form is to receive any ending ... The ending \"shielded\" the final -i。"
+        },
+        {
+          "wrong": "给 A 词干的无定时再加一个时态标记",
+          "right": "A 词干无定时就是词干本身，只加 -r 这类次级词尾",
+          "whyZh": "原文：No explicit tense-marker had to be present。"
+        }
+      ],
+      "recapZh": "A 词干：无定时＝词干（lanta/lantar）。基本动词：加 -i，词末变 -ë（matë），接词尾保留 -i（matir）。",
+      "selfCheckZh": [
+        {
+          "qZh": "lanta- 的无定时复数是什么？",
+          "aZh": "lantar（词干 + -r）。"
+        },
+        {
+          "qZh": "mat- 的单数无定时与复数无定时分别是什么？",
+          "aZh": "matë 与 matir。"
+        },
+        {
+          "qZh": "为什么复数不是 matë 直接加 -r？",
+          "aZh": "-i → -ë 只发生在词末；接 -r 后 -i 不再处于词末，因此保留为 matir。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-aorist",
+        "unitIds": [
+          15,
+          16,
+          17
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "aorist-notes",
+      "sourceSectionId": "the-aorist",
+      "titleZh": "16 · 三则 NOTE：ettuler、tápë、-ëa 争议",
+      "leadZh": "NOTE 1 处理 ettuler 这类「-e- 残留」；NOTE 2 讲现在时拉长元音、无定时短元音，以及 tápë、móta 的例外；NOTE 3 给出绕开 -ëa 争议的办法。",
+      "objectives": [
+        "能解释 ettuler 为什么被 carir 取代",
+        "能说明无定时与现在时在元音长度上的差别",
+        "能说出 -ëa 争议的规避办法"
+      ],
+      "rules": [
+        {
+          "id": "rule-ettuler",
+          "headZh": "NOTE 1：ettuler 是短暂阶段",
+          "bodyZh": "少数无定时形式即使接了词尾，-ë 仍以 -e- 保留，如 ettul-「出来」的复数无定时作 ettuler（而非 ettulir，SD:290）。也许托尔金某个阶段以为原始 -i 在所有位置都变 -e。但这只是短暂「阶段」：约 1960 年的《Quendi and Eldar》里 car- 的复数无定时作 carir，而非 **carer（WJ:391）。",
+          "en": "the plural aorist of car- \"do, make\" appears as carir, not **carer (WJ:391)",
+          "zh": "car-「做、造」的复数无定时作 carir，而非 **carer（WJ:391）。",
+          "exampleZh": "ettuler（SD:290，异常）／carir（WJ:391，晚期规范）"
+        },
+        {
+          "id": "rule-note2-vowel",
+          "headZh": "NOTE 2：元音长短与两个例外",
+          "bodyZh": "基本动词的无定时与现在时差别不只在词尾：现在时拉长词干元音（máta「正在吃」），无定时保持短音（matë「吃」）。少数形式看似无定时却带长元音，如 tápë「停住、阻塞」（《词源》TAP 条），我们会期待 tapë。另有 A 词干本身含固有长元音（cúna-「弯」、súya-「呼吸」、móta-「劳作」），其无定时仍长：móta。",
+          "en": "In the present tense, the stem-vowel is lengthened (máta \"is eating\"), whereas in the aorist, it stays short (matë \"eats\").",
+          "zh": "现在时里词干元音拉长（máta「正在吃」），无定时里保持短音（matë「吃」）。",
+          "exampleZh": "máta／matë；tápë（异常）；móta（A 词干固有长音）"
+        },
+        {
+          "id": "rule-note3",
+          "headZh": "NOTE 3：用无定时绕开 -ëa 争议",
+          "bodyZh": "本课程提出「A 词干有 -ëa 现在时」（如 mótëa），这依赖对唯一例证 órëa 的特定解读，因而有争议。不想用 -ëa 的写作者可以改用无定时：托尔金说过 auta 可译 \"is passing\"，所以无定时能覆盖英语 \"is ...-ing\" 的功能。不接受 -ëa 理论的人甚至认为 A 词干的无定时与现在时没有区别，只能靠语境判断。",
+          "en": "Writers who do not want to use the controversial present-tense forms in -ëa may work around the problem by using the aorist instead.",
+          "zh": "不想使用有争议的 -ëa 现在时形式的写作者，可以改用无定时来绕开问题。",
+          "exampleZh": "móta（无定时）／mótëa（争议中的现在时）"
+        }
+      ],
+      "exceptions": [
+        {
+          "titleZh": "NOTE 1：-ë 在词尾前仍作 -e- 的残留",
+          "bodyZh": "ettuler（SD:290）与预期的 ettulir 不符；晚期材料 carir 表明这只是过渡阶段。ettuler 在 SD:290 里（显然）译作 \"are at hand\"，更字面应是 \"are coming forth\"——这也印证无定时可用于进行中的动作。",
+          "sourceEn": "NOTE 1: There are a few examples of what seems to be aorist forms where the ending -ë persists in the form -e- even if the aorist receives an ending."
+        },
+        {
+          "titleZh": "NOTE 2：tápë 与 móta 两个「看着像错」的形式",
+          "bodyZh": "tápë 的长音大概只是手稿墨渍（我们期待 tapë）；móta 的长音则是 A 词干固有的，不是「无定时不能有长元音」的反例。móta 的实际现在时应是 mótëa。",
+          "sourceEn": "NOTE 2: In the case of primary verbs, the aorist and the present tense differ not only regarding the ending."
+        },
+        {
+          "titleZh": "NOTE 3：-ëa 现在时的争议与规避",
+          "bodyZh": "整个「A 词干现在时 -ëa」理论只靠 órëa 一个例证，作者自己标注为 controversial。规避办法就是改用无定时——这不会错，因为 auta 已被译作 is passing。",
+          "sourceEn": "NOTE 3 (added September 2002): As I have pointed out earlier, one grammatical interpretation presented in this course has proved controversial"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "拿 ettuler 当复数无定时的标准形式",
+          "right": "标准是 carir、matir 一类（-i 保留）；ettuler 是短暂阶段的残留",
+          "whyZh": "原文：this seems to have been just a passing \"phase\" ... the plural aorist of car- appears as carir, not **carer。"
+        },
+        {
+          "wrong": "以为 tápë 证明无定时可以拉长元音",
+          "right": "tápë 是孤例（可能是墨渍）；正常无定时保持短元音",
+          "whyZh": "原文：We would expect tapë with a short vowel。"
+        }
+      ],
+      "recapZh": "ettuler 是过渡残留（晚期规范为 carir）；无定时保持短元音（tápë 是孤例、móta 是固有长音）；不想用 -ëa 现在时就改用无定时。",
+      "selfCheckZh": [
+        {
+          "qZh": "car- 的复数无定时是 carir 还是 carer？",
+          "aZh": "carir（WJ:391）；**carer 被明确排除。"
+        },
+        {
+          "qZh": "máta 与 matë 的差别在哪？",
+          "aZh": "máta 是现在时（词干元音拉长），matë 是无定时（短元音）。"
+        },
+        {
+          "qZh": "不想用 -ëa 现在时怎么办？",
+          "aZh": "改用无定时，因为 auta 已被译作 is passing。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-aorist",
+        "unitIds": [
+          18,
+          19,
+          20
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "summary",
+      "kind": "summary",
+      "sourceSectionId": "the-aorist",
+      "titleZh": "17 · 本章小结：原文 Summary 与中文对照",
+      "leadZh": "左侧是 less-b.rtf 第 7 课 Summary 原文（未删节），右侧是等价中文翻译。",
+      "objectives": [
+        "能复述将来时的构成与 A 词干的处理",
+        "能复述无定时的功能与构成",
+        "能把小结的每一句对应到前面的步骤"
+      ],
+      "summaryEn": "Summary of Lesson Seven: In Quenya, the future tense is formed with the ending -uva. When added to an A-stem, the -a of the stem drops out before this ending; for instance, the future tense of the verb linda- \"sing\" is linduva (not **lindauva). Quenya also has a tense termed aorist, which differs from the present tense in that the latter explicitly describes an on-going action. The aorist says nothing about the duration of the action, and while the use of an aorist form does not preclude that the action denoted is drawn-out or on-going, it seems that this tense is more typically used to describe duration-less, punctual, habitual, characteristic or altogether timeless actions. An example of an aorist is quetë = \"speaks\", as opposed to present tense quéta \"is speaking\". It may be that the Quenya aorist corresponds quite well to the English simple present tense (\"speaks\"), whereas the Quenya present tense rather corresponds to the English \"is ...-ing\" construction (\"is speaking\"). In the case of A-stem verbs, the aorist is identical to the verbal stem itself (irrespective of any secondary endings the aorist verb may receive). In the case of primary verbs, the aorist tense is formed by means of the ending -i, which however changes to -ë if no secondary ending (e.g. -r for plural) is to follow. Hence the aorist of mat- \"to eat\" is matë \"eats\" if there is no further ending added to the word, but otherwise we see mati- + ending (e.g. matir \"eat\" in the case of a plural subject).",
+      "summaryZh": "第七课小结：在昆雅里，将来时用词尾 -uva 构成。加到 A 词干上时，词干的 -a 在此词尾前脱落；例如动词 linda-「歌唱」的将来时是 linduva（而非 **lindauva）。昆雅还有一个称为无定时的时态，它与现在时的区别在于：后者明确描述正在进行的动作。无定时对动作的持续时间什么也不说；虽然使用无定时形式并不排除所表动作是绵延的或正在进行的，但这个时态看来更典型地用于描述无持续性的、点状的、习惯性的、特征性的或完全无时间性的动作。无定时的例子是 quetë＝「说」，与现在时 quéta「正在说」相对。昆雅无定时也许与英语一般现在时（「说」）相当对应，而昆雅现在时则更对应英语 \"is ...-ing\" 结构（「正在说」）。就 A 词干动词而言，无定时与动词词干本身相同（无论无定时动词可能带上什么次级词尾）。就基本动词而言，无定时靠词尾 -i 构成，但若后面不接次级词尾（如复数的 -r），该词尾变为 -ë。因此 mat-「吃」的无定时在不加更多词尾时是 matë「吃」，否则我们见到 mati- + 词尾（例如复数主语时的 matir「吃」）。",
+      "formulaZh": [
+        "将来时：基本动词 + -uva（hiruva）；A 词干丢 -a + -uva（linduva）；复数 + -r（siluvar）。",
+        "无定时（A 词干）：＝词干本身（lanta／lantar）。",
+        "无定时（基本动词）：+ -i；词末 -i → -ë（matë）；接词尾保留 -i（matir）。",
+        "功能：对持续不作标记；典型用于瞬时、习惯、无时间性的动作。",
+        "选择：完全无持续性 → 必须用无定时；其余看语境（一般现在时→无定时，is ...-ing→现在时）。"
+      ],
+      "selfCheckZh": [
+        {
+          "qZh": "小结里说 A 词干将来时的错误形式是什么？",
+          "aZh": "**lindauva（正确为 linduva）。"
+        },
+        {
+          "qZh": "小结用什么对比无定时与现在时？",
+          "aZh": "quetë「speaks」对 quéta「is speaking」。"
+        },
+        {
+          "qZh": "基本动词无定时的复数怎么构成？",
+          "aZh": "mati- + -r → matir。"
+        }
+      ]
+    },
+    {
+      "sectionId": "vocabulary",
+      "kind": "vocabulary",
+      "sourceSectionId": "vocabulary",
+      "titleZh": "18 · 课末词汇：2 个数词/名词 + 8 个名词 + 2 个动词",
+      "leadZh": "本课词汇以名词为主（ilya、rimba、Atan、ohtar、rá、Ambar、hrávë、macil），另有两个动词 fir-、tur- 与介词 or。练习 A–P 几乎全部用这些词。",
+      "objectives": [
+        "能默写 12 个词并标出词性",
+        "能说清 ilya 的单复数用法",
+        "能写出 fir-、tur- 的无定时与将来时"
+      ],
+      "rules": [
+        {
+          "id": "rule-ilya",
+          "headZh": "ilya：「每个」还是「全部」",
+          "bodyZh": "ilya 作名词／形容词，意为「全部、每个」。用于单数名词前表「每个」（ilya Elda「每个精灵」）；单独出现则更像「全部」。用于复数名词前时也表示「全部」，并像普通形容词那样变复数，成为 ilyë（源自更早的 ilyai）。",
+          "en": "ilya, noun/adjective \"all, every\"",
+          "zh": "ilya，名词／形容词「全部、每个」。",
+          "exampleZh": "ilya Elda「每个精灵」；ilyë tier「所有道路」；ilyë mahalmar「所有宝座」"
+        }
+      ],
+      "table": {
+        "captionZh": "12 词与无定时／将来时推演",
+        "headers": [
+          "课末词",
+          "词性 / 释义",
+          "无定时",
+          "将来时"
+        ],
+        "rows": [
+          [
+            "enquë",
+            "数词「六」",
+            "—",
+            "—"
+          ],
+          [
+            "ilya",
+            "名词／形容词「全部、每个」",
+            "—",
+            "—"
+          ],
+          [
+            "rimba",
+            "形容词「众多的」",
+            "—",
+            "—"
+          ],
+          [
+            "Atan",
+            "名词「人」（会死的人）",
+            "—",
+            "—"
+          ],
+          [
+            "ohtar",
+            "名词「战士」",
+            "—",
+            "—"
+          ],
+          [
+            "rá (ráv-)",
+            "名词「狮子」",
+            "—",
+            "—"
+          ],
+          [
+            "Ambar",
+            "名词「世界」",
+            "—",
+            "—"
+          ],
+          [
+            "hrávë",
+            "名词「肉」",
+            "—",
+            "—"
+          ],
+          [
+            "macil",
+            "名词「剑」",
+            "—",
+            "—"
+          ],
+          [
+            "fir-",
+            "动词「死、逝去」",
+            "firë / firir",
+            "firuva"
+          ],
+          [
+            "tur-",
+            "动词「统治、控制、挥动」",
+            "turë / turir",
+            "turuva"
+          ],
+          [
+            "or",
+            "介词「在……之上」",
+            "—",
+            "—"
+          ]
+        ]
+      },
+      "pitfalls": [
+        {
+          "wrong": "把 ilya 一律当「全部」",
+          "right": "单数名词前是「每个」（ilya Elda）；复数名词前变 ilyë 才是「全部」",
+          "whyZh": "词汇表原文：\"every\" before a singular noun ... before a plural noun, this word also signifies \"all\" and is inflected for plural as a common adjective, hence becoming ilyë。"
+        },
+        {
+          "wrong": "以为 Atan 指「男性」",
+          "right": "Atan 指会死的「人」，与精灵相对；「有感知的男性」是 nér",
+          "whyZh": "词汇表原文：Atan \"Man\" (not \"sentient male\", which is nér, but Mortal Man as opposed to Immortal Elf, or Dwarf)。"
+        }
+      ],
+      "closeReadingZh": [
+        {
+          "headZh": "两个容易读漏的标注：ráv- 与 Ambar",
+          "bodyZh": "rá 标注 (ráv-)，说明这个词接词尾时出现 v，属 ráv- 词干。Ambar 首字母大写、原文说它大概不需要冠词 i，是被当作专名处理的——所以练习 G 是 or Ambar 而不是 or i Ambar，练习 L 的 ilya Ambar 同样不带冠词。"
+        }
+      ],
+      "recapZh": "12 词以名词为主；ilya 单数为「每个」、复数为「全部」；fir-、tur- 是无定时与将来时的主要练习对象。",
+      "selfCheckZh": [
+        {
+          "qZh": "ilya Elda 与 ilyë Eldar 意思有何不同？",
+          "aZh": "前者「每个精灵」，后者「所有精灵」。"
+        },
+        {
+          "qZh": "tur- 的无定时与将来时？",
+          "aZh": "turë（复数 turir）与 turuva。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "vocabulary",
+        "unitIds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "labelZh": "词汇"
+      }
+    },
+    {
+      "sectionId": "exercises",
+      "kind": "exercises",
+      "sourceSectionId": "exercises",
+      "titleZh": "19 · 练习工作台：A–P 与 keys 核对",
+      "leadZh": "A–H 昆雅译英，I–P 英译昆雅。本课只考将来时（-uva）与无定时；B、C、M 三题还考将来时复数 -r，P 题考现在时与无定时的对比。",
+      "objectives": [
+        "独立完成 A–P，不先展开答案",
+        "能说出每题用的是将来时还是无定时、依据哪条规则",
+        "核对后能把错题回链到对应规则卡"
+      ],
+      "workflowZh": [
+        "第一遍：遮住答案，先判断动词是将来时还是无定时",
+        "将来时：基本动词 + -uva；A 词干丢 -a 再加 -uva",
+        "无定时：A 词干＝词干；基本动词加 -i，词末 -ë，接词尾保留 -i",
+        "再看主语单复数：将来时加 -r，无定时基本动词用 mati- + -r",
+        "点「核对」比对 keys 原文答案",
+        "错题按「回到本课规则」跳回规则卡",
+        "最后展开 keys 全文与 EXERCISES 原文复核"
+      ],
+      "teachingNoteZh": "keys.rtf 对本课有两条重要说明：① A、B、E、F、G 的无定时表「一般真理」，H 的无定时表瞬时的、无持续性的动作；② K 的无定时也是瞬时动作，L、N 的无定时表个人的一般特征或习惯，O 的无定时（matir）与 P 的现在时（mátar）正好构成「一般真理 vs 正在进行」的对照。",
+      "bilingual": {
+        "sectionId": "exercises",
+        "unitIds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "labelZh": "练习"
+      }
+    }
+  ]
+}

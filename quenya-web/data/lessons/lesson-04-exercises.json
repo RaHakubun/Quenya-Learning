@@ -1,0 +1,376 @@
+{
+  "kind": "translation",
+  "introZh": "A–H 为昆雅译英，I–P 为英译昆雅。本课只有两个考点：形容词该用哪种复数词尾；系词 ná/nar 是否与主语数一致。G 题另考「定语还是谓语」的歧义。",
+  "pointMapZh": [
+    {
+      "labelZh": "-a → -ë（形容词复数）",
+      "ruleRef": "rule-plural-ai",
+      "noteZh": "B、D、F、H、M、O"
+    },
+    {
+      "labelZh": "-ëa → -ië",
+      "ruleRef": "rule-plural-ea",
+      "noteZh": "N"
+    },
+    {
+      "labelZh": "-ë → -i",
+      "ruleRef": "rule-plural-e",
+      "noteZh": "A、L"
+    },
+    {
+      "labelZh": "-in → -i（传统假定）",
+      "ruleRef": "rule-plural-in",
+      "noteZh": "C"
+    },
+    {
+      "labelZh": "系词 ná / nar 与主语数一致",
+      "ruleRef": "rule-copula-nar",
+      "noteZh": "E、F、K、M、N、O、P"
+    },
+    {
+      "labelZh": "定语 vs 谓语（G 的两解）",
+      "ruleRef": "rule-predicative",
+      "noteZh": "G"
+    },
+    {
+      "labelZh": "形容词与它所描述的名词一致",
+      "ruleRef": "rule-agreement",
+      "noteZh": "H、P"
+    },
+    {
+      "labelZh": "双数名词用常规复数形容词",
+      "ruleRef": "rule-agreement-dual",
+      "noteZh": "B"
+    }
+  ],
+  "part1": {
+    "titleZh": "练习一 · 昆雅译英（A–H）",
+    "hintZh": "先看形容词是哪种词尾、名词是单数还是复数，再看有没有系词。G 题要给出两种译法并说明依据。",
+    "items": [
+      {
+        "id": "A",
+        "prompt": "Morë rocco.",
+        "pointZh": "-ë 类形容词单数 + 单数名词",
+        "hintsZh": [
+          "morë「黑的」是 -ë 类形容词。",
+          "rocco「马」是单数，所以形容词也用单数 morë。",
+          "无冠词，故为不定「一匹黑马」。"
+        ],
+        "ruleRef": "rule-plural-e",
+        "ruleLabelZh": "回到规则：-ë 类形容词",
+        "answerKey": "A black horse.",
+        "answerKeyZh": "一匹黑马。",
+        "answerAlt": [
+          "a black horse",
+          "black horse",
+          "一匹黑色的马"
+        ],
+        "answerZh": "morë 与单数 rocco 一致；无冠词故译「一匹黑马」。keys：\"A black horse.\""
+      },
+      {
+        "id": "B",
+        "prompt": "Calimë hendu.",
+        "pointZh": "calima 复数 calimë + 双数名词 hendu",
+        "hintsZh": [
+          "calima「明亮的」是 -a 类，复数作 -ë：calimë。",
+          "hendu 是 hen 的双数（成对的眼睛）。",
+          "形容词没有专门双数形式，用常规复数。"
+        ],
+        "ruleRef": "rule-agreement-dual",
+        "ruleLabelZh": "回到规则：双数名词用常规复数形容词",
+        "answerKey": "Bright eyes (hendu = a natural pair of eyes).",
+        "answerKeyZh": "明亮的眼睛（hendu 指天然成对的一双眼睛）。",
+        "answerAlt": [
+          "bright eyes",
+          "bright eyes (a natural pair)",
+          "明亮的眼睛",
+          "一双明亮的眼睛"
+        ],
+        "answerZh": "calima 与双数 hendu 搭配，仍取常规复数 calimë（形容词无双数形式）。keys 特别注明 hendu 是 natural pair of eyes。"
+      },
+      {
+        "id": "C",
+        "prompt": "Neldë firini neri.",
+        "pointZh": "firin 的复数 firini；neldë + 复数名词",
+        "hintsZh": [
+          "neldë「三」后面接复数。",
+          "neri 是 nér 的复数。",
+          "firin 是 -in 类，按传统假定加 -i 得 firini。"
+        ],
+        "ruleRef": "rule-plural-in",
+        "ruleLabelZh": "回到规则：-in 类加 -i",
+        "answerKey": "Three dead men.",
+        "answerKeyZh": "三个死人。",
+        "answerAlt": [
+          "three dead men",
+          "三个死人",
+          "三个死了的男人"
+        ],
+        "answerZh": "firin → firini（-in 类传统假定）；neri 复数。keys：\"Three dead men.\""
+      },
+      {
+        "id": "D",
+        "prompt": "Vanyë aiwi.",
+        "pointZh": "vanya 复数 vanyë；aiwë 复数 aiwi",
+        "hintsZh": [
+          "vanya 是 -a 类，复数作 -ë。",
+          "aiwë 是 -ë 类名词，复数用 -i 替换：aiwi。",
+          "两者都是复数，故为泛指的一群鸟。"
+        ],
+        "ruleRef": "rule-plural-ai",
+        "ruleLabelZh": "回到规则：-a → -ë",
+        "answerKey": "Beautiful birds.",
+        "answerKeyZh": "美丽的鸟（复数）。",
+        "answerAlt": [
+          "beautiful birds",
+          "美丽的鸟",
+          "美丽的鸟儿们"
+        ],
+        "answerZh": "vanyë（vanya 复数）+ aiwi（aiwë 复数）。keys：\"Beautiful birds.\""
+      },
+      {
+        "id": "E",
+        "prompt": "Tári ná taura nís.",
+        "pointZh": "系词 ná 与单数主语一致",
+        "hintsZh": [
+          "主语是 tári「女王」，单数。",
+          "系词用单数 ná。",
+          "taura 与 nís 都是单数，谓语形容词用单数。"
+        ],
+        "ruleRef": "rule-copula-na",
+        "ruleLabelZh": "回到规则：ná = is",
+        "answerKey": "A queen is a mighty woman.",
+        "answerKeyZh": "一位女王是一个强大的女人。",
+        "answerAlt": [
+          "a queen is a mighty woman",
+          "一位女王是强大的女人",
+          "女王是强大的女人"
+        ],
+        "answerZh": "主语单数 → ná；taura 修饰单数 nís 故用单数。keys：\"A queen is a mighty woman.\""
+      },
+      {
+        "id": "F",
+        "prompt": "I oronti nar altë.",
+        "pointZh": "复数主语 → nar；alta 复数 altë",
+        "hintsZh": [
+          "oronti 是 oron 的复数。",
+          "复数主语要求系词用 nar。",
+          "alta 是 -a 类，复数作 altë。"
+        ],
+        "ruleRef": "rule-copula-nar",
+        "ruleLabelZh": "回到规则：nar = are",
+        "answerKey": "The mountains are great.",
+        "answerKeyZh": "这些山是大的。",
+        "answerAlt": [
+          "the mountains are great",
+          "山是大的",
+          "那些山很大"
+        ],
+        "answerZh": "oronti 复数 → nar；altë 是 alta 的复数。keys：\"The mountains are great.\""
+      },
+      {
+        "id": "G",
+        "prompt": "Aran taura (two possible translations!)",
+        "pointZh": "名词 + 形容词：谓语断言或后置定语",
+        "hintsZh": [
+          "没有系词，所以既可能是谓语断言。",
+          "也可能是名词后置的定语。",
+          "后置定语比前置少见：更常见的定语语序是 taura aran。"
+        ],
+        "ruleRef": "rule-predicative",
+        "ruleLabelZh": "回到规则：谓语 vs 定语",
+        "answerKey": "Best interpreted \"a king [is] mighty\", the copula being left out and understood, but it could also mean \"a mighty king\" with a somewhat unusual word-order",
+        "answerKeyZh": "最好解作「国王［是］强大的」（系词省略），也可解作「一个强大的国王」（较少见的后置定语语序）",
+        "answerAlt": [
+          "a king is mighty",
+          "a mighty king",
+          "国王是强大的",
+          "一个强大的国王"
+        ],
+        "answerZh": "keys 给出两解并说明理由：名词 + 形容词的语序既可以省略系词作谓语，也可以是后置定语；但定语更常前置（taura aran 而非 aran taura）。"
+      },
+      {
+        "id": "H",
+        "prompt": "I nér ar i nís nar sailë.",
+        "pointZh": "两个单数主语 → 系词用 nar；saila 复数 sailë",
+        "hintsZh": [
+          "主语是「男人和女人」两个人，合起来是复数。",
+          "故系词用 nar。",
+          "saila 是 -a 类，复数作 sailë。"
+        ],
+        "ruleRef": "rule-agreement",
+        "ruleLabelZh": "回到规则：描述多个名词时形容词用复数",
+        "answerKey": "The man and the woman are wise.",
+        "answerKeyZh": "那个男人和那个女人是智慧的。",
+        "answerAlt": [
+          "the man and the woman are wise",
+          "男人和女人是智慧的",
+          "那男人和那女人很智慧"
+        ],
+        "answerZh": "两个单数名词并列 → 系词 nar、形容词 sailë。正文明确：形容词描述多个名词时即便各名词单数也要用复数。keys：\"The man and the woman are wise.\""
+      }
+    ]
+  },
+  "part2": {
+    "titleZh": "练习二 · 英译昆雅（I–P）",
+    "hintZh": "先定主语的数（决定 ná 还是 nar），再定每个形容词修饰谁（决定它自己用单数还是复数）。P 题的关键是「民族」用单数 lië。",
+    "items": [
+      {
+        "id": "I",
+        "prompt": "The white gate.",
+        "pointZh": "ninquë 单数与单数名词 ando 一致；加定冠词 i",
+        "hintsZh": [
+          "「那扇」要用定冠词 i。",
+          "ninquë 是 -ë 类形容词，ando 是单数。",
+          "语序：i + 形容词 + 名词。"
+        ],
+        "ruleRef": "rule-adj-order",
+        "ruleLabelZh": "回到规则：形容词 + 名词",
+        "answerKey": "I ninquë ando.",
+        "answerKeyZh": "那扇白色的门。",
+        "answerAlt": [
+          "i ninquë ando",
+          "I ninquë ando",
+          "i ninque ando"
+        ],
+        "answerZh": "定冠词 i + 单数形容词 ninquë + 单数名词 ando。keys：\"I ninquë ando.\""
+      },
+      {
+        "id": "J",
+        "prompt": "A great ship.",
+        "pointZh": "alta 只指物理尺寸；无冠词即不定",
+        "hintsZh": [
+          "「一条」不需要冠词，昆雅没有不定冠词。",
+          "alta 是 -a 类，cirya 单数。",
+          "形容词前置：alta cirya。"
+        ],
+        "ruleRef": "rule-adj-order",
+        "ruleLabelZh": "回到规则：形容词 + 名词",
+        "answerKey": "Alta cirya.",
+        "answerKeyZh": "一条大船。",
+        "answerAlt": [
+          "alta cirya",
+          "Alta cirya",
+          "alta cirya."
+        ],
+        "answerZh": "无冠词即不定；alta 修饰单数 cirya。keys：\"Alta cirya.\""
+      },
+      {
+        "id": "K",
+        "prompt": "The floor is red.",
+        "pointZh": "系词 ná + 单数谓语形容词 carnë",
+        "hintsZh": [
+          "主语 talan 单数，用 i 表示定指。",
+          "系词用单数 ná。",
+          "carnë 是 -ë 类形容词，单数形式即 carnë。"
+        ],
+        "ruleRef": "rule-copula-na",
+        "ruleLabelZh": "回到规则：ná = is",
+        "answerKey": "I talan ná carnë.",
+        "answerKeyZh": "那块地板是红的。",
+        "answerAlt": [
+          "i talan ná carnë",
+          "I talan ná carnë",
+          "i talan na carne"
+        ],
+        "answerZh": "i talan（定指单数）+ ná + carnë。keys：\"I talan ná carnë.\"，并注明系词可省略。"
+      },
+      {
+        "id": "L",
+        "prompt": "One black stone and three white stones.",
+        "pointZh": "morë 单数 / ninqui 复数；minë 与 neldë 的分工",
+        "hintsZh": [
+          "「一块黑石头」用 minë + 单数。",
+          "「三块白石头」用 neldë + 复数 sardi。",
+          "ninquë 是 -ë 类，复数作 ninqui。"
+        ],
+        "ruleRef": "rule-plural-e",
+        "ruleLabelZh": "回到规则：-ë → -i",
+        "answerKey": "Minë morë sar ar neldë ninqui sardi.",
+        "answerKeyZh": "一块黑石头和三块白石头。",
+        "answerAlt": [
+          "minë morë sar ar neldë ninqui sardi",
+          "Minë morë sar ar neldë ninqui sardi"
+        ],
+        "answerZh": "minë + 单数 morë sar；ar 连接；neldë + 复数 ninqui sardi。keys：\"Minë morë sar ar neldë ninqui sardi.\""
+      },
+      {
+        "id": "M",
+        "prompt": "Wise kings are mighty men.",
+        "pointZh": "sailë / taurë 两个 -a 类复数 + nar",
+        "hintsZh": [
+          "arani 是 aran 的复数，主语复数 → nar。",
+          "saila 复数 sailë，作前置定语。",
+          "taura 复数 taurë，修饰 neri。"
+        ],
+        "ruleRef": "rule-plural-ai",
+        "ruleLabelZh": "回到规则：-a → -ë",
+        "answerKey": "Sailë arani nar taurë neri.",
+        "answerKeyZh": "智慧的国王们是强大的人。",
+        "answerAlt": [
+          "sailë arani nar taurë neri",
+          "Sailë arani nar taurë neri"
+        ],
+        "answerZh": "两个 -a 类形容词都变 -ë；主语复数故用 nar。keys：\"Sailë arani nar taurë neri.\""
+      },
+      {
+        "id": "N",
+        "prompt": "The mighty man and the beautiful woman are evil.",
+        "pointZh": "taura / vanya 单数定语；úmëa 复数 úmië",
+        "hintsZh": [
+          "两个主语都是单数，但并列后是复数 → nar。",
+          "taura 与 vanya 分别修饰单数名词，保持单数。",
+          "úmëa 是 -ëa 类，复数作 úmië。"
+        ],
+        "ruleRef": "rule-plural-ea",
+        "ruleLabelZh": "回到规则：-ëa → -ië",
+        "answerKey": "I taura nér ar i vanya nís nar úmië.",
+        "answerKeyZh": "那个强大的男人和那个美丽的女人是邪恶的。",
+        "answerAlt": [
+          "i taura nér ar i vanya nís nar úmië",
+          "I taura nér ar i vanya nís nar úmië"
+        ],
+        "answerZh": "定语形容词随各自名词用单数；谓语 úmëa 因并列主语用复数 úmië。keys：\"I taura nér ar i vanya nís nar úmië.\""
+      },
+      {
+        "id": "O",
+        "prompt": "Elves are beautiful.",
+        "pointZh": "Eldar 复数 → nar + vanyë",
+        "hintsZh": [
+          "Elf 按课程约定用 Elda，复数 Eldar。",
+          "主语复数 → nar。",
+          "vanya 复数作 vanyë。"
+        ],
+        "ruleRef": "rule-plural-ai",
+        "ruleLabelZh": "回到规则：-a → -ë",
+        "answerKey": "Eldar nar vanyë.",
+        "answerKeyZh": "精灵们是美丽的。",
+        "answerAlt": [
+          "eldar nar vanyë",
+          "Eldar nar vanyë",
+          "eldar nar vanye"
+        ],
+        "answerZh": "主语 Eldar 复数 → nar；vanyë 与之一致。keys：\"Eldar nar vanyë.\""
+      },
+      {
+        "id": "P",
+        "prompt": "The Elves are a beautiful people.",
+        "pointZh": "lië 是单数名词，故 vanya 用单数",
+        "hintsZh": [
+          "「一个民族」在昆雅用单数名词 lië。",
+          "形容词修饰的是 lië，不是 Eldar。",
+          "所以用单数 vanya，而系词仍随主语 Eldar 用 nar。"
+        ],
+        "ruleRef": "rule-agreement",
+        "ruleLabelZh": "回到规则：形容词与它所描述的名词一致",
+        "answerKey": "Eldar nar vanya lië.",
+        "answerKeyZh": "精灵们是一个美丽的民族。",
+        "answerAlt": [
+          "eldar nar vanya lië",
+          "Eldar nar vanya lië"
+        ],
+        "answerZh": "keys 特别说明：vanya 与单数 lië 一致（作定语），不与复数 Eldar 一致——这正是 O 题与 P 题的分水岭。"
+      }
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+不定代词
+
+英语 one、you 常含混泛指：「人总得谋生……」「你不禁纳闷……」——one 非数字 minë，you 非受话人。昆雅有代词 quen（WJ:361），实为 unstressed quén「人」，与 Quendë 相关但无专指精灵义。缺例，须假设 quen = one/someone：quen milyanë leryalë「有人渴望解脱」、quen hantë i yulma「有人打破了杯」。大概可接格尾，如属格 queno、dative quenen（英语常译 for you 泛指：Matië yávë ná mára quenen「吃水果对你〔人们〕有益」）。
+
+多数昆雅代词为词尾，托尔金某阶段或曾有 -o 表 one：早期 Qenya Kildo kirya ninqe「人们见一艘白船」（MC:220-221）。改 LotR 式昆雅 kildo 不妥，-o 晚期地位 Highly doubtful。LotR 式 safer 用后 LotR 之 quen。
+
+NOTE：另一无人称 mo（VT42:34 alasaila ná lá carë tai mo navë mára「不作自己认为好者不明智」）。mo 是否接格不明（属格不变）。本课练习一律 quen。
+
+十三课概要：与格标间接宾语（常为受益方，亦可为受损方）。单数尾 -n（辅音后插 -e-）。名义复数 -i 者与格复数 -in；-r 复数者同样 -in 不用 -r，如 Eldar > Eldain。双数与格 -nt（名义 -t 双数者）；-u 双数或与 -uen（早期 -n 作属格时 veruen 等，可信度有限）。——动名词 almost 如名词表动词行动，却仍可取宾语。昆雅动名词 -ië（亦为一般抽象尾）；A 词干末 -a 落； -ya 动词整 -ya 落。英语表目的不定式译昆雅与格动名词，如 hirien「〔为〕找到」。——「我们」多尾：显然 -lvë inclusive；-lmë exclusive（忽略早阶段 -lmë incl.、-mmë excl.）。——不定代词 one/someone = quen，可接格如 queno「某人的」。

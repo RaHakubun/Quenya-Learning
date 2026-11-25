@@ -1,0 +1,78 @@
+{
+ "lesson": 20,
+ "introZh": "本课 12 个词条：两个序数（nertëa、quainëa）、两个助词（ma、sa）、三个地点／时间词（nómë、sinomë、tenna）、三个 to be 相关形式（ëa、mal 之外的 né）、两个动词（ista-、lerta-），以及连词 mal。",
+ "entries": [
+  {
+   "word": "nertëa",
+   "posZh": "序数词",
+   "glossZh": "第九",
+   "noteZh": "由 nertë「nine」加 -ëa。练习 M「tenna i nertëa loa」。"
+  },
+  {
+   "word": "quainëa",
+   "posZh": "序数词",
+   "glossZh": "第十",
+   "noteZh": "据 VT42 的数词文本，预设另一个「十」的词 quainë（未单独可证）。与《词源》的 cainen／cainenya 属不同系统；为补全 1–10 序数表，本课采用 quainëa。练习 G、P 用它。"
+  },
+  {
+   "word": "ma",
+   "posZh": "疑问助词／不定代词",
+   "glossZh": "（是非问标记）",
+   "noteZh": "可能的是非问助词，加在句首：Ma tences i parma?。晚期材料里另有同形的不定代词 ma「某物」（VT42:34）。两个 ma 能否共存，作者称为品味问题。"
+  },
+  {
+   "word": "sa",
+   "posZh": "连词性助词",
+   "glossZh": "（引出名词性从句）",
+   "noteZh": "唯一证据是 Merin 句 merin sa haryalyë alassë。可能属早期，但写作者几乎离不开它。练习 B、D、H、L、N、O 都含 sa 从句。"
+  },
+  {
+   "word": "nómë",
+   "posZh": "名词",
+   "glossZh": "地方",
+   "noteZh": "练习 E「nómë sinallo」＝「从这个地方」。"
+  },
+  {
+   "word": "sinomë",
+   "posZh": "副词／位格形式",
+   "glossZh": "在此处、这里",
+   "noteZh": "由 sina「this」的 si- 与 nómë 的缩略 -nomë 合成。练习 G「sinomë」、H「coa sinassë」、第 45 节的 istan sa ëalyë sinomë。"
+  },
+  {
+   "word": "tenna",
+   "posZh": "介词",
+   "glossZh": "直到、至于",
+   "noteZh": "练习 H「tenna hirilmes」、M「tenna i nertëa loa」。"
+  },
+  {
+   "word": "ëa",
+   "posZh": "动词",
+   "glossZh": "存在、有（＝is, exists）",
+   "noteZh": "现在时／不定过去时 ëa，命令式同形，过去时 engë（VT43:36 确证），将来时或作 euva。用于存在、在场、位置：Eru ëa、Eä malta i orontissen。练习 D、F、H、L 用它。"
+  },
+  {
+   "word": "mal",
+   "posZh": "连词",
+   "glossZh": "但是",
+   "noteZh": "作者在众多「but」中选它，因歧义最少（其他：ná／nán／nan、anat、onë、ono、nó）。练习 C、H 用它。"
+  },
+  {
+   "word": "né",
+   "posZh": "动词（过去时）",
+   "glossZh": "曾是（was）",
+   "noteZh": "有迹象表明是 ná 的过去时，作者称之为「几乎等于可证」。复数外推作 ner。练习 B、C、G、P 用它。"
+  },
+  {
+   "word": "ista-",
+   "posZh": "动词",
+   "glossZh": "知道",
+   "noteZh": "过去时不规则作 sintë（不是 **istanë），完成时或作 isintië。与不定式连用表「会」（知识性的 can）：istas tecë。练习 D、H、J、K、L、N 用它。"
+  },
+  {
+   "word": "lerta-",
+   "posZh": "动词",
+   "glossZh": "可以（被允许）",
+   "noteZh": "指因无禁令而可做，英语常译 may；与 pol-（身体能力）、ista-（知识）三分。练习 E、J 用它。"
+  }
+ ]
+}

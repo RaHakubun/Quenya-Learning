@@ -1,0 +1,180 @@
+{
+ "kind": "translation",
+ "introZh": "请先在文稿框中写出译文，再点「核对」比对 keys.rtf；也可直接「显示答案」。",
+ "part1": {
+  "titleZh": "练习一 · 译成中文（或你使用的语言）",
+  "hintZh": "昆雅 → 目标语；对照词汇表与正文例句。",
+  "items": [
+   {
+    "id": "A",
+    "prompt": "Tuluvas i tatya auressë.",
+    "glossZh": "",
+    "answerKey": "(S)he [or, it] will come on the second day.",
+    "answerZh": "keys：(S)he [or, it] will come on the second day."
+   },
+   {
+    "id": "B",
+    "prompt": "I hrívessë rimbë aiwi autar marien Hyarmessë; apa i hrívë autantë Hyarmello ar tulir nórelvanna. [Here, Hyarmessë could also be Hyarmendë.]",
+    "glossZh": "",
+    "answerKey": "In the winter[,] many birds go away to dwell in [the] South; after the winter they go away from [the] South [or, leave the South] and come to our (incl.) land.",
+    "answerZh": "keys：In the winter[,] many birds go away to dwell in [the] South; after the winter they go away from [the] South [or, leave the South] and come to our (incl.) land."
+   },
+   {
+    "id": "C",
+    "prompt": "Hiritarya malta i orontissen ánë alassë lieryan, an hiritaryas carnë lierya alya.",
+    "glossZh": "",
+    "answerKey": "His/her finding gold in the mountains gave joy to his/her people, for his/her finding it made his/her people rich.",
+    "answerZh": "keys：His/her finding gold in the mountains gave joy to his/her people, for his/her finding it made his/her people rich."
+   },
+   {
+    "id": "D",
+    "prompt": "Tatya hrívessë ya marnes i coassë hirnes harma nu i talan.",
+    "glossZh": "",
+    "answerKey": "In [the] second winter that (s)he lived in the house[,] (s)he found a treasure under the floor.",
+    "answerZh": "keys：In [the] second winter that (s)he lived in the house[,] (s)he found a treasure under the floor."
+   },
+   {
+    "id": "E",
+    "prompt": "Quetis lambelva, an maris nórelvassë.",
+    "glossZh": "",
+    "answerKey": "(S)he speaks our tongue, for (s)he dwells (/lives) in our (incl.) land.",
+    "answerZh": "keys：(S)he speaks our tongue, for (s)he dwells (/lives) in our (incl.) land."
+   },
+   {
+    "id": "F",
+    "prompt": "Eques: \"Cennen macil i ohtaro hyarya massë.\"",
+    "glossZh": "",
+    "answerKey": "(S)he says/said: \"I saw a sword in the warrior's left hand.\" (Notice the shortening of the long vowel of má before a consonant cluster: locative massë.)",
+    "answerZh": "keys：(S)he says/said: \"I saw a sword in the warrior's left hand.\" (Notice the shortening of the long vowel of má before a consonant cluster: locative massë.)"
+   },
+   {
+    "id": "G",
+    "prompt": "I nér i hirnë i harma nurtuva i engwi yar ihíries samberyatsë.",
+    "glossZh": "",
+    "answerKey": "The man who found the treasure will hide the things which he has found in his two-room apartment (...if we continue to translate dual forms of sambë \"room\" as \"two-room apartment\", that is. Notice that the second i of the Quenya sentence is the relative pronoun \"who\", not the article \"the\". The relative pronoun ya \"which\" here appears in the form yar, a plural ending being attached, because it refers back to the plural word \"things\": We assume that ya is inflected as a noun in -a. This yar should not be confused with the attested form yar \"to whom\", which is not plural but has the old allative ending -r [as in mir \"into\"] attached.)",
+    "answerZh": "keys：The man who found the treasure will hide the things which he has found in his two-room apartment (...if we continue to translate dual forms of sambë \"room\" as \"two-room apartment\", that is. Notice that the second i of the Quenya sentence is the relative pronoun \"who\", not the article \"the\". The relative pronoun ya \"which\" here appears in the form yar, a plural ending being attached, because it refers back to the plural word \"things\": We assume that ya is inflected as a noun in -a. This yar should not be confused with the attested form yar \"to whom\", which is not plural but has the old allative ending -r [as in mir \"into\"] attached.)"
+   },
+   {
+    "id": "H",
+    "prompt": "I ambossë cenis i veru yat itíries coaryallo, ar yant ánes annarya.",
+    "glossZh": "",
+    "answerKey": "On the hill[,] (s)he sees the couple whom (s)he has watched from his/her house, and to whom (s)he gave his/her gift. (We assume that the relative pronoun ya would appear with dual endings when referring to a dual word: yat, dative yant.)",
+    "answerZh": "keys：On the hill[,] (s)he sees the couple whom (s)he has watched from his/her house, and to whom (s)he gave his/her gift. (We assume that the relative pronoun ya would appear with dual endings when referring to a dual word: yat, dative yant.)"
+   }
+  ]
+ },
+ "part2": {
+  "titleZh": "练习二 · 译成昆雅",
+  "hintZh": "目标语 → 昆雅；注意复数、冠词 i、词序。",
+  "items": [
+   {
+    "id": "I",
+    "prompt": "She saw a couple in the street.",
+    "glossZh": "",
+    "answerKey": "Cennes veru i mallessë.",
+    "answerZh": "keys：Cennes veru i mallessë."
+   },
+   {
+    "id": "J",
+    "prompt": "I found the woman who lives in the house between the rivers, and I watched her lips (dual) and her hands (dual); in her left hand I saw a book.",
+    "glossZh": "",
+    "answerKey": "Hirnen(yë) i nís i marë i coassë imbë i síri, ar tirnen(yë) péryat ar máryat; hyarya máryassë cennen(yë) parma. (Notice that the second i of this sentence functions as a relative pronoun \"who\", not as an article. Cf. exercise G above: i nér i... \"the man who...\")",
+    "answerZh": "keys：Hirnen(yë) i nís i marë i coassë imbë i síri, ar tirnen(yë) péryat ar máryat; hyarya máryassë cennen(yë) parma. (Notice that the second i of this sentence functions as a relative pronoun \"who\", not as an article. Cf. exercise G above: i nér i... \"the man who...\")"
+   },
+   {
+    "id": "K",
+    "prompt": "I saw his cup in his hands (dual), the cup from which he poured wine into his mouth.",
+    "glossZh": "",
+    "answerKey": "Cennen(yë) yulmarya máryatsë, i yulma yallo ulyanes limpë mir antorya (or, antoryanna, using a simple allative instead of the preposition mir).",
+    "answerZh": "keys：Cennen(yë) yulmarya máryatsë, i yulma yallo ulyanes limpë mir antorya (or, antoryanna, using a simple allative instead of the preposition mir)."
+   },
+   {
+    "id": "L",
+    "prompt": "The ones who dwell in the towers to which the man is going are warriors.",
+    "glossZh": "",
+    "answerKey": "I marir i mindonissen yannar lelyëa [or, lelya] i nér nar ohtari. (Notice the word order: the verb immediately follows yannar \"to which\", just like it immediately follows yassen \"in which\" in our attested example in Namárië. But it may well be that ...yannar i nér lelyëa/lelya would be equally possible.)",
+    "answerZh": "keys：I marir i mindonissen yannar lelyëa [or, lelya] i nér nar ohtari. (Notice the word order: the verb immediately follows yannar \"to which\", just like it immediately follows yassen \"in which\" in our attested example in Namárië. But it may well be that ...yannar i nér lelyëa/lelya would be equally possible.)"
+   },
+   {
+    "id": "M",
+    "prompt": "His drinking the wine was not a good idea, for what he did after his drinking it was not wise.",
+    "glossZh": "",
+    "answerKey": "Sucitarya i limpë úmë mára noa, an ya carnes apa sucitaryas úmë saila. (Maybe the initial sucitarya could just as well be sucierya – the pronominal ending being attached to the gerund of suc- \"to drink\".)",
+    "answerZh": "keys：Sucitarya i limpë úmë mára noa, an ya carnes apa sucitaryas úmë saila. (Maybe the initial sucitarya could just as well be sucierya – the pronominal ending being attached to the gerund of suc- \"to drink\".)"
+   },
+   {
+    "id": "N",
+    "prompt": "After we (excl.) went away [pa.t. of auta-] from our (excl.) land in the South, we have seen many Dwarves on the roads.",
+    "glossZh": "",
+    "answerKey": "Apa oantelmë nórelmallo (i) Hyarmessë, ecénielmë rimbë Naucor i mallessen.",
+    "answerZh": "keys：Apa oantelmë nórelmallo (i) Hyarmessë, ecénielmë rimbë Naucor i mallessen."
+   },
+   {
+    "id": "O",
+    "prompt": "The towers on the hills are great; the one who owns [harya = possesses] the greatest tower, from which one [quen] can see the Elven-land [Eldanórë], is the richest man in the city.",
+    "glossZh": "",
+    "answerKey": "I mindoni i ambossen nar altë; i harya i analta mindon, yallo polë quen cenë i Eldanórë, ná i analya nér i ostossë. (...yallo polë quen cenë, literally \"from which can one see\": I assume that in a phrase like polë cenë \"can see\", with a finite verb followed by an infinitive, it is only the finite verb that is relocated to immediately follow a relative pronoun like yallo. But we lack attested examples, of course; perhaps it should be yallo polë cenë quen with the subject following the entire verb phrase. And for all I know, yallo quen polë cenë with an \"English\" word order may also be permissible.)",
+    "answerZh": "keys：I mindoni i ambossen nar altë; i harya i analta mindon, yallo polë quen cenë i Eldanórë, ná i analya nér i ostossë. (...yallo polë quen cenë, literally \"from which can one see\": I assume that in a phrase like polë cenë \"can see\", with a finite verb followed by an infinitive, it is only the finite verb that is relocated to immediately follow a relative pronoun like yallo. But we lack attested examples, of course; perhaps it should be yallo polë cenë quen with the subject following the entire verb phrase. And for all I know, yallo quen polë cenë with an \"English\" word order may also be permissible.)"
+   },
+   {
+    "id": "P",
+    "prompt": "A people whose king is wise will dwell in peace in a good land which they will love deeply.",
+    "glossZh": "",
+    "answerKey": "Lië yo aran ná saila maruva séressë mára nóressë ya meluvantë núravë. (If ya can really be inflected in the same way as a noun in -a, as suggested by the example yassen, the genitive \"whose\" would in the singular be yo – the group -ao being simplified to -o as usual.)",
+    "answerZh": "keys：Lië yo aran ná saila maruva séressë mára nóressë ya meluvantë núravë. (If ya can really be inflected in the same way as a noun in -a, as suggested by the example yassen, the genitive \"whose\" would in the singular be yo – the group -ao being simplified to -o as usual.)"
+   }
+  ]
+ },
+ "pointMapZh": [
+  {
+   "labelZh": "所有格词尾 -rya",
+   "ruleRef": "r-ry1",
+   "noteZh": "C（hiritarya、lieryan）、H（annarya）、J（péryat、máryat）、K（yulmarya、antorya）、M（sucitarya）"
+  },
+  {
+   "labelZh": "双数接 -rya 用 -t",
+   "ruleRef": "r-du1",
+   "noteZh": "J（péryat、máryat）、K（máryatsë）"
+  },
+  {
+   "labelZh": "-ta 不定式接代词词尾",
+   "ruleRef": "r-inf2",
+   "noteZh": "C（hiritarya、hiritaryas）、M（sucitarya、sucitaryas）"
+  },
+  {
+   "labelZh": "长元音在辅音丛前缩短",
+   "ruleRef": "r-lg1",
+   "noteZh": "F（má → massë）、J（máryassë 不缩短）、K（máryatsë 不缩短）"
+  },
+  {
+   "labelZh": "位格 -ssë",
+   "ruleRef": "r-lo2b",
+   "noteZh": "A（auressë）、B（hrívessë、Hyarmessë）、D（hrívessë、coassë）、E（nórelvassë）、F（massë）、H（ambossë）、I（mallessë）、J（coassë、máryassë）、K（máryatsë）、P（séressë、nóressë）"
+  },
+  {
+   "labelZh": "位格复数 -ssen",
+   "ruleRef": "r-lo11",
+   "noteZh": "C（orontissen）、L（mindonissen）、N（mallessen）、O（ambossen）"
+  },
+  {
+   "labelZh": "关系代词 ya 可变格",
+   "ruleRef": "r-re13",
+   "noteZh": "D（ya marnes）、G（yar ihíries）、H（yat、yant）、K（yallo）、L（yannar）、M（ya carnes）、O（yallo）、P（yo、ya）"
+  },
+  {
+   "labelZh": "冠词 i 作关系代词、不可变格",
+   "ruleRef": "r-re12",
+   "noteZh": "G（i nér i hirnë）、J（i nís i marë）、O（i harya i analta mindon）"
+  },
+  {
+   "labelZh": "第三人称 -s",
+   "ruleRef": "r-tp12",
+   "noteZh": "A（tuluvas）、D（marnes、hirnes）、E（quetis、maris）、F（eques）、G（ihíries）、H（cenis、itíries、ánes）、M（carnes）"
+  },
+  {
+   "labelZh": "离格 -llo",
+   "ruleRef": "r-re22",
+   "noteZh": "B（Hyarmello）、H（coaryallo）、K（yallo）、N（nórelmallo）"
+  }
+ ]
+}

@@ -1,0 +1,374 @@
+{
+  "kind": "translation",
+  "introZh": "A–H 为昆雅译英，I–P 为英译昆雅。本课全部题目只考两件事：该不该用双数、用 -t 还是 -u。B、D 两题还要额外说清与上一题的区别，那是本课的语义核心。",
+  "pointMapZh": [
+    {
+      "labelZh": "成对与否：双数 vs atta + 复数",
+      "ruleRef": "rule-dual-t-numerative",
+      "noteZh": "B、D、I、O"
+    },
+    {
+      "labelZh": "-u 顶掉词尾元音",
+      "ruleRef": "rule-dual-u-displaces",
+      "noteZh": "C（aldu）"
+    },
+    {
+      "labelZh": "含 t / d → 用 -u",
+      "ruleRef": "rule-dual-euphony",
+      "noteZh": "J、L、M、N"
+    },
+    {
+      "labelZh": "成对器官用 -u",
+      "ruleRef": "rule-dual-bodyparts",
+      "noteZh": "A、K"
+    },
+    {
+      "labelZh": "词干接词尾（hend-、talam-、oront-）",
+      "ruleRef": "rule-stem-fuller",
+      "noteZh": "A、F、G、H、P"
+    },
+    {
+      "labelZh": "默认无特殊词干",
+      "ruleRef": "rule-stem-majority",
+      "noteZh": "E"
+    }
+  ],
+  "part1": {
+    "titleZh": "练习一 · 昆雅译英（A–H）",
+    "hintZh": "先判断有没有双数、双数用的是 -u 还是 -t，再落笔翻译。B、D 的追问不要跳过。",
+    "items": [
+      {
+        "id": "A",
+        "prompt": "Hendu",
+        "pointZh": "hen 的词干 hend- + 双数 -u；成对器官",
+        "hintsZh": [
+          "hen「眼睛」的词干是 hend-（不是 hen-）。",
+          "词干含 d，按悦耳判据用 -u。",
+          "hend- + -u = hendu；无 i，故不是复数。"
+        ],
+        "ruleRef": "rule-dual-bodyparts",
+        "ruleLabelZh": "回到规则：成对器官用 -u",
+        "answerKey": "(Two) eyes, (natural pair of) eyes.",
+        "answerKeyZh": "（一对）眼睛；一个人的两只眼睛",
+        "answerAlt": [
+          "Two eyes (a natural pair of eyes)",
+          "(Two) eyes",
+          "a pair of eyes",
+          "two eyes (natural pair)",
+          "两只眼睛",
+          "一对眼睛",
+          "一双眼睛"
+        ],
+        "answerZh": "hen 的词干是 hend-，加双数 -u 得 hendu，指一个人的一对眼睛（天然成对）。keys 原文：\"(Two) eyes, (natural pair of) eyes.\""
+      },
+      {
+        "id": "B",
+        "prompt": "Atta hendi (and answer: what is the difference between this and hendu above?)",
+        "pointZh": "数词 atta + 常规复数；与双数的语义分工",
+        "hintsZh": [
+          "atta 是数词「二」，后面接常规复数。",
+          "hen 的复数是 hendi（词干 hend- + -i）。",
+          "区别在「是否成对」：atta hendi 只是「两个眼睛」，不预设属于同一个人。"
+        ],
+        "ruleRef": "rule-dual-t-numerative",
+        "ruleLabelZh": "回到规则：任意两个 → atta + 复数",
+        "answerKey": "Two eyes",
+        "answerKeyZh": "两只眼睛（只是数量为二，不构成天然的一对）",
+        "answerAlt": [
+          "two eyes (not a pair)",
+          "两只眼睛（任意两个）",
+          "两个眼睛"
+        ],
+        "answerZh": "keys 的解释：atta hendi 指「两个眼睛」只是偶然相关，比如两个人的眼睛各取一只；双数 hendu 才指天然成对的一双。中文可译「两只眼睛」并注明不预设成对。"
+      },
+      {
+        "id": "C",
+        "prompt": "Aldu",
+        "pointZh": "alda 含 d，故用 -u 并顶掉词尾 -a；专指双圣树",
+        "hintsZh": [
+          "alda「树」以 -a 结尾，双数 -u 会顶掉这个 -a。",
+          "词中含 d，所以不选 -t。",
+          "首字母大写：这是维林诺双圣树的专名。"
+        ],
+        "ruleRef": "rule-dual-u-displaces",
+        "ruleLabelZh": "回到规则：-u 顶掉词尾元音",
+        "answerKey": "Two trees",
+        "answerKeyZh": "两棵树（特指维林诺的双圣树）",
+        "answerAlt": [
+          "the Two Trees",
+          "two trees (the Two Trees of Valinor)",
+          "双圣树",
+          "两棵树（双圣树）"
+        ],
+        "answerZh": "alda + -u：-u 顶掉词尾 -a 得 aldu；因指维林诺双圣树而大写为 Aldu。keys 只给 \"Two trees.\"，但正文说明它指的不是任意一对树。"
+      },
+      {
+        "id": "D",
+        "prompt": "Atta aldar (and answer again: what is the difference between this and Aldu above?)",
+        "pointZh": "数词 + 常规复数；与专名 Aldu 的分工",
+        "hintsZh": [
+          "alda 的常规复数是 aldar（-a 加 -r）。",
+          "atta aldar = 任意两棵树。",
+          "Aldu 是双数且专指双圣树，不是「两棵树」的另一种写法。"
+        ],
+        "ruleRef": "rule-dual-t-numerative",
+        "ruleLabelZh": "回到规则：任意两个 → atta + 复数",
+        "answerKey": "Two trees",
+        "answerKeyZh": "两棵树（任意两棵，不构成特殊的一对）",
+        "answerAlt": [
+          "two trees (any two)",
+          "任意两棵树",
+          "两棵树（任意）"
+        ],
+        "answerZh": "keys：atta aldar 指任意两棵树；Aldu 指某种紧密相关的一对，如托尔金神话中的双圣树。这正是「双数 vs 数词+复数」的分水岭。"
+      },
+      {
+        "id": "E",
+        "prompt": "Minë nér ar minë nís.",
+        "pointZh": "minë + 单数名词；ar 连接并列成分",
+        "hintsZh": [
+          "minë 是数词「一」，后面接单数。",
+          "nér「男人」词干 ner-，此处用单数独立形。",
+          "nís「女人」，ar「和」。"
+        ],
+        "ruleRef": "rule-stem-majority",
+        "ruleLabelZh": "回到规则：多数词直接加词尾",
+        "answerKey": "One man and one woman.",
+        "answerKeyZh": "一个男人和一个女人。",
+        "answerAlt": [
+          "one man and one woman",
+          "一位男人和一位女人",
+          "一个男人与一个女人"
+        ],
+        "answerZh": "minë nér「一个男人」+ ar「和」+ minë nís「一个女人」。两个名词都用单数独立形，不涉及词干。keys：\"One man and one woman.\""
+      },
+      {
+        "id": "F",
+        "prompt": "I sardi.",
+        "pointZh": "定冠词 i + 复数；sar 的词干 sard-",
+        "hintsZh": [
+          "i 是定冠词「那些」。",
+          "sar「石头」的词干是 sard-，复数 sardi。",
+          "sardi 是复数，所以 i 译「那些」。"
+        ],
+        "ruleRef": "rule-stem-fuller",
+        "ruleLabelZh": "回到规则：词干接词尾（sard- + -i）",
+        "answerKey": "The stones.",
+        "answerKeyZh": "那些石头。",
+        "answerAlt": [
+          "the stones",
+          "这些石头",
+          "石头（复数，定指）"
+        ],
+        "answerZh": "sar 的词干是 sard-，加 -i 得 sardi；前面有 i，故为定指「那些石头」。keys：\"The stones.\""
+      },
+      {
+        "id": "G",
+        "prompt": "Talami.",
+        "pointZh": "talan 的词干 talam-；m 在词尾前保留",
+        "hintsZh": [
+          "talan「地板」的词干不是 talan-，而是 talam-。",
+          "因为 m 不允许出现在词末，独立时才变成 n。",
+          "词干 talam- + -i = talami，不是 **talani。"
+        ],
+        "ruleRef": "rule-stem-final-consonant",
+        "ruleLabelZh": "回到规则：词末禁音在词尾前复原",
+        "answerKey": "Floors.",
+        "answerKeyZh": "地板（复数）。",
+        "answerAlt": [
+          "floors",
+          "地板（复数）",
+          "几块地板"
+        ],
+        "answerZh": "原始词根 TALAM：m 不能在词末，独立时作 talan；接词尾时 m 保留，故复数为 talami。keys：\"Floors.\""
+      },
+      {
+        "id": "H",
+        "prompt": "Oronti.",
+        "pointZh": "oron 的词干 oront-；t 在词尾前出现",
+        "hintsZh": [
+          "oron「山」的词干是 oront-。",
+          "词干 + 复数 -i = oronti。",
+          "无冠词，故为泛指复数。"
+        ],
+        "ruleRef": "rule-stem-final-consonant",
+        "ruleLabelZh": "回到规则：词干接词尾（oront- + -i）",
+        "answerKey": "Mountains.",
+        "answerKeyZh": "山（复数）／群山。",
+        "answerAlt": [
+          "mountains",
+          "山（复数）",
+          "群山",
+          "几座山"
+        ],
+        "answerZh": "oron 的词干是 oront-（t 只在接词尾时出现），加 -i 得 oronti。keys：\"Mountains.\" 注意这个词干里的 t 也是练习 L 选 -u 的理由。"
+      }
+    ]
+  },
+  "part2": {
+    "titleZh": "练习二 · 英译昆雅（I–P）",
+    "hintZh": "先看题干括号里的限定语：它几乎直接告诉你该不该用双数。再检查词里有没有 t 或 d。",
+    "items": [
+      {
+        "id": "I",
+        "prompt": "Two ships (just any two ships that happen to be seen together)",
+        "pointZh": "任意两个 → 不用双数，用 atta + 常规复数",
+        "hintsZh": [
+          "题干强调「任意两条、只是碰巧一起被看见」。",
+          "双数要求成对，所以这里不能用 ciryat。",
+          "atta「二」+ cirya 的复数 ciryar。"
+        ],
+        "ruleRef": "rule-dual-t-numerative",
+        "ruleLabelZh": "回到规则：任意两个 → atta + 复数",
+        "answerKey": "Atta ciryar.",
+        "answerKeyZh": "两条船（任意两条）。",
+        "answerAlt": [
+          "atta ciryar",
+          "Atta ciryar",
+          "atta ciryar."
+        ],
+        "answerZh": "cirya 的复数是 ciryar；不构成一对，故不用双数。keys：\"Atta ciryar.\" 这是练习 J 的对照组。"
+      },
+      {
+        "id": "J",
+        "prompt": "Two ships (that happen to be sister ships)",
+        "pointZh": "成对 → 双数；cirya 无 t / d，用 -t",
+        "hintsZh": [
+          "姊妹船构成一对，所以用双数。",
+          "cirya 里没有 t 也没有 d，取首选词尾 -t。",
+          "直接加在 -a 之后：ciryat。"
+        ],
+        "ruleRef": "rule-dual-euphony",
+        "ruleLabelZh": "回到规则：无 t / d 用 -t",
+        "answerKey": "Ciryat.",
+        "answerKeyZh": "一对船（如两条姊妹船）。",
+        "answerAlt": [
+          "ciryat",
+          "Ciryat",
+          "ciryat."
+        ],
+        "answerZh": "成对 + 无 t / d → -t，得 ciryat（Plotz Letter 作 a couple of ships）。keys：\"Ciryat.\""
+      },
+      {
+        "id": "K",
+        "prompt": "Arms (the two arms of one person)",
+        "pointZh": "成对器官用 -u；ranco → rancu（作者推测）",
+        "hintsZh": [
+          "「一个人的两条手臂」是天然的一对。",
+          "ranco 中既无 t 也无 d，但成对器官倾向用 -u。",
+          "ranco + -u（顶掉 -o）= rancu。"
+        ],
+        "ruleRef": "rule-dual-bodyparts",
+        "ruleLabelZh": "回到规则：成对器官用 -u",
+        "answerKey": "Rancu",
+        "answerKeyZh": "（一个人的）一对手臂",
+        "answerAlt": [
+          "rancu",
+          "Rancu",
+          "rancu."
+        ],
+        "answerZh": "keys 说明：若 peu「一对嘴唇」这条成立，成对的身体部位一律用 -u，即使词中没有 d / t。故为 rancu（作者标注为 best guess，无传世例证）。"
+      },
+      {
+        "id": "L",
+        "prompt": "Two mountains (within the same range; Twin Peaks, if you like – use a dual form)",
+        "pointZh": "oron 的词干 oront- 含 t → 用 -u",
+        "hintsZh": [
+          "题干要求用双数（同一山脉的两座、双峰）。",
+          "oron 的词干是 oront-，里面有个 t。",
+          "含 t 时改用 -u：oront- + -u = orontu。"
+        ],
+        "ruleRef": "rule-dual-euphony",
+        "ruleLabelZh": "回到规则：含 t / d 用 -u",
+        "answerKey": "Orontu",
+        "answerKeyZh": "一对山（同一山脉中的两座，如双峰）",
+        "answerAlt": [
+          "orontu",
+          "Orontu",
+          "orontu."
+        ],
+        "answerZh": "关键在词干：oron 独立时看不到 t，但词干 oront- 含 t，故按悦耳判据改用 -u，得 orontu。keys 原文正是这样解释的。"
+      },
+      {
+        "id": "M",
+        "prompt": "Double gate (use a dual form)",
+        "pointZh": "ando 含 d → 用 -u 并顶掉词尾 -o",
+        "hintsZh": [
+          "ando「门」里有 d。",
+          "含 d 时不用 -t，改用 -u。",
+          "-u 顶掉词尾 -o：andu。"
+        ],
+        "ruleRef": "rule-dual-euphony",
+        "ruleLabelZh": "回到规则：含 t / d 用 -u",
+        "answerKey": "Andu",
+        "answerKeyZh": "双重大门（一对门扇）",
+        "answerAlt": [
+          "andu",
+          "Andu",
+          "andu."
+        ],
+        "answerZh": "keys：\"Andu (ending -u rather than -t because of the d occurring in this word)\"。注意 -o 被顶掉，不是 **andou。"
+      },
+      {
+        "id": "N",
+        "prompt": "Two birds (that have formed a pair)",
+        "pointZh": "成对 + aiwë 无 t / d → -t",
+        "hintsZh": [
+          "结成一对的两只鸟，用双数。",
+          "aiwë 里没有 t 也没有 d。",
+          "取 -t 直接加在 -ë 之后：aiwet。"
+        ],
+        "ruleRef": "rule-dual-euphony",
+        "ruleLabelZh": "回到规则：无 t / d 用 -t",
+        "answerKey": "Aiwet.",
+        "answerKeyZh": "一对鸟（已成对的两只）。",
+        "answerAlt": [
+          "aiwet",
+          "Aiwet",
+          "aiwet."
+        ],
+        "answerZh": "成对 + 无 t / d → aiwet。keys：\"Aiwet.\" 与下一题 atta aiwi 构成对照。"
+      },
+      {
+        "id": "O",
+        "prompt": "Two birds (just any two birds)",
+        "pointZh": "任意两个 → atta + 常规复数；aiwë 复数 aiwi",
+        "hintsZh": [
+          "「任意两只」不构成一对，不能用双数。",
+          "atta + 常规复数。",
+          "aiwë 以 -ë 结尾，复数用 -i 替换：aiwi。"
+        ],
+        "ruleRef": "rule-dual-t-numerative",
+        "ruleLabelZh": "回到规则：任意两个 → atta + 复数",
+        "answerKey": "Atta aiwi.",
+        "answerKeyZh": "两只鸟（任意两只）。",
+        "answerAlt": [
+          "atta aiwi",
+          "Atta aiwi",
+          "atta aiwi."
+        ],
+        "answerZh": "aiwë → aiwi（-ë 换 -i，不保留 ë）；配合 atta 表任意两只。keys：\"Atta aiwi.\" 注意不是 **atta aiwir。"
+      },
+      {
+        "id": "P",
+        "prompt": "Men and women.",
+        "pointZh": "nér / nís 的词干；复数 neri / nissi",
+        "hintsZh": [
+          "nér「男人」词干 ner-，复数 neri。",
+          "nís「女人」词干 niss-，复数 nissi（双写 S 保留）。",
+          "用 ar 连接两个复数。"
+        ],
+        "ruleRef": "rule-stem-fuller",
+        "ruleLabelZh": "回到规则：词干接词尾（ner-、niss-）",
+        "answerKey": "Neri ar nissi.",
+        "answerKeyZh": "男人们和女人们。",
+        "answerAlt": [
+          "neri ar nissi",
+          "Neri ar nissi",
+          "neri ar nissi."
+        ],
+        "answerZh": "nér → neri（长元音缩短），nís → nissi（词干 niss- 的双写 S 保留）。keys：\"Neri ar nissi.\""
+      }
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "lesson": 9,
+  "schemaVersion": 2,
+  "titleZh": "不定式、否定动词与主动分词",
+  "titleEn": "The Infinitive, the Negative Verb, and Active Participles",
+  "summaryZh": "限定动词能当谓语，不定式不能：它不变位、不加 -r，用来与别的动词组合。基本动词的不定式是词干 + -ë（quetë、matë、tulë、hlarë）；A 词干用裸词干（linda、cenda、orta、lelya），托尔金明确说过「动词的裸词干被用作……不定式」（MC:223）。stop／start 之后英语用 -ing，昆雅仍用不定式（pustaner linda）。否定动词 um- 是单一动词：无定时 um-（umin「我不」）、过去 úmë（不是 **umnë）、将来 úva（《Fíriel 之歌》有据，而非 umuva）、持续 úma。它既能作否定系动词（umë aran「不是国王」），也能加不定式表「不做」（umin quetë「我不说」），还能连用两个不定式（úmë merë cenë）。主动分词用 -la：ilcala、lálala、hlápula、pícala；词干元音可能时拉长，长词干只算第二次出现的元音（falastala）；基本动词要先造持续词干再加 -la（tíra → tírala）。分词不随数变化（rámar sisílala），因为复数 -lë 会与抽象名词词尾 -lë 混淆（lindalë）。「正在做」用持续时（I seldo lálëa），不用 is + 分词。",
+  "mindmap": {
+    "rootZh": "第 9 课：不定式、否定动词、分词",
+    "branches": [
+      {
+        "labelZh": "限定动词",
+        "sectionId": "inf-finite"
+      },
+      {
+        "labelZh": "不定式",
+        "sectionId": "inf-what"
+      },
+      {
+        "labelZh": "英语 to",
+        "sectionId": "inf-english"
+      },
+      {
+        "labelZh": "昆雅 -ë",
+        "sectionId": "inf-quenya"
+      },
+      {
+        "labelZh": "五个组合",
+        "sectionId": "inf-examples"
+      },
+      {
+        "labelZh": "A 词干裸词干",
+        "sectionId": "inf-a-stem"
+      },
+      {
+        "labelZh": "A 词干例子",
+        "sectionId": "inf-a-examples"
+      },
+      {
+        "labelZh": "stop／start",
+        "sectionId": "inf-ing"
+      },
+      {
+        "labelZh": "ar 并列",
+        "sectionId": "inf-juxtapose"
+      },
+      {
+        "labelZh": "两个悬案",
+        "sectionId": "inf-obscure"
+      },
+      {
+        "labelZh": "注释习惯",
+        "sectionId": "inf-gloss"
+      },
+      {
+        "labelZh": "ná",
+        "sectionId": "neg-intro"
+      },
+      {
+        "labelZh": "umin／úmë",
+        "sectionId": "neg-umin"
+      },
+      {
+        "labelZh": "úva",
+        "sectionId": "neg-future"
+      },
+      {
+        "labelZh": "否定系动词",
+        "sectionId": "neg-copula"
+      },
+      {
+        "labelZh": "代词词尾",
+        "sectionId": "neg-endings"
+      },
+      {
+        "labelZh": "否定 + 不定式",
+        "sectionId": "neg-infinitive"
+      },
+      {
+        "labelZh": "双不定式",
+        "sectionId": "neg-two-inf"
+      },
+      {
+        "labelZh": "úma",
+        "sectionId": "neg-present"
+      },
+      {
+        "labelZh": "分词",
+        "sectionId": "part-intro"
+      },
+      {
+        "labelZh": "主动／被动",
+        "sectionId": "part-terms"
+      },
+      {
+        "labelZh": "-ing 与宾语",
+        "sectionId": "part-active"
+      },
+      {
+        "labelZh": "-ing 两义",
+        "sectionId": "part-noun"
+      },
+      {
+        "labelZh": "-la",
+        "sectionId": "part-la"
+      },
+      {
+        "labelZh": "拉长",
+        "sectionId": "part-lengthen"
+      },
+      {
+        "labelZh": "基本动词",
+        "sectionId": "part-primary"
+      },
+      {
+        "labelZh": "itila",
+        "sectionId": "part-itila"
+      },
+      {
+        "labelZh": "不随数变化",
+        "sectionId": "part-number"
+      },
+      {
+        "labelZh": "持续时",
+        "sectionId": "part-continuous"
+      },
+      {
+        "labelZh": "原文小结",
+        "sectionId": "summary"
+      },
+      {
+        "labelZh": "课末词汇",
+        "sectionId": "vocabulary"
+      },
+      {
+        "labelZh": "练习 A–P",
+        "sectionId": "exercises"
+      }
+    ]
+  }
+}

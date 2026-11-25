@@ -1,0 +1,2589 @@
+{
+ "lesson": 12,
+ "schemaVersion": 2,
+ "oneLineZh": "所有格 -va（辅音后 -wa，复数 -iva，双数 -uva／-twa）表当前拥有、永久属性、特征与材料，而属格 -o 表来源、部分、关于与动名词的主语；宾语属格用 -va（Nurtalë Valinóreva）。加 -va 时三音节以上、末两音节短的名词要拉长末元音（Oroméva），Eruva 例外。动名词词尾有 -më、-ië、-lë、拉长 + -ë。",
+ "canDoZh": [
+  "能说明本课格的命名与它和属格的分工",
+  "能构成所有格单数、复数、双数",
+  "能处理 -wa、-iva、拉长、特殊词干等形态问题",
+  "能判断何时用 -va（拥有、属性、材料、特征）",
+  "能判断何时用 -o（来源、部分、关于、主语）",
+  "能说明宾语属格为何用 -va",
+  "能构造并分析动名词短语（Altariello nainië、Nurtalë Valinóreva）",
+  "能独立完成练习 A–P，用 keys 核对，并把错题回链到对应规则"
+ ],
+ "conceptMap": [
+  {
+   "labelZh": "命名",
+   "noteZh": "possessive",
+   "sectionId": "poss-name"
+  },
+  {
+   "labelZh": "功能",
+   "noteZh": "接近英语 's",
+   "sectionId": "poss-what"
+  },
+  {
+   "labelZh": "-va／-wa",
+   "noteZh": "Eldava、atarwa",
+   "sectionId": "poss-form"
+  },
+  {
+   "labelZh": "双数",
+   "noteZh": "Alduva、ciryatwa",
+   "sectionId": "poss-dual"
+  },
+  {
+   "labelZh": "-iva",
+   "noteZh": "Eldaiva",
+   "sectionId": "poss-plural"
+  },
+  {
+   "labelZh": "双元音",
+   "noteZh": "lassíva",
+   "sectionId": "poss-diphthong"
+  },
+  {
+   "labelZh": "-i 词干",
+   "noteZh": "?táríva",
+   "sectionId": "poss-i-stem"
+  },
+  {
+   "labelZh": "简单拥有",
+   "noteZh": "-va 的主职",
+   "sectionId": "poss-ownership"
+  },
+  {
+   "labelZh": "托尔金原话",
+   "noteZh": "Oroméva 对 Oromëo",
+   "sectionId": "poss-quote"
+  },
+  {
+   "labelZh": "Mindon",
+   "noteZh": "Eldaliéva",
+   "sectionId": "poss-mindon"
+  },
+  {
+   "labelZh": "前置孤例",
+   "noteZh": "Eruva lissë",
+   "sectionId": "poss-precede"
+  },
+  {
+   "labelZh": "冠词",
+   "noteZh": "已限定",
+   "sectionId": "poss-article"
+  },
+  {
+   "labelZh": "永久属性",
+   "noteZh": "alcar Oroméva",
+   "sectionId": "poss-attribute"
+  },
+  {
+   "labelZh": "材料",
+   "noteZh": "rië telpeva",
+   "sectionId": "poss-material"
+  },
+  {
+   "labelZh": "描述",
+   "noteZh": "Taurë Huinéva",
+   "sectionId": "poss-descriptive"
+  },
+  {
+   "labelZh": "抽象",
+   "noteZh": "Rithil-Anamo",
+   "sectionId": "poss-abstract"
+  },
+  {
+   "labelZh": "拿不准",
+   "noteZh": "Ingoldova",
+   "sectionId": "poss-doubt"
+  },
+  {
+   "labelZh": "矛盾",
+   "noteZh": "lambë Quendion",
+   "sectionId": "poss-contradiction"
+  },
+  {
+   "labelZh": "过渡",
+   "noteZh": "形态细节",
+   "sectionId": "poss-more"
+  },
+  {
+   "labelZh": "拉长",
+   "noteZh": "Oroméva",
+   "sectionId": "note1"
+  },
+  {
+   "labelZh": "Eruva",
+   "noteZh": "不拉长",
+   "sectionId": "note1-eru"
+  },
+  {
+   "labelZh": "huinéva",
+   "noteZh": "ui 后拉长",
+   "sectionId": "note1-huine"
+  },
+  {
+   "labelZh": "-o 不拉长",
+   "noteZh": "Oromëo",
+   "sectionId": "note1-gen"
+  },
+  {
+   "labelZh": "特殊词干",
+   "noteZh": "talanwa",
+   "sectionId": "note2"
+  },
+  {
+   "labelZh": "随数 -vë",
+   "noteZh": "Eldaivë",
+   "sectionId": "note3"
+  },
+  {
+   "labelZh": "Namárië 矛盾",
+   "noteZh": "lisse-miruvóreva",
+   "sectionId": "note3-namarie"
+  },
+  {
+   "labelZh": "动名词",
+   "noteZh": "表动作的名词",
+   "sectionId": "vn-intro"
+  },
+  {
+   "labelZh": "-ing",
+   "noteZh": "英语对照",
+   "sectionId": "vn-english"
+  },
+  {
+   "labelZh": "-më",
+   "noteZh": "melmë",
+   "sectionId": "vn-me"
+  },
+  {
+   "labelZh": "-ië",
+   "noteZh": "tyalië",
+   "sectionId": "vn-ie"
+  },
+  {
+   "labelZh": "拉长 + -ë",
+   "noteZh": "sérë",
+   "sectionId": "vn-e"
+  },
+  {
+   "labelZh": "裸 A 词干",
+   "noteZh": "vanta",
+   "sectionId": "vn-a"
+  },
+  {
+   "labelZh": "-lë",
+   "noteZh": "laitalë",
+   "sectionId": "vn-le"
+  },
+  {
+   "labelZh": "主语属格",
+   "noteZh": "Altariello nainië",
+   "sectionId": "vn-subject"
+  },
+  {
+   "labelZh": "标题错误",
+   "noteZh": "Tyelelliéva",
+   "sectionId": "vn-subject2"
+  },
+  {
+   "labelZh": "宾语属格",
+   "noteZh": "of 结构",
+   "sectionId": "vn-object"
+  },
+  {
+   "labelZh": "Nurtalë",
+   "noteZh": "Valinóreva",
+   "sectionId": "vn-nurtale"
+  },
+  {
+   "labelZh": "主宾并用",
+   "noteZh": "Eruo melmë",
+   "sectionId": "vn-combine"
+  },
+  {
+   "labelZh": "小结",
+   "noteZh": "两格全貌",
+   "sectionId": "summary"
+  },
+  {
+   "labelZh": "词汇",
+   "noteZh": "12 条",
+   "sectionId": "vocabulary"
+  },
+  {
+   "labelZh": "练习",
+   "noteZh": "A–P",
+   "sectionId": "exercises"
+  }
+ ],
+ "pathTitleZh": "本课学习路径",
+ "path": [
+  {
+   "step": 1,
+   "labelZh": "这个格该叫什么：possessive",
+   "sectionId": "poss-name"
+  },
+  {
+   "step": 2,
+   "labelZh": "功能：比属格更接近英语 's",
+   "sectionId": "poss-what"
+  },
+  {
+   "step": 3,
+   "labelZh": "构成：-va，辅音后作 -wa",
+   "sectionId": "poss-form"
+  },
+  {
+   "step": 4,
+   "labelZh": "双数：Alduva 与 ciryatwa",
+   "sectionId": "poss-dual"
+  },
+  {
+   "step": 5,
+   "labelZh": "复数 -iva：Eldaiva 而非 Eldarva",
+   "sectionId": "poss-plural"
+  },
+  {
+   "step": 6,
+   "labelZh": "双元音与重音：Eldaiva、lassíva",
+   "sectionId": "poss-diphthong"
+  },
+  {
+   "step": 7,
+   "labelZh": "以 -i 结尾或 -i 词干：táriva 还是 táríva？",
+   "sectionId": "poss-i-stem"
+  },
+  {
+   "step": 8,
+   "labelZh": "简单拥有：这才是 -va 的主职",
+   "sectionId": "poss-ownership"
+  },
+  {
+   "step": 9,
+   "labelZh": "托尔金原话：róma Oroméva 对 róma Oromëo",
+   "sectionId": "poss-quote"
+  },
+  {
+   "step": 10,
+   "labelZh": "Mindon Eldaliéva 与词序：所有格通常后置",
+   "sectionId": "poss-mindon"
+  },
+  {
+   "step": 11,
+   "labelZh": "唯一的例外：Eruva lissë（前置）",
+   "sectionId": "poss-precede"
+  },
+  {
+   "step": 12,
+   "labelZh": "冠词：被所有格支配的名词通常不带 i",
+   "sectionId": "poss-article"
+  },
+  {
+   "step": 13,
+   "labelZh": "永久属性：alcar Oroméva 对 alcar Oromëo",
+   "sectionId": "poss-attribute"
+  },
+  {
+   "step": 14,
+   "labelZh": "材料用法：yuldar lisse-miruvóreva、rië telpeva",
+   "sectionId": "poss-material"
+  },
+  {
+   "step": 15,
+   "labelZh": "描述功能：Taurë Huinéva「幽暗之林」",
+   "sectionId": "poss-descriptive"
+  },
+  {
+   "step": 16,
+   "labelZh": "抽象与动作：Mar Vanwa Tyaliéva、Rithil-Anamo",
+   "sectionId": "poss-abstract"
+  },
+  {
+   "step": 17,
+   "labelZh": "拿不准的时候：Noldo-quentasta Ingoldova",
+   "sectionId": "poss-doubt"
+  },
+  {
+   "step": 18,
+   "labelZh": "托尔金自相矛盾：lambë Quendion",
+   "sectionId": "poss-contradiction"
+  },
+  {
+   "step": 19,
+   "labelZh": "过渡：还有形态细节",
+   "sectionId": "poss-more"
+  },
+  {
+   "step": 20,
+   "labelZh": "注一：格词尾前的元音拉长",
+   "sectionId": "note1"
+  },
+  {
+   "step": 21,
+   "labelZh": "拉长规则的边界：Eruva 不拉长",
+   "sectionId": "note1-eru"
+  },
+  {
+   "step": 22,
+   "labelZh": "huinéva 的难题：ui 与拉长",
+   "sectionId": "note1-huine"
+  },
+  {
+   "step": 23,
+   "labelZh": "属格 -o 不拉长：Oromëo 对 Oroméva",
+   "sectionId": "note1-gen"
+  },
+  {
+   "step": 24,
+   "labelZh": "注二：特殊词干与 -wa 的复杂结果",
+   "sectionId": "note2"
+  },
+  {
+   "step": 25,
+   "labelZh": "注三：-va 会随数变成 -vë",
+   "sectionId": "note3"
+  },
+  {
+   "step": 26,
+   "labelZh": "矛盾：Namárië 的 lisse-miruvóreva",
+   "sectionId": "note3-namarie"
+  },
+  {
+   "step": 27,
+   "labelZh": "动名词：表动作的名词",
+   "sectionId": "vn-intro"
+  },
+  {
+   "step": 28,
+   "labelZh": "英语的 -ing：动名词与分词同形",
+   "sectionId": "vn-english"
+  },
+  {
+   "step": 29,
+   "labelZh": "-më：melmë、carmë",
+   "sectionId": "vn-me"
+  },
+  {
+   "step": 30,
+   "labelZh": "-ië：tyalië、nainië",
+   "sectionId": "vn-ie"
+  },
+  {
+   "step": 31,
+   "labelZh": "拉长 + -ë：sérë、sírë、nútë、lírë",
+   "sectionId": "vn-e"
+  },
+  {
+   "step": 32,
+   "labelZh": "A 词干裸词干：vanta、lanta",
+   "sectionId": "vn-a"
+  },
+  {
+   "step": 33,
+   "labelZh": "-lë：最能产的抽象后缀",
+   "sectionId": "vn-le"
+  },
+  {
+   "step": 34,
+   "labelZh": "主语属格：Altariello nainië",
+   "sectionId": "vn-subject"
+  },
+  {
+   "step": 35,
+   "labelZh": "Tyalië Tyelelliéva 的标题错误",
+   "sectionId": "vn-subject2"
+  },
+  {
+   "step": 36,
+   "labelZh": "宾语属格：英语用 of 结构",
+   "sectionId": "vn-object"
+  },
+  {
+   "step": 37,
+   "labelZh": "Nurtalë Valinóreva：宾语属格用 -va",
+   "sectionId": "vn-nurtale"
+  },
+  {
+   "step": 38,
+   "labelZh": "主宾并用：Eruo melmë Ataniva",
+   "sectionId": "vn-combine"
+  },
+  {
+   "step": 39,
+   "labelZh": "本章小结：原文 Summary 与中文对照",
+   "sectionId": "summary"
+  },
+  {
+   "step": 40,
+   "labelZh": "课末词汇：1 个数词 + 6 个名词 + 4 个形容词／动词",
+   "sectionId": "vocabulary"
+  },
+  {
+   "step": 41,
+   "labelZh": "练习工作台：A–P 与 keys 核对",
+   "sectionId": "exercises"
+  }
+ ],
+ "modules": [
+  {
+   "sectionId": "poss-name",
+   "sourceSectionId": "_preamble",
+   "titleZh": "01 · 这个格该叫什么：possessive",
+   "leadZh": "托尔金在 Plotz 信里列了它却没命名。他把 -o(n) 称为「部分-来源属格」，把这一格称为「所有-形容词性」，并明确说前者「不当作所有格」。本课程就叫它所有格。",
+   "objectives": [
+    "能说明本课格的命名由来",
+    "能说出托尔金对 -o(n) 格的两句界定"
+   ],
+   "rules": [
+    {
+     "id": "rule-poss-name",
+     "headZh": "命名：possessive",
+     "bodyZh": "托尔金在 Plotz 信里列了这个格却没命名。他把 -o(n) 形式称为「部分-来源属格」，把这一格称为「所有-形容词性［属格］」；并说 -o(n) 格「严格说来用于部分义，或描述来源、起源，而不是用作『所有格』」。本课程采用 possessive 之名。",
+     "en": "there is no easy answer to the question of what this case should be called",
+     "zh": "这个格该叫什么，没有简单答案。"
+    },
+    {
+     "id": "rule-poss-vs-gen",
+     "headZh": "两个格的分工由此定名",
+     "bodyZh": "正因 -o(n) 不表拥有，另一格才承担「拥有」。名称不是装饰：后面判断该用 -o 还是 -va，靠的就是这条分工。",
+     "en": "properly it was used partitively, or to describe the source or origin, not as a 'possessive'",
+     "zh": "它严格说来用于部分义，或描述来源、起源，而不是用作「所有格」。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 -o 格叫「所有格」",
+     "right": "-o 是属格；-va 才是所有格",
+     "whyZh": "原文明确指出 -o(n) 不是 possessive，托尔金另称其为 partitive-derivative genitive。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "术语混乱的根源",
+     "bodyZh": "很多资料把 -o(n) 径称 genitive，读者便以为它等于英语属格（＝拥有）。本课开头这段命名讨论，正是要拆掉这个等式：昆雅把英语属格的功能拆成两个格，-o 管来源／部分，-va 管拥有。"
+    }
+   ],
+   "recapZh": "-o(n)＝属格（部分／来源）；-va＝所有格（拥有）。",
+   "selfCheckZh": [
+    {
+     "qZh": "托尔金把 -o(n) 格称为什么？",
+     "aZh": "部分-来源属格。"
+    },
+    {
+     "qZh": "「所有格」指哪个词尾？",
+     "aZh": "-va。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "_preamble",
+    "unitIds": [
+     0
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "poss-what",
+   "sourceSectionId": "the-possessive",
+   "titleZh": "02 · 功能：比属格更接近英语 's",
+   "leadZh": "就功能说，-va 格比 -o(n) 更对应英语带 -'s 的属格；但某些语境里它也最好译成 of 结构。",
+   "objectives": [
+    "能说明 -va 与英语 's 的对应",
+    "知道它也可译作 of"
+   ],
+   "rules": [
+    {
+     "id": "rule-poss-function",
+     "headZh": "-va：对应英语 's",
+     "bodyZh": "就功能而言，-va 格（而非托尔金通常称 genitive 的 -o(n) 格）与英语带 -'s 的属格对应得好得多。但某些语境里它也最好用 of 结构来译。",
+     "en": "corresponds much better to the English genitive in -'s",
+     "zh": "与英语带 -'s 的属格对应得好得多。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 -va 一律译成 's",
+     "right": "也可译成 of 结构（如材料用法）",
+     "whyZh": "原文紧接着说 in certain contexts this case is also best translated using English of-constructions。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "「功能对应」不等于「逐字对应」",
+     "bodyZh": "英语 's 与 of 在功能上有重叠，昆雅 -va 也覆盖这两类的一部分。判断用哪个格，看的是关系（拥有／来源／材料／特征），不是英语用 's 还是 of。"
+    }
+   ],
+   "recapZh": "-va 功能上接近英语 's，但也可译作 of 结构。",
+   "selfCheckZh": [
+    {
+     "qZh": "-va 格与哪个英语形式最对应？",
+     "aZh": "带 -'s 的属格。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-possessive",
+    "unitIds": [
+     0
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "poss-form",
+   "sourceSectionId": "the-possessive",
+   "titleZh": "03 · 构成：-va，辅音后作 -wa",
+   "leadZh": "所有格加 -va（Eldava）。辅音结尾的名词后大概作 -wa（atarwa），因为 -va 本是形容词词尾，来自原始 -wâ，w 在元音间才变 v。",
+   "objectives": [
+    "能由名词构成所有格",
+    "能解释辅音后为何是 -wa"
+   ],
+   "rules": [
+    {
+     "id": "rule-poss-va",
+     "headZh": "所有格＝-va",
+     "bodyZh": "所有格由加词尾 -va 构成：Eldava 是 Elda 的所有格。加到辅音结尾的名词上时，词尾大概是 -wa：atar「父亲」→ atarwa。",
+     "en": "The possessive case is formed by adding the ending -va, e.g. Eldava as the possessive form of Elda.",
+     "zh": "所有格由加词尾 -va 构成，如 Eldava 是 Elda 的所有格形式。",
+     "exampleZh": "Eldava／atarwa"
+    },
+    {
+     "id": "rule-poss-wa",
+     "headZh": "为什么是 -wa：形容词词尾的来源",
+     "bodyZh": "后缀 -va 本只是形容词词尾，也见于 anwa、helwa；原始形式 -wâ，昆雅里 w 处于元音之间才变 v。名词多以元音结尾，故通常见 -va（Eldawâ → Eldava，如 terêwâ → tereva）；辅音后 w 不变，故 -wa。",
+     "en": "The suffix -va is in origin a mere adjectival ending",
+     "zh": "后缀 -va 本只是一个形容词词尾。",
+     "exampleZh": "anwa、helwa、tereva；atarwa"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "给辅音结尾名词加 -va（写成 atarva）",
+     "right": "用 -wa：atarwa",
+     "whyZh": "原文用 atar-wâ 推演，并说 w 在此不在元音之间故保留。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一条音变解释两个现象",
+     "bodyZh": "「w 在元音间变 v」同时解释了：为什么多数名词加 -va、为什么辅音后保留 -wa、以及为什么形容词 anwa／helwa 是 -wa 而 tereva 是 -va。记住这条音变，比背三张表省力。"
+    }
+   ],
+   "recapZh": "所有格 -va；辅音后 -wa（atarwa）。",
+   "selfCheckZh": [
+    {
+     "qZh": "Elda 的所有格？",
+     "aZh": "Eldava。"
+    },
+    {
+     "qZh": "atar 的所有格？",
+     "aZh": "atarwa。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-possessive",
+    "unitIds": [
+     1
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "poss-dual",
+   "sourceSectionId": "the-possessive",
+   "titleZh": "04 · 双数：Alduva 与 ciryatwa",
+   "leadZh": "Plotz 信没列双数所有格，但没有理由不存在：-u 双数后加 -va（Alduva），-t 双数后作 -twa（ciryatwa）。",
+   "objectives": [
+    "能构造两种双数所有格",
+    "知道这是外推而非有据"
+   ],
+   "rules": [
+    {
+     "id": "rule-poss-dual",
+     "headZh": "双数所有格",
+     "bodyZh": "Plotz 信未列双数所有格，但大概 -u 双数后用 -va（Alduva 是 Aldu「两棵树」的所有格），-t 双数后用 -twa（ciryat「一对船」→ ciryatwa，因 tw 丛重读倒数第二音节）。",
+     "en": "Alduva as the possessive form of Aldu \"Two Trees\"",
+     "zh": "Alduva 是 Aldu「两棵树」的所有格形式。",
+     "exampleZh": "Alduva／ciryatwa"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为双数所有格不存在",
+     "right": "没有理由不存在，只是无据",
+     "whyZh": "原文：I can't imagine why such forms should not exist。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "「Plotz 没列」不等于「没有」",
+     "bodyZh": "作者对复数也用了同样推理：Plotz 信没列复数，但其他材料证明复数存在。所以他把 Plotz 信看作「样本」而非「全集」。这条态度在本课后面反复出现。"
+    }
+   ],
+   "recapZh": "双数所有格：Alduva（-u）、ciryatwa（-t）。",
+   "selfCheckZh": [
+    {
+     "qZh": "ciryat 的所有格？",
+     "aZh": "ciryatwa。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-possessive",
+    "unitIds": [
+     2
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "poss-plural",
+   "sourceSectionId": "the-possessive",
+   "titleZh": "05 · 复数 -iva：Eldaiva 而非 Eldarva",
+   "leadZh": "所有格复数 -iva（-va + 复数 -i），且不论主格复数是否 -r，一律用 -iva：lambë Eldaiva「Eldar 的语言」。",
+   "objectives": [
+    "能构成复数所有格",
+    "能说明为何不用 **Eldarva"
+   ],
+   "rules": [
+    {
+     "id": "rule-poss-plural",
+     "headZh": "复数所有格 -iva",
+     "bodyZh": "托尔金在 WJ:368 指出所有格复数作 -iva（-va + 复数标记 -i）。即使名词主格复数为 -r（Eldar），也用 -iva：复数所有格是 Eldaiva，有据于 lambë Eldaiva「Eldar 的语言」（WJ:369）。-iva 是昆雅的创新。",
+     "en": "the possessive has a plural form in -iva",
+     "zh": "所有格有复数形式 -iva。",
+     "exampleZh": "Eldaiva（不是 **Eldarva）"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "**Eldarva／**Eldarwa",
+     "right": "Eldaiva",
+     "whyZh": "原文用 ** 标出这两个错误形式。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "-iva 是「创新」的意义",
+     "bodyZh": "作者说 -iva 不是从较早精灵语继承的，而是昆雅自己的创新。这解释了为什么它看起来与 -va 的加法不完全规则：它是后起的类推形式，而不是古老词尾的直接延续。"
+    }
+   ],
+   "recapZh": "所有格复数 -iva：Eldaiva、lambë Eldaiva。",
+   "selfCheckZh": [
+    {
+     "qZh": "Eldar 的所有格复数？",
+     "aZh": "Eldaiva。"
+    },
+    {
+     "qZh": "为什么不是 Eldarva？",
+     "aZh": "所有格复数一律用 -iva。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-possessive",
+    "unitIds": [
+     3
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "poss-diphthong",
+   "sourceSectionId": "the-possessive",
+   "titleZh": "06 · 双元音与重音：Eldaiva、lassíva",
+   "leadZh": "Elda + iva 的 ai 是双元音，须重读（eld-AI-va）。-ë 名词原本产生 ei，后来变长 í：lassë → lassíva（参工具格 lassínen）。",
+   "objectives": [
+    "能说明 -iva 与词干元音合并后的重音",
+    "能由 lassë 推出 lassíva"
+   ],
+   "rules": [
+    {
+     "id": "rule-poss-diphthong",
+     "headZh": "ai 双元音承重音",
+     "bodyZh": "词尾 -iva 的首元音与名词末元音合并成双元音时（Elda + iva = Eldaiva 的 ai），该双元音承重音：eld-AI-va。",
+     "en": "this diphthong of course receives the stress",
+     "zh": "这个双元音当然要重读。",
+     "exampleZh": "eldaiva（eld-AI-va）"
+    },
+    {
+     "id": "rule-poss-lassiva",
+     "headZh": "ei → 长 í：lassíva",
+     "bodyZh": "-ë 名词原本产生 ei（?lasseiva），后来 ei 变长 í，故现在作 lassíva，长 í 仍吸引重音。Plotz 信的工具格 lassínen 印证这个原则（较早 lasseinen）。",
+     "en": "perhaps the current form was lassíva",
+     "zh": "现在的形式也许是 lassíva。",
+     "exampleZh": "lassë → lassíva；lassínen"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 lassë 的复数所有格写成 lasseiva",
+     "right": "lassíva",
+     "whyZh": "原文说 ei 最终变长 í，并以 lassínen 为旁证。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么用工具格作旁证",
+     "bodyZh": "所有格复数没有 Plotz 证据，但同一音变（ei → í）在工具格复数 lassínen 上有据。作者用「同一音变已在别处被证实」来支持 lassíva 的推演——这是本课程常见的论证方式。"
+    }
+   ],
+   "recapZh": "Eldaiva 重读 ai；lassë → lassíva（ei → í）。",
+   "selfCheckZh": [
+    {
+     "qZh": "lassë 的所有格复数？",
+     "aZh": "lassíva。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-possessive",
+    "unitIds": [
+     4
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "poss-i-stem",
+   "sourceSectionId": "the-possessive",
+   "titleZh": "07 · 以 -i 结尾或 -i 词干：táriva 还是 táríva？",
+   "leadZh": "-iva 加到 tári、lómë（lómi-）上，两个 i 可能合并成长 í（?táríva），也可能单复数同形（táriva），须靠语境。",
+   "objectives": [
+    "能说明两种可能",
+    "知道读音差别在重音位置"
+   ],
+   "rules": [
+    {
+     "id": "rule-poss-i",
+     "headZh": "-i 结尾：合并或不合并",
+     "bodyZh": "-iva 加到 tári「女王」或 lómë（lómi-）「夜」上，可能两个 i 合并成长 í：复数 ?táríva、?lómíva，单数则是 táriva、lómiva。也可能 táriva 兼任单复数，靠语境区分。",
+     "en": "It is not quite clear what would happen when the ending -iva is added to a noun already ending in -i",
+     "zh": "词尾 -iva 加到本已以 -i 结尾的名词上会怎样，不太清楚。",
+     "exampleZh": "táriva／?táríva"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "断言 táríva 一定正确",
+     "right": "这是未定问题，原文用 ? 标注",
+     "whyZh": "原文说 also possible that a form like táriva has to do duty for both singular and plural。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "重音是判断线索",
+     "bodyZh": "单数 táriva 重读第一音节（倒数第三），复数 táríva 因长 í 重读倒数第二。听感差别明显，所以这个形态问题不只是拼写问题。"
+    }
+   ],
+   "recapZh": "-i 结尾名词的所有格复数未定：?táríva 或 táriva 兼任。",
+   "selfCheckZh": [
+    {
+     "qZh": "tári 的所有格单数？",
+     "aZh": "táriva。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-possessive",
+    "unitIds": [
+     5
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "poss-ownership",
+   "sourceSectionId": "the-possessive",
+   "titleZh": "08 · 简单拥有：这才是 -va 的主职",
+   "leadZh": "英语属格的典型功能——简单拥有——在昆雅由 -va 承担。属格讲的是先前的拥有，所有格讲当前（或所考虑时点）的拥有。",
+   "objectives": [
+    "能说明 -va 与 -o 在「拥有」上的时间差",
+    "能判断何时用 -va"
+   ],
+   "rules": [
+    {
+     "id": "rule-poss-own",
+     "headZh": "-va：当前的拥有",
+     "bodyZh": "这是描述简单拥有的格，即英语属格的典型功能。昆雅属格更多表来源或起源；若属格用于所有者与所有物，讲的是先前的而非当前的拥有。",
+     "en": "This is the case you use to describe simple possession",
+     "zh": "这就是你用来描述简单拥有的格。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "用 -o 表「我的书」",
+     "right": "用 -va（当前拥有）",
+     "whyZh": "上一课与本课都强调 -o 不表简单拥有。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "「时间差」是判断钥匙",
+     "bodyZh": "同一件东西，主人还拿着 → -va；主人已失去（送出、被夺、死去）→ -o。练习 G 的注释甚至写：叛逆的奴隶把剑刺进国王胸口时是 i macil i aranwa，从背后拔出来时就成了 i macil i arano。"
+    }
+   ],
+   "recapZh": "-va 表当前拥有；-o 表先前拥有或来源。",
+   "selfCheckZh": [
+    {
+     "qZh": "「国王的剑」（国王仍持有）用哪个格？",
+     "aZh": "所有格 -va：i macil i aranwa。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-possessive",
+    "unitIds": [
+     7
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "poss-quote",
+   "sourceSectionId": "the-possessive",
+   "titleZh": "09 · 托尔金原话：róma Oroméva 对 róma Oromëo",
+   "leadZh": "引文对照：Oromë 仍持有号角 → róma Oroméva；号角来自 Oromë（如礼物）→ róma Oromëo。lambë Eldaiva 才是「Eldar 的语言」。",
+   "objectives": [
+    "能复述这组对照",
+    "能用它解释 -va 与 -o 的差别"
+   ],
+   "rules": [
+    {
+     "id": "rule-poss-quote",
+     "headZh": "拥有用 -va，来源用 -o",
+     "bodyZh": "托尔金：'Possession' 由形容词词尾 -va 表示，故「Oromë 的号角」（若仍在他手中）是 róma Oroméva；而属格短语 róma Oromëo 意为「来自 Oromë 的号角」，如作为礼物。同理 lambë Eldaron 不用于「Eldar 的语言」（除非整门语言被别的民族采用），那要用 lambë Eldaiva。",
+     "en": "'Possession' was indicated by the adjectival ending -va",
+     "zh": "「拥有」由形容词词尾 -va 表示。",
+     "exampleZh": "róma Oroméva／róma Oromëo／lambë Eldaiva"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 róma Oromëo 理解为「Oromë 仍持有的号角」",
+     "right": "它指来自他的号角",
+     "whyZh": "引文明说 a horn coming from Orome。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "这段引文为什么值得整段抄",
+     "bodyZh": "它是全课程唯一一处托尔金自己把两个格并排对比的说明，而且给了具体情境（受礼者骄傲地展示礼物）。后面所有 -va／-o 的判断，都可以回到这个情境：主人还拿着吗？"
+    }
+   ],
+   "recapZh": "róma Oroméva（仍拥有）对 róma Oromëo（来自他）；lambë Eldaiva。",
+   "selfCheckZh": [
+    {
+     "qZh": "作为礼物送出的「Oromë 的号角」用哪个？",
+     "aZh": "róma Oromëo。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-possessive",
+    "unitIds": [
+     8
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "poss-mindon",
+   "sourceSectionId": "the-possessive",
+   "titleZh": "10 · Mindon Eldaliéva 与词序：所有格通常后置",
+   "leadZh": "Mindon Eldaliéva「Eldalië 之塔」是拥有关系（他们仍是主人），故用 -va。带所有格词尾的名词几乎总在短语末位。",
+   "objectives": [
+    "能分析 Mindon Eldaliéva",
+    "能说出所有格短语的常态词序"
+   ],
+   "rules": [
+    {
+     "id": "rule-mindon",
+     "headZh": "Mindon Eldaliéva：当前拥有",
+     "bodyZh": "《Silmarillion》的 Mindon Eldaliéva「Eldalië（＝精灵民族）之塔」，意为一座为 Eldalië 所有的塔。他们当然也是造它的人，但仍拥有它，所以用属格不太合适。",
+     "en": "Mindon Eldaliéva",
+     "zh": "Mindon Eldaliéva「Eldalië 之塔」。",
+     "exampleZh": "Mindon Eldaliéva"
+    },
+    {
+     "id": "rule-poss-order",
+     "headZh": "词序：所有格在末位",
+     "bodyZh": "带所有格词尾的名词在几乎所有有据例中都出现在短语末位；它所支配的名词（被拥有之物）通常在前：(i) coa i Eldava、i parmar i vendíva、i míri i Naucoiva。",
+     "en": "the noun which receives the possessive ending appears as the last word of the possessive phrase in nearly all attested instances",
+     "zh": "带所有格词尾的名词在几乎所有有据例中都出现在所有格短语的末位。",
+     "exampleZh": "(i) coa i Eldava"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 Eldava 放在 coa 前（i Eldava coa）",
+     "right": "常态是 coa i Eldava",
+     "whyZh": "原文说前置例目前只有 Eruva lissë 一个，练习一律用后置。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么「仍是主人」就用 -va",
+     "bodyZh": "作者补了一句：他们当然也是造它的人。若强调来源，本可用 -o；但既然拥有关系仍在，-va 更合适。这说明两个格不是互斥的真值判断，而是视角选择。"
+    }
+   ],
+   "recapZh": "Mindon Eldaliéva；所有格通常后置（coa i Eldava）。",
+   "selfCheckZh": [
+    {
+     "qZh": "「精灵的房子」怎么写？",
+     "aZh": "(i) coa i Eldava。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-possessive",
+    "unitIds": [
+     9
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "poss-precede",
+   "sourceSectionId": "the-possessive",
+   "titleZh": "11 · 唯一的例外：Eruva lissë（前置）",
+   "leadZh": "2002 年 VT44:12 的 Amillë Eruva lissëo 里，Eruva lissë 表「神的恩宠」——可能是唯一一个所有格前置的例子。作者在练习里仍用后置。",
+   "objectives": [
+    "能指出这条例外",
+    "知道练习采用后置"
+   ],
+   "rules": [
+    {
+     "id": "rule-poss-precede",
+     "headZh": "Eruva lissë：前置孤例",
+     "bodyZh": "VT44:12 的 Amillë Eruva lissëo「神圣恩宠之母」，去掉 Amillë 与属格 -o 后剩 Eruva lissë「神（Eru）的恩宠」，可能是目前唯一所有格前置的例子。相反词序常见得多，lissë Eruva 也可用。",
+     "en": "Eruva lissë for \"God's (Eru's) grace\"",
+     "zh": "Eruva lissë 表「神（Eru）的恩宠」。",
+     "exampleZh": "Eruva lissë"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "据此认为前置是常态",
+     "right": "这是孤例；练习一律后置",
+     "whyZh": "原文：In the exercises below, I consistently let the possessive form follow。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "孤例的处理方式",
+     "bodyZh": "作者没有否认前置合法，只是说后置「常见得多」，并在教学中采用后置。这与上一课 Vardo nu luini tellumar 的处理完全一致：记录孤例，仿写取稳妥。"
+    }
+   ],
+   "recapZh": "Eruva lissë 是前置孤例；写作仍用后置。",
+   "selfCheckZh": [
+    {
+     "qZh": "所有格的常态词序？",
+     "aZh": "后置（lissë Eruva）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-possessive",
+    "unitIds": [
+     10
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "poss-article",
+   "sourceSectionId": "the-possessive",
+   "titleZh": "12 · 冠词：被所有格支配的名词通常不带 i",
+   "leadZh": "Róma Oroméva 已是限定，不是「Oromë 的一支号角」；不定指要用松散复合词 Oromë róma。加 i 也不改变意义。i arani Eldaivë 与 i arani Eldaron 意义有别。",
+   "objectives": [
+    "能说明所有格短语的限定性",
+    "能区分 Eldaivë 与 Eldaron 的两种读法"
+   ],
+   "rules": [
+    {
+     "id": "rule-poss-article",
+     "headZh": "所有格已限定名词",
+     "bodyZh": "被所有格支配的名词多数不带冠词，因为它已被充分限定：Róma Oroméva 不是不定指的「Oromë 的一支号角」。不定指要用「松散复合词」Oromë róma（不用格词尾）。当然也可加 i 说 i róma Oroméva，意义不变。",
+     "en": "The noun governed by the possessive does not receive the article in most of our attested examples",
+     "zh": "被所有格支配的名词在我们多数有据例中不带冠词。",
+     "exampleZh": "róma Oroméva／Oromë róma"
+    },
+    {
+     "id": "rule-arani",
+     "headZh": "i arani Eldaivë 对 i arani Eldaron",
+     "bodyZh": "i arani Eldaivë（WJ:369）主要指「某次集会中那些身为精灵的王」；带属格的 i arani Eldaron 意为「Eldar 中那些身为王的人」，或「统治 Eldar 的众王」。",
+     "en": "i arani Eldaivë \"the Kings of the Eldar\"",
+     "zh": "i arani Eldaivë「Eldar 的众王」。",
+     "exampleZh": "i arani Eldaivë／i arani Eldaron"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为不加 i 就是不定指",
+     "right": "所有格已使名词限定",
+     "whyZh": "原文用「不是 a horn of Oromë's」明确排除不定读法。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "「松散复合词」是个有用的备用手段",
+     "bodyZh": "Oromë róma「一支 Oromë 号角」不用任何格词尾，只靠并置表示「某类」。当你要表达不定指（「一支这样的号角」）时，这条路比硬加冠词更符合昆雅习惯。"
+    }
+   ],
+   "recapZh": "所有格使名词限定；不定指用松散复合词；Eldaivë 与 Eldaron 意义有别。",
+   "selfCheckZh": [
+    {
+     "qZh": "「一支 Oromë 号角」（不定指）怎么写？",
+     "aZh": "Oromë róma（松散复合词）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-possessive",
+    "unitIds": [
+     11
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "poss-attribute",
+   "sourceSectionId": "the-possessive",
+   "titleZh": "13 · 永久属性：alcar Oroméva 对 alcar Oromëo",
+   "leadZh": "「Oromë 的荣光」两说：alcar Oroméva 视荣光为他的永久属性；alcar Oromëo 强调他是荣光的来源（某时某刻）。Cirion 誓言用后者。",
+   "objectives": [
+    "能说明两说的语意差别",
+    "能解释 Cirion 誓言为何用属格"
+   ],
+   "rules": [
+    {
+     "id": "rule-poss-attribute",
+     "headZh": "永久属性用 -va",
+     "bodyZh": "「Oromë 的荣光」可说 alcar Oroméva，把 alcar 当作他的永久属性；也可说 alcar Oromëo，强调 Oromë 是荣光的来源，着眼于某时某刻（WJ:369）。",
+     "en": "alcar Oroméva",
+     "zh": "alcar Oroméva（Oromë 的荣光，作为永久属性）。",
+     "exampleZh": "alcar Oroméva／alcar Oromëo"
+    },
+    {
+     "id": "rule-elena-glor",
+     "headZh": "Cirion 誓言为何选属格",
+     "bodyZh": "Cirion 誓言用 Elenna·nórëo alcar。若改用所有格 (i) alcar Elenna·nóreva，会把荣光说成该地的永久属性；但誓言说于 Númenor 毁灭之后，其荣光已证明并不永久，所以用属格更合适。",
+     "en": "it would apparently put the emphasis on the \"glory\" of Elenna as a permanent attribute of the land",
+     "zh": "那显然会把重点放在 Elenna 的「荣光」作为该地永久属性上。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 -va 与 -o 只是文体差异",
+     "right": "差别在「永久属性」与「某时来源」",
+     "whyZh": "原文用 at the moment 对 permanent state 作对比。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "这个区分怎么用",
+     "bodyZh": "写「某人的勇气」时，若想说这是他恒常的品质，用 -va；若想说这一刻从他身上发出的，用 -o。判断标准仍是时间与视角，与上一节「当前拥有／先前拥有」同构。"
+    }
+   ],
+   "recapZh": "-va＝永久属性；-o＝某时的来源。",
+   "selfCheckZh": [
+    {
+     "qZh": "alcar Oromëo 强调什么？",
+     "aZh": "Oromë 是荣光的来源（某时）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-possessive",
+    "unitIds": [
+     12
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "poss-material",
+   "sourceSectionId": "the-possessive",
+   "titleZh": "14 · 材料用法：yuldar lisse-miruvóreva、rië telpeva",
+   "leadZh": "-va 可表「由……制成」：yuldar lisse-miruvóreva「甜蜜蜜酒的饮」。仿此 rië telpeva「银冠」。此时被支配名词未必限定（不是「那顶银冠」）。",
+   "objectives": [
+    "能构造材料短语",
+    "能说明材料用法不使名词限定"
+   ],
+   "rules": [
+    {
+     "id": "rule-poss-material",
+     "headZh": "-va：材料／构成",
+     "bodyZh": "Namárië 的 yuldar...lisse-miruvóreva 表「甜蜜蜜酒的饮」，-va 暗示「（由……）制成」。仿此 rië「冠」+ telpë「银」→ rië telpeva「银冠」。早期研究者因此称它为「组合格」。",
+     "en": "yuldar...lisse-miruvóreva",
+     "zh": "yuldar...lisse-miruvóreva「甜蜜蜜酒的饮」。",
+     "exampleZh": "rië telpeva"
+    },
+    {
+     "id": "rule-poss-material-def",
+     "headZh": "材料用法不限定名词",
+     "bodyZh": "所有格名词表材料时，它所支配的名词未必被限定：不是「那顶银冠」。否则 yuldar lisse-miruvóreva 就得意为「那甜蜜蜜酒的饮」，但托尔金并未这样译。",
+     "en": "the noun it governs is not necessarily be determined by it",
+     "zh": "它所支配的名词未必被它限定。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 rië telpeva 译成「那顶银冠」",
+     "right": "「一顶银冠」——材料用法不限定",
+     "whyZh": "原文明确：not \"the crown of silver\"。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "「组合格」这个旧名的来历",
+     "bodyZh": "几十年来只有 Namárië 一例，早期研究者便以为 -va 就是「由……构成」的专门格。现在知道那只是次要功能之一。学这个旧名，是为了读懂旧文献，不是把它当完整定义。"
+    }
+   ],
+   "recapZh": "-va 可表材料（rië telpeva），且不使名词限定。",
+   "selfCheckZh": [
+    {
+     "qZh": "「银冠」怎么写？",
+     "aZh": "rië telpeva。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-possessive",
+    "unitIds": [
+     13
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "poss-descriptive",
+   "sourceSectionId": "the-possessive",
+   "titleZh": "15 · 描述功能：Taurë Huinéva「幽暗之林」",
+   "leadZh": "-va 本是形容词词尾，故可描述特征：Taurë Huinéva 几可译「幽暗的森林」。Eruva 在连祷里也最好理解为形容词「神圣的」。",
+   "objectives": [
+    "能说明 -va 的描述功能",
+    "能解释 Eruva 的两种理解"
+   ],
+   "rules": [
+    {
+     "id": "rule-poss-descr",
+     "headZh": "-va：描述特征",
+     "bodyZh": "-va 本只是形容词词尾，故此格易带描述功能。Taurë Huinéva（《词源》PHUY 条）意为「幽暗之林」，几乎可把 huinéva 当普通形容词，译「幽暗的森林」：森林以幽暗为特征。",
+     "en": "Taurë Huinéva",
+     "zh": "Taurë Huinéva「幽暗之林」。",
+     "exampleZh": "Taurë Huinéva"
+    },
+    {
+     "id": "rule-eruva-adj",
+     "headZh": "Eruva＝「神圣的」",
+     "bodyZh": "Eruva lissë 可译「神的恩宠」，但《洛雷托连祷》此处作「神圣的恩宠」，故 Eruva 最好理解为形容词「神圣的」，描述恩宠的神圣性质。",
+     "en": "it may well be that Eruva is here best understood as an adjective \"divine\"",
+     "zh": "Eruva 在这里很可能最好理解为形容词「神圣的」。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 Eruva 一律当名词所有格「神的」",
+     "right": "在连祷语境里它是形容词「神圣的」",
+     "whyZh": "原文以拉丁底本作「divine grace」为据。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么 -va 能当形容词",
+     "bodyZh": "因为它本来就是形容词词尾（anwa、helwa、tereva）。所以「名词 + -va」天然带形容词性，可以在「拥有」「材料」「特征」之间滑动。这也是注三那条「随数变化」规则的根源。"
+    }
+   ],
+   "recapZh": "-va 可描述特征（Taurë Huinéva）；Eruva 可作「神圣的」。",
+   "selfCheckZh": [
+    {
+     "qZh": "Taurë Huinéva 怎么译？",
+     "aZh": "幽暗之林（或「幽暗的森林」）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-possessive",
+    "unitIds": [
+     14
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "poss-abstract",
+   "sourceSectionId": "the-possessive",
+   "titleZh": "16 · 抽象与动作：Mar Vanwa Tyaliéva、Rithil-Anamo",
+   "leadZh": "特征也可以是抽象或动作：Mar Vanwa Tyaliéva「失落游戏之屋」。属格也能用于此境：Rithil-Anamo「末日之环」。",
+   "objectives": [
+    "能分析两个短语",
+    "知道属格与所有格在此可互换"
+   ],
+   "rules": [
+    {
+     "id": "rule-mar-vanwa",
+     "headZh": "Mar Vanwa Tyaliéva",
+     "bodyZh": "早期材料（LT1:14）的 Mar Vanwa Tyaliéva「失落游戏之屋」：mar（屋）以 vanwa tyalië（失落的游戏）为特征。",
+     "en": "Mar Vanwa Tyaliéva \"Cottage of Lost Play\"",
+     "zh": "Mar Vanwa Tyaliéva「失落游戏之屋」。",
+     "exampleZh": "Mar Vanwa Tyaliéva"
+    },
+    {
+     "id": "rule-rithil",
+     "headZh": "Rithil-Anamo：属格也可",
+     "bodyZh": "Rithil-Anamo（WJ:401）表「末日之环」，指 Máhanaxar（众维拉宣判之圈），不是 Sauron 的环。anamo 是 anama／anan（词干 anam-）的属格，意为「末日、审判」。也许所有格也可用（?Rithil Anamáva）而不改变意义。",
+     "en": "Rithil-Anamo for \"Doom-ring\"",
+     "zh": "Rithil-Anamo 表「末日之环」。",
+     "exampleZh": "Rithil-Anamo"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 Rithil-Anamo 理解为 Sauron 的至尊环",
+     "right": "它指众维拉宣判的 Máhanaxar",
+     "whyZh": "原文专门澄清这一点。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "两个格在此几乎可换",
+     "bodyZh": "作者说 ?Rithil Anamáva 也能用而不改意义。这提醒我们：-va／-o 的选择有时只是侧重不同（特征 vs 来源），不是对错之分。"
+    }
+   ],
+   "recapZh": "抽象特征可用 -va；属格也可（Rithil-Anamo）。",
+   "selfCheckZh": [
+    {
+     "qZh": "Rithil-Anamo 指什么？",
+     "aZh": "众维拉宣判的 Máhanaxar（末日之环）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-possessive",
+    "unitIds": [
+     15
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "poss-doubt",
+   "sourceSectionId": "the-possessive",
+   "titleZh": "17 · 拿不准的时候：Noldo-quentasta Ingoldova",
+   "leadZh": "托尔金在「Ingoldo 的 Noldor 史」里用了所有格，虽然 Ingoldo 只是作者。也许因为属格另有「关于」义，用属格会被误解成「关于 Ingoldo 的 Noldor 史」。",
+   "objectives": [
+    "能说明这处选择的原因",
+    "能理解「避免歧义」的考量"
+   ],
+   "rules": [
+    {
+     "id": "rule-poss-doubt",
+     "headZh": "选择格的歧义考量",
+     "bodyZh": "Noldo-quentasta Ingoldova（VT39:16）用所有格，虽然重点不在 Ingoldo 拥有它，而在他是作者。按理该用属格表来源，但属格也表「关于」，故 Noldo-quentasta Ingoldo 易被误解为「关于 Ingoldo 的 Noldor 史」。",
+     "en": "Noldo-quentasta Ingoldova",
+     "zh": "Noldo-quentasta Ingoldova「Ingoldo 的 Noldor 史」。",
+     "exampleZh": "Noldo-quentasta Ingoldova"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "认为托尔金这里用错了格",
+     "right": "是为避免「关于」义的歧义",
+     "whyZh": "原文用 perhaps ... could easily have been misunderstood 解释。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "格的选用受语境制约",
+     "bodyZh": "这条说明：即使语义上该用 -o，若会造成「关于」的误读，托尔金会改用 -va。写作时若句子本身有「关于」的可能，也要考虑这个因素。"
+    }
+   ],
+   "recapZh": "Ingoldova 用所有格是为避开属格「关于」义的歧义。",
+   "selfCheckZh": [
+    {
+     "qZh": "为什么不用 Noldo-quentasta Ingoldo？",
+     "aZh": "会被误解为「关于 Ingoldo 的 Noldor 史」。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-possessive",
+    "unitIds": [
+     16
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "poss-contradiction",
+   "sourceSectionId": "the-possessive",
+   "titleZh": "18 · 托尔金自相矛盾：lambë Quendion",
+   "leadZh": "《Quendi and Eldar》说该用 lambë Eldaiva，但晚期资料（PM:395）托尔金自己写 lambë Quendion（属格）。作者的解释：晚期有偏爱属格的趋势；拿不准时选属格。",
+   "objectives": [
+    "能复述这处矛盾",
+    "知道作者的实用建议"
+   ],
+   "rules": [
+    {
+     "id": "rule-poss-contradiction",
+     "headZh": "矛盾与解释",
+     "bodyZh": "托尔金曾说 lambë Eldaron 不妥、须用 lambë Eldaiva；但他自己在很晚的资料（PM:395）用 lambë Quendion（属格复数）。托尔金指出越来越有偏爱属格的趋势（WJ:369），「晚期用法」里属格更自然。",
+     "en": "Yet Tolkien himself used lambë Quendion for \"the language of Elves\"",
+     "zh": "然而托尔金本人在一份很晚的资料里用 lambë Quendion 表「精灵的语言」。",
+     "exampleZh": "lambë Quendion／lambë Eldaiva"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为托尔金的用法前后完全一致",
+     "right": "晚期有偏爱属格的趋势，存在不一致",
+     "whyZh": "原文说 this certainly amounts to an outright contradiction。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "实用结论",
+     "bodyZh": "作者给出很直白的建议：拿不准用属格还是所有格时，选属格。这条建议在练习 I–P 里很管用——多数情况下 -o 都不会错，-va 则需要明确理由（拥有、材料、特征）。"
+    }
+   ],
+   "recapZh": "lambë Quendion 与 lambë Eldaiva 矛盾；拿不准选属格。",
+   "selfCheckZh": [
+    {
+     "qZh": "拿不准用属格还是所有格时，作者建议？",
+     "aZh": "选属格。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-possessive",
+    "unitIds": [
+     17
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "poss-more",
+   "sourceSectionId": "the-possessive",
+   "titleZh": "19 · 过渡：还有形态细节",
+   "leadZh": "所有格的构成还有几件事（元音拉长、特殊词干、随数变化），放在下面的「杂注」里讲；本节先回到功能。",
+   "objectives": [
+    "知道后续三节是形态补充",
+    "能把功能与形态分开处理"
+   ],
+   "rules": [
+    {
+     "id": "rule-poss-more",
+     "headZh": "功能与形态分两条线",
+     "bodyZh": "关于所有格的构成还有几件事（见「杂注」），但先回到功能：拥有、属性、材料、特征。",
+     "en": "There are a few more things to say about the formation of the possessive case",
+     "zh": "关于所有格的构成还有几件事要说。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把形态细节与功能混在一起记",
+     "right": "先定功能，再查形态",
+     "whyZh": "作者本人就是这样分节的。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "阅读顺序建议",
+     "bodyZh": "本节是过渡句。读完全课回头看，功能（第 8–18 节）与形态（第 20–26 节）是两条独立的线；做题时先判功能，再用形态规则落地。"
+    }
+   ],
+   "recapZh": "功能与形态分线；形态细节见杂注。",
+   "selfCheckZh": [
+    {
+     "qZh": "所有格的形态细节放在哪？",
+     "aZh": "「杂注」三节。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-possessive",
+    "unitIds": [
+     6
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "note1",
+   "sourceSectionId": "various-notes",
+   "titleZh": "20 · 注一：格词尾前的元音拉长",
+   "leadZh": "加 -va 时，以两个短音节结尾的名词要拉长末元音，否则重音会落到别扭的位置：Oromë → Oroméva（不是 **Oromeva）、Eldalië → Eldaliéva。",
+   "objectives": [
+    "能说明拉长的动因（重音）",
+    "能由 Oromë、tyalië 推出所有格"
+   ],
+   "rules": [
+    {
+     "id": "rule-lengthen",
+     "headZh": "两个短音节结尾 → 拉长末元音",
+     "bodyZh": "Eldalië + va 产生 Eldaliéva（长 é 承重音）；Oroméva、tyaliéva 同理。若不拉长，多出的音节会把重音推到倒数第三，产生 **orOMeva 之类别扭读法。辅音结尾的名词不需要拉长，因为 -wa 产生的辅音丛自会吸引重音（Menelmacar → Menelmacarwa）。",
+     "en": "Vowel-lengthening in the syllable preceding the case ending",
+     "zh": "格词尾前音节的元音拉长。",
+     "exampleZh": "Oroméva／Eldaliéva／tyaliéva；Menelmacarwa"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "**Oromeva",
+     "right": "Oroméva",
+     "whyZh": "原文用 ** 标出 **orOMeva 等错误读法。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "拉长是为了「保住重音」",
+     "bodyZh": "昆雅重音通常在倒数第二音节（若它长）或倒数第三。加 -va 多一个音节，若不拉长，重音就被挤到倒数第三，读起来别扭。拉长末元音等于把重音「钉」在原来的位置。理解动因，就不必死记哪些词要拉长。"
+    }
+   ],
+   "recapZh": "两短音节结尾 + -va → 末元音拉长（Oroméva）；辅音结尾不拉长（Menelmacarwa）。",
+   "selfCheckZh": [
+    {
+     "qZh": "Oromë 的所有格？",
+     "aZh": "Oroméva。"
+    },
+    {
+     "qZh": "Menelmacar 的所有格？",
+     "aZh": "Menelmacarwa。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "various-notes",
+    "unitIds": [
+     0,
+     1
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "note1-eru",
+   "sourceSectionId": "various-notes",
+   "titleZh": "21 · 拉长规则的边界：Eruva 不拉长",
+   "leadZh": "Eru 虽以两个短音节结尾，所有格却是 Eruva，不是 **Erúva——因为这两个音节就是整个词。拉长规则只适用于多于两个音节的词。",
+   "objectives": [
+    "能说明拉长规则的音节下限",
+    "能解释 Eruva"
+   ],
+   "rules": [
+    {
+     "id": "rule-eruva",
+     "headZh": "两音节词不拉长",
+     "bodyZh": "Eru 的所有格是 Eruva（VT44:12），不是 **Erúva：两个短音节就是整个词。拉长规则只适用于多于两个音节的词。",
+     "en": "This has now been confirmed by the example Eruva as the possessive form of Eru",
+     "zh": "这一点已由 Eruva 一例（Eru 的所有格）证实。",
+     "exampleZh": "Eruva（不是 **Erúva）"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "**Erúva",
+     "right": "Eruva",
+     "whyZh": "原文用 ** 标出 **Erúva。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么两音节词例外",
+     "bodyZh": "拉长是为了把重音留在倒数第二。两音节词加 -va 变三音节，重音本来就在倒数第二（原词末音节），不需拉长；拉长反而破坏了原本的节奏。"
+    }
+   ],
+   "recapZh": "Eruva 不拉长；拉长只用于三音节以上的词。",
+   "selfCheckZh": [
+    {
+     "qZh": "Eru 的所有格？",
+     "aZh": "Eruva。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "various-notes",
+    "unitIds": [
+     2
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "note1-huine",
+   "sourceSectionId": "various-notes",
+   "titleZh": "22 · huinéva 的难题：ui 与拉长",
+   "leadZh": "huinë 的所有格是 huinéva（末 ë 拉长），但 lassë 是 lasseva。差别在 ui：ui 虽是双元音，在某些语境里似算两个音节。故 cuilë → cuiléva、tuima → tuimáva。",
+   "objectives": [
+    "能说明 huinéva 与 lasseva 的差别",
+    "能推出 cuiléva、tuimáva"
+   ],
+   "rules": [
+    {
+     "id": "rule-huineva",
+     "headZh": "ui 后的末元音拉长",
+     "bodyZh": "huinë「影、幽暗」的所有格是 huinéva（不是 **huineva），而 lassë 是 lasseva。若把 ui 算两音节（hu-i-në），就符合拉长规则；但托尔金说 ui 是双元音。也许 ui 有些「超长」，有时算两音节。结论：倒数第二音节含 ui 的名词，末元音在 -va 前拉长——cuilë → cuiléva、tuima → tuimáva。",
+     "en": "Huinéva (instead of **huineva) as the possessive form of huinë",
+     "zh": "huinéva（而非 **huineva）作为 huinë 的所有格。",
+     "exampleZh": "huinéva／cuiléva／tuimáva"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为所有 -ë 名词都拉长",
+     "right": "lassë → lasseva，不拉长",
+     "whyZh": "Plotz 信明确 lasseva（不是 **lasséva）。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一个未完全解决的音系问题",
+     "bodyZh": "作者坦白这条解释「不令人满意」：ui 明明是双元音，却表现得像两个音节。他只能给经验规则：含 ui 就拉长。这类「规则有了、原因不明」的情况，在昆雅音系里不少见。"
+    }
+   ],
+   "recapZh": "huinë → huinéva；cuilë → cuiléva；但 lassë → lasseva。",
+   "selfCheckZh": [
+    {
+     "qZh": "cuilë 的所有格？",
+     "aZh": "cuiléva。"
+    },
+    {
+     "qZh": "lassë 的所有格？",
+     "aZh": "lasseva。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "various-notes",
+    "unitIds": [
+     3
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "note1-gen",
+   "sourceSectionId": "various-notes",
+   "titleZh": "23 · 属格 -o 不拉长：Oromëo 对 Oroméva",
+   "leadZh": "属格没有类似拉长：Oromë 的属格是 Oromëo（不是 **Oroméo），重读 -rom-。但 -ië 结尾（Valië）的属格可能有拉长：?Valiéo。",
+   "objectives": [
+    "能对比属格与所有格的拉长",
+    "知道 -ië 结尾是未定问题"
+   ],
+   "rules": [
+    {
+     "id": "rule-gen-no-lengthen",
+     "headZh": "属格不拉长",
+     "bodyZh": "属格词尾 -o 加到两短音节结尾的名词上时没有拉长：Oromëo（不是 **Oroméo），重读 -rom-。huinë 的属格大概是 huinëo。",
+     "en": "there is no similar lengthening when the ending is to be added to a noun ending in two short syllables",
+     "zh": "加到以两个短音节结尾的名词上时，没有类似的拉长。",
+     "exampleZh": "Oromëo（对 Oroméva）"
+    },
+    {
+     "id": "rule-valieo",
+     "headZh": "-ië 结尾：?Valiéo",
+     "bodyZh": "以两个短元音 hiatus 结尾的名词（多为 -ië，如 Valië）加 -o 时，?Valiëo 须重读 i，很别扭。作者怀疑会拉长：Valiéo、Valiéron，但无法确定。",
+     "en": "I strongly suspect that in such a case, the vowel in the syllable before the genitive ending would be lengthened",
+     "zh": "作者强烈怀疑在这种情况下，属格词尾前那个音节的元音会拉长。",
+     "exampleZh": "?Valiéo／?Valiéron"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把属格也按所有格规则拉长（**Oroméo）",
+     "right": "Oromëo",
+     "whyZh": "原文用 ** 标出 **Oroméo。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么 -o 不用拉长",
+     "bodyZh": "-o 是一个短元音词尾，加一个音节后重音位置的变化不如 -va 那么剧烈；而 -va 本身带辅音，结构不同。作者没给音系解释，只给事实对比：Oromëo 对 Oroméva。"
+    }
+   ],
+   "recapZh": "属格不拉长（Oromëo）；-ië 结尾或拉长（?Valiéo，未定）。",
+   "selfCheckZh": [
+    {
+     "qZh": "Oromë 的属格？",
+     "aZh": "Oromëo。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "various-notes",
+    "unitIds": [
+     4
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "note2",
+   "sourceSectionId": "various-notes",
+   "titleZh": "24 · 注二：特殊词干与 -wa 的复杂结果",
+   "leadZh": "属格总用特殊词干（nisso、talamo）；所有格则可能出现 talanwa（mw → nw）、filiqua（拼写）、nisseva（插 e）、ferenwa（不缩合）。",
+   "objectives": [
+    "能处理四类特殊词干的所有格",
+    "能解释 mw → nw 与拼写规则"
+   ],
+   "rules": [
+    {
+     "id": "rule-stem-gen",
+     "headZh": "属格用特殊词干",
+     "bodyZh": "名词若有特殊词干，加属格 -o 时总用上：nís（niss-）→ nisso、talan（talam-）→ talamo。",
+     "en": "Where a noun has a special stem-form, it would always appear when the genitive ending -o is added.",
+     "zh": "名词若有特殊词干形式，加属格词尾 -o 时总会用上。",
+     "exampleZh": "nisso／talamo"
+    },
+    {
+     "id": "rule-stem-poss",
+     "headZh": "所有格的四种复杂结果",
+     "bodyZh": "talan + -wa → talanwa（mw 规则变 nw，不是 **talamwa）；filit（filic-）+ -wa → filicwa，但按拼写惯例作 filiqua；nís（niss-）→ 大概 nisseva（插 e 拆辅音丛，**Nisswa 不可能）；feren（fern-）→ ferenwa（不缩合，**fernwa 不可能），或 ?ferneva。",
+     "en": "Adding -wa to a noun like talan, talam- would probably result in talanwa",
+     "zh": "把 -wa 加到 talan、talam- 这样的名词上，大概会得 talanwa。",
+     "exampleZh": "talanwa／filiqua／nisseva／ferenwa"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "**talamwa、**Nisswa、**fernwa",
+     "right": "talanwa、nisseva、ferenwa",
+     "whyZh": "原文逐一用 ** 标出这些不可能的形式。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么所有格比属格麻烦",
+     "bodyZh": "属格 -o 是元音词尾，直接接词干；所有格 -wa 带辅音，会与词干末辅音产生丛，于是触发 mw → nw、插 e、拼写 qu 等一系列调整。记住「-wa 带辅音」这个起点，各种变化就有了解释。"
+    }
+   ],
+   "recapZh": "属格用特殊词干（nisso）；所有格需处理辅音丛（talanwa、nisseva、ferenwa、filiqua）。",
+   "selfCheckZh": [
+    {
+     "qZh": "talan 的所有格？",
+     "aZh": "talanwa。"
+    },
+    {
+     "qZh": "filit 的所有格怎么写？",
+     "aZh": "filiqua。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "various-notes",
+    "unitIds": [
+     5
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "note3",
+   "sourceSectionId": "various-notes",
+   "titleZh": "25 · 注三：-va 会随数变成 -vë",
+   "leadZh": "托尔金说 -va 格「曾是并将仍是形容词」，故支配复数时 -va → -vë：i arani Eldaivë。这条规则在本课程练习里不用。",
+   "objectives": [
+    "能说明 -va 的形容词性与数一致",
+    "知道这是可忽略的规则"
+   ],
+   "rules": [
+    {
+     "id": "rule-va-agree",
+     "headZh": "-va → -vë（随数）",
+     "bodyZh": "WJ:407 中托尔金说加 -va 构成的格从未失去形容词意味，它「曾是并将仍是形容词」。按形容词规则，支配复数时 -va 变 -vë：Eldaiva → Eldaivë（古体 Eldaivai），故 i arani Eldaivë。",
+     "en": "was and remained an adjective",
+     "zh": "曾是并将仍是形容词。",
+     "exampleZh": "i arani Eldaivë"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "在写作中一律套用 -vë",
+     "right": "本课程练习不用这条规则",
+     "whyZh": "原文：I do not use it in the exercises I have made for this course。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "「可以忽略」不等于「不存在」",
+     "bodyZh": "作者说这条规则可忽略，是因为它与《魔戒》已刊形式矛盾（下一节）。但阅读托尔金晚期文本时仍会见到 -vë，所以要知道它的来历。"
+    }
+   ],
+   "recapZh": "-va 可随数变 -vë（i arani Eldaivë），但练习不用。",
+   "selfCheckZh": [
+    {
+     "qZh": "Eldaiva 的随数形式？",
+     "aZh": "Eldaivë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "various-notes",
+    "unitIds": [
+     6
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "note3-namarie",
+   "sourceSectionId": "various-notes",
+   "titleZh": "26 · 矛盾：Namárië 的 lisse-miruvóreva",
+   "leadZh": "若 -va 随数变化，yuldar（复数）后的 lisse-miruvóreva 就该作 -vë。作者的解释：托尔金引入新规则时没注意已刊内容；或晚期已放弃数一致。",
+   "objectives": [
+    "能复述这处矛盾",
+    "能说明作者的两种解释"
+   ],
+   "rules": [
+    {
+     "id": "rule-namarie",
+     "headZh": "已刊形式与晚期规则冲突",
+     "bodyZh": "Namárië 的 yuldar...lisse-miruvóreva 中 yuldar 是复数，按 WJ:407 应作 lisse-miruvórevë。最可能的「外部」解释：托尔金引入新规则时没注意已刊内容与之矛盾。用「内部」话说：早期 -va 形式仍被感觉为派生形容词，故随数；到第三纪晚期已放弃数一致。",
+     "en": "Tolkien introduced a new rule without noticing that he had already published something that contradicted it",
+     "zh": "托尔金引入新规则时没注意到自己已刊布过与之矛盾的东西。",
+     "exampleZh": "lisse-miruvóreva（对 *lisse-miruvórevë）"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为托尔金的语法体系处处自洽",
+     "right": "存在已刊与晚期手稿冲突的情况",
+     "whyZh": "原文用 external／internal 两种解释处理这处冲突。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "外部解释与内部解释",
+     "bodyZh": "「外部」指托尔金写作史（忘了、改主意）；「内部」指神话内的语言演变（数一致被放弃）。作者两种都给，并明确练习采用已刊形式（不随数）。这是处理托尔金矛盾的通用方法。"
+    }
+   ],
+   "recapZh": "Namárië 用 -va 不随数；晚期规则与已刊形式冲突，练习从已刊。",
+   "selfCheckZh": [
+    {
+     "qZh": "练习里 -va 随数变化吗？",
+     "aZh": "不变。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "various-notes",
+    "unitIds": [
+     7
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "vn-intro",
+   "sourceSectionId": "verbal-or-abstract-nouns",
+   "titleZh": "27 · 动名词：表动作的名词",
+   "leadZh": "名词不都表事物，有些表动作，称为动名词。它们与属格、所有格的互动值得单独讲，所以放在这里。",
+   "objectives": [
+    "能定义动名词",
+    "知道动名词会与两个格互动"
+   ],
+   "rules": [
+    {
+     "id": "rule-vn-def",
+     "headZh": "动名词＝表动作的名词",
+     "bodyZh": "有些名词确实表动作，恰当称为动名词。它们与属格、所有格互动的方式值得注意。",
+     "en": "Some nouns do denote actions, and they are appropriately called verbal nouns.",
+     "zh": "有些名词确实表动作，恰当地称为动名词。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为名词只表事物",
+     "right": "动名词表动作／过程",
+     "whyZh": "原文开头就修正了「名词＝事物」的简化定义。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么动名词与本课有关",
+     "bodyZh": "动名词能带「主语」与「宾语」：谁在做这个动作（主语属格）、动作作用于谁（宾语属格／所有格）。这是本课后半的核心，也是练习 P 的考点。"
+    }
+   ],
+   "recapZh": "动名词表动作，可与属格、所有格构成主宾关系。",
+   "selfCheckZh": [
+    {
+     "qZh": "什么是动名词？",
+     "aZh": "表动作的名词。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "verbal-or-abstract-nouns",
+    "unitIds": [
+     0,
+     1
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "vn-english",
+   "sourceSectionId": "verbal-or-abstract-nouns",
+   "titleZh": "28 · 英语的 -ing：动名词与分词同形",
+   "leadZh": "英语动名词由 -ing 派生（singing）。同一词尾也用于主动分词，但分词是形容词——两者只是形式偶然重合。",
+   "objectives": [
+    "能区分英语动名词与分词",
+    "知道同形不等于同类"
+   ],
+   "rules": [
+    {
+     "id": "rule-vn-ing",
+     "headZh": "英语 -ing：动名词",
+     "bodyZh": "动名词由动词词干派生，英语词尾是 -ing。singing 是与 sing 对应的动名词，即你 sing 时所做的动作。同一词尾也派生主动分词，但分词是形容词，两者只是形式偶然重合。",
+     "en": "in English, the relevant ending is -ing",
+     "zh": "英语里相关词尾是 -ing。",
+     "exampleZh": "sing → singing"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 singing（动名词）与 singing（分词）混为一谈",
+     "right": "词性不同：名词 vs 形容词",
+     "whyZh": "原文：they are adjectives, not nouns; the forms merely happen to coincide。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "这条区分在昆雅更重要",
+     "bodyZh": "昆雅的分词（-la）与动名词（-lë、-ië 等）形式不同，不会混淆。英语的同形反而容易让学习者把「动名词带宾语」的规则错套到分词上。"
+    }
+   ],
+   "recapZh": "英语 -ing 兼作动名词与分词，但词性不同。",
+   "selfCheckZh": [
+    {
+     "qZh": "singing 作主语时是什么词？",
+     "aZh": "动名词（名词）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "verbal-or-abstract-nouns",
+    "unitIds": [
+     2
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "vn-me",
+   "sourceSectionId": "verbal-or-abstract-nouns",
+   "titleZh": "29 · -më：melmë、carmë",
+   "leadZh": "一些基本动词词干加 -më 构成抽象名词：mel- → melmë「爱」。carmë 用于「艺术」，字面就是「造」。",
+   "objectives": [
+    "能由基本动词构成 -më 名词",
+    "能说明 carmë 的字面义"
+   ],
+   "rules": [
+    {
+     "id": "rule-vn-me",
+     "headZh": "-më：抽象名词",
+     "bodyZh": "一些基本动词的词干是 -më 抽象构词的来源，其中有些原本就是动名词：mel-「爱」→ melmë「爱（爱着）」。carmë 用于「艺术」（UT:439），基本上是由 car-「造、做」派生的动名词，字面「造」。",
+     "en": "the noun \"love\" (or \"loving\") is melmë",
+     "zh": "名词「爱」（或「爱着」）是 melmë。",
+     "exampleZh": "melmë／carmë"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 carmë 只当「艺术」这个固有名词",
+     "right": "它字面是「造」，是动名词",
+     "whyZh": "原文：basically simply a kind of verbal noun derived from the verb car-。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "-më 与 -lë 的分工",
+     "bodyZh": "-më 多接基本动词词干（mel-、car-），-lë 多接 A 词干（laita-、nurta-）。这条倾向不是绝对规则，但能帮你判断该用哪个后缀。"
+    }
+   ],
+   "recapZh": "-më：melmë、carmë。",
+   "selfCheckZh": [
+    {
+     "qZh": "mel- 的动名词？",
+     "aZh": "melmë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "verbal-or-abstract-nouns",
+    "unitIds": [
+     3
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "vn-ie",
+   "sourceSectionId": "verbal-or-abstract-nouns",
+   "titleZh": "30 · -ië：tyalië、nainië",
+   "leadZh": "基本动词可加 -ië：tyal- → tyalië「游戏」。A 词干加 -ië 时末 -a 脱落：naina- → nainië。",
+   "objectives": [
+    "能构成 -ië 名词",
+    "能说明 A 词干末 -a 脱落"
+   ],
+   "rules": [
+    {
+     "id": "rule-vn-ie",
+     "headZh": "-ië：抽象构词",
+     "bodyZh": "基本动词可加 -ië：tyal-「玩」→ tyalië「游戏、玩」。加到 A 词干上时，词尾 -ië 使末 -a 脱落：naina-「哀悼」→ nainië「哀歌」。",
+     "en": "the verb tyal- \"to play\" corresponds to the abstract formation tyalië \"play, playing\"",
+     "zh": "动词 tyal-「玩」对应抽象构词 tyalië「游戏、玩」。",
+     "exampleZh": "tyalië／nainië"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "naina- + ië，直接拼成 nainaië",
+     "right": "nainië（-a 脱落）",
+     "whyZh": "原文：Added to an A-stem verb, the ending -ië makes the final -a drop out。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "nainië 在上一课出现过",
+     "bodyZh": "Altariello nainië「Galadriel 的哀歌」用的就是这个名词。本课后面会用它讲主语属格——所以这个形式值得记牢。"
+    }
+   ],
+   "recapZh": "-ië：tyalië、nainië。",
+   "selfCheckZh": [
+    {
+     "qZh": "naina- 的动名词？",
+     "aZh": "nainië。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "verbal-or-abstract-nouns",
+    "unitIds": [
+     4
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "vn-e",
+   "sourceSectionId": "verbal-or-abstract-nouns",
+   "titleZh": "31 · 拉长 + -ë：sérë、sírë、nútë、lírë",
+   "leadZh": "拉长基本动词词干元音再加 -ë：ser- → sérë。这样得来的名词常已具体化：sírë「河」、nútë「结」、lírë「歌」。",
+   "objectives": [
+    "能构成这类名词",
+    "能说明「具体化」现象"
+   ],
+   "rules": [
+    {
+     "id": "rule-vn-e",
+     "headZh": "拉长 + -ë：抽象转具体",
+     "bodyZh": "另一种常见构词是拉长基本动词词干元音再加 -ë：ser-「休息」→ sérë「休息、和平」。这类名词常带较具体意义：sir-「流」→ sírë「河」；nut-「系」→ nútë「结」；lir-「唱」→ lírë「歌」。",
+     "en": "Yet another frequent formation is to lengthen the stem-vowel of a primary verb and add the ending -ë.",
+     "zh": "另一种常见构词法是拉长基本动词的词干元音再加词尾 -ë。",
+     "exampleZh": "sérë／sírë／nútë／lírë"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 sírë 只是「流动」的抽象名词",
+     "right": "它已具体化为「河」",
+     "whyZh": "原文：this noun is used = \"river\"。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "抽象与具体的滑动",
+     "bodyZh": "同一构词法产出的词，有的仍是抽象（sérë），有的已具体化（sírë、nútë、lírë）。判断靠词义习惯，不能只看形式。"
+    }
+   ],
+   "recapZh": "拉长 + -ë：sérë、sírë、nútë、lírë（常已具体化）。",
+   "selfCheckZh": [
+    {
+     "qZh": "sir- 的名词形式？",
+     "aZh": "sírë「河」。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "verbal-or-abstract-nouns",
+    "unitIds": [
+     5
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "vn-a",
+   "sourceSectionId": "verbal-or-abstract-nouns",
+   "titleZh": "32 · A 词干裸词干：vanta、lanta",
+   "leadZh": "有些 A 词干（尤其 -ta）可直接作抽象名词：vanta-「走」→ vanta「一次行走」；lanta-「落」→ lanta／lantë「一次落」。多数抽象名词仍以 -ë 结尾。",
+   "objectives": [
+    "能说明裸词干作名词",
+    "知道 lanta／lantë 两可"
+   ],
+   "rules": [
+    {
+     "id": "rule-vn-a",
+     "headZh": "A 词干裸词干作名词",
+     "bodyZh": "有些 A 词干动词（尤其 -ta 类）的词干可不加成分直接作抽象名词：vanta-「走」→ vanta「一次行走」；lanta-「落」→ lanta「一次落」。但名词也可作 lantë，如歌名 Noldolantë「Noldor 的堕落」。多数昆雅抽象名词仍以 -ë 结尾。",
+     "en": "Vanta- is the verb \"to walk\", but vanta is also used as an abstract",
+     "zh": "Vanta- 是动词「走」，但 vanta 也作抽象名词。",
+     "exampleZh": "vanta／lanta／lantë"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为抽象名词必加后缀",
+     "right": "部分 A 词干裸词干即可",
+     "whyZh": "原文：can also be used as abstract nouns with no additions。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "Noldolantë 的 -lantë",
+     "bodyZh": "歌名用 lantë 而非 lanta，说明同一动词可有两套名词形式。作者没有给出选择规律，只指出多数抽象名词以 -ë 结尾这一统计倾向。"
+    }
+   ],
+   "recapZh": "A 词干可裸用作名词（vanta、lanta／lantë）。",
+   "selfCheckZh": [
+    {
+     "qZh": "vanta- 的名词形式？",
+     "aZh": "vanta「一次行走」。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "verbal-or-abstract-nouns",
+    "unitIds": [
+     6
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "vn-le",
+   "sourceSectionId": "verbal-or-abstract-nouns",
+   "titleZh": "33 · -lë：最能产的抽象后缀",
+   "leadZh": "-lë 原则上可加到任何 A 词干：laita- → laitalë「赞美」；nurta- 只以 nurtalë「隐藏」有据。",
+   "objectives": [
+    "能构成 -lë 名词",
+    "知道 nurta- 只见动名词形式"
+   ],
+   "rules": [
+    {
+     "id": "rule-vn-le",
+     "headZh": "-lë：A 词干通用",
+     "bodyZh": "-lë 似乎是昆雅最能产的抽象后缀，原则上可加到任何 A 词干动词：laita-「赞美」→ laitalë「赞美」（UT:166、436，Erulaitalë「Eru 的赞美」）。nurta-「隐藏」实际只以动名词 nurtalë 有据。",
+     "en": "One such ending is -lë",
+     "zh": "这样的词尾之一是 -lë。",
+     "exampleZh": "laitalë／nurtalë"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 nurta- 当独立有据动词引用",
+     "right": "它只以 nurtalë 的形式有据",
+     "whyZh": "原文：actually only attested as a verbal noun nurtalë。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么 -lë 最适合造新词",
+     "bodyZh": "它可产、意义透明（＝英语 -ing），且不改变词干。练习 P 让你给 hosta- 加 -lë 造 hostalë「聚集」，正是这条规则的直接应用。"
+    }
+   ],
+   "recapZh": "-lë 可加到 A 词干：laitalë、hostalë、nurtalë。",
+   "selfCheckZh": [
+    {
+     "qZh": "hosta- 的动名词？",
+     "aZh": "hostalë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "verbal-or-abstract-nouns",
+    "unitIds": [
+     7
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "vn-subject",
+   "sourceSectionId": "verbal-or-abstract-nouns",
+   "titleZh": "34 · 主语属格：Altariello nainië",
+   "leadZh": "动名词 + 属格，属格名词是动作的「主语」：Altariello nainië「Galadriel 的哀歌」＝她哀悼。i equessi Rúmilo、Oiencarmë Eruo 同理。",
+   "objectives": [
+    "能识别主语属格",
+    "能分析三个例子"
+   ],
+   "rules": [
+    {
+     "id": "rule-subj-gen",
+     "headZh": "主语属格",
+     "bodyZh": "动名词（或仍明显与动词相连的抽象名词）与属格名词组合时，暗示该名词是相应动词的「主语」。Altariello nainië「Galadriel 的哀歌」：属格 Altariello 表明 Galadriel 是哀悼者。i equessi Rúmilo：Rúmil 是最初「说」的人。Oiencarmë Eruo：Eru 是做「永恒产出」的那位。",
+     "en": "Altariello nainië",
+     "zh": "Altariello nainië「Galadriel 的哀歌」。",
+     "exampleZh": "Altariello nainië／i equessi Rúmilo／Oiencarmë Eruo"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 Altariello nainië 理解为「关于 Galadriel 的哀歌」",
+     "right": "是她唱的哀歌（主语属格）",
+     "whyZh": "原文明确：Galadriel is the one who does the lamenting。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么这里必须用属格",
+     "bodyZh": "动名词的「主语」在昆雅用 -o 属格，而不是 -va。这与「拥有」无关，是句法角色。记住：动名词 + 属格 = 谁做这个动作。"
+    }
+   ],
+   "recapZh": "动名词 + 属格 = 主语属格（Altariello nainië）。",
+   "selfCheckZh": [
+    {
+     "qZh": "Altariello nainië 里谁在哀悼？",
+     "aZh": "Galadriel（Altariel）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "verbal-or-abstract-nouns",
+    "unitIds": [
+     8
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "vn-subject2",
+   "sourceSectionId": "verbal-or-abstract-nouns",
+   "titleZh": "35 · Tyalië Tyelelliéva 的标题错误",
+   "leadZh": "刊物名 Tyalië Tyelelliéva 本意「Tyelellië 的游戏」，但 Tyelellië 是「游戏」的主语，该用属格：Tyalië Tyelelliéo。",
+   "objectives": [
+    "能判断主语属格该用 -o",
+    "能说明这处标题错误"
+   ],
+   "rules": [
+    {
+     "id": "rule-tyelellieva",
+     "headZh": "标题该用属格",
+     "bodyZh": "Tyalië Tyelelliéva 本意「Tyelellië（小精灵族群）的游戏」。既然 Tyelellië 是抽象名词「游戏」的主语（玩游戏的那些），这里该用属格：也许是 Tyalië Tyelelliéo。",
+     "en": "Tyalië Tyelelliéva",
+     "zh": "Tyalië Tyelelliéva（刊物名）。",
+     "exampleZh": "Tyalië Tyelelliéo（应为）"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 -va 也能表主语",
+     "right": "主语属格用 -o",
+     "whyZh": "本节与上一节共同确立：主语属格用 -o，宾语属格用 -va。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "作者为什么爱挑刊物名的错",
+     "bodyZh": "第二课挑过 Parma Eldalamberon（应为 Eldalambion），这里又挑 Tyalië Tyelelliéva。这类「公开纠错」其实是最好的语法练习：每个错都对应一条明确规则。"
+    }
+   ],
+   "recapZh": "Tyalië Tyelelliéva 应为 Tyalië Tyelelliéo（主语属格）。",
+   "selfCheckZh": [
+    {
+     "qZh": "为什么该用 Tyelelliéo？",
+     "aZh": "Tyelellië 是「游戏」的主语。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "verbal-or-abstract-nouns",
+    "unitIds": [
+     9
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "vn-object",
+   "sourceSectionId": "verbal-or-abstract-nouns",
+   "titleZh": "36 · 宾语属格：英语用 of 结构",
+   "leadZh": "宾语属格＝动作的对象：「the discovery of America」。英语常用 of 结构；主语与宾语属格可并存（Columbus' discovery of America）。",
+   "objectives": [
+    "能定义宾语属格",
+    "能分析主宾并存的短语"
+   ],
+   "rules": [
+    {
+     "id": "rule-obj-gen",
+     "headZh": "宾语属格",
+     "bodyZh": "宾语属格表示动作的对象，英语通常用 of 结构：「the discovery of America」＝America 作为其对象的发现。主语与宾语属格可并存：「Columbus' discovery of America」。",
+     "en": "what about object genitive?",
+     "zh": "宾语属格呢？",
+     "exampleZh": "the discovery of America"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 the discovery of America 理解成 America 在发现",
+     "right": "America 是被发现的对象",
+     "whyZh": "原文明确：the discovery which America was the object of。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "英语 of 的双重身份",
+     "bodyZh": "of 结构既可表主语（the love of God 可指「神爱」）也可表宾语（「爱神」），因此英语本身有歧义。昆雅用 -o／-va 区分，正是为了避免这种歧义——下一节给出实例。"
+    }
+   ],
+   "recapZh": "宾语属格＝动作对象；英语多用 of 结构。",
+   "selfCheckZh": [
+    {
+     "qZh": "the discovery of America 里 America 是什么角色？",
+     "aZh": "宾语（被发现的对象）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "verbal-or-abstract-nouns",
+    "unitIds": [
+     10
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "vn-nurtale",
+   "sourceSectionId": "verbal-or-abstract-nouns",
+   "titleZh": "37 · Nurtalë Valinóreva：宾语属格用 -va",
+   "leadZh": "唯一的昆雅宾语属格有据例：Nurtalë Valinóreva「Valinor 的隐藏」——Valinor 被隐藏，故用 -va。若用 -o，会变成 Valinor 在隐藏。",
+   "objectives": [
+    "能分析 Nurtalë Valinóreva",
+    "能说明用 -o 会造成的误解"
+   ],
+   "rules": [
+    {
+     "id": "rule-nurtale",
+     "headZh": "宾语属格用 -va",
+     "bodyZh": "《Silmarillion》第 11 章末的 Nurtalë Valinóreva「Valinor 的隐藏」是唯一有据的宾语属格例。众维拉隐藏 Valinor，故 Valinor 是宾语。若用属格 Nurtalë Valinórëo，会暗示主语属格——Valinor 在隐藏，讲不通。反过来，oiencarmë Eruo 若把 Eru 当宾语，就该作 oiencarmë Eruva。",
+     "en": "Nurtalë Valinóreva, the \"Hiding of Valinor\"",
+     "zh": "Nurtalë Valinóreva「Valinor 的隐藏」。",
+     "exampleZh": "Nurtalë Valinóreva"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 Nurtalë Valinórëo",
+     "right": "Nurtalë Valinóreva",
+     "whyZh": "用 -o 会变成「Valinor 在隐藏」，语义不通。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一对最小对比",
+     "bodyZh": "Nurtalë Valinóreva（宾语）对 oiencarmë Eruo（主语）——同一结构、两个格，角色正好相反。这是全课最清楚的一对证据，值得背下来。"
+    }
+   ],
+   "recapZh": "宾语属格用 -va：Nurtalë Valinóreva。",
+   "selfCheckZh": [
+    {
+     "qZh": "Nurtalë Valinóreva 里 Valinor 是主语还是宾语？",
+     "aZh": "宾语（被隐藏）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "verbal-or-abstract-nouns",
+    "unitIds": [
+     11
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "vn-combine",
+   "sourceSectionId": "verbal-or-abstract-nouns",
+   "titleZh": "38 · 主宾并用：Eruo melmë Ataniva",
+   "leadZh": "同一短语可用 -o 表主语、-va 表宾语，且 -o 通常在前：Valaron nurtalë Valinóreva「众维拉对 Valinor 的隐藏」；Eruo melmë Ataniva「神对人类的爱」；Atanion melmë Eruva「人类对神的爱」。",
+   "objectives": [
+    "能构造主宾并用的短语",
+    "能说明 -o 的位置"
+   ],
+   "rules": [
+    {
+     "id": "rule-combine",
+     "headZh": "两种属格并用",
+     "bodyZh": "同一短语里 -o 格可用于主语属格、-va 格用于宾语属格，且最好让 -o 在前：Valaron nurtalë Valinóreva「众维拉对 Valinor 的隐藏」。自造例：Eruo melmë Ataniva「神对人类的爱」；反之 Atanion melmë Eruva「人类对神的爱」。",
+     "en": "Eruo melmë Ataniva = \"God's love of Men\"",
+     "zh": "Eruo melmë Ataniva =「神对人类的爱」。",
+     "exampleZh": "Eruo melmë Ataniva／Atanion melmë Eruva"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Valaron nurtalë Valinóreva",
+     "zh": "众维拉对 Valinor 的隐藏",
+     "noteZh": "-o 表主语（众维拉），-va 表宾语（Valinor）。"
+    },
+    {
+     "en": "Eruo melmë Ataniva",
+     "zh": "神对人类的爱",
+     "noteZh": "Eruo 主语，Ataniva 宾语。"
+    },
+    {
+     "en": "Atanion melmë Eruva",
+     "zh": "人类对神的爱",
+     "noteZh": "Atanion 主语，Eruva 宾语。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 Eruo melmë Ataniva 译成「人类对神的爱」",
+     "right": "神是主语，人类是宾语",
+     "whyZh": "词尾决定角色：-o 在前为主语，-va 为宾语。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "这两句是检验理解的试金石",
+     "bodyZh": "两句词几乎相同，只换了词尾与词序，意义正好相反。能一眼读出谁爱谁，就说明主语／宾语属格的区分真正掌握了。"
+    }
+   ],
+   "recapZh": "-o 主语、-va 宾语，-o 在前：Eruo melmë Ataniva。",
+   "selfCheckZh": [
+    {
+     "qZh": "Atanion melmë Eruva 什么意思？",
+     "aZh": "人类对神的爱。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "verbal-or-abstract-nouns",
+    "unitIds": [
+     12,
+     13,
+     14,
+     15
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "summary",
+   "kind": "summary",
+   "sourceSectionId": "verbal-or-abstract-nouns",
+   "titleZh": "39 · 本章小结：原文 Summary 与中文对照",
+   "leadZh": "左侧是 less-c.rtf 第 12 课 Summary 原文（未删节），右侧是等价中文翻译。",
+   "objectives": [
+    "能复述所有格的词尾、复数与双数",
+    "能列出所有格的主要功能",
+    "能说明动名词与两个格的主宾关系"
+   ],
+   "summaryEn": "Summary of Lesson Twelve: The possessive (or adjectival) case is formed by adding the ending -va (probably -wa after nouns ending in a consonant), in the plural -iva. (There is no explicit information about dual forms; presumably the ending -va can be added to nouns with dual forms in -u, whereas the case ending might appear as -wa when added to a dual form in -t.) If the ending -va is to be added to a noun of at least three syllables that ends in a vowel, and the two last syllables are short, then the final vowel is lengthened before the case ending is added so as to attract the stress: the possessive form of Oromë is therefore Oroméva (not **Oromeva). For some reason, such lengthening also occur if the diphthong ui occurs in the second-to-last syllable of the noun; the possessive form of huinë \"gloom\" is therefore huinéva. – A possessive phrase like \"X Yva\" may mean \"Y's X\" or \"X of Y\" referring to simple ownership, e.g. lambë Eldaiva \"the language of the Elves\" or coa i Eldava \"the Elf's house\". The pattern \"X Yva\" may also refer to a permanent attribute (e.g. alcar Oroméva \"the glory of Oromë\"), or to the prevalent characteristic of a place (e.g. Taurë Huinéva \"Forest of Gloom\"). Another use of this case is expressing \"X that consists of Y\" (e.g. yuldar lisse-miruvóreva \"draughts of sweet mead\"). – Verbal nouns, or abstract nouns derived from verbs, denote an action viewed as a \"thing\" or process. Such nouns may be derived in a variety of ways; relevant endings include -më, -lë, -ië and -ë. Notice especially the ending -lë, which (it seems) may in principle be added to any A-stem verb, as when the verb linda- \"to sing\" produces lindalë \"singing, music\". When dependent on a verbal noun or an abstract clearly associated with some verb, the genitive case takes on the meaning of a subject genitive (as in Altariello nainië \"Galadriel's lament\"), whereas the possessive case is used for object genitive (Nurtalë Valinóreva \"Hiding of Valinor\").",
+   "summaryZh": "第十二课小结：所有格（或形容词格）由加词尾 -va 构成（辅音结尾的名词后大概是 -wa），复数作 -iva。（没有关于双数形式的明确信息；大概 -va 可加到 -u 双数名词上，而加在 -t 双数上时词尾或作 -wa。）若 -va 要加到至少三个音节、以元音结尾且末两个音节为短音节的词上，则末元音在加格词尾前拉长以吸引重音：Oromë 的所有格因此是 Oroméva（不是 **Oromeva）。出于某种原因，若倒数第二音节含双元音 ui，也会发生这种拉长；huinë「幽暗」的所有格因此是 huinéva。——像「X Yva」这样的所有格短语可表「Y 的 X」或「X of Y」，指简单拥有，如 lambë Eldaiva「精灵的语言」或 coa i Eldava「精灵的房子」。这种模式也可指永久属性（如 alcar Oroméva「Oromë 的荣光」），或某地的主导特征（如 Taurë Huinéva「幽暗之林」）。这个格的另一用法是表达「由 Y 构成的 X」（如 yuldar lisse-miruvóreva「甜蜜蜜酒的饮」）。——动名词或由动词派生的抽象名词，表示被当作「事物」或过程看的动作。这类名词可由多种方式派生；相关词尾包括 -më、-lë、-ië、-ë。特别注意词尾 -lë，它（看来）原则上可加到任何 A 词干动词上，如动词 linda-「唱」产生 lindalë「歌唱、音乐」。当依附于动名词或明显与某动词相关的抽象名词时，属格带上主语属格的意义（如 Altariello nainië「Galadriel 的哀歌」），而所有格用于宾语属格（Nurtalë Valinóreva「Valinor 的隐藏」）。",
+   "formulaZh": [
+    "所有格单数：-va（Eldava）；辅音结尾用 -wa（atarwa）。",
+    "所有格复数：-iva（Eldaiva、lassíva）；双数：Alduva／ciryatwa。",
+    "元音拉长：三音节以上、末两音节短 → 拉长末元音（Oroméva）；Eruva 不拉长；含 ui 也拉长（huinéva、cuiléva）。",
+    "功能：当前拥有（coa i Eldava）、永久属性（alcar Oroméva）、特征（Taurë Huinéva）、材料（rië telpeva）。",
+    "词序：所有格通常后置；唯一前置例 Eruva lissë。",
+    "动名词词尾：-më、-ië、-lë、拉长 + -ë、裸 A 词干。",
+    "主语属格用 -o（Altariello nainië）；宾语属格用 -va（Nurtalë Valinóreva）；两者可并用（Eruo melmë Ataniva）。",
+    "拿不准时选属格（晚期用法趋势）。"
+   ],
+   "selfCheckZh": [
+    {
+     "qZh": "Oromë 的所有格与属格各是什么？",
+     "aZh": "Oroméva（所有格）、Oromëo（属格）。"
+    },
+    {
+     "qZh": "「Valinor 的隐藏」用哪个格？",
+     "aZh": "所有格：Nurtalë Valinóreva。"
+    },
+    {
+     "qZh": "hosta- 的动名词？",
+     "aZh": "hostalë。"
+    }
+   ]
+  },
+  {
+   "sectionId": "vocabulary",
+   "sourceSectionId": "vocabulary",
+   "titleZh": "40 · 课末词汇：1 个数词 + 6 个名词 + 4 个形容词／动词",
+   "leadZh": "本课词汇多为练习服务：minquë、seler、malta、engwë、muilë、sérë、ramba、ondo、osto、mornië 用来造 -va 短语，varya- 与 alya 补动词与形容词。",
+   "objectives": [
+    "能默写 12 条并标出词性",
+    "能写出各名词的所有格形式",
+    "能说明 muilë 与 sérë 的构词"
+   ],
+   "rules": [
+    {
+     "id": "rule-vocab-minque",
+     "headZh": "minquë「十一」",
+     "bodyZh": "数词 minquë「十一」不变。练习 H「i minquë Naucoiva」、L「I minquë ohtari」用它。",
+     "en": "minquë \"eleven\"",
+     "zh": "minquë「十一」。",
+     "exampleZh": "i minquë Naucoiva"
+    },
+    {
+     "id": "rule-vocab-seler",
+     "headZh": "seler（sell-）「姐妹」",
+     "bodyZh": "词干 sell-，故属格 sello（练习 P「I arano sello」）、复数 sellor（练习 J「I seldoron seler」的 seldo- 是 seldo「男孩」的词干）。",
+     "en": "seler (sell-) \"sister\"",
+     "zh": "seler（sell-）「姐妹」。",
+     "exampleZh": "sello／selerwa"
+    },
+    {
+     "id": "rule-vocab-malta",
+     "headZh": "malta「金」",
+     "bodyZh": "malta 是「金」的最终形式（《词源》作 malda，但《魔戒》后资料支持 malta）。材料用法：yulma maltava「金杯」、harma maltava「金子的财宝」。",
+     "en": "malta \"gold\"",
+     "zh": "malta「金」。",
+     "exampleZh": "yulma maltava"
+    },
+    {
+     "id": "rule-vocab-abstract",
+     "headZh": "muilë、sérë、mornië：抽象名词",
+     "bodyZh": "muilë「隐秘」＝ MUY + -lë；sérë「和平」＝ ser-「休息」的抽象构词；mornië「黑暗」＝ morna「暗的」的抽象构词。三者正好示范本课三种抽象后缀。",
+     "en": "muilë \"secrecy\"",
+     "zh": "muilë「隐秘」。",
+     "exampleZh": "muiléva／morniéva"
+    }
+   ],
+   "table": {
+    "captionZh": "12 条与所有格形式",
+    "headers": [
+     "课末词",
+     "词性 / 释义",
+     "所有格"
+    ],
+    "rows": [
+     [
+      "minquë",
+      "数词「十一」",
+      "—"
+     ],
+     [
+      "varya-",
+      "动词「保护」",
+      "—"
+     ],
+     [
+      "alya",
+      "形容词「丰富的」",
+      "—"
+     ],
+     [
+      "seler (sell-)",
+      "名词「姐妹」",
+      "selerwa"
+     ],
+     [
+      "malta",
+      "名词「金」",
+      "maltava"
+     ],
+     [
+      "engwë",
+      "名词「事物」",
+      "engwëva → engwíva（复数）"
+     ],
+     [
+      "muilë",
+      "名词「隐秘」",
+      "muiléva"
+     ],
+     [
+      "sérë",
+      "名词「和平」",
+      "séreva"
+     ],
+     [
+      "ramba",
+      "名词「墙」",
+      "rambava"
+     ],
+     [
+      "ondo",
+      "名词「石」",
+      "ondova"
+     ],
+     [
+      "osto",
+      "名词「城市」",
+      "ostova"
+     ],
+     [
+      "mornië",
+      "名词「黑暗」",
+      "morniéva"
+     ]
+    ]
+   },
+   "pitfalls": [
+    {
+     "wrong": "把 muilë 的所有格写成 muileva",
+     "right": "muiléva（ui 后拉长）",
+     "whyZh": "keys N 题明确：muiléva，参 huinéva。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "这批词的形态分布很整齐",
+     "bodyZh": "ondo、ramba 是 -a 结尾（→ -va），osto 是 -o 结尾（→ -va 也不难），muilë、mornië 含 ui／ië（→ 拉长），engwë 复数作 engwíva。练习里几乎每个词都能踩到一条形态规则。"
+    }
+   ],
+   "recapZh": "12 条：minquë、varya-、alya、seler、malta、engwë、muilë、sérë、ramba、ondo、osto、mornië。",
+   "selfCheckZh": [
+    {
+     "qZh": "muilë 的所有格？",
+     "aZh": "muiléva。"
+    },
+    {
+     "qZh": "ondo 的所有格？",
+     "aZh": "ondova。"
+    },
+    {
+     "qZh": "engwë 的所有格复数？",
+     "aZh": "engwíva。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "vocabulary",
+    "unitIds": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "exercises",
+   "sourceSectionId": "exercises",
+   "titleZh": "41 · 练习工作台：A–P 与 keys 核对",
+   "leadZh": "A–H 昆雅译英，I–P 英译昆雅。本课要同时用属格（-o／-on）与所有格（-va／-iva），并判断关系：拥有、来源、材料、特征、主语、宾语。",
+   "objectives": [
+    "独立完成 A–P，不先展开答案",
+    "能说明每题为何用 -o 或 -va",
+    "核对后能把错题回链到对应规则卡"
+   ],
+   "workflowZh": [
+    "第一遍：遮住答案，先圈出每个属格／所有格短语",
+    "判断关系：当前拥有？先前拥有／来源？材料？特征？",
+    "拥有、材料、特征 → -va；来源、部分、关于、主语 → -o",
+    "动名词后：主语用 -o，宾语用 -va",
+    "核对词尾：-a 脱落、-o 隐形、复数 -iva、拉长规则",
+    "点「核对」比对 keys 原文答案",
+    "错题按「回到本课规则」跳回规则卡",
+    "最后展开 keys 全文与 EXERCISES 原文复核"
+   ],
+   "teachingNoteZh": "keys 对每题都注明所选格的理由：B、E 的材料用法（-va）、C 的当前拥有、D 的永久特征、F 的属格＋所有格套叠、G 的部分属格＋当前拥有、H 的家庭属格＋当前拥有。J 的 seldoron 是 seldo「男孩」的属格复数；K、L、M、N 各给两种可行译法，并说明换格会带来什么语气差别。P 题考三件事：i arano sello（家庭属格）、sello hostalë（主语属格）、parmaiva（宾语属格用 -va）、Eldaron（「关于」义）。",
+   "bilingual": {
+    "sectionId": "exercises",
+    "unitIds": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18
+    ],
+    "labelZh": "课文"
+   }
+  }
+ ]
+}

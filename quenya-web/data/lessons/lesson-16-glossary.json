@@ -1,0 +1,78 @@
+{
+ "lesson": 16,
+ "introZh": "本课 12 个词分三组：器物（namba、ehtë）、-ta 使役动词（envinyata-、airita-、harna-）与命令式专用词（á、áva）。á 与 áva 不是普通词汇，而是语法工具，必须与命令式一起记。",
+ "entries": [
+  {
+   "word": "nelya",
+   "posZh": "序数词",
+   "glossZh": "第三",
+   "noteZh": "精灵第三宗族本名 Nelyar，字面「Thirds, Third Ones」；该宗族的 Eldarin 一支后来改称 Lindar 或 Teleri（WJ:380、382）。与第 15 课的 tatya「第二」同一系列。练习 D「i nelya auressë」、P「i nelya coassë」。"
+  },
+  {
+   "word": "á",
+   "posZh": "命令小品词",
+   "glossZh": "（命令语气）",
+   "noteZh": "变体 a，但本课程一律用 á。置于动词词干前：á lelya!「走！」、á tirë!「看着！」。避免用 a，因为 a 也是称呼小品词（a vanimar「哦，美的人们」）。"
+  },
+  {
+   "word": "áva",
+   "posZh": "否定命令词",
+   "glossZh": "别、不要",
+   "noteZh": "á ＋ 否定词 vá。也作 avá，是唯一可确知重音在末音节的双音节昆雅词（WJ:371），但本课程用 áva。练习 B「Áva matë yondonya!」、L「Áva firë!」、O「Áva lelya i sírenna!」。"
+  },
+  {
+   "word": "rac-",
+   "posZh": "动词",
+   "glossZh": "打破、折断",
+   "noteZh": "基本动词，命令式用 á racë（不用 raca）。练习 I「Á racë i yulma nambanen!」、K「umir polë racë i rambar」。"
+  },
+  {
+   "word": "envinyata-",
+   "posZh": "动词（-ta 使役）",
+   "glossZh": "复兴、更新",
+   "noteZh": "en-「再」＋ vinya「新」＋ -ta。过去时 envinyatánë，被动分词 envinyanta（鼻音插入）。头衔 Envinyatar「Renewer」即其施事形式。练习 C「Nilmelva ná envinyanta」、N「envinyatáner nilmelma」。"
+  },
+  {
+   "word": "airita-",
+   "posZh": "动词（-ta 使役）",
+   "glossZh": "祝圣、使圣洁",
+   "noteZh": "由 airë（airi-）「holy」派生；-ë 在词尾前变 -i-。过去时 airitánë（长 á），被动分词 airinta。练习 M「i yána airinta」。"
+  },
+  {
+   "word": "harna-",
+   "posZh": "动词",
+   "glossZh": "使受伤",
+   "noteZh": "被动分词显然也作 harna「wounded」（《词源》SKAR 条），故不必作 ?harnaina。练习 B「harnanë i rá」、F「ná harna rassenten」、L「harna yondoryanna」。"
+  },
+  {
+   "word": "namba",
+   "posZh": "名词",
+   "glossZh": "锤子",
+   "noteZh": "工具格的典型用例：nambanen「用锤子」。练习 I「Á racë i yulma nambanen!」。"
+  },
+  {
+   "word": "ehtë",
+   "posZh": "名词",
+   "glossZh": "矛",
+   "noteZh": "词干有争议：按 EKTE 作 ehte-（工具格 ehtenen），按 EKTI 作 ehti-（工具格 ehtinen）。复数工具格无论哪种都作 ehtínen。练习 B「ehtenen」、K「ehtínen」。"
+  },
+  {
+   "word": "yána",
+   "posZh": "名词",
+   "glossZh": "圣地、圣所",
+   "noteZh": "练习 M「i yána airinta」、P「i yánallo ya cenil(yë) i ambossë」。"
+  },
+  {
+   "word": "nilmë",
+   "posZh": "名词",
+   "glossZh": "友谊",
+   "noteZh": "练习 C「Nilmelva ná envinyanta annalyanen!」、N「envinyatáner nilmelma altë annainen」。"
+  },
+  {
+   "word": "Rómen",
+   "posZh": "名词",
+   "glossZh": "东方",
+   "noteZh": "开头 ró- 与动词 orta-「升起」的 or- 同源，因为太阳从东方升起。练习 J「haira nórenna Rómessë」、P「i lelyar Rómenna」。"
+  }
+ ]
+}

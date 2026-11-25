@@ -1,0 +1,308 @@
+{
+ "kind": "translation",
+ "introZh": "A–H 昆雅译英，I–P 英译昆雅。答案逐字取自 keys.rtf；括号里的注释也来自 keys，解释该形式的由来。",
+ "pointMapZh": [
+  {
+   "labelZh": "离格 -llo",
+   "ruleRef": "r-abl-i1",
+   "noteZh": "A（mindonello）、B（Ambarello）、E（coanyallo）、F（Númello）、I（coallo）、G（nórelmallo）"
+  },
+  {
+   "labelZh": "复数离格 -llon",
+   "ruleRef": "r-abl-p2",
+   "noteZh": "C（orontillon）、G（rávillon）、M（ambollon）"
+  },
+  {
+   "labelZh": "向格 -nna／-nnar",
+   "ruleRef": "r-all-p1",
+   "noteZh": "A（coanna）、C（coannar）、D（nórenna）、E（sírenna）、I（ambonna）、K（mindonna）、M（Númenna）"
+  },
+  {
+   "labelZh": "双数向格 -nta",
+   "ruleRef": "r-all-d1",
+   "noteZh": "M（sambenta）"
+  },
+  {
+   "labelZh": "ruc- 配离格",
+   "ruleRef": "r-abl-n2",
+   "noteZh": "G（rucë i rávillon）、O（Rucin(yë) ... rasselyalto）"
+  },
+  {
+   "labelZh": "equë 的用法",
+   "ruleRef": "r-eq-u2",
+   "noteZh": "H（Equë Nessimë）、I（Equë Calandil）、N（equë 不加 -r）"
+  },
+  {
+   "labelZh": "auta- 两套时态",
+   "ruleRef": "r-au-o1",
+   "noteZh": "B（avánier 属消失义）、E（oantë 属物理离开）、I（oantië）"
+  },
+  {
+   "labelZh": "所有格词尾 -lva／-lma",
+   "ruleRef": "r-po-a1",
+   "noteZh": "D（lielvava）、J（Ambarelvan）、M（sambelvanna）、P（sambelvanna）"
+  },
+  {
+   "labelZh": "-nya 恒用 -i-",
+   "ruleRef": "r-po-ny1",
+   "noteZh": "K（mólinya）、P（parmanya、engwenyar）"
+  }
+ ],
+ "part1": {
+  "titleZh": "练习一 · 昆雅译英（A–H）",
+  "hintZh": "先找 from／to 的成分，判断是离格还是向格；再看有没有含所有格词尾的名词。",
+  "items": [
+   {
+    "id": "A",
+    "prompt": "Lelyuvalvë i mindonello i coanna.",
+    "pointZh": "mindonello 离格 + coanna 向格，一句两格",
+    "hintsZh": [
+     "lelyuvalvë ＝ lelya + -uva- + -lvë（包含式）。",
+     "mindonello ＝ mindon + -llo。",
+     "coanna ＝ coa + -nna。"
+    ],
+    "ruleRef": "r-abl-i1",
+    "ruleLabelZh": "回到规则：离格 -llo",
+    "answerKey": "We (inclusive) will go from the tower to the house.",
+    "answerKeyZh": "我们（包含式）将从塔上走到那房子。",
+    "answerZh": "keys 另注：也可解作「out of the tower」「into the house」——这正是上一节讲的引申义歧义。"
+   },
+   {
+    "id": "B",
+    "prompt": "Ilyë Eldar avánier Ambarello.",
+    "pointZh": "avánier 是「消失、逝去」那一套完成时",
+    "hintsZh": [
+     "ilyë「所有的」。",
+     "avánier ＝ avánië + -r（复数主语）。",
+     "Ambarello ＝ Ambar + -llo。"
+    ],
+    "ruleRef": "r-au-v2",
+    "ruleLabelZh": "回到规则：vánë／avánië",
+    "answerKey": "All Elves have passed [/disappeared] from the world.",
+    "answerKeyZh": "所有精灵都已从世界上逝去（／消失）。",
+    "answerZh": "keys 给两个译法 passed／disappeared，正对应 vánë／avánië 的「消失、逝去」义；若是物理离开，就该用 oantier。"
+   },
+   {
+    "id": "C",
+    "prompt": "I Naucor utúlier i orontillon; elendientë i coannar ar súcar limpelva.",
+    "pointZh": "orontillon 是复数离格；coannar 是复数向格",
+    "hintsZh": [
+     "utúlier ＝ utúlië + -r「他们已来」。",
+     "orontillon ＝ oron(t) + -i- + -llon。",
+     "elendientë「他们去了」、súcar「他们喝」。"
+    ],
+    "ruleRef": "r-abl-p2",
+    "ruleLabelZh": "回到规则：复数离格 -llon",
+    "answerKey": "The Dwarves have come from [or, out of] the mountains; they have gone to [or, into] the houses and are drinking our (incl.) wine.",
+    "answerKeyZh": "矮人们从山里来了；他们去了那些房子，正在喝我们的（包含式）酒。",
+    "answerZh": "orontillon 用 -i- 作连接元音（复数），limpelva 是 limpe + -lva（包含式「我们的」）。keys 同时给 from／out of 两解。"
+   },
+   {
+    "id": "D",
+    "prompt": "I úmië ohtari mapuvar i malta lielvava mentien harmalvar haira nórenna.",
+    "pointZh": "lielvava 是「双重所有格」；mentien 表目的",
+    "hintsZh": [
+     "úmië「邪恶的」。",
+     "lielvava ＝ lielva（我们的）+ -va，即「我们的民族的（金子）」。",
+     "mentien ＝ menta + -ië + -n，表目的。"
+    ],
+    "ruleRef": "r-po-a1",
+    "ruleLabelZh": "回到规则：-lva 与 -va 叠加",
+    "answerKey": "The evil warriors will seize the gold of our (incl.) people [in order] to send our (incl.) treasures to a remote land.",
+    "answerKeyZh": "邪恶的战士们将夺取我们民族的黄金，以便把我们的宝物送到一片遥远的土地。",
+    "answerZh": "原题自带提示：Lielvava ＝ lielva + 格词尾 -va。这说明带所有格词尾的名词可以继续接格词尾——本课的核心机制。"
+   },
+   {
+    "id": "E",
+    "prompt": "I nís oantë coanyallo ar lendë i sírenna.",
+    "pointZh": "oantë 是物理离开；coanyallo 是离格",
+    "hintsZh": [
+     "oantë 属 oantë／oantië 那一套。",
+     "coanyallo ＝ coanya + -llo。",
+     "sírenna ＝ sírë + -nna。"
+    ],
+    "ruleRef": "r-au-o1",
+    "ruleLabelZh": "回到规则：oantë",
+    "answerKey": "The woman went away from my house and went to the river.",
+    "answerKeyZh": "那女人从我家里走了出去，往河边去了。",
+    "answerZh": "oantë 表物理离开（去了别处），故译 went away；coanyallo 是「我的房子」加离格，展示「代词词尾在前、格词尾在后」。"
+   },
+   {
+    "id": "F",
+    "prompt": "I minya cirya tuluva Númello.",
+    "pointZh": "Númello 是方位词的离格（末 -n 脱落）",
+    "hintsZh": [
+     "minya「第一」。",
+     "tuluva「将来」。",
+     "Númen + -llo → Númello（-n 脱落）。"
+    ],
+    "ruleRef": "r-abl-i1",
+    "ruleLabelZh": "回到规则：离格 -llo",
+    "answerKey": "The first ship will come from the West.",
+    "answerKeyZh": "第一艘船将从西方来。",
+    "answerZh": "Númello 是 Númen 的离格，末 -n 按方位词规则脱落。keys 未加冠词，因为方位词被当作专名。"
+   },
+   {
+    "id": "G",
+    "prompt": "Quen rucë i rávillon, an amátientë i aran lielmo, ar úvantë auta nórelmallo.",
+    "pointZh": "ruc- 的宾语用复数离格 rávillon",
+    "hintsZh": [
+     "rucë「感到恐惧」，宾语用离格。",
+     "rá「狮」词干 ráv-，复数离格需插 -i-。",
+     "lielmo ＝ lielma + -o（属格）。"
+    ],
+    "ruleRef": "r-abl-n2",
+    "ruleLabelZh": "回到规则：ruc- 配离格",
+    "answerKey": "One fears the lions [Quenya: \"...feels fear from the lions\"], for they have eaten the king of our (exclusive) people, and they will not go away from our (exclusive) land [or simply: \"...will not leave our land\".]",
+    "answerKeyZh": "人怕那些狮子（昆雅：从狮子感到恐惧），因为它们吃了我们民族的王，而且它们不会离开我们的土地。",
+    "answerZh": "keys 注：rá 词干 ráv-，rávllon 不是可能的形式，故复数离格插 -i- 作 rávillon。lielmo 是 lielma「我们的民族」的属格。"
+   },
+   {
+    "id": "H",
+    "prompt": "Equë Nessimë Calandilenna: \"Yondonya avánië sambenyallo!\"",
+    "pointZh": "equë 引出引语，主语在后",
+    "hintsZh": [
+     "Equë ＋ 主语 ＋ 引语。",
+     "Calandilenna ＝ Calandil + -enna。",
+     "Yondonya「我的儿子」、sambenyallo「从我的房间」。"
+    ],
+    "ruleRef": "r-eq-u2",
+    "ruleLabelZh": "回到规则：equë 在主语前",
+    "answerKey": "Nessimë said [or, says] to Calandil: \"My son has disappeared from my room!\"",
+    "answerKeyZh": "Nessimë 对 Calandil 说：「我的儿子从我房间里消失了！」",
+    "answerZh": "equë 可读 said 也可读 says，故 keys 给两解。avánië 属「消失」那一套，不是 oantië。"
+   }
+  ]
+ },
+ "part2": {
+  "titleZh": "练习二 · 英译昆雅（I–P）",
+  "hintZh": "先判 from／to／into；再看名词是否带所有格词尾；ruc- 的宾语记得用离格。",
+  "items": [
+   {
+    "id": "I",
+    "prompt": "Calandil said to Nessimë: \"Your son has gone out of the house, for all the boys went to the hill.\"",
+    "pointZh": "equë 引引语；et 可省；oantië 表物理离开",
+    "hintsZh": [
+     "说话者在引语前 → 用 equë。",
+     "「出了房子」＝ et i coallo 或 i coallo。",
+     "「去了山上」＝ i ambonna。"
+    ],
+    "ruleRef": "r-eq-u2",
+    "ruleLabelZh": "回到规则：equë 的语序",
+    "answerKey": "Equë Calandil Nessimenna: \"Yondolya elendië [or, oantië] et i coallo, an ilyë i seldor lender [or, oanter = \"went away\"] i ambonna.\"",
+    "answerKeyZh": "Calandil 对 Nessimë 说：「你的儿子出了房子，因为所有男孩都上山去了。」",
+    "answerZh": "keys 注：et 可省，因为离格 i coallo 本身就能表「out of」；不省则更明确。elendië／oantië 两可，后者强调物理离开。"
+   },
+   {
+    "id": "J",
+    "prompt": "From heaven [Menel: the sky] the sun is giving light to our (inclusive) world, and the darkness has passed.",
+    "pointZh": "Menello 是缩合离格；Ambarelvan 是与格",
+    "hintsZh": [
+     "Menel + -llo → Menello（缩合）。",
+     "「给我们的世界」在此宜用与格 Ambarelvan。",
+     "avánië 表「已逝去」。"
+    ],
+    "ruleRef": "r-con3",
+    "ruleLabelZh": "回到规则：缩合 Menello",
+    "answerKey": "Menello Anar antëa cala Ambarelvan [dative!], ar i mornië avánië.",
+    "answerKeyZh": "太阳从天（空）把光给我们的世界，而黑暗已经逝去。",
+    "answerZh": "keys 注：此处「给我们的世界」宜用与格而非向格（参第 13 课 B 题）；但向格 Ambarelvanna 也可，意思是「光〔朝〕我们的世界去」。Menelello 也是有效离格。"
+   },
+   {
+    "id": "K",
+    "prompt": "Calandil said to the evil king: \"You have sent your warriors to the tower to find my sons. My thrall will protect the boys, and they will not be lost!\"",
+    "pointZh": "mólinya 用 -i-；ohtarilyar 复数用 -i-；yondonyar",
+    "hintsZh": [
+     "equë ＋ 主语 ＋ 引语。",
+     "ementiel(yë)「你已经派了」。",
+     "mólinya「我的奴仆」，-nya 恒用 -i-。",
+     "ohtarilyar「你的战士们」，复数用 -i-。"
+    ],
+    "ruleRef": "r-po-ny1",
+    "ruleLabelZh": "回到规则：-nya 恒用 -i-",
+    "answerKey": "Equë Calandil i úmëa aranna: \"Ementiel(yë) ohtarilyar i mindonna hirien yondonyar. Mólinya varyuva i seldor, ar úvantë vanwë!\"",
+    "answerKeyZh": "Calandil 对那邪恶的国王说：「你把你的战士们派到塔去，为了找我的儿子们。我的奴仆会保护那些男孩，他们不会失掉！」",
+    "answerZh": "keys 注：-nya 需要连接元音时总偏好 -i-，故 mólinya；而 ohtarilyar 的 -i- 是因为名词是复数。单数会是 ohtarelya、mólelma。"
+   },
+   {
+    "id": "L",
+    "prompt": "The man having [arwa] the ships wanted to leave, and all the ships went away west[wards].",
+    "pointZh": "arwa 接属格；Númenna 是向格",
+    "hintsZh": [
+     "arwa 后接属格 ciryaron。",
+     "mernë「想要」的过去时。",
+     "「向西」用 Númenna。"
+    ],
+    "ruleRef": "r-all-p1",
+    "ruleLabelZh": "回到规则：向格 -nnar／-nna",
+    "answerKey": "I nér arwa i ciryaron mernë auta, ar ilyë i ciryar oanter Númenna.",
+    "answerKeyZh": "拥有那些船的人想离开，而所有的船都向西去了。",
+    "answerZh": "arwa 接属格 ciryaron（第 13 课的规则）；oanter 用 oantë 那一套，因为是物理离开。"
+   },
+   {
+    "id": "M",
+    "prompt": "We (exclusive) went to a two-room apartment [dual of sambë!], and the man from the hills gave your son a great sword, saying [quétala]: \"The sword comes from a remote land, out of the outermost West.\" (\"Outermost\": use the superlative of haira.)",
+    "pointZh": "sambenta 双数向格；ambollon 复数离格；quétala 主动分词",
+    "hintsZh": [
+     "「我们去了」＝ lendelmë（排除式）。",
+     "sambë 的双数向格是 sambenta。",
+     "ambollon（或 ambollor）是复数离格。",
+     "yondolyan 是与格。",
+     "anhaira 是 haira 的最高级。"
+    ],
+    "ruleRef": "r-all-d1",
+    "ruleLabelZh": "回到规则：双数向格 -nta",
+    "answerKey": "Lendelmë sambenta, ar i nér i ambollon [or, ambollor] ánë yondolyan [dative!] alta macil, quétala: \"I macil tulë haira nórello, (et) anhaira Númello.\"",
+    "answerKeyZh": "我们（排除式）去了一套两居室，而从山里来的那个人把一把大剑给了你的儿子，说：「这剑来自一片遥远的土地，出自最远的西方。」",
+    "answerZh": "keys 注：sambenta 是双数向格；ambollon 用 -llon（或 -llor）；yondolyan 是与格「给你的儿子」；quétala 是主动分词「说着」；anhaira 是 haira 的最高级。"
+   },
+   {
+    "id": "N",
+    "prompt": "All trees died and disappeared from our (incl.) land, and Calandil and Nessimë said: \"We (excl.) will send our (excl.) thralls to find a land with [or, 'having' = arwa] many trees.\"",
+    "pointZh": "equë 多主语也不加 -r；váner 属消失义",
+    "hintsZh": [
+     "firner「死了」、váner「消失了」。",
+     "nórelvallo「从我们的土地」。",
+     "equë Calandil ar Nessimë（不加 -r）。",
+     "arwa rimbë aldaron「有许多树的」。"
+    ],
+    "ruleRef": "r-eq-p1",
+    "ruleLabelZh": "回到规则：equë 不加 -r",
+    "answerKey": "Ilyë aldar firner ar váner nórelvallo, ar equë Calandil ar Nessimë: \"Mentuvalmë mólilmar hirien nórë arwa rimbë aldaron.\"",
+    "answerKeyZh": "所有的树都死了，从我们的土地上消失了，而 Calandil 与 Nessimë 说：「我们将派我们的奴仆去找一片有许多树的土地。」",
+    "answerZh": "keys 特意指出：即使主语是两个专名并列，equë 也不加 -r。mólilmar 的 -i- 是复数连接元音；arwa 后接属格 aldaron。"
+   },
+   {
+    "id": "O",
+    "prompt": "The maiden said to the animal: \"I fear [/I'm afraid of] your big horns (dual).\"",
+    "pointZh": "普通名词用 quentë；ruc- 用离格；rasselyalto 双数离格",
+    "hintsZh": [
+     "vendë 是普通名词 → 用 quentë，不用 equë。",
+     "laman 的向格是 lamnenna（词干 lamn-）。",
+     "ruc- 的宾语用离格：rasselyalto。"
+    ],
+    "ruleRef": "r-abl-n2",
+    "ruleLabelZh": "回到规则：ruc- 配离格",
+    "answerKey": "I vendë quentë i lamnenna: \"Rucin(yë) altë rasselyalto.\"",
+    "answerKeyZh": "那少女对那动物说：「我怕你的那对大角。」",
+    "answerZh": "keys 注：vendë 是普通名词，故不用 equë 而用 quentë。rasselyalto 是 rassë 双数加 -lya 再加离格 -lto。"
+   },
+   {
+    "id": "P",
+    "prompt": "I went to our (inclusive) room to gather my things, for I wanted to give my brother my first book; the book lay [/was lying] on the floor.",
+    "pointZh": "sambelvanna 先代词词尾后格词尾；torninyan 用 -i-",
+    "hintsZh": [
+     "lenden(yë)「我去了」。",
+     "sambelvanna ＝ sambë + -lva + -nna。",
+     "hostien 表目的。",
+     "torninyan ＝ toron (torn-) + -nya + -n。"
+    ],
+    "ruleRef": "r-po-o1",
+    "ruleLabelZh": "回到规则：代词词尾在前",
+    "answerKey": "Lenden(yë) sambelvanna hostien engwenyar, an mernen(yë) anta torninyan minya parmanya; i parma caitanë i talamenna.",
+    "answerKeyZh": "我走进我们的房间去收我的东西，因为我想把我的第一本书给我的兄弟；那本书躺在地板上。",
+    "answerZh": "keys 注：「我的兄弟」用 torninya（toron, torn- ＋ -nya，-nya 偏好 -i-），再加与格 -n 得 torninyan。talamenna 用词干 talam-；也许 talanna（talan-nna）也可。"
+   }
+  ]
+ }
+}

@@ -1,0 +1,27 @@
+代词「我们」
+
+已练多种代词尾：-n/-nyë「我」（短式勿混与格 -n！）、-lyë「你」、-s「它」、-ntë「他们」、-t「他们〔宾格〕」。现引入第一人称复数，对应英语 we。
+
+故事相当复杂：昆雅有数个「我们」尾，托尔金多次重划其精确含义。Cormallen 赞歌 Andavë laituvalmet「久将赞颂他们」：lait·uva·lme·t，「我们」尾 -lmë。
+
+WJ:371 论叹词 vá「不！」可加人称尾，ványë「我不」；又有 vammë「我们不」，此处「我们」突为 -mmë 非 -lmë。
+
+NOTE：ványë 中 á 缩短见 vammë，示昆雅正常不能在辅音丛或长辅音前有长元音——ványë 中 ny 似单辅音（腭化 n）非丛。
+
+VT42:35 Bill Welden 引句 navilwë「我们审判」，-lwë 表 we。VT43:6 又一 we 尾含 -lv- 非 -lw-，对照「我们的」尾知 omentielvo「我们会晤的」。不提 -ngwë 又一 we 尾以免更乱。
+
+简言之「我们」有一窝尾；须先识二事实：一者乱部分源于托尔金无尽修订，样本不同时期昆雅。二者昆雅区分英语不分的 we。
+
+最重要的是 inclusive / exclusive。托尔金称 -mmë 为「第一人称复数 excluding〔排除式〕」（WJ:371）。当时 -mmë = exclusive we，不含受话人。vammë「我们不」是对外方拒绝，对方不在 we 内。
+
+另一方面 -lmë 曾为 inclusive：laituvalmet 初意为赞美 Frodo/Sam 者互劝；若直接对他们说应 exclusive「我们将赞你们」。第八课作者自指 we 含读者时，昆雅必分明：royal we 仅 exclusive；作者对读者说 we 须 inclusive。
+
+更终决定？部分旧式放弃或重新定义。LotR 出版时 inclusive clearly -lmë（laituvalmet）。约五年后 Quendi and Eldar 明言 -mmë exclusive「我们」（WJ:371）。课程初版用 -lmë inclusive、-mmë exclusive。
+
+后重要修订，1966 二版 LotR 部分反映，师生应采纳。Frodo 问候 Gildor omentielmo 改 omentielvo。Plotz 收信：-lm- 非 inclusive 而 exclusive！Frodo 对精灵说话「我们的会晤」不可用 exclusive，新 inclusive 含 -lv-：omientielvo。VT43:6 述 -lm- 改 -lv- 于 inclusive。
+
+后果：Cormallen Praise 须重释。laituvalmet 原必有 inclusive「我们互劝」；二版后 -lmë 变 exclusive：「我们刚多人民宣告将长久赞美戒 bearer！」
+
+小问题：inclusive 应含 -lv-，为何 navilwë 为 -lwë？诸说皆未完全说服。本课用 -lvë。
+
+尚有 dual we「我俩」。-lvë/-lmë 为三人以上。VT43:6 dual we 用 -mm-。-mmë 曾在早阶段为「复数 excluding」。后 -mmë 改 dual 非 plural。尚不确定 revised -mmë 为 inclusive「你我」或 exclusive「我与另一人」，或双数是否仍分 inclusive/exclusive。若 -mmë exclusive，可联 Namárië met「我俩〔宾格〕」。四格 inclusive/exclusive × plural/dual 需四尾：-lvë/-lwë、-lmë、-mmë、-ngwë 纠缠不休。较终决议（作者理解）：inclusive -lvë（替 -lmë），exclusive -lmë（由 inclusive 改义），-mmë 原 exclusive plural 现 dual（in/ex?）。练习仅用 -lvë、-lmë；-mmë、-ngwë 仍晦。

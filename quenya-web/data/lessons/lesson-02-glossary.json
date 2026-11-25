@@ -1,0 +1,78 @@
+{
+  "lesson": 2,
+  "introZh": "以下 12 词来自 less-a.rtf 第 2 课课末 VOCABULARY；中文列为教学释义，「总表」一行由 q-vocab.rtf 昆雅→英语表自动交叉引用。按复数规则分组记忆：-r 组（Elda、rocco、lië）、-i 组（vendë、aran、tasar）、不加 i 的专有名词（Anar、Isil）、不变的功能词（minë、ar、nu）。",
+  "entries": [
+    {
+      "word": "minë",
+      "posZh": "数词",
+      "glossZh": "一",
+      "noteZh": "每课引入一个新数词，本课是第一个。练习 F 中作限定语：minë lië「一个族民／一族」、minë aran「一位国王」。"
+    },
+    {
+      "word": "Anar",
+      "posZh": "名词（专有）",
+      "glossZh": "（那位）太阳",
+      "noteZh": "按专有名词处理，前面不加 i。练习 P 与 keys 的答案附注都直接考这一点。"
+    },
+    {
+      "word": "Isil",
+      "posZh": "名词（专有）",
+      "glossZh": "（那位）月亮",
+      "noteZh": "与 Anar 同类，《精灵宝钻》第 11 章把两者都当专有名词。"
+    },
+    {
+      "word": "ar",
+      "posZh": "连词",
+      "glossZh": "和、与",
+      "noteZh": "连接两个并列名词；若两者都需限定，i 要分别出现（练习 G：i aran ar i tári）。"
+    },
+    {
+      "word": "Elda",
+      "posZh": "名词",
+      "glossZh": "精灵",
+      "noteZh": "-a 结尾，复数 Eldar。作者约定：本课程练习一律用 Elda 译 Elf，不用 Quendë。"
+    },
+    {
+      "word": "lië",
+      "posZh": "名词",
+      "glossZh": "族民、百姓、民族",
+      "noteZh": "-ië 结尾，复数 lier（去两点 + -r）。指整个族群，如 Eldalië「精灵之民」。不要与部分复数词尾 -li 混淆。"
+    },
+    {
+      "word": "vendë",
+      "posZh": "名词",
+      "glossZh": "少女",
+      "noteZh": "-ë 结尾，复数 vendi（用 -i 替换 -ë）。古体昆雅作 wendë。"
+    },
+    {
+      "word": "rocco",
+      "posZh": "名词",
+      "glossZh": "马（供骑乘的快马）",
+      "noteZh": "-o 结尾，复数 roccor。Letters:382 说明特指骑乘用的快马。"
+    },
+    {
+      "word": "aran",
+      "posZh": "名词",
+      "glossZh": "国王",
+      "noteZh": "辅音结尾，复数 arani。练习 B 的 Aran 是光杆单数，故有「国王／一位国王」两解。"
+    },
+    {
+      "word": "tári",
+      "posZh": "名词",
+      "glossZh": "女王",
+      "noteZh": "以 -i 结尾；按正文规则属加 -r 一类，但本课练习只用单数，原著未给出该词的复数实例。"
+    },
+    {
+      "word": "tasar",
+      "posZh": "名词",
+      "glossZh": "柳树",
+      "noteZh": "辅音结尾，复数 tasari。词末 -r 属于词干本身，不是复数词尾；并不存在单数 **tasa。"
+    },
+    {
+      "word": "nu",
+      "posZh": "介词",
+      "glossZh": "在……之下、在……下面",
+      "noteZh": "置于名词前：nu minë aran「在一位国王之下」、nu i tasar「在那棵柳树下」。"
+    }
+  ]
+}

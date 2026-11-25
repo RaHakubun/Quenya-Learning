@@ -1,0 +1,31 @@
+{
+  "lesson": 7,
+  "schemaVersion": 2,
+  "titleZh": "将来时与无定时",
+  "titleEn": "The Future Tense and the Aorist",
+  "summaryZh": "将来时用词尾 -uva：基本动词直接加（hiruva、cenuva、tiruva、hlaruva），A 词干先丢 -a 再加（linduva、oruva），复数主语加 -r（siluvar）。早先的 antáva 方案已被 -uva 取代，作者推测《魔戒》风格应为 antuva。唯一的悬案是 quantuva 与 quat-：若「装满」是 quat- 而将来时是 quantuva，则过去时有鼻音插入的动词将来时是否也要插入（mantuva）？原文明确说材料不足、不下结论。无定时（aorist）的术语由 VT41:17 证实，词源是希腊语 aoristos「无限制」。它的关键不是「表示瞬时」，而是对动作持续时间不作标记：现在时明确标记进行，无定时不标记，因此可表瞬时（capë）、习惯（carir）、一般真理（polin quetë）、甚至进行中的动作（auta＝is passing）。实用对应是英语一般现在时（topë covers）对 is ...-ing（tópa is covering），但托尔金本人也有反例（untúpa、hárar、tye-méla）。构成上：A 词干的无定时＝词干本身（lanta／lantar）；基本动词加 -i，词末变 -ë（matë），接词尾时保留 -i（matir）。三则 NOTE 分别处理 ettuler 的过渡残留、tápë／móta 的元音长短、以及用无定时绕开 -ëa 现在时的争议。",
+  "mindmap": {
+    "rootZh": "第 7 课：将来时与无定时",
+    "branches": [
+      {"labelZh": "两个新时态", "sectionId": "lesson-intro"},
+      {"labelZh": "将来时 -uva", "sectionId": "future-marker"},
+      {"labelZh": "A 词干丢 -a", "sectionId": "future-a-stem"},
+      {"labelZh": "quantuva 与 quat-", "sectionId": "future-quat"},
+      {"labelZh": "将来时复数 -r", "sectionId": "future-plural"},
+      {"labelZh": "无定时是什么", "sectionId": "aorist-intro"},
+      {"labelZh": "希腊语来源", "sectionId": "aorist-greek"},
+      {"labelZh": "一般真理", "sectionId": "aorist-general-truth"},
+      {"labelZh": "托尔金的摇摆", "sectionId": "aorist-vs-present"},
+      {"labelZh": "与现在关联", "sectionId": "aorist-orientation"},
+      {"labelZh": "不作标记", "sectionId": "aorist-unmarked"},
+      {"labelZh": "英语一般现在时", "sectionId": "aorist-english-simple"},
+      {"labelZh": "三个反例", "sectionId": "aorist-counterexamples"},
+      {"labelZh": "怎么选", "sectionId": "aorist-choice"},
+      {"labelZh": "构成规则", "sectionId": "aorist-formation"},
+      {"labelZh": "三则 NOTE", "sectionId": "aorist-notes"},
+      {"labelZh": "原文小结", "sectionId": "summary"},
+      {"labelZh": "课末词汇", "sectionId": "vocabulary"},
+      {"labelZh": "练习 A–P", "sectionId": "exercises"}
+    ]
+  }
+}

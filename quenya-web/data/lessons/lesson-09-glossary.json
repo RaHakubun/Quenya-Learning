@@ -1,0 +1,78 @@
+{
+  "lesson": 9,
+  "introZh": "本课 12 个词里 8 个是动词，正好覆盖三条新规则：pol-、mer-、hlar- 用来练不定式，um- 是否定动词本身，verya-、lelya-、pusta-、ruhta- 既能作不定式也能作分词。另有数词 tolto、名词 coa 与介词 mir、ter。",
+  "entries": [
+    {
+      "word": "tolto",
+      "posZh": "数词",
+      "glossZh": "八",
+      "noteZh": "不变复数。练习 D「i tolto taurë ohtari」、F「I tolto rávi」、M「I tolto lelyala Naucor」都用它。"
+    },
+    {
+      "word": "pol-",
+      "posZh": "动词",
+      "glossZh": "（身体上）能",
+      "noteZh": "只表身体能力，不表「会」（智力）也不表「可以」（获准）。不定式 polë。练习 C「Polin hlarë」、G「umë polë pusta」、M「polir hirë」。"
+    },
+    {
+      "word": "um-",
+      "posZh": "否定动词",
+      "glossZh": "不做／不是",
+      "noteZh": "过去时 úmë，将来时 úva，持续时 úma。后接不定式表「不做」：练习 E「umë saila」（不是）、G「umë polë」、H「úmë saila」、K「úmë verya」、N「Úmel(yë)…umil(yë)…úval(yë)」。"
+    },
+    {
+      "word": "mer-",
+      "posZh": "动词",
+      "glossZh": "希望、想要",
+      "noteZh": "不定式 merë。练习 F「merner matë」、J「mernë lelya」、O「Merin(yë) lelya」。"
+    },
+    {
+      "word": "hlar-",
+      "posZh": "动词",
+      "glossZh": "听见",
+      "noteZh": "与辛达林语 lhaw 相关（《魔戒》的 Amon Lhaw「听觉之丘」）。练习 C「Polin hlarë lindala vendë」。"
+    },
+    {
+      "word": "verya-",
+      "posZh": "动词",
+      "glossZh": "敢",
+      "noteZh": "与辛达林语名 Beren（勇敢者）同根。不定式 verya，分词 veryala。练习 K「úmë verya cenë」、P「Veryala nér」。"
+    },
+    {
+      "word": "lelya-",
+      "posZh": "动词",
+      "glossZh": "去、前行、旅行",
+      "noteZh": "过去时 lendë，完成时 [e]lendië（下一课详讲这个「不规则」动词）。分词 lelyala。练习 J、L「lender mir i coa」、M「lelyala Naucor」、O「lelya ter Ambar」。"
+    },
+    {
+      "word": "pusta-",
+      "posZh": "动词",
+      "glossZh": "停止",
+      "noteZh": "后接不定式：pusta matë「停止吃」、pustanë tirë「停止守望」。练习 G、H。"
+    },
+    {
+      "word": "ruhta-",
+      "posZh": "动词",
+      "glossZh": "使恐惧、惊吓",
+      "noteZh": "最终与 Urco／Orco（「妖怪、Orc」）相关。分词 ruhtala。练习 D「úva ruhta」、H「I ruhtala ohtar」。"
+    },
+    {
+      "word": "coa",
+      "posZh": "名词",
+      "glossZh": "房子",
+      "noteZh": "只指建筑，不指「家＝家庭」。练习 L「mir i coa」。"
+    },
+    {
+      "word": "mir",
+      "posZh": "介词",
+      "glossZh": "进入",
+      "noteZh": "练习 L「mir i coa」、P「mir i oron」（进山）。"
+    },
+    {
+      "word": "ter",
+      "posZh": "介词",
+      "glossZh": "穿过",
+      "noteZh": "较长变体 terë 也存在，但练习用 ter。练习 B「ter i talan」、O「ter Ambar」、P「ter i ando」。"
+    }
+  ]
+}

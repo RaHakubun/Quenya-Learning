@@ -1,0 +1,112 @@
+{
+  "lesson": 5,
+  "schemaVersion": 2,
+  "titleZh": "动词：现在时与数一致",
+  "titleEn": "The Verb: Present tense and agreement in number. Subject/object. The superlative form of adjectives.",
+  "summaryZh": "昆雅动词分两类：基本动词（赤裸词根，如 mat-、tir-）与 A 词干（词根 + -ya / -ta / -na / -a，如 calya-、mapa-）。基本动词的现在时＝拉长词干元音 + 加 -a（síla、quéta、máta），语义上表示「正在……」；A 词干的现在时同法，但词干末尾的 -a 变为 -e，得 -ëa（órëa、mápëa、lálëa）；若词干元音之后有辅音丛或双元音，则元音不拉长，只加 -ëa（calyëa、tultëa、lantëa、fainëa）。动词与主语数一致，复数一律加 -r（所有时态通用），宾语不影响动词。常态语序为主—动—宾，诗歌可倒装；主宾同为数时倒装有混淆风险。形容词最高级用前缀 an-（ancalima 是唯一传世例证），p 前 n 变 m（ampitya），l / r / s / m 前完全同化（allauca、arringa、assarda、ammoina）。",
+  "mindmap": {
+    "rootZh": "第 5 课",
+    "branches": [
+      {
+        "labelZh": "词类与动词登场",
+        "sectionId": "parts-of-speech"
+      },
+      {
+        "labelZh": "动词带来动作",
+        "sectionId": "verb-intro"
+      },
+      {
+        "labelZh": "时态",
+        "sectionId": "tense-intro"
+      },
+      {
+        "labelZh": "证据有多薄",
+        "sectionId": "verb-warning"
+      },
+      {
+        "labelZh": "A 词干",
+        "sectionId": "a-stems"
+      },
+      {
+        "labelZh": "基本动词",
+        "sectionId": "primary-verbs"
+      },
+      {
+        "labelZh": "词干元音",
+        "sectionId": "stem-vowel"
+      },
+      {
+        "labelZh": "基本动词现在时",
+        "sectionId": "present-primary"
+      },
+      {
+        "labelZh": "A 词干现在时",
+        "sectionId": "a-present"
+      },
+      {
+        "labelZh": "复杂 A 词干",
+        "sectionId": "a-complex"
+      },
+      {
+        "labelZh": "造句模板",
+        "sectionId": "sentence-building"
+      },
+      {
+        "labelZh": "Hostetter 的批评",
+        "sectionId": "note-hostetter"
+      },
+      {
+        "labelZh": "主语与宾语",
+        "sectionId": "subject-object"
+      },
+      {
+        "labelZh": "宾语可省与必用",
+        "sectionId": "object-optional"
+      },
+      {
+        "labelZh": "宾格",
+        "sectionId": "accusative"
+      },
+      {
+        "labelZh": "动词数一致",
+        "sectionId": "verb-agreement"
+      },
+      {
+        "labelZh": "复数主语",
+        "sectionId": "plural-subject"
+      },
+      {
+        "labelZh": "双数主语",
+        "sectionId": "verb-dual"
+      },
+      {
+        "labelZh": "语序",
+        "sectionId": "word-order"
+      },
+      {
+        "labelZh": "比较级与最高级",
+        "sectionId": "comparison"
+      },
+      {
+        "labelZh": "最高级 an-",
+        "sectionId": "superlative"
+      },
+      {
+        "labelZh": "an- 的同化",
+        "sectionId": "an-assimilation"
+      },
+      {
+        "labelZh": "本章小结",
+        "sectionId": "summary"
+      },
+      {
+        "labelZh": "课末词汇",
+        "sectionId": "vocabulary"
+      },
+      {
+        "labelZh": "练习与答案",
+        "sectionId": "exercises"
+      }
+    ]
+  }
+}

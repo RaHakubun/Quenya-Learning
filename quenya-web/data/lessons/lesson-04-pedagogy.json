@@ -1,0 +1,96 @@
+{
+  "lesson": 4,
+  "schemaVersion": 2,
+  "titleZh": "形容词、系词与数一致",
+  "titleEn": "The Adjective. The Copula. Adjectival agreement in number.",
+  "summaryZh": "形容词描述性质，有两种用法：定语（与名词构成短语，性质被预设）与谓语（整句断言性质）。英语作谓语时必须插入系词 is/are；昆雅有 ná（is）／nar（are），也可完全省略系词，且 ná 放句末同样合法。昆雅形容词绝大多数以 -a 或 -ë 结尾，其余几乎都以 -in 结尾（＝-ina 缩短形）。形容词必须与名词数一致：-a 类复数作 -ë（来自更早 -ai），-ëa 类作 -ië（避免 -ëe），-ë 类作 -i，-in 类传统假定作 -i。一致发生在前置、后置、分离、谓语四种位置；双数与 -li 名词没有专门的形容词形式。形容词用作名词时，-a 类可回到 -ar（penyar、Vanyar）。",
+  "mindmap": {
+    "rootZh": "第 4 课",
+    "branches": [
+      {
+        "labelZh": "形容词与两种用法",
+        "sectionId": "adjectives-intro"
+      },
+      {
+        "labelZh": "定语用法",
+        "sectionId": "attributive"
+      },
+      {
+        "labelZh": "谓语用法",
+        "sectionId": "predicative"
+      },
+      {
+        "labelZh": "系词是什么",
+        "sectionId": "copula"
+      },
+      {
+        "labelZh": "形容词的形状",
+        "sectionId": "adj-shape"
+      },
+      {
+        "labelZh": "语序",
+        "sectionId": "adj-order"
+      },
+      {
+        "labelZh": "系词 ná / nar",
+        "sectionId": "copula-na"
+      },
+      {
+        "labelZh": "语序之争",
+        "sectionId": "copula-order-debate"
+      },
+      {
+        "labelZh": "别的「是」",
+        "sectionId": "copula-history"
+      },
+      {
+        "labelZh": "数一致基础",
+        "sectionId": "agreement-basics"
+      },
+      {
+        "labelZh": "-a 复数的历史",
+        "sectionId": "plural-a-history"
+      },
+      {
+        "labelZh": "-ëa → -ië",
+        "sectionId": "plural-ea"
+      },
+      {
+        "labelZh": "-ë → -i",
+        "sectionId": "plural-e"
+      },
+      {
+        "labelZh": "辅音结尾",
+        "sectionId": "plural-consonant"
+      },
+      {
+        "labelZh": "一致的位置",
+        "sectionId": "agreement-positions"
+      },
+      {
+        "labelZh": "反例与草稿",
+        "sectionId": "agreement-evidence"
+      },
+      {
+        "labelZh": "最终结论",
+        "sectionId": "agreement-final"
+      },
+      {
+        "labelZh": "形容词作名词",
+        "sectionId": "adj-as-noun"
+      },
+      {
+        "labelZh": "本章小结",
+        "sectionId": "summary"
+      },
+      {
+        "labelZh": "课末词汇",
+        "sectionId": "vocabulary"
+      },
+      {
+        "labelZh": "练习与答案",
+        "sectionId": "exercises"
+      }
+    ]
+  }
+}

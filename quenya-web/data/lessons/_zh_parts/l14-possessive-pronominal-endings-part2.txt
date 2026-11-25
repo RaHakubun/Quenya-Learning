@@ -1,0 +1,21 @@
+初版为 Elen síla lúmenn' omentielmo，字面「星在我们〔我的、他的、她的，非你的〕会晤时刻上闪耀」。托尔金改 omentielvo，「我们的〔我的、你的、或也他的、她的〕会晤」。Ballantine  earliest 即如此；Plotz 以为印误，说服改回，得 omentilmo——据他所知无义。今美版多已正回应 omentielvo。
+
+Plotz 称 omentielvo 为 including our，语境正确；omentielmo 为 Tolkien 晚年定夺的 exclusive，不适用于弗罗多对精灵说话、必须把对方纳入 our 之时。此与 Carpenter 强调的 dual inflexion 说不同；Plotz 坚称其来自 Tolkien 函（信已佚）。
+
+2002 年 VT43 评述 1966 修订前代名词体系重构：-lm- → -lv- 标复数 including we/our（早先 -mm- exclusive、-lm- inclusive；后 -lm-改 exclusive，-lv- 新 inclusive；-mm- 据 VT43:6 变 dual……学生当可感同 Christopher SD:440 之言：父亲无休止修订「常使研语者沮丧」！VT43 似印证 Plotz 对 omentielmo > omentielvo 的解释，而 Letters:447 隐晦注无支持。
+
+Bill Welden（Elfling, 2002-02-08）：Carpenter 记非 canon（未经 Tolkien 参与）；Plotz 转述 -lmo 为误为 canon，因 Tolkien 主动发出的通信决定。Welden 称须作 cannon 接受。仍可举 Tolkien 书信语言观念后弃之例（1958 称 Valar 无自家语 vs 约一年后 Quendi and Eldar 大量 Valarin 词）。当前课程采用 VT43 与 Plotz：包括式 our = -lva，排除式 = -lma，亦可能有 dual our -mma（inclusive「你我」或 exclusive「他/她与我」不明）。对应第十三课 -lvë inclusive we、-lmë exclusive、-mmë dual。
+
+辅音尾名词加领属尾：为避免不可能辅音丛，可插入 -e-（与格尾同）。atar + -lya → atarelya「你的父亲」（**atarlya 不可）。主祷文 Our father = ataremma（VT43:8；后版 átaremma，或 a Ataremma 缩合）。属早阶段 exclusive 仍 -mma；Tolkien 在名与尾之间插 -e-。若晚年修订，首词或 atarelma/átarelma，连接元音同。
+
+名词为复数时，领属与格或共用 -i- 连接：elenillor「自群星」→ elenilyar「你的众星」；atarilmar「我们的〔排除〕父亲们」。hildinyar（宣言）或例：?hil, 词干 hild-, pl. hildi。
+
+然而 -nya「我的」略特殊：需连接元音时恒偏好 -i-，无论单复数（源自 NI2「我」）。Fíriel 之歌 Anarinya 非 **Anarenya；atarinya 非 ?atarenya。复数 atarinyar 单复可辨。hildinyar 单数 hildinya（初版假想，现见手稿 VT44:36）。另一尾 -lma 或有 hildelma? / hildilmar（-i 为连接用名词复数 -i）。
+
+有人以为 -nya 加于 -ë 名词会改 -ë 为 -i-，如复数 -i；但 VT41:11 órenya 非 **órinya「我的心」。复数 órenyar 非 ?órinyar。Plotz lassennar 非 **lassinnar——lassenya/lassenyar。连接 -i- 仅见于辅音尾复数名；单数用 -e-，唯 -nya 不论单复均偏好 -i-（复数亦可由后续 -r 等标示）。
+
+NOTE：-ë 名有词干 -i- 者加任何尾时用词干：lírë（líri-）「歌」，my = lírinya，复数 lírinyar。此与上述 -ë/-i 拼写规则另一事：任何尾前见 líri-（lírilya、lírio 等）。
+
+有时用缩约代连接元音：UT:193 aranya 似「我的王」（aran + -nya，**arannya → aranya）。?araninya 或亦可；名末辅音与尾首相同时可合并（mindonnar；my towers mindonyar?）。
+
+尤 -nya 时，即使毋需仅为音系亦可能缩约：yondonya 有效，Elendil 呼子 yonya（LR:61），或对子在言。类 hína/hina 呼幼 hina，常 hinya「我的孩子」自 hinanya（WJ:403）。

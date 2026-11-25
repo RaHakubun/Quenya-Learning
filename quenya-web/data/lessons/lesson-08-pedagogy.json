@@ -1,0 +1,148 @@
+{
+  "lesson": 8,
+  "schemaVersion": 2,
+  "titleZh": "完成时与代词",
+  "titleEn": "The Perfect Tense and Pronouns",
+  "summaryZh": "完成时的公式是「增音 + 拉长的词干元音 + -ië」：mat- → amátië、cen- → ecénië、tir- → itírië、not- → onótië、tur- → utúrië。三个例外条件必须记住：词干元音后接辅音丛时不拉长（aharnië、alantië、unurtië）；-ya 动词整个丢掉 -ya，剩下部分按基本动词处理（hanya- → ahánië、tulya- → utúlië、lerya- → elérië）；双元音不拉长，增音取双元音的第一个元音（roita- → oroitië、laita- → alaitië、hauta- → ahautië）。无增音完成时也允许（fírië、lantië、túl- 早期 tulier），元音开头动词的增音问题无定论（orórië 被划掉）。代词方面：昆雅代词多作动词词尾，-n／-nyë「我」、-l／-lyë「你」、-s「它」；双词尾时主语在前、宾语在后（utúvienyes＝utúvie-nyë-s）；后面还要接词尾时「我」必须用长形 -nyë。 -lyë 的单复数与礼貌问题至今无定论（2003 年补记提出 -llë 为复数）。",
+  "mindmap": {
+    "rootZh": "第 8 课：完成时与代词",
+    "branches": [
+      {
+        "labelZh": "完成时登场",
+        "sectionId": "perfect-intro"
+      },
+      {
+        "labelZh": "英语靠 have",
+        "sectionId": "perfect-english"
+      },
+      {
+        "labelZh": "utúlië／utúvië",
+        "sectionId": "perfect-examples"
+      },
+      {
+        "labelZh": "-ië 与拉长",
+        "sectionId": "perfect-marker"
+      },
+      {
+        "labelZh": "增音",
+        "sectionId": "perfect-augment"
+      },
+      {
+        "labelZh": "五个元音",
+        "sectionId": "perfect-vowels"
+      },
+      {
+        "labelZh": "两个术语",
+        "sectionId": "perfect-terms"
+      },
+      {
+        "labelZh": "A 词干",
+        "sectionId": "perfect-a-stem"
+      },
+      {
+        "labelZh": "辅音丛不拉长",
+        "sectionId": "perfect-cluster"
+      },
+      {
+        "labelZh": "-ya 脱落",
+        "sectionId": "perfect-ya"
+      },
+      {
+        "labelZh": "四个 -ya 实例",
+        "sectionId": "perfect-ya-forms"
+      },
+      {
+        "labelZh": "同形歧义",
+        "sectionId": "perfect-ambiguity"
+      },
+      {
+        "labelZh": "双元音",
+        "sectionId": "perfect-diphthong"
+      },
+      {
+        "labelZh": "无增音完成时",
+        "sectionId": "perfect-unaugmented"
+      },
+      {
+        "labelZh": "当过去时用",
+        "sectionId": "perfect-lantie"
+      },
+      {
+        "labelZh": "省略增音",
+        "sectionId": "perfect-unaugmented-ok"
+      },
+      {
+        "labelZh": "元音开头动词",
+        "sectionId": "perfect-vowel-initial"
+      },
+      {
+        "labelZh": "实用解法",
+        "sectionId": "perfect-vowel-solution"
+      },
+      {
+        "labelZh": "utúlie'n 的 'n",
+        "sectionId": "perfect-utulien"
+      },
+      {
+        "labelZh": "代词是什么",
+        "sectionId": "pronouns-what"
+      },
+      {
+        "labelZh": "三个人称",
+        "sectionId": "pronouns-persons"
+      },
+      {
+        "labelZh": "各语言的不对称",
+        "sectionId": "pronouns-asymmetry"
+      },
+      {
+        "labelZh": "题外注",
+        "sectionId": "pronouns-israeli-note"
+      },
+      {
+        "labelZh": "昆雅代词不稳定",
+        "sectionId": "pronouns-quenya-intro"
+      },
+      {
+        "labelZh": "三个特点",
+        "sectionId": "pronouns-quenya-features"
+      },
+      {
+        "labelZh": "代词作词尾",
+        "sectionId": "pronouns-endings"
+      },
+      {
+        "labelZh": "-lyë 的争议",
+        "sectionId": "pronouns-lye"
+      },
+      {
+        "labelZh": "-n「我」",
+        "sectionId": "pronouns-first"
+      },
+      {
+        "labelZh": "-nyë 与双词尾",
+        "sectionId": "pronouns-nye"
+      },
+      {
+        "labelZh": "长短形选择",
+        "sectionId": "pronouns-long-short"
+      },
+      {
+        "labelZh": "-s「它」",
+        "sectionId": "pronouns-s"
+      },
+      {
+        "labelZh": "原文小结",
+        "sectionId": "summary"
+      },
+      {
+        "labelZh": "课末词汇",
+        "sectionId": "vocabulary"
+      },
+      {
+        "labelZh": "练习 A–P",
+        "sectionId": "exercises"
+      }
+    ]
+  }
+}

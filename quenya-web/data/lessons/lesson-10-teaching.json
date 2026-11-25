@@ -1,0 +1,3087 @@
+{
+ "lesson": 10,
+ "schemaVersion": 2,
+ "oneLineZh": "副词补时间／地点／方式，派生词尾是 -vë（anda → andavë），早期另有 -o（ando、ento、rato、voro）；「他们」作主语用 -ntë、作宾语用 -t（早期 -lto 已废弃）；基本动词不定式接宾语词尾要变成 -ita-（cenitat、caritas）；以 -ya 结尾的不及物动词过去时丢掉 -ya（farnë、vannë、lendë、ullë）；被动分词主要用 -na／-ina（hastaina、rácina、carna、namna、cenna），并随数变化。",
+ "canDoZh": [
+  "能说明副词补哪三类信息，并区分基本副词与派生副词",
+  "能由形容词造 -vë 副词，并处理 -a／-ë／-n 三类词干",
+  "能说明早期 -o 副词的地位，以及为什么新造副词只用 -vë",
+  "能拆解 tiruvantes、laituvalmet，并用 -ntë／-t 造句",
+  "能说明 -lto 的争议与课程为何一律用 -ntë",
+  "能把基本动词不定式改成 -ita- 形式并加宾语词尾",
+  "能按及物性判断 -ya 动词的过去时（ulyanë 对 ullë）",
+  "能按词尾类型写出被动分词（-ina／-taina／-na／-da）并处理例外",
+  "能独立完成练习 A–P，用 keys 核对，并把错题回链到对应规则"
+ ],
+ "conceptMap": [
+  {
+   "labelZh": "副词",
+   "noteZh": "补时间／地点／方式",
+   "sectionId": "adv-intro"
+  },
+  {
+   "labelZh": "基本 vs 派生",
+   "noteZh": "sí 对 swiftly",
+   "sectionId": "adv-basic"
+  },
+  {
+   "labelZh": "-vë",
+   "noteZh": "anda → andavë",
+   "sectionId": "adv-ve"
+  },
+  {
+   "labelZh": "-ë 形容词",
+   "noteZh": "morë → morivë",
+   "sectionId": "adv-a-e"
+  },
+  {
+   "labelZh": "-n 形容词",
+   "noteZh": "meldavë 绕开",
+   "sectionId": "adv-n"
+  },
+  {
+   "labelZh": "修饰形容词",
+   "noteZh": "aqua morë",
+   "sectionId": "adv-modify"
+  },
+  {
+   "labelZh": "早期 -o",
+   "noteZh": "ando、ento、rato、voro",
+   "sectionId": "adv-o"
+  },
+  {
+   "labelZh": "副词随数？",
+   "noteZh": "大概不变",
+   "sectionId": "adv-number"
+  },
+  {
+   "labelZh": "其他来源",
+   "noteZh": "oialë、tennoio",
+   "sectionId": "adv-other"
+  },
+  {
+   "labelZh": "两个新词尾",
+   "noteZh": "-ntë／-t",
+   "sectionId": "pron-intro"
+  },
+  {
+   "labelZh": "-ntë",
+   "noteZh": "tiruvantes",
+   "sectionId": "pron-nte"
+  },
+  {
+   "labelZh": "-lto 争议",
+   "noteZh": "早期形式",
+   "sectionId": "pron-lto"
+  },
+  {
+   "labelZh": "五时态",
+   "noteZh": "pustantë…",
+   "sectionId": "pron-tenses"
+  },
+  {
+   "labelZh": "-t",
+   "noteZh": "laituvalmet",
+   "sectionId": "pron-t"
+  },
+  {
+   "labelZh": "两词尾连用",
+   "noteZh": "Tirnenyet",
+   "sectionId": "pron-t-examples"
+  },
+  {
+   "labelZh": "不定式 + 宾语",
+   "noteZh": "问题",
+   "sectionId": "inf-intro"
+  },
+  {
+   "labelZh": "cenit 是错的",
+   "noteZh": "试错",
+   "sectionId": "inf-problem"
+  },
+  {
+   "labelZh": "-ita",
+   "noteZh": "cenitat、caritas",
+   "sectionId": "inf-ita"
+  },
+  {
+   "labelZh": "A 词干",
+   "noteZh": "metyatas（?）",
+   "sectionId": "inf-a-stem"
+  },
+  {
+   "labelZh": "用 te 绕开",
+   "noteZh": "mapa te",
+   "sectionId": "inf-workaround"
+  },
+  {
+   "labelZh": "子规则",
+   "noteZh": "不规则也有类",
+   "sectionId": "ya-intro"
+  },
+  {
+   "labelZh": "及物／不及物",
+   "noteZh": "orta 两用",
+   "sectionId": "ya-transitivity"
+  },
+  {
+   "labelZh": "三个证据",
+   "noteZh": "farnë、vannë、lendë",
+   "sectionId": "ya-irregular"
+  },
+  {
+   "labelZh": "ulya- 双过去时",
+   "noteZh": "ulyanë／ullë",
+   "sectionId": "ya-ulya"
+  },
+  {
+   "labelZh": "模式",
+   "noteZh": "不及物丢 -ya",
+   "sectionId": "ya-pattern"
+  },
+  {
+   "labelZh": "其余动词",
+   "noteZh": "多为推测",
+   "sectionId": "ya-list"
+  },
+  {
+   "labelZh": "被动分词",
+   "noteZh": "hidden 对 hiding",
+   "sectionId": "pp-intro"
+  },
+  {
+   "labelZh": "英语对照",
+   "noteZh": "-en／同形",
+   "sectionId": "pp-english"
+  },
+  {
+   "labelZh": "A 词干分词",
+   "noteZh": "-ina／-taina",
+   "sectionId": "pp-a-stem"
+  },
+  {
+   "labelZh": "-ya 分词",
+   "noteZh": "-yaina",
+   "sectionId": "pp-ya"
+  },
+  {
+   "labelZh": "总规则",
+   "noteZh": "-ina",
+   "sectionId": "pp-a-conclusion"
+  },
+  {
+   "labelZh": "-c／-t",
+   "noteZh": "rácina",
+   "sectionId": "pp-ct"
+  },
+  {
+   "labelZh": "-r",
+   "noteZh": "carna、Merna",
+   "sectionId": "pp-r"
+  },
+  {
+   "labelZh": "-m／-n",
+   "noteZh": "namna、cenna",
+   "sectionId": "pp-mn"
+  },
+  {
+   "labelZh": "-l",
+   "noteZh": "melda、mélina",
+   "sectionId": "pp-l"
+  },
+  {
+   "labelZh": "随数变化",
+   "noteZh": "-a → -ë",
+   "sectionId": "pp-number"
+  },
+  {
+   "labelZh": "完成时",
+   "noteZh": "不用 harya",
+   "sectionId": "pp-perfect"
+  },
+  {
+   "labelZh": "harna",
+   "noteZh": "状态 vs 施加",
+   "sectionId": "pp-harna"
+  },
+  {
+   "labelZh": "小结",
+   "noteZh": "五套规则",
+   "sectionId": "summary"
+  },
+  {
+   "labelZh": "词汇",
+   "noteZh": "12 条",
+   "sectionId": "vocabulary"
+  },
+  {
+   "labelZh": "练习",
+   "noteZh": "A–P",
+   "sectionId": "exercises"
+  }
+ ],
+ "pathTitleZh": "本课学习路径",
+ "path": [
+  {
+   "step": 1,
+   "labelZh": "副词是什么：给句子补「何时／何地／如何」",
+   "sectionId": "adv-intro"
+  },
+  {
+   "step": 2,
+   "labelZh": "基本副词 vs 派生副词：昆雅缺一个「-ly」",
+   "sectionId": "adv-basic"
+  },
+  {
+   "step": 3,
+   "labelZh": "-vë：昆雅的副词词尾（andavë 的证据）",
+   "sectionId": "adv-ve"
+  },
+  {
+   "step": 4,
+   "labelZh": "-a 形容词直接加；-ë 形容词要先恢复 -i",
+   "sectionId": "adv-a-e"
+  },
+  {
+   "step": 5,
+   "labelZh": "-n 形容词：三种推法，作者自己也拿不准",
+   "sectionId": "adv-n"
+  },
+  {
+   "step": 6,
+   "labelZh": "副词能不能修饰形容词？aqua 大概可以",
+   "sectionId": "adv-modify"
+  },
+  {
+   "step": 7,
+   "labelZh": "早期 -o 副词：ando、ento、rato、voro",
+   "sectionId": "adv-o"
+  },
+  {
+   "step": 8,
+   "labelZh": "副词随数变化吗？作者说「大概不」",
+   "sectionId": "adv-number"
+  },
+  {
+   "step": 9,
+   "labelZh": "副词的其他来源：名词、介词短语、基本词",
+   "sectionId": "adv-other"
+  },
+  {
+   "step": 10,
+   "labelZh": "第三人称复数：-ntë「他们」与 -t「他们」",
+   "sectionId": "pron-intro"
+  },
+  {
+   "step": 11,
+   "labelZh": "-ntë：tiruvantes 怎么拆，规则怎么说",
+   "sectionId": "pron-nte"
+  },
+  {
+   "step": 12,
+   "labelZh": "-lto：早期形式与「绝对解释」的争议",
+   "sectionId": "pron-lto"
+  },
+  {
+   "step": 13,
+   "labelZh": "五个时态 + -ntë：pusta- 的完整表",
+   "sectionId": "pron-tenses"
+  },
+  {
+   "step": 14,
+   "labelZh": "-t：宾语「他们」，以及「只表双数」的争议",
+   "sectionId": "pron-t"
+  },
+  {
+   "step": 15,
+   "labelZh": "四个例子：主语词尾 + -t",
+   "sectionId": "pron-t-examples"
+  },
+  {
+   "step": 16,
+   "labelZh": "宾语词尾能不能挂在不定式上？",
+   "sectionId": "inf-intro"
+  },
+  {
+   "step": 17,
+   "labelZh": "先试错：cenit 为什么不行",
+   "sectionId": "inf-problem"
+  },
+  {
+   "step": 18,
+   "labelZh": "-ita：不定式接代词词尾的专用形式",
+   "sectionId": "inf-ita"
+  },
+  {
+   "step": 19,
+   "labelZh": "A 词干：metyatas、mapatat 只是「也许」",
+   "sectionId": "inf-a-stem"
+  },
+  {
+   "step": 20,
+   "labelZh": "绕开不确定：用独立代词 te；不定式也能作主语",
+   "sectionId": "inf-workaround"
+  },
+  {
+   "step": 21,
+   "labelZh": "「不规则」里也有子规则",
+   "sectionId": "ya-intro"
+  },
+  {
+   "step": 22,
+   "labelZh": "及物／不及物：先分清动词能不能带宾语",
+   "sectionId": "ya-transitivity"
+  },
+  {
+   "step": 23,
+   "labelZh": "farnë、vannë、lendë：-ya 消失的三个证据",
+   "sectionId": "ya-irregular"
+  },
+  {
+   "step": 24,
+   "labelZh": "ulya- 的双重过去时：ulyanë 与 ullë",
+   "sectionId": "ya-ulya"
+  },
+  {
+   "step": 25,
+   "labelZh": "模式：不及物 -ya 动词过去时「冒充基本动词」",
+   "sectionId": "ya-pattern"
+  },
+  {
+   "step": 26,
+   "labelZh": "其余不及物 -ya 动词与 yerya- 的两副过去时",
+   "sectionId": "ya-list"
+  },
+  {
+   "step": 27,
+   "labelZh": "被动分词：描述「被施加动作后的状态」",
+   "sectionId": "pp-intro"
+  },
+  {
+   "step": 28,
+   "labelZh": "英语的 -en 与「与过去时同形」",
+   "sectionId": "pp-english"
+  },
+  {
+   "step": 29,
+   "labelZh": "A 词干：-na／-ina，-ta 类作 -taina",
+   "sectionId": "pp-a-stem"
+  },
+  {
+   "step": 30,
+   "labelZh": "-ya 动词：perina、yerna、halda 不是分词",
+   "sectionId": "pp-ya"
+  },
+  {
+   "step": 31,
+   "labelZh": "A 词干总规则：-ina；唯一例外 envinyanta",
+   "sectionId": "pp-a-conclusion"
+  },
+  {
+   "step": 32,
+   "labelZh": "以 -c／-t 结尾的基本动词：拉长 + -ina",
+   "sectionId": "pp-ct"
+  },
+  {
+   "step": 33,
+   "labelZh": "以 -r 结尾：carna、vincarna、Merna",
+   "sectionId": "pp-r"
+  },
+  {
+   "step": 34,
+   "labelZh": "以 -m／-n 结尾：namna、cenna",
+   "sectionId": "pp-mn"
+  },
+  {
+   "step": 35,
+   "labelZh": "以 -l 结尾：melna → melda 的难题",
+   "sectionId": "pp-l"
+  },
+  {
+   "step": 36,
+   "labelZh": "被动分词随数变化吗？作者说「大概要」",
+   "sectionId": "pp-number"
+  },
+  {
+   "step": 37,
+   "labelZh": "别用分词复制英语完成时",
+   "sectionId": "pp-perfect"
+  },
+  {
+   "step": 38,
+   "labelZh": "harna 与 harnaina：状态 vs 被施加",
+   "sectionId": "pp-harna"
+  },
+  {
+   "step": 39,
+   "labelZh": "本章小结：原文 Summary 与中文对照",
+   "sectionId": "summary"
+  },
+  {
+   "step": 40,
+   "labelZh": "课末词汇：1 个数词 + 3 个形容词 + 1 个名词 + 6 个动词／介词",
+   "sectionId": "vocabulary"
+  },
+  {
+   "step": 41,
+   "labelZh": "练习工作台：A–P 与 keys 核对",
+   "sectionId": "exercises"
+  }
+ ],
+ "modules": [
+  {
+   "sectionId": "adv-intro",
+   "sourceSectionId": "adverbs",
+   "titleZh": "01 · 副词是什么：给句子补「何时／何地／如何」",
+   "leadZh": "句子先交代「谁做什么（对谁）」——主语、谓语、必要时宾语。副词不改变这套骨架，只补动作发生的时间、地点或方式。英语 swiftly、now、here 正好各占一类。",
+   "objectives": [
+    "能说出副词补的三类信息：时间、地点、方式",
+    "能在句子里指出副词并说明它修饰哪个动作"
+   ],
+   "rules": [
+    {
+     "id": "rule-adv-def",
+     "headZh": "副词＝句子的「额外信息」",
+     "bodyZh": "典型句子提供「谁做什么（对谁）」的信息，涉及主语、谓语，必要时还有宾语。副词用来塞进动作发生的时间、地点或方式。",
+     "en": "Adverbs form a part of speech that is used to provide \"extra information\" in a sentence.",
+     "zh": "副词是用于在句中提供「额外信息」的词类。",
+     "exampleZh": "they left swiftly／she is singing now／they did it here"
+    },
+    {
+     "id": "rule-adv-like-adj",
+     "headZh": "副词对动词＝形容词对名词",
+     "bodyZh": "形容词描述名词，副词描述动作的性质。swiftly 说「怎么离开」，now 说「何时在唱」，here 说「在哪里做」。",
+     "en": "an adverb may describe the nature of the verbal action of the sentence",
+     "zh": "副词可以描述句中动作的性质。"
+    }
+   ],
+   "examples": [
+    {
+     "en": "they left swiftly",
+     "zh": "他们迅速离开了。",
+     "noteZh": "swiftly 修饰 left，回答「怎样离开」。"
+    },
+    {
+     "en": "she is singing now",
+     "zh": "她现在正在唱歌。",
+     "noteZh": "now 回答「何时」。"
+    },
+    {
+     "en": "they did it here",
+     "zh": "他们在这里做了这件事。",
+     "noteZh": "here 回答「何地」。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 now 理解成修饰 she",
+     "right": "now 修饰的是 singing 这个动作",
+     "whyZh": "原文：副词描述的是「动作发生的时间」，不是主语的属性。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么先分三类再谈形式",
+     "bodyZh": "这一节只做一件事：让你先有「副词在句中干什么」的概念。后面所有形态规则（-vë、-o、基本副词）都只是「怎么造出这个成分」，判断一个词是不是副词，仍要看它是否在补时间、地点、方式。"
+    }
+   ],
+   "recapZh": "副词补时间、地点、方式；它修饰动作，不改变主语和宾语。",
+   "selfCheckZh": [
+    {
+     "qZh": "“they did it here” 里 here 回答哪一类问题？",
+     "aZh": "地点——动作在哪里发生。"
+    },
+    {
+     "qZh": "副词会改变句子的主语或宾语吗？",
+     "aZh": "不会，它只是附加信息。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "adverbs",
+    "unitIds": [
+     0,
+     1
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "adv-basic",
+   "sourceSectionId": "adverbs",
+   "titleZh": "02 · 基本副词 vs 派生副词：昆雅缺一个「-ly」",
+   "leadZh": "sí「现在」、英语 now 都无法再分析，是「基本」副词；swiftly 则由 swift + -ly 派生。英语的副词制造机是 -ly，昆雅如果能找到对应词尾，就能自己造副词。",
+   "objectives": [
+    "能区分基本副词与派生副词",
+    "能说明为什么作者要去找昆雅的副词词尾"
+   ],
+   "rules": [
+    {
+     "id": "rule-basic-adv",
+     "headZh": "基本副词：不能再分析",
+     "bodyZh": "有些副词不来自任何其他词类，称为「基本」副词。英语 now 与昆雅 sí 都是，无法再拆。",
+     "en": "Some adverbs may be called \"basic\", since they are not derived from another part of speech.",
+     "zh": "有些副词可称为「基本」副词，因为它们不是从别的词类派生的。",
+     "exampleZh": "sí「现在」"
+    },
+    {
+     "id": "rule-ly",
+     "headZh": "英语 -ly：从形容词造副词",
+     "bodyZh": "swiftly 明显基于 swift。英语的「副词制造机」是 -ly，原则上可加到任何形容词上（deep/deeply、final/finally、swift/swiftly……）。但 good 不走这条路，因为 goodly 的位置已被基本副词 well 占了。",
+     "en": "The Great English Adverb-Former is the ending -ly",
+     "zh": "英语的「副词制造机」是词尾 -ly。",
+     "exampleZh": "swift → swiftly；good → well（不是 goodly）"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为每个副词都由形容词加词尾而来",
+     "right": "sí、now、aqua 这类是基本副词，没有更小的成分",
+     "whyZh": "原文明确把「不能进一步分析」作为「基本」的判据。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么作者在意「有没有 -ly 对应物」",
+     "bodyZh": "托尔金明确认定为副词的词只有寥寥几个，形容词却很多。若能确定一个能产的副词词尾，学习者就能自己造副词，而不必每句都去语料里找有据形式——这正是下一节 -vë 的意义。"
+    }
+   ],
+   "recapZh": "基本副词不可分析（sí、now）；派生副词由形容词加词尾（swiftly）。",
+   "selfCheckZh": [
+    {
+     "qZh": "sí 是基本副词还是派生副词？",
+     "aZh": "基本副词，无法再分析。"
+    },
+    {
+     "qZh": "英语为什么不说 goodly？",
+     "aZh": "因为基本副词 well 已占了这个位置。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "adverbs",
+    "unitIds": [
+     2
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "adv-ve",
+   "sourceSectionId": "adverbs",
+   "titleZh": "03 · -vë：昆雅的副词词尾（andavë 的证据）",
+   "leadZh": "《魔戒》Cormallen 赞歌里的 andavë laituvalmet「我们将长久赞美他们」，把 andavë 与形容词 anda「长」对上了。-vë 很可能就是昆雅的「-ly」，而且可能与介词 ve「如同」有关。",
+   "objectives": [
+    "能由 anda 推出 andavë 并说明 -vë 的作用",
+    "能判断哪些 -vë 派生可信、哪个（máravë）可疑"
+   ],
+   "rules": [
+    {
+     "id": "rule-ve",
+     "headZh": "-vë：形容词 → 副词",
+     "bodyZh": "andavë 是副词「长久」，形容词是 anda「长」。看来形容词靠加 -vë 变成副词；-vë 可能与介词 ve「如同、像」有关。通常 -vë 对应英语 -ly。",
+     "en": "It would seem, then, that this adjective has been turned into an adverb by supplying the ending -vë",
+     "zh": "如此看来，这个形容词是靠加词尾 -vë 变成副词的。",
+     "exampleZh": "anda → andavë；alta → altavë；tulca → tulcavë；saila → sailavë"
+    },
+    {
+     "id": "rule-ve-not-limitless",
+     "headZh": "-vë 不是万能的",
+     "bodyZh": "作者说这类构词大体可信，但 -vë 的适用范围未必真的没有边界。mára「好」若加 -vë 成 máravë「好地」，可能像英语 goodly 一样怪；早期词表另有基本副词 vandë「好」（QL:99），但它在 LotR 风格昆雅里是否仍有效无人能说。",
+     "en": "though the potential application of the ending -vë may not be literally limitless",
+     "zh": "不过 -vë 的潜在适用范围未必真的没有边界。",
+     "exampleZh": "mára → máravë（可疑）；vandë「好」（早期）"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "见到形容词就无脑加 -vë",
+     "right": "máravë 这类要打问号；「好地」英语本身就用基本副词 well",
+     "whyZh": "原文用 good/goodly 作类比，并指出 vandë 只见于最早的 Qenya 词表。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "andavë 为什么是整课的支点",
+     "bodyZh": "它是唯一一个托尔金明确把「形容词 + -vë」摆在一起的例子（anda 对 andavë），后面 -ë 形容词、-n 形容词怎么加 -vë，全都是从这个例子往外推。读后面几节时，随时回到 andavë 校准。"
+    }
+   ],
+   "recapZh": "-vë 是昆雅的副词词尾（anda → andavë），但适用范围有边界。",
+   "selfCheckZh": [
+    {
+     "qZh": "andavë 由哪个形容词来？",
+     "aZh": "anda「长」。"
+    },
+    {
+     "qZh": "máravë 有什么问题？",
+     "aZh": "可能像英语 goodly 一样怪；「好地」另有早期基本副词 vandë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "adverbs",
+    "unitIds": [
+     3
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "adv-a-e",
+   "sourceSectionId": "adverbs",
+   "titleZh": "04 · -a 形容词直接加；-ë 形容词要先恢复 -i",
+   "leadZh": "绝大多数形容词以 -a 结尾，直接加 -vë 即可。少数以 -ë 结尾的形容词来自原始精灵语的 -i，这个 i 在词尾前会恢复：morë 对 Moriquendi，所以「黑暗地」是 morivë 而不是 morevë。",
+   "objectives": [
+    "能解释 -ë 形容词为什么变成 -ivë",
+    "能由 morë、mussë、nindë、ringë 推出副词"
+   ],
+   "rules": [
+    {
+     "id": "rule-e-stem",
+     "headZh": "-ë 形容词：词尾前恢复 -i",
+     "bodyZh": "-ë 形容词几乎都来自原始精灵语的 -i 形式，这个元音在词尾或复合词中保持不变（morë 对 Moriquendi）。因此加副词词尾 -vë 时也应保留原音质：morë → morivë。",
+     "en": "We must assume that the original quality of the vowel would also be preferred before the adverbial ending -vë",
+     "zh": "我们必须假定这个元音原本的性质在副词词尾 -vë 前也会优先保留。",
+     "exampleZh": "morë → morivë（不是 morevë）"
+    },
+    {
+     "id": "rule-e-few",
+     "headZh": "-ë 形容词本来也很少有副词",
+     "bodyZh": "这类形容词大多表颜色，很少需要副词。可举 mussë/mussivë「柔软／柔软地」、nindë/nindivë「细／细地」、ringë/ringivë「冷／冷地」；但较晚资料「冷」作 ringa，副词就直接是 ringavë。",
+     "en": "it should probably be morivë rather than morevë",
+     "zh": "它大概应是 morivë 而不是 morevë。",
+     "exampleZh": "mussivë、nindivë、ringivë；ringa → ringavë"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "morë + vë = morevë",
+     "right": "morivë",
+     "whyZh": "原文用 Moriquendi 证明原来的 i 在词尾前保留。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "Moriquendi 为什么能当证据",
+     "bodyZh": "复合词里 morë 的 ë 显现为 i，说明这个元音底层是 i，只是词尾才变 ë。副词词尾 -vë 也是「后面跟东西」，所以按同一逻辑恢复 i。这条推理链要能自己复述。"
+    }
+   ],
+   "recapZh": "-a 形容词直接加 -vë；-ë 形容词先恢复 -i 再加（morivë）。",
+   "selfCheckZh": [
+    {
+     "qZh": "「黑暗地」怎么写？",
+     "aZh": "morivë。"
+    },
+    {
+     "qZh": "为什么不是 morevë？",
+     "aZh": "morë 的 ë 底层是 i（Moriquendi 可证），加词尾时恢复。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "adverbs",
+    "unitIds": [
+     4
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "adv-n",
+   "sourceSectionId": "adverbs",
+   "titleZh": "05 · -n 形容词：三种推法，作者自己也拿不准",
+   "leadZh": "melin「亲爱的」加 -vë 有三条路：melinvë（直接加）、melimbë（按 ve < be 音变）、melinavë（按 -ina 缩短说）。作者的建议很实用：绕开 melin，改用同义的 melda、moina。",
+   "objectives": [
+    "能列出 -n 形容词加 -vë 的三种可能",
+    "能说明作者为什么建议换词"
+   ],
+   "rules": [
+    {
+     "id": "rule-n-uncertain",
+     "headZh": "-n 形容词：没有定论",
+     "bodyZh": "melin「亲爱的」可能有 melinvë（nv 虽不在单词内部出现，却是允许的组合，参 Envinyatar 的 en-），也可能按 ve < be 变成 melimbë，还可能按 -in < -ina 保留 a 成 melinavë。",
+     "en": "How the ending -vë would be added to the few adjectives in -n is quite unclear.",
+     "zh": "词尾 -vë 该怎么加到少数以 -n 结尾的形容词上，很不清楚。",
+     "exampleZh": "melinvë／melimbë／melinavë"
+    },
+    {
+     "id": "rule-n-avoid",
+     "headZh": "实用建议：换同义词",
+     "bodyZh": "既然三条路都只是推测，作者干脆建议不用 melin，改用同样表「亲爱的」的 melda 或 moina——这两个直接加 -vë 就得 meldavë、moinavë。",
+     "en": "I'd say, forget about melin and start from melda or moina instead",
+     "zh": "作者说：别管 melin 了，改用 melda 或 moina 吧。",
+     "exampleZh": "melda → meldavë；moina → moinavë"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 melin 与第一人称无定时「我爱」混为一谈",
+     "right": "melin 作形容词是「亲爱的」；同音的动词形式是「我爱」",
+     "whyZh": "原文专门加了括号提醒 not to be confused with the similar-sounding 1st person aorist。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "这一节的方法论价值",
+     "bodyZh": "三种推法各自都有音系或构词上的依据，谁也压不倒谁。作者的处理不是硬选一个，而是「避开不确定的词」。这套态度在本课后面（A 词干不定式、-l 结尾分词）会反复出现：能绕开就不硬造。"
+    }
+   ],
+   "recapZh": "-n 形容词加 -vë 无定论；实用做法是换用 melda／moina。",
+   "selfCheckZh": [
+    {
+     "qZh": "melin 加 -vë 的三种可能形式？",
+     "aZh": "melinvë、melimbë、melinavë。"
+    },
+    {
+     "qZh": "作者推荐怎么处理？",
+     "aZh": "改用 melda 或 moina，得 meldavë／moinavë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "adverbs",
+    "unitIds": [
+     5
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "adv-modify",
+   "sourceSectionId": "adverbs",
+   "titleZh": "06 · 副词能不能修饰形容词？aqua 大概可以",
+   "leadZh": "英语副词可修饰形容词（divinely beautiful）。昆雅 -vë 副词能否如此，无人知道；但基本副词 aqua「完全」很可能可以：aqua morë「完全黑暗」。",
+   "objectives": [
+    "能说明「副词修饰形容词」这一用法的证据状况",
+    "能区分 aqua（基本副词）与 -vë 派生副词"
+   ],
+   "rules": [
+    {
+     "id": "rule-modify-unknown",
+     "headZh": "-vë 副词修饰形容词：无据",
+     "bodyZh": "英语副词可修饰形容词甚至另一副词，这是「元描述」。昆雅 -vë 副词能否这样用，无人知道，所以 valainavë vanya「神圣地美丽」只能算试验。",
+     "en": "Whether Quenya adverbs (or specifically the ones in -vë) can be used in such a way, nobody knows.",
+     "zh": "昆雅副词（尤其 -vë 副词）能否这样用，无人知道。",
+     "exampleZh": "valainavë vanya（?）"
+    },
+    {
+     "id": "rule-aqua",
+     "headZh": "aqua：基本副词，很可能可修饰形容词",
+     "bodyZh": "托尔金给出 aqua 作副词「完全地、彻底地、全然」（WJ:392）。它不是由形容词派生（不像英语 fully 由 full 来），因此不受 -vë 的不确定性影响；aqua morë「完全黑暗」很可能成立。",
+     "en": "Tolkien provided aqua as the adverb \"fully, completely, altogether, wholly\"",
+     "zh": "托尔金给出 aqua 作副词「完全地、彻底地、全然」。",
+     "exampleZh": "aqua morë「完全黑暗」"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 valainavë vanya 当成有据用法",
+     "right": "它只是「若 -vë 副词可修饰形容词」的推演",
+     "whyZh": "原文紧接着说 nobody knows，并把 aqua 单独拿出来作较可靠的例子。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么 aqua 比 valainavë 可靠",
+     "bodyZh": "aqua 是基本副词，不需要经过「-vë 能否修饰形容词」这一关；它本身就是个副词，直接放在形容词前。valainavë 则要同时押两个赌：-vë 构词有效、且 -vë 副词能修饰形容词。"
+    }
+   ],
+   "recapZh": "-vë 副词修饰形容词无据；基本副词 aqua 很可能可以（aqua morë）。",
+   "selfCheckZh": [
+    {
+     "qZh": "aqua 是基本副词还是派生副词？",
+     "aZh": "基本副词（WJ:392）。"
+    },
+    {
+     "qZh": "aqua morë 什么意思？",
+     "aZh": "完全黑暗。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "adverbs",
+    "unitIds": [
+     6
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "adv-o",
+   "sourceSectionId": "adverbs",
+   "titleZh": "07 · 早期 -o 副词：ando、ento、rato、voro",
+   "leadZh": "早期资料里副词用 -o：ando「长久」对 anda。到《魔戒》时期 -o 是否仍有效不明；作者的做法是：造新副词只用 -vë，但有据的 ento、rato、voro 不要去改。",
+   "objectives": [
+    "能举出 -o 副词的有据例子",
+    "能说明 -o 与 -vë 是替代关系而非并存"
+   ],
+   "rules": [
+    {
+     "id": "rule-o-early",
+     "headZh": "-o：早期副词词尾",
+     "bodyZh": "早期 Qenya 句子里「长久」作 ando（不是 andavë），显然由 anda 派生；还有 ento「下一个」、rato「很快」，以及较晚《词源》BOR 条的 voro「永远、不断地」（此词末 -o 也许只是词干元音重复）。",
+     "en": "in some early sources, Tolkien uses adverbs in -o rather than -vë",
+     "zh": "在部分早期资料里，托尔金用的是以 -o 结尾的副词，而不是 -vë。",
+     "exampleZh": "ando、ento、rato、voro"
+    },
+    {
+     "id": "rule-o-unknown",
+     "headZh": "-o 在 LotR 风格里是否有效：不知道",
+     "bodyZh": "可能 -o 仍可造副词（tulco「坚定地」对 tulcavë），也可能托尔金到《魔戒》时期已废弃 -o，用 -vë 取而代之（把 ando 改成 andavë）。两种读法都说得通。",
+     "en": "We cannot know whether -o is still a valid adverbial ending in LotR-style Quenya.",
+     "zh": "我们无法知道 -o 在 LotR 风格昆雅里是否仍是有效的副词词尾。",
+     "exampleZh": "tulco（?）对 tulcavë"
+    },
+    {
+     "id": "rule-o-practice",
+     "headZh": "实践：新造用 -vë，旧词不动",
+     "bodyZh": "作者建议由形容词造副词时用较安全的 -vë；本课练习也只用 -vë。但不要改动有据的 ento、rato、voro（写成 ?entavë 之类）。",
+     "en": "I would recommend using the \"safe\" (or at least safer) ending -vë instead",
+     "zh": "作者建议改用「安全」（至少更安全）的词尾 -vë。",
+     "exampleZh": "ento、rato、voro 保持原样"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 ando 与名词「门」当成同一个词",
+     "right": "ando「长久」是副词；「门」是另一个同形名词",
+     "whyZh": "原文括号：not to be confused with the noun \"gate\"。"
+    },
+    {
+     "wrong": "把 ento 改写成 entavë",
+     "right": "有据形式不改",
+     "whyZh": "原文：at this stage I would not tamper with attested adverbs like ento, rato, voro。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "-o 与 -vë 是「替代」还是「并存」",
+     "bodyZh": "关键在 ando／andavë 这一对：同一个形容词、同一个意义，两种词尾。作者倾向认为托尔金后来用 -vë 替换了 -o，而不是让两者分工。这解释了为什么 LotR 里只见 andavë，而 -o 副词集中在早期文本。"
+    }
+   ],
+   "recapZh": "-o 是早期副词词尾（ando、ento、rato、voro）；新造副词用 -vë，有据旧词不改。",
+   "selfCheckZh": [
+    {
+     "qZh": "「长久」在早期文本与《魔戒》里分别怎么写？",
+     "aZh": "早期 ando；《魔戒》andavë。"
+    },
+    {
+     "qZh": "voro 该改成 vorovë 吗？",
+     "aZh": "不该，有据形式不改。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "adverbs",
+    "unitIds": [
+     7,
+     8,
+     9
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "adv-number",
+   "sourceSectionId": "adverbs",
+   "titleZh": "08 · 副词随数变化吗？作者说「大概不」",
+   "leadZh": "有人提出 andavë 是复数副词，单数该作 andava，并与动词的数一致。作者认为这是百分之百的假设，更可能 -vë 形式固定不变。",
+   "objectives": [
+    "能复述「副词随数变化」的假说及其依据",
+    "能说明作者为何不接受它"
+   ],
+   "rules": [
+    {
+     "id": "rule-adv-number",
+     "headZh": "-vë 大概不变",
+     "bodyZh": "假说：andavë 是复数副词，与复数动词 laituvalmet 一致；单数应是 -va（i nér lendë andava 对 i neri lender andavë）。但 -va 完全无据，作者倾向认为 -vë 不变，与介词 ve 有关。",
+     "en": "But this is 100 % hypothetical.",
+     "zh": "但这百分之百是假设。",
+     "exampleZh": "i nér lendë andava（?）对 i neri lender andavë"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "按动词单复数去改副词词尾",
+     "right": "副词词尾 -vë 视为不变",
+     "whyZh": "原文说 -va 完全无据，且作者倾向没有这种变化。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "假说从哪里来",
+     "bodyZh": "唯一诱因是 andavë 恰好出现在复数主语的句子里。但同一句里 andavë 修饰的是「赞美」这个动作的持续时间，与主语是单是复没有必然关系；加上 -va 毫无旁证，所以作者把它归入「不能排除但不必采用」。"
+    }
+   ],
+   "recapZh": "副词不随数变化；-vë 形式固定。",
+   "selfCheckZh": [
+    {
+     "qZh": "「副词随数变化」说的唯一依据是什么？",
+     "aZh": "andavë 出现在复数主语的句子里。"
+    },
+    {
+     "qZh": "作者接受这个假说吗？",
+     "aZh": "不接受，认为 -vë 不变。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "adverbs",
+    "unitIds": [
+     10
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "adv-other",
+   "sourceSectionId": "adverbs",
+   "titleZh": "09 · 副词的其他来源：名词、介词短语、基本词",
+   "leadZh": "不是所有副词都从形容词来。oialë 本是名词「永恒时代」，在 Namárië 里当副词用；tennoio 是 tenna + oio 的缩合；aqua、sí、amba、háya、oi 则是基本副词。",
+   "objectives": [
+    "能举出三类非形容词来源的副词",
+    "能拆解 tennoio"
+   ],
+   "rules": [
+    {
+     "id": "rule-from-noun",
+     "headZh": "名词当副词：oialë",
+     "bodyZh": "Namárië 里 oialë 作副词「永远」（RGEO:67 译「永恒地」），但《词源》OY 条说它本义是名词「永恒时代」——名词被拿来当副词用。",
+     "en": "some Quenya adverbs are derived from other parts of speech than adjectives",
+     "zh": "有些昆雅副词是从形容词以外的词类派生的。",
+     "exampleZh": "oialë「永远」"
+    },
+    {
+     "id": "rule-from-prep",
+     "headZh": "介词短语缩合成副词：tennoio",
+     "bodyZh": "Cirion 誓言里的 tennoio 也表「永远」，但 UT:317 说它只是 tenna「直到、远至」+ oio「无尽时期」的缩合。含介词的短语本来常有副词功能，久了可能凝固成单词。",
+     "en": "the preposition tenna \"up to, as far as\" + oio \"an endless period\"",
+     "zh": "介词 tenna「直到、远至」+ oio「一段无尽的时期」。",
+     "exampleZh": "tennoio = tenna + oio"
+    },
+    {
+     "id": "rule-basic-list",
+     "headZh": "基本副词清单",
+     "bodyZh": "aqua「完全」、sí「现在」、amba「向上」、háya「在远处」（第三纪或读 haiya）、oi「永远」等，都不由其他词类派生。",
+     "en": "Finally we have what I have already called \"basic adverbs\", not derived from any other part of speech.",
+     "zh": "最后是作者称为「基本副词」的那一类，不由任何其他词类派生。",
+     "exampleZh": "aqua、sí、amba、háya、oi"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 oialë 天生就是副词",
+     "right": "它本是名词「永恒时代」，在诗里作副词用",
+     "whyZh": "《词源》OY 条：oialë is properly or in its origin a noun。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "三种来源对应三种「不要硬造」",
+     "bodyZh": "名词借用（oialë）、短语缩合（tennoio）、基本词（aqua）都无法用 -vë 规则生产。这说明 -vë 只是副词的一个来源，遇到现成副词时优先记现成的，不要回头去给它找形容词。"
+    }
+   ],
+   "recapZh": "副词可来自名词（oialë）、介词短语（tennoio）或本来就是基本词（aqua、sí）。",
+   "selfCheckZh": [
+    {
+     "qZh": "tennoio 由哪两部分缩合？",
+     "aZh": "tenna「直到」+ oio「无尽时期」。"
+    },
+    {
+     "qZh": "oialë 的本义词性？",
+     "aZh": "名词「永恒时代」。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "adverbs",
+    "unitIds": [
+     11,
+     12,
+     13
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pron-intro",
+   "sourceSectionId": "adverbs",
+   "titleZh": "10 · 第三人称复数：-ntë「他们」与 -t「他们」",
+   "leadZh": "第八课给了 -n/-nyë「我」、-l/-lyë「你」、-s「它」。现在补第三人称复数：作主语的 -ntë，作宾语的 -t。",
+   "objectives": [
+    "能默写已学的三个代词词尾",
+    "能说出本课要补的两个"
+   ],
+   "rules": [
+    {
+     "id": "rule-known-endings",
+     "headZh": "已学：-n／-nyë、-l／-lyë、-s",
+     "bodyZh": "第八课介绍的三个代词词尾：-n 或 -nyë 表「我」，-l 或 -lyë 表「你」，-s 表「它」。",
+     "en": "In Lesson Eight, we introduced three pronominal endings",
+     "zh": "第八课介绍了三个代词词尾。",
+     "exampleZh": "-n／-nyë、-l／-lyë、-s"
+    },
+    {
+     "id": "rule-new-endings",
+     "headZh": "本课：-ntë 与 -t",
+     "bodyZh": "现在辨认第三人称复数的代词词尾：作主语的「他们」与作宾语的「他们」。",
+     "en": "we will now attempt to identify the pronominal endings of the Third Person Plural",
+     "zh": "现在我们要来辨认第三人称复数的代词词尾。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 -s 也能表「他们」",
+     "right": "-s 只表「它」；「他们」用 -ntë／-t",
+     "whyZh": "原文把 -s 明确列为已学的「it」词尾。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么先讲代词再讲不定式",
+     "bodyZh": "本节是标题之后的总起：先把「他们」的两个词尾摆出来，后面 tiruvantes、laituvalmet 才好拆。接着的三节分别处理主语词尾 -ntë、早期 -lto 的争议、以及宾语词尾 -t。"
+    }
+   ],
+   "recapZh": "主语「他们」＝-ntë；宾语「他们」＝-t。",
+   "selfCheckZh": [
+    {
+     "qZh": "「他们」作主语用什么词尾？",
+     "aZh": "-ntë。"
+    },
+    {
+     "qZh": "「他们」作宾语用什么词尾？",
+     "aZh": "-t。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "adverbs",
+    "unitIds": [
+     14,
+     15
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pron-nte",
+   "sourceSectionId": "adverbs",
+   "titleZh": "11 · -ntë：tiruvantes 怎么拆，规则怎么说",
+   "leadZh": "tiruvantes = tir- + -uva + -nte- + -s「他们将守卫它」。UT:317 说 -ntë 用于「未先提及主语」的第三人称复数。作者把它读作：主语已在动词前出现就只用 -r，否则用 -ntë。",
+   "objectives": [
+    "能拆解 tiruvantes 的四个成分",
+    "能按「同句内是否先出现主语」选用 -r／-ntë"
+   ],
+   "rules": [
+    {
+     "id": "rule-tiruvantes",
+     "headZh": "tiruvantes 的四层",
+     "bodyZh": "tir-「守望、守卫」+ 将来词尾 -uva + 代词词尾 -nte-「他们」+ 宾语词尾 -s「它」=「他们将守卫它」（UT:305，UT:317 译文）。",
+     "en": "UT:317 explicitly confirms that -ntë is the \"inflection of 3[rd person] plural where no subject is previously mentioned\"",
+     "zh": "UT:317 明确确认 -ntë 是「第三人称复数在未先提及主语时的屈折形式」。",
+     "exampleZh": "tiruvantes「他们将守卫它」"
+    },
+    {
+     "id": "rule-nte-rule",
+     "headZh": "-r 与 -ntë 的分工",
+     "bodyZh": "若复数主语已在动词前「先提及」，动词只加普通复数词尾 -r（i neri matir apsa）；若没有先提及的主语，-r 由 -ntë 取代（Matintë apsa）。主语在句中较后才指明时仍可用 -ntë。",
+     "en": "But if there is no subject \"previously mentioned\", the ending -r is replaced by -ntë, meaning \"they\"",
+     "zh": "但如果没有「先提及」的主语，-r 就由 -ntë 取代，意为「他们」。",
+     "exampleZh": "i neri matir apsa／matintë apsa／matintë apsa i neri"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 -ntë 与 -r 可以随意互换",
+     "right": "有先提及的复数主语时用 -r；没有时用 -ntë",
+     "whyZh": "原文的整个解读都建立在这条分工上。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "Cirion 誓言为什么也合这条规则",
+     "bodyZh": "nai tiruvantes i hárar mahalmassen mi Númen——主语「坐在西方宝座上者」出现在动词之后，属于「未先提及」，所以用 -ntë。这条例子同时验证了「后指」也可用 -ntë。"
+    }
+   ],
+   "recapZh": "-ntë＝「他们」作主语，用于主语未在动词前出现的场合；有先提及主语时用 -r。",
+   "selfCheckZh": [
+    {
+     "qZh": "tiruvantes 里的 -nte- 和 -s 各是什么？",
+     "aZh": "-nte-「他们」（主语），-s「它」（宾语）。"
+    },
+    {
+     "qZh": "「男人们吃肉」怎么写？",
+     "aZh": "i neri matir apsa（主语已先出现，用 -r）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "adverbs",
+    "unitIds": [
+     16
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pron-lto",
+   "sourceSectionId": "adverbs",
+   "titleZh": "12 · -lto：早期形式与「绝对解释」的争议",
+   "leadZh": "早期资料用 -lto 表「他们」：tulielto、cárielto、antalto。有人据「未先提及」的严格解释为 -lto 留位置，但作者认为托尔金最终废弃了它，课程练习一律用 -ntë。",
+   "objectives": [
+    "能举出 -lto 的三个有据形式",
+    "能复述严格解释与作者的反驳"
+   ],
+   "rules": [
+    {
+     "id": "rule-lto-early",
+     "headZh": "-lto：早期「他们」",
+     "bodyZh": "LT1:114 的 tulielto「他们来了」含 -lto；《Fíriel 之歌》的 cárielto「他们造了」、antalto「他们给了」也用 -lto（LR:72）。但 LotR 时期有据的主语词尾都以 -ë 结尾，以 -o 结尾的 -lto 不太合群。",
+     "en": "In LT1:114, we find the \"Qenya\" form tulielto \"they have come\", including the ending -lto for \"they\".",
+     "zh": "在 LT1:114 里，我们看到 Qenya 形式 tulielto「他们来了」，其中包含表「他们」的词尾 -lto。",
+     "exampleZh": "tulielto、cárielto、antalto"
+    },
+    {
+     "id": "rule-lto-strict",
+     "headZh": "严格解释：-ntë 只能「前指」",
+     "bodyZh": "有人把「未先提及」作绝对理解：只要前文（哪怕别的句子）提过那个群体，就不能用 -ntë，因为它只指向后文才指明的主语；回指已提及群体的「他们」需要另一个词尾，或许就是 -lto。",
+     "en": "The ending -ntë would only point forward",
+     "zh": "词尾 -ntë 只会向前指。"
+    },
+    {
+     "id": "rule-lto-practice",
+     "headZh": "作者的处理：忽略 -lto",
+     "bodyZh": "作者承认这解释不能排除，但仍不放心在 LotR 风格里用 -lto；课程练习忽略它，假定 -ntë 可一般表「他们」，并把「未先提及」理解为「未在同一句里先提及」。",
+     "en": "In the exercises I have made for this course, I have ignored -lto",
+     "zh": "在本课程编写的练习里，作者忽略了 -lto。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "在 LotR 风格文本里用 -lto 表「他们」",
+     "right": "用 -ntë；-lto 视为早期形式",
+     "whyZh": "原文：I still have a bad feeling about using the ending -lto in LotR-style Quenya。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "争论的真正焦点",
+     "bodyZh": "不是「-lto 有没有出现过」（它确实有据），而是「托尔金晚期的 -ntë 是否已完全取代它」。作者选择按「替代」处理：早期形式保留在语料里，但不再用于仿写。这也是本课程一贯的取舍标准——以 LotR 及以后为准。"
+    }
+   ],
+   "recapZh": "-lto 是早期「他们」词尾（tulielto 等）；LotR 风格用 -ntë。",
+   "selfCheckZh": [
+    {
+     "qZh": "tulielto 什么意思？",
+     "aZh": "他们来了。"
+    },
+    {
+     "qZh": "作者在练习里用 -lto 吗？",
+     "aZh": "不用，一律 -ntë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "adverbs",
+    "unitIds": [
+     17,
+     18,
+     19
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pron-tenses",
+   "sourceSectionId": "adverbs",
+   "titleZh": "13 · 五个时态 + -ntë：pusta- 的完整表",
+   "leadZh": "把 -ntë 加到 pusta-「停止」的五个时态上：pustantë、pustëantë、pustanentë、pustuvantë、upustientë。",
+   "objectives": [
+    "能写出五个时态的「他们」形式",
+    "能说明现在时 pustëantë 里 ëa 的来源"
+   ],
+   "rules": [
+    {
+     "id": "rule-nte-tenses",
+     "headZh": "-ntë 接在各时态词干后",
+     "bodyZh": "无定时 pustantë、现在时 pustëantë、过去时 pustanentë、将来时 pustuvantë、完成时 upustientë。现在时保留 -ëa（pustëa-）再接 -ntë。",
+     "en": "Present pustëantë \"they are stopping\"",
+     "zh": "现在时 pustëantë「他们正在停止」。",
+     "exampleZh": "pustantë／pustëantë／pustanentë／pustuvantë／upustientë"
+    }
+   ],
+   "table": {
+    "captionZh": "pusta-「停止」的第三人称复数",
+    "headers": [
+     "时态",
+     "形式",
+     "释义"
+    ],
+    "rows": [
+     [
+      "无定时",
+      "pustantë",
+      "他们停止"
+     ],
+     [
+      "现在时",
+      "pustëantë",
+      "他们正在停止"
+     ],
+     [
+      "过去时",
+      "pustanentë",
+      "他们停止了"
+     ],
+     [
+      "将来时",
+      "pustuvantë",
+      "他们将停止"
+     ],
+     [
+      "完成时",
+      "upustientë",
+      "他们已经停止"
+     ]
+    ]
+   },
+   "pitfalls": [
+    {
+     "wrong": "把现在时写成 pustantë",
+     "right": "pustëantë",
+     "whyZh": "现在时词干是 pustëa-，-ntë 接在其后，ëa 不能丢。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "这五个形式是「推演」还是有据",
+     "bodyZh": "只有 tiruvantes 是有据的整体形式；pusta- 的五个形式是作者按规则推出来的示范（原文用 presumably 限定）。做题时可以把它们当模型，但要知道它们的地位低于 tiruvantes。"
+    }
+   ],
+   "recapZh": "pusta- 的五个人称形式：pustantë、pustëantë、pustanentë、pustuvantë、upustientë。",
+   "selfCheckZh": [
+    {
+     "qZh": "「他们停止了」怎么写？",
+     "aZh": "pustanentë。"
+    },
+    {
+     "qZh": "「他们已经停止」怎么写？",
+     "aZh": "upustientë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "adverbs",
+    "unitIds": [
+     20,
+     21,
+     22,
+     23,
+     24
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pron-t",
+   "sourceSectionId": "adverbs",
+   "titleZh": "14 · -t：宾语「他们」，以及「只表双数」的争议",
+   "leadZh": "laituvalmet「我们将赞美他们」的末 -t 就是宾语「他们」。被赞美的是 Frodo 与 Sam 两人，所以有人说是双数「他们两个」；作者不认为 -t 专表双数。",
+   "objectives": [
+    "能从 laituvalmet 析出 -t 并说明其义",
+    "能复述双数说的依据与作者的反驳"
+   ],
+   "rules": [
+    {
+     "id": "rule-t-object",
+     "headZh": "-t＝宾语「他们」",
+     "bodyZh": "andavë laituvalmet 意为「我们将长久赞美他们」；末 -t 即「他们」。前面还能析出表「我们」的词尾（留待以后讲，昆雅有好几个「我们」）。",
+     "en": "we can easily isolate the final -t as the element translated \"them\"",
+     "zh": "我们很容易把末尾的 -t 单独析出，作为译作「他们」的成分。",
+     "exampleZh": "laituvalmet「我们将赞美他们」"
+    },
+    {
+     "id": "rule-t-dual",
+     "headZh": "双数说：依据与反驳",
+     "bodyZh": "被赞美的 Frodo 与 Sam 是两个人，昆雅又有双数词尾 -t（ciryat「两条船」），于是有人认为 -t 是双数「他们两个」。作者说不能断然排除，但 -t 与 -ntë 匹配得很好，他不认为 -t 专表双数。",
+     "en": "I don't think -t is exclusively dual, but in any case, this is one ending that can be translated \"them\".",
+     "zh": "作者不认为 -t 专表双数，但无论如何，这是一个可译作「他们」的词尾。",
+     "exampleZh": "ciryat「两条船」（双数 -t）"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "认定 -t 只能指两个人",
+     "right": "-t 可一般表「他们」；双数只是可能的附加色彩",
+     "whyZh": "原文说不能排除双数解释，但作者明确不采「专表双数」之说。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么这个争议重要",
+     "bodyZh": "如果 -t 只表双数，那么「他们（三人以上）」作宾语就没有词尾可用，练习里大量句子会写不出来。作者选择一般化处理，正是为了让 -t 在课程里可生产使用。"
+    }
+   ],
+   "recapZh": "-t＝宾语「他们」；双数说不能排除，但作者按一般复数使用。",
+   "selfCheckZh": [
+    {
+     "qZh": "laituvalmet 的 -t 是什么？",
+     "aZh": "宾语「他们」。"
+    },
+    {
+     "qZh": "双数说的依据是什么？",
+     "aZh": "被赞美者是两个人，且昆雅有双数词尾 -t。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "adverbs",
+    "unitIds": [
+     25,
+     26,
+     27
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pron-t-examples",
+   "sourceSectionId": "adverbs",
+   "titleZh": "15 · 四个例子：主语词尾 + -t",
+   "leadZh": "Tirnenyet、Melilyet、Hiruvanyet、Pustanentet——都是「主语词尾 + 宾语 -t」。最后一句指两个不同群体，不是反身。",
+   "objectives": [
+    "能拆解四个形式的层次",
+    "能说明 Pustanentet 不是「他们阻止自己」"
+   ],
+   "rules": [
+    {
+     "id": "rule-two-endings",
+     "headZh": "两个代词词尾可以连用",
+     "bodyZh": "先主语后宾语：Tirnenyet「我守望了他们」（-nye- 我 + -t 他们）、Melilyet「你爱他们」（-lye- 你 + -t）、Hiruvanyet「我将找到他们」（-uva- + -nye- + -t）、Pustanentet「他们阻止了他们」（-nte- + -ne- + -t）。",
+     "en": "Pustanentet = \"they stopped them\"",
+     "zh": "Pustanentet =「他们阻止了他们」。",
+     "exampleZh": "Tirnenyet／Melilyet／Hiruvanyet／Pustanentet"
+    }
+   ],
+   "table": {
+    "captionZh": "四个形式的拆解",
+    "headers": [
+     "形式",
+     "拆解",
+     "释义"
+    ],
+    "rows": [
+     [
+      "Tirnenyet",
+      "tirne-（过去）+ -nye-（我）+ -t（他们）",
+      "我守望了他们"
+     ],
+     [
+      "Melilyet",
+      "mel-（爱）+ -lye-（你）+ -t（他们）",
+      "你爱他们"
+     ],
+     [
+      "Hiruvanyet",
+      "hiruva-（将找到）+ -nye-（我）+ -t（他们）",
+      "我将找到他们"
+     ],
+     [
+      "Pustanentet",
+      "pustane-（过去）+ -nte-（他们）+ -t（他们）",
+      "他们阻止了他们"
+     ]
+    ]
+   },
+   "pitfalls": [
+    {
+     "wrong": "把 Pustanentet 理解为「他们阻止了自己」",
+     "right": "它指两个不同群体；反身说法未知",
+     "whyZh": "原文：Likely, this would refer to two different groups. \"They stopped themselves\" is probably expressed in another way。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么「两个不同群体」值得单说",
+     "bodyZh": "英语 they stopped them 与 they stopped themselves 靠代词区分；昆雅用 -nte- + -t 只能表达前者。作者坦言不知道反身怎么说——这是本课少见的明确空白，遇到「自己」时不要硬造。"
+    }
+   ],
+   "recapZh": "主语词尾 + -t 可连用；Pustanentet 指两个群体，不是反身。",
+   "selfCheckZh": [
+    {
+     "qZh": "Hiruvanyet 怎么拆？",
+     "aZh": "hiruva-（将找到）+ -nye-（我）+ -t（他们）。"
+    },
+    {
+     "qZh": "「他们阻止了自己」能用 Pustanentet 吗？",
+     "aZh": "不能，那指两个不同群体。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "adverbs",
+    "unitIds": [
+     28,
+     29,
+     30,
+     31,
+     32,
+     33
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "inf-intro",
+   "sourceSectionId": "infinitives-with-object-pronouns",
+   "titleZh": "16 · 宾语词尾能不能挂在不定式上？",
+   "leadZh": "已确认 -s「它」、-t「他们」可挂在限定动词上，跟在主语词尾之后（tiruvantes、laituvalmet）。但如果动词短语里有一个不定式呢？",
+   "objectives": [
+    "能复述已确认的两个宾语词尾",
+    "能提出「不定式 + 宾语词尾」这个问题"
+   ],
+   "rules": [
+    {
+     "id": "rule-inf-question",
+     "headZh": "问题：不定式怎么接宾语词尾",
+     "bodyZh": "有据例显示宾语词尾可附在限定动词上、跟在主语词尾之后。但涉及不定式的更长动词短语，宾语词尾该往哪放，还需另找证据。",
+     "en": "But what about a longer verbal phrase involving an infinitive?",
+     "zh": "但如果涉及不定式的更长动词短语呢？",
+     "exampleZh": "tiruvantes／laituvalmet"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为限定动词的规则可以直接搬到不定式",
+     "right": "不定式接宾语词尾另有形式（-ita）",
+     "whyZh": "本节只是提问，答案在下一节揭晓。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "这一节的作用",
+     "bodyZh": "它把问题摆清楚：已有知识只覆盖「限定动词 + 两个词尾」，不定式是空白。接着作者用一个看似合理的错误答案（cenit）来暴露空白，再给出真正的规则。"
+    }
+   ],
+   "recapZh": "限定动词可带主语 + 宾语两个词尾；不定式如何带宾语词尾尚待说明。",
+   "selfCheckZh": [
+    {
+     "qZh": "tiruvantes 里两个词尾各是什么？",
+     "aZh": "-nte-「他们」、-s「它」。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "infinitives-with-object-pronouns",
+    "unitIds": [
+     0
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "inf-problem",
+   "sourceSectionId": "infinitives-with-object-pronouns",
+   "titleZh": "17 · 先试错：cenit 为什么不行",
+   "leadZh": "i mól veryanë cenë i aran ar i tári「奴隶敢见国王与女王」。把宾语换成「他们」，直觉答案是把 -t 加到不定式上：cenet 或 cenit。作者说：错。",
+   "objectives": [
+    "能复述直觉答案的推理",
+    "能说明为什么 cenit 会被判错"
+   ],
+   "rules": [
+    {
+     "id": "rule-cenit-wrong",
+     "headZh": "直觉答案：i mól veryanë cenit",
+     "bodyZh": "限定动词 veryanë「敢」+ 不定式 cenë「见」。要表达「见他们」，-t 必须附在不定式上；又因 cenë 代表原始 keni，于是有人写 cenit。原文直接判为 Wrong。",
+     "en": "So \"the thrall dared to see them\" = i mól veryanë cenit, right?",
+     "zh": "所以「奴隶敢见他们」= i mól veryanë cenit，对吗？",
+     "exampleZh": "i mól veryanë cenit（错）"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 -t 直接加在 cenë 后写成 cenet／cenit",
+     "right": "基本动词的不定式接代词词尾要用 -ita-（cenitat）",
+     "whyZh": "下一节引 VT41:17 给出真正的规则。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "作者为什么要先给一个错答案",
+     "bodyZh": "cenit 的推理每一步都「看起来对」：宾语词尾该附在不定式上、cenë 底层是 keni。正因为推理合理却结论错误，才能凸显规则不是从形态直觉推出来的，而是有外部证据（VT41）规定的。"
+    }
+   ],
+   "recapZh": "直觉答案 cenit 是错的；正确形式是 cenitat。",
+   "selfCheckZh": [
+    {
+     "qZh": "cenit 错在哪里？",
+     "aZh": "基本动词不定式接宾语词尾要先扩展为 -ita- 形式。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "infinitives-with-object-pronouns",
+    "unitIds": [
+     1
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "inf-ita",
+   "sourceSectionId": "infinitives-with-object-pronouns",
+   "titleZh": "18 · -ita：不定式接代词词尾的专用形式",
+   "leadZh": "VT41:17：基本动词的不定式在要加代词词尾时用 -ita（实际词缀 -ta-）。cenë → cenita-，加 -t 得 cenitat；car- 的 caritas「做它」。而 **caris 会与无定时「它做」同形，所以要插入 -ta- 消除歧义。",
+   "objectives": [
+    "能由 cenë 推出 cenitat",
+    "能解释 -ta- 插入的动机（避免与无定时混淆）"
+   ],
+   "rules": [
+    {
+     "id": "rule-ita",
+     "headZh": "-ita：带代词词尾的不定式",
+     "bodyZh": "基本动词的不定式在要加任何代词词尾时用词尾 -ita 构成；实际词缀只是 -ta-，加到 cenë = ceni- 上得 cenita-。托尔金 1969 年札记称之为「带 -ita 的特定不定式」，与「加 -i 的一般不定式」相对。",
+     "en": "the infinitive of primary verbs is formed with the ending -ita if any pronominal endings are to be added",
+     "zh": "基本动词的不定式在要加任何代词词尾时，是用词尾 -ita 构成的。",
+     "exampleZh": "cenë → cenita- → cenitat；car- → caritas"
+    },
+    {
+     "id": "rule-caris-ambiguity",
+     "headZh": "为什么要插 -ta-：避免同形",
+     "bodyZh": "car- 的不定式是 carë（cari-）。若直接加 -s「它」得 **caris，与无定时的「它做」同形。caritas 则无歧义。",
+     "en": "The actual form caritas is not ambiguous.",
+     "zh": "实际形式 caritas 则没有歧义。",
+     "exampleZh": "**caris（歧义）对 caritas"
+    },
+    {
+     "id": "rule-ta-insert",
+     "headZh": "-ta- 插在不定式与后缀之间",
+     "bodyZh": "即使「他们做」与「做它们」靠 -ntë／-t 已能区分，托尔金仍决定统一插入 -ta-：不定式在不定式本身与代词后缀之间加 -ta-。",
+     "en": "The infinitives insert -ta- between the infinitive proper and the pronominal suffixes.",
+     "zh": "不定式在不定式本身与代词后缀之间插入 -ta-。",
+     "exampleZh": "i mól veryanë cenitat"
+    }
+   ],
+   "examples": [
+    {
+     "en": "caritas",
+     "zh": "做它／to do it",
+     "noteZh": "car- + -ita- + -s（VT41:17）。"
+    },
+    {
+     "en": "i mól veryanë cenitat",
+     "zh": "奴隶敢见他们。",
+     "noteZh": "cenë → cenita- + -t。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 **caris 表「做它」",
+     "right": "caritas",
+     "whyZh": "**caris 与无定时「它做」同形，原文明确点出这一歧义。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "「加 -i 的不定式」到底指什么",
+     "bodyZh": "托尔金说一般不定式「加 -i 构成」，但当代昆雅写作 -ë（quetë）。作者认为他可能只是指词尾原形（原始 kweti）。这一节的关键不是 -i 还是 -ë，而是：一般不定式不能再加后缀，要加宾语词尾必须换成 -ita- 形式。"
+    }
+   ],
+   "recapZh": "基本动词不定式接代词词尾：-ë → -ita-（cenitat、caritas）。",
+   "selfCheckZh": [
+    {
+     "qZh": "「见他们」的不定式形式？",
+     "aZh": "cenitat。"
+    },
+    {
+     "qZh": "caritas 为什么不能写成 caris？",
+     "aZh": "caris 会与无定时「它做」同形。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "infinitives-with-object-pronouns",
+    "unitIds": [
+     2,
+     3,
+     4
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "inf-a-stem",
+   "sourceSectionId": "infinitives-with-object-pronouns",
+   "titleZh": "19 · A 词干：metyatas、mapatat 只是「也许」",
+   "leadZh": "VT41 的引文只谈基本动词。A 词干是否同样加 -ta 属推测：Merintë metyatas、I ohtari úvar mapatat 都是试验句。orta- 这种本已含 -ta 的动词再加 -ta（ortatas）更可疑。",
+   "objectives": [
+    "能说明 A 词干加 -ta 属推测",
+    "能指出 orta- 类动词的双 ta 问题"
+   ],
+   "rules": [
+    {
+     "id": "rule-a-stem-uncertain",
+     "headZh": "A 词干：无据，只是类推",
+     "bodyZh": "VT41 只刊出托尔金 1969 年札记的一小段，只涉及基本动词。有些写作者假定 A 词干作不定式时也在宾语词尾前加 -ta，于是有 Merintë metyatas「他们想结束它」、I ohtari úvar mapatat「战士们不会抓住他们」。原文说：也许行，也许不行。",
+     "en": "It is unclear whether A-stem verbs behave in the same way.",
+     "zh": "A 词干动词是否同样处理，并不清楚。",
+     "exampleZh": "Merintë metyatas／I ohtari úvar mapatat"
+    },
+    {
+     "id": "rule-ortatas",
+     "headZh": "orta- 类动词：双 ta 很可疑",
+     "bodyZh": "词尾 -ta 若加到一个本已以 -ta 结尾的词干上（orta-「举起」），会得到 polin ortatas 这样的形式。昆雅一般不喜欢两个相邻的相似音节。",
+     "en": "Should \"I can lift it\" really be polin ortatas?",
+     "zh": "「我能举起它」真的该是 polin ortatas 吗？",
+     "exampleZh": "polin ortatas（?）"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 metyatas、mapatat 当作有据形式",
+     "right": "它们是类推出来的试验形式，原文用 Perhaps 限定",
+     "whyZh": "原文：Perhaps such sentences are quite OK, perhaps not. Presently there is no way of telling。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么基本动词能定、A 词干不能定",
+     "bodyZh": "托尔金的札记明确只讲「基本动词的不定式」——即无定时为 -ë 或以 -i 结尾的那批。A 词干的不定式是裸词干（linda），形态起点不同，-ta 该加在哪里没有文本依据，只能类推。"
+    }
+   ],
+   "recapZh": "A 词干加 -ta 属类推（metyatas、mapatat）；orta- 类双 ta 更可疑。",
+   "selfCheckZh": [
+    {
+     "qZh": "metyatas 有直接语料依据吗？",
+     "aZh": "没有，是按基本动词类推的试验形式。"
+    },
+    {
+     "qZh": "ortatas 的问题是什么？",
+     "aZh": "两个 ta 相邻，昆雅不喜欢。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "infinitives-with-object-pronouns",
+    "unitIds": [
+     5,
+     6,
+     7,
+     8
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "inf-workaround",
+   "sourceSectionId": "infinitives-with-object-pronouns",
+   "titleZh": "20 · 绕开不确定：用独立代词 te；不定式也能作主语",
+   "leadZh": "既然 A 词干加 -ta 不确定，就用独立宾语代词：merinelyë mapa te 而不是 ?mernelyë mapatat。另外 caritas 译作「doing it」，说明这类不定式也能作主语：cenitas farya nin。",
+   "objectives": [
+    "能用 te 绕开 A 词干的不确定",
+    "能说明 -ita 不定式可作主语"
+   ],
+   "rules": [
+    {
+     "id": "rule-te",
+     "headZh": "用独立代词 te「他们」",
+     "bodyZh": "我们知道一些独立宾语代词，如 te「他们」。所以「你想抓住他们」可说 mernelyë mapa te，不必写不确定的 ?mernelyë mapatat。独立代词后面一课再讲。",
+     "en": "we can have mernelyë mapa te instead of the uncertain construction ?mernelyë mapatat",
+     "zh": "我们可以用 mernelyë mapa te，而不用那个不确定的构造 ?mernelyë mapatat。",
+     "exampleZh": "merinelyë mapa te"
+    },
+    {
+     "id": "rule-inf-subject",
+     "headZh": "-ita 不定式可作主语",
+     "bodyZh": "托尔金把 caritas 译作 “doing it”，说明这类不定式也能充当句子主语：cenitas farya nin「看见它对我来说就够了」（farya-「足够」；nin「对我」）。",
+     "en": "This may suggest that such infinitives can also function as the subject of a sentence",
+     "zh": "这也许说明这类不定式也能充当句子的主语。",
+     "exampleZh": "cenitas farya nin"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "硬造 mapatat 来表达「抓住他们」",
+     "right": "改用 mapa te",
+     "whyZh": "原文明确把 mapa te 作为规避方案，并说练习里 -ita 只用于基本动词。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "两种「不确定」的处理方式",
+     "bodyZh": "A 词干加 -ta 不确定，作者的处理是换结构（用独立代词）；-ita 不定式能否作主语不确定，作者的处理是标为「可能」并给一个例子。前者是可操作的替代，后者是待证的扩展——注意区分这两种语气。"
+    }
+   ],
+   "recapZh": "A 词干用 te 绕开；cenitas farya nin 说明 -ita 不定式可作主语。",
+   "selfCheckZh": [
+    {
+     "qZh": "「你想抓住他们」较稳妥的写法？",
+     "aZh": "mernelyë mapa te。"
+    },
+    {
+     "qZh": "cenitas farya nin 什么意思？",
+     "aZh": "看见它对我来说就够了。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "infinitives-with-object-pronouns",
+    "unitIds": [
+     9,
+     10
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ya-intro",
+   "sourceSectionId": "the-past-tense-of-intransitive-verbs-in-ya",
+   "titleZh": "21 · 「不规则」里也有子规则",
+   "leadZh": "第六课给了规则过去时，也提到各种不规则形式。有些「不规则」其实自成一类，按自己的特殊规则也算规则——本课要讲的就是 -ya 动词这一类。",
+   "objectives": [
+    "能说明「不规则」也可能成子类",
+    "能把本课定位为第六课的补充"
+   ],
+   "rules": [
+    {
+     "id": "rule-subgroup",
+     "headZh": "不规则的子类",
+     "bodyZh": "有些过去时形式不符合最常见模式，但彼此之间一致，可按自己的特殊规则归为子类。",
+     "en": "Some of these may actually form sub-groups that are \"regular\" enough according to their own special rules.",
+     "zh": "其中有些形式其实可能构成子类——按它们自己的特殊规则，也算得上「规则」。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把「不规则」等同于「无规律、只能死记」",
+     "right": "部分不规则形式有可描述的规律（如 -ya 脱落）",
+     "whyZh": "本节开宗明义要给这些形式找子规则。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "本课的推理顺序",
+     "bodyZh": "先立术语（及物／不及物），再看三个 -ya 动词的过去时，然后用 ulya- 的双重过去时锁定「及物保留、不及物脱落」这条规律，最后列其余动词并声明多为推测。"
+    }
+   ],
+   "recapZh": "部分「不规则」过去时自成一类；本课讲 -ya 动词。",
+   "selfCheckZh": [
+    {
+     "qZh": "本课要给哪类动词找子规则？",
+     "aZh": "以 -ya 结尾的（不及物）动词。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-past-tense-of-intransitive-verbs-in-ya",
+    "unitIds": [
+     0
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ya-transitivity",
+   "sourceSectionId": "the-past-tense-of-intransitive-verbs-in-ya",
+   "titleZh": "22 · 及物／不及物：先分清动词能不能带宾语",
+   "leadZh": "及物动词能带宾语，不及物不能（fall）。英语有成对动词（raise/rise、fell/fall、lay/lie），也有一个形式两用（sink）。昆雅 orta- 也两用：看句中有没有宾语。",
+   "objectives": [
+    "能定义及物与不及物",
+    "能用 orta 两例判断及物性"
+   ],
+   "rules": [
+    {
+     "id": "rule-transitive-def",
+     "headZh": "及物＝能带宾语",
+     "bodyZh": "按语言学用法，动词若能带宾语即及物。fall 不及物：主语自己可以「落」，但不能「落」别的东西。典型不及物动词只描述主语自身执行的动作。",
+     "en": "a verb is said to be transitive if it can have an object",
+     "zh": "一个动词若能带宾语，就叫及物动词。",
+     "exampleZh": "fall（不及物）／raise（及物）"
+    },
+    {
+     "id": "rule-orta-both",
+     "headZh": "orta- 两用：看有没有宾语",
+     "bodyZh": "英语 sink 可两用（the torpedo sank the ship 对 the ship sank）。昆雅 orta- 兼「举起」与「升起」，须看语境：i aran orta「国王起身」，i aran orta ranco「国王举起一条手臂」。",
+     "en": "i aran orta = \"the king rises\", but i aran orta ranco = \"the king raises an arm\"",
+     "zh": "i aran orta =「国王起身」，而 i aran orta ranco =「国王举起一条手臂」。",
+     "exampleZh": "i aran orta／i aran orta ranco"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "见到 orta 就译「举起」",
+     "right": "先看有没有宾语；没有宾语时是「升起」",
+     "whyZh": "原文用括号强调：check if the sentence includes an object or not!"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么先讲语法术语",
+     "bodyZh": "后面整条规律的关键词就是「不及物」：-ya 脱落只发生在不及物用法。若分不清及物性，就无法判断 ulya- 该用 ulyanë 还是 ullë。"
+    }
+   ],
+   "recapZh": "及物能带宾语，不及物不能；orta- 两用，看宾语定意义。",
+   "selfCheckZh": [
+    {
+     "qZh": "i aran orta 什么意思？",
+     "aZh": "国王起身（不及物）。"
+    },
+    {
+     "qZh": "i aran orta ranco 呢？",
+     "aZh": "国王举起一条手臂（及物）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-past-tense-of-intransitive-verbs-in-ya",
+    "unitIds": [
+     1,
+     2
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ya-irregular",
+   "sourceSectionId": "the-past-tense-of-intransitive-verbs-in-ya",
+   "titleZh": "23 · farnë、vannë、lendë：-ya 消失的三个证据",
+   "leadZh": "farya-「足够」过去时 farnë（不是 **faryanë）；vanya-「去、消失」过去时 vannë；lelya-「去、旅行」过去时 lendë（不是 **lelyanë）。lendë 的 nd 由鼻音插入，词根 LED（更早 DEL）。",
+   "objectives": [
+    "能写出三个动词的过去时",
+    "能解释 lendë 的 nd 从哪来"
+   ],
+   "rules": [
+    {
+     "id": "rule-farne",
+     "headZh": "-ya 在过去时前脱落：farnë、vannë",
+     "bodyZh": "farya- 的过去时是 farnë：词干词尾 -ya 在过去时词尾 -në 前脱落，我们或预期 **faryanë。vanya-「去、离开、消失」同理：vannë。",
+     "en": "We might have expected **faryanë",
+     "zh": "我们本来可能预期 **faryanë。",
+     "exampleZh": "farya- → farnë；vanya- → vannë"
+    },
+    {
+     "id": "rule-lende",
+     "headZh": "lelya- → lendë：鼻音插入",
+     "bodyZh": "lelya-「去、前行、旅行」（WJ:363）的过去时不是 **lelyanë 而是 lendë。nd 丛由原根 LED 鼻音插入产生；LED 又来自更早的 DEL。lendë 来自 lendê。",
+     "en": "Its past tense is not **lelyanë, but lendë",
+     "zh": "它的过去时不是 **lelyanë，而是 lendë。",
+     "exampleZh": "lelya- → lendë"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 **faryanë、**lelyanë",
+     "right": "farnë、lendë",
+     "whyZh": "原文用 ** 标出这两个错误形式。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "三个动词的共同点",
+     "bodyZh": "farya-「足够」、vanya-「消失」、lelya-「去」在意义上都明显不及物。这正是下一节 ulya- 双重过去时要验证的假设：不是 -ya 动词一律脱落，而是只有不及物用法才脱落。"
+    }
+   ],
+   "recapZh": "farya- → farnë；vanya- → vannë；lelya- → lendë。",
+   "selfCheckZh": [
+    {
+     "qZh": "lelya- 的过去时？",
+     "aZh": "lendë。"
+    },
+    {
+     "qZh": "lendë 的 nd 怎么来的？",
+     "aZh": "原根 LED 的鼻音插入。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-past-tense-of-intransitive-verbs-in-ya",
+    "unitIds": [
+     3
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ya-ulya",
+   "sourceSectionId": "the-past-tense-of-intransitive-verbs-in-ya",
+   "titleZh": "24 · ulya- 的双重过去时：ulyanë 与 ullë",
+   "leadZh": "ulya-「倾倒」有两条过去时：及物用 ulyanë（仆人把水倒进杯子），不及物用 ullë（河流泻入峡谷）。ullë 大概代表较早的 unlë，由 ul- 鼻音插入而来。",
+   "objectives": [
+    "能按及物性选用 ulyanë／ullë",
+    "能说明 ullë 的形态来源"
+   ],
+   "rules": [
+    {
+     "id": "rule-ulya-double",
+     "headZh": "ulya-：及物 ulyanë，不及物 ullë",
+     "bodyZh": "及物用法（把水倒进杯子）过去时 ulyanë，完全规则；不及物用法（河流泻入峡谷）过去时 ullë，大概代表较早的 unlë（ul- 鼻音插入，不带 -ya；参 vil- 的过去时 villë）。",
+     "en": "if the verb is used intransitively, the past tense of ulya- is ullë instead",
+     "zh": "如果动词用作不及物，ulya- 的过去时就是 ullë。",
+     "exampleZh": "ulyanë（及物）／ullë（不及物）"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "「河流泻入峡谷」用 ulyanë",
+     "right": "用 ullë",
+     "whyZh": "原文明确：the form to use is ullë, not ulyanë。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "这一对为什么是决定性的",
+     "bodyZh": "同一个动词、同一个时态、两种形式，唯一的差别就是及物性。这就把「-ya 脱落」从「某些动词的怪癖」提升为一条可按语法条件预测的规则。"
+    }
+   ],
+   "recapZh": "ulya- 及物 ulyanë、不及物 ullë——差别在及物性。",
+   "selfCheckZh": [
+    {
+     "qZh": "「河流泻入峡谷」用哪个形式？",
+     "aZh": "ullë。"
+    },
+    {
+     "qZh": "ullë 大概来自什么？",
+     "aZh": "较早的 unlë（ul- 鼻音插入）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-past-tense-of-intransitive-verbs-in-ya",
+    "unitIds": [
+     4
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ya-pattern",
+   "sourceSectionId": "the-past-tense-of-intransitive-verbs-in-ya",
+   "titleZh": "25 · 模式：不及物 -ya 动词过去时「冒充基本动词」",
+   "leadZh": "规律：-ya 不及物动词在过去时丢掉词尾，由无词尾词根构成，一如基本动词；既及物又不及物的动词，及物保留 -ya（ulyanë），不及物丢掉（ullë）。为什么？作者说完全不明——昆雅不是世界语。",
+   "objectives": [
+    "能陈述这条规律",
+    "能说明作者为何不要求它「合乎逻辑」"
+   ],
+   "rules": [
+    {
+     "id": "rule-ya-pattern",
+     "headZh": "规律：不及物丢 -ya",
+     "bodyZh": "以 -ya 结尾的不及物动词在过去时丢掉这个词尾，过去时由不带词尾的词根构成，就像基本动词。及物与不及物两用的动词，及物时保留 -ya 加 -në，不及物时丢掉。",
+     "en": "Intransitive verbs in -ya drop this ending in the past tense",
+     "zh": "以 -ya 结尾的不及物动词在过去时丢掉这个词尾。",
+     "exampleZh": "farnë、vannë、lendë、ullë"
+    },
+    {
+     "id": "rule-not-esperanto",
+     "headZh": "为什么不合理也没关系",
+     "bodyZh": "其他时态里 ulya- 不论及物与否同形（ulya、ulyëa、ulyuva）。托尔金无意造一门 100% 规则的世界语；昆雅应是历经数千年发展的普通口语，自然会带上未必立刻「说得通」的特征。",
+     "en": "But it was never Tolkien's intention to make a new Esperanto",
+     "zh": "但托尔金从来无意造一门新的世界语。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为所有 -ya 动词过去时都丢 -ya",
+     "right": "只有不及物用法丢；及物仍 ulyanë",
+     "whyZh": "原文把及物／不及物的分条件写进了规律本身。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "「冒充基本动词」是什么意思",
+     "bodyZh": "基本动词的过去时直接从词根构成（mat- → mantë）。不及物 -ya 动词丢掉 -ya 后，形态上与基本动词一模一样，所以作者说它「masquerade as primary verbs」——这是形态类比，不是历史来源。"
+    }
+   ],
+   "recapZh": "不及物 -ya 动词过去时丢 -ya；及物保留。语言不必处处合乎逻辑。",
+   "selfCheckZh": [
+    {
+     "qZh": "这条规律的适用条件是什么？",
+     "aZh": "动词以 -ya 结尾且作不及物用。"
+    },
+    {
+     "qZh": "为什么其他时态没有这种区分？",
+     "aZh": "原文只说事实如此，未给解释；作者强调昆雅不必完全规则。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-past-tense-of-intransitive-verbs-in-ya",
+    "unitIds": [
+     5,
+     6
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "ya-list",
+   "sourceSectionId": "the-past-tense-of-intransitive-verbs-in-ya",
+   "titleZh": "26 · 其余不及物 -ya 动词与 yerya- 的两副过去时",
+   "leadZh": "hwinya-、mirilya-、ranya-、súya-、tiuya- 的过去时都只是推测（hwinnë?、mirillë?、rannë?、súnë?、tiunë?）。yerya- 两义：及物 yeryanë、不及物 yernë。",
+   "objectives": [
+    "能列出这批推测形式",
+    "能按意义给 yerya- 选过去时"
+   ],
+   "rules": [
+    {
+     "id": "rule-ya-list",
+     "headZh": "推测形式：一律带问号",
+     "bodyZh": "hwinya-「旋转」→ hwinnë?；mirilya-「闪烁」→ mirillë?（参 ullë）；ranya-「游荡」→ rannë?；súya-「呼吸」→ súnë?；tiuya-「膨胀」→ tiunë?。托尔金并未提到这些过去时。",
+     "en": "Tolkien did not actually mention any past tense forms in their case",
+     "zh": "托尔金实际上并未提到它们的过去时形式。",
+     "exampleZh": "hwinnë?／mirillë?／rannë?／súnë?／tiunë?"
+    },
+    {
+     "id": "rule-yerya",
+     "headZh": "yerya-：两义两过去时",
+     "bodyZh": "yerya- 既可及物「磨损」也可不及物「变老」。也许前义过去时 yeryanë、后义 yernë，正如及物 ulyanë 与不及物 ullë 并存。",
+     "en": "Perhaps the past tense is yeryanë in the former sense and yernë in the latter sense",
+     "zh": "也许用作前义时过去时是 yeryanë，用作后义时是 yernë。"
+    }
+   ],
+   "table": {
+    "captionZh": "不及物 -ya 动词的推测过去时",
+    "headers": [
+     "动词",
+     "释义",
+     "过去时（推测）"
+    ],
+    "rows": [
+     [
+      "hwinya-",
+      "旋转、打转",
+      "hwinnë?"
+     ],
+     [
+      "mirilya-",
+      "闪烁",
+      "mirillë?"
+     ],
+     [
+      "ranya-",
+      "游荡",
+      "rannë?"
+     ],
+     [
+      "súya-",
+      "呼吸",
+      "súnë?"
+     ],
+     [
+      "tiuya-",
+      "膨胀、发胖",
+      "tiunë?"
+     ],
+     [
+      "yerya-",
+      "磨损（及物）",
+      "yeryanë"
+     ],
+     [
+      "yerya-",
+      "变老（不及物）",
+      "yernë?"
+     ]
+    ]
+   },
+   "pitfalls": [
+    {
+     "wrong": "把 hwinnë? 当有据形式引用",
+     "right": "它是按规律推的，原文带问号",
+     "whyZh": "原文明确：Tolkien did not actually mention any past tense forms in their case。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "本课最后一句的落点",
+     "bodyZh": "作者说这一切「有些假设性」，但学生至少要注意有据的「不规则」过去时：ulya- 的双重过去时，尤其 lendë。也就是说：规律可用于推演，但真正要记牢的是那几个有据形式。"
+    }
+   ],
+   "recapZh": "其余 -ya 不及物动词的过去时多为推测；yerya- 按意义分 yeryanë／yernë。",
+   "selfCheckZh": [
+    {
+     "qZh": "mirilya- 的推测过去时？",
+     "aZh": "mirillë?（参 ullë）。"
+    },
+    {
+     "qZh": "yerya- 作「变老」时过去时？",
+     "aZh": "yernë（推测）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "the-past-tense-of-intransitive-verbs-in-ya",
+    "unitIds": [
+     7,
+     8
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pp-intro",
+   "sourceSectionId": "passive-participles",
+   "titleZh": "27 · 被动分词：描述「被施加动作后的状态」",
+   "leadZh": "主动分词描述施动者的状态（hiding），被动分词描述受动者的状态（hidden）。及物动词看宾语；不及物动词没有宾语，就看主语自身：fallen、gone。",
+   "objectives": [
+    "能区分主动分词与被动分词",
+    "能解释不及物动词的「过去分词」为什么说得通"
+   ],
+   "rules": [
+    {
+     "id": "rule-pp-def",
+     "headZh": "被动分词＝受动者的状态",
+     "bodyZh": "被动分词是由动词词干派生的形容词形式，描述某物或某人因承受相应动作而留下的状态。你藏起某物，它就是 hidden；hidden 既可作表语（the treasure is hidden）也可作定语（hidden treasure）。",
+     "en": "If you hide something, it is hidden.",
+     "zh": "你若把某物藏起来，它就是被藏起来的。",
+     "exampleZh": "hidden 对 hiding"
+    },
+    {
+     "id": "rule-pp-intrans",
+     "headZh": "不及物：主语自身的「后状态」",
+     "bodyZh": "不及物动词没有宾语，分词描述主语完成动作后的状态：跌倒之后是 fallen，离去之后是 gone。这里「过去分词」这个称呼说得通。",
+     "en": "If you fall, you will thereafter be fallen; if you go, you will thereafter be gone.",
+     "zh": "你若跌倒，此后就是 fallen；你若离去，此后就是 gone。",
+     "exampleZh": "fallen、gone"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把「过去分词」理解成「表示过去时间」",
+     "right": "它主要表示「受动／完成后的状态」，与时间无关",
+     "whyZh": "原文说这个术语只在对不及物动词时才特别贴切，及物动词最好说「被动分词」。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么作者坚持改叫「被动分词」",
+     "bodyZh": "对及物动词而言，hidden 描述的是宾语的状态，不是「过去」；用「过去分词」会误导学习者把它当时态形式。名称的选择直接对应本课后面「不要用分词复制英语完成时」那条禁令。"
+    }
+   ],
+   "recapZh": "被动分词描述受动者状态；不及物动词则描述主语完成动作后的状态。",
+   "selfCheckZh": [
+    {
+     "qZh": "hidden 与 hiding 的分工？",
+     "aZh": "hidden 描述受动者，hiding 描述施动者。"
+    },
+    {
+     "qZh": "gone 属于哪种？",
+     "aZh": "不及物动词的被动（过去）分词，描述主语自身状态。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "passive-participles",
+    "unitIds": [
+     0,
+     1
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pp-english",
+   "sourceSectionId": "passive-participles",
+   "titleZh": "28 · 英语的 -en 与「与过去时同形」",
+   "leadZh": "英语被动分词常见 -en（hidden、fallen），但更多时候与过去时同形：tormented 在 they tormented the Dwarf 里是过去时，在 the Dwarf was tormented 里是被动分词。昆雅呢？",
+   "objectives": [
+    "能说明英语被动分词的两种形态",
+    "能提出昆雅对应形式的问题"
+   ],
+   "rules": [
+    {
+     "id": "rule-en",
+     "headZh": "英语：-en 或与过去时同形",
+     "bodyZh": "不少被动分词以 -en 结尾（hidden、fallen）；也有很多与过去时同形，靠句法区分功能（tormented 两例）。",
+     "en": "In English, quite a few passive participles have the ending -en",
+     "zh": "在英语里，相当多的被动分词以 -en 结尾。",
+     "exampleZh": "hidden、fallen、tormented"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为英语被动分词都有独立词尾",
+     "right": "多数与过去时同形，只能靠句法判断",
+     "whyZh": "原文用 tormented 一句两用来示范。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "这一节是过渡",
+     "bodyZh": "它把英语的情况交代清楚，是为了提出「昆雅对应形式长什么样」——下一节起进入昆雅的 -na／-ina 体系。读的时候不必记英语细节，记住「形式可能与过去时同形」这个干扰项即可。"
+    }
+   ],
+   "recapZh": "英语被动分词或 -en，或与过去时同形。",
+   "selfCheckZh": [
+    {
+     "qZh": "the Dwarf was tormented 里的 tormented 是什么？",
+     "aZh": "被动分词。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "passive-participles",
+    "unitIds": [
+     2
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pp-a-stem",
+   "sourceSectionId": "passive-participles",
+   "titleZh": "29 · A 词干：-na／-ina，-ta 类作 -taina",
+   "leadZh": "绝大多数昆雅分词用 -na 或 -ina。A 词干末 -a 与 -ina 的 i 合并为 -ai-：hastaina、hostaina。以 -ta 结尾的 A 词干几乎总是 -taina：antaina「被给的」、ortaina「被举起的」。aistana 是例外。",
+   "objectives": [
+    "能由 hasta-、anta-、orta- 推出分词",
+    "能解释 -ai- 的来源与重音"
+   ],
+   "rules": [
+    {
+     "id": "rule-na-ina",
+     "headZh": "-na／-ina：分词主词尾",
+     "bodyZh": "绝大多数昆雅分词用 -na 或较长的 -ina。A 词干末 -a 与 -ina 的 i 合并成双元音 -ai-，并按规则在倒数第二音节重读。",
+     "en": "The vast majority of Quenya participles seem to be formed by means of the ending -na or its longer variant -ina.",
+     "zh": "绝大多数昆雅分词似乎都是用词尾 -na 或它较长的变体 -ina 构成的。",
+     "exampleZh": "hastaina、hostaina"
+    },
+    {
+     "id": "rule-taina",
+     "headZh": "-ta 类 A 词干 → -taina",
+     "bodyZh": "以 -ta 结尾的 A 词干几乎总有 -taina 分词：anta-「给」→ antaina「被给的」；orta-「举起／升起」→ ortaina「被举起的／升起的」。",
+     "en": "We can probably conclude that A-stems in -ta nearly always have passive participles in -taina.",
+     "zh": "我们大概可以结论：以 -ta 结尾的 A 词干几乎总是有 -taina 形式的被动分词。",
+     "exampleZh": "antaina、ortaina"
+    },
+    {
+     "id": "rule-ina-all",
+     "headZh": "-ina 也许适用于几乎所有 A 词干",
+     "bodyZh": "由 mapa-「抓」可派 mapaina「被抓住的」。间接支持：-ina 也派生形容词（valaina 基于 Vala），而 Vala 本可能来自 A 词干动词 vala-。",
+     "en": "Perhaps the ending -ina can be added to nearly all A-stems?",
+     "zh": "也许词尾 -ina 可以加到几乎所有 A 词干上？",
+     "exampleZh": "mapaina"
+    },
+    {
+     "id": "rule-aistana",
+     "headZh": "例外：aistana 而非 aistaina",
+     "bodyZh": "《圣母经》译本用 aistana 表「蒙福的」（VT43:28, 30）。也许是为避免两个含 ai 的音节相邻；?aistaina 是否有效无从判断。",
+     "en": "Tolkien used aistana rather than aistaina for \"blessed\"",
+     "zh": "托尔金用 aistana 而不是 aistaina 来表示「蒙福的」。",
+     "exampleZh": "aistana（不是 aistaina）"
+    }
+   ],
+   "examples": [
+    {
+     "en": "Arda Hastaina",
+     "zh": "被毁的阿尔达",
+     "noteZh": "hasta-「毁坏」+ -ina（MR:254）。"
+    },
+    {
+     "en": "antaina",
+     "zh": "被给的",
+     "noteZh": "anta-「给」+ -ina。"
+    },
+    {
+     "en": "ortaina",
+     "zh": "被举起的／升起的",
+     "noteZh": "orta- 两义，分词同形。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 aistaina",
+     "right": "aistana",
+     "whyZh": "VT43:28, 30 的原文形式是 aistana。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "-ai- 为什么不是两个音节",
+     "bodyZh": "词干末 a + 后缀 i 合并为双元音 ai，占一个音节并承重音：has-TAI-na。这也是为什么 hastaina 读起来与「hasta + ina」逐段拼合的感觉不同。"
+    }
+   ],
+   "recapZh": "A 词干分词 -ina；-ta 类作 -taina；例外 aistana。",
+   "selfCheckZh": [
+    {
+     "qZh": "anta- 的被动分词？",
+     "aZh": "antaina。"
+    },
+    {
+     "qZh": "aistana 为什么不是 aistaina？",
+     "aZh": "为避免两个含 ai 的音节相邻；原文说无法判断 ?aistaina 是否有效。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "passive-participles",
+    "unitIds": [
+     3,
+     4,
+     5
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pp-ya",
+   "sourceSectionId": "passive-participles",
+   "titleZh": "30 · -ya 动词：perina、yerna、halda 不是分词",
+   "leadZh": "perina、yerna、halda 看似 -ya 动词的分词，其实都是独立形容词构词（托尔金把它们追到原始形式，且先于动词列出）。真正的 -ya 分词线索来自 Mirruyainar：-yaina。",
+   "objectives": [
+    "能说明 perina／yerna／halda 为何不算分词",
+    "能由 lanya- 推出 lanyaina"
+   ],
+   "rules": [
+    {
+     "id": "rule-perina",
+     "headZh": "perina：独立构词，不是 perya- 的分词",
+     "bodyZh": "《词源》PER 条先列动词 perya「平分」，紧接着列未释义的 perina。作者认为它确是「被平分的」，但更可能是直接由词根派生的形容词；若作分词，或该预期长 é 的 périna（参 rácina）。",
+     "en": "Is this the passive participle \"halved\"?",
+     "zh": "这是被动分词「被平分的」吗？"
+    },
+    {
+     "id": "rule-yerna",
+     "headZh": "yerna：三条理由说明它不是分词",
+     "bodyZh": "1）托尔金把它追到原始精灵语 gyernâ，不是后来由动词派生；2）yerna 列在动词 yerya- 之前；3）它既释「旧的」也释「磨损的」，前一义说明它是独立形容词。halda 对 halya- 同理（skalnâ → halda）。",
+     "en": "Again I think yerna is not actually the participle of yerya-, but rather an independent adjectival formation.",
+     "zh": "作者仍认为 yerna 其实不是 yerya- 的分词，而是独立的形容词构词。",
+     "exampleZh": "yerna、halda、perina"
+    },
+    {
+     "id": "rule-yaina",
+     "headZh": "-ya 动词的真正分词：-yaina",
+     "bodyZh": "MR:326 提到 Mirruyainar／Mirroyainar「道成肉身的（复数）」，去掉 -r 得 mirruyaina，剥去分词词尾得动词 mirruya-。可见 -ya 动词分词作 -yaina，正如 -ta 动词作 -taina。lanya-「编织」→ lanyaina「被编织的」。",
+     "en": "Such verbs would seem to have participles in -yaina",
+     "zh": "这类动词的分词似乎应是 -yaina。",
+     "exampleZh": "lanyaina、peryaina、yeryaina、halyaina"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 yerna 当作 yerya- 的被动分词",
+     "right": "它是独立形容词；分词应是 yeryaina",
+     "whyZh": "原文给出三条理由，并明确 the regular passive participles ... would similarly be peryaina, yeryaina, halyaina。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "「意义相同但来源不同」为什么要计较",
+     "bodyZh": "yerna 与 yeryaina 意义几乎一样，但 yerna 是形容词，不暗示状态是被施加的；yeryaina 是分词，暗示有人施加了动作。这个区别在 harna／harnaina 那一节会讲得更清楚。"
+    }
+   ],
+   "recapZh": "perina／yerna／halda 是独立形容词；-ya 动词分词作 -yaina（lanyaina）。",
+   "selfCheckZh": [
+    {
+     "qZh": "lanya-「编织」的被动分词？",
+     "aZh": "lanyaina。"
+    },
+    {
+     "qZh": "yerna 为什么不是分词？",
+     "aZh": "源自原始 gyernâ、先于动词列出、且释作「旧的」。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "passive-participles",
+    "unitIds": [
+     6,
+     7,
+     8
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pp-a-conclusion",
+   "sourceSectionId": "passive-participles",
+   "titleZh": "31 · A 词干总规则：-ina；唯一例外 envinyanta",
+   "leadZh": "VT43:15 确认 -ina 是托尔金所谓「一般被动分词」的后缀。除 aistana 外，已刊语料唯一例外是 envinyanta「被治愈的」，它靠鼻音插入构成。",
+   "objectives": [
+    "能陈述 A 词干的总规则与两个例外",
+    "能说明 envinyanta 的构成方式"
+   ],
+   "rules": [
+    {
+     "id": "rule-a-ina",
+     "headZh": "A 词干总规则：加 -ina",
+     "bodyZh": "几乎所有 A 词干动词都加 -ina 构成被动分词。VT43:15 的动词系统描述里，托尔金明确确认 -ina 是「一般『被动』分词」的后缀。",
+     "en": "We can probably conclude that nearly all A-stem verbs form their passive participles by adding -ina.",
+     "zh": "我们大概可以结论：几乎所有 A 词干动词都通过加 -ina 来构成被动分词。"
+    },
+    {
+     "id": "rule-envinyanta",
+     "headZh": "例外：envinyanta",
+     "bodyZh": "已刊语料中唯一例外是 envinyanta「被治愈的／被更新的」（MR:405），来自动词 envinyata-「更新」（参 Envinyatar「更新者」）。它靠鼻音插入到 -ta 之前构成；?envinyataina 是否有效无从判断。",
+     "en": "the only exception occurring in the published corpus is the form envinyanta \"healed\"",
+     "zh": "已刊语料中唯一的例外是 envinyanta「被治愈的」。",
+     "exampleZh": "envinyanta（对 ?envinyataina）"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 envinyanta 当作规则形式去类推",
+     "right": "它是例外；一般仍用 -ina／-taina",
+     "whyZh": "原文把它明确标为 the only exception。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "例外的价值",
+     "bodyZh": "envinyanta 说明鼻音插入这条更古老的构词法仍偶尔可用，但它没有扩散成规则。学习者应把它当单词记，不要据此造 *envinyataina 之外的更多鼻音形式。"
+    }
+   ],
+   "recapZh": "A 词干一律 -ina（-ta 类作 -taina）；例外 aistana、envinyanta。",
+   "selfCheckZh": [
+    {
+     "qZh": "VT43:15 确认了什么？",
+     "aZh": "-ina 是「一般被动分词」的后缀。"
+    },
+    {
+     "qZh": "envinyanta 怎么构成？",
+     "aZh": "鼻音插入到 -ta 之前。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "passive-participles",
+    "unitIds": [
+     9
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pp-ct",
+   "sourceSectionId": "passive-participles",
+   "titleZh": "32 · 以 -c／-t 结尾的基本动词：拉长 + -ina",
+   "leadZh": "rácina「破碎的」（rac-）、nótina「被数的」（not-）：拉长词干元音再加 -ina。以 -p 结尾的 top- 类推为 tópina；以 -v 结尾的 lav- 或为 lávina。",
+   "objectives": [
+    "能由 rac-、not- 推出 rácina、nótina",
+    "能说明这一类为什么要拉长元音"
+   ],
+   "rules": [
+    {
+     "id": "rule-ct",
+     "headZh": "-c／-t 结尾：拉长 + -ina",
+     "bodyZh": "以 c 或 t 这类清塞音结尾的基本动词，靠拉长词干元音并加长词尾 -ina 构成被动分词：rac- → rácina（MR:222，托尔金明确认定为被动分词），not- → nótina。",
+     "en": "primary verbs with c or t as their final consonant also form their passive participles by means of this ending",
+     "zh": "以 c 或 t 作为末辅音的基本动词，也用这个词尾构成被动分词。",
+     "exampleZh": "rácina、nótina"
+    },
+    {
+     "id": "rule-p",
+     "headZh": "-p 类推：tópina",
+     "bodyZh": "以 -p 结尾的基本动词没有有据分词，但很可能同模式：top-「覆盖」→ tópina。（Namárië 可能暗示托尔金后来改用 tup-，那分词就是 túpina。）",
+     "en": "The verb top- \"to cover\" would have the passive participle tópina \"covered\".",
+     "zh": "动词 top-「覆盖」的被动分词会是 tópina「被覆盖的」。",
+     "exampleZh": "tópina（或 túpina）"
+    },
+    {
+     "id": "rule-v",
+     "headZh": "-v 或同模式：lávina",
+     "bodyZh": "以 -v 结尾的基本动词也许同样构成：lav-「允许、赐予」→ lávina「被允许的、被赐予的」（别与「舔」义动词混淆）。但缺例证。",
+     "en": "e.g. lávina \"allowed, granted\" from the verb lav- \"allow, grant\"",
+     "zh": "例如动词 lav-「允许、赐予」的 lávina「被允许的、被赐予的」。",
+     "exampleZh": "lávina"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 racina",
+     "right": "rácina（元音拉长）",
+     "whyZh": "原文明确这一类要 lengthening the stem-vowel。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么这一类要拉长",
+     "bodyZh": "作者只说「似乎如此」，没给音系解释。可以这样记：-ina 本身是长后缀，若词干以清塞音收尾，昆雅倾向把重音与长度前移到词干元音，于是 rac- → rácina。对比 -r 结尾的 carna 不拉长（下一节）。"
+    }
+   ],
+   "recapZh": "-c／-t（及 -p、-v）结尾：拉长元音 + -ina（rácina、nótina、tópina、lávina）。",
+   "selfCheckZh": [
+    {
+     "qZh": "rac- 的被动分词？",
+     "aZh": "rácina。"
+    },
+    {
+     "qZh": "top- 的被动分词？",
+     "aZh": "tópina（若改用 tup- 则 túpina）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "passive-participles",
+    "unitIds": [
+     10
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pp-r",
+   "sourceSectionId": "passive-participles",
+   "titleZh": "33 · 以 -r 结尾：carna、vincarna、Merna",
+   "leadZh": "以 -r 结尾的基本动词用短词尾 -na，且不拉长：car- → carna「被造的」，vincarna「被更新的／被治愈的」。通缉海报会写 Merna。carina／cárina 的先后说明规则曾调整。",
+   "objectives": [
+    "能由 car-、mer- 推出 carna、Merna",
+    "能说明 -rna 为什么不拉长元音"
+   ],
+   "rules": [
+    {
+     "id": "rule-r",
+     "headZh": "-r 结尾：短词尾 -na，不拉长",
+     "bodyZh": "以 -r 结尾的基本动词被动分词作 -rna。vincarna「被治愈的」= vin-「新」+ carna「被造的」；carna 只能是 car-「造」的被动分词。由于 rn 这个辅音丛，前面元音不能像 rácina 类那样拉长。mer-「想要」→ Merna。",
+     "en": "MR:408 (cf. MR:405) indicates that Tolkien used vincarna for \"healed\"",
+     "zh": "MR:408（参 MR:405）表明托尔金用 vincarna 表示「被治愈的」。",
+     "exampleZh": "carna、vincarna、Merna"
+    },
+    {
+     "id": "rule-carina",
+     "headZh": "carina → cárina：规则的调整",
+     "bodyZh": "VT43:15 显示托尔金曾引 carina「被造的」（手稿或作于四十年代）；较晚的 rácina 表明他最终决定此类构词要拉长词干元音，于是 carina 变 cárina。但较长的替代形式似仍可容许，故通缉海报也可写 Mérina。",
+     "en": "carina would then become cárina",
+     "zh": "那么 carina 就会变成 cárina。",
+     "exampleZh": "carna／carina／cárina；Merna／Mérina"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 cárna",
+     "right": "carna（不拉长）或 cárina（长词尾）",
+     "whyZh": "原文说 rn 前元音不能拉长；拉长只发生在 -ina 形式里。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "「两可」的边界在哪",
+     "bodyZh": "carna 与 cárina 都被承认，但 cárna 不在其中：拉长与词尾长度是配套的（短词尾不拉长，长词尾可拉长）。掌握这个配套关系，就不会造出 cárna 这种混合形式。"
+    }
+   ],
+   "recapZh": "-r 结尾用 -na（carna、Merna）；长词尾形式作 -rina 并可拉长（cárina、Mérina）。",
+   "selfCheckZh": [
+    {
+     "qZh": "car- 的被动分词？",
+     "aZh": "carna（或 cárina）。"
+    },
+    {
+     "qZh": "为什么不是 cárna？",
+     "aZh": "rn 辅音丛前元音不拉长；拉长只配长词尾 -ina。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "passive-participles",
+    "unitIds": [
+     11,
+     12
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pp-mn",
+   "sourceSectionId": "passive-participles",
+   "titleZh": "34 · 以 -m／-n 结尾：namna、cenna",
+   "leadZh": "nam-「审判」→ namna（有据作名词「法令」）；cen-「看见」→ cenna。anna「礼物」、onna「造物」可能来自更早的原始分词。cénina、námina 或为可容许的替代。",
+   "objectives": [
+    "能由 nam-、cen- 推出 namna、cenna",
+    "能说明 anna／onna 的分词来源假说"
+   ],
+   "rules": [
+    {
+     "id": "rule-mn",
+     "headZh": "-m／-n 结尾：直接加 -na",
+     "bodyZh": "nam-「审判」的被动分词是 namna，有据作名词「法令」（Namna Finwë Míriello）。cen-「看见」→ cenna「被看见的」。",
+     "en": "The verb nam- \"to judge\" (namin \"I judge\", VT41:13) seems to have the passive participle namna.",
+     "zh": "动词 nam-「审判」（namin「我审判」，VT41:13）似乎有被动分词 namna。",
+     "exampleZh": "namna、cenna"
+    },
+    {
+     "id": "rule-anna-onna",
+     "headZh": "anna／onna：原始分词的化石",
+     "bodyZh": "anna「礼物」、onna「造物」相对动词 anta-「给」、onta-「创造」。它们可能来自基于裸词根的原始分词（「被给的」「被造的」），后来才名词化。这说明 -na 可加到 -n 结尾的词干上。",
+     "en": "So anna may come from a primitive participle \"given\", only later used as a noun",
+     "zh": "所以 anna 可能来自原始分词「被给的」，后来才用作名词。",
+     "exampleZh": "anna、onna"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 anna 直接当 anta- 的分词",
+     "right": "anta- 的分词是 antaina；anna 是更早的分词化石",
+     "whyZh": "原文明确：in Quenya we would expect them to have the participles antaina, ontaina。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么用名词反推分词",
+     "bodyZh": "namna 的「分词」身份是靠它作名词「法令」的有据用法间接确认的——「被审判的东西」→「判决」→「法令」。这条语义链是本节推理的核心。"
+    }
+   ],
+   "recapZh": "-m／-n 结尾加 -na：namna、cenna；anna／onna 是原始分词化石。",
+   "selfCheckZh": [
+    {
+     "qZh": "cen- 的被动分词？",
+     "aZh": "cenna。"
+    },
+    {
+     "qZh": "namna 除了分词还作什么？",
+     "aZh": "名词「法令」。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "passive-participles",
+    "unitIds": [
+     13
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pp-l",
+   "sourceSectionId": "passive-participles",
+   "titleZh": "35 · 以 -l 结尾：melna → melda 的难题",
+   "leadZh": "**melna 不是可能的昆雅词，ln 会变 ld，所以 mel- 的分词落到 melda——而 melda 有据作形容词「心爱的」。colla 对 col- 同理。作者建议：用 -da，或用 -ina 加拉长（mélina）。",
+   "objectives": [
+    "能说明 ln → ld 的音变",
+    "能列出作者给的两条稳妥方案"
+   ],
+   "rules": [
+    {
+     "id": "rule-l",
+     "headZh": "-l 结尾：ln → ld",
+     "bodyZh": "若把 -na 直接加到 mel- 上，**melna 不合法，ln 变 ld（参 skalnâ → halda）。《词源》列有 melda「心爱的、亲爱的」，意义接近分词「被爱的」。它究竟是形容词还是分词，难分。",
+     "en": "since **melna is not a possible Quenya word, ln would become ld",
+     "zh": "既然 **melna 不是可能的昆雅词，ln 就会变成 ld。",
+     "exampleZh": "mel- → melda（或 mélina）"
+    },
+    {
+     "id": "rule-colla",
+     "headZh": "colla：另一个 -l 的例子",
+     "bodyZh": "col-「承受、穿戴、携带」只见派生形式。MR:385 的 colla =「被承载的、被穿戴的」，也作名词「法衣」。作者认为它更像形容词派生（原始 konlâ，词根 KOL 鼻音插入），与 panta「打开的」平行。",
+     "en": "colla = \"borne, worn\"",
+     "zh": "colla =「被承载的、被穿戴的」。",
+     "exampleZh": "colla"
+    },
+    {
+     "id": "rule-l-advice",
+     "headZh": "稳妥方案：-da 或 -ina + 拉长",
+     "bodyZh": "以 -l 结尾的基本动词，作者认为最稳妥是用词尾 -da（代表较早的 -na），或用长词尾 -ina 并拉长词干元音（mélina）。",
+     "en": "I think the safest would be to either use the ending -da (representing earlier -na), or the longer ending -ina",
+     "zh": "作者认为最稳妥是用词尾 -da（代表较早的 -na），或用较长的词尾 -ina。",
+     "exampleZh": "melda／mélina；mella（?）"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写 **melna",
+     "right": "melda 或 mélina",
+     "whyZh": "原文用 ** 标出 **melna 为不可能形式。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么这一节没有确定答案",
+     "bodyZh": "melda 有据，但它是否就是分词无法证明；mella 是类推（双写 l），作者只是提问。这一节示范的是「当证据不足时如何给出可用的稳妥方案」，而不是给唯一正确答案。"
+    }
+   ],
+   "recapZh": "-l 结尾：ln → ld（melda）；稳妥用 -da 或 -ina + 拉长（mélina）。",
+   "selfCheckZh": [
+    {
+     "qZh": "mel- 的分词可能是？",
+     "aZh": "melda 或 mélina（作者推荐的两条路）。"
+    },
+    {
+     "qZh": "为什么不能写 **melna？",
+     "aZh": "ln 在昆雅变成 ld。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "passive-participles",
+    "unitIds": [
+     14,
+     15
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pp-number",
+   "sourceSectionId": "passive-participles",
+   "titleZh": "36 · 被动分词随数变化吗？作者说「大概要」",
+   "leadZh": "主动分词（-la）不随数变化；被动分词则像普通形容词，描述复数时 -a → -ë。理由是 valaina、yerna 这类同形形容词必须随数变化，很难想象 hastaina、carna 反而不变。",
+   "objectives": [
+    "能说明主动分词与被动分词在数上的一致差别",
+    "能把 hastaina 改成复数形式"
+   ],
+   "rules": [
+    {
+     "id": "rule-pp-number",
+     "headZh": "被动分词随数：-a → -ë",
+     "bodyZh": "语料无直接例证，但作者认为被动分词像普通形容词一样随数变化：描述复数名词时把 -a 改成 -ë。既然 valaina、yerna 必须随数变化，hastaina、carna 也不该例外。",
+     "en": "Should passive participles agree in number, like normal adjectives do?",
+     "zh": "被动分词该像普通形容词那样随数变化吗？",
+     "exampleZh": "hastaina → hastainë（复数）"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "照主动分词的规则，认为被动分词也不变",
+     "right": "被动分词按形容词规则随数变化",
+     "whyZh": "原文先提醒主动分词 -la 不变，再明确说自己倾向于被动分词会变。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "作者的语气：倾向，而非定论",
+     "bodyZh": "原文说 the corpus provides no example，然后用 I tend to think 给出倾向。这是一条「合理但无据」的规则，写作时可以遵循，引用时不要称「有据」。"
+    }
+   ],
+   "recapZh": "被动分词随数变化（-a → -ë），与主动分词不同。",
+   "selfCheckZh": [
+    {
+     "qZh": "主动分词随数变化吗？",
+     "aZh": "不变化。"
+    },
+    {
+     "qZh": "hastaina 描述复数时？",
+     "aZh": "hastainë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "passive-participles",
+    "unitIds": [
+     16
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pp-perfect",
+   "sourceSectionId": "passive-participles",
+   "titleZh": "37 · 别用分词复制英语完成时",
+   "leadZh": "英语用 have + 过去分词造完成时；昆雅直接用真正的完成时：I Nauco ecénië i Elda；i nís alantië。照英语字面写 **i Nauco harya cenna i Elda 只会得到胡话。",
+   "objectives": [
+    "能用昆雅完成时替换英语 have + 分词",
+    "能指出 harya + 分词为什么错"
+   ],
+   "rules": [
+    {
+     "id": "rule-perfect",
+     "headZh": "完成时用完成时，不用分词迂回",
+     "bodyZh": "英语 the Dwarf has seen the Elf、the woman is (or, has) fallen 是迂回说法；昆雅直接用完成时：I Nauco ecénië i Elda；i nís alantië。也许 ná lantaina 可表「是倒下的」，但 harya + 分词不行。",
+     "en": "But here Quenya would simply use the real perfect tense instead",
+     "zh": "但在昆雅这里，只会直接用真正的完成时。",
+     "exampleZh": "I Nauco ecénië i Elda；i nís alantië"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "**i Nauco harya cenna i Elda",
+     "right": "I Nauco ecénië i Elda",
+     "whyZh": "原文说照英语字面直译 only results in nonsense。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么这条禁令重要",
+     "bodyZh": "这是本课最容易被英语带偏的地方：见到 has seen 就想找「have」的对应词。昆雅的完成时是动词本身的屈折（ecénië），不需要助动词 + 分词。"
+    }
+   ],
+   "recapZh": "英语 have + 过去分词 → 昆雅完成时（ecénië、alantië）。",
+   "selfCheckZh": [
+    {
+     "qZh": "「矮人见过那精灵」怎么写？",
+     "aZh": "I Nauco ecénië i Elda。"
+    },
+    {
+     "qZh": "harya cenna 能用吗？",
+     "aZh": "不能，是照英语字面的胡话。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "passive-participles",
+    "unitIds": [
+     17
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pp-harna",
+   "sourceSectionId": "passive-participles",
+   "titleZh": "38 · harna 与 harnaina：状态 vs 被施加",
+   "leadZh": "skarnâ 原是分词「被撕的」，在昆雅变成 harna「受伤的」，被感觉为形容词；它又成了动词 harna-「使受伤」，其分词 harnaina。英语 full 对 filled 正对应这个差别。",
+   "objectives": [
+    "能区分 harna（状态）与 harnaina（被施加）",
+    "能用 full／filled 作类比"
+   ],
+   "rules": [
+    {
+     "id": "rule-harna",
+     "headZh": "harna：状态；harnaina：被施加",
+     "bodyZh": "skarnâ（SKAR「撕、裂」）原是分词，昆雅作 harna「受伤的」，更像形容词。harna- 又被用作动词「使受伤」，其被动分词 harnaina 就明确暗示伤口是被造成的。",
+     "en": "if this verb has its own passive participle harnaina, we would have come full circle",
+     "zh": "如果这个动词有自己的被动分词 harnaina，我们就绕了整整一圈回到原点。",
+     "exampleZh": "harna／harnaina"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 harna 与 harnaina 当同义词随意换用",
+     "right": "harna 只述状态，harnaina 暗示被施加",
+     "whyZh": "原文用 full 对 filled 作类比说明这一层差别。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "「绕回原点」的意思",
+     "bodyZh": "一个由分词变来的形容词，又被拿去做动词，再由这个动词造出新的分词——形态上回到 -na 结尾，但层次多了一层。这正是语言演变的常态，也是作者说「full circle」的幽默所在。"
+    }
+   ],
+   "recapZh": "harna＝受伤的状态；harnaina＝被造成的伤。",
+   "selfCheckZh": [
+    {
+     "qZh": "harnaina 比 harna 多出什么含义？",
+     "aZh": "暗示伤口是被施加、被造成的。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "passive-participles",
+    "unitIds": [
+     18
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "summary",
+   "kind": "summary",
+   "sourceSectionId": "passive-participles",
+   "titleZh": "39 · 本章小结：原文 Summary 与中文对照",
+   "leadZh": "左侧是 less-b.rtf 第 10 课 Summary 原文（未删节），右侧是等价中文翻译。",
+   "objectives": [
+    "能复述副词、-ntë／-t、-ita 不定式、-ya 过去时、被动分词五套规则",
+    "能把小结每句对应到前面的步骤"
+   ],
+   "summaryEn": "Summary of Lesson Ten: Adverbs are words used to fill in extra information about the how, the when, or the where of the verbal action described in a sentence. In English at least, an adverb can also be used to modify the meaning of an adjective, or even another adverb. – The Quenya pronominal ending for \"they\" is apparently -ntë (Tolkien probably dropped the ending -lto occurring in early material); the corresponding object ending \"them\" seems to be -t (though some think it is dual \"the two of them\" only). – Primary verbs, which have infinitives in -ë (e.g. quetë \"to speak, to say\"), turn into forms in -ita- if a pronominal ending denoting the object is to be added (e.g. quetitas \"to say it\", with the ending -s \"it\"). – Available examples seem to suggest that intransitive verbs in -ya drop this ending in the past tense, which is formed directly from the stem instead (as if the verb were a primary verb). For instance, the pa.t. of farya- \"to suffice\" is farnë, not **faryanë. – Passive participles are adjectival derivatives that usually describe the state that is inflicted on someone or something by the corresponding verbal action: what you hide (verb) becomes hidden (passive participle). A-stem verbs seem to form their passive participles in -ina (e.g. hastaina \"marred\" from hasta- \"to mar\"). This ending is also used in the case of primary verbs ending in -t and -c, probably also -p and possibly even -v; in this class of verbs, the ending is combined with lengthening of the stem-vowel (e.g. rácina \"broken\" from rac- \"to break\"). It may be that the same pattern can be applied to all primary verbs, but verbs in -r are seen to take the simple ending -na instead, with no lengthening of the stem-vowel (carna \"made\" from car- \"to make\"). Primary verbs in -m, and probably also -n, would similarly take the simple ending -na (e.g. namna \"judged\" from nam- \"to judge\", cenna \"seen\" from cen- \"to see\"). It is somewhat uncertain how we should treat primary verbs in -l; if we are to use the simple ending -na, it would turn into -da for phonological reasons (e.g. melna > melda \"loved\" as the passive participle of mel- \"to love\"; melda is attested as an adjective \"beloved, dear\"). Passive participles probably agree in number in the same way as adjectives, changing -a to -ë if they describe a plural noun or several nouns.",
+   "summaryZh": "第十课小结：副词是用来补充句中动作如何、何时、何地等额外信息的词。至少在英语里，副词也可以用来修饰形容词、甚至另一个副词。——昆雅表「他们」的代词词尾显然是 -ntë（托尔金大概废弃了早期资料中出现的 -lto）；对应的宾语词尾「他们」似乎是 -t（尽管有人认为它只表双数「他们两个」）。——基本动词的不定式以 -ë 结尾（如 quetë「说、讲」），若要加表示宾语的代词词尾，就变成 -ita- 形式（如 quetitas「说它」，带词尾 -s「它」）。——现有例子似乎表明，以 -ya 结尾的不及物动词在过去时丢掉这个词尾，过去时直接由词干构成（仿佛该动词是基本动词）。例如 farya-「足够」的过去时是 farnë，而不是 **faryanë。——被动分词是形容词性的派生形式，通常描述相应的动作施加于某人某物之后所造成的状态：你藏起来（动词）的东西变成 hidden（被动分词）。A 词干动词似乎用 -ina 构成被动分词（如 hasta-「毁坏」的 hastaina「被毁的」）。这个词尾也用于以 -t 和 -c 结尾的基本动词，大概还有 -p，甚至可能包括 -v；在这类动词中，词尾与词干元音的拉长结合（如 rac-「打破」的 rácina「破碎的」）。同一模式也许可以施用于所有基本动词，但以 -r 结尾的动词见用简单的词尾 -na，且词干元音不拉长（car-「造」的 carna「被造的」）。以 -m 结尾、大概还有以 -n 结尾的基本动词，同样用简单的词尾 -na（如 nam-「审判」的 namna「被审判的」，cen-「看见」的 cenna「被看见的」）。如何处理以 -l 结尾的基本动词有些不确定；如果要用简单的词尾 -na，出于音系原因它会变成 -da（如 mel-「爱」的被动分词 melna > melda「被爱的」；melda 有据作形容词「心爱的、亲爱的」）。被动分词大概像形容词一样随数变化，在描述复数名词或数个名词时把 -a 改为 -ë。",
+   "formulaZh": [
+    "副词：补时间／地点／方式；派生词尾 -vë（anda → andavë），-ë 形容词先恢复 i（morivë）。",
+    "早期 -o 副词（ando、ento、rato、voro）保留原样；新造副词用 -vë。",
+    "「他们」作主语＝-ntë（主语未先出现时），作宾语＝-t。",
+    "基本动词不定式接宾语词尾：-ë → -ita-（cenitat、caritas）；A 词干不确定，可用独立代词 te 绕开。",
+    "不及物 -ya 动词过去时丢 -ya（farnë、vannë、lendë、ullë）；及物保留（ulyanë）。",
+    "被动分词：A 词干 -ina（-ta 类 -taina）；-c／-t 拉长 + -ina（rácina）；-r／-m／-n 用 -na（carna、namna、cenna）；-l 变 -ld 或用 -da／-ina（melda、mélina）。",
+    "被动分词随数变化（-a → -ë）；完成时用完成时，不用 harya + 分词。"
+   ],
+   "selfCheckZh": [
+    {
+     "qZh": "「他们」作主语、作宾语分别用什么？",
+     "aZh": "-ntë（主语）、-t（宾语）。"
+    },
+    {
+     "qZh": "farya- 的过去时？",
+     "aZh": "farnë（不是 **faryanë）。"
+    },
+    {
+     "qZh": "rac- 与 car- 的分词各是什么？",
+     "aZh": "rácina（拉长 + -ina）、carna（短 -na，不拉长）。"
+    }
+   ]
+  },
+  {
+   "sectionId": "vocabulary",
+   "sourceSectionId": "vocabulary",
+   "titleZh": "40 · 课末词汇：1 个数词 + 3 个形容词 + 1 个名词 + 6 个动词／介词",
+   "leadZh": "本课 12 个词正好覆盖本课五套规则：nertë、núra、anwa、nulda、telda、linta 是形容词／数词，hosta-、car-、farya- 练分词与过去时，nórë、lambë 是名词，ve 与 -vë 同源。",
+   "objectives": [
+    "能默写 12 条并标出词性",
+    "能写出 hosta-、car-、farya- 的分词与过去时",
+    "能说明 ve 与副词词尾 -vë 的关系"
+   ],
+   "rules": [
+    {
+     "id": "rule-vocab-num",
+     "headZh": "nertë「九」：不变",
+     "bodyZh": "数词 nertë「九」不随名词变化。练习 G「Ilyë nertë andor」、L「nertë farner」、N「i nertë ruhtainë Naucor」都用它。",
+     "en": "nertë \"nine\"",
+     "zh": "nertë「九」。",
+     "exampleZh": "Ilyë nertë andor"
+    },
+    {
+     "id": "rule-vocab-adj",
+     "headZh": "形容词：núra、anwa、nulda、telda、linta",
+     "bodyZh": "núra「深的」、anwa「真实的」、nulda「秘密的」、telda「最终的」、linta「迅速的」。telda 与 Teleri 同根（大迁徙中走在最后者）；linta 在 Namárië 中复数作 lintë。",
+     "en": "telda \"final\" (adjective derived from the same root as the name of the Teleri",
+     "zh": "telda「最终的」（与 Teleri 之名同根的形容词）。",
+     "exampleZh": "núravë、anwavë、nuldavë、teldavë、lintavë"
+    },
+    {
+     "id": "rule-vocab-hosta",
+     "headZh": "hosta-「集合」→ hostaina",
+     "bodyZh": "hosta- 的被动分词是 hostaina（《Fíriel 之歌》有据形式 hostainiéva）。练习 J「I hostainë Eldar」、N「hostanentë」。",
+     "en": "hosta- \"to assemble, gather\"",
+     "zh": "hosta-「集合、聚集」。",
+     "exampleZh": "hostaina、hostanentë"
+    },
+    {
+     "id": "rule-vocab-car",
+     "headZh": "car-「造、做」→ carna／caritas",
+     "bodyZh": "car- 的被动分词 carna「被造的」，带宾语词尾的不定式 caritas「做它」。练习 H、M 用它。",
+     "en": "car- \"to make, to do\"",
+     "zh": "car-「造、做」。",
+     "exampleZh": "carna、caritas"
+    },
+    {
+     "id": "rule-vocab-farya",
+     "headZh": "farya-「足够」→ farnë",
+     "bodyZh": "farya- 过去时 farnë（不是 **faryanë），因为该动词不及物。练习 H「cenitas farnë」、L「nertë farner」。",
+     "en": "farya- \"to suffice, to be enough\", pa.t. farnë",
+     "zh": "farya-「足够、够用」，过去时 farnë。",
+     "exampleZh": "farnë、farner"
+    },
+    {
+     "id": "rule-vocab-ve",
+     "headZh": "ve「如同、像」与 -vë 同源",
+     "bodyZh": "介词 ve「如同、像」很可能就是副词词尾 -vë 的来源。练习 B「ve Eldar lindar」、K「umë ve quétina lambë」、O「ve emériel(yë) cenitat」。",
+     "en": "ve preposition \"as, like\"",
+     "zh": "ve 介词「如同、像」。",
+     "exampleZh": "ve Eldar lindar"
+    }
+   ],
+   "table": {
+    "captionZh": "12 条与推演形式",
+    "headers": [
+     "课末词",
+     "词性 / 释义",
+     "推演形式"
+    ],
+    "rows": [
+     [
+      "nertë",
+      "数词「九」",
+      "不变"
+     ],
+     [
+      "núra",
+      "形容词「深的」",
+      "núravë"
+     ],
+     [
+      "anwa",
+      "形容词「真实的」",
+      "anwavë"
+     ],
+     [
+      "nulda",
+      "形容词「秘密的」",
+      "nuldavë"
+     ],
+     [
+      "telda",
+      "形容词「最终的」",
+      "teldavë"
+     ],
+     [
+      "linta",
+      "形容词「迅速的」",
+      "lintavë；复数 lintë"
+     ],
+     [
+      "hosta-",
+      "动词「集合」",
+      "hostaina、hostanentë"
+     ],
+     [
+      "nórë",
+      "名词「土地」",
+      "—"
+     ],
+     [
+      "lambë",
+      "名词「语言」",
+      "—"
+     ],
+     [
+      "car-",
+      "动词「造、做」",
+      "carna、caritas"
+     ],
+     [
+      "farya-",
+      "动词「足够」",
+      "farnë（不是 **faryanë）"
+     ],
+     [
+      "ve",
+      "介词「如同」",
+      "与 -vë 同源"
+     ]
+    ]
+   },
+   "pitfalls": [
+    {
+     "wrong": "写 **faryanë",
+     "right": "farnë",
+     "whyZh": "词汇表原文用 NOT **faryanë 标出。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "词汇与本课规则的对应",
+     "bodyZh": "这 12 个词不是随便挑的：hosta-、car- 给你 -aina／-arna 两类分词，farya- 给你 -ya 不及物过去时，linta／núra 等给你 -vë 副词，ve 给你 -vë 的来源。背词时顺手把推演形式一起写出来，等于把五套规则各过一遍。"
+    }
+   ],
+   "recapZh": "12 条：nertë、núra、anwa、nulda、telda、linta、hosta-、nórë、lambë、car-、farya-、ve。",
+   "selfCheckZh": [
+    {
+     "qZh": "hosta- 的被动分词？",
+     "aZh": "hostaina。"
+    },
+    {
+     "qZh": "farya- 的过去时？",
+     "aZh": "farnë。"
+    },
+    {
+     "qZh": "linta 的复数？",
+     "aZh": "lintë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "vocabulary",
+    "unitIds": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "exercises",
+   "sourceSectionId": "exercises",
+   "titleZh": "41 · 练习工作台：A–P 与 keys 核对",
+   "leadZh": "A–H 昆雅译英，I–P 英译昆雅。本课考五样：-vë 副词、-ntë／-t 代词词尾、-ita 不定式、不及物 -ya 过去时、-na／-ina 被动分词。",
+   "objectives": [
+    "独立完成 A–P，不先展开答案",
+    "能指出每题考的是哪条规则",
+    "核对后能把错题回链到对应规则卡"
+   ],
+   "workflowZh": [
+    "第一遍：遮住答案，先找限定动词，再找副词（-vë／基本副词）",
+    "看到 -ntë／-t 先判断是主语还是宾语词尾",
+    "不定式后面跟代词词尾时，基本动词一律按 -ita- 处理",
+    "以 -ya 结尾的动词先判断及物性，再定过去时",
+    "形容词性的 -na／-ina 形式先判断是分词还是独立形容词",
+    "点「核对」比对 keys 原文答案",
+    "错题按「回到本课规则」跳回规则卡",
+    "最后展开 keys 全文与 EXERCISES 原文复核"
+   ],
+   "teachingNoteZh": "keys 对词序有专门说明：M、N、O 的副词也可放在动词后（如 hostanentë lintavë），但宾语或不定式紧跟限定动词时，中间插副词读起来别扭；副词也可放句末。I 题的括号提醒：'have gone' 要用 lelya- 的完成时，不要绕道 lelyaina。C、G 两题 keys 各给两个分词形式（hirna／hírina、tirnë／tírinë），O 题的 emériel(yë) 括号表示 -lyë 可省。",
+   "bilingual": {
+    "sectionId": "exercises",
+    "unitIds": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18,
+     19
+    ],
+    "labelZh": "课文"
+   }
+  }
+ ]
+}

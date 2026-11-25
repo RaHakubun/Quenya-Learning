@@ -1,0 +1,3792 @@
+{
+ "lesson": 18,
+ "schemaVersion": 2,
+ "oneLineZh": "独立代词 ni／nye、le、tye、me、te 接格时用单数词尾（nin、men、mello），L 形式与 T 形式不可混用；无人称动词以与格标受影响者（orë nin caritas、mauya nin lelya）；U 词干动词只确定主动分词（hlápula、nurrula）；lá 既是否定词（lá lenden），又是比较用的「beyond」（A calima lá B）。",
+ "canDoZh": [
+  "能区分词尾代词、独立代词与强调代词三层",
+  "能写出五个独立代词及其宾格形式",
+  "能说明 L 形式与 T 形式的区别与不可混用",
+  "能给独立代词接单数格词尾与双数词尾",
+  "能造无人称句（orë nin、óla i venden、mauya nin）",
+  "能写 U 词干动词的主动分词、现在时与过去时",
+  "能用 lá 否定动词、不定式与 gerund",
+  "能用「A calima lá B」造比较句"
+ ],
+ "conceptMap": [
+  {
+   "labelZh": "本节标题",
+   "noteZh": "标题",
+   "sectionId": "pro-intro"
+  },
+  {
+   "labelZh": "词尾代词与独立代词",
+   "noteZh": "两类",
+   "sectionId": "pro-kinds"
+  },
+  {
+   "labelZh": "ni「我」：唯一的独立主格例",
+   "noteZh": "例证",
+   "sectionId": "pro-ni"
+  },
+  {
+   "labelZh": "ta「它／那」与 tanna「到那里」",
+   "noteZh": "ta",
+   "sectionId": "pro-ta"
+  },
+  {
+   "labelZh": "me「我们」与 met「我们俩」",
+   "noteZh": "met",
+   "sectionId": "pro-me"
+  },
+  {
+   "labelZh": "le「你」：从辛达林反证",
+   "noteZh": "对应",
+   "sectionId": "pro-le"
+  },
+  {
+   "labelZh": "te「他们」：Cormallen 的欢呼",
+   "noteZh": "例证",
+   "sectionId": "pro-te"
+  },
+  {
+   "labelZh": "te 的来源：tai 与 tien",
+   "noteZh": "理论",
+   "sectionId": "pro-te-origin"
+  },
+  {
+   "labelZh": "VT43 的更新：ta 与 te 是两个词干",
+   "noteZh": "新材料",
+   "sectionId": "pro-vt43"
+  },
+  {
+   "labelZh": "tye「你」：亲昵的宾格",
+   "noteZh": "例证一",
+   "sectionId": "pro-tye"
+  },
+  {
+   "labelZh": "两套「你」：L 形式与 T 形式",
+   "noteZh": "不兼容",
+   "sectionId": "pro-two-sets"
+  },
+  {
+   "labelZh": "解释一：礼貌 vs 亲昵",
+   "noteZh": "方案",
+   "sectionId": "pro-polite"
+  },
+  {
+   "labelZh": "反证：WJ:364 说是单复数之别",
+   "noteZh": "反证",
+   "sectionId": "pro-conflict"
+  },
+  {
+   "labelZh": "nye「我（宾格）」与 ?ti 的难题",
+   "noteZh": "nye",
+   "sectionId": "pro-nye"
+  },
+  {
+   "labelZh": "ce「你」：一条私下流通的证据",
+   "noteZh": "原话",
+   "sectionId": "pro-ce"
+  },
+  {
+   "labelZh": "代词小结：五个词",
+   "noteZh": "第一人称",
+   "sectionId": "pro-summary"
+  },
+  {
+   "labelZh": "代词怎么接格词尾",
+   "noteZh": "第一人称各格",
+   "sectionId": "pro-cases"
+  },
+  {
+   "labelZh": "介词后的代词",
+   "noteZh": "英语的规则",
+   "sectionId": "pro-prep"
+  },
+  {
+   "labelZh": "óni：介词后接主语形式的证据",
+   "noteZh": "óni",
+   "sectionId": "pro-oni"
+  },
+  {
+   "labelZh": "宾格形式什么时候用",
+   "noteZh": "宾语词尾有限",
+   "sectionId": "pro-object"
+  },
+  {
+   "labelZh": "词序：代词在前还是在后",
+   "noteZh": "前置倾向",
+   "sectionId": "pro-order"
+  },
+  {
+   "labelZh": "主语形式最常见的用法",
+   "noteZh": "作主语",
+   "sectionId": "pro-subject"
+  },
+  {
+   "labelZh": "什么是无人称动词",
+   "noteZh": "出处",
+   "sectionId": "imp-def"
+  },
+  {
+   "labelZh": "orë nin caritas：「我感到被推动」",
+   "noteZh": "句子",
+   "sectionId": "imp-ore"
+  },
+  {
+   "labelZh": "óla-：做梦者用与格",
+   "noteZh": "理由",
+   "sectionId": "imp-ola"
+  },
+  {
+   "labelZh": "德语 mir ist kalt：一个熟悉的类比",
+   "noteZh": "Kiltz 的说明",
+   "sectionId": "imp-german"
+  },
+  {
+   "labelZh": "mauya-：「我必须」",
+   "noteZh": "来源",
+   "sectionId": "imp-mauya"
+  },
+  {
+   "labelZh": "ulya-：光裸的动词就是句子",
+   "noteZh": "旁证",
+   "sectionId": "imp-ulya"
+  },
+  {
+   "labelZh": "U 词干动词：一个晦涩的子类",
+   "noteZh": "定位",
+   "sectionId": "uv-intro"
+  },
+  {
+   "labelZh": "有哪些 U 词干动词",
+   "noteZh": "数量锐减",
+   "sectionId": "uv-words"
+  },
+  {
+   "labelZh": "主动分词：唯一确定的事",
+   "noteZh": "构成",
+   "sectionId": "uv-active"
+  },
+  {
+   "labelZh": "被动分词：turúna 是不是 turu- 的分词",
+   "noteZh": "常规",
+   "sectionId": "uv-passive"
+  },
+  {
+   "labelZh": "不定式：?palo",
+   "noteZh": "规则",
+   "sectionId": "uv-inf"
+  },
+  {
+   "labelZh": "不定过去时：?palo 还是 ?palwë",
+   "noteZh": "类推",
+   "sectionId": "uv-aorist"
+  },
+  {
+   "labelZh": "hlapu-、nurru- 怎么办",
+   "noteZh": "死结",
+   "sectionId": "uv-aorist2"
+  },
+  {
+   "labelZh": "现在时：nurrua 与 pálua",
+   "noteZh": "现在时的构成",
+   "sectionId": "uv-present"
+  },
+  {
+   "labelZh": "过去时：加 -në",
+   "noteZh": "证据",
+   "sectionId": "uv-past"
+  },
+  {
+   "labelZh": "完成时：unurrië 还是 ?unurruië",
+   "noteZh": "开头",
+   "sectionId": "uv-perfect"
+  },
+  {
+   "labelZh": "将来时：paluva 还是 palúva",
+   "noteZh": "两种可能",
+   "sectionId": "uv-future"
+  },
+  {
+   "labelZh": "小标题：LÁ 的种种用法",
+   "noteZh": "标题",
+   "sectionId": "la-head"
+  },
+  {
+   "labelZh": "lá：与否定动词并存",
+   "noteZh": "否定动词",
+   "sectionId": "la-intro"
+  },
+  {
+   "labelZh": "两种否定的构造",
+   "noteZh": "用 um-",
+   "sectionId": "la-two"
+  },
+  {
+   "labelZh": "什么时候该用 lá",
+   "noteZh": "更容易",
+   "sectionId": "la-easier"
+  },
+  {
+   "labelZh": "lá 连到哪个动词",
+   "noteZh": "句子",
+   "sectionId": "la-attach"
+  },
+  {
+   "labelZh": "lá 否定不定式与 gerund",
+   "noteZh": "否定不定式",
+   "sectionId": "la-inf"
+  },
+  {
+   "labelZh": "短形式 la",
+   "noteZh": "唯一证据",
+   "sectionId": "la-short"
+  },
+  {
+   "labelZh": "两个 lá 的冲突",
+   "noteZh": "另一个 lá",
+   "sectionId": "la-clash"
+  },
+  {
+   "labelZh": "比较式：A calima lá B",
+   "noteZh": "公式",
+   "sectionId": "la-beyond"
+  },
+  {
+   "labelZh": "两个 lá 同时出现",
+   "noteZh": "句子",
+   "sectionId": "la-both"
+  },
+  {
+   "labelZh": "本课小结",
+   "noteZh": "",
+   "sectionId": "summary"
+  },
+  {
+   "labelZh": "练习 A–P",
+   "noteZh": "翻译约定",
+   "sectionId": "exercises"
+  },
+  {
+   "labelZh": "课末词汇",
+   "noteZh": "两个序数",
+   "sectionId": "vocabulary"
+  }
+ ],
+ "pathTitleZh": "学习路径",
+ "path": [
+  {
+   "step": 1,
+   "labelZh": "本节标题",
+   "sectionId": "pro-intro"
+  },
+  {
+   "step": 2,
+   "labelZh": "词尾代词与独立代词",
+   "sectionId": "pro-kinds"
+  },
+  {
+   "step": 3,
+   "labelZh": "ni「我」：唯一的独立主格例",
+   "sectionId": "pro-ni"
+  },
+  {
+   "step": 4,
+   "labelZh": "ta「它／那」与 tanna「到那里」",
+   "sectionId": "pro-ta"
+  },
+  {
+   "step": 5,
+   "labelZh": "me「我们」与 met「我们俩」",
+   "sectionId": "pro-me"
+  },
+  {
+   "step": 6,
+   "labelZh": "le「你」：从辛达林反证",
+   "sectionId": "pro-le"
+  },
+  {
+   "step": 7,
+   "labelZh": "te「他们」：Cormallen 的欢呼",
+   "sectionId": "pro-te"
+  },
+  {
+   "step": 8,
+   "labelZh": "te 的来源：tai 与 tien",
+   "sectionId": "pro-te-origin"
+  },
+  {
+   "step": 9,
+   "labelZh": "VT43 的更新：ta 与 te 是两个词干",
+   "sectionId": "pro-vt43"
+  },
+  {
+   "step": 10,
+   "labelZh": "tye「你」：亲昵的宾格",
+   "sectionId": "pro-tye"
+  },
+  {
+   "step": 11,
+   "labelZh": "两套「你」：L 形式与 T 形式",
+   "sectionId": "pro-two-sets"
+  },
+  {
+   "step": 12,
+   "labelZh": "解释一：礼貌 vs 亲昵",
+   "sectionId": "pro-polite"
+  },
+  {
+   "step": 13,
+   "labelZh": "反证：WJ:364 说是单复数之别",
+   "sectionId": "pro-conflict"
+  },
+  {
+   "step": 14,
+   "labelZh": "nye「我（宾格）」与 ?ti 的难题",
+   "sectionId": "pro-nye"
+  },
+  {
+   "step": 15,
+   "labelZh": "ce「你」：一条私下流通的证据",
+   "sectionId": "pro-ce"
+  },
+  {
+   "step": 16,
+   "labelZh": "代词小结：五个词",
+   "sectionId": "pro-summary"
+  },
+  {
+   "step": 17,
+   "labelZh": "代词怎么接格词尾",
+   "sectionId": "pro-cases"
+  },
+  {
+   "step": 18,
+   "labelZh": "介词后的代词",
+   "sectionId": "pro-prep"
+  },
+  {
+   "step": 19,
+   "labelZh": "óni：介词后接主语形式的证据",
+   "sectionId": "pro-oni"
+  },
+  {
+   "step": 20,
+   "labelZh": "宾格形式什么时候用",
+   "sectionId": "pro-object"
+  },
+  {
+   "step": 21,
+   "labelZh": "词序：代词在前还是在后",
+   "sectionId": "pro-order"
+  },
+  {
+   "step": 22,
+   "labelZh": "主语形式最常见的用法",
+   "sectionId": "pro-subject"
+  },
+  {
+   "step": 23,
+   "labelZh": "什么是无人称动词",
+   "sectionId": "imp-def"
+  },
+  {
+   "step": 24,
+   "labelZh": "orë nin caritas：「我感到被推动」",
+   "sectionId": "imp-ore"
+  },
+  {
+   "step": 25,
+   "labelZh": "óla-：做梦者用与格",
+   "sectionId": "imp-ola"
+  },
+  {
+   "step": 26,
+   "labelZh": "德语 mir ist kalt：一个熟悉的类比",
+   "sectionId": "imp-german"
+  },
+  {
+   "step": 27,
+   "labelZh": "mauya-：「我必须」",
+   "sectionId": "imp-mauya"
+  },
+  {
+   "step": 28,
+   "labelZh": "ulya-：光裸的动词就是句子",
+   "sectionId": "imp-ulya"
+  },
+  {
+   "step": 29,
+   "labelZh": "U 词干动词：一个晦涩的子类",
+   "sectionId": "uv-intro"
+  },
+  {
+   "step": 30,
+   "labelZh": "有哪些 U 词干动词",
+   "sectionId": "uv-words"
+  },
+  {
+   "step": 31,
+   "labelZh": "主动分词：唯一确定的事",
+   "sectionId": "uv-active"
+  },
+  {
+   "step": 32,
+   "labelZh": "被动分词：turúna 是不是 turu- 的分词",
+   "sectionId": "uv-passive"
+  },
+  {
+   "step": 33,
+   "labelZh": "不定式：?palo",
+   "sectionId": "uv-inf"
+  },
+  {
+   "step": 34,
+   "labelZh": "不定过去时：?palo 还是 ?palwë",
+   "sectionId": "uv-aorist"
+  },
+  {
+   "step": 35,
+   "labelZh": "hlapu-、nurru- 怎么办",
+   "sectionId": "uv-aorist2"
+  },
+  {
+   "step": 36,
+   "labelZh": "现在时：nurrua 与 pálua",
+   "sectionId": "uv-present"
+  },
+  {
+   "step": 37,
+   "labelZh": "过去时：加 -në",
+   "sectionId": "uv-past"
+  },
+  {
+   "step": 38,
+   "labelZh": "完成时：unurrië 还是 ?unurruië",
+   "sectionId": "uv-perfect"
+  },
+  {
+   "step": 39,
+   "labelZh": "将来时：paluva 还是 palúva",
+   "sectionId": "uv-future"
+  },
+  {
+   "step": 40,
+   "labelZh": "小标题：LÁ 的种种用法",
+   "sectionId": "la-head"
+  },
+  {
+   "step": 41,
+   "labelZh": "lá：与否定动词并存",
+   "sectionId": "la-intro"
+  },
+  {
+   "step": 42,
+   "labelZh": "两种否定的构造",
+   "sectionId": "la-two"
+  },
+  {
+   "step": 43,
+   "labelZh": "什么时候该用 lá",
+   "sectionId": "la-easier"
+  },
+  {
+   "step": 44,
+   "labelZh": "lá 连到哪个动词",
+   "sectionId": "la-attach"
+  },
+  {
+   "step": 45,
+   "labelZh": "lá 否定不定式与 gerund",
+   "sectionId": "la-inf"
+  },
+  {
+   "step": 46,
+   "labelZh": "短形式 la",
+   "sectionId": "la-short"
+  },
+  {
+   "step": 47,
+   "labelZh": "两个 lá 的冲突",
+   "sectionId": "la-clash"
+  },
+  {
+   "step": 48,
+   "labelZh": "比较式：A calima lá B",
+   "sectionId": "la-beyond"
+  },
+  {
+   "step": 49,
+   "labelZh": "两个 lá 同时出现",
+   "sectionId": "la-both"
+  },
+  {
+   "step": 50,
+   "labelZh": "本课小结",
+   "sectionId": "summary"
+  },
+  {
+   "step": 51,
+   "labelZh": "练习 A–P",
+   "sectionId": "exercises"
+  },
+  {
+   "step": 52,
+   "labelZh": "课末词汇",
+   "sectionId": "vocabulary"
+  }
+ ],
+ "modules": [
+  {
+   "sectionId": "pro-intro",
+   "sourceSectionId": "independent-pronouns",
+   "titleZh": "01 · 本节标题",
+   "leadZh": "原文此处的标题本身就是一个括号注：讨论独立代词，不可避免要连带处理第二人称的模糊之处。",
+   "objectives": [
+    "知道本节的范围",
+    "知道第二人称是难点"
+   ],
+   "rules": [
+    {
+     "id": "r-pn1",
+     "headZh": "标题",
+     "bodyZh": "标题作「（不可避免地要连带讨论若干第二人称的模糊之处）」。",
+     "en": "inevitably entailing a discussion of certain Second Person obscurities",
+     "zh": "不可避免地要连带讨论若干第二人称的模糊之处。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为本节只讲第一、三人称",
+     "right": "第二人称占了大半篇幅",
+     "whyZh": "标题即预告了 Second Person obscurities。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么第二人称这么麻烦",
+     "bodyZh": "因为昆雅有两套「你」：L 形式（-lyë、le）与 T 形式（tye、-t），而托尔金对二者的根本区别反复改主意。本节的第 10–14 段全在处理这件事。"
+    }
+   ],
+   "recapZh": "本节：独立代词，兼及第二人称难点。",
+   "selfCheckZh": [
+    {
+     "qZh": "本节最麻烦的是第几人称？",
+     "aZh": "第二人称。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "independent-pronouns",
+    "unitIds": [
+     0
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pro-kinds",
+   "sourceSectionId": "independent-pronouns",
+   "titleZh": "02 · 词尾代词与独立代词",
+   "leadZh": "此前的代词全是词尾。昆雅也有作独立词的代词；其中强调式留到下一课。",
+   "objectives": [
+    "知道两类代词",
+    "知道强调式下一课讲"
+   ],
+   "rules": [
+    {
+     "id": "r-pn2",
+     "headZh": "两类",
+     "bodyZh": "此前的代词都是词尾；昆雅也有以独立词形式出现的代词。",
+     "en": "Quenya also has pronouns that appear as independent words",
+     "zh": "昆雅也有以独立词形式出现的代词。"
+    },
+    {
+     "id": "r-pn3",
+     "headZh": "强调式",
+     "bodyZh": "其中一些是强调式，作单独的词以特别强调；这些下一课讲。",
+     "en": "These emphatic pronouns we will discuss in the next lesson",
+     "zh": "这些强调代词我们下一课讲。"
+    },
+    {
+     "id": "r-pn4",
+     "headZh": "本节范围",
+     "bodyZh": "本节集中于最简单的独立代词成分。",
+     "en": "the simplest independent pronominal elements",
+     "zh": "最简单的独立代词成分。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把强调代词也当成普通独立代词",
+     "right": "强调式另属一课",
+     "whyZh": "原文明确把 emphatic pronouns 分出去了。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "三层结构",
+     "bodyZh": "词尾 → 普通独立代词（本节）→ 强调独立代词（下一课）。先把这三层分开，后面的代词表才不会混。"
+    }
+   ],
+   "recapZh": "词尾／独立／强调三层；本节讲独立。",
+   "selfCheckZh": [
+    {
+     "qZh": "强调代词在哪一课？",
+     "aZh": "第 19 课。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "independent-pronouns",
+    "unitIds": [
+     1
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pro-ni",
+   "sourceSectionId": "independent-pronouns",
+   "titleZh": "03 · ni「我」：唯一的独立主格例",
+   "leadZh": "《圣诞老人书信》的「北极」句有 ni véla tye「I see you」——主语用独立 ni，而非词尾 -n。",
+   "objectives": [
+    "能读 ni véla tye",
+    "知道 ni 也可作前缀（nimaruva）"
+   ],
+   "rules": [
+    {
+     "id": "r-pn5",
+     "headZh": "例证",
+     "bodyZh": "「北极」句子作 ni véla tye「I see you」；动词「see」在此作 vel- 而非 cen-。",
+     "en": "ni véla tye",
+     "zh": "我看见你。",
+     "exampleZh": "ni véla tye"
+    },
+    {
+     "id": "r-pn6",
+     "headZh": "偏离常规",
+     "bodyZh": "主语「我」用独立代词 ni，而非词尾 -n 或 -nyë；这个偏离没有明显「理由」。",
+     "en": "There seems to be no obvious \"reason\" for this deviation",
+     "zh": "这个偏离似乎没有明显的「理由」。"
+    },
+    {
+     "id": "r-pn7",
+     "headZh": "是否简化",
+     "bodyZh": "有人猜托尔金为孩子简化了语言，但句子后半构造复杂，不像简化。",
+     "en": "we should hardly think of the language as \"simplified\"",
+     "zh": "我们不该把这门语言当作「简化」的。"
+    },
+    {
+     "id": "r-pn8",
+     "headZh": "前缀写法",
+     "bodyZh": "Elendil 宣言的一个草稿把 maruvan 写作 nimaruva，用 ni- 作前缀（SD:56）；但本书主张写成独立的词 Ni maruva。",
+     "en": "Ni maruva",
+     "zh": "我将留下。",
+     "exampleZh": "nimaruva／Ni maruva"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 ni 当唯一正确的主语形式",
+     "right": "通常仍用词尾 -n(yë)，ni 是有效替代",
+     "whyZh": "原文：the ending -n(yë) added to the verb is normally to be preferred, but the independent word ni may be a valid alternative。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "材料性质",
+     "bodyZh": "「北极」句子出自与阿尔达无关的作品，但语言形式明显是昆雅。作者用它，是因为它是 ni 唯一的独立可证例——证据虽偏，形式可靠。"
+    }
+   ],
+   "recapZh": "ni「我」；ni véla tye；Ni maruva。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我看见你」？",
+     "aZh": "Ni véla tye。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "independent-pronouns",
+    "unitIds": [
+     2
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pro-ta",
+   "sourceSectionId": "independent-pronouns",
+   "titleZh": "04 · ta「它／那」与 tanna「到那里」",
+   "leadZh": "ta 意为 it／that，能接格词尾：tanna ＝ ta ＋ -nna ＝「thither」。",
+   "objectives": [
+    "能写 tanna",
+    "知道 ta 与指示词 tana 同源"
+   ],
+   "rules": [
+    {
+     "id": "r-pn9",
+     "headZh": "ta",
+     "bodyZh": "ta 意为「it」或「that」（《词源》TA 条；指示词 tana 与之相关）。",
+     "en": "ta",
+     "zh": "它／那。",
+     "exampleZh": "ta"
+    },
+    {
+     "id": "r-pn10",
+     "headZh": "tanna",
+     "bodyZh": "Orome tanna lende「Orome came thither」；tanna 是 ta 加向格 -nna，即「to that place」。",
+     "en": "Orome tanna lende",
+     "zh": "Orome 到那里去了。",
+     "exampleZh": "tanna"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 tanna 当独立词根",
+     "right": "ta ＋ -nna",
+     "whyZh": "原文明确拆解：ta \"that, it\" with the regular allative ending -nna。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "代词与指示词的交界",
+     "bodyZh": "ta 既是代词「它」又是指示词「那」，tana 只是它的形容词形式。这种「一个词根横跨两类」的现象在昆雅代词系统里很常见。"
+    }
+   ],
+   "recapZh": "ta「它／那」；tanna「到那里」。",
+   "selfCheckZh": [
+    {
+     "qZh": "「到那里」怎么写？",
+     "aZh": "tanna。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "independent-pronouns",
+    "unitIds": [
+     3
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pro-me",
+   "sourceSectionId": "independent-pronouns",
+   "titleZh": "05 · me「我们」与 met「我们俩」",
+   "leadZh": "《Namárië》的 imbë met「between us」是双数；去掉 -t 得 me，对应词尾 -lmë（排除式）。",
+   "objectives": [
+    "能写 met、men、mello",
+    "知道 me 是排除式"
+   ],
+   "rules": [
+    {
+     "id": "r-pn11",
+     "headZh": "met",
+     "bodyZh": "imbë met ＝「between us」是双数代词，指 Galadriel 与 Varda，故接双数词尾 -t。",
+     "en": "imbë met",
+     "zh": "在我们（俩）之间。",
+     "exampleZh": "imbë met"
+    },
+    {
+     "id": "r-pn12",
+     "headZh": "me",
+     "bodyZh": "去掉 -t 得 me，兼指「we」与「us」，是排除式，对应词尾 -lmë。",
+     "en": "me",
+     "zh": "我们（排除式）。",
+     "exampleZh": "me／-lmë"
+    },
+    {
+     "id": "r-pn13",
+     "headZh": "带格词尾",
+     "bodyZh": "me 也能接格词尾：与格 men「for us, to us」、离格 mello「from us」（VT43:18-19）。",
+     "en": "men",
+     "zh": "给我们（与格）。",
+     "exampleZh": "men／mello"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 met 当普通复数",
+     "right": "它是双数（两个人）",
+     "whyZh": "原文：met appropriately receives the dual ending -t ... to indicate that two persons are concerned。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "包含与排除",
+     "bodyZh": "me 对应 -lmë，是排除式——不包括被称呼者。Galadriel 唱给 Frodo 听，说的是她与 Varda，故用排除式。这与第 14 课的 -lva／-lma 之分是同一条线。"
+    }
+   ],
+   "recapZh": "me（排除）、met（双数）、men、mello。",
+   "selfCheckZh": [
+    {
+     "qZh": "「从我们这里」？",
+     "aZh": "mello。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "independent-pronouns",
+    "unitIds": [
+     4
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pro-le",
+   "sourceSectionId": "independent-pronouns",
+   "titleZh": "06 · le「你」：从辛达林反证",
+   "leadZh": "le 对应词尾 -lyë，在精灵语早期已存在。辛达林里它已丢失，而正因如此才能确证昆雅保存了它。",
+   "objectives": [
+    "知道 le 对应 -lyë",
+    "知道 RGEO:73 的反证逻辑"
+   ],
+   "rules": [
+    {
+     "id": "r-pn14",
+     "headZh": "对应",
+     "bodyZh": "词尾 -lyë「you」对应独立代词 le，精灵语早期形式里已存在（WJ:363）。",
+     "en": "le",
+     "zh": "你（礼貌／复数）。",
+     "exampleZh": "le／-lyë"
+    },
+    {
+     "id": "r-pn15",
+     "headZh": "反证",
+     "bodyZh": "辛达林里 le 已丢失；托尔金说《A Elbereth Gilthoniel》里的敬语 le 是从昆雅借来的（RGEO:73），故可确证昆雅保存了它。",
+     "en": "had been borrowed from Quenya",
+     "zh": "是从昆雅借来的。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 le 只表复数",
+     "right": "它也作礼貌单数（《Namárië》即如此）",
+     "whyZh": "原文说 reverential 2nd person pronoun le。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "借词作证据",
+     "bodyZh": "辛达林丢了 le，却在赞美诗里出现 le——唯一解释是从昆雅借入。这条推理链是全书用「借词」作历史证据的典型。"
+    }
+   ],
+   "recapZh": "le／-lyë（礼貌或复数）。",
+   "selfCheckZh": [
+    {
+     "qZh": "《A Elbereth Gilthoniel》里的 le 从哪来？",
+     "aZh": "从昆雅借入。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "independent-pronouns",
+    "unitIds": [
+     5
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pro-te",
+   "sourceSectionId": "independent-pronouns",
+   "titleZh": "07 · te「他们」：Cormallen 的欢呼",
+   "leadZh": "a laita te「bless them」给出 te 作宾格「them」。它能否作主语「they」不清楚。",
+   "objectives": [
+    "能读 a laita te",
+    "知道 te 与词尾 -t 相关"
+   ],
+   "rules": [
+    {
+     "id": "r-pn16",
+     "headZh": "例证",
+     "bodyZh": "Cormallen 的欢呼 a laita te, laita te 译作「bless them, bless them」（Letters:308）。",
+     "en": "a laita te",
+     "zh": "赞美他们。",
+     "exampleZh": "a laita te"
+    },
+    {
+     "id": "r-pn17",
+     "headZh": "与词尾 -t 的关系",
+     "bodyZh": "同一赞颂还有 laituvalmet「we shall bless them」，用词尾 -t；te 与 -t 大概相关。",
+     "en": "laituvalmet",
+     "zh": "我们将赞美他们。",
+     "exampleZh": "laituvalmet"
+    },
+    {
+     "id": "r-pn18",
+     "headZh": "不确定",
+     "bodyZh": "te 能否也作主语「they」，并不清楚。",
+     "en": "Whether this te can also be used as a subject form",
+     "zh": "te 能否也作主语形式。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 laituvalmet 的 -t 与第二人称 -t 混淆",
+     "right": "此处 -t 是宾语「them」",
+     "whyZh": "下一课还会遇到作「你」的 -t，原文特意提醒二者不同。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "同一个 -t，两种功能",
+     "bodyZh": "昆雅的 -t 既可表宾语「他们」，也可表亲昵的「你」（WJ:364）。这是本课最容易出错的地方，读到 -t 一定要看语境。"
+    }
+   ],
+   "recapZh": "te「them」；laituvalmet。",
+   "selfCheckZh": [
+    {
+     "qZh": "laituvalmet 的 -t 是什么意思？",
+     "aZh": "them（宾语）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "independent-pronouns",
+    "unitIds": [
+     6
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pro-te-origin",
+   "sourceSectionId": "independent-pronouns",
+   "titleZh": "08 · te 的来源：tai 与 tien",
+   "leadZh": "te 可能是 ta 加复数 -i 所得的 tai 的非重读变体。主祷文的 tien「for them」支持这条链。",
+   "objectives": [
+    "能写 tien、tienna、tiello",
+    "能复述 tai → te 的音变"
+   ],
+   "rules": [
+    {
+     "id": "r-pn19",
+     "headZh": "理论",
+     "bodyZh": "te 可能是 ta「that」接复数 -i 所得的 tai 的非重读变体，意为「those ones」乃至「them」。",
+     "en": "the attested form te is simply the unstressed variant of tai",
+     "zh": "te 只是 tai 的非重读变体。"
+    },
+    {
+     "id": "r-pn20",
+     "headZh": "tien",
+     "bodyZh": "主祷文有 apsenet tien「forgive them」，tien 大概代表较早的 taien（tai ＋ 连接元音 -e- ＋ 与格 -n）。",
+     "en": "tien",
+     "zh": "给他们（与格）。",
+     "exampleZh": "tien"
+    },
+    {
+     "id": "r-pn21",
+     "headZh": "音变",
+     "bodyZh": "taien → te'en ＝ tëen → tien，与（laureai >）laurëe → laurië 是同一机制。",
+     "en": "the same mechanism that also turns (laureai >) laurëe into laurië",
+     "zh": "与 laurëe → laurië 同一机制。"
+    },
+    {
+     "id": "r-pn22",
+     "headZh": "类推",
+     "bodyZh": "向格「to them」当作 tienna，离格「from them」作 tiello；它们与名词 tië「path」的格形式重合，靠上下文分辨。",
+     "en": "tienna",
+     "zh": "到他们那里。",
+     "exampleZh": "tienna／tiello"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 tienna 一律读成「到路上」",
+     "right": "也可能是「到他们那里」，看上下文",
+     "whyZh": "原文：These forms would coincide with the corresponding case forms of the noun tië \"path\"。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一条音变链",
+     "bodyZh": "ai → e → ëe → ie 这条链在本课出现两次（te 与 laurië）。掌握它，就能理解为什么 tien 看起来与 tai 毫无关系。"
+    }
+   ],
+   "recapZh": "tai → te；tien、tienna、tiello。",
+   "selfCheckZh": [
+    {
+     "qZh": "「给他们」？",
+     "aZh": "tien。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "independent-pronouns",
+    "unitIds": [
+     7
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pro-vt43",
+   "sourceSectionId": "independent-pronouns",
+   "titleZh": "09 · VT43 的更新：ta 与 te 是两个词干",
+   "leadZh": "据 VT43:20，te 指人、ta 指物的「they／them」。若二者自古分开，上面那条「te 是 tai 缩减」的理论就站不住。",
+   "objectives": [
+    "知道 te 指人、ta 指物",
+    "知道本书练习采用的折中方案"
+   ],
+   "rules": [
+    {
+     "id": "r-pn23",
+     "headZh": "新材料",
+     "bodyZh": "VT43:20 提到一份约 1940 年代的未刊讨论，把 te 列为指人时「they, them」的词干，ta 为指物或抽象时的词干。",
+     "en": "te as the stem for the pronoun \"they, them\" when it refers to persons",
+     "zh": "te 是指人时「they, them」的词干。"
+    },
+    {
+     "id": "r-pn24",
+     "headZh": "理论危机",
+     "bodyZh": "若 ta 与 te 自古就是分开的词根，则「te 只是 tai 的缩减」这一理论就被打乱。",
+     "en": "it would of course mess up the theory presented above",
+     "zh": "那当然会打乱上面提出的理论。"
+    },
+    {
+     "id": "r-pn25",
+     "headZh": "反复无常",
+     "bodyZh": "托尔金在代词细节上不断改主意；作者说没人该以为这是理清代词混沌的最后一句话。",
+     "en": "Tolkien unceasingly changing his mind about the details",
+     "zh": "托尔金在细节上不断改主意。"
+    },
+    {
+     "id": "r-pn26",
+     "headZh": "练习方案",
+     "bodyZh": "本书维持：ta 按《词源》作「it, that」，te 按 LotR 作「them」，接格词尾时作 tie-（如 tien）。",
+     "en": "ta is used for \"it, that\" as in the Etymologies, te is used for \"them\" as in LotR",
+     "zh": "ta 按《词源》作 it／that，te 按 LotR 作 them。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为代词表已有定论",
+     "right": "作者明说这是「混沌」",
+     "whyZh": "原文末句：Let none think that this is the last word in trying to make at least a minimum of sense of Tolkien's Pronoun Chaos!"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "更新条的意义",
+     "bodyZh": "这一段是作者在原文发表后补的「NOTE/UPDATE」。它不推翻旧内容，而是把新证据摆出来，并说明本书为何仍采用旧方案——因为它可操作、且与练习一致。"
+    }
+   ],
+   "recapZh": "te 指人、ta 指物；本书仍用 ta＝it、te＝them、tie- 接格。",
+   "selfCheckZh": [
+    {
+     "qZh": "本书练习里 te 指什么？",
+     "aZh": "them（指人）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "independent-pronouns",
+    "unitIds": [
+     8
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pro-tye",
+   "sourceSectionId": "independent-pronouns",
+   "titleZh": "10 · tye「你」：亲昵的宾格",
+   "leadZh": "tye 译作 thee／you，见于 ni véla tye 与 atarinya tye-melánë「父亲，我爱你」。",
+   "objectives": [
+    "能读 tye-melánë",
+    "知道 tye 是宾格"
+   ],
+   "rules": [
+    {
+     "id": "r-pn27",
+     "headZh": "例证一",
+     "bodyZh": "ni véla tye「I see you」中的 tye 是宾格。",
+     "en": "tye",
+     "zh": "你（宾格）。",
+     "exampleZh": "ni véla tye"
+    },
+    {
+     "id": "r-pn28",
+     "headZh": "例证二",
+     "bodyZh": "LR:61：Herendil 对父亲说 atarinya tye-melánë「my father, I love thee」，父亲答 a yonya inyë tye-méla。",
+     "en": "atarinya tye-melánë",
+     "zh": "父亲，我爱你。",
+     "exampleZh": "tye-melánë／tye-méla"
+    },
+    {
+     "id": "r-pn29",
+     "headZh": "奇怪之处",
+     "bodyZh": "第一句用 -në 而非 -nyë 或 -n 作「我」的词尾；但 tye 是宾格 thee 这点清楚。",
+     "en": "it is at least clear that tye is the object pronoun \"thee\"",
+     "zh": "至少清楚 tye 是宾格代词 thee。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 tye 当主语",
+     "right": "tye 是宾格（thee），不是 thou",
+     "whyZh": "原文强调：the object pronoun tye \"you = thee\" (not subject \"thou\")。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "父子对话",
+     "bodyZh": "这段对话不只是例句，还是「T 形式用于家人」的证据——儿子对父亲用 tye。第 11、12 段会展开这条线索。"
+    }
+   ],
+   "recapZh": "tye＝thee（宾格、亲昵）。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我爱你」用 tye 怎么写？",
+     "aZh": "Tye-melánë（或 tye-méla）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "independent-pronouns",
+    "unitIds": [
+     9
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pro-two-sets",
+   "sourceSectionId": "independent-pronouns",
+   "titleZh": "11 · 两套「你」：L 形式与 T 形式",
+   "leadZh": "昆雅第二人称至少两套：L 形式（-l(yë)、le）与 T 形式（tye、动词词尾 -t）。二者不可混用。",
+   "objectives": [
+    "能列出 L 与 T 两套形式",
+    "知道 -t 有两义"
+   ],
+   "rules": [
+    {
+     "id": "r-pn30",
+     "headZh": "不兼容",
+     "bodyZh": "宾格 tye 与词尾 -l(yë)、独立 le（或 lye）不「兼容」，尽管英语都可译 you。",
+     "en": "The object pronoun tye is not \"compatible\" with the ending -l(yë)",
+     "zh": "tye 与 -l(yë) 不兼容。"
+    },
+    {
+     "id": "r-pn31",
+     "headZh": "L 形式",
+     "bodyZh": "L 形式以词尾 -l(yë) 与独立代词 le 为代表。",
+     "en": "the \"L\" forms, represented by the ending -l(yë) and the independent pronoun le",
+     "zh": "L 形式以 -l(yë) 与 le 为代表。"
+    },
+    {
+     "id": "r-pn32",
+     "headZh": "T 形式",
+     "bodyZh": "T 形式以宾格 tye 与动词词尾 -t 为代表（WJ:364）；注意 -t 不是 laituvalmet 里的「them」。",
+     "en": "the verb ending -t",
+     "zh": "动词词尾 -t（＝你）。"
+    },
+    {
+     "id": "r-pn33",
+     "headZh": "托尔金的原话",
+     "bodyZh": "他早先说这些语言「对亲昵形式与礼貌形式有显著区分」（PM:42-43）。",
+     "en": "a marked distinction between the familiar forms and the courteous",
+     "zh": "亲昵形式与礼貌形式之间有显著区分。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "在同一段话里混用 tye 与 -lyë",
+     "right": "选定一套并贯彻",
+     "whyZh": "原文：the \"T\" forms are hardly interchangeable with the \"L\" forms。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "本课的枢纽",
+     "bodyZh": "第 11–14 段全在争论 L／T 的区别究竟是「礼貌／亲昵」还是「复数／单数」。读的时候把两种解释分别记下，再看作者最后怎么折中。"
+    }
+   ],
+   "recapZh": "L：-l(yë)、le；T：tye、-t。",
+   "selfCheckZh": [
+    {
+     "qZh": "tye 属于哪一套？",
+     "aZh": "T 形式。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "independent-pronouns",
+    "unitIds": [
+     10
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pro-polite",
+   "sourceSectionId": "independent-pronouns",
+   "titleZh": "12 · 解释一：礼貌 vs 亲昵",
+   "leadZh": "L 形式是客气的「您」，T 形式是对亲友的「你」。这与语料相合：Galadriel 对陌生人用 L，儿子对父亲用 T。",
+   "objectives": [
+    "能用两个语料支持这个解释",
+    "知道 thou／thee 的译法会误导"
+   ],
+   "rules": [
+    {
+     "id": "r-pn34",
+     "headZh": "方案",
+     "bodyZh": "L 形式代表礼貌客气的 you，T 形式表示对密友与家人的亲昵 you。",
+     "en": "the \"L\" forms would represent a polite and courteous \"you\"",
+     "zh": "L 形式代表礼貌客气的 you。"
+    },
+    {
+     "id": "r-pn35",
+     "headZh": "语料一",
+     "bodyZh": "《Namárië》里 Galadriel 对 Frodo 这样的陌生人用 L 形式；辛达林的 le 也作敬语单数 thee。",
+     "en": "Galadriel naturally uses \"L\" forms when politely addressing a relative stranger",
+     "zh": "Galadriel 礼貌地称呼陌生人时用 L 形式。"
+    },
+    {
+     "id": "r-pn36",
+     "headZh": "语料二",
+     "bodyZh": "Herendil 对亲生父亲显然用 T 形式（tye）。",
+     "en": "Herendil would obviously use a \"T\" form (tye) when addressing his own father",
+     "zh": "Herendil 对父亲用 T 形式。"
+    },
+    {
+     "id": "r-pn37",
+     "headZh": "译法的陷阱",
+     "bodyZh": "托尔金把 tye 译作 thee，可能是想表达亲昵而非庄重；但他也用 thou／thee 译 L 形式。",
+     "en": "he might also use \"thou/thee\" to represent a formal or polite \"you\"",
+     "zh": "他也可能用 thou／thee 表示正式或礼貌的 you。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 thee 一定等于 T 形式",
+     "right": "托尔金也用 thee 译 L 形式",
+     "whyZh": "原文专门指出这个 confusing 之处。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "证据与解释的匹配",
+     "bodyZh": "这个解释能同时说明两处语料，所以有说服力。但下一段就有反证——这正是本课的写法：先立，再破，最后折中。"
+    }
+   ],
+   "recapZh": "L＝礼貌，T＝亲昵；但 thee 的译法不可靠。",
+   "selfCheckZh": [
+    {
+     "qZh": "Galadriel 对 Frodo 用哪套？",
+     "aZh": "L 形式。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "independent-pronouns",
+    "unitIds": [
+     11
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pro-conflict",
+   "sourceSectionId": "independent-pronouns",
+   "titleZh": "13 · 反证：WJ:364 说是单复数之别",
+   "leadZh": "WJ:364 似乎暗示 L 形式是复数 you、T 形式是单数 you，与「礼貌／亲昵」说冲突。作者的折中：T 本义单数，L 本义复数但兼作礼貌单数。",
+   "objectives": [
+    "知道两种解释的冲突",
+    "能复述作者的折中方案"
+   ],
+   "rules": [
+    {
+     "id": "r-pn38",
+     "headZh": "反证",
+     "bodyZh": "WJ:364 里托尔金似乎暗示 L 形式代表复数 you，T 形式代表单数 you。",
+     "en": "the \"L\" forms represent a plural \"you\", whereas the \"T\" forms stand for a singular \"you\"",
+     "zh": "L 形式代表复数 you，T 形式代表单数 you。"
+    },
+    {
+     "id": "r-pn39",
+     "headZh": "与早先说法冲突",
+     "bodyZh": "这与他早先「精灵语不分 you 单复数」的说法尖锐冲突，但那个想法也许并未持久。",
+     "en": "this may not have proved a lasting idea",
+     "zh": "这个想法也许并未持久。"
+    },
+    {
+     "id": "r-pn40",
+     "headZh": "L 确实用于单数",
+     "bodyZh": "《Namárië》里 L 形式无疑用于单数，因为托尔金用明显单数的 thou 来译。",
+     "en": "Tolkien translated them using the distinctly singular English pronoun \"thou\"",
+     "zh": "托尔金用明显单数的 thou 来译。"
+    },
+    {
+     "id": "r-pn41",
+     "headZh": "折中",
+     "bodyZh": "假定 T 形式本义单数、L 形式本义复数，但后者也作礼貌单数（故《Namárië》如此）。",
+     "en": "the \"L\" forms properly denote plural \"you\" – but the latter forms are also used as a polite singular",
+     "zh": "L 形式本义复数，但也用作礼貌单数。"
+    },
+    {
+     "id": "r-pn42",
+     "headZh": "结论",
+     "bodyZh": "若用 L 形式，就不该用 tye；二者几乎不可互换。",
+     "en": "one should not use the object form tye for \"you, thee\" if one otherwise uses \"L\" forms",
+     "zh": "若用 L 形式，就不该用 tye。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "在一段话里既用 -lyë 又用 tye",
+     "right": "选定一套",
+     "whyZh": "原文把它列为 bottom line：two different kinds of \"you\"。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "作者如何处理矛盾",
+     "bodyZh": "他不选边，而是构造一个能容纳全部材料的方案，并明说这是「最接近统合」的尝试。这种谨慎在全书是标准做法。"
+    }
+   ],
+   "recapZh": "T＝单数，L＝复数兼礼貌单数。",
+   "selfCheckZh": [
+    {
+     "qZh": "作者的折中是什么？",
+     "aZh": "T 本义单数，L 本义复数但兼作礼貌单数。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "independent-pronouns",
+    "unitIds": [
+     12
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pro-nye",
+   "sourceSectionId": "independent-pronouns",
+   "titleZh": "14 · nye「我（宾格）」与 ?ti 的难题",
+   "leadZh": "由 tye 外推得 nye「me」。但格词尾加在最简形式 ni 上，故与格是 nin 而非 **nyen。",
+   "objectives": [
+    "能写 nye、nin",
+    "知道 ?ti 只是机械外推"
+   ],
+   "rules": [
+    {
+     "id": "r-pn43",
+     "headZh": "nye",
+     "bodyZh": "由 tye 外推得第一人称宾格 nye「me」；这个形式确实出现在托尔金文稿里，故本书采用。",
+     "en": "nye",
+     "zh": "我（宾格）。",
+     "exampleZh": "nye"
+    },
+    {
+     "id": "r-pn44",
+     "headZh": "格词尾加在 ni 上",
+     "bodyZh": "格词尾加在代词最简形式（即单独出现时的主语形式）上：与格是 nin，不是 **nyen。",
+     "en": "The dative form \"to me\" is not **nyen",
+     "zh": "与格不是 **nyen。"
+    },
+    {
+     "id": "r-pn45",
+     "headZh": "同理",
+     "bodyZh": "「for thee」也不该是 **tyen，因为那又是给宾格形式加格词尾。",
+     "en": "**tyen",
+     "zh": "（错误形式）tyen。"
+    },
+    {
+     "id": "r-pn46",
+     "headZh": "?ti",
+     "bodyZh": "与 tye 对应的主语形式不清楚；机械外推会得 ?ti，但事情几乎肯定更复杂。",
+     "en": "?ti as the subject form \"thou\"",
+     "zh": "?ti 作主语形式 thou。"
+    },
+    {
+     "id": "r-pn47",
+     "headZh": "kye → tye",
+     "bodyZh": "辛达林词尾 -g／-ch 说明较早作 -k-；词末 -k 在昆雅变 -t，词首 ky- 变 ty-，故 tye 来自 kye。",
+     "en": "the object pronoun tye represents earlier kye",
+     "zh": "tye 代表较早的 kye。"
+    },
+    {
+     "id": "r-pn48",
+     "headZh": "?ce／cello",
+     "bodyZh": "从 kye 外推，主语形式大概作 ci 或 ce；与格也许 ?cen，离格 cello。",
+     "en": "cello",
+     "zh": "从你那里。",
+     "exampleZh": "?cen／cello"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写成 **nyen、**tyen",
+     "right": "nin；「for thee」形式不明",
+     "whyZh": "原文两次用 ** 标出这两个错误形式。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "类推的限度",
+     "bodyZh": "从 ni／nye 机械外推得 ?ti，但音变证据（-k → -t、ky → ty）指向另一条路。这一段示范了「形态类推」与「音变证据」冲突时该信谁。"
+    }
+   ],
+   "recapZh": "nye、nin；tye ← kye；?ce、cello。",
+   "selfCheckZh": [
+    {
+     "qZh": "「给我」是 nin 还是 nyen？",
+     "aZh": "nin。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "independent-pronouns",
+    "unitIds": [
+     13
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pro-ce",
+   "sourceSectionId": "independent-pronouns",
+   "titleZh": "15 · ce「你」：一条私下流通的证据",
+   "leadZh": "作者原写「我们已踏入推测领域」，但后来得知未刊的「CB grammar」里有 ke／ce「thou」。",
+   "objectives": [
+    "知道 ce 的证据来源",
+    "知道练习里只用 tye"
+   ],
+   "rules": [
+    {
+     "id": "r-pn49",
+     "headZh": "原话",
+     "bodyZh": "本课程最初版本在此写：「我们现在已踏入推测外推的领域。」",
+     "en": "we have now crossed over into the realm of Speculative Extrapolation",
+     "zh": "我们现在已踏入推测外推的领域。"
+    },
+    {
+     "id": "r-pn50",
+     "headZh": "新证据",
+     "bodyZh": "据 Elfling 帖子，主语形式 ke／ce 出现在私下流通的未刊「CB grammar」里（2002 年 1 月 22 日 Derdzinski 提及）。",
+     "en": "CB Grammar Q(u)enya forms like ke 'thou'",
+     "zh": "CB Grammar 里有 ke「thou」这类形式。"
+    },
+    {
+     "id": "r-pn51",
+     "headZh": "练习范围",
+     "bodyZh": "整件事仍相当模糊；下面练习里只出现宾格形式 tye。",
+     "en": "only the object form tye appears",
+     "zh": "只出现宾格形式 tye。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "在练习里用 ce 造句",
+     "right": "练习只用 tye",
+     "whyZh": "原文明确限定。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "证据的等级",
+     "bodyZh": "「私下流通的未刊语法」是相当弱的证据，但作者仍如实记录，并把它与自己的推测区分开。这种分级是本书最值得学的方法。"
+    }
+   ],
+   "recapZh": "ce／ke 有传闻证据；练习只用 tye。",
+   "selfCheckZh": [
+    {
+     "qZh": "练习里用 ce 吗？",
+     "aZh": "不用，只用 tye。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "independent-pronouns",
+    "unitIds": [
+     14
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pro-summary",
+   "sourceSectionId": "independent-pronouns",
+   "titleZh": "16 · 代词小结：五个词",
+   "leadZh": "ni／nye、le、tye、me、te——五个独立代词，加一句「这不算完整代词表」。",
+   "objectives": [
+    "能背五个代词及宾格",
+    "知道 te 接格时作 tie-"
+   ],
+   "rules": [
+    {
+     "id": "r-pn52",
+     "headZh": "第一人称",
+     "bodyZh": "ni「I」，宾格 nye「me」。",
+     "en": "ni \"I\" (object form nye \"me\")",
+     "zh": "ni「我」，宾格 nye。",
+     "exampleZh": "ni／nye"
+    },
+    {
+     "id": "r-pn53",
+     "headZh": "第二人称",
+     "bodyZh": "le「you」（宾格大概也是 le）；tye 宾格「thee, you」（亲昵；主语据说作 ce）。",
+     "en": "tye object form \"thee, you\"",
+     "zh": "tye 宾格 thee／you。",
+     "exampleZh": "le／tye"
+    },
+    {
+     "id": "r-pn54",
+     "headZh": "第一人称复数",
+     "bodyZh": "me「we」（排除式；大概也可作宾格 us）。",
+     "en": "me \"we\" (exclusive",
+     "zh": "me「我们」（排除式）。",
+     "exampleZh": "me"
+    },
+    {
+     "id": "r-pn55",
+     "headZh": "第三人称复数",
+     "bodyZh": "te 宾格「them」（主语 they 不确定）；至少在某些格词尾前作 tie-（如 tien）。",
+     "en": "this pronoun may appear as tie- before at least some case endings",
+     "zh": "这个代词在至少某些格词尾前作 tie-。",
+     "exampleZh": "te／tie-"
+    },
+    {
+     "id": "r-pn56",
+     "headZh": "不完整",
+     "bodyZh": "这并不构成完整的代词表；作者希望在本课程附录里讨论空缺。",
+     "en": "This does not add up to a quite complete pronoun table",
+     "zh": "这并不构成相当完整的代词表。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把这五个词当完整系统",
+     "right": "作者自称不完整",
+     "whyZh": "原文明确承认空缺。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "背什么",
+     "bodyZh": "先背这五个词与它们的宾格，再记住 te 接格时作 tie-。其余（ce、?ti）都属推测，不必背。"
+    }
+   ],
+   "recapZh": "ni／nye、le、tye、me、te（tie-）。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我们」（排除）？",
+     "aZh": "me。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "independent-pronouns",
+    "unitIds": [
+     15
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pro-cases",
+   "sourceSectionId": "independent-pronouns",
+   "titleZh": "17 · 代词怎么接格词尾",
+   "leadZh": "代词接「单数」格词尾，即使意义是复数：mello、messë，不是 **mellon、**messen。",
+   "objectives": [
+    "能写 ninna、nillo、nissë、ninen",
+    "能写 mello、messë、ment"
+   ],
+   "rules": [
+    {
+     "id": "r-pn57",
+     "headZh": "第一人称各格",
+     "bodyZh": "与格 nin；大概也可有向格 ninna、离格 nillo、位格 nissë，甚至工具格 ninen。",
+     "en": "ninna",
+     "zh": "向我。",
+     "exampleZh": "ninna／nillo／nissë／ninen"
+    },
+    {
+     "id": "r-pn58",
+     "headZh": "me 的新证",
+     "bodyZh": "me 的格形式：离格 mello（VT43:10）、位格 messë（VT44:12），加上早知的与格 men。",
+     "en": "mello",
+     "zh": "从我们这里。",
+     "exampleZh": "mello／messë／men"
+    },
+    {
+     "id": "r-pn59",
+     "headZh": "单数词尾",
+     "bodyZh": "代词接「单数」格词尾，即使意义是复数：故 mello、messë，而非 **mellon、**messen。",
+     "en": "pronouns receive \"singular\" case endings",
+     "zh": "代词接「单数」格词尾。"
+    },
+    {
+     "id": "r-pn60",
+     "headZh": "双数",
+     "bodyZh": "双数词尾 -t 可加：met；格词尾也随之双数：与格 ment、向格 menta、离格 melto、工具格 menten。",
+     "en": "ment",
+     "zh": "给我们俩（与格）。",
+     "exampleZh": "ment／menta／melto／menten"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写成 **mellon、**messen",
+     "right": "mello、messë",
+     "whyZh": "原文用 ** 明确标出这两个错误形式。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么用单数词尾",
+     "bodyZh": "因为代词本身已经表达了「数」，格词尾只标格。这条规则与名词不同，是代词系统的一个特点。"
+    }
+   ],
+   "recapZh": "ninna、mello、messë；ment、menta、melto。",
+   "selfCheckZh": [
+    {
+     "qZh": "「在我们身上」？",
+     "aZh": "messë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "independent-pronouns",
+    "unitIds": [
+     16
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pro-prep",
+   "sourceSectionId": "independent-pronouns",
+   "titleZh": "18 · 介词后的代词",
+   "leadZh": "英语介词后跟宾格；昆雅是否如此不确定。imbë met 无助于判断，因为 me 主宾同形。",
+   "objectives": [
+    "知道这个不确定点",
+    "知道 ve nye 与 ve ni 的取舍"
+   ],
+   "rules": [
+    {
+     "id": "r-pn61",
+     "headZh": "英语的规则",
+     "bodyZh": "英语介词后跟宾格，故说 as me 而非 as I。",
+     "en": "prepositions are followed by the object form",
+     "zh": "介词后跟宾格形式。"
+    },
+    {
+     "id": "r-pn62",
+     "headZh": "昆雅不确定",
+     "bodyZh": "若昆雅也如此，对应说法是 ve nye；但也许精灵实际会说 ve ni。",
+     "en": "ve nye",
+     "zh": "像我。",
+     "exampleZh": "ve nye／ve ni"
+    },
+    {
+     "id": "r-pn63",
+     "headZh": "为何无法判断",
+     "bodyZh": "imbë met 无助于判断，因为 me（带不带 -t）大概兼指 we 与 us；me、le、te 似乎没有主宾之分。",
+     "en": "these pronouns don't seem to have distinct subject/object forms",
+     "zh": "这些代词似乎没有主宾之分。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "断定介词后必用宾格",
+     "right": "昆雅这一点不明",
+     "whyZh": "原文：we cannot be certain。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "me／le／te 的便利",
+     "bodyZh": "这三个词主宾同形，所以在介词后怎么用都不会错。麻烦只出在 ni／nye 与 tye 上。"
+    }
+   ],
+   "recapZh": "ve nye 或 ve ni；me／le／te 无此问题。",
+   "selfCheckZh": [
+    {
+     "qZh": "「像我」有哪两种写法？",
+     "aZh": "ve nye 或 ve ni。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "independent-pronouns",
+    "unitIds": [
+     17
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pro-oni",
+   "sourceSectionId": "independent-pronouns",
+   "titleZh": "19 · óni：介词后接主语形式的证据",
+   "leadZh": "VT43:29 的 óni「with me」＝ ó ＋ ni，说明至少某些介词后接主语形式。",
+   "objectives": [
+    "能读 óni",
+    "知道 aselyë 与 as le 的关系"
+   ],
+   "rules": [
+    {
+     "id": "r-pn64",
+     "headZh": "óni",
+     "bodyZh": "VT43:29 的表里有 óni，显然意为「with me」，即 ó「with」＋ ni「I」写成一个词。",
+     "en": "óni",
+     "zh": "与我（一起）。",
+     "exampleZh": "óni"
+    },
+    {
+     "id": "r-pn65",
+     "headZh": "推论",
+     "bodyZh": "若 ni 只是主语「I」，则 óni 表明至少某些介词后接主语形式——说「with I」而非「with me」。",
+     "en": "one says \"with I\" rather than \"with me\"",
+     "zh": "说「with I」而非「with me」。"
+    },
+    {
+     "id": "r-pn66",
+     "headZh": "as 取代 ó",
+     "bodyZh": "托尔金后来也许放弃 ó 而改用 as：其《圣母经》译本有 aselyë「with thee」，也可说 as le 或 as lye。",
+     "en": "aselyë",
+     "zh": "与你同在。",
+     "exampleZh": "aselyë／as le"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 ó 一直是「with」的通用词",
+     "right": "后来可能改用 as",
+     "whyZh": "原文用 may later have dropped ó ... possibly in favour of as。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一条新证据如何改变结论",
+     "bodyZh": "上一段说「无法确定」，这一段就用 óni 给出了倾向性答案。作者用方括号标为 Update，清楚区分原文与后补。"
+    }
+   ],
+   "recapZh": "óni＝with me；aselyë＝with thee。",
+   "selfCheckZh": [
+    {
+     "qZh": "「与我一起」？",
+     "aZh": "óni。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "independent-pronouns",
+    "unitIds": [
+     18
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pro-object",
+   "sourceSectionId": "independent-pronouns",
+   "titleZh": "20 · 宾格形式什么时候用",
+   "leadZh": "宾语词尾只有 -t「them」与 -s「it」，环境不合适时就得用独立宾格代词。",
+   "objectives": [
+    "知道两种宾语词尾",
+    "能判断何时用独立宾格"
+   ],
+   "rules": [
+    {
+     "id": "r-pn67",
+     "headZh": "宾语词尾有限",
+     "bodyZh": "代词宾语不能总用两个可证的宾语词尾 -t「them」或 -s「it」表达。",
+     "en": "pronominal objects can't always be expressed as one of the two attested object endings",
+     "zh": "代词宾语不能总用两个可证的宾语词尾表达。"
+    },
+    {
+     "id": "r-pn68",
+     "headZh": "可用环境",
+     "bodyZh": "宾语词尾可加在 -ta 扩展不定式（caritas）或带主语词尾的动词（utúvienyes）上。",
+     "en": "caritas",
+     "zh": "去做它。",
+     "exampleZh": "caritas／utúvienyes"
+    },
+    {
+     "id": "r-pn69",
+     "headZh": "命令句",
+     "bodyZh": "独立宾格可用于命令短语，如 a laita te「bless them」。",
+     "en": "a laita te",
+     "zh": "赞美他们。",
+     "exampleZh": "a laita te"
+    },
+    {
+     "id": "r-pn70",
+     "headZh": "主语是独立词时",
+     "bodyZh": "若主语以独立词表达，动词无主语词尾可挂宾语词尾，就得用独立宾格：i lië laituva te。",
+     "en": "i lië laituva te",
+     "zh": "人们将赞美他们。",
+     "exampleZh": "i lië laituva te"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写成 ?i lië laituvat",
+     "right": "i lië laituva te",
+     "whyZh": "原文说无法知道 ?i lië laituvat 是否允许，用独立词既稳妥又清楚。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "两种打包方式",
+     "bodyZh": "laituvalmet 把「我们—将—赞美—他们」压进一个词；i lië laituva te 只能拆开，因为主语不在动词里。这是昆雅「词尾系统」的边界。"
+    }
+   ],
+   "recapZh": "-t／-s 之外用独立宾格；i lië laituva te。",
+   "selfCheckZh": [
+    {
+     "qZh": "「人们将赞美他们」？",
+     "aZh": "I lië laituva te。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "independent-pronouns",
+    "unitIds": [
+     19
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pro-order",
+   "sourceSectionId": "independent-pronouns",
+   "titleZh": "21 · 词序：代词在前还是在后",
+   "leadZh": "昆雅似乎偏好把独立代词放在动词前，甚至有 tye-melánë 这样的前缀写法；但后置也可证。",
+   "objectives": [
+    "能读 tye-melánë、nin enquantuva、Mel-lumna",
+    "知道两种词序都可"
+   ],
+   "rules": [
+    {
+     "id": "r-pn71",
+     "headZh": "前置倾向",
+     "bodyZh": "昆雅似乎偏好把独立代词放在动词前；托尔金有时用连字符把宾语代词前缀：tye-melánë。",
+     "en": "tye-melánë",
+     "zh": "我爱你。",
+     "exampleZh": "tye-melánë"
+    },
+    {
+     "id": "r-pn72",
+     "headZh": "法语类比",
+     "bodyZh": "可比法语 je t'aime「I you love」，宾语在动词前。",
+     "en": "je t'aime",
+     "zh": "我爱你（法语）。"
+    },
+    {
+     "id": "r-pn73",
+     "headZh": "与格前置",
+     "bodyZh": "《Namárië》的 Sí man i yulma nin enquantuva?「谁将为我重新斟满杯？」把与格 nin 放在动词前。",
+     "en": "nin enquantuva",
+     "zh": "将为我重新斟满。",
+     "exampleZh": "Sí man i yulma nin enquantuva?"
+    },
+    {
+     "id": "r-pn74",
+     "headZh": "极端例",
+     "bodyZh": "Mel-lumna「us-is-heavy」：men ＋ lumna，因 nl 不被允许而变成 l-l。",
+     "en": "Mel-lumna",
+     "zh": "对我们沉重。",
+     "exampleZh": "Mel-lumna"
+    },
+    {
+     "id": "r-pn75",
+     "headZh": "后置也可",
+     "bodyZh": "VT41:13 有 órenya quéta nin「my heart is saying to me」，说明后置也可，前缀并非必须。",
+     "en": "órenya quéta nin",
+     "zh": "我的心在对我说。",
+     "exampleZh": "órenya quéta nin"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为代词必须前缀到动词",
+     "right": "前缀只是可选，后置也可证",
+     "whyZh": "原文：it is apparently not \"necessary\" to employ such a word order。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "音系介入语法",
+     "bodyZh": "Mel-lumna 是本节最有趣的例子：词序选择导致 nl 辅音丛，音系不允许，只好同化成 l-l。语法与音系在这里直接碰撞。"
+    }
+   ],
+   "recapZh": "tye-melánë；nin enquantuva；órenya quéta nin。",
+   "selfCheckZh": [
+    {
+     "qZh": "Mel-lumna 为什么不是 men-lumna？",
+     "aZh": "因为 nl 辅音丛不被允许，同化为 l-l。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "independent-pronouns",
+    "unitIds": [
+     20
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "pro-subject",
+   "sourceSectionId": "independent-pronouns",
+   "titleZh": "22 · 主语形式最常见的用法",
+   "leadZh": "主语形式最常遇到的场合不是作主语，而是接格词尾；此外在系词省略时充当主语。",
+   "objectives": [
+    "知道主语形式的两大用途",
+    "能写 Ni aran、le halla"
+   ],
+   "rules": [
+    {
+     "id": "r-pn76",
+     "headZh": "作主语",
+     "bodyZh": "主语形式可作句子主语，如 ni véla tye；但昆雅更常用代词词尾（vélan、vélanyë）。",
+     "en": "vélan or vélanyë",
+     "zh": "我看见。",
+     "exampleZh": "ni véla tye／vélan"
+    },
+    {
+     "id": "r-pn77",
+     "headZh": "诗人的选择",
+     "bodyZh": "对要维持格律的诗人，能在独立代词与词尾间选择也许有用。",
+     "en": "For poets trying to maintain some meter it may be useful",
+     "zh": "对要维持格律的诗人也许有用。"
+    },
+    {
+     "id": "r-pn78",
+     "headZh": "最常用途",
+     "bodyZh": "这些「主语形式」最常遇到的场合不是作语法主语，而是接格词尾。",
+     "en": "not as grammatical subjects, but with case endings attached",
+     "zh": "不是作语法主语，而是接格词尾。"
+    },
+    {
+     "id": "r-pn79",
+     "headZh": "系词省略",
+     "bodyZh": "系词省略而意会时，代词常作主语：Ni aran「I [am] king」、le halla「you [are] tall」。",
+     "en": "Ni aran",
+     "zh": "我是王。",
+     "exampleZh": "Ni aran／le halla"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 ni 当默认主语写法",
+     "right": "通常用词尾，ni 多用于接格或系词省略",
+     "whyZh": "原文说 these \"subject forms\" would most often be encountered ... with case endings attached。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "名字的误导",
+     "bodyZh": "「主语形式」这个称呼其实是「最简形式」的意思——它的主要用途反而是接格词尾。这一点与本课开头「词尾 vs 独立词」的对比正好呼应。"
+    }
+   ],
+   "recapZh": "Ni aran、le halla；主语形式多用于接格。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我是王」？",
+     "aZh": "Ni aran。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "independent-pronouns",
+    "unitIds": [
+     21
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "imp-def",
+   "sourceSectionId": "impersonal-verbs",
+   "titleZh": "23 · 什么是无人称动词",
+   "leadZh": "UT:396 里托尔金说 óla-「做梦」是「无人称」的。这句话长期不明，现在有了线索。",
+   "objectives": [
+    "知道无人称动词的概念",
+    "知道 óla- 是例词"
+   ],
+   "rules": [
+    {
+     "id": "r-im1",
+     "headZh": "出处",
+     "bodyZh": "UT:396 里托尔金引用动词 óla-「to dream」，并加注说它是「impersonal」。",
+     "en": "impersonal",
+     "zh": "无人称的。",
+     "exampleZh": "óla-"
+    },
+    {
+     "id": "r-im2",
+     "headZh": "长期不明",
+     "bodyZh": "他究竟何所指长期不明，但现在至少有一个例子可能有助理解。",
+     "en": "Precisely what he meant by this was long obscure",
+     "zh": "他究竟何所指长期不明。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把「无人称」理解为「没有主语」这么简单",
+     "right": "关键是没有主语、但受影响者用与格",
+     "whyZh": "原文的说明要靠下一段的 orë nin 才能落实。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "本节的结构",
+     "bodyZh": "先给 orë nin（最清楚的例子），再回到 óla-，再用德语 mir ist kalt 类比，最后给 mauya-、ulya- 两个延伸。由实到虚。"
+    }
+   ],
+   "recapZh": "无人称动词：无主语，受影响者用与格。",
+   "selfCheckZh": [
+    {
+     "qZh": "托尔金说哪个动词是无人称的？",
+     "aZh": "óla-「做梦」。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "impersonal-verbs",
+    "unitIds": [
+     0
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "imp-ore",
+   "sourceSectionId": "impersonal-verbs",
+   "titleZh": "24 · orë nin caritas：「我感到被推动」",
+   "leadZh": "or-「推动」的不定过去时 orë 出现在 orë nin caritas 中：句子没有主语，受影响者用与格。",
+   "objectives": [
+    "能读 orë nin caritas",
+    "能造 Orë i Eldan lelya"
+   ],
+   "rules": [
+    {
+     "id": "r-im3",
+     "headZh": "句子",
+     "bodyZh": "orë nin caritas 译作「I would like to do so」或「I feel moved to do so」，字面「[它]推动我（与格）去做它」。",
+     "en": "orë nin caritas",
+     "zh": "我感到被推动去做它。",
+     "exampleZh": "orë nin caritas"
+    },
+    {
+     "id": "r-im4",
+     "headZh": "没有主语",
+     "bodyZh": "这个句子没有主语；英译里的 it 只是虚主语，没有实际意义。",
+     "en": "this sentence has no subject",
+     "zh": "这个句子没有主语。"
+    },
+    {
+     "id": "r-im5",
+     "headZh": "与格的理由",
+     "bodyZh": "「冲动」从外部作用于人，不是主语有意执行的动作，故用与格。",
+     "en": "in Quenya this is appropriately denoted by the dative case",
+     "zh": "在昆雅里这恰当地用与格表示。"
+    },
+    {
+     "id": "r-im6",
+     "headZh": "名词也可",
+     "bodyZh": "与格不限于代词：Orë i Eldan lelya ＝「the Elf feels moved to go」。",
+     "en": "Orë i Eldan lelya",
+     "zh": "精灵感到被推动要去。",
+     "exampleZh": "Orë i Eldan lelya"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "给句子补一个主语「它」",
+     "right": "昆雅原句没有主语",
+     "whyZh": "原文：\"it\" has no real meaning here！"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "语序的暗示",
+     "bodyZh": "动词 orë 是句子第一个词。通常主语在前，但这里根本没有主语——语序本身就提示了这一点。"
+    }
+   ],
+   "recapZh": "orë nin caritas；Orë i Eldan lelya。",
+   "selfCheckZh": [
+    {
+     "qZh": "orë nin caritas 里的 nin 是什么格？",
+     "aZh": "与格。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "impersonal-verbs",
+    "unitIds": [
+     1
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "imp-ola",
+   "sourceSectionId": "impersonal-verbs",
+   "titleZh": "25 · óla-：做梦者用与格",
+   "leadZh": "做梦不是主语做的「动作」，而是发生在你身上的事，故做梦者用与格：óla i venden Eldaron。",
+   "objectives": [
+    "能造 óla i venden Eldaron",
+    "理解「受事者」这一层"
+   ],
+   "rules": [
+    {
+     "id": "r-im7",
+     "headZh": "理由",
+     "bodyZh": "梦独立于意志而来，故做梦者最好被呈现为受其梦影响的人：用与格。",
+     "en": "Hence dative for the dreamer!",
+     "zh": "故做梦者用与格！"
+    },
+    {
+     "id": "r-im8",
+     "headZh": "例句",
+     "bodyZh": "「the maiden dreams about Elves」也许可作 óla i venden Eldaron。",
+     "en": "óla i venden Eldaron",
+     "zh": "少女梦见精灵。",
+     "exampleZh": "óla i venden Eldaron"
+    },
+    {
+     "id": "r-im9",
+     "headZh": "与「给」类比",
+     "bodyZh": "与格在此表接受者，如同「给」这个动词的接受者。",
+     "en": "cf. the use of the dative to denote the recipient",
+     "zh": "参与格表接受者的用法。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 vendë 写成主格",
+     "right": "i venden（与格）",
+     "whyZh": "原文特意指出 vendë 在此作与格形式。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "「受事」而非「施事」",
+     "bodyZh": "这一段的重点是视角：昆雅把做梦者看作梦的接受者。这与英语「主语做事」的直觉相反，正是无人称构造的核心。"
+    }
+   ],
+   "recapZh": "óla i venden Eldaron。",
+   "selfCheckZh": [
+    {
+     "qZh": "「少女梦见精灵」里的少女用什么格？",
+     "aZh": "与格（i venden）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "impersonal-verbs",
+    "unitIds": [
+     2
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "imp-german",
+   "sourceSectionId": "impersonal-verbs",
+   "titleZh": "26 · 德语 mir ist kalt：一个熟悉的类比",
+   "leadZh": "德语用与格表「主观经历者」：mir ist kalt「我冷」。昆雅 nin 正对应 mir。",
+   "objectives": [
+    "知道「主观经历者」这个概念",
+    "能写 nin ná ringa"
+   ],
+   "rules": [
+    {
+     "id": "r-im10",
+     "headZh": "Kiltz 的说明",
+     "bodyZh": "与格能表示「主观经历者」，如德语 mir ist kalt「我冷」——英语用主格表逻辑主语，许多语言不用。",
+     "en": "denote the 'subjective experiencer'",
+     "zh": "表示「主观经历者」。"
+    },
+    {
+     "id": "r-im11",
+     "headZh": "对应",
+     "bodyZh": "德语与格 mir 对应昆雅 nin；昆雅「冷」是 ringa。",
+     "en": "nin ná ringa",
+     "zh": "我冷。",
+     "exampleZh": "nin ná ringa"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "按英语思维把「我」当主语",
+     "right": "与格才是昆雅的处理方式",
+     "whyZh": "原文用德语类比正是为了打破英语的主语直觉。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "跨语言类比的作用",
+     "bodyZh": "作者借德语说明昆雅的与格并不奇怪。这类类比在本课程里出现不多，但每次都是为了拆掉英语的语法习惯。"
+    }
+   ],
+   "recapZh": "mir ist kalt ≈ nin ná ringa。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我冷」怎么写？",
+     "aZh": "Nin ná ringa。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "impersonal-verbs",
+    "unitIds": [
+     3
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "imp-mauya",
+   "sourceSectionId": "impersonal-verbs",
+   "titleZh": "27 · mauya-：「我必须」",
+   "leadZh": "《词源》说「Noldorin」的 bui「compel」是无人称的；对应昆雅动词是 mauya-。",
+   "objectives": [
+    "能造 mauya nin lelya",
+    "知道 mauya- 也可带主语"
+   ],
+   "rules": [
+    {
+     "id": "r-im12",
+     "headZh": "来源",
+     "bodyZh": "《词源》MBAW- 条说「Noldorin」动词 bui「compel」是无人称的；对应昆雅动词作 mauya-。",
+     "en": "mauya-",
+     "zh": "强迫。",
+     "exampleZh": "mauya-"
+    },
+    {
+     "id": "r-im13",
+     "headZh": "用法",
+     "bodyZh": "若它也作无人称动词，「I must go」可作 mauya nin lelya ＝「[它]强迫我（与格）去」。",
+     "en": "mauya nin lelya",
+     "zh": "我必须去。",
+     "exampleZh": "mauya nin lelya"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 mauya- 只能无人称",
+     "right": "它大概也能带明确主语",
+     "whyZh": "原文括注：though it can probably occur with an explicit subject as well。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "「必须」的语法",
+     "bodyZh": "英语 must 没有主语来源，昆雅用「强迫＋与格」表达，逻辑更透明：某事从外部迫使某人。"
+    }
+   ],
+   "recapZh": "mauya nin lelya＝我必须去。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我必须去」？",
+     "aZh": "Mauya nin lelya。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "impersonal-verbs",
+    "unitIds": [
+     4
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "imp-ulya",
+   "sourceSectionId": "impersonal-verbs",
+   "titleZh": "28 · ulya-：光裸的动词就是句子",
+   "leadZh": "「Noldorin」的 oeil／eil 用于「it is raining」；昆雅 ulya- 也许同样可单独成句。",
+   "objectives": [
+    "知道 ulya- 的这种用法",
+    "理解「虚主语」的虚构性"
+   ],
+   "rules": [
+    {
+     "id": "r-im14",
+     "headZh": "旁证",
+     "bodyZh": "《词源》ULU 条说与昆雅 ulya-「pour」对应的「Noldorin」形式 oeil／eil 用于「it is raining」。",
+     "en": "it is raining",
+     "zh": "在下雨。"
+    },
+    {
+     "id": "r-im15",
+     "headZh": "昆雅用法",
+     "bodyZh": "也许昆雅 ulya 也能用于「[it] is raining」：光裸的动词本身就是完整句子。",
+     "en": "The naked verb would be a full sentence in itself",
+     "zh": "光裸的动词本身就是完整句子。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为「下雨」必须有主语",
+     "right": "昆雅可以没有",
+     "whyZh": "原文：there is obviously no real subject which actually \"does\" rain。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "虚主语的真相",
+     "bodyZh": "英语的 it 是语法填充物。昆雅不需要填充，这反而更接近事实：下雨并没有谁在「做」。"
+    }
+   ],
+   "recapZh": "ulya＝在下雨（可单独成句）。",
+   "selfCheckZh": [
+    {
+     "qZh": "「在下雨」怎么写？",
+     "aZh": "Ulya（单独成句）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "impersonal-verbs",
+    "unitIds": [
+     5
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "uv-intro",
+   "sourceSectionId": "u-stem-verbs",
+   "titleZh": "29 · U 词干动词：一个晦涩的子类",
+   "leadZh": "上一课讲 U 词干名词，本课看 U 词干动词。材料极有限，讨论必然是推测。",
+   "objectives": [
+    "知道这一类动词材料稀少",
+    "知道本节多为推测"
+   ],
+   "rules": [
+    {
+     "id": "r-uv1",
+     "headZh": "定位",
+     "bodyZh": "U 词干动词是晦涩的子类；材料极有限，讨论必然主要是推测。",
+     "en": "this discussion must by necessity consist mainly of speculation",
+     "zh": "本节讨论必然主要是推测。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把本节形式当定论",
+     "right": "多数带问号",
+     "whyZh": "原文开篇即声明材料有限。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "本节的读法",
+     "bodyZh": "先看有哪些词（第 2 段），再看能确定什么（主动分词），然后逐个时态推测。越往后问号越多——这个递减本身就是知识点。"
+    }
+   ],
+   "recapZh": "U 词干动词：材料少，多为推测。",
+   "selfCheckZh": [
+    {
+     "qZh": "关于 U 词干动词最确定的是什么？",
+     "aZh": "主动分词的构成。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "u-stem-verbs",
+    "unitIds": [
+     0
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "uv-words",
+   "sourceSectionId": "u-stem-verbs",
+   "titleZh": "30 · 有哪些 U 词干动词",
+   "leadZh": "《词源》1200 多词里只有一个 palu-；此外 nicu-、fifíru-、hlapu-、nurru-。",
+   "objectives": [
+    "能列出五个动词",
+    "知道 palu- 另有 palya-"
+   ],
+   "rules": [
+    {
+     "id": "r-uv2",
+     "headZh": "数量锐减",
+     "bodyZh": "以 -u 结尾的动词词干在早期「Qenya」里不罕见，但数十年间托尔金削减了数量。",
+     "en": "he may seem to have cut down their number",
+     "zh": "他似乎削减了它们的数量。"
+    },
+    {
+     "id": "r-uv3",
+     "headZh": "palu-",
+     "bodyZh": "《词源》1200 多词里只有一个 U 词干动词 palu-「open wide, spread, expand, extend」，且另有 palya-。",
+     "en": "palu-",
+     "zh": "展开。",
+     "exampleZh": "palu-／palya-"
+    },
+    {
+     "id": "r-uv4",
+     "headZh": "nicu-",
+     "bodyZh": "约 1960 年《Quendi and Eldar》提到指天气的 nicu-「be chill, cold」（WJ:417）。",
+     "en": "nicu-",
+     "zh": "寒冷。",
+     "exampleZh": "nicu-"
+    },
+    {
+     "id": "r-uv5",
+     "headZh": "《Markirya》三词",
+     "bodyZh": "《Markirya》最新版用了 fifíru-「slowly fade away」、hlapu-「fly or stream in the wind」、nurru-「murmur, grumble」（MC:223）。",
+     "en": "hlapu-",
+     "zh": "在风中飞／流。",
+     "exampleZh": "fifíru-／hlapu-／nurru-"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 U 词干动词很多",
+     "right": "《词源》里只有一个",
+     "whyZh": "原文：there is only one single U-stem verb。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "五个词的分布",
+     "bodyZh": "一个来自《词源》（约 1910–20 年代），一个来自 1960 年，三个来自晚期《Markirya》。这条时间线说明这类动词在晚期反而复活了。"
+    }
+   ],
+   "recapZh": "palu-、nicu-、fifíru-、hlapu-、nurru-。",
+   "selfCheckZh": [
+    {
+     "qZh": "《词源》里唯一的 U 词干动词？",
+     "aZh": "palu-。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "u-stem-verbs",
+    "unitIds": [
+     1
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "uv-active",
+   "sourceSectionId": "u-stem-verbs",
+   "titleZh": "31 · 主动分词：唯一确定的事",
+   "leadZh": "主动分词＝加 -la 并尽量拉长主元音：hlápula。若后随辅音丛则不能拉长：nurrula。",
+   "objectives": [
+    "能写 hlápula、nurrula",
+    "知道拉长的条件"
+   ],
+   "rules": [
+    {
+     "id": "r-uv6",
+     "headZh": "构成",
+     "bodyZh": "主动分词由加常规词尾 -la、并尽可能拉长主元音构成（hlapu- → hlápu-）。",
+     "en": "hlápula",
+     "zh": "（风）吹拂着的。",
+     "exampleZh": "hlápula"
+    },
+    {
+     "id": "r-uv7",
+     "headZh": "不能拉长",
+     "bodyZh": "nurru- 的分词作 nurrula；元音不能拉长，因为 **núrrula 不是可能的昆雅词。",
+     "en": "nurrula",
+     "zh": "低语着的。",
+     "exampleZh": "nurrula"
+    },
+    {
+     "id": "r-uv8",
+     "headZh": "唯一确定",
+     "bodyZh": "主动分词的构成几乎是关于这类动词唯一能十分确定的事。",
+     "en": "just about the only thing we can be quite sure about",
+     "zh": "几乎是唯一能十分确定的事。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写成 **núrrula",
+     "right": "nurrula",
+     "whyZh": "原文用 ** 标出这个不可能的形式。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么只有这一项确定",
+     "bodyZh": "因为《Markirya》有两个实际印出的分词（hlápula、nurrula）。其余时态全靠类推——这正是「材料决定确定性」的例证。"
+    }
+   ],
+   "recapZh": "hlápula（拉长）／nurrula（不能拉长）。",
+   "selfCheckZh": [
+    {
+     "qZh": "nurru- 的分词？",
+     "aZh": "nurrula。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "u-stem-verbs",
+    "unitIds": [
+     2
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "uv-passive",
+   "sourceSectionId": "u-stem-verbs",
+   "titleZh": "32 · 被动分词：turúna 是不是 turu- 的分词",
+   "leadZh": "常规词尾是 -na／-ina。若 palu- 按 culuina 的模式，被动分词应作 ?paluina。",
+   "objectives": [
+    "能写 ?paluina",
+    "知道 turúna 的争议"
+   ],
+   "rules": [
+    {
+     "id": "r-uv9",
+     "headZh": "常规",
+     "bodyZh": "被动分词大概用常规词尾 -na 或其较长变体 -ina。",
+     "en": "The normal ending -na or its longer variant -ina",
+     "zh": "常规词尾 -na 或较长的 -ina。"
+    },
+    {
+     "id": "r-uv10",
+     "headZh": "turúna 的假设",
+     "bodyZh": "Nienor 呼喊里的 turún'（＝turúna）会不会是变体 U 词干动词 turu-「to master」的被动分词？",
+     "en": "turún'",
+     "zh": "（被）征服。",
+     "exampleZh": "turún'／turúna"
+    },
+    {
+     "id": "r-uv11",
+     "headZh": "反证",
+     "bodyZh": "但给 turu- 加 -na 为何产生长元音，并不清楚；而 tur- 的被动分词本该是 turna。",
+     "en": "we would expect its passive participle to be turna",
+     "zh": "我们预期其被动分词是 turna。"
+    },
+    {
+     "id": "r-uv12",
+     "headZh": "culuina 的模式",
+     "bodyZh": "culuina「orange」由词根 KUL、KULU 派生，词干末 -U ＋ -ina 产生双元音 ui；故 palu- 的分词应作 ?paluina。",
+     "en": "culuina",
+     "zh": "橙色。",
+     "exampleZh": "culuina／?paluina"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 turúna 当确定的分词",
+     "right": "它与 turna 的预期冲突",
+     "whyZh": "原文连用两个反问句，并未裁决。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "两条证据线",
+     "bodyZh": "一条是 turún' 这个孤例，一条是 culuina 的音系模式。作者倾向前者存疑、后者可用，故给出 ?paluina。"
+    }
+   ],
+   "recapZh": "?paluina（按 culuina 模式）；turúna 存疑。",
+   "selfCheckZh": [
+    {
+     "qZh": "palu- 的被动分词大概作？",
+     "aZh": "?paluina。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "u-stem-verbs",
+    "unitIds": [
+     3
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "uv-inf",
+   "sourceSectionId": "u-stem-verbs",
+   "titleZh": "33 · 不定式：?palo",
+   "leadZh": "按 U 词干名词的规则，绝对词末 -u 变 -o，故 palu- 的不定式大概是 ?palo。",
+   "objectives": [
+    "能写 ?palo、?paluta",
+    "知道带词尾时仍作 palu-"
+   ],
+   "rules": [
+    {
+     "id": "r-uv13",
+     "headZh": "规则",
+     "bodyZh": "U 词干名词原以短 -u 结尾，词末变 -o；用到动词上，palu- 的不定式可设想为 ?palo。",
+     "en": "?palo",
+     "zh": "（不定式）展开。",
+     "exampleZh": "?palo"
+    },
+    {
+     "id": "r-uv14",
+     "headZh": "带词尾",
+     "bodyZh": "词尾前仍作 palu-：?paluta、带宾语词尾 ?palutas「to expand it」。",
+     "en": "?palutas",
+     "zh": "去展开它。",
+     "exampleZh": "?paluta／?palutas"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 ?palo 当确定形式",
+     "right": "原文用 could conceivably",
+     "whyZh": "原文：the infinitive of palu- could conceivably be ?palo。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "与名词规则的一致性",
+     "bodyZh": "上一课 angо／angu- 的交替，本课原样搬到动词上。作者反复用「同一原则」，正是为了让推测有据。"
+    }
+   ],
+   "recapZh": "?palo（不定式）；?paluta、?palutas。",
+   "selfCheckZh": [
+    {
+     "qZh": "palu- 的不定式大概作？",
+     "aZh": "?palo。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "u-stem-verbs",
+    "unitIds": [
+     4
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "uv-aorist",
+   "sourceSectionId": "u-stem-verbs",
+   "titleZh": "34 · 不定过去时：?palo 还是 ?palwë",
+   "leadZh": "按 i 词干的平行规则，palu- 的不定过去时应作 ?palo；但 niquë 这个形式指向另一条路。",
+   "objectives": [
+    "能写 ?palo、?palur",
+    "知道 niquë 带来的问题"
+   ],
+   "rules": [
+    {
+     "id": "r-uv15",
+     "headZh": "类推",
+     "bodyZh": "短末 -i → -ë 与短末 -u → -o 平行，故 palu- 的不定过去时当作 ?palo（与不定式同形）。",
+     "en": "?palo",
+     "zh": "（它）展开。",
+     "exampleZh": "?palo"
+    },
+    {
+     "id": "r-uv16",
+     "headZh": "带词尾",
+     "bodyZh": "词尾前作 ?palu-：palur（复数主语）、palun／palunyë（我）、palus（他／她／它）。",
+     "en": "palur",
+     "zh": "（它们）展开。",
+     "exampleZh": "palur／palun／palus"
+    },
+    {
+     "id": "r-uv17",
+     "headZh": "反证 niquë",
+     "bodyZh": "托尔金引 nicu- 时也给 niquë「it is cold」，这可能是 nicu- 的不定过去时：nicui > nicwi → niquë。",
+     "en": "niquë",
+     "zh": "天冷。",
+     "exampleZh": "niquë"
+    },
+    {
+     "id": "r-uv18",
+     "headZh": "理论的麻烦",
+     "bodyZh": "若 U 词干也接 -i，则「-i 只是弥补基本动词没有词尾」的简化理论就站不住——U 词干明明有 -u。",
+     "en": "This 'simplified' view is not wholly unproblematic",
+     "zh": "这个「简化」看法并非全无问题。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 ?palo 已确定",
+     "right": "niquë 提示可能作 ?palwë",
+     "whyZh": "原文把两条路都摆出来，并承认旧理论在此失效。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "作者自引旧警告",
+     "bodyZh": "他特意提到第七课说过「这个简化看法大多数时候管用」。现在到了它不管用的地方——这种自我呼应让全书读起来像一条连续的推理。"
+    }
+   ],
+   "recapZh": "?palo／?palwë；niquë 是关键反证。",
+   "selfCheckZh": [
+    {
+     "qZh": "niquë 对应哪个动词？",
+     "aZh": "nicu-。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "u-stem-verbs",
+    "unitIds": [
+     5
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "uv-aorist2",
+   "sourceSectionId": "u-stem-verbs",
+   "titleZh": "35 · hlapu-、nurru- 怎么办",
+   "leadZh": "若原始语就接 -i，hlapu-、nurru- 会变成不可能的 **hlapwë、**nurrwë。也许双元音 ui 一律保留。",
+   "objectives": [
+    "知道这个死结",
+    "知道 ?nurrui 只是猜想"
+   ],
+   "rules": [
+    {
+     "id": "r-uv19",
+     "headZh": "死结",
+     "bodyZh": "若 hlapu-、nurru- 在原始语就接 -i，几乎不可能演变成 **nurrwë 或 **hlapwë。",
+     "en": "**nurrwë",
+     "zh": "（不可能的形式）nurrwë。"
+    },
+    {
+     "id": "r-uv20",
+     "headZh": "另一可能",
+     "bodyZh": "也许原来的双元音 ui 在所有位置保留，得 ?nurrui、?hlapui，词末也不变 -ë。",
+     "en": "?nurrui",
+     "zh": "（可能形式）低语。",
+     "exampleZh": "?nurrui／?hlapui"
+    },
+    {
+     "id": "r-uv21",
+     "headZh": "自认",
+     "bodyZh": "作者说这已进入「极端推测」的领域。",
+     "en": "we have now entered the realm of Extreme Speculation",
+     "zh": "我们现在已进入极端推测的领域。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "在写作中使用 ?nurrui",
+     "right": "这是推测，不宜实用",
+     "whyZh": "原文自称 Extreme Speculation。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "推测的层次",
+     "bodyZh": "作者用 speculative、Extreme Speculation 等词分级。读的时候要能分辨哪一层可以放心用、哪一层只能看懂。"
+    }
+   ],
+   "recapZh": "?nurrui／?hlapui 属极端推测。",
+   "selfCheckZh": [
+    {
+     "qZh": "**nurrwë 为什么不可能？",
+     "aZh": "昆雅不允许这样的辅音丛加词尾。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "u-stem-verbs",
+    "unitIds": [
+     6
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "uv-present",
+   "sourceSectionId": "u-stem-verbs",
+   "titleZh": "36 · 现在时：nurrua 与 pálua",
+   "leadZh": "《Markirya》把 nurrula 改成 nurrua，透露 -a 可加在 U 词干上；palu- 的现在时当作 pálua。",
+   "objectives": [
+    "能写 nurrua、pálua",
+    "知道现在时＝拉长＋-a"
+   ],
+   "rules": [
+    {
+     "id": "r-uv22",
+     "headZh": "现在时的构成",
+     "bodyZh": "现在时由拉长词干元音（如可能）并加词尾 -a 构成，如 síla「is shining」。",
+     "en": "síla",
+     "zh": "正在闪耀。",
+     "exampleZh": "síla"
+    },
+    {
+     "id": "r-uv23",
+     "headZh": "nurrua",
+     "bodyZh": "《Markirya》最后一版把 nurrula 改成 nurrua（MC:222 注），透露 -a 可加在 U 词干上。",
+     "en": "nurrua",
+     "zh": "正在低语。",
+     "exampleZh": "nurrula → nurrua"
+    },
+    {
+     "id": "r-uv24",
+     "headZh": "pálua",
+     "bodyZh": "palu- 的现在时很可能作 pálua「is expanding」。",
+     "en": "pálua",
+     "zh": "正在展开。",
+     "exampleZh": "pálua"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把词干元音拉长写成 núrrua 之类",
+     "right": "nurrua（不能拉长）",
+     "whyZh": "与分词同理，后随辅音丛不允许拉长。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一处修订的价值",
+     "bodyZh": "nurrula → nurrua 这处看似无意义的改动，却给出了 -a 可接 U 词干的唯一证据。作者善于从「编辑细节」里挖语法信息。"
+    }
+   ],
+   "recapZh": "nurrua、pálua。",
+   "selfCheckZh": [
+    {
+     "qZh": "palu- 的现在时？",
+     "aZh": "pálua。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "u-stem-verbs",
+    "unitIds": [
+     7
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "uv-past",
+   "sourceSectionId": "u-stem-verbs",
+   "titleZh": "37 · 过去时：加 -në",
+   "leadZh": "1915 年《Qenya Lexicon》列 allunë 为 allu-「洗」的过去时，说明过去时用 -në。",
+   "objectives": [
+    "能写 allunë",
+    "知道这只用于「译自昆雅」练习"
+   ],
+   "rules": [
+    {
+     "id": "r-uv25",
+     "headZh": "证据",
+     "bodyZh": "《Qenya Lexicon》（1915）列 allunë 为 allu-「wash」的过去时（QL:30）。",
+     "en": "allunë",
+     "zh": "洗了。",
+     "exampleZh": "allu-／allunë"
+    },
+    {
+     "id": "r-uv26",
+     "headZh": "适用范围",
+     "bodyZh": "这个系统只用于「译自昆雅」练习，以免诱使学生自造不确定的动词形式。",
+     "en": "only in the Translate-from-Quenya section",
+     "zh": "只用在译自昆雅部分。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "在「译成昆雅」题里用 ?palunë",
+     "right": "练习只要求译自昆雅时认出 -në",
+     "whyZh": "原文明确限定了使用范围。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "作者的自我保护",
+     "bodyZh": "他宁可缩小练习范围，也不让学生写出没把握的形式。这种「不教不确定的东西」的态度贯穿全书。"
+    }
+   ],
+   "recapZh": "allunë；过去时用 -në。",
+   "selfCheckZh": [
+    {
+     "qZh": "allu- 的过去时？",
+     "aZh": "allunë。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "u-stem-verbs",
+    "unitIds": [
+     8
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "uv-perfect",
+   "sourceSectionId": "u-stem-verbs",
+   "titleZh": "38 · 完成时：unurrië 还是 ?unurruië",
+   "leadZh": "增音＋拉长得 unurr-、apál-。词尾 -ië 大概会取代末 -u，得 unurrië、apálië。",
+   "objectives": [
+    "能写 unurrië、apálië",
+    "知道 ?apáluië 为何不行"
+   ],
+   "rules": [
+    {
+     "id": "r-uv27",
+     "headZh": "开头",
+     "bodyZh": "增音前缀照常加，元音如可能则拉长：palu-、nurru- 的完成时以 apál-、unurr- 开头。",
+     "en": "apál-",
+     "zh": "（完成时词干）已展开。"
+    },
+    {
+     "id": "r-uv28",
+     "headZh": "-ië 的处理",
+     "bodyZh": "词尾 -ië 加到 A 词干上时取代末 -a，故很可能也取代 U 词干的末 -u：unurrië、apálië。",
+     "en": "unurrië",
+     "zh": "已低语。",
+     "exampleZh": "unurrië／apálië"
+    },
+    {
+     "id": "r-uv29",
+     "headZh": "为何不是 ?apáluië",
+     "bodyZh": "新双元音 ui 会吸引重音，使前面的 á 完全失去重音；而长元音不能在完全无重音的音节里（除非是首音节）。",
+     "en": "a phonological rule prohibiting a long vowel in a completely unstressed syllable",
+     "zh": "一条音系规则禁止长元音出现在完全无重音的音节里。"
+    },
+    {
+     "id": "r-uv30",
+     "headZh": "名词形式",
+     "bodyZh": "作为纯动词名词的「mumbling」几乎肯定作 nurrulë（抽象词尾 -lë）。",
+     "en": "nurrulë",
+     "zh": "低语（名词）。",
+     "exampleZh": "nurrulë"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写成 ?apáluië",
+     "right": "apálië",
+     "whyZh": "原文用音系规则排除 ?apáluië。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "重音又一次当裁判",
+     "bodyZh": "与第 16 课 -tá- 的拉长、第 17 课 ?elviëinen 的塌缩一样，这里也是重音决定形态。全书三次出现同一动因，可见其重要性。"
+    }
+   ],
+   "recapZh": "unurrië、apálië；nurrulë。",
+   "selfCheckZh": [
+    {
+     "qZh": "palu- 的完成时？",
+     "aZh": "apálië。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "u-stem-verbs",
+    "unitIds": [
+     9
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "uv-future",
+   "sourceSectionId": "u-stem-verbs",
+   "titleZh": "39 · 将来时：paluva 还是 palúva",
+   "leadZh": "将来时词尾 -uva 与词干末 -u 相遇：或直接合并成 paluva，或合成一个长 ú 得 palúva。",
+   "objectives": [
+    "知道两种可能",
+    "知道这是推测"
+   ],
+   "rules": [
+    {
+     "id": "r-uv31",
+     "headZh": "两种可能",
+     "bodyZh": "词尾 -uva 的 -u- 或与词干末 -u 直接合并得 paluva，或两个 u 合成一个长 ú 得 palúva。",
+     "en": "paluva",
+     "zh": "将展开。",
+     "exampleZh": "paluva／palúva"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 palúva 当确定形式",
+     "right": "两者都只是推测",
+     "whyZh": "原文：we can only speculate。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "本节到此为止",
+     "bodyZh": "从主动分词（确定）到将来时（纯推测），确定性一路下降。这个递减曲线本身就是本节最该记住的东西。"
+    }
+   ],
+   "recapZh": "paluva／palúva（推测）。",
+   "selfCheckZh": [
+    {
+     "qZh": "palu- 的将来时有几种可能？",
+     "aZh": "两种：paluva 或 palúva。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "u-stem-verbs",
+    "unitIds": [
+     10
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "la-head",
+   "sourceSectionId": "u-stem-verbs",
+   "titleZh": "40 · 小标题：LÁ 的种种用法",
+   "leadZh": "原文此处换小标题。它标记本课第三条主线：独立否定词 lá。",
+   "objectives": [
+    "知道这一节讲什么",
+    "知道它接在 U 词干动词之后"
+   ],
+   "rules": [
+    {
+     "id": "r-la1",
+     "headZh": "标题",
+     "bodyZh": "小标题作 THE VARIOUS USES OF LÁ，即「lá 的种种用法」。",
+     "en": "THE VARIOUS USES OF LÁ",
+     "zh": "LÁ 的种种用法。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为本节还在讲 U 词干动词",
+     "right": "本节讲否定词 lá",
+     "whyZh": "小标题本身即宣告换题。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "为什么放在这里",
+     "bodyZh": "上一段讲将来时，与否定无关。作者在此换题，是因为本课的语法块（代词、无人称、U 词干动词）已经讲完，剩下的是最常用的功能词。"
+    }
+   ],
+   "recapZh": "本节：lá 的两种功能。",
+   "selfCheckZh": [
+    {
+     "qZh": "本节讲哪个词？",
+     "aZh": "lá。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "u-stem-verbs",
+    "unitIds": [
+     11
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "la-intro",
+   "sourceSectionId": "u-stem-verbs",
+   "titleZh": "41 · lá：与否定动词并存",
+   "leadZh": "第九课介绍过 um-。昆雅也有单独的 lá「not」，也可表「no」。",
+   "objectives": [
+    "知道 um- 与 lá 并存",
+    "知道 lá 可表 no"
+   ],
+   "rules": [
+    {
+     "id": "r-la2",
+     "headZh": "否定动词",
+     "bodyZh": "第九课介绍 um-「not do, not be」：过去时 úmë、将来时 úva。",
+     "en": "um-",
+     "zh": "不（做／是）。",
+     "exampleZh": "um-／úmë／úva"
+    },
+    {
+     "id": "r-la3",
+     "headZh": "独立否定词",
+     "bodyZh": "昆雅也有单独的「not」一词 lá（非重读作 la），也可用于「no」。",
+     "en": "lá",
+     "zh": "不。",
+     "exampleZh": "lá／la"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为否定只能用 um-",
+     "right": "也有独立否定词 lá",
+     "whyZh": "原文：using the negative verb is not the only option。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "两条否定路线",
+     "bodyZh": "本节后面全部在比较 um-（否定动词＋不定式）与 lá（插一个词）。记住这个二分，其余都是细节。"
+    }
+   ],
+   "recapZh": "um-（否定动词）与 lá（独立否定词）并存。",
+   "selfCheckZh": [
+    {
+     "qZh": "昆雅的「not」一词？",
+     "aZh": "lá（非重读 la）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "u-stem-verbs",
+    "unitIds": [
+     12
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "la-two",
+   "sourceSectionId": "u-stem-verbs",
+   "titleZh": "42 · 两种否定的构造",
+   "leadZh": "um- 接时态与代词词尾、被否定动词用不定式；lá 则让动词照常变化，只多插一个词。",
+   "objectives": [
+    "能写 Úmen lelya、lá lenden",
+    "知道 lá 的偏好位置"
+   ],
+   "rules": [
+    {
+     "id": "r-la4",
+     "headZh": "用 um-",
+     "bodyZh": "um- 接相关时态与代词词尾，被否定的动词用不定式：Úmen lelya「I didn't go」。",
+     "en": "Úmen lelya",
+     "zh": "我没去。",
+     "exampleZh": "Úmen lelya"
+    },
+    {
+     "id": "r-la5",
+     "headZh": "用 lá",
+     "bodyZh": "用 lá 时，被否定的动词照常接全部词尾：lá lenden ＝「I didn't go」。",
+     "en": "lá lenden",
+     "zh": "我没去。",
+     "exampleZh": "lá lenden"
+    },
+    {
+     "id": "r-la6",
+     "headZh": "位置",
+     "bodyZh": "偏好的词序是把 lá 放在被否定的动词前；lenden lá 也许也可接受，但有歧义时不该用。",
+     "en": "the preferred word order is to place lá before the verb",
+     "zh": "偏好的词序是把 lá 放在动词前。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "写成 lá úmen lelya",
+     "right": "二选一：Úmen lelya 或 lá lenden",
+     "whyZh": "原文把两种构造分得很清，不可混用。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "成本对比",
+     "bodyZh": "用 lá 只需插一个词，用 um- 要改变动词形式。作者说这就是他把 lá 放到这么晚才教的原因——怕学生「被惯坏」。"
+    }
+   ],
+   "recapZh": "Úmen lelya／lá lenden。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我没去」的两种写法？",
+     "aZh": "Úmen lelya；lá lenden。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "u-stem-verbs",
+    "unitIds": [
+     13
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "la-easier",
+   "sourceSectionId": "u-stem-verbs",
+   "titleZh": "43 · 什么时候该用 lá",
+   "leadZh": "lá 更容易构造，但有时该避免。现在时与完成时尤其适合用 lá，因为 um- 的形式不确定或别扭。",
+   "objectives": [
+    "知道 lá 的两个适用场合",
+    "知道 úma 的别扭"
+   ],
+   "rules": [
+    {
+     "id": "r-la7",
+     "headZh": "更容易",
+     "bodyZh": "用 lá 显然比否定动词＋不定式更容易：从肯定句出发，塞进一个词即可。",
+     "en": "one simply starts with the non-negated sentence and slips in one extra word",
+     "zh": "从肯定句出发，塞进一个额外的词。"
+    },
+    {
+     "id": "r-la8",
+     "headZh": "现在时",
+     "bodyZh": "把 um- 构造成现在时得 úma，很别扭；不如从 i Elda tíra i Nauco 出发加 lá：I Elda lá tíra i Nauco。",
+     "en": "I Elda lá tíra i Nauco",
+     "zh": "精灵没有在看矮人。",
+     "exampleZh": "úma／I Elda lá tíra i Nauco"
+    },
+    {
+     "id": "r-la9",
+     "headZh": "完成时",
+     "bodyZh": "um- 的完成时形式不确定（?úmië 还是 ?umúmië），故「I have not come」最好作 lá utúlien。",
+     "en": "lá utúlien",
+     "zh": "我没有来（完成）。",
+     "exampleZh": "?úmië／?umúmië／lá utúlien"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "硬造 ?umúmië",
+     "right": "改用 lá utúlien",
+     "whyZh": "原文说 (um)úmien tulë 虽可懂但构造怪异。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "不确定时的策略",
+     "bodyZh": "当一条路的形式不确定，就走另一条确定的路。这与第 16 课「只用可证形式」是同一种实用主义。"
+    }
+   ],
+   "recapZh": "现在时与完成时宜用 lá。",
+   "selfCheckZh": [
+    {
+     "qZh": "「我没有来」？",
+     "aZh": "Lá utúlien。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "u-stem-verbs",
+    "unitIds": [
+     14
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "la-attach",
+   "sourceSectionId": "u-stem-verbs",
+   "titleZh": "44 · lá 连到哪个动词",
+   "leadZh": "alasaila ná lá carë tai mo navë mára 应切分为「is unwise」＋「not to do...」，不能读成「is not」。",
+   "objectives": [
+    "能正确切分这句",
+    "知道误译的陷阱"
+   ],
+   "rules": [
+    {
+     "id": "r-la10",
+     "headZh": "句子",
+     "bodyZh": "alasaila ná lá carë tai mo navë mára 译作「it is unwise not to do what one judges good」（VT42:34）。",
+     "en": "alasaila ná lá carë tai mo navë mára",
+     "zh": "不做自己认为好的事是不智的。"
+    },
+    {
+     "id": "r-la11",
+     "headZh": "mo 与 tai",
+     "bodyZh": "mo 是不定代词「somebody, one」（quen 的替代）；tai 也许是 ta-i「that-which」。",
+     "en": "mo",
+     "zh": "某人、人。",
+     "exampleZh": "mo／tai"
+    },
+    {
+     "id": "r-la12",
+     "headZh": "切分",
+     "bodyZh": "不能把 ná lá 读成「is not」，否则误译成「it is not unwise to do...」。",
+     "en": "it might be tempting to interpret the words ná lá as a connected phrase \"is not\"",
+     "zh": "很容易把 ná lá 读成「is not」。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "译成「做……并非不智」",
+     "right": "「不做……是不智的」",
+     "whyZh": "原文明确指出这是 mistranslate。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "否定的辖域",
+     "bodyZh": "lá 否定的是它后面的动词，不是前面的系词。这条判断靠语序，也靠语义——两种读法意思相反，必须选通的那个。"
+    }
+   ],
+   "recapZh": "lá 否定后面的动词，不否定 ná。",
+   "selfCheckZh": [
+    {
+     "qZh": "alasaila ná lá carë... 怎么译？",
+     "aZh": "不做……是不智的。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "u-stem-verbs",
+    "unitIds": [
+     15
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "la-inf",
+   "sourceSectionId": "u-stem-verbs",
+   "titleZh": "45 · lá 否定不定式与 gerund",
+   "leadZh": "lá 也能否定不定式（lá caritas），甚至 -ta 扩展不定式（lá carita）。",
+   "objectives": [
+    "能读 lá caritas、lá carita",
+    "知道 carita 在此作 gerund"
+   ],
+   "rules": [
+    {
+     "id": "r-la13",
+     "headZh": "否定不定式",
+     "bodyZh": "lá 可否定不定式：lá caritas, navin, alasaila ná ＝「not to do it, I deem, unwise is」。",
+     "en": "lá caritas, navin, alasaila ná",
+     "zh": "我认为不做它是不智的。",
+     "exampleZh": "lá caritas"
+    },
+    {
+     "id": "r-la14",
+     "headZh": "扩展不定式",
+     "bodyZh": "lá 也能否定不带宾语词尾的 -ta 扩展不定式：lá carita i hamil mára alasaila ná（VT42:33）。",
+     "en": "lá carita i hamil mára alasaila ná",
+     "zh": "不做你认为好的事是不智的。",
+     "exampleZh": "lá carita"
+    },
+    {
+     "id": "r-la15",
+     "headZh": "gerund",
+     "bodyZh": "很可能 lá 也能否定 -ië gerund：也许 lá carië i hamil mára… 同样可能。",
+     "en": "lá carië",
+     "zh": "不做。",
+     "exampleZh": "lá carië"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 lá 只能否定限定动词",
+     "right": "不定式、扩展不定式、gerund 都可",
+     "whyZh": "原文连给三例，并说 gerund 也「very likely」可以。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "从语料推范围",
+     "bodyZh": "三例都出自 VT42。作者由「可证的三种」推到「大概也适用于 gerund」，并标明这是推测。"
+    }
+   ],
+   "recapZh": "lá caritas、lá carita、lá carië。",
+   "selfCheckZh": [
+    {
+     "qZh": "「不做它」用 lá 怎么写？",
+     "aZh": "lá caritas（或 lá carita）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "u-stem-verbs",
+    "unitIds": [
+     16
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "la-short",
+   "sourceSectionId": "u-stem-verbs",
+   "titleZh": "46 · 短形式 la",
+   "leadZh": "唯一确定的 la 见于 la navin caritalyas mára「我不认为你那样做是好的」。",
+   "objectives": [
+    "能读这句",
+    "知道 la 不承重音"
+   ],
+   "rules": [
+    {
+     "id": "r-la16",
+     "headZh": "唯一证据",
+     "bodyZh": "la 唯一确定的证据是 la navin caritalyas mára「I don't judge your doing it good」（VT42:33）。",
+     "en": "la navin caritalyas mára",
+     "zh": "我不认为你那样做是好的。"
+    },
+    {
+     "id": "r-la17",
+     "headZh": "重音",
+     "bodyZh": "主重音大概落在 navin 的第一音节，否定词 la 不承重音。",
+     "en": "the negation la receiving no stress",
+     "zh": "否定词 la 不承重音。"
+    },
+    {
+     "id": "r-la18",
+     "headZh": "练习取舍",
+     "bodyZh": "否定词如此重要，通常该有重音，故练习里一律用长形式 lá。",
+     "en": "I have consistently used the long/accented form lá",
+     "zh": "我一律用长／带重音的形式 lá。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "在练习里用 la",
+     "right": "用 lá",
+     "whyZh": "原文明确说练习里一律用 lá。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "重音与语义",
+     "bodyZh": "否定词完全反转句义，却可能不承重音——这确实反常。作者的取舍是：既然反常，就统一用长形式。"
+    }
+   ],
+   "recapZh": "la navin caritalyas mára；练习用 lá。",
+   "selfCheckZh": [
+    {
+     "qZh": "la 为什么不常用？",
+     "aZh": "它不承重音，与语义重要性不符。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "u-stem-verbs",
+    "unitIds": [
+     17
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "la-clash",
+   "sourceSectionId": "u-stem-verbs",
+   "titleZh": "47 · 两个 lá 的冲突",
+   "leadZh": "另一个 lá 是「beyond」，用于比较。托尔金曾因此放弃否定词 lá，晚年又引回。",
+   "objectives": [
+    "知道 lá 的双重功能",
+    "知道托尔金曾放弃它"
+   ],
+   "rules": [
+    {
+     "id": "r-la19",
+     "headZh": "另一个 lá",
+     "bodyZh": "短形式 la 的好处是不会与另一个 lá 冲突，后者用于比较短语。",
+     "en": "which is used in phrases having to do with comparison",
+     "zh": "后者用于与比较有关的短语。"
+    },
+    {
+     "id": "r-la20",
+     "headZh": "托尔金的困扰",
+     "bodyZh": "据 Welden《Negation in Quenya》（VT42:32-34），托尔金确为此困扰，一度放弃否定词 lá，晚年又引回。",
+     "en": "he actually abandoned the negation lá",
+     "zh": "他真的放弃了否定词 lá。"
+    },
+    {
+     "id": "r-la21",
+     "headZh": "可分辨",
+     "bodyZh": "凭上下文，区分两个 lá 几乎不难。",
+     "en": "it is hardly difficult to distinguish between the two lá's",
+     "zh": "区分两个 lá 几乎不难。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "以为 lá 只有一个意思",
+     "right": "否定词与介词两义并存",
+     "whyZh": "原文说 we must live with the double function。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "一个词的两种命运",
+     "bodyZh": "托尔金先废后复，说明他也曾想避免同形冲突。作者把这个过程写出来，是为了让读者知道「双义」不是设计，而是历史遗留。"
+    }
+   ],
+   "recapZh": "lá＝not 与 beyond；靠上下文分辨。",
+   "selfCheckZh": [
+    {
+     "qZh": "两个 lá 分别是什么？",
+     "aZh": "否定词「不」与介词「beyond」。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "u-stem-verbs",
+    "unitIds": [
+     18
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "la-beyond",
+   "sourceSectionId": "u-stem-verbs",
+   "titleZh": "48 · 比较式：A calima lá B",
+   "leadZh": "「A 比 B 亮」作 A (ná) calima lá B，字面是「A 亮，超出 B」。calima 是原级，lá 本义是「beyond」。",
+   "objectives": [
+    "能写 Anar ná calima lá Isil",
+    "知道 calima 不是比较级"
+   ],
+   "rules": [
+    {
+     "id": "r-la22",
+     "headZh": "公式",
+     "bodyZh": "「A (ná) calima lá B」可用于「A is brighter than B」，系词 ná 可省略。",
+     "en": "A (ná) calima lá B",
+     "zh": "A 比 B 亮。"
+    },
+    {
+     "id": "r-la23",
+     "headZh": "例句",
+     "bodyZh": "Anar ná calima lá Isil「[the] Sun is brighter than [the] Moon」。",
+     "en": "Anar ná calima lá Isil",
+     "zh": "太阳比月亮亮。",
+     "exampleZh": "Anar ná calima lá Isil"
+    },
+    {
+     "id": "r-la24",
+     "headZh": "两处差异",
+     "bodyZh": "calima 是原级「bright」而非比较级；lá 本义是介词「beyond」，故原句意为「the Sun is bright beyond the Moon」。",
+     "en": "lá does not really mean \"than\"",
+     "zh": "lá 并不真的意为 than。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 calima 当比较级",
+     "right": "它是原级，比较由 lá 承担",
+     "whyZh": "原文明确指出我们还不确定比较级长什么样。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "「超出」而非「比」",
+     "bodyZh": "昆雅用空间隐喻表达比较：不是「更亮」，而是「亮，超出月亮」。理解这一点，就不会去找比较级词尾。"
+    }
+   ],
+   "recapZh": "A calima lá B＝A 比 B 亮。",
+   "selfCheckZh": [
+    {
+     "qZh": "「太阳比月亮亮」？",
+     "aZh": "Anar ná calima lá Isil。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "u-stem-verbs",
+    "unitIds": [
+     19
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "la-both",
+   "sourceSectionId": "u-stem-verbs",
+   "titleZh": "49 · 两个 lá 同时出现",
+   "leadZh": "I mindon lá ná halla lá i oron「塔不比山高」——两个 lá 一否一「超出」。",
+   "objectives": [
+    "能读这句",
+    "知道 epë 的问题"
+   ],
+   "rules": [
+    {
+     "id": "r-la25",
+     "headZh": "句子",
+     "bodyZh": "I mindon lá ná halla lá i oron「the tower is not taller than the mountain」（字面「…tall beyond the mountain」）。",
+     "en": "I mindon lá ná halla lá i oron",
+     "zh": "塔不比山高。"
+    },
+    {
+     "id": "r-la26",
+     "headZh": "改用否定动词",
+     "bodyZh": "这里用否定动词更可取，哪怕只为文体：I mindon umë halla lá i oron。",
+     "en": "I mindon umë halla lá i oron",
+     "zh": "塔不比山高（用 um-）。"
+    },
+    {
+     "id": "r-la27",
+     "headZh": "epë 的问题",
+     "bodyZh": "据说比较短语里可用 epë「before」代替 lá「beyond」，但 Welden 文章误释为「after」；epë 有不确定性，故本书仍用 lá。",
+     "en": "epë",
+     "zh": "在……之前。",
+     "exampleZh": "epë"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "相信 epë 一定等于「beyond」",
+     "right": "它的意义有争议，本书不用",
+     "whyZh": "原文说 because of the uncertainties relating to epë, we will let it rest in peace。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "同时含两义的句子",
+     "bodyZh": "这句是本节的收束：两个 lá 各司其职，读者靠位置分辨。作者用它证明「双义」在实际句子里并不真造成麻烦。"
+    }
+   ],
+   "recapZh": "I mindon lá ná halla lá i oron。",
+   "selfCheckZh": [
+    {
+     "qZh": "这句里两个 lá 各是什么？",
+     "aZh": "第一个「不」，第二个「beyond」。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "u-stem-verbs",
+    "unitIds": [
+     20
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "summary",
+   "sourceSectionId": "u-stem-verbs",
+   "kind": "summary",
+   "titleZh": "50 · 本课小结",
+   "leadZh": "四块收成一张清单：独立代词、无人称动词、U 词干动词、lá。英文小结逐字取自原文。",
+   "objectives": [
+    "能背五个独立代词及其宾格",
+    "能造 orë nin／mauya nin 这类无人称句",
+    "能写 U 词干动词的分词与过去时",
+    "能区分 lá 的两种功能"
+   ],
+   "summaryEn": "Summary of Lesson Eighteen: In addition to the pronominal endings discussed earlier in this course, Quenya also has various independent pronouns (see Vocabulary section below). A pronoun like me \"we\" or \"us\" can receive endings for case (e.g. dative men \"for us, to us\", locative messë \"on us\") or, where two persons are concerned, dual endings (e.g. met \"[the two of] us\"). – Some Quenya verbs are impersonal, requiring no subject, but where someone is nonetheless affected by the verbal action, this someone can be mentioned as a dative form: Ora nin = \"[it] impels for me\" = \"I feel moved [to do something]\". – Quenya U-stem verbs, like hlapu- \"fly [in the wind]\", form a particularly obscure group of verbs. The only thing that is known with full certainty about them is that the active participle is formed by means of the normal ending -la, combined with lengthening of the main vowel of the verb (unless it has to remain short because of a following consonant cluster; thus the participle of nurru- \"grumble\" is simply nurrula, though the participle of hlapu- is hlápula). Early material suggests that the past tense of U-stem verbs is formed by adding the past tense ending -në, though we have no examples from the more LotR-compatible forms of Quenya. – The word lá has various uses. It can be used as a negation \"not\" (and then it is apparently placed in front of the word, usually the verb, that is to be negated). Lá is also a preposition \"beyond\", and as such it is used in phrases having to do with comparison – VT42:32 citing the formula \"A ná calima lá B\" for \"A is brighter than B\" (literally \"A is bright beyond B\" – notice that the adjective calima \"bright\" appears in its simplest form, with no ending corresponding to the -er of \"brighter\").",
+   "summaryZh": "第十八课小结：除本课程前面讨论的代词词尾外，昆雅还有各种独立代词（见词汇节）。像 me「we」或「us」这样的代词能接格词尾（如与格 men、位格 messë），或在涉及两人时接双数词尾（如 met）。——有些昆雅动词是无人称的，不需要主语，但若有人仍受该动作影响，此人可以以与格形式出现：Ora nin ＝「[它]推动我（与格）」＝「我感到被推动」。——昆雅 U 词干动词（如 hlapu-）构成一个特别晦涩的动词群。关于它们完全确定知道的只有一点：主动分词用常规词尾 -la 构成，并拉长动词主元音（除非因后随辅音丛必须保持短；故 nurru- 的分词只是 nurrula，而 hlapu- 的分词是 hlápula）。早期材料表明 U 词干动词的过去时由加过去时词尾 -në 构成，虽然我们没有来自更接近 LotR 的昆雅形式的例子。——lá 一词有种种用法。它可作否定词「not」（此时显然置于要被否定的词之前）。lá 也是介词「beyond」，如此用于与比较有关的短语——VT42:32 引公式「A ná calima lá B」表「A is brighter than B」（字面「A is bright beyond B」——注意 calima 以最简形式出现，没有对应 brighter 的 -er 的词尾）。",
+   "formulaZh": [
+    "独立代词：ni／nye、le、tye、me、te（接格作 tie-）。",
+    "带格：nin、ninna、nillo、nissë、ninen；men、mello、messë；ment、menta、melto。",
+    "L 形式（-lyë、le）＝礼貌／复数；T 形式（tye、-t）＝亲昵／单数。二者不可混用。",
+    "无人称：orë nin caritas、óla i venden Eldaron、mauya nin lelya、ulya「在下雨」。",
+    "U 词干动词：hlápula／nurrula；?paluina；?palo；nurrua／pálua；allunë；unurrië／apálië。",
+    "否定：um- ＋不定式（Úmen lelya）或 lá ＋ 正常动词（lá lenden）。",
+    "比较：A calima lá B＝A 比 B 亮；lá 本义「beyond」。"
+   ],
+   "pitfalls": [
+    {
+     "wrong": "混用 tye 与 -lyë",
+     "right": "选定一套",
+     "whyZh": "原文：the \"T\" forms are hardly interchangeable with the \"L\" forms。"
+    },
+    {
+     "wrong": "把 alasaila ná lá carë 读成「is not」",
+     "right": "「is」＋「not to do」",
+     "whyZh": "原文指出这是 mistranslate。"
+    }
+   ],
+   "recapZh": "ni／nye、le、tye、me、te；orë nin；hlápula；lá＝not／beyond。",
+   "selfCheckZh": [
+    {
+     "qZh": "「给我们」？",
+     "aZh": "men。"
+    },
+    {
+     "qZh": "「我感到被推动去做」？",
+     "aZh": "Orë nin caritas。"
+    },
+    {
+     "qZh": "hlapu- 的主动分词？",
+     "aZh": "hlápula。"
+    },
+    {
+     "qZh": "「太阳比月亮亮」？",
+     "aZh": "Anar ná calima lá Isil。"
+    }
+   ]
+  },
+  {
+   "sectionId": "exercises",
+   "sourceSectionId": "exercises",
+   "titleZh": "51 · 练习 A–P",
+   "leadZh": "A–H 译成英语，I–P 译成昆雅。答案逐字取自 keys.rtf，可用工作台核对。",
+   "objectives": [
+    "能独立完成 A–P",
+    "能用 keys 逐题核对"
+   ],
+   "rules": [
+    {
+     "id": "r-ex18-1",
+     "headZh": "翻译约定",
+     "bodyZh": "练习与答案里 you 对应昆雅「L」形式（复数或礼貌单数），thee 对应亲昵单数宾格 tye。",
+     "en": "we use \"you\" as the English equivalent of Quenya \"L\"-form pronouns",
+     "zh": "用 you 对应昆雅 L 形式代词。"
+    },
+    {
+     "id": "r-ex18-2",
+     "headZh": "否定与主语",
+     "bodyZh": "否定一律用独立否定词 lá，不用否定动词；主语只用代词词尾，不用独立主语代词。",
+     "en": "we will here practice the independent negation lá instead of using the negative verb",
+     "zh": "这里练独立否定词 lá，而不用否定动词。"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "在 I–P 里用 um- 否定",
+     "right": "用 lá",
+     "whyZh": "题前说明明确要求 practice the independent negation lá。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "做题提示",
+     "bodyZh": "A–H 里注意 te／me／le／tye 的区分与 lá 的辖域；I–P 里注意比较用「good beyond」「great beyond」的写法（lá），否定用 lá 前置。"
+    }
+   ],
+   "recapZh": "you＝L 形式、thee＝tye；否定用 lá。",
+   "selfCheckZh": [
+    {
+     "qZh": "「比金子更贵重」用哪个结构？",
+     "aZh": "alta lá malta（great beyond gold）。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "exercises",
+    "unitIds": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15,
+     16,
+     17,
+     18
+    ],
+    "labelZh": "课文"
+   }
+  },
+  {
+   "sectionId": "vocabulary",
+   "sourceSectionId": "vocabulary",
+   "titleZh": "52 · 课末词汇",
+   "leadZh": "本课 12 段词汇：两个序数、urco、lá、五个独立代词、三个动词。",
+   "objectives": [
+    "能读 lempëa、enquëa、urco",
+    "能读 ni／le／tye／me／ta／te",
+    "能读 palu-、or-、óla-"
+   ],
+   "rules": [
+    {
+     "id": "r-v18-1",
+     "headZh": "两个序数",
+     "bodyZh": "lempëa「fifth」、enquëa「sixth」——本课按「每课两个」的进度补足序数。",
+     "en": "lempëa \"fifth\"",
+     "zh": "lempëa「第五」。",
+     "exampleZh": "lempëa／enquëa"
+    },
+    {
+     "id": "r-v18-2",
+     "headZh": "lá 的双义",
+     "bodyZh": "lá 既是否定词「not」，又是介词「beyond」，后者用于比较。",
+     "en": "lá 1) negation \"not\", 2) preposition \"beyond\"",
+     "zh": "lá：1）否定词，2）介词 beyond。",
+     "exampleZh": "lá"
+    },
+    {
+     "id": "r-v18-3",
+     "headZh": "三个动词",
+     "bodyZh": "palu-「expand」（U 词干）、or-／ora-「urge」（无人称）、óla-「dream」（无人称）。",
+     "en": "palu- \"to expand\"",
+     "zh": "palu-「展开」。",
+     "exampleZh": "palu-／or-／óla-"
+    }
+   ],
+   "pitfalls": [
+    {
+     "wrong": "把 ta 与 te 混用",
+     "right": "本书 ta＝it／that，te＝them（指人）",
+     "whyZh": "词汇节明确说明本书采用的分工。"
+    }
+   ],
+   "closeReadingZh": [
+    {
+     "headZh": "词汇与语法的接口",
+     "bodyZh": "本课词汇几乎全是语法工具：五个代词、lá、三个特殊动词。真正的「生词」只有 lempëa、enquëa、urco 三个。"
+    }
+   ],
+   "recapZh": "lempëa、enquëa、urco、lá、ni、le、tye、me、ta、te、palu-、or-、óla-。",
+   "selfCheckZh": [
+    {
+     "qZh": "「第六」？",
+     "aZh": "enquëa。"
+    }
+   ],
+   "bilingual": {
+    "sectionId": "vocabulary",
+    "unitIds": [
+     0,
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11
+    ],
+    "labelZh": "课文"
+   }
+  }
+ ]
+}

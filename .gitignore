@@ -1,0 +1,15 @@
+.DS_Store
+
+# WorkBuddy 本地会话数据（部署记录、代理记忆），不入库
+.workbuddy/
+.workbuddy-ai/
+.wbapp_*.genie
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# 编辑器
+.idea/
+.vscode/

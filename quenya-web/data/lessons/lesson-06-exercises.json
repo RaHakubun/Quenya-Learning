@@ -1,0 +1,356 @@
+{
+  "kind": "translation",
+  "introZh": "A–H 为昆雅译英，I–P 为英译昆雅。全部只考规则过去时：先按动词末辅音分类，再看主语单复数。F、O、P 三题还考复数过去时的 -r。",
+  "pointMapZh": [
+    {
+      "labelZh": "A 词干直接加 -në",
+      "ruleRef": "rule-a-past",
+      "noteZh": "A、C、D、F、N"
+    },
+    {
+      "labelZh": "末辅音 r / n 直接加 -në",
+      "ruleRef": "rule-primary-n",
+      "noteZh": "E、H、I"
+    },
+    {
+      "labelZh": "末辅音 l → -lë",
+      "ruleRef": "rule-l-final",
+      "noteZh": "G、L"
+    },
+    {
+      "labelZh": "末辅音 p / t / c → 鼻音插入",
+      "ruleRef": "rule-nasal-infix",
+      "noteZh": "B、J、K、M"
+    },
+    {
+      "labelZh": "复数过去时加 -r",
+      "ruleRef": "rule-plural-past",
+      "noteZh": "B、E、F、G、O、P"
+    }
+  ],
+  "part1": {
+    "titleZh": "练习一 · 昆雅译英（A–H）",
+    "hintZh": "先看动词末辅音，定出过去时；再看主语单复数，决定要不要加 -r。",
+    "items": [
+      {
+        "id": "A",
+        "prompt": "I nér cendanë i parma.",
+        "pointZh": "A 词干 cenda- 直接加 -në",
+        "hintsZh": [
+          "cenda-「读」以 -a 结尾，属 A 词干。",
+          "A 词干过去时直接加 -në，得 cendanë。",
+          "语序：主语 + 动词 + 宾语。"
+        ],
+        "ruleRef": "rule-a-past",
+        "ruleLabelZh": "回到规则：A 词干加 -në",
+        "answerKey": "The man read the book.",
+        "answerKeyZh": "那个男人读了那本书。",
+        "answerAlt": [
+          "the man read the book",
+          "男人读了那本书",
+          "那个男人读了书"
+        ],
+        "answerZh": "cenda- → cendanë（A 词干直接加 -në）。keys：\"The man read the book.\""
+      },
+      {
+        "id": "B",
+        "prompt": "I Naucor manter.",
+        "pointZh": "mat- 鼻音插入 + 复数 -r",
+        "hintsZh": [
+          "mat- 末辅音是 t，走鼻音插入：mantë。",
+          "主语 Naucor 是复数，故再加 -r 得 manter。",
+          "注意 -ë 的两点消失。"
+        ],
+        "ruleRef": "rule-nasal-infix",
+        "ruleLabelZh": "回到规则：t 前插入 n",
+        "answerKey": "The Dwarves ate.",
+        "answerKeyZh": "那些矮人吃了。",
+        "answerAlt": [
+          "the dwarves ate",
+          "矮人们吃了",
+          "那些矮人吃了东西"
+        ],
+        "answerZh": "mat- → mantë → manter（复数主语加 -r，两点消失）。keys：\"The Dwarves ate.\""
+      },
+      {
+        "id": "C",
+        "prompt": "I aran tultanë i tári.",
+        "pointZh": "A 词干 tulta- 直接加 -në",
+        "hintsZh": [
+          "tulta-「召唤」以 -a 结尾。",
+          "A 词干直接加 -në，得 tultanë；此处不涉及辅音丛问题。",
+          "主语单数，不再加 -r。"
+        ],
+        "ruleRef": "rule-a-past",
+        "ruleLabelZh": "回到规则：A 词干加 -në",
+        "answerKey": "The king summoned the queen.",
+        "answerKeyZh": "那个国王召唤了女王。",
+        "answerAlt": [
+          "the king summoned the queen",
+          "国王召唤了女王",
+          "那位国王召唤了那位女王"
+        ],
+        "answerZh": "tulta- → tultanë。注意第 5 课现在时 tultëa 不拉长元音，但过去时是规则的 -në。keys：\"The king summoned the queen.\""
+      },
+      {
+        "id": "D",
+        "prompt": "Nís lindanë.",
+        "pointZh": "A 词干 linda- 直接加 -në；无冠词",
+        "hintsZh": [
+          "linda-「唱歌」以 -a 结尾。",
+          "加 -në 得 lindanë。",
+          "主语 Nís 前无冠词，故为「一个女人」。"
+        ],
+        "ruleRef": "rule-a-past",
+        "ruleLabelZh": "回到规则：A 词干加 -në",
+        "answerKey": "A woman sang.",
+        "answerKeyZh": "一个女人唱了歌。",
+        "answerAlt": [
+          "a woman sang",
+          "一个女人唱歌了",
+          "有位女人唱了歌"
+        ],
+        "answerZh": "linda- → lindanë；无冠词故译「一个女人」。keys：\"A woman sang.\""
+      },
+      {
+        "id": "E",
+        "prompt": "I vendi tirner i Elda.",
+        "pointZh": "tir- 加 -në；复数主语再加 -r",
+        "hintsZh": [
+          "tir- 末辅音 -r，可直接加 -në 得 tirnë。",
+          "主语 vendi 是复数，加 -r 得 tirner。",
+          "宾语 i Elda 单数，不影响动词。"
+        ],
+        "ruleRef": "rule-primary-n",
+        "ruleLabelZh": "回到规则：r 结尾直接加 -në",
+        "answerKey": "The maidens watched the Elf.",
+        "answerKeyZh": "那些少女看着那个精灵。",
+        "answerAlt": [
+          "the maidens watched the elf",
+          "少女们看着那个精灵",
+          "那些少女看守着那个精灵"
+        ],
+        "answerZh": "tir- → tirnë → tirner（复数主语）。keys：\"The maidens watched the Elf.\""
+      },
+      {
+        "id": "F",
+        "prompt": "I lempë roccor caitaner nu i alta tasar.",
+        "pointZh": "A 词干 caita- 加 -në；复数主语 -r",
+        "hintsZh": [
+          "caita-「躺」是 A 词干，过去时 caitanë。",
+          "主语 roccor 复数，加 -r 得 caitaner。",
+          "nu i alta tasar「在那棵大柳树下」。"
+        ],
+        "ruleRef": "rule-a-past",
+        "ruleLabelZh": "回到规则：A 词干加 -në",
+        "answerKey": "The five horses lay (/?were lying) under the big willow.",
+        "answerKeyZh": "那五匹马躺在那棵大柳树下。",
+        "answerAlt": [
+          "the five horses lay under the big willow",
+          "五匹马躺在大柳树下",
+          "那五匹马躺在那棵大柳树下"
+        ],
+        "answerZh": "caita- → caitanë → caitaner；alta 与 tasar 单数一致。keys 并注明也可译作 were lying。"
+      },
+      {
+        "id": "G",
+        "prompt": "I eleni siller.",
+        "pointZh": "sil- 的 -l 型过去时 + 复数 -r",
+        "hintsZh": [
+          "sil- 末辅音 -l，故 -në 变 -lë，得 sillë。",
+          "主语 eleni 复数，加 -r 得 siller。",
+          "双写 ll 保留。"
+        ],
+        "ruleRef": "rule-l-final",
+        "ruleLabelZh": "回到规则：-l 结尾加 -lë",
+        "answerKey": "The stars shone.",
+        "answerKeyZh": "群星闪耀了。",
+        "answerAlt": [
+          "the stars shone",
+          "星星闪耀了",
+          "群星照耀了"
+        ],
+        "answerZh": "sil- → sillë → siller。keys：\"The stars shone.\""
+      },
+      {
+        "id": "H",
+        "prompt": "I Nauco cennë rocco.",
+        "pointZh": "cen- 直接加 -në（双写 nn）",
+        "hintsZh": [
+          "cen- 末辅音 -n，可直接加 -në。",
+          "得 cennë（双写 nn 是允许的组合）。",
+          "宾语 rocco 单数，无冠词。"
+        ],
+        "ruleRef": "rule-primary-n",
+        "ruleLabelZh": "回到规则：n 结尾加 -në",
+        "answerKey": "The Dwarf saw a horse.",
+        "answerKeyZh": "那个矮人看见了一匹马。",
+        "answerAlt": [
+          "the dwarf saw a horse",
+          "矮人看见了一匹马",
+          "那个矮人看到一匹马"
+        ],
+        "answerZh": "cen- → cennë。keys：\"The Dwarf saw a horse.\""
+      }
+    ]
+  },
+  "part2": {
+    "titleZh": "练习二 · 英译昆雅（I–P）",
+    "hintZh": "先选动词、定过去时形式，再处理数词与复数名词；并列主语要记得加 -r。",
+    "items": [
+      {
+        "id": "I",
+        "prompt": "A Dwarf found the treasure.",
+        "pointZh": "hir- 加 -në；harma 定指",
+        "hintsZh": [
+          "hir- 末辅音 -r，直接加 -në 得 hirnë。",
+          "「那件财宝」用 i harma。",
+          "主语 Nauco 单数，不加 -r。"
+        ],
+        "ruleRef": "rule-primary-n",
+        "ruleLabelZh": "回到规则：r 结尾直接加 -në",
+        "answerKey": "Nauco hirnë i harma.",
+        "answerKeyZh": "一个矮人找到了那件财宝。",
+        "answerAlt": [
+          "nauco hirnë i harma",
+          "Nauco hirnë i harma"
+        ],
+        "answerZh": "hir- → hirnë；i harma 定指。keys：\"Nauco hirnë i harma.\""
+      },
+      {
+        "id": "J",
+        "prompt": "The Elf spoke.",
+        "pointZh": "quet- 鼻音插入",
+        "hintsZh": [
+          "quet- 末辅音 -t，走鼻音插入。",
+          "插入 n 得 quentë。",
+          "主语单数，不加 -r。"
+        ],
+        "ruleRef": "rule-nasal-infix",
+        "ruleLabelZh": "回到规则：t 前插入 n",
+        "answerKey": "I Elda quentë.",
+        "answerKeyZh": "那个精灵说话了。",
+        "answerAlt": [
+          "i Elda quentë",
+          "I Elda quentë"
+        ],
+        "answerZh": "quet- → quentë。keys：\"I Elda quentë.\""
+      },
+      {
+        "id": "K",
+        "prompt": "The horse jumped.",
+        "pointZh": "cap- 的 p 前插入 m",
+        "hintsZh": [
+          "cap- 末辅音 -p。",
+          "p 前插入音取 m，得 campë。",
+          "主语 rocco 单数。"
+        ],
+        "ruleRef": "rule-nasal-infix",
+        "ruleLabelZh": "回到规则：p 前插入 m",
+        "answerKey": "I rocco campë.",
+        "answerKeyZh": "那匹马跳了。",
+        "answerAlt": [
+          "i rocco campë",
+          "I rocco campë"
+        ],
+        "answerZh": "cap- → campë。keys：\"I rocco campë.\""
+      },
+      {
+        "id": "L",
+        "prompt": "The king loved the Elves.",
+        "pointZh": "mel- 的 -l 型过去时 mellë",
+        "hintsZh": [
+          "mel- 末辅音 -l，故 -në 变 -lë 得 mellë。",
+          "「精灵们」指整个种族，可作 Eldar 不加冠词。",
+          "keys 也允许 i Eldar，若指特定的一些精灵。"
+        ],
+        "ruleRef": "rule-l-final",
+        "ruleLabelZh": "回到规则：-l 结尾加 -lë",
+        "answerKey": "I aran mellë Eldar (or ...i Eldar with the article if the phrase \"the Elves\" is taken as referring to some particular Elves rather than the Elvish race in general)",
+        "answerKeyZh": "那个国王爱精灵们（若「那些精灵」特指某些精灵而非整个种族，也可作 i Eldar）。",
+        "answerAlt": [
+          "i aran mellë Eldar",
+          "I aran mellë Eldar",
+          "i aran mellë i Eldar"
+        ],
+        "answerZh": "mel- → mellë。keys 给出两种宾语处理并说明区别。"
+      },
+      {
+        "id": "M",
+        "prompt": "A man wrote five books.",
+        "pointZh": "tec- 的 c 前插入 n；lempë + 复数",
+        "hintsZh": [
+          "tec- 末辅音 -c，插入 n 得 tencë。",
+          "lempë「五」后面接复数 parmar。",
+          "主语 Nér 无冠词，故为「一个男人」。"
+        ],
+        "ruleRef": "rule-nasal-infix",
+        "ruleLabelZh": "回到规则：c 前插入 n",
+        "answerKey": "Nér tencë lempë parmar.",
+        "answerKeyZh": "一个男人写了五本书。",
+        "answerAlt": [
+          "nér tencë lempë parmar",
+          "Nér tencë lempë parmar"
+        ],
+        "answerZh": "tec- → tencë；lempë parmar。keys：\"Nér tencë lempë parmar.\""
+      },
+      {
+        "id": "N",
+        "prompt": "The queen rose.",
+        "pointZh": "A 词干 orta- 加 -në",
+        "hintsZh": [
+          "orta- 以 -a 结尾，属 A 词干。",
+          "直接加 -në 得 ortanë。",
+          "此处用「升起」义，不带宾语。"
+        ],
+        "ruleRef": "rule-a-past",
+        "ruleLabelZh": "回到规则：A 词干加 -në",
+        "answerKey": "I tári ortanë.",
+        "answerKeyZh": "那个女王起身了。",
+        "answerAlt": [
+          "i tári ortanë",
+          "I tári ortanë"
+        ],
+        "answerZh": "orta- → ortanë。keys：\"I tári ortanë.\""
+      },
+      {
+        "id": "O",
+        "prompt": "The kings possessed great treasures.",
+        "pointZh": "harya- 加 -në；复数主语 -r；altë",
+        "hintsZh": [
+          "harya- 是 A 词干，过去时 haryanë。",
+          "主语 arani 复数，加 -r 得 haryaner。",
+          "alta 是 -a 类形容词，复数 altë。"
+        ],
+        "ruleRef": "rule-plural-past",
+        "ruleLabelZh": "回到规则：复数过去时加 -r",
+        "answerKey": "I arani haryaner altë harmar.",
+        "answerKeyZh": "那些国王拥有巨大的财宝。",
+        "answerAlt": [
+          "i arani haryaner altë harmar",
+          "I arani haryaner altë harmar"
+        ],
+        "answerZh": "harya- → haryanë → haryaner；alta → altë。keys：\"I arani haryaner altë harmar.\""
+      },
+      {
+        "id": "P",
+        "prompt": "The king and the queen summoned four Elves and five Dwarves.",
+        "pointZh": "并列主语 → -r；canta / lempë",
+        "hintsZh": [
+          "两个并列主语等同复数主语，故 tultanë → tultaner。",
+          "「四个精灵」canta Eldar；「五个矮人」lempë Naucor。",
+          "ar 连接两个并列宾语。"
+        ],
+        "ruleRef": "rule-plural-past",
+        "ruleLabelZh": "回到规则：多个主语也加 -r",
+        "answerKey": "I aran ar i tári tultaner canta Eldar ar lempë Naucor.",
+        "answerKeyZh": "国王和女王召唤了四个精灵和五个矮人。",
+        "answerAlt": [
+          "i aran ar i tári tultaner canta Eldar ar lempë Naucor",
+          "I aran ar i tári tultaner canta Eldar ar lempë Naucor"
+        ],
+        "answerZh": "并列主语 → tultaner；两个数词各带复数名词。keys：\"I aran ar i tári tultaner canta Eldar ar lempë Naucor.\""
+      }
+    ]
+  }
+}

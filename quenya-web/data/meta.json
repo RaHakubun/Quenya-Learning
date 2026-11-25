@@ -1,0 +1,277 @@
+{
+  "author": "Helge Kåre Fauskanger",
+  "sourceFiles": [
+    "less-a.rtf",
+    "less-b.rtf",
+    "less-c.rtf",
+    "less-d.rtf",
+    "keys.rtf",
+    "q-vocab.rtf",
+    "qappend.rtf"
+  ],
+  "ui": {
+    "zh": {
+      "siteTitle": "昆雅语互动教程",
+      "siteSubtitle": "基于 Helge K. Fauskanger 完整课程原文",
+      "navHome": "总览",
+      "navLessons": "二十课",
+      "navVocab": "词汇表",
+      "navAppendix": "附录",
+      "navKeys": "练习答案",
+      "langToggle": "English UI",
+      "progress": "学习进度",
+      "original": "原文",
+      "summary": "本章提要",
+      "mindmap": "知识导图",
+      "vocabulary": "课末词汇",
+      "exercises": "练习",
+      "showKey": "显示答案",
+      "hideKey": "隐藏答案",
+      "searchPlaceholder": "搜索课文、词汇…",
+      "fontQuenya": "昆雅字体",
+      "fontLatin": "拉丁转写",
+      "authorNote": "正文严格保留原课程英文，未被删节；提要仅作学习导航。",
+      "lesson": "第 {n} 课",
+      "readLesson": "阅读课文",
+      "appendixSection": "附录章节",
+      "vocabQE": "昆雅 → 英语",
+      "vocabEQ": "英语 → 昆雅",
+      "mindmapTip": "点击节点可跳转到对应段落标题。"
+    },
+    "en": {
+      "siteTitle": "Quenya Interactive Course",
+      "siteSubtitle": "Full text of Helge K. Fauskanger's course",
+      "navHome": "Overview",
+      "navLessons": "20 Lessons",
+      "navVocab": "Vocabulary",
+      "navAppendix": "Appendices",
+      "navKeys": "Exercise Keys",
+      "langToggle": "中文界面",
+      "progress": "Progress",
+      "original": "Original text",
+      "summary": "Chapter summary",
+      "mindmap": "Mind map",
+      "vocabulary": "Lesson vocabulary",
+      "exercises": "Exercises",
+      "showKey": "Show answers",
+      "hideKey": "Hide answers",
+      "searchPlaceholder": "Search lessons, vocabulary…",
+      "fontQuenya": "Tengwar-ready Latin",
+      "fontLatin": "Standard Latin",
+      "authorNote": "Lesson body is the unabridged original English; summaries aid navigation only.",
+      "lesson": "Lesson {n}",
+      "readLesson": "Read lesson",
+      "appendixSection": "Appendix",
+      "vocabQE": "Quenya → English",
+      "vocabEQ": "English → Quenya",
+      "mindmapTip": "Click a node to jump to the matching section heading."
+    }
+  },
+  "pedagogyZh": {
+    "1": {
+      "title": "昆雅语音与重音",
+      "goal": "掌握元音、辅音、重音规则，能按附录 E 朗读昆雅文本。",
+      "mindmap": [
+        "音位学",
+        "元音长短",
+        "辅音与连缀",
+        "重音与音节",
+        "吠声 H / hl·hr"
+      ]
+    },
+    "2": {
+      "title": "名词、复数与定冠词",
+      "goal": "理解名词复数 -i/-r、定冠词 i 及无冠词语义。",
+      "mindmap": [
+        "名词",
+        "复数",
+        "定冠词 i",
+        "词序",
+        "练习词汇"
+      ]
+    },
+    "3": {
+      "title": "双数与词干变化",
+      "goal": "区分自然双数与 attá + 复数；掌握 -u/-t 双数词尾。",
+      "mindmap": [
+        "双数",
+        "-u / -t",
+        "成对身体",
+        "词干",
+        "与格 -nt"
+      ]
+    },
+    "4": {
+      "title": "形容词与系词",
+      "goal": "形容词一致、系词 ná/nar、定语与表语位置。",
+      "mindmap": [
+        "形容词",
+        "一致",
+        "ná",
+        "定语/表语",
+        "数的一致"
+      ]
+    },
+    "5": {
+      "title": "动词现在时",
+      "goal": "现在时 -ë/-i 及与主语数一致；最高级 an-。",
+      "mindmap": [
+        "现在时",
+        "主宾语",
+        "超级形容词",
+        "-ëa 词干"
+      ]
+    },
+    "6": {
+      "title": "过去时",
+      "goal": "Elen síla 式过去时；译语到昆雅的变换。",
+      "mindmap": [
+        "过去时",
+        "tengwa 默写",
+        "不规则",
+        "元音变级"
+      ]
+    },
+    "7": {
+      "title": "将来时与不定式",
+      "goal": "将来时 -uva；Híril 不可分 aorist。",
+      "mindmap": [
+        "将来时",
+        "Aorist",
+        "用法对比",
+        "时间副词"
+      ]
+    },
+    "8": {
+      "title": "完成时",
+      "goal": "前缀 ai-/au- 与脱元音；人称尾 -nye/-lye/-nye 等。",
+      "mindmap": [
+        "完成体",
+        "音变",
+        "人称尾",
+        "及物/不及物"
+      ]
+    },
+    "9": {
+      "title": "不定式与分词",
+      "goal": "动词不定式、ú- 否定；主动分词 -la/-da。",
+      "mindmap": [
+        "不定式",
+        "ú-",
+        "分词",
+        "句法位置"
+      ]
+    },
+    "10": {
+      "title": "副词与人称尾",
+      "goal": "-ntë/-t；副词构成；-ya 不及物过去时。",
+      "mindmap": [
+        "副词",
+        "人称尾",
+        "被动分词",
+        "宾语代词"
+      ]
+    },
+    "11": {
+      "title": "格变概念与属格",
+      "goal": "步行格体系；属格 -o / -ion。",
+      "mindmap": [
+        "格",
+        "属格",
+        "单复双",
+        "Plotz 信"
+      ]
+    },
+    "12": {
+      "title": "领属形容词格",
+      "goal": "-va 领属与抽象名词；与属格互动。",
+      "mindmap": [
+        "-va",
+        "抽象名",
+        "属格",
+        "bodhisattva 式分析"
+      ]
+    },
+    "13": {
+      "title": "与格与动名词",
+      "goal": "与格 -n/-en；-lmë/-lvë/-mmë；不定代词。",
+      "mindmap": [
+        "与格",
+        "动名词",
+        "人称尾",
+        "veru 例"
+      ]
+    },
+    "14": {
+      "title": "向格与离格",
+      "goal": "-nna/-llo；equë、auta；领属代词尾。",
+      "mindmap": [
+        "向格",
+        "离格",
+        "equë",
+        "auta",
+        "-nya 等"
+      ]
+    },
+    "15": {
+      "title": "-rya 与方位格",
+      "goal": "-rya 领属；方位 -ssë；关系从句。",
+      "mindmap": [
+        "-rya",
+        "方位格",
+        "关系句",
+        "第三人称"
+      ]
+    },
+    "16": {
+      "title": "工具格与祈使",
+      "goal": "-nen 工具格；á 祈使；nai 句式。",
+      "mindmap": [
+        "工具格",
+        "-ta 动词",
+        "祈使",
+        "nai"
+      ]
+    },
+    "17": {
+      "title": "指示词",
+      "goal": "sina/tanya/enta/yana；末词曲折；U 词干名。",
+      "mindmap": [
+        "指示词",
+        "末词",
+        "U 词干",
+        "-ëa 序数"
+      ]
+    },
+    "18": {
+      "title": "独立代词",
+      "goal": "强调/独立人称；无人称；lá 多种含义。",
+      "mindmap": [
+        "独立代词",
+        "无人称",
+        "U 动词",
+        "lá"
+      ]
+    },
+    "19": {
+      "title": "疑问词与后置词",
+      "goal": "man/mana/manen；强调代词；祈使短语。",
+      "mindmap": [
+        "疑问",
+        "后置词",
+        "强调代词",
+        "命令式"
+      ]
+    },
+    "20": {
+      "title": "系词「是」",
+      "goal": "ná/nat 系词；ma 疑问；sa 从句。",
+      "mindmap": [
+        "系词",
+        "ma",
+        "sa 从句",
+        "存在 vs 属格"
+      ]
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+ "lesson": 12,
+ "introZh": "本课 12 个词大多为练习服务：minquë 是数词；seler、malta、engwë、muilë、sérë、ramba、ondo、osto、mornië 是名词，正好覆盖 -va／-iva／拉长三类所有格形态；varya- 与 alya 补上动词与形容词。",
+ "entries": [
+  {
+   "word": "minquë",
+   "posZh": "数词",
+   "glossZh": "十一",
+   "noteZh": "不变。练习 H「i minquë Naucoiva」、L「I minquë ohtari」。"
+  },
+  {
+   "word": "varya-",
+   "posZh": "动词",
+   "glossZh": "保护",
+   "noteZh": "过去时 varyanë。练习 K「varyanë」、L「polë varya」、N「varyanë」。"
+  },
+  {
+   "word": "alya",
+   "posZh": "形容词",
+   "glossZh": "丰富的、富裕的",
+   "noteZh": "练习 E「i cainen analyë neriva」（最富有的十个人）、O「alya lambë」。"
+  },
+  {
+   "word": "seler",
+   "posZh": "名词",
+   "glossZh": "姐妹（词干 sell-）",
+   "noteZh": "属格 sello、所有格 selerwa。练习 F「i arano selerwa」、H「i vendëo toron」、J「i seldoron seler」、P「I arano sello」。"
+  },
+  {
+   "word": "malta",
+   "posZh": "名词",
+   "glossZh": "金",
+   "noteZh": "《词源》SMAL 条件 malda，但《魔戒》后资料支持 malta。材料用法：yulma maltava、harma maltava。练习 B、K。"
+  },
+  {
+   "word": "engwë",
+   "posZh": "名词",
+   "glossZh": "事物",
+   "noteZh": "所有格复数 engwíva（较早 engweiva，ei → í）。练习 J「i engwi i seldoiva」、O「rimbë vanyë engwíva」。"
+  },
+  {
+   "word": "muilë",
+   "posZh": "名词",
+   "glossZh": "隐秘",
+   "noteZh": "MUY + -lë；与辛达林语 muil（Emyn Muil）相关。所有格 muiléva（ui 后拉长）。练习 K、N。"
+  },
+  {
+   "word": "sérë",
+   "posZh": "名词",
+   "glossZh": "和平",
+   "noteZh": "ser-「休息」的抽象构词，与 Estë 同根。练习 D「Neri séreva」、L「sérë i osto」。"
+  },
+  {
+   "word": "ramba",
+   "posZh": "名词",
+   "glossZh": "墙",
+   "noteZh": "练习 E「Altë rambar ondova」、N「Ramba muiléva」。"
+  },
+  {
+   "word": "ondo",
+   "posZh": "名词",
+   "glossZh": "石",
+   "noteZh": "作材料；辛达林语 gon、gond 见于 Gondor、Gondolin。练习 E「rambar ondova」、M「rimbë ondoiva」。"
+  },
+  {
+   "word": "osto",
+   "posZh": "名词",
+   "glossZh": "城市",
+   "noteZh": "主要指设防城市，晚期也作「要塞」。以 -o 结尾，属格词尾隐形（练习 E、L、N 的 i osto）。"
+  },
+  {
+   "word": "mornië",
+   "posZh": "名词",
+   "glossZh": "黑暗",
+   "noteZh": "morna「暗的」的抽象构词，参 morë「黑」。所有格 morniéva（末 -ë 拉长）。练习 L、O。"
+  }
+ ]
+}

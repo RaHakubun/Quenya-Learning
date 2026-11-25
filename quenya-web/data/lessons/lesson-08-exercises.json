@@ -1,0 +1,361 @@
+{
+  "kind": "translation",
+  "introZh": "A–H 为昆雅译英，I–P 为英译昆雅。本课只考完成时（增音 + 拉长 + -ië）与代词词尾（-lyë「你」、-n／-nyë「我」、-s「它」）。注意 F、G、H 三题分别带 -lyë、-n、-lyë + -s。",
+  "pointMapZh": [
+    {
+      "labelZh": "基本动词完成时",
+      "ruleRef": "rule-augment",
+      "noteZh": "A、B、C、D、E"
+    },
+    {
+      "labelZh": "-ya 动词丢 -ya",
+      "ruleRef": "rule-ya-drop",
+      "noteZh": "C（utultië 为 A 词干）、I（utúlië）、M、N"
+    },
+    {
+      "labelZh": "双元音不拉长",
+      "ruleRef": "rule-diphthong",
+      "noteZh": "L（oroitië）、N（alaitië）"
+    },
+    {
+      "labelZh": "辅音丛不拉长",
+      "ruleRef": "rule-no-lengthen-cluster",
+      "noteZh": "M（unurtië）、O（alantië）"
+    },
+    {
+      "labelZh": "代词词尾 -lyë／-n",
+      "ruleRef": "rule-endings-not-words",
+      "noteZh": "F、G、H、I、O"
+    },
+    {
+      "labelZh": "双词尾：主语 + 宾语",
+      "ruleRef": "rule-order",
+      "noteZh": "H（ecénielyes）、P（emétienyes）"
+    },
+    {
+      "labelZh": "an 引出理由",
+      "ruleRef": "rule-an",
+      "noteZh": "N、O"
+    }
+  ],
+  "part1": {
+    "titleZh": "练习一 · 昆雅译英（A–H）",
+    "hintZh": "先找动词词干元音，加增音、拉长、再加 -ië；若词干元音后有辅音丛则不拉长。最后看有没有代词词尾。",
+    "items": [
+      {
+        "id": "A",
+        "prompt": "I nér ihírië i harma.",
+        "pointZh": "hir- 的完成时 ihírië（增音 i- + 拉长 í）",
+        "hintsZh": [
+          "hir-「找到」词干元音 i，增音 i-，拉长 í，加 -ië → ihírië。",
+          "主语 nér 单数，不加 -r。",
+          "i harma 定指「那件财宝」。"
+        ],
+        "ruleRef": "rule-augment",
+        "ruleLabelZh": "回到规则：增音＝短词干元音",
+        "answerKey": "The man has found the treasure.",
+        "answerKeyZh": "那个男人已经找到了那件财宝。",
+        "answerAlt": [
+          "the man has found the treasure",
+          "那个男人已经找到了那件财宝",
+          "那个人找到了财宝"
+        ],
+        "answerZh": "hir- → ihírië。完成时强调「已找到」，与过去时 hirnë 不同。keys：\"The man has found the treasure.\""
+      },
+      {
+        "id": "B",
+        "prompt": "I rávi amátier i hrávë.",
+        "pointZh": "mat- 的完成时 amátië + 复数 -r",
+        "hintsZh": [
+          "mat-「吃」词干元音 a，增音 a-，拉长 á → amátië。",
+          "主语 rávi 复数，故加 -r 得 amátier。",
+          "hrávë「肉」作宾语。"
+        ],
+        "ruleRef": "rule-augment",
+        "ruleLabelZh": "回到规则：增音＝短词干元音",
+        "answerKey": "The lions have eaten the flesh.",
+        "answerKeyZh": "那些狮子已经吃了那肉。",
+        "answerAlt": [
+          "the lions have eaten the flesh",
+          "那些狮子已经吃了那肉",
+          "狮子们吃了肉"
+        ],
+        "answerZh": "mat- → amátië → amátier（复数加 -r）。keys：\"The lions have eaten the flesh.\""
+      },
+      {
+        "id": "C",
+        "prompt": "I aran utultië i tári.",
+        "pointZh": "tulta- 的完成时 utultië",
+        "hintsZh": [
+          "tulta-「召唤」是 A 词干，丢 -a 得 tult-，加增音 u- 与 -ië → utultië。",
+          "这里没有拉长：tult- 的元音后是 lt 辅音丛。",
+          "主语 aran 单数，不加 -r。"
+        ],
+        "ruleRef": "rule-no-lengthen-cluster",
+        "ruleLabelZh": "回到规则：辅音丛前不拉长",
+        "answerKey": "The king has summoned the queen.",
+        "answerKeyZh": "国王已经召唤了王后。",
+        "answerAlt": [
+          "the king has summoned the queen",
+          "国王已经召唤了王后",
+          "那位国王召唤了女王"
+        ],
+        "answerZh": "tulta- → utultië（lt 辅音丛，不拉长）。keys：\"The king has summoned the queen.\""
+      },
+      {
+        "id": "D",
+        "prompt": "I nissi ecendier i parma.",
+        "pointZh": "cenda- 的完成时 ecendië + 复数 -r",
+        "hintsZh": [
+          "cenda-「读」丢 -a 得 cend-，增音 e-，加 -ië → ecendië。",
+          "cend- 的元音后是 nd 辅音丛，不拉长。",
+          "主语 nissi 复数，加 -r 得 ecendier。"
+        ],
+        "ruleRef": "rule-no-lengthen-cluster",
+        "ruleLabelZh": "回到规则：辅音丛前不拉长",
+        "answerKey": "The women have read the book.",
+        "answerKeyZh": "那些女人已经读了那本书。",
+        "answerAlt": [
+          "the women have read the book",
+          "那些女人已经读了那本书",
+          "女人们读了那本书"
+        ],
+        "answerZh": "cenda- → ecendië → ecendier。keys：\"The women have read the book.\""
+      },
+      {
+        "id": "E",
+        "prompt": "I úmëa tári amápië i otso Naucor.",
+        "pointZh": "mapa- 的完成时 amápië",
+        "hintsZh": [
+          "mapa-「抓住」丢 -a 得 map-，增音 a-，拉长 á → amápië。",
+          "map- 的元音后只有单个 p，故拉长。",
+          "i otso Naucor＝那七个矮人。"
+        ],
+        "ruleRef": "rule-a-stem-perfect",
+        "ruleLabelZh": "回到规则：A 词干丢 -a 再加 -ië",
+        "answerKey": "The evil queen has seized the seven Dwarves.",
+        "answerKeyZh": "那个邪恶的王后已经抓住了那七个矮人。",
+        "answerAlt": [
+          "the evil queen has seized the seven dwarves",
+          "那个邪恶的王后已经抓住了那七个矮人",
+          "邪恶的王后抓走了七个矮人"
+        ],
+        "answerZh": "mapa- → amápië。keys：\"The evil queen has seized the seven Dwarves.\""
+      },
+      {
+        "id": "F",
+        "prompt": "Etécielyë otso parmar.",
+        "pointZh": "tec- 的完成时 etécië + -lyë「你」",
+        "hintsZh": [
+          "tec-「写」词干元音 e，增音 e-，拉长 é → etécië。",
+          "-lyë 表示主语「你」。",
+          "otso parmar＝七本书。"
+        ],
+        "ruleRef": "rule-endings-not-words",
+        "ruleLabelZh": "回到规则：代词作词尾",
+        "answerKey": "You have written seven books.",
+        "answerKeyZh": "你已经写了七本书。",
+        "answerAlt": [
+          "you have written seven books",
+          "你已经写了七本书",
+          "你写了七本书"
+        ],
+        "answerZh": "tec- → etécië + -lyë = etécielyë。keys：\"You have written seven books.\""
+      },
+      {
+        "id": "G",
+        "prompt": "Equétien.",
+        "pointZh": "quet- 的完成时 equétië + -n「我」",
+        "hintsZh": [
+          "quet-「说」词干元音 e，增音 e-，拉长 é → equétië。",
+          "-n 表示主语「我」。",
+          "此句无宾语，故只有一个代词词尾。"
+        ],
+        "ruleRef": "rule-n",
+        "ruleLabelZh": "回到规则：-n＝「我」",
+        "answerKey": "I have spoken.",
+        "answerKeyZh": "我已经说过了。",
+        "answerAlt": [
+          "i have spoken",
+          "我已经说过了",
+          "我说了"
+        ],
+        "answerZh": "quet- → equétië + -n = equétien。keys：\"I have spoken.\""
+      },
+      {
+        "id": "H",
+        "prompt": "Ecénielyes.",
+        "pointZh": "cen- 的完成时 ecénië + -lyë + -s",
+        "hintsZh": [
+          "cen-「看见」词干元音 e，增音 e-，拉长 é → ecénië。",
+          "先加主语词尾 -lyë「你」，再加宾语词尾 -s「它」。",
+          "不能写 **ecéniens：短词尾后不能再接词尾。"
+        ],
+        "ruleRef": "rule-order",
+        "ruleLabelZh": "回到规则：主语词尾先，宾语词尾后",
+        "answerKey": "You have seen it.",
+        "answerKeyZh": "你已经看见它了。",
+        "answerAlt": [
+          "you have seen it",
+          "你已经看见它了",
+          "你看到了它"
+        ],
+        "answerZh": "cen- → ecénië + -lyë + -s = ecénielyes。keys：\"You have seen it.\""
+      }
+    ]
+  },
+  "part2": {
+    "titleZh": "练习二 · 英译昆雅（I–P）",
+    "hintZh": "先定动词与词干元音，再决定增音、是否拉长；最后处理代词词尾与复数 -r。N、O 两题的方括号是 keys 给出的可替换长词尾。",
+    "items": [
+      {
+        "id": "I",
+        "prompt": "The man has come.",
+        "pointZh": "tul- 的完成时 utúlië",
+        "hintsZh": [
+          "tul-「来」词干元音 u，增音 u-，拉长 ú → utúlië。",
+          "主语 nér 单数，不加 -r。",
+          "「那个男人」用 i nér。"
+        ],
+        "ruleRef": "rule-augment",
+        "ruleLabelZh": "回到规则：增音＝短词干元音",
+        "answerKey": "I nér utúlië.",
+        "answerKeyZh": "那个男人已经来了。",
+        "answerAlt": [
+          "i nér utúlië",
+          "I nér utúlië"
+        ],
+        "answerZh": "tul- → utúlië。注意与 tulya- 的完成时同形，此处靠语境（「男人」不是「带领」）判定。keys：\"I nér utúlië.\""
+      },
+      {
+        "id": "J",
+        "prompt": "The seven Dwarves have eaten.",
+        "pointZh": "mat- 的完成时复数 amátier",
+        "hintsZh": [
+          "mat- → amátië。",
+          "主语 Naucor 复数，加 -r 得 amátier。",
+          "otso 放在复数名词前。"
+        ],
+        "ruleRef": "rule-augment",
+        "ruleLabelZh": "回到规则：增音＝短词干元音",
+        "answerKey": "I otso Naucor amátier.",
+        "answerKeyZh": "那七个矮人已经吃过了。",
+        "answerAlt": [
+          "i otso Naucor amátier"
+        ],
+        "answerZh": "mat- → amátië → amátier。keys：\"I otso Naucor amátier.\""
+      },
+      {
+        "id": "K",
+        "prompt": "The boys have seen a lion between the trees.",
+        "pointZh": "cen- 的完成时 ecénië + 复数 -r；imbë「在……之间」",
+        "hintsZh": [
+          "cen- → ecénië。",
+          "主语 seldor 复数，加 -r 得 ecénier。",
+          "「在树之间」imbë i aldar；「一头狮子」rá 不加冠词。"
+        ],
+        "ruleRef": "rule-augment",
+        "ruleLabelZh": "回到规则：增音＝短词干元音",
+        "answerKey": "I seldor ecénier rá imbë i aldar.",
+        "answerKeyZh": "那些男孩已经在树间看见一头狮子。",
+        "answerAlt": [
+          "i seldor ecénier rá imbë i aldar"
+        ],
+        "answerZh": "cen- → ecénië → ecénier；imbë 后仍带冠词 i。keys：\"I seldor ecénier rá imbë i aldar.\""
+      },
+      {
+        "id": "L",
+        "prompt": "The six Elves have pursued the seven Dwarves.",
+        "pointZh": "roita- 的完成时 oroitië + 复数 -r",
+        "hintsZh": [
+          "roita- 含双元音 oi，增音取第一个元音 o，且不拉长 → oroitië。",
+          "主语 Eldar 复数，加 -r 得 oroitier。",
+          "「六个精灵」enquë Eldar。"
+        ],
+        "ruleRef": "rule-diphthong",
+        "ruleLabelZh": "回到规则：双元音不拉长",
+        "answerKey": "I enquë Eldar oroitier i otso Naucor.",
+        "answerKeyZh": "那六个精灵已经追赶那七个矮人。",
+        "answerAlt": [
+          "i enquë Eldar oroitier i otso Naucor"
+        ],
+        "answerZh": "roita- → oroitië → oroitier（双元音 oi 不拉长）。keys：\"I enquë Eldar oroitier i otso Naucor.\""
+      },
+      {
+        "id": "M",
+        "prompt": "The Dwarf has hidden a treasure.",
+        "pointZh": "nurta- 的完成时 unurtië",
+        "hintsZh": [
+          "nurta-「藏」丢 -a 得 nurt-，增音 u-，加 -ië → unurtië。",
+          "nurt- 的元音后是 rt 辅音丛，不拉长。",
+          "「一件财宝」harma 不加冠词。"
+        ],
+        "ruleRef": "rule-no-lengthen-cluster",
+        "ruleLabelZh": "回到规则：辅音丛前不拉长",
+        "answerKey": "I Nauco unurtië harma.",
+        "answerKeyZh": "那个矮人已经藏起一件财宝。",
+        "answerAlt": [
+          "i Nauco unurtië harma"
+        ],
+        "answerZh": "nurta- → unurtië（rt 辅音丛）。keys：\"I Nauco unurtië harma.\""
+      },
+      {
+        "id": "N",
+        "prompt": "I have praised the king, for the king has released all thralls.",
+        "pointZh": "laita- 的完成时 alaitië + -n；lerya- 的完成时 elérië",
+        "hintsZh": [
+          "laita- 含双元音 ai，增音 a-，不拉长 → alaitië；加 -n「我」得 alaitien。",
+          "lerya- 是 -ya 动词，整个 -ya 脱落 → elérië。",
+          "「所有奴隶」ilyë móli；「因为」用 an。"
+        ],
+        "ruleRef": "rule-ya-drop",
+        "ruleLabelZh": "回到规则：-ya 整个脱落",
+        "answerKey": "Alaitien [or, alaitienyë] i aran, an i aran elérië ilyë móli.",
+        "answerKeyZh": "我已经赞美了国王，因为国王已经释放了所有奴隶。",
+        "answerAlt": [
+          "Alaitien i aran, an i aran elérië ilyë móli",
+          "Alaitienyë i aran, an i aran elérië ilyë móli"
+        ],
+        "answerZh": "laita- → alaitië + -n（或长形 -nyë）；lerya- → elérië。keys：\"Alaitien [or, alaitienyë] i aran, an i aran elérië ilyë móli.\""
+      },
+      {
+        "id": "O",
+        "prompt": "You have fallen, and I have seen it.",
+        "pointZh": "lanta- 的完成时 alantië + -lyë；cen- 的完成时 ecénië + -nyë + -s",
+        "hintsZh": [
+          "lanta- 的 nt 是辅音丛，不拉长 → alantië；加 -lyë「你」得 alantiel。",
+          "cen- → ecénië；先加 -nyë「我」，再加 -s「它」→ ecénienyes。",
+          "两句用 ar 连接。"
+        ],
+        "ruleRef": "rule-no-lengthen-cluster",
+        "ruleLabelZh": "回到规则：辅音丛前不拉长",
+        "answerKey": "Alantiel [or, alantielyë], ar ecénienyes.",
+        "answerKeyZh": "你已经跌倒了，而我已经看见了它。",
+        "answerAlt": [
+          "Alantiel, ar ecénienyes",
+          "Alantielyë, ar ecénienyes"
+        ],
+        "answerZh": "lanta- → alantië + -l（或 -lyë）；cen- → ecénië + -nyë + -s。keys：\"Alantiel [or, alantielyë], ar ecénienyes.\""
+      },
+      {
+        "id": "P",
+        "prompt": "I have put an end to it [/I have ended it].",
+        "pointZh": "metya- 的完成时 emétië + -nyë + -s",
+        "hintsZh": [
+          "metya-「结束」是 -ya 动词，整个 -ya 脱落 → met-，加增音 e- 与拉长 é → emétië。",
+          "先加 -nyë「我」，再加 -s「它」。",
+          "整句压缩成一个词 emétienyes。"
+        ],
+        "ruleRef": "rule-order",
+        "ruleLabelZh": "回到规则：主语词尾先，宾语词尾后",
+        "answerKey": "Emétienyes.",
+        "answerKeyZh": "我已经把它结束了。",
+        "answerAlt": [
+          "emétienyes",
+          "Emétienyes"
+        ],
+        "answerZh": "metya- → emétië + -nyë + -s = emétienyes，与本课 utúvienyes 同构。keys：\"Emétienyes.\""
+      }
+    ]
+  }
+}

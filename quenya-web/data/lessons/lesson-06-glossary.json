@@ -1,0 +1,78 @@
+{
+  "lesson": 6,
+  "introZh": "以下 12 词来自 less-b.rtf 第 6 课课末 VOCABULARY。前三个不是动词：lempë 是数词，elen、harma 是名词。其余九个动词正好覆盖本课四类规则过去时：末辅音 r（hir-）、l（sil-、mel-）、n（cen-）、p（cap-）、c（tec-）、t（quet-），以及 A 词干（orta-、harya-）。「总表」一行由 q-vocab.rtf 自动交叉引用。",
+  "entries": [
+    {
+      "word": "lempë",
+      "posZh": "数词",
+      "glossZh": "五",
+      "noteZh": "本课新增数词，不变复数。练习 F「I lempë roccor」、M「lempë parmar」、P「lempë Naucor」都用它作前置限定语。"
+    },
+    {
+      "word": "elen",
+      "posZh": "名词",
+      "glossZh": "星",
+      "noteZh": "辅音结尾，复数 eleni（加 -i）。练习 G「I eleni siller」用它作复数主语。"
+    },
+    {
+      "word": "harma",
+      "posZh": "名词",
+      "glossZh": "财宝",
+      "noteZh": "-a 结尾，复数 harmar。练习 I、O 用它作宾语；与动词 harya-「拥有」同源。"
+    },
+    {
+      "word": "sil-",
+      "posZh": "动词",
+      "glossZh": "照耀（以白或银的光，如星光或月光）",
+      "noteZh": "基本动词，末辅音 -l，故过去时加 -lë 得 sillë（练习 G 作 siller，复数主语）。第 5 课的现在时是 síla。"
+    },
+    {
+      "word": "hir-",
+      "posZh": "动词",
+      "glossZh": "找到",
+      "noteZh": "基本动词，末辅音 -r，过去时直接加 -në 得 hirnë（练习 I）。"
+    },
+    {
+      "word": "cap-",
+      "posZh": "动词",
+      "glossZh": "跳",
+      "noteZh": "基本动词，末辅音 -p，过去时用鼻音插入且插入音取 m：campë（练习 K）。"
+    },
+    {
+      "word": "tec-",
+      "posZh": "动词",
+      "glossZh": "写",
+      "noteZh": "基本动词，末辅音 -c，过去时 tencë（插入音写作 n，实为 ñ）。练习 M。"
+    },
+    {
+      "word": "quet-",
+      "posZh": "动词",
+      "glossZh": "说、讲",
+      "noteZh": "基本动词，末辅音 -t，过去时 quentë（练习 J）。第 5 课的现在时是 quéta。"
+    },
+    {
+      "word": "mel-",
+      "posZh": "动词",
+      "glossZh": "爱（如朋友之爱）",
+      "noteZh": "基本动词，末辅音 -l，过去时 mellë（练习 L）。注意释义限定：托尔金从未发表过指两性之间情爱的昆雅词。"
+    },
+    {
+      "word": "cen-",
+      "posZh": "动词",
+      "glossZh": "看见",
+      "noteZh": "基本动词，末辅音 -n，过去时按假定作 cennë（练习 H）。与 cenda-「读」相关：后者由同一词干的强化形式派生，基本义为「仔细观看」。"
+    },
+    {
+      "word": "orta-",
+      "posZh": "动词",
+      "glossZh": "升起；也用作「举起、抬起」",
+      "noteZh": "A 词干，过去时直接加 -në 得 ortanë（练习 N）。《Namárië》中作 ortanë；较早草稿曾作 orontë。"
+    },
+    {
+      "word": "harya-",
+      "posZh": "动词",
+      "glossZh": "拥有；有",
+      "noteZh": "A 词干，过去时 haryanë（练习 O 作 haryaner，复数主语）。与名词 harma「财宝」相关，基本指「所有物」。"
+    }
+  ]
+}

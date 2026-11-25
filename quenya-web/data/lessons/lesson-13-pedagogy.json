@@ -1,0 +1,220 @@
+{
+ "lesson": 13,
+ "schemaVersion": 2,
+ "titleZh": "与格、动名词与「我们」",
+ "titleEn": "The Dative Case, the Gerund, and the Pronoun \"We\"",
+ "summaryZh": "本课四条线。①与格：标记间接宾语（间接受动作影响的一方，可受益也可受损）。单数 -n（ciryan、lassen、Eldan；辅音结尾插帮助元音 -e-：aranen、ataren、ailinen、Laurelinden、nissen），复数 -in（lassin、lamnin、Eldain、Fírimoin；-r 不出现），双数 -nt（ciryant，LotR 式昆雅唯一允许的末尾辅音丛；-u 双数大概用 Aldun 或推测的 Alduen）。与格可出现在无直接宾语（aranen、Pater Noster 的「against us」）、无主语（orë nin caritas）、甚至无动词（Alcar i ataren ar i yondon ar i airefëan）的句子里。历史上 -n 曾是属格（Ar Manwen、Quenta Eldalien、Vardan），后定 -o 属格、-n 与格。②gerund：动词形式，可作名词却仍能带宾语（UT:317 governing a direct object）。由 -ië 构成（hirië、tirië、matië、quetië、carië、sucië）；A 词干先掉 -a（ortië、nurtië、nainië）；-ya 动词整段脱落（harië、varien）。可作主语（Hirië harma caruva nér alya）、宾语（melin tirië i aiwi）。英语表目的的不定式译成与格 gerund：hirien、cenien、enyalien、lerien、antien、sucien、varien——判据是 in order 测试。③「我们」：-lvë 包含式、-lmë 排除式（第二版把 omentielmo 改为 omentielvo 之后），-mmë 改为双数，-ngwë 存疑；练习只用 -lvë 与 -lmë。④不定代词 quen「人／某人」，属格 queno、与格 quenen。",
+ "mindmap": {
+  "rootZh": "第 13 课：与格、动名词与「我们」",
+  "branches": [
+   {
+    "labelZh": "间接宾语",
+    "sectionId": "dat-indirect"
+   },
+   {
+    "labelZh": "「给」三方",
+    "sectionId": "dat-three"
+   },
+   {
+    "labelZh": "英语 to／for",
+    "sectionId": "dat-english"
+   },
+   {
+    "labelZh": "nin",
+    "sectionId": "dat-quenya"
+   },
+   {
+    "labelZh": "antuvalyë nin parma",
+    "sectionId": "dat-nin"
+   },
+   {
+    "labelZh": "ciryan／lassen",
+    "sectionId": "dat-noun"
+   },
+   {
+    "labelZh": "复数 -in",
+    "sectionId": "dat-plural"
+   },
+   {
+    "labelZh": "tárin 歧义",
+    "sectionId": "dat-i"
+   },
+   {
+    "labelZh": "双数 -nt",
+    "sectionId": "dat-dual"
+   },
+   {
+    "labelZh": "aranen",
+    "sectionId": "dat-nodirect"
+   },
+   {
+    "labelZh": "orë nin caritas",
+    "sectionId": "dat-impersonal"
+   },
+   {
+    "labelZh": "Alcar i ataren",
+    "sectionId": "dat-noverb"
+   },
+   {
+    "labelZh": "-n 曾是属格",
+    "sectionId": "dat-history1"
+   },
+   {
+    "labelZh": "Vardan → Vardo",
+    "sectionId": "dat-history2"
+   },
+   {
+    "labelZh": "帮助元音 -e-",
+    "sectionId": "dat-help"
+   },
+   {
+    "labelZh": "特殊词干",
+    "sectionId": "dat-stem"
+   },
+   {
+    "labelZh": "Alduen？",
+    "sectionId": "dat-dual-u"
+   },
+   {
+    "labelZh": "gerund 是什么",
+    "sectionId": "ger-intro"
+   },
+   {
+    "labelZh": "enyalien",
+    "sectionId": "ger-enyalien"
+   },
+   {
+    "labelZh": "polin quetë",
+    "sectionId": "ger-infinitive"
+   },
+   {
+    "labelZh": "of 测试",
+    "sectionId": "ger-english"
+   },
+   {
+    "labelZh": "能带宾语",
+    "sectionId": "ger-def"
+   },
+   {
+    "labelZh": "作主语",
+    "sectionId": "ger-subject"
+   },
+   {
+    "labelZh": "作宾语",
+    "sectionId": "ger-object"
+   },
+   {
+    "labelZh": "术语之争",
+    "sectionId": "ger-term"
+   },
+   {
+    "labelZh": "作主语更稳",
+    "sectionId": "ger-choice"
+   },
+   {
+    "labelZh": "表目的",
+    "sectionId": "ger-purpose"
+   },
+   {
+    "labelZh": "UT:317",
+    "sectionId": "ger-note"
+   },
+   {
+    "labelZh": "三步构成",
+    "sectionId": "ger-dative"
+   },
+   {
+    "labelZh": "in order 测试",
+    "sectionId": "ger-rule"
+   },
+   {
+    "labelZh": "A 词干掉 -a",
+    "sectionId": "ger-astem"
+   },
+   {
+    "labelZh": "三条旁证",
+    "sectionId": "ger-evidence"
+   },
+   {
+    "labelZh": "-ië 抽象",
+    "sectionId": "ger-abstract"
+   },
+   {
+    "labelZh": "-ya 脱落",
+    "sectionId": "ger-ya"
+   },
+   {
+    "labelZh": "多种「我们」",
+    "sectionId": "we-intro"
+   },
+   {
+    "labelZh": "-lmë",
+    "sectionId": "we-lme"
+   },
+   {
+    "labelZh": "-mmë",
+    "sectionId": "we-mme"
+   },
+   {
+    "labelZh": "-lwë／-lv-",
+    "sectionId": "we-lwe"
+   },
+   {
+    "labelZh": "两个前提",
+    "sectionId": "we-chaos"
+   },
+   {
+    "labelZh": "排除式",
+    "sectionId": "we-exclusive"
+   },
+   {
+    "labelZh": "包含式",
+    "sectionId": "we-inclusive"
+   },
+   {
+    "labelZh": "作者的 we",
+    "sectionId": "we-author"
+   },
+   {
+    "labelZh": "第一版格局",
+    "sectionId": "we-lotr"
+   },
+   {
+    "labelZh": "omentielvo",
+    "sectionId": "we-revision"
+   },
+   {
+    "labelZh": "赞歌重解",
+    "sectionId": "we-cormallen"
+   },
+   {
+    "labelZh": "-lwë 之谜",
+    "sectionId": "we-lw"
+   },
+   {
+    "labelZh": "四个词尾",
+    "sectionId": "we-dual"
+   },
+   {
+    "labelZh": "quen",
+    "sectionId": "quen"
+   },
+   {
+    "labelZh": "早期 -o",
+    "sectionId": "quen-old"
+   },
+   {
+    "labelZh": "小结",
+    "sectionId": "summary"
+   },
+   {
+    "labelZh": "词汇",
+    "sectionId": "vocabulary"
+   },
+   {
+    "labelZh": "练习 A–P",
+    "sectionId": "exercises"
+   }
+  ]
+ }
+}

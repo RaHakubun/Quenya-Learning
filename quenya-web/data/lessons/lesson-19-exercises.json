@@ -1,0 +1,195 @@
+{
+ "kind": "translation",
+ "introZh": "请先在文稿框中写出译文，再点「核对」比对 keys.rtf；也可直接「显示答案」。",
+ "part1": {
+  "titleZh": "练习一 · 译成中文（或你使用的语言）",
+  "hintZh": "昆雅 → 目标语；对照词汇表与正文例句。",
+  "items": [
+   {
+    "id": "A",
+    "prompt": "Man marnë i coassë cainen loar yá, írë inyë lá marnë tassë?",
+    "glossZh": "",
+    "answerKey": "Who lived [or, \"dwelt\"] in the house ten years ago, when I did not live in it?",
+    "answerZh": "keys：Who lived [or, \"dwelt\"] in the house ten years ago, when I did not live in it?"
+   },
+   {
+    "id": "B",
+    "prompt": "Mana elvë polir carë?",
+    "glossZh": "",
+    "answerKey": "What can we [inclusive] do?",
+    "answerZh": "keys：What can we [inclusive] do?"
+   },
+   {
+    "id": "C",
+    "prompt": "Áta antat nin, ar ávata nurtat nillo!",
+    "glossZh": "",
+    "answerKey": "Give it to me, and don't hide it from me! (The ending -t in antat, nurtat indicates that only one person is addressed.)",
+    "answerZh": "keys：Give it to me, and don't hide it from me! (The ending -t in antat, nurtat indicates that only one person is addressed.)"
+   },
+   {
+    "id": "D",
+    "prompt": "Man elyë cennë i otsëa auressë?",
+    "glossZh": "",
+    "answerKey": "Who did you see on the seventh day?",
+    "answerZh": "keys：Who did you see on the seventh day?"
+   },
+   {
+    "id": "E",
+    "prompt": "Antuvantë ilyë i annar inyen ar lá elyen!",
+    "glossZh": "",
+    "answerKey": "They will give all the gifts to me and not to you!",
+    "answerZh": "keys：They will give all the gifts to me and not to you!"
+   },
+   {
+    "id": "F",
+    "prompt": "Mana i neri hirner i nóressë i oronti pella?",
+    "glossZh": "",
+    "answerKey": "What did the men find in the land beyond the mountains?",
+    "answerZh": "keys：What did the men find in the land beyond the mountains?"
+   },
+   {
+    "id": "G",
+    "prompt": "Manen elyë poluva orta i alta ondo írë inyë úmë polë caritas?",
+    "glossZh": "",
+    "answerKey": "How will you be able to lift the great stone when I could not do it?",
+    "answerZh": "keys：How will you be able to lift the great stone when I could not do it?"
+   },
+   {
+    "id": "H",
+    "prompt": "Sellelma marë coa entassë; elmë marir i toltëa coassë mallë sinassë. Á tulil ar á cenil coalma!",
+    "glossZh": "",
+    "answerKey": "Our sister lives in that (yonder) house; we live in the eighth house in this street. Come and see our house! (Á tulil ar á cenil = \"come and see\"; the ending -l indicates that several people are being addressed.)",
+    "answerZh": "keys：Our sister lives in that (yonder) house; we live in the eighth house in this street. Come and see our house! (Á tulil ar á cenil = \"come and see\"; the ending -l indicates that several people are being addressed.)"
+   }
+  ]
+ },
+ "part2": {
+  "titleZh": "练习二 · 译成昆雅",
+  "hintZh": "目标语 → 昆雅；注意复数、冠词 i、词序。",
+  "items": [
+   {
+    "id": "I",
+    "prompt": "Who has done that [ta]?",
+    "glossZh": "",
+    "answerKey": "Man acárië ta?",
+    "answerZh": "keys：Man acárië ta?"
+   },
+   {
+    "id": "J",
+    "prompt": "What did you find in the seventh room when you went there [or, \"thither\" = tanna]?",
+    "glossZh": "",
+    "answerKey": "Mana elyë hirnë i otsëa sambessë írë lendel(yë) tanna?",
+    "answerZh": "keys：Mana elyë hirnë i otsëa sambessë írë lendel(yë) tanna?"
+   },
+   {
+    "id": "K",
+    "prompt": "When you have come, I want to leave [auta].",
+    "glossZh": "",
+    "answerKey": "Írë elyë utúlië, inyë merë auta! (If elyë can function as a plural pronoun and it is interpreted as a plural \"you\" here, the verb should perhaps also be plural: elyë utúlier.)",
+    "answerZh": "keys：Írë elyë utúlië, inyë merë auta! (If elyë can function as a plural pronoun and it is interpreted as a plural \"you\" here, the verb should perhaps also be plural: elyë utúlier.)"
+   },
+   {
+    "id": "L",
+    "prompt": "Give us the wine! (an order explicitly addressed to several persons).",
+    "glossZh": "",
+    "answerKey": "Ámen antal i limpë!",
+    "answerZh": "keys：Ámen antal i limpë!"
+   },
+   {
+    "id": "M",
+    "prompt": "Give the wine to us and not [lá] to the warriors! (\"Us\" is exclusive here. \"To\" = dative, not allative. This order is explicitly addressed to one person only.)",
+    "glossZh": "",
+    "answerKey": "Á antat i limpë elmen ar lá i ohtarin!",
+    "answerZh": "keys：Á antat i limpë elmen ar lá i ohtarin!"
+   },
+   {
+    "id": "N",
+    "prompt": "The seventh warrior has come from beyond the great mountains.",
+    "glossZh": "",
+    "answerKey": "I otsëa ohtar utúlië i altë orontillon (or, -llor) pella.",
+    "answerZh": "keys：I otsëa ohtar utúlië i altë orontillon (or, -llor) pella."
+   },
+   {
+    "id": "O",
+    "prompt": "Beyond [or, behind] the eighth door [or, \"gate\", ando] you found a great treasure; we [exclusive] who came after you [apa le] did not find a thing!",
+    "glossZh": "",
+    "answerKey": "I toltëa ando pella elyë hirnë alta harma; elmë i tuller apa le úmer hirë [or, lá hirner] engwë! (Alternatively elyë hirner if the pronoun is taken as plural; cf. Exercise K above. Notice that the \"who\" of the relative sentence \"we who came\" is translated by means of the relative pronoun i: The word man denotes a different kind of \"who\", used in actual questions.)",
+    "answerZh": "keys：I toltëa ando pella elyë hirnë alta harma; elmë i tuller apa le úmer hirë [or, lá hirner] engwë! (Alternatively elyë hirner if the pronoun is taken as plural; cf. Exercise K above. Notice that the \"who\" of the relative sentence \"we who came\" is translated by means of the relative pronoun i: The word man denotes a different kind of \"who\", used in actual questions.)"
+   },
+   {
+    "id": "P",
+    "prompt": "How did the evil Dwarves find them seven days ago?",
+    "glossZh": "",
+    "answerKey": "Manen i úmië Naucor hirner te [or, te-hirner] otso auri yá?",
+    "answerZh": "keys：Manen i úmië Naucor hirner te [or, te-hirner] otso auri yá?"
+   }
+  ]
+ },
+ "pointMapZh": [
+  {
+   "labelZh": "命令句受话人数：-t／-l",
+   "ruleRef": "r-ip6",
+   "noteZh": "C（antat／nurtat 单数）、H（á tulil／á cenil 复数）、L（antal 复数）、M（antat 单数）"
+  },
+  {
+   "labelZh": "词尾加在动词干上",
+   "ruleRef": "r-ip15",
+   "noteZh": "C（áta antat）、L（ámen antal）、M（á antat）"
+  },
+  {
+   "labelZh": "基础动词 -ë 回 -i",
+   "ruleRef": "r-ip20",
+   "noteZh": "C（ávata ... nurtat 之外的 áva 形式）、I（acárië 完成时）"
+  },
+  {
+   "labelZh": "宾语代词粘 á",
+   "ruleRef": "r-ip25",
+   "noteZh": "C（áta＝á＋ta、ávata＝áva＋ta）"
+  },
+  {
+   "labelZh": "与格代词粘 á",
+   "ruleRef": "r-ip28",
+   "noteZh": "L（ámen antal）"
+  },
+  {
+   "labelZh": "强调代词 elyë／inyë／elvë／elmë",
+   "ruleRef": "r-ep18",
+   "noteZh": "A（inyë）、B（elvë）、D（elyë）、G（elyë、inyë）、H（elmë）、K（elyë）、O（elyë、elmë）"
+  },
+  {
+   "labelZh": "复数强调代词后动词带 -r",
+   "ruleRef": "r-ep51",
+   "noteZh": "B（elvë polir）、H（elmë marir）、O（elmë ... úmer）"
+  },
+  {
+   "labelZh": "强调代词的与格",
+   "ruleRef": "r-ep47",
+   "noteZh": "E（inyen、elyen）、M（elmen）"
+  },
+  {
+   "labelZh": "疑问词 man／mana／manen",
+   "ruleRef": "r-qw7",
+   "noteZh": "A（Man）、D（Man）、I（Man）；B、F、J（Mana）；G、P（Manen）"
+  },
+  {
+   "labelZh": "后置词 pella",
+   "ruleRef": "r-pp15",
+   "noteZh": "F（i oronti pella）、N（orontillon pella）、O（ando pella）"
+  },
+  {
+   "labelZh": "后置词 yá",
+   "ruleRef": "r-pp10",
+   "noteZh": "A（cainen loar yá）、P（otso auri yá）"
+  },
+  {
+   "labelZh": "írë 引出时间从句",
+   "ruleRef": "r-v19-6",
+   "noteZh": "A（írë inyë lá marnë）、G（írë inyë úmë polë）、K（Írë elyë utúlië）"
+  },
+  {
+   "labelZh": "序数 otsëa／toltëa",
+   "ruleRef": "r-v19-1",
+   "noteZh": "D（otsëa）、H（toltëa）、J（otsëa）、N（otsëa）、O（toltëa）"
+  }
+ ]
+}

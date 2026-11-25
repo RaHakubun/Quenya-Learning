@@ -1,0 +1,220 @@
+{
+ "lesson": 14,
+ "schemaVersion": 2,
+ "titleZh": "向格、离格与所有格词尾",
+ "titleEn": "The Allative and Ablative Cases and Possessive Pronominal Endings",
+ "summaryZh": "本课三块。①向格 -nna（ciryanna、Endorenna），复数 -nnar（ciryannar），双数 -nta（ciryanta）；可表 upon（Mornië caita i falmalinnar）、into（cilyanna、mannar Valion）。离格 -llo（ciryallo），复数 -llon（作者取 Plotz 说）或 -llor（elenillor、raxellor），双数 -lto（ciryalto）；可表 out of（sindanóriello）与无运动（Itarildë Ondolindello、rucin i ulundollo）。辅音结尾：单数插 -e-（Elendilenna、atarelya），复数插 -i-（elenillor、atarilmar），末辅音与词尾首辅音相同可缩合（Mindonnar、Elenna、Menello、Rómello、aranya）；方位词 Formen／Hyarmen／Rómen／Númen 的末 -n 规律脱落（Rómenna、Rómello）。消歧：into 用 mir／minna，out of 用 et ＋ 离格。②两个怪动词：equë（←*ekwê）无时态、不加 -r、极少接词尾，用于专名或独立代词＋后置引语（Equë Elendil：「……」），否则用 quet-；auta- 有两套时态——物理离开 oantë／oantië，消失逝去 vánë／avánië（avánier 见《Namárië》），形容词 vanwa。③所有格代词词尾：主语词尾把 -ë 改 -a 即得 -nya、-lya、-lva（包含）、-lma（排除），未证的 -nta「他们的」，双数 -mma；加在名词上（coanya、nórenya），先代词词尾后格词尾（sambelyallo、tielyanna），带词尾的名词此后按 -a 名词变（sambelyar）。连接元音单数 -e-、复数 -i-，唯 -nya 一律 -i-（atarinya、Anarinya、órenya 反例说明 -ë 结尾不需连接元音）。ommentielvo ＝ omentië + -lva + -o，第一版 omentielmo 的修订涉及 -lm- 与 -lv- 的重新划分（VT43）。",
+ "mindmap": {
+  "rootZh": "第 14 课：向格、离格与所有格词尾",
+  "branches": [
+   {
+    "labelZh": "向格 -nna",
+    "sectionId": "all-intro"
+   },
+   {
+    "labelZh": "-wards",
+    "sectionId": "all-wards"
+   },
+   {
+    "labelZh": "复数 -nnar",
+    "sectionId": "all-plural"
+   },
+   {
+    "labelZh": "离格 -llo",
+    "sectionId": "abl-intro"
+   },
+   {
+    "labelZh": "-llon／-llor",
+    "sectionId": "abl-plural"
+   },
+   {
+    "labelZh": "双数 -nta／-lto",
+    "sectionId": "all-dual"
+   },
+   {
+    "labelZh": "引申义",
+    "sectionId": "all-shades"
+   },
+   {
+    "labelZh": "无运动离格",
+    "sectionId": "abl-nomotion"
+   },
+   {
+    "labelZh": "upon",
+    "sectionId": "all-upon"
+   },
+   {
+    "labelZh": "into／out of",
+    "sectionId": "all-into"
+   },
+   {
+    "labelZh": "mir／et",
+    "sectionId": "all-ambig"
+   },
+   {
+    "labelZh": "插 -e-",
+    "sectionId": "cons-e"
+   },
+   {
+    "labelZh": "复数 -i-",
+    "sectionId": "cons-i"
+   },
+   {
+    "labelZh": "缩合",
+    "sectionId": "contract"
+   },
+   {
+    "labelZh": "方位词",
+    "sectionId": "directions"
+   },
+   {
+    "labelZh": "equë 来历",
+    "sectionId": "eque-what"
+   },
+   {
+    "labelZh": "equë 语序",
+    "sectionId": "eque-use"
+   },
+   {
+    "labelZh": "不加 -r",
+    "sectionId": "eque-plural"
+   },
+   {
+    "labelZh": "equen",
+    "sectionId": "eque-suffix"
+   },
+   {
+    "labelZh": "何时用 quet-",
+    "sectionId": "eque-vs-quet"
+   },
+   {
+    "labelZh": "auta-",
+    "sectionId": "auta-intro"
+   },
+   {
+    "labelZh": "anwë",
+    "sectionId": "auta-past"
+   },
+   {
+    "labelZh": "oantë／oantië",
+    "sectionId": "auta-oat"
+   },
+   {
+    "labelZh": "vánë／avánië",
+    "sectionId": "auta-van"
+   },
+   {
+    "labelZh": "avánier",
+    "sectionId": "auta-meaning"
+   },
+   {
+    "labelZh": "vanwa",
+    "sectionId": "auta-vanwa"
+   },
+   {
+    "labelZh": "vanya-",
+    "sectionId": "auta-note1"
+   },
+   {
+    "labelZh": "autanë",
+    "sectionId": "auta-note2"
+   },
+   {
+    "labelZh": "-nya",
+    "sectionId": "pos-intro"
+   },
+   {
+    "labelZh": "-ë→-a",
+    "sectionId": "pos-a"
+   },
+   {
+    "labelZh": "-nta",
+    "sectionId": "pos-nta"
+   },
+   {
+    "labelZh": "组合",
+    "sectionId": "pos-explode"
+   },
+   {
+    "labelZh": "六格三数",
+    "sectionId": "pos-paradigm"
+   },
+   {
+    "labelZh": "词序",
+    "sectionId": "pos-order"
+   },
+   {
+    "labelZh": "omentielvo",
+    "sectionId": "pos-omentielvo"
+   },
+   {
+    "labelZh": "第一版",
+    "sectionId": "pos-first"
+   },
+   {
+    "labelZh": "双数说",
+    "sectionId": "pos-carpenter"
+   },
+   {
+    "labelZh": "Plotz 自白",
+    "sectionId": "pos-plotz"
+   },
+   {
+    "labelZh": "包含／排除",
+    "sectionId": "pos-plotz2"
+   },
+   {
+    "labelZh": "VT43",
+    "sectionId": "pos-vt43"
+   },
+   {
+    "labelZh": "正典之争",
+    "sectionId": "pos-welden"
+   },
+   {
+    "labelZh": "atarelya",
+    "sectionId": "pos-cons"
+   },
+   {
+    "labelZh": "复数 -i-",
+    "sectionId": "pos-i-plural"
+   },
+   {
+    "labelZh": "-nya 恒 -i-",
+    "sectionId": "pos-nya"
+   },
+   {
+    "labelZh": "órenya",
+    "sectionId": "pos-orenya"
+   },
+   {
+    "labelZh": "aranya",
+    "sectionId": "pos-contract"
+   },
+   {
+    "labelZh": "yonya",
+    "sectionId": "pos-yonya"
+   },
+   {
+    "labelZh": "小结",
+    "sectionId": "summary"
+   },
+   {
+    "labelZh": "练习 A–P",
+    "sectionId": "exercises"
+   },
+   {
+    "labelZh": "练习三",
+    "sectionId": "ex-p3"
+   },
+   {
+    "labelZh": "练习四",
+    "sectionId": "ex-p4"
+   },
+   {
+    "labelZh": "词汇",
+    "sectionId": "vocabulary"
+   }
+  ]
+ }
+}

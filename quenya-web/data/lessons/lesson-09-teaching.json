@@ -1,0 +1,1892 @@
+{
+  "lesson": 9,
+  "schemaVersion": 2,
+  "oneLineZh": "不定式不变位、不能当谓语：基本动词加 -ë（quetë），A 词干用裸词干（linda）。否定动词 um-（过去 úmë、将来 úva、持续 úma）既可作「不是」，也可加不定式表「不做」（umin quetë）。主动分词用 -la，词干元音可能时拉长（lálala），基本动词经持续词干（tíra → tírala），且不随数变化。",
+  "canDoZh": [
+    "能区分限定动词与不定式，并说明为什么不定式不能当谓语",
+    "能写出基本动词与 A 词干的不定式（quetë、linda）",
+    "能用 um-／úmë／úva 造否定句，并区分 úmë 与 umë",
+    "能把否定动词与一个或两个不定式组合",
+    "能写出主动分词并判断是否拉长（lálala、tírala、falastala）",
+    "能说明分词为何不随数变化",
+    "能说明 itila 的两种解释与作者为何不推荐「无定时分词」",
+    "能独立完成练习 A–P，用 keys 核对，并把错题回链到对应规则"
+  ],
+  "conceptMap": [
+    {
+      "labelZh": "限定动词",
+      "noteZh": "能当谓语",
+      "sectionId": "inf-finite"
+    },
+    {
+      "labelZh": "不定式",
+      "noteZh": "不变位、不能当谓语",
+      "sectionId": "inf-what"
+    },
+    {
+      "labelZh": "英语不定式",
+      "noteZh": "to 可有可无",
+      "sectionId": "inf-english"
+    },
+    {
+      "labelZh": "昆雅不定式 -ë",
+      "noteZh": "polin quetë",
+      "sectionId": "inf-quenya"
+    },
+    {
+      "labelZh": "五个组合",
+      "noteZh": "polë cenë、merner matë…",
+      "sectionId": "inf-examples"
+    },
+    {
+      "labelZh": "A 词干裸词干",
+      "noteZh": "anta、linda",
+      "sectionId": "inf-a-stem"
+    },
+    {
+      "labelZh": "三个 A 词干例",
+      "noteZh": "merner linda",
+      "sectionId": "inf-a-examples"
+    },
+    {
+      "labelZh": "stop／start",
+      "noteZh": "pustaner linda",
+      "sectionId": "inf-ing"
+    },
+    {
+      "labelZh": "ar 并列",
+      "noteZh": "cenda ar tecë",
+      "sectionId": "inf-juxtapose"
+    },
+    {
+      "labelZh": "两个悬案",
+      "noteZh": "无定时不定式、加 -i",
+      "sectionId": "inf-obscure"
+    },
+    {
+      "labelZh": "注释习惯",
+      "noteZh": "「to come」只是注法",
+      "sectionId": "inf-gloss"
+    },
+    {
+      "labelZh": "ná 与 to be",
+      "noteZh": "nauva",
+      "sectionId": "neg-intro"
+    },
+    {
+      "labelZh": "umin／úmë",
+      "noteZh": "「我不是」",
+      "sectionId": "neg-umin"
+    },
+    {
+      "labelZh": "将来 úva",
+      "noteZh": "úva...farëa",
+      "sectionId": "neg-future"
+    },
+    {
+      "labelZh": "否定系动词",
+      "noteZh": "umë aran",
+      "sectionId": "neg-copula"
+    },
+    {
+      "labelZh": "代词词尾",
+      "noteZh": "Umin、Úvalyë",
+      "sectionId": "neg-endings"
+    },
+    {
+      "labelZh": "否定 + 不定式",
+      "noteZh": "umin quetë",
+      "sectionId": "neg-infinitive"
+    },
+    {
+      "labelZh": "双不定式",
+      "noteZh": "úmë merë cenë",
+      "sectionId": "neg-two-inf"
+    },
+    {
+      "labelZh": "úma",
+      "noteZh": "否定「正在」",
+      "sectionId": "neg-present"
+    },
+    {
+      "labelZh": "分词是什么",
+      "noteZh": "动词性形容词",
+      "sectionId": "part-intro"
+    },
+    {
+      "labelZh": "主动／被动",
+      "noteZh": "术语选择",
+      "sectionId": "part-terms"
+    },
+    {
+      "labelZh": "-ing 与宾语",
+      "noteZh": "loving Elves",
+      "sectionId": "part-active"
+    },
+    {
+      "labelZh": "-ing 的两义",
+      "noteZh": "分词 vs 名词",
+      "sectionId": "part-noun"
+    },
+    {
+      "labelZh": "-la",
+      "noteZh": "ilcala",
+      "sectionId": "part-la"
+    },
+    {
+      "labelZh": "拉长",
+      "noteZh": "lálala、falastala",
+      "sectionId": "part-lengthen"
+    },
+    {
+      "labelZh": "基本动词",
+      "noteZh": "tíra → tírala",
+      "sectionId": "part-primary"
+    },
+    {
+      "labelZh": "itila",
+      "noteZh": "无定时分词？",
+      "sectionId": "part-itila"
+    },
+    {
+      "labelZh": "不随数变化",
+      "noteZh": "rámar sisílala",
+      "sectionId": "part-number"
+    },
+    {
+      "labelZh": "持续时 vs is + 分词",
+      "noteZh": "I seldo lálëa",
+      "sectionId": "part-continuous"
+    },
+    {
+      "labelZh": "原文小结",
+      "noteZh": "Summary of Lesson Nine",
+      "sectionId": "summary"
+    },
+    {
+      "labelZh": "课末词汇",
+      "noteZh": "8 个动词",
+      "sectionId": "vocabulary"
+    },
+    {
+      "labelZh": "练习 A–P",
+      "noteZh": "不定式 + 否定 + 分词",
+      "sectionId": "exercises"
+    }
+  ],
+  "pathTitleZh": "本课学习路径",
+  "path": [
+    {
+      "step": 1,
+      "labelZh": "限定动词：能当谓语的动词",
+      "sectionId": "inf-finite"
+    },
+    {
+      "step": 2,
+      "labelZh": "不定式：不限定，所以不能当谓语",
+      "sectionId": "inf-what"
+    },
+    {
+      "step": 3,
+      "labelZh": "英语不定式：让几个动词挤进一句",
+      "sectionId": "inf-english"
+    },
+    {
+      "step": 4,
+      "labelZh": "昆雅不定式：基本动词加 -ë",
+      "sectionId": "inf-quenya"
+    },
+    {
+      "step": 5,
+      "labelZh": "五个「限定 + 不定式」的例子",
+      "sectionId": "inf-examples"
+    },
+    {
+      "step": 6,
+      "labelZh": "A 词干的不定式：裸词干",
+      "sectionId": "inf-a-stem"
+    },
+    {
+      "step": 7,
+      "labelZh": "三个 A 词干不定式的例子",
+      "sectionId": "inf-a-examples"
+    },
+    {
+      "step": 8,
+      "labelZh": "英语用 -ing 的地方，昆雅仍用不定式",
+      "sectionId": "inf-ing"
+    },
+    {
+      "step": 9,
+      "labelZh": "不定式并列：ar",
+      "sectionId": "inf-juxtapose"
+    },
+    {
+      "step": 10,
+      "labelZh": "两个悬案：无定时不定式与「加 -i」",
+      "sectionId": "inf-obscure"
+    },
+    {
+      "step": 11,
+      "labelZh": "从此用不定式注释动词",
+      "sectionId": "inf-gloss"
+    },
+    {
+      "step": 12,
+      "labelZh": "ná 与动词「to be」",
+      "sectionId": "neg-intro"
+    },
+    {
+      "step": 13,
+      "labelZh": "umin／úmë：一个词就是「不是」",
+      "sectionId": "neg-umin"
+    },
+    {
+      "step": 14,
+      "labelZh": "将来时 úva（而不是 umuva）",
+      "sectionId": "neg-future"
+    },
+    {
+      "step": 15,
+      "labelZh": "否定系动词：umë aran「不是国王」",
+      "sectionId": "neg-copula"
+    },
+    {
+      "step": 16,
+      "labelZh": "用代词词尾代替主语",
+      "sectionId": "neg-endings"
+    },
+    {
+      "step": 17,
+      "labelZh": "否定动词 + 不定式＝「不做某事」",
+      "sectionId": "neg-infinitive"
+    },
+    {
+      "step": 18,
+      "labelZh": "两个不定式并列在否定动词后",
+      "sectionId": "neg-two-inf"
+    },
+    {
+      "step": 19,
+      "labelZh": "úma：否定「正在做」",
+      "sectionId": "neg-present"
+    },
+    {
+      "step": 20,
+      "labelZh": "分词：有形容词功能的动词",
+      "sectionId": "part-intro"
+    },
+    {
+      "step": 21,
+      "labelZh": "术语：主动分词与被动分词",
+      "sectionId": "part-terms"
+    },
+    {
+      "step": 22,
+      "labelZh": "主动分词：-ing 与带宾语",
+      "sectionId": "part-active"
+    },
+    {
+      "step": 23,
+      "labelZh": "英语 -ing 的两义，昆雅分开",
+      "sectionId": "part-noun"
+    },
+    {
+      "step": 24,
+      "labelZh": "昆雅分词词尾：-la",
+      "sectionId": "part-la"
+    },
+    {
+      "step": 25,
+      "labelZh": "词干元音拉长：lálala、hlápula",
+      "sectionId": "part-lengthen"
+    },
+    {
+      "step": 26,
+      "labelZh": "基本动词的分词：先造持续词干",
+      "sectionId": "part-primary"
+    },
+    {
+      "step": 27,
+      "labelZh": "itila 的难题：是否存在「无定时分词」",
+      "sectionId": "part-itila"
+    },
+    {
+      "step": 28,
+      "labelZh": "分词不随数变化：rámar sisílala",
+      "sectionId": "part-number"
+    },
+    {
+      "step": 29,
+      "labelZh": "别用「is + 分词」代替持续时",
+      "sectionId": "part-continuous"
+    },
+    {
+      "step": 30,
+      "labelZh": "本章小结：原文 Summary 与中文对照",
+      "sectionId": "summary"
+    },
+    {
+      "step": 31,
+      "labelZh": "课末词汇：1 个数词 + 8 个动词 + 2 个介词",
+      "sectionId": "vocabulary"
+    },
+    {
+      "step": 32,
+      "labelZh": "练习工作台：A–P 与 keys 核对",
+      "sectionId": "exercises"
+    }
+  ],
+  "modules": [
+    {
+      "sectionId": "inf-finite",
+      "sourceSectionId": "the-infinitive",
+      "titleZh": "01 · 限定动词：能当谓语的动词",
+      "leadZh": "到此为止的时态都是「限定动词」——能充当句子谓语。i Elda máta massa 里，máta 是谓语，所以它是限定形式。",
+      "objectives": [
+        "能定义限定动词",
+        "能在一个句子里指出主语、宾语、谓语"
+      ],
+      "rules": [
+        {
+          "id": "rule-finite-def",
+          "headZh": "限定动词＝能当谓语",
+          "bodyZh": "限定动词能充当句子谓语，即告诉我们主语做什么（或是什么）。i Elda máta massa 里 i Elda 是主语、massa 是宾语、máta 是谓语，因此 máta 是限定形式。",
+          "en": "The definition of a finite verb is that it is capable of functioning as the predicate of a sentence",
+          "zh": "限定动词的定义是：能充当句子谓语。",
+          "exampleZh": "i Elda máta massa"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "以为谓语只能是动词",
+          "right": "系动词 + 名词／形容词也算谓语（gold is beautiful）",
+          "whyZh": "原文括号：a phrase made up of copula + noun or adjective also counts as a predicate。"
+        }
+      ],
+      "recapZh": "限定动词＝能当谓语；máta 能当谓语，所以是限定形式。",
+      "selfCheckZh": [
+        {
+          "qZh": "i Elda máta massa 里哪个词是谓语？",
+          "aZh": "máta「正在吃」。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-infinitive",
+        "unitIds": [
+          0
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "inf-what",
+      "sourceSectionId": "the-infinitive",
+      "titleZh": "02 · 不定式：不限定，所以不能当谓语",
+      "leadZh": "不定式不随时态变位，也不加复数 -r，因此不能单独当谓语，也不能直接配主语。",
+      "objectives": [
+        "能说出不定式的两个「不」",
+        "能说明为什么不定式不能当谓语"
+      ],
+      "rules": [
+        {
+          "id": "rule-infinitive-def",
+          "headZh": "不定式＝非限定",
+          "bodyZh": "不定式（in-finitive，非限定）不随时态变位，主语是复数也不加 -r。所以它本身不能充当句子谓语，也不能直接与主语搭配。",
+          "en": "It is, as the name suggests, in-finite – non-finite.",
+          "zh": "顾名思义，它是不限定的——非限定。",
+          "exampleZh": "quetë「说」"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "给不定式加复数 -r",
+          "right": "不定式不加 -r",
+          "whyZh": "原文：It does not receive the ending -r, even if the subject of the sentence is plural。"
+        }
+      ],
+      "recapZh": "不定式不变位、不加 -r，所以不能当谓语。",
+      "selfCheckZh": [
+        {
+          "qZh": "不定式能当句子谓语吗？",
+          "aZh": "不能，它不随时态变位、也不能直接配主语。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-infinitive",
+        "unitIds": [
+          1
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "inf-english",
+      "sourceSectionId": "the-infinitive",
+      "titleZh": "03 · 英语不定式：让几个动词挤进一句",
+      "leadZh": "wanted to eat：wanted 限定、eat 不定式。英语常用 to 标记不定式，但 let、can、must 后面不带 to。",
+      "objectives": [
+        "能说明不定式的主要功能",
+        "能举出不带 to 的英语不定式"
+      ],
+      "rules": [
+        {
+          "id": "rule-english-infinitive",
+          "headZh": "英语不定式与 to",
+          "bodyZh": "英语不定式的重要功能是让几个动词组合在一句里：wanted（限定）+ to eat（不定式）。to 并不总出现：I let him go、I must go（不是 **\"I must to go\"）。",
+          "en": "an important function of the infinitive is that it allows several verbs to be combined in one sentence",
+          "zh": "不定式的一个重要功能是让几个动词能组合在一个句子里。",
+          "exampleZh": "wanted to eat；let him go；must go"
+        }
+      ],
+      "examples": [
+        {
+          "en": "the Dwarves wanted to eat",
+          "zh": "矮人们想吃",
+          "whyZh": "wanted 是限定形式（过去时），to eat 是不定式，二者组成动词短语。"
+        },
+        {
+          "en": "I let him go",
+          "zh": "我让他走",
+          "whyZh": "没有 to，go 仍算不定式；对比 I allowed him to go。"
+        }
+      ],
+      "recapZh": "不定式让多个动词组合；英语的 to 可有可无（let、can、must 后不带）。",
+      "selfCheckZh": [
+        {
+          "qZh": "I must go 里的 go 是不定式吗？",
+          "aZh": "是，虽然前面没有 to。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-infinitive",
+        "unitIds": [
+          2
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "inf-quenya",
+      "sourceSectionId": "the-infinitive",
+      "titleZh": "04 · 昆雅不定式：基本动词加 -ë",
+      "leadZh": "昆雅没有 to 那样的标记。polin quetë「我能说」里 quetë 就是不定式；基本动词的不定式以 -ë 结尾。",
+      "objectives": [
+        "能从 polin quetë 认出不定式",
+        "能写出基本动词的不定式形式"
+      ],
+      "rules": [
+        {
+          "id": "rule-infinitive-e",
+          "headZh": "基本动词不定式：-ë",
+          "bodyZh": "昆雅似乎没有独立的 to。polin quetë 里 polin 是限定形式（pol- 的无定时 + -n「我」），quetë 必须分析为不定式。可见 quet- 这类基本动词的不定式以 -ë 结尾（无疑代表原始精灵语 -i）。",
+          "en": "primary verbs like quet- have infinitives in -ë",
+          "zh": "quet- 这类基本动词的不定式以 -ë 结尾。",
+          "exampleZh": "quet- → quetë；mat- → matë；tul- → tulë"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "把 quetë 一律当无定时「说」",
+          "right": "它也可是不定式「去说」；靠语境与译文判断",
+          "whyZh": "原文：The context must decide whether the form cenë is to be understood as an aorist \"sees\" or an infinitive \"[to] see\"。"
+        }
+      ],
+      "recapZh": "昆雅无 to；基本动词不定式＝词干 + -ë（quetë、matë、tulë）。",
+      "selfCheckZh": [
+        {
+          "qZh": "tul- 的不定式？",
+          "aZh": "tulë。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-infinitive",
+        "unitIds": [
+          3
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "inf-examples",
+      "sourceSectionId": "the-infinitive",
+      "titleZh": "05 · 五个「限定 + 不定式」的例子",
+      "leadZh": "polë cenë、merner matë、pollë hlarë、polilyë carë、meruvar tulë——限定动词变时态，不定式不变。",
+      "objectives": [
+        "能指出每句哪个是限定动词、哪个是不定式",
+        "能自己造一句「能／想做某事」"
+      ],
+      "rules": [
+        {
+          "id": "rule-fin-inf-combo",
+          "headZh": "限定动词变，不定式不变",
+          "bodyZh": "限定动词随时态与主语变（polë、merner、pollë、polilyë、meruvar），后面的不定式保持词干 + -ë（cenë、matë、hlarë、carë、tulë）。",
+          "en": "Finite verbs in red, infinitives in blue",
+          "zh": "限定动词红色，不定式蓝色。",
+          "exampleZh": "polë cenë；merner matë；meruvar tulë"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I Elda polë cenë i Nauco",
+          "zh": "精灵能看见矮人",
+          "whyZh": "polë 是无定时限定形式；cenë 是不定式。两者同形 -ë，只能靠语境分辨。"
+        },
+        {
+          "en": "I Naucor merner matë",
+          "zh": "矮人们想吃",
+          "whyZh": "merner 是过去时复数；matë 是不定式。"
+        },
+        {
+          "en": "I seldo pollë hlarë ilya quetta",
+          "zh": "那男孩能听见每个词",
+          "whyZh": "pollë 是 pol- 的过去时；hlarë 是不定式。"
+        },
+        {
+          "en": "Polilyë carë ilqua",
+          "zh": "你能做一切",
+          "whyZh": "polilyë＝pol- + -lyë「你」；carë 是不定式。"
+        },
+        {
+          "en": "I nissi meruvar tulë",
+          "zh": "女人们将想来",
+          "whyZh": "meruvar 是 mer- 的将来时复数；tulë 是不定式。"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "把 polë 与 cenë 都当无定时",
+          "right": "polë 是无定时限定动词，cenë 是不定式",
+          "whyZh": "原文：the former is an aorist and the latter is an infinitive。"
+        }
+      ],
+      "recapZh": "五个组合：polë cenë、merner matë、pollë hlarë、polilyë carë、meruvar tulë。",
+      "selfCheckZh": [
+        {
+          "qZh": "I Naucor merner matë 里哪个词是限定动词？",
+          "aZh": "merner（过去时复数）。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-infinitive",
+        "unitIds": [
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "inf-a-stem",
+      "sourceSectionId": "the-infinitive",
+      "titleZh": "06 · A 词干的不定式：裸词干",
+      "leadZh": "《词源》里托尔金用不定式注释 A 词干（anta-「to give」）。他明确提到「动词的裸词干被用作……不定式」。",
+      "objectives": [
+        "能说明 A 词干不定式的形式",
+        "能解释词典用不定式注释动词的习惯"
+      ],
+      "rules": [
+        {
+          "id": "rule-a-stem-infinitive",
+          "headZh": "A 词干：裸词干即不定式",
+          "bodyZh": "托尔金在《词源》里用不定式注释 A 词干（anta-、varya-、yelta-），并提到某些场合「动词的裸词干被用作……不定式」（MC:223）。故不加任何附加成分的 A 词干可作不定式：anta、linda、cenda。",
+          "en": "when the bare stem of the verb is used...as infinitive",
+          "zh": "动词的裸词干被用作……不定式。",
+          "exampleZh": "anta；linda；cenda"
+        },
+        {
+          "id": "rule-gloss-habit",
+          "headZh": "词典习惯不等于语法证明",
+          "bodyZh": "词表常用不定式命名动词，这只是西方语言学传统；甚至希伯来语词表坚持 nathan 意为 \"to give\"，其实它是「他给了」。所以注释形式本身不是语法证据，还要看托尔金的明确说法。",
+          "en": "in the tradition of Western linguistics, the infinitive is commonly the form used to name, list or gloss a verb in wordlists",
+          "zh": "在西方语言学传统里，词表常用不定式来命名、列举、注释动词。",
+          "exampleZh": "nathan"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "以为词典里的「to give」就证明 anta 是不定式",
+          "right": "词典习惯只是旁证；真正的依据是 MC:223 的明确说法",
+          "whyZh": "原文：This is not by itself conclusive evidence。"
+        }
+      ],
+      "recapZh": "A 词干的不定式＝裸词干（anta、linda）；词典用不定式注释只是习惯。",
+      "selfCheckZh": [
+        {
+          "qZh": "linda- 的不定式？",
+          "aZh": "linda（裸词干）。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-infinitive",
+        "unitIds": [
+          9
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "inf-a-examples",
+      "sourceSectionId": "the-infinitive",
+      "titleZh": "07 · 三个 A 词干不定式的例子",
+      "leadZh": "merner linda、polë orta、Merin cenda——A 词干不定式就是裸词干，不带任何词尾。",
+      "objectives": [
+        "能造「想／能 + A 词干动词」的句子"
+      ],
+      "rules": [
+        {
+          "id": "rule-a-stem-examples",
+          "headZh": "A 词干组合实例",
+          "bodyZh": "merner linda「想唱歌」、polë orta「能举起」、Merin cenda「我想读」——限定动词变，A 词干不定式保持裸词干。",
+          "en": "I vendi merner linda \"the maidens wanted to sing\"",
+          "zh": "女人们想唱歌。",
+          "exampleZh": "merner linda；polë orta；Merin cenda"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I vendi merner linda",
+          "zh": "少女们想唱歌",
+          "whyZh": "merner 过去时复数 + 裸词干 linda。"
+        },
+        {
+          "en": "I norsa polë orta i alta ondo",
+          "zh": "巨人能举起那块大石",
+          "whyZh": "polë 无定时 + 裸词干 orta。"
+        },
+        {
+          "en": "Merin cenda i parma",
+          "zh": "我想读那本书",
+          "whyZh": "Merin＝mer- + -n「我」；cenda 是不定式。"
+        }
+      ],
+      "recapZh": "A 词干不定式＝裸词干：linda、orta、cenda。",
+      "selfCheckZh": [
+        {
+          "qZh": "「我想读那本书」怎么说？",
+          "aZh": "Merin cenda i parma。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-infinitive",
+        "unitIds": [
+          10,
+          11,
+          12
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "inf-ing",
+      "sourceSectionId": "the-infinitive",
+      "titleZh": "08 · 英语用 -ing 的地方，昆雅仍用不定式",
+      "leadZh": "start、stop 之后英语常说 stopped singing；昆雅大概仍用不定式：pustaner linda。",
+      "objectives": [
+        "能处理 stop／start 类结构"
+      ],
+      "rules": [
+        {
+          "id": "rule-ing-cases",
+          "headZh": "stop／start 后用不定式",
+          "bodyZh": "英语在 start、stop 后宁用 -ing（stopped singing）。昆雅大概仍用普通不定式：I nissi pustaner linda「女人们停止了唱歌」。",
+          "en": "I think it is a fair guess that Quenya would use the normal infinitive in such cases as well",
+          "zh": "我想可以合理猜测昆雅在这些场合也用普通不定式。",
+          "exampleZh": "pustaner linda"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "给昆雅也造一个 -ing 形式来表示「停止唱歌」",
+          "right": "用不定式：pustaner linda",
+          "whyZh": "原文明确说昆雅在这些场合也用普通不定式。"
+        }
+      ],
+      "recapZh": "stop／start 之后，昆雅用不定式而非 -ing。",
+      "selfCheckZh": [
+        {
+          "qZh": "「女人们停止了唱歌」怎么说？",
+          "aZh": "I nissi pustaner linda。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-infinitive",
+        "unitIds": [
+          13,
+          14
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "inf-juxtapose",
+      "sourceSectionId": "the-infinitive",
+      "titleZh": "09 · 不定式并列：ar",
+      "leadZh": "merir cenda ar tecë：两个不定式用 ar「和」并列，共用一个限定动词。",
+      "objectives": [
+        "能用 ar 并列两个不定式"
+      ],
+      "rules": [
+        {
+          "id": "rule-ar-infinitive",
+          "headZh": "ar 并列不定式",
+          "bodyZh": "几个不定式大概可用 ar「和」并列：I neri merir cenda ar tecë rimbë parmar「男人们想读并且写许多书」。",
+          "en": "Several infinitives can probably be juxtaposed by means of ar \"and\"",
+          "zh": "几个不定式大概可用 ar「和」并列。",
+          "exampleZh": "cenda ar tecë"
+        }
+      ],
+      "recapZh": "ar 可把两个不定式并列，共用前面的限定动词。",
+      "selfCheckZh": [
+        {
+          "qZh": "「想读并且写」怎么说？",
+          "aZh": "merir cenda ar tecë。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-infinitive",
+        "unitIds": [
+          15,
+          16
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "inf-obscure",
+      "sourceSectionId": "the-infinitive",
+      "titleZh": "10 · 两个悬案：无定时不定式与「加 -i」",
+      "leadZh": "托尔金提到「加 -i 构成的一般（无定时）不定式」，但材料太少。是否存在「正在吃」vs「吃」的不定式对立？auciri 是词干还是不定式？",
+      "objectives": [
+        "能说出两个悬案",
+        "能说明为什么无法定论"
+      ],
+      "rules": [
+        {
+          "id": "rule-aorist-infinitive",
+          "headZh": "是否有「无定时不定式」",
+          "bodyZh": "VT41:17 提到「加 -i 构成的一般（无定时）『不定式』」，但只发表过简短引文。昆雅是否把 máta／matë 之别带进不定式，区分「吃」与「正在吃」？无法确定。",
+          "en": "the general (aorist) 'infinitive' formed by added -i",
+          "zh": "加 -i 构成的一般（无定时）「不定式」。",
+          "exampleZh": "máta／matë"
+        },
+        {
+          "id": "rule-added-i",
+          "headZh": "「加 -i」是共时词尾还是原始形式",
+          "bodyZh": "若 -i 是当代昆雅词尾，就会有另一个不定式 queti；若 quetë 代表原始 kweti，则只是历史来源。《Quendi and Eldar》里的 auciri、hóciri 后文又带连字符（auciri-），像是词干而非独立不定式。",
+          "en": "we cannot be sure of anything, and must await the publication of more material",
+          "zh": "我们无法确定任何事，只能等更多材料出版。",
+          "exampleZh": "auciri／auciri-；hóciri／hóciri-"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "断言 queti 是合法的不定式",
+          "right": "无法确定 -i 是共时词尾还是原始形式",
+          "whyZh": "原文：How it is used ... we cannot even begin to guess。"
+        }
+      ],
+      "recapZh": "无定时不定式与「加 -i」都无定论，只能等新材料。",
+      "selfCheckZh": [
+        {
+          "qZh": "auciri 到底是不定式还是词干？",
+          "aZh": "无法确定：前文像不定式，后文又带连字符像词干。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-infinitive",
+        "unitIds": [
+          17,
+          18
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "inf-gloss",
+      "sourceSectionId": "the-infinitive",
+      "titleZh": "11 · 从此用不定式注释动词",
+      "leadZh": "以后词汇表把 tul- 注为「to come」、lanta- 注为「to fall」。但 tul- 本身不能当不定式，必须作 tulë。",
+      "objectives": [
+        "能解释词汇表为何用 to 注释",
+        "能说明注释形式与可用形式的区别"
+      ],
+      "rules": [
+        {
+          "id": "rule-gloss-infinitive",
+          "headZh": "注释用不定式，使用要用 -ë",
+          "bodyZh": "不定式传统上用来命名、注释动词，故以后把 tul- 注为「to come」。但 tul- 的词干本身不能当不定式（\"tul\"），必须作 tulë。用不定式释义只是习惯与方便。",
+          "en": "the mere stem of primary verb like tul- cannot function as an actual infinitive (\"tul\") in a Quenya text (it must be tulë instead)",
+          "zh": "像 tul- 这样的基本动词词干本身不能作真正的不定式（\"tul\"），必须作 tulë。",
+          "exampleZh": "tul-「to come」／tulë"
+        }
+      ],
+      "recapZh": "词汇表用「to …」注释；实际写句子要用 tulë 这样的形式。",
+      "selfCheckZh": [
+        {
+          "qZh": "能在句子里直接写 tul 吗？",
+          "aZh": "不能，必须写 tulë。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-infinitive",
+        "unitIds": [
+          19
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "neg-intro",
+      "sourceSectionId": "the-negative-verb",
+      "titleZh": "12 · ná 与动词「to be」",
+      "leadZh": "先前学的系动词 ná 是「to be」的一个时态。它的其他时态很晦暗，只有将来时 nauva 清楚，第 20 课再谈。",
+      "objectives": [
+        "知道 ná 属于「to be」",
+        "知道 nauva 是它的将来时"
+      ],
+      "rules": [
+        {
+          "id": "rule-na",
+          "headZh": "ná 是「to be」的一个时态",
+          "bodyZh": "ná「是」可视为动词「to be」的一个时态；它是现在时还是无定时不清楚，其他时态更晦暗，只有将来时 nauva「将是」清楚。第 20 课会回来讲。",
+          "en": "Earlier we have mentioned the copula ná \"is\", which we can now refer to as a tense of the verb \"to be\".",
+          "zh": "先前提到的系动词 ná「是」，现在可称之为动词「to be」的一个时态。",
+          "exampleZh": "ná；nauva"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "追问 ná 究竟是现在时还是无定时",
+          "right": "原文明确说不知道；这类细节留待第 20 课",
+          "whyZh": "原文括号：Don't ask me if ná is the present tense or the aorist。"
+        }
+      ],
+      "recapZh": "ná＝「是」，nauva＝「将是」；其余时态待第 20 课。",
+      "selfCheckZh": [
+        {
+          "qZh": "「to be」的将来时？",
+          "aZh": "nauva。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-negative-verb",
+        "unitIds": [
+          0
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "neg-umin",
+      "sourceSectionId": "the-negative-verb",
+      "titleZh": "13 · umin／úmë：一个词就是「不是」",
+      "leadZh": "昆雅有单一的否定动词：umin「我不是」，过去时 úmë（不是 **umnë）。注意别与无定时 umë 混淆。",
+      "objectives": [
+        "能写出 um- 的现在与过去形式",
+        "能区分 úmë 与 umë"
+      ],
+      "rules": [
+        {
+          "id": "rule-umin",
+          "headZh": "umin＝「我不是」",
+          "bodyZh": "昆雅有单一动词意为「不是」，不必把 ná 与「不」组合。《词源》UGU/UMU 条作 umin「我不是」——又是按第一人称无定时列基本动词。",
+          "en": "Quenya also has a unitary verb meaning \"not to be\"",
+          "zh": "昆雅还有一个意为「不是」的单一动词。",
+          "exampleZh": "umin"
+        },
+        {
+          "id": "rule-ume",
+          "headZh": "过去时 úmë（不是 **umnë）",
+          "bodyZh": "过去时略不规则：úmë，而非按最简规则应有的 **umnë。它与 lav-「舔」的过去时 lávë 属同一模式（比较 undulávë）。须分清过去时 úmë「不是（过去）」与无词尾无定时 umë「不是（现在）」。",
+          "en": "it is úmë, not **umnë as it would have to be according to the simplest \"regular\" pattern",
+          "zh": "它是 úmë，而非按最简「规则」模式应有的 **umnë。",
+          "exampleZh": "úmë（过去）／umë（无定时）"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "写 **umnë 当过去时",
+          "right": "úmë",
+          "whyZh": "原文直接以 **umnë 标出错误形式。"
+        },
+        {
+          "wrong": "把 úmë 与 umë 混用",
+          "right": "úmë 是过去时，umë 是无定时",
+          "whyZh": "原文：One must take care not to confuse the past tense form úmë \"was not\" with the ending-less aorist umë \"is not\"。"
+        }
+      ],
+      "recapZh": "umin「我不是」、úmë「我曾不是」；别与 umë 混。",
+      "selfCheckZh": [
+        {
+          "qZh": "um- 的过去时？",
+          "aZh": "úmë。"
+        },
+        {
+          "qZh": "umë 与 úmë 有何不同？",
+          "aZh": "umë 是无定时「不是」，úmë 是过去时「（当时）不是」。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-negative-verb",
+        "unitIds": [
+          1
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "neg-future",
+      "sourceSectionId": "the-negative-verb",
+      "titleZh": "14 · 将来时 úva（而不是 umuva）",
+      "leadZh": "理论上应有 umuva，但《Fíriel 之歌》用更短的 úva。也许 úva 属于另一词根 UGU 的同义动词 uin。",
+      "objectives": [
+        "能写出 um- 的将来时",
+        "能说明 úva 的可能来历"
+      ],
+      "rules": [
+        {
+          "id": "rule-uva-neg",
+          "headZh": "将来时 úva",
+          "bodyZh": "理论上应有 umuva，这个未见形式大概也允许；但《Fíriel 之歌》出现 úva（úva...farëa「将不够」）。也许 úva 属于词根 UGU 的同义动词 uin：原始 uguba 的 g 消失使两个 u 合并成长 ú，而 ugin 的 u＋i 合并成双元音 ui。我们在此用 úva。",
+          "en": "we will here use úva as the future tense of um- \"not to be\"",
+          "zh": "我们在此用 úva 作 um-「不是」的将来时。",
+          "exampleZh": "úva...farëa；uin"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "把 úva 当成 umuva 的笔误",
+          "right": "úva 有实际出处，且可能属另一个词根",
+          "whyZh": "原文给出 uguba→úva 与 ugin→uin 的音系解释。"
+        }
+      ],
+      "recapZh": "um- 的将来时用 úva（有据），umuva 未见但大概也允许。",
+      "selfCheckZh": [
+        {
+          "qZh": "「将不够」怎么说？",
+          "aZh": "úva...farëa。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-negative-verb",
+        "unitIds": [
+          2
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "neg-copula",
+      "sourceSectionId": "the-negative-verb",
+      "titleZh": "15 · 否定系动词：umë aran「不是国王」",
+      "leadZh": "像 ná 一样，um- 可连接主语与名词／形容词：umë aran、umir tiucë、úmë morë、úmer sailë、úva úmëa、úvar ohtari。",
+      "objectives": [
+        "能造「X 不是 Y」的句子",
+        "能按主语单复数调整 um-"
+      ],
+      "rules": [
+        {
+          "id": "rule-neg-copula",
+          "headZh": "否定系动词",
+          "bodyZh": "否定动词可像 ná 一样连接主语与名词或形容词。主语单数用 umë／úmë／úva，复数加 -r：umir、úmer、úvar。",
+          "en": "Like ná, this \"negative copula\" can presumably be used to connect a subject with a noun or an adjective",
+          "zh": "像 ná 一样，这个「否定系动词」大概可用来连接主语与名词或形容词。",
+          "exampleZh": "I Nauco umë aran；I nissi umir tiucë；Elda úva úmëa"
+        }
+      ],
+      "examples": [
+        {
+          "en": "I Nauco umë aran",
+          "zh": "那矮人不是国王",
+          "whyZh": "umë（无定时）+ 名词 aran。"
+        },
+        {
+          "en": "I nissi umir tiucë",
+          "zh": "那些女人不胖",
+          "whyZh": "复数主语加 -r：umir；tiucë 是形容词「胖的」。"
+        },
+        {
+          "en": "I rocco úmë morë",
+          "zh": "那马不是黑的",
+          "whyZh": "过去时 úmë + 形容词 morë。"
+        },
+        {
+          "en": "Nissi úvar ohtari",
+          "zh": "女人不会是战士",
+          "whyZh": "将来时 úva + 复数 -r；作者顺手开了 Éowyn 的玩笑。"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "在复数主语后仍写 umë",
+          "right": "umir／úmer／úvar",
+          "whyZh": "否定动词与其他动词一样，复数主语加 -r。"
+        }
+      ],
+      "recapZh": "否定系动词：umë／úmë／úva（单），umir／úmer／úvar（复）。",
+      "selfCheckZh": [
+        {
+          "qZh": "「那些女人不胖」怎么说？",
+          "aZh": "I nissi umir tiucë。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-negative-verb",
+        "unitIds": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "neg-endings",
+      "sourceSectionId": "the-negative-verb",
+      "titleZh": "16 · 用代词词尾代替主语",
+      "leadZh": "Umin Elda「我不是精灵」、Úmen saila「我当时不聪明」、Úvalyë ohtar「你不会是战士」。",
+      "objectives": [
+        "能把代词词尾加到否定动词上"
+      ],
+      "rules": [
+        {
+          "id": "rule-neg-endings",
+          "headZh": "否定动词 + 代词词尾",
+          "bodyZh": "否定动词可带代词词尾代替独立主语：Umin Elda（-n「我」）、Úmen saila（-n + 过去时 úmë）、Úvalyë ohtar（-lyë「你」+ 将来时 úva）。",
+          "en": "Or, using pronominal endings instead of an independent subject",
+          "zh": "或者用代词词尾代替独立主语。",
+          "exampleZh": "Umin；Úmen；Úvalyë"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "写 Umin Elda 时再加独立代词",
+          "right": "代词词尾已表示主语，不必重复",
+          "whyZh": "原文把这组例句标为「用代词词尾代替独立主语」。"
+        }
+      ],
+      "recapZh": "否定动词也能带 -n、-lyë 等代词词尾。",
+      "selfCheckZh": [
+        {
+          "qZh": "「你不会是战士」怎么说？",
+          "aZh": "Úvalyë ohtar。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-negative-verb",
+        "unitIds": [
+          10,
+          11,
+          12,
+          13
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "neg-infinitive",
+      "sourceSectionId": "the-negative-verb",
+      "titleZh": "17 · 否定动词 + 不定式＝「不做某事」",
+      "leadZh": "umin 不总意为「我不是」，也可意为「我不」。加不定式即可否定别的动词：Umin turë macil、Máma umë matë hrávë、I Nauco úmë tulë。",
+      "objectives": [
+        "能把否定动词与不定式组合",
+        "能按语境选对时态"
+      ],
+      "rules": [
+        {
+          "id": "rule-neg-infinitive",
+          "headZh": "否定动词 + 不定式",
+          "bodyZh": "《词源》UGU/UMU 条指出 umin 不总意为「我不是」，也可意为「我不」。与不定式组合即可否定相应动词：Umin turë macil「我不挥剑」、Máma umë matë hrávë「羊不吃肉」、I Nauco úmë tulë「那矮人没有来」、I nís úva linda「那女人不会唱」。",
+          "en": "It can just as well mean \"I do not\".",
+          "zh": "它也可以意为「我不」。",
+          "exampleZh": "umin turë；umë matë；úmë tulë；úva linda"
+        }
+      ],
+      "examples": [
+        {
+          "en": "Umin turë macil",
+          "zh": "我不挥剑",
+          "whyZh": "umin（无定时）+ 不定式 turë。"
+        },
+        {
+          "en": "Máma umë matë hrávë",
+          "zh": "羊不吃肉",
+          "whyZh": "无定时 umë + 不定式 matë；这是「一般真理」。"
+        },
+        {
+          "en": "I Nauco úmë tulë",
+          "zh": "那矮人没有来",
+          "whyZh": "过去时 úmë + 不定式 tulë。"
+        },
+        {
+          "en": "I neri úvar cenë i Elda",
+          "zh": "那些男人不会看见那精灵",
+          "whyZh": "将来时 úva + 复数 -r，加不定式 cenë。"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "把 umin turë 理解为「我不是挥剑」",
+          "right": "umin 在此意为「我不」，后接不定式",
+          "whyZh": "原文：Tolkien indicated that umin does not always signify \"I am not\"。"
+        }
+      ],
+      "recapZh": "否定动词 + 不定式＝「不做某事」：umin turë、úmë tulë、úva linda。",
+      "selfCheckZh": [
+        {
+          "qZh": "「羊不吃肉」怎么说？",
+          "aZh": "Máma umë matë hrávë。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-negative-verb",
+        "unitIds": [
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "neg-two-inf",
+      "sourceSectionId": "the-negative-verb",
+      "titleZh": "18 · 两个不定式并列在否定动词后",
+      "leadZh": "I Elda úmë merë cenë i Nauco：úmë 是否定动词，merë 与 cenë 是两个不定式。",
+      "objectives": [
+        "能处理「不想看见」这类双不定式结构"
+      ],
+      "rules": [
+        {
+          "id": "rule-two-infinitives",
+          "headZh": "否定动词 + 两个不定式",
+          "bodyZh": "否定动词后可并列几个不定式：I Elda úmë merë cenë i Nauco「那精灵不想看见那矮人」、I Nauco úva merë cenda i parma「那矮人不会想读那本书」。",
+          "en": "several infinitives may sometimes be combined, like merë and cenë in this sentence",
+          "zh": "几个不定式有时可以并列，如此句的 merë 与 cenë。",
+          "exampleZh": "úmë merë cenë；úva merë cenda"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "只把第一个动词当不定式",
+          "right": "merë 与 cenë 都是不定式，共用一个否定动词",
+          "whyZh": "原文明确把两个词都标为不定式。"
+        }
+      ],
+      "recapZh": "一个否定动词可带两个不定式：úmë merë cenë。",
+      "selfCheckZh": [
+        {
+          "qZh": "I Nauco úva merë cenda i parma 有几个不定式？",
+          "aZh": "两个：merë 与 cenda。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-negative-verb",
+        "unitIds": [
+          21,
+          22,
+          23,
+          24
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "neg-present",
+      "sourceSectionId": "the-negative-verb",
+      "titleZh": "19 · úma：否定「正在做」",
+      "leadZh": "úma 是否定动词的现在／持续时：I Nauco úma linda「那矮人（此刻）不是在唱歌」，对比无定时 umë linda。",
+      "objectives": [
+        "能区分 úma 与 umë"
+      ],
+      "rules": [
+        {
+          "id": "rule-uma",
+          "headZh": "úma＝否定持续动作",
+          "bodyZh": "否定动词的现在／持续时大概是 úma，用于否定正在进行的动作：I Nauco úma linda「那矮人（此刻）不是在唱歌」。对比无定时 I Nauco umë linda「那矮人不唱歌」，后者常（但未必）适用范围更广，如「那矮人不是歌手」。练习里一律用无定时。",
+          "en": "Presumably the present/continuous tense of the negative verb, which would have to be úma, can be used to deny the existence of an ongoing action",
+          "zh": "否定动词的现在／持续时大概是 úma，可用来否定正在进行的动作。",
+          "exampleZh": "úma linda／umë linda"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "以为 umë 与 úma 可随意互换",
+          "right": "úma 针对此刻正在进行的动作，umë 更泛指",
+          "whyZh": "原文：The latter would often (but not necessarily) have a wider application。"
+        }
+      ],
+      "recapZh": "úma＝「此刻不在做」，umë＝「不做（泛指）」；练习用后者。",
+      "selfCheckZh": [
+        {
+          "qZh": "「那矮人此刻不是在唱歌」怎么说？",
+          "aZh": "I Nauco úma linda。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "the-negative-verb",
+        "unitIds": [
+          25,
+          26,
+          27
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "part-intro",
+      "sourceSectionId": "active-participles",
+      "titleZh": "20 · 分词：有形容词功能的动词",
+      "leadZh": "分词基本上有形容词功能，却直接由动词派生；主动分词还能带宾语。",
+      "objectives": [
+        "能说明分词的双重性质"
+      ],
+      "rules": [
+        {
+          "id": "rule-participle-def",
+          "headZh": "分词＝动词性形容词",
+          "bodyZh": "分词基本上有形容词功能，却直接由动词派生；就主动分词而言，它还能带宾语。",
+          "en": "The participles are words with a basically adjectival function, but they are directly derived from verbs",
+          "zh": "分词基本上有形容词功能，却直接由动词派生。",
+          "exampleZh": "loving Elves"
+        }
+      ],
+      "recapZh": "分词＝动词派生的形容词，主动分词可带宾语。",
+      "selfCheckZh": [
+        {
+          "qZh": "分词属于哪个词类？",
+          "aZh": "基本上是形容词，但由动词派生。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "active-participles",
+        "unitIds": [
+          0
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "part-terms",
+      "sourceSectionId": "active-participles",
+      "titleZh": "21 · 术语：主动分词与被动分词",
+      "leadZh": "「现在分词／过去分词」的说法有点误导，因为最重要的区分与时态无关；「主动／被动」更准确。",
+      "objectives": [
+        "能说明为何用「主动／被动」而不用「现在／过去」"
+      ],
+      "rules": [
+        {
+          "id": "rule-active-passive",
+          "headZh": "主动／被动优于现在／过去",
+          "bodyZh": "分词常分「现在分词」与「过去分词」，但这名称误导：最重要的区分与时态无关。「主动分词」与「被动分词」更准确，本课统一使用。",
+          "en": "These terms are somewhat misleading, for the most important distinction between has nothing to do with tenses.",
+          "zh": "这两个名称有点误导，因为最重要的区分与时态无关。",
+          "exampleZh": "active／passive"
+        }
+      ],
+      "recapZh": "主动分词 vs 被动分词；「现在／过去」的叫法会误导。",
+      "selfCheckZh": [
+        {
+          "qZh": "为什么不用「现在分词」这个名称？",
+          "aZh": "因为最重要的区分不是时态，而是主动／被动。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "active-participles",
+        "unitIds": [
+          1
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "part-active",
+      "sourceSectionId": "active-participles",
+      "titleZh": "22 · 主动分词：-ing 与带宾语",
+      "leadZh": "英语用 -ing：following、loving Elves。分词能带宾语，正如其动词能带宾语。",
+      "objectives": [
+        "能说明主动分词的意义",
+        "能举出带宾语的分词"
+      ],
+      "rules": [
+        {
+          "id": "rule-ing-participle",
+          "headZh": "主动分词描述执行者的状态",
+          "bodyZh": "英语主动分词由 -ing 派生：follow → following。这个动词性形容词描述执行相应动作的人或物的状态（the following day）。",
+          "en": "the verb \"follow\" has the active participle \"following\"",
+          "zh": "动词 \"follow\" 的主动分词是 \"following\"。",
+          "exampleZh": "following day"
+        },
+        {
+          "id": "rule-object",
+          "headZh": "分词可带宾语",
+          "bodyZh": "若动词能带宾语，其分词也能：爱精灵的人＝a person loving Elves。",
+          "en": "If the verb is able to take an object, so is its corresponding participle.",
+          "zh": "若动词能带宾语，其分词也能。",
+          "exampleZh": "loving Elves"
+        }
+      ],
+      "recapZh": "主动分词描述执行者状态，且可带宾语。",
+      "selfCheckZh": [
+        {
+          "qZh": "「爱精灵的人」用分词怎么说？",
+          "aZh": "a person loving Elves。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "active-participles",
+        "unitIds": [
+          2,
+          3
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "part-noun",
+      "sourceSectionId": "active-participles",
+      "titleZh": "23 · 英语 -ing 的两义，昆雅分开",
+      "leadZh": "killing 在 a killing experience 里是形容词，在 the killing must stop 里是名词。昆雅里这两种形式并不重合。",
+      "objectives": [
+        "能区分分词与动名词",
+        "知道昆雅用不同形式表达"
+      ],
+      "rules": [
+        {
+          "id": "rule-ing-ambiguous",
+          "headZh": "英语 -ing 兼两职",
+          "bodyZh": "英语 -ing 形式可作形容词（a killing experience）也可作名词（the killing must stop）。后者是动词性名词，指动作本身。昆雅里两者形式不重合。",
+          "en": "In Quenya, the two do not coincide in form.",
+          "zh": "在昆雅里，两者形式并不重合。",
+          "exampleZh": "killing（形容词）／killing（名词）"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "把英语 -ing 的两义都塞给昆雅 -la",
+          "right": "-la 只作分词；动词性名词另有 -lë（下一节会讲）",
+          "whyZh": "原文：Here we are only interested in verbal adjectives = participles. In Quenya, the two do not coincide in form。"
+        }
+      ],
+      "recapZh": "英语 -ing 兼形容词与名词；昆雅 -la 只作分词。",
+      "selfCheckZh": [
+        {
+          "qZh": "the killing must stop 里的 killing 是什么？",
+          "aZh": "动词性名词，不是分词。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "active-participles",
+        "unitIds": [
+          4
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "part-la",
+      "sourceSectionId": "active-participles",
+      "titleZh": "24 · 昆雅分词词尾：-la",
+      "leadZh": "ilcala「闪着的」＝ilka 的分词（MC:223），诗里译作「在闪着的月亮里」。",
+      "objectives": [
+        "能写出 -la 分词",
+        "知道 ilcala 的出处"
+      ],
+      "rules": [
+        {
+          "id": "rule-la",
+          "headZh": "-la＝主动分词",
+          "bodyZh": "昆雅对应英语 -ing 的分词词尾是 -la。托尔金注明 ilkala 是 ilka「闪（白光）」的分词（MC:223）；按本书拼写作 ilcala，意为「闪着的」。",
+          "en": "The Quenya ending corresponding to English -ing (when used to form participles) is -la.",
+          "zh": "昆雅对应英语 -ing（用于构成分词时）的词尾是 -la。",
+          "exampleZh": "ilka → ilcala"
+        }
+      ],
+      "examples": [
+        {
+          "en": "ilcala",
+          "zh": "闪着的",
+          "whyZh": "ilka「闪（白光）」+ -la；《Markirya》里译作「在闪着的月亮里」（MC:215）。"
+        }
+      ],
+      "recapZh": "-la 是分词词尾：ilka → ilcala。",
+      "selfCheckZh": [
+        {
+          "qZh": "ilka 的分词？",
+          "aZh": "ilcala。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "active-participles",
+        "unitIds": [
+          5
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "part-lengthen",
+      "sourceSectionId": "active-participles",
+      "titleZh": "25 · 词干元音拉长：lálala、hlápula",
+      "leadZh": "可能时词干元音要拉长：lala- → lálala。ilcala 的 i 后面是辅音丛，故不拉长。长词干里拉长第二次出现的元音：falastala。",
+      "objectives": [
+        "能判断分词是否拉长",
+        "能处理长词干中「哪个元音算数」"
+      ],
+      "rules": [
+        {
+          "id": "rule-lengthen",
+          "headZh": "分词拉长词干元音",
+          "bodyZh": "分词里词干元音在可能时要拉长：lala-「笑」→ lálala、hlapu- → hlápula（Winga hlápula，MC:214）。若本已长则仍长：pícala、rúmala。ilcala 的 i 后接辅音丛，故不拉长。",
+          "en": "It seems that in a Quenya active participle, the stem-vowel is lengthened if possible.",
+          "zh": "昆雅主动分词里，词干元音看来在可能时要拉长。",
+          "exampleZh": "lálala；hlápula；pícala；rúmala"
+        },
+        {
+          "id": "rule-second-vowel",
+          "headZh": "长词干：拉长第二次出现的元音",
+          "bodyZh": "falasta-「起泡沫」的词干元音出现两次，要拉长的是第二次；但它后接辅音丛，故分词作 falastala。第一个元音在拉长上「不算数」（**fálastala 被排除）。",
+          "en": "it seems that it is the second occurrence of the stem-vowel that is to be lengthened if possible",
+          "zh": "看来要拉长的是第二次出现的词干元音。",
+          "exampleZh": "falasta- → falastala"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "写 **fálastala",
+          "right": "falastala",
+          "whyZh": "原文以 **fálastala 标出被排除的形式：第一个元音不算数。"
+        }
+      ],
+      "recapZh": "分词拉长词干元音；辅音丛前不拉长；长词干只算第二次出现的元音。",
+      "selfCheckZh": [
+        {
+          "qZh": "lala- 的分词？",
+          "aZh": "lálala。"
+        },
+        {
+          "qZh": "falasta- 的分词？",
+          "aZh": "falastala。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "active-participles",
+        "unitIds": [
+          6,
+          7
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "part-primary",
+      "sourceSectionId": "active-participles",
+      "titleZh": "26 · 基本动词的分词：先造持续词干",
+      "leadZh": "**tirla 不可能。解法是先拉长加 -a（tíra），再加 -la：tírala。hácala 支持这个思路。",
+      "objectives": [
+        "能写出基本动词的分词",
+        "能说明为什么要经过持续词干"
+      ],
+      "rules": [
+        {
+          "id": "rule-primary-la",
+          "headZh": "基本动词：持续词干 + -la",
+          "bodyZh": "给基本动词词干直接加 -la 会产生不允许的辅音丛（**tirla 不可能）。一般认为先造持续词干（拉长元音 + -a，如 tíra），再加 -la：tírala。《Markirya》的 hácala 支持此说（若底层动词是基本动词 hac-）。",
+          "en": "It has been assumed that in such cases, one may start by constructing the \"continuative stem\"",
+          "zh": "一般认为这类情况可先构造「持续词干」。",
+          "exampleZh": "tir- → tíra → tírala；hac- → hácala"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "写 **tirla",
+          "right": "tírala",
+          "whyZh": "原文：cannot be **tirla (let alone **tírla), a quite impossible Quenya word。"
+        }
+      ],
+      "recapZh": "基本动词分词：tir- → tíra → tírala。",
+      "selfCheckZh": [
+        {
+          "qZh": "tir- 的分词？",
+          "aZh": "tírala。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "active-participles",
+        "unitIds": [
+          8
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "part-itila",
+      "sourceSectionId": "active-participles",
+      "titleZh": "27 · itila 的难题：是否存在「无定时分词」",
+      "leadZh": "PM:363 的 itila 看似基本动词 it- 的分词，但托尔金把 it- 当词根，真正的动词是 ita-，分词应是 ítala。itila 也许是「无定时分词」。",
+      "objectives": [
+        "能说明 itila 的两种解释",
+        "能说出作者为何不推荐「无定时分词」系统"
+      ],
+      "rules": [
+        {
+          "id": "rule-itila",
+          "headZh": "itila：特例还是无定时分词？",
+          "bodyZh": "PM:363 提到 itila「闪烁的」，看似基本动词 it- 的分词；但托尔金把 it- 称词根，真正的动词是 ita-（短 A 词干），分词应是 ítala。itila 不拉长（不是 **ítila）且插入连接元音 -i-，也许是无定时分词（对比 carila／cárala）。作者说这是推测，不推荐写作者采用；也许它只是古老形容词构形。",
+          "en": "one may wonder if itila is an aorist participle",
+          "zh": "人们不禁要想 itila 是否是无定时分词。",
+          "exampleZh": "itila；ítala；carila／cárala"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "断言昆雅有「无定时分词」系统",
+          "right": "只是推测；作者明确不推荐",
+          "whyZh": "原文：this is speculative, and I cannot recommend such a system to writers。"
+        }
+      ],
+      "recapZh": "itila 可能是无定时分词，也可能只是古老形容词；无定论。",
+      "selfCheckZh": [
+        {
+          "qZh": "ita- 的分词大概是什么？",
+          "aZh": "ítala。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "active-participles",
+        "unitIds": [
+          9
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "part-number",
+      "sourceSectionId": "active-participles",
+      "titleZh": "28 · 分词不随数变化：rámar sisílala",
+      "leadZh": "形容词复数作 -ë，但分词不变：rámar sisílala，而非 **rámar sisílalë。也许正为避开与抽象名词词尾 -lë 混淆。",
+      "objectives": [
+        "能说明分词与形容词在数上行为不同",
+        "能解释 -lë 的混淆风险"
+      ],
+      "rules": [
+        {
+          "id": "rule-no-agreement",
+          "headZh": "分词不随数变化",
+          "bodyZh": "与形容词不同，主动分词不随数变化：rámar sisílala「闪着的翅膀」，而非 **rámar sisílalë。也许托尔金不愿分词词尾的复数 -lë 与抽象名词词尾 -lë 混淆（lindalë「歌唱」对 lindala「唱着的」）。",
+          "en": "Unlike adjectives, the active participles apparently do not agree in number.",
+          "zh": "与形容词不同，主动分词看来不随数变化。",
+          "exampleZh": "rámar sisílala；lindala／lindalë"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "给分词加复数 -ë",
+          "right": "分词保持 -la 不变",
+          "whyZh": "原文以 **rámar sisílalë 标出被排除的形式。"
+        }
+      ],
+      "recapZh": "分词不随数变化；-lë 留给抽象名词（lindalë）。",
+      "selfCheckZh": [
+        {
+          "qZh": "「闪着的翅膀」怎么说？",
+          "aZh": "rámar sisílala（分词不变）。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "active-participles",
+        "unitIds": [
+          10
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "part-continuous",
+      "sourceSectionId": "active-participles",
+      "titleZh": "29 · 别用「is + 分词」代替持续时",
+      "leadZh": "英语说 the boy is laughing，昆雅宁用真持续时：I seldo lálëa。i seldo ná lálala 大概能懂，但不是「好昆雅」。",
+      "objectives": [
+        "能说明昆雅如何表达「正在做」",
+        "能造带宾语的分词短语"
+      ],
+      "rules": [
+        {
+          "id": "rule-continuous",
+          "headZh": "「正在做」用持续时，不用 is + 分词",
+          "bodyZh": "英语常用 is／was + 分词表持续；昆雅宁用真正的现在／持续时：I seldo lálëa「那男孩正在笑」。i seldo ná lálala 是否合法没人能说，但大概不是「好昆雅」。",
+          "en": "Quenya would rather express this meaning by using the genuine present/continuative tense",
+          "zh": "昆雅宁可用真正的现在／持续时来表达这个意义。",
+          "exampleZh": "I seldo lálëa"
+        },
+        {
+          "id": "rule-object-participle",
+          "headZh": "分词带宾语（推测）",
+          "bodyZh": "虽无实例，必须假定主动分词可带宾语：Nauco tírala Elda「一个看着精灵的矮人」。",
+          "en": "we must assume that it is possible, e.g. Nauco tírala Elda",
+          "zh": "我们必须假定这可行，如 Nauco tírala Elda。",
+          "exampleZh": "Nauco tírala Elda"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "用 ná + 分词表达「正在」",
+          "right": "用持续时 -ëa：lálëa",
+          "whyZh": "原文：one suspects that while it would be intelligible, the Eldar would not think of it as \"good Quenya\"。"
+        }
+      ],
+      "recapZh": "「正在做」＝持续时（lálëa）；分词可带宾语（tírala Elda）。",
+      "selfCheckZh": [
+        {
+          "qZh": "「那男孩正在笑」怎么说？",
+          "aZh": "I seldo lálëa。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "active-participles",
+        "unitIds": [
+          11,
+          12
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "summary",
+      "kind": "summary",
+      "sourceSectionId": "active-participles",
+      "titleZh": "30 · 本章小结：原文 Summary 与中文对照",
+      "leadZh": "左侧是 less-b.rtf 第 9 课 Summary 原文（未删节），右侧是等价中文翻译。",
+      "objectives": [
+        "能复述不定式、否定动词、主动分词三套规则",
+        "能把小结每句对应到前面的步骤"
+      ],
+      "summaryEn": "Summary of Lesson Nine: The infinitive is a form of the verb that is not inflected for tense and is therefore unable to function as the predicate of a sentence (as a finite verb can); an infinitive may be combined with other verbs to form longer verbal phrases. While there are some obscurities, the (or one) Quenya infinitive is apparently identical to the verbal stem itself, except that primary verbs receive the ending -ë – e.g. quet- \"to speak\" in the sentence polin quetë \"I can speak\". This infinitive would seem to be the one used when infinite and finite verbs are combined (as in the example just quoted, where the infinitive quetë is combined with a finite form of the verb pol- \"can\"). – The negative verb um- (past tense úmë, future úva) can apparently function both as a negative copula (\"not be\") and as a verb that may be combined with the infinitive of other verbs to express \"not do...\" something, e.g. umin quetë \"I do not speak\".  – The active participle, a verbal adjective describing the state of the one carrying out the action denoted by the corresponding verb, is derived by adding -la to the corresponding verbal stem. The stem-vowel is lengthened if there is no consonant cluster following it. It is somewhat unclear how the ending -la is to be added to the stems of primary verbs, but one plausible assumption may be that the ending is suffixed to the \"continuous\" form (with lengthened stem-vowel and ending -a, e.g. tíra from tir- \"to watch\", hence tírala as the participle \"watching\").",
+      "summaryZh": "第九课小结：不定式是不随时态变位、因而不能充当句子谓语（限定动词则可以）的动词形式；不定式可与其他动词组合成更长的动词短语。虽有些晦暗处，昆雅（或其一）不定式显然与动词词干本身相同，只是基本动词要加词尾 -ë——如 polin quetë「我能说」里的 quet-「说」。这个不定式看来就是不定式与限定动词组合时所用的那个（如刚引的例子，quetë 与 pol-「能」的限定形式组合）。——否定动词 um-（过去时 úmë，将来时 úva）看来既能作否定系动词（「不是」），也能与别的动词的不定式组合表示「不做……」某事，如 umin quetë「我不说」。——主动分词是描述执行相应动词动作之人状态的动词性形容词，靠给相应动词词干加 -la 派生。若后面无辅音丛，词干元音要拉长。词尾 -la 如何加到基本动词词干上有些不清楚，但一个合理的设想是把它加在「持续」形式（拉长词干元音 + 词尾 -a，如 tir- 的 tíra）之后，故分词为 tírala「守望着的」。",
+      "formulaZh": [
+        "不定式：基本动词＝词干 + -ë（quetë）；A 词干＝裸词干（linda）。",
+        "不定式不能当谓语、不加 -r，可与限定动词组合。",
+        "否定动词：um-，过去 úmë，将来 úva，持续 úma；umin＝「我不／我不是」。",
+        "否定动词 + 不定式＝「不做某事」（umin quetë）。",
+        "主动分词：-la，词干元音可能时拉长（lálala）；基本动词经持续词干（tíra → tírala）。",
+        "分词不随数变化（rámar sisílala）。"
+      ],
+      "selfCheckZh": [
+        {
+          "qZh": "不定式与限定动词的关键差别？",
+          "aZh": "不定式不变位、不能当谓语；限定动词能当谓语。"
+        },
+        {
+          "qZh": "um- 的三个时态形式？",
+          "aZh": "um-（无定时）、úmë（过去）、úva（将来）；持续时 úma。"
+        },
+        {
+          "qZh": "tir- 的分词怎么来？",
+          "aZh": "先造持续词干 tíra，再加 -la 得 tírala。"
+        }
+      ]
+    },
+    {
+      "sectionId": "vocabulary",
+      "sourceSectionId": "vocabulary",
+      "titleZh": "31 · 课末词汇：1 个数词 + 8 个动词 + 2 个介词",
+      "leadZh": "本课词汇以动词为主（pol-、um-、hlar-、verya-、lelya-、pusta-、ruhta-），正好用来练不定式与分词；另有介词 mir、ter。",
+      "objectives": [
+        "能默写 11 条并标出词性",
+        "能写出各动词的不定式与分词",
+        "能说明 pol- 只表身体能力"
+      ],
+      "rules": [
+        {
+          "id": "rule-pol",
+          "headZh": "pol- 只表身体能力",
+          "bodyZh": "pol- 意为「（身体上）能」，通常译 can。它不表「会」（智力技能），也不表「可以」（获准）；后两义昆雅用别的词。",
+          "en": "pol- \"to be (physically) able to\", normally translated \"can\"",
+          "zh": "pol-「（身体上）能」，通常译「can」。",
+          "exampleZh": "polin quetë"
+        }
+      ],
+      "table": {
+        "captionZh": "11 条与不定式／分词推演",
+        "headers": [
+          "课末词",
+          "词性 / 释义",
+          "不定式",
+          "分词"
+        ],
+        "rows": [
+          [
+            "tolto",
+            "数词「八」",
+            "—",
+            "—"
+          ],
+          [
+            "pol-",
+            "动词「能」",
+            "polë",
+            "póla（推演）"
+          ],
+          [
+            "um-",
+            "否定动词",
+            "—",
+            "—"
+          ],
+          [
+            "mer-",
+            "动词「想要」",
+            "merë",
+            "méra（推演）"
+          ],
+          [
+            "hlar-",
+            "动词「听见」",
+            "hlarë",
+            "hlára（推演）"
+          ],
+          [
+            "verya-",
+            "动词「敢」",
+            "verya",
+            "veryala"
+          ],
+          [
+            "lelya-",
+            "动词「去、旅行」",
+            "lelya",
+            "lelyala"
+          ],
+          [
+            "pusta-",
+            "动词「停止」",
+            "pusta",
+            "pustala"
+          ],
+          [
+            "ruhta-",
+            "动词「使恐惧」",
+            "ruhta",
+            "ruhtala"
+          ],
+          [
+            "coa",
+            "名词「房子」",
+            "—",
+            "—"
+          ],
+          [
+            "mir",
+            "介词「进入」",
+            "—",
+            "—"
+          ],
+          [
+            "ter",
+            "介词「穿过」",
+            "—",
+            "—"
+          ]
+        ]
+      },
+      "pitfalls": [
+        {
+          "wrong": "用 pol- 表「会说昆雅语」",
+          "right": "那是智力技能，昆雅用别的词；pol- 只表身体能力",
+          "whyZh": "词汇表原文明确排除「know how to」与「may」两义。"
+        }
+      ],
+      "closeReadingZh": [
+        {
+          "headZh": "为什么练习里 mir 与 ter 反复出现",
+          "bodyZh": "lelya-「去」本身不说明方向，方向由介词补足：mir i coa「进屋」、ter i ando「穿过大门」、mir i oron「进山」。练习 L、O、P 都在练这个搭配，读题时先把「动词 + 介词」当一个单位看。"
+        }
+      ],
+      "recapZh": "8 个动词的不定式与分词是本课练习的核心；pol- 只表身体能力。",
+      "selfCheckZh": [
+        {
+          "qZh": "verya- 的分词？",
+          "aZh": "veryala。"
+        },
+        {
+          "qZh": "pol- 能表「获准」吗？",
+          "aZh": "不能，那是另一个词。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "vocabulary",
+        "unitIds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "labelZh": "词汇"
+      }
+    },
+    {
+      "sectionId": "exercises",
+      "sourceSectionId": "exercises",
+      "titleZh": "32 · 练习工作台：A–P 与 keys 核对",
+      "leadZh": "A–H 昆雅译英，I–P 英译昆雅。本课考三样：不定式（quetë、matë、linda）、否定动词（um-／úmë／úva）、主动分词（-la）。",
+      "objectives": [
+        "独立完成 A–P，不先展开答案",
+        "能指出每题的分词、不定式或否定动词",
+        "核对后能把错题回链到对应规则卡"
+      ],
+      "workflowZh": [
+        "第一遍：遮住答案，先找限定动词（变位、可带 -r）",
+        "其余动词看形式：-la 是分词，词干 + -ë 或裸词干是不定式",
+        "否定句先找 um-／úmë／úva，后面的动词一律不定式",
+        "分词若带宾语，按「分词 + 宾语」整体理解",
+        "点「核对」比对 keys 原文答案",
+        "错题按「回到本课规则」跳回规则卡",
+        "最后展开 keys 全文与 EXERCISES 原文复核"
+      ],
+      "teachingNoteZh": "keys 对 K 题有专门说明：i vendë úmë verya cenë i tári 只能译作「少女不敢见王后」，但 cen- 是否可表「会见」无法确定；按最基本义也可译作「不敢看王后」。H 题 keys 另给一种解释：「stopped guarding」而非「stopped watching」。",
+      "bilingual": {
+        "sectionId": "exercises",
+        "unitIds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "labelZh": "练习"
+      }
+    }
+  ]
+}

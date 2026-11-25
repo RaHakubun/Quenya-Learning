@@ -1,0 +1,1630 @@
+{
+  "lesson": 6,
+  "schemaVersion": 2,
+  "oneLineZh": "这一课讲过去时：所有过去时都以 -ë 收尾。A 词干直接加 -në；基本动词看末辅音——r/m/n 加 -në、l 加 -lë、p/t/c 用鼻音插入（mantë、tompë、tancë）。",
+  "canDoZh": [
+    "能把一个动词按末辅音归入四类规则过去时之一，并写出正确形式",
+    "能解释鼻音插入与「换位」两种说法为何给出同一答案",
+    "能说明 -l 结尾动词为什么加 -lë 而不是 -në",
+    "能指出「不规则」形式（rendë、lávë、ornë）背后的历史原因",
+    "能处理复数主语的过去时（加 -r、两点消失）",
+    "能独立完成练习 A–P，用 keys 核对，并把错题回链到对应规则"
+  ],
+  "conceptMap": [
+    {
+      "labelZh": "过去时登场",
+      "noteZh": "过去、现在、将来三分；叙述用过去",
+      "sectionId": "past-intro"
+    },
+    {
+      "labelZh": "A 词干：加 -në",
+      "noteZh": "A 词干直接加 -në：ortanë、ulyanë",
+      "sectionId": "a-past"
+    },
+    {
+      "labelZh": "「弱」过去时",
+      "noteZh": "avanë 显示 ava- 原本不是基本动词",
+      "sectionId": "weak-past"
+    },
+    {
+      "labelZh": "基本动词也能加 -në",
+      "noteZh": "末辅音 r/m/n 时可直接加 -në",
+      "sectionId": "primary-n"
+    },
+    {
+      "labelZh": "辅音丛的难题",
+      "noteZh": "tn / pn / cn 不允许",
+      "sectionId": "cluster-problem"
+    },
+    {
+      "labelZh": "鼻音插入",
+      "noteZh": "n 插到末辅音前：mantë、tompë、tancë",
+      "sectionId": "nasal-infix"
+    },
+    {
+      "labelZh": "简化说法：换位",
+      "noteZh": "n 与前一辅音交换位置",
+      "sectionId": "simple-rule"
+    },
+    {
+      "labelZh": "换位还是真插入",
+      "noteZh": "metathesis；托尔金大概设想真插入",
+      "sectionId": "metathesis"
+    },
+    {
+      "labelZh": "-l 结尾：-në → -lë",
+      "noteZh": "vil- → villë",
+      "sectionId": "l-final"
+    },
+    {
+      "labelZh": "「规则」的边界",
+      "noteZh": "符合系统的过去时不另行标注",
+      "sectionId": "regular-scope"
+    },
+    {
+      "labelZh": "-r 结尾：rer- 的来历",
+      "noteZh": "rer- → rendë，因为词根是 RED",
+      "sectionId": "r-final"
+    },
+    {
+      "labelZh": "拉长元音型：lávë、cárë",
+      "noteZh": "lav- → lávë；car- → carnë",
+      "sectionId": "lengthened"
+    },
+    {
+      "labelZh": "A 词干丢掉 -a",
+      "noteZh": "serta- → sérë；onta- → ónë",
+      "sectionId": "a-drop"
+    },
+    {
+      "labelZh": "lala- 的两种过去时",
+      "noteZh": "lalanë 或 landë（来自 g-lada-）",
+      "sectionId": "lala-past"
+    },
+    {
+      "labelZh": "-ya 脱落：farnë、ullë",
+      "noteZh": "farya- → farnë；ulya- → ullë",
+      "sectionId": "ya-drop"
+    },
+    {
+      "labelZh": "-ta 类：lahantë、orontë",
+      "noteZh": "lahta- → lahantë；orta- → orontë",
+      "sectionId": "ta-class"
+    },
+    {
+      "labelZh": "oantë：为什么它算规则",
+      "noteZh": "awantê → oantë，唯一「必须」的用例",
+      "sectionId": "oante"
+    },
+    {
+      "labelZh": "修订：orontë → ortanë",
+      "noteZh": "atalta- → ataltanë",
+      "sectionId": "revisions"
+    },
+    {
+      "labelZh": "巡览结束",
+      "noteZh": "练习只考规则系统",
+      "sectionId": "survey-end"
+    },
+    {
+      "labelZh": "复数过去时：-r 与两点消失",
+      "noteZh": "lantanë → lantaner",
+      "sectionId": "plural-past"
+    },
+    {
+      "labelZh": "本章小结",
+      "noteZh": "原文 Summary 中英对照",
+      "sectionId": "summary"
+    },
+    {
+      "labelZh": "课末词汇",
+      "noteZh": "12 个词（含 9 个动词）",
+      "sectionId": "vocabulary"
+    },
+    {
+      "labelZh": "练习工作台",
+      "noteZh": "A–P 工作台、考点回链",
+      "sectionId": "exercises"
+    }
+  ],
+  "pathTitleZh": "本课学习路径",
+  "path": [
+    {
+      "step": 1,
+      "labelZh": "过去时登场",
+      "sectionId": "past-intro"
+    },
+    {
+      "step": 2,
+      "labelZh": "A 词干：加 -në",
+      "sectionId": "a-past"
+    },
+    {
+      "step": 3,
+      "labelZh": "「弱」过去时",
+      "sectionId": "weak-past"
+    },
+    {
+      "step": 4,
+      "labelZh": "基本动词也能加 -në",
+      "sectionId": "primary-n"
+    },
+    {
+      "step": 5,
+      "labelZh": "辅音丛的难题",
+      "sectionId": "cluster-problem"
+    },
+    {
+      "step": 6,
+      "labelZh": "鼻音插入",
+      "sectionId": "nasal-infix"
+    },
+    {
+      "step": 7,
+      "labelZh": "简化说法：换位",
+      "sectionId": "simple-rule"
+    },
+    {
+      "step": 8,
+      "labelZh": "换位还是真插入",
+      "sectionId": "metathesis"
+    },
+    {
+      "step": 9,
+      "labelZh": "-l 结尾：-në → -lë",
+      "sectionId": "l-final"
+    },
+    {
+      "step": 10,
+      "labelZh": "「规则」的边界",
+      "sectionId": "regular-scope"
+    },
+    {
+      "step": 11,
+      "labelZh": "-r 结尾：rer- 的来历",
+      "sectionId": "r-final"
+    },
+    {
+      "step": 12,
+      "labelZh": "拉长元音型：lávë、cárë",
+      "sectionId": "lengthened"
+    },
+    {
+      "step": 13,
+      "labelZh": "A 词干丢掉 -a",
+      "sectionId": "a-drop"
+    },
+    {
+      "step": 14,
+      "labelZh": "lala- 的两种过去时",
+      "sectionId": "lala-past"
+    },
+    {
+      "step": 15,
+      "labelZh": "-ya 脱落：farnë、ullë",
+      "sectionId": "ya-drop"
+    },
+    {
+      "step": 16,
+      "labelZh": "-ta 类：lahantë、orontë",
+      "sectionId": "ta-class"
+    },
+    {
+      "step": 17,
+      "labelZh": "oantë：为什么它算规则",
+      "sectionId": "oante"
+    },
+    {
+      "step": 18,
+      "labelZh": "修订：orontë → ortanë",
+      "sectionId": "revisions"
+    },
+    {
+      "step": 19,
+      "labelZh": "巡览结束",
+      "sectionId": "survey-end"
+    },
+    {
+      "step": 20,
+      "labelZh": "复数过去时：-r 与两点消失",
+      "sectionId": "plural-past"
+    },
+    {
+      "step": 21,
+      "labelZh": "本章小结",
+      "sectionId": "summary"
+    },
+    {
+      "step": 22,
+      "labelZh": "课末词汇",
+      "sectionId": "vocabulary"
+    },
+    {
+      "step": 23,
+      "labelZh": "练习工作台",
+      "sectionId": "exercises"
+    }
+  ],
+  "modules": [
+    {
+      "sectionId": "past-intro",
+      "sourceSectionId": "_preamble",
+      "titleZh": "01 · 过去时：以 -ë 收尾，最常见的是 -në",
+      "leadZh": "昆雅所有过去时动词都以 -ë 结尾；这个 -ë 常常是词尾 -në 的一部分，-në 是最通用的过去时词尾。",
+      "objectives": [
+        "能说出过去时形式的共同收尾",
+        "能说出最通用的过去时词尾"
+      ],
+      "rules": [
+        {
+          "id": "rule-past-e",
+          "headZh": "所有过去时都以 -ë 收尾",
+          "bodyZh": "据我们所知，所有过去时动词都以元音 -ë 结尾（之后还可再加别的词尾，如复数 -r）。在许多情况下这个 -ë 是词尾 -në 的一部分，-në 似乎是昆雅最通用的过去时词尾。",
+          "en": "As far as we know, all past tense verbs end in the vowel -ë",
+          "zh": "据我们所知，所有过去时动词都以元音 -ë 结尾。",
+          "exampleZh": "ortanë、ulyanë、carnë、villë、mantë"
+        },
+        {
+          "id": "rule-past-ne",
+          "headZh": "-në 是最通用的过去时词尾",
+          "bodyZh": "英语很多过去时靠 -ed，昆雅大多数过去时同样靠加词尾。这个 -ë 常常是 -në 的一部分，-në 似乎是最通用的过去时词尾。",
+          "en": "this vowel -ë is part of the ending -në, that seems to be the most general past tense ending in Quenya.",
+          "zh": "这个 -ë 是词尾 -në 的一部分，-në 似乎是昆雅最通用的过去时词尾。",
+          "exampleZh": "ora- → oranë；hehta- → hehtanë"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "以为过去时像英语那样有多种词尾可选",
+          "right": "昆雅过去时统一以 -ë 收尾，-në 是最通用的词尾",
+          "whyZh": "正文：所有过去时动词都以元音 -ë 结尾；-në 似乎是最通用的过去时词尾。"
+        }
+      ],
+      "recapZh": "过去时一律以 -ë 收尾；-në 是最通用词尾。",
+      "selfCheckZh": [
+        {
+          "qZh": "昆雅过去时形式有什么共同的收尾？",
+          "aZh": "都以元音 -ë 结尾；之后还可再加复数 -r 等词尾。"
+        },
+        {
+          "qZh": "最通用的过去时词尾是什么？",
+          "aZh": "-në。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          0,
+          1
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "a-past",
+      "sourceSectionId": "_preamble",
+      "titleZh": "02 · A 词干：直接加 -në",
+      "leadZh": "A 词干以 -a 结尾，加 -në 即可：ortanë、oranë、hehtanë、ulyanë、sintanë、ahyanë。这是本课最省心的一类。",
+      "objectives": [
+        "能写出 A 词干的过去时",
+        "能举出三个以上传世例证"
+      ],
+      "rules": [
+        {
+          "id": "rule-a-past",
+          "headZh": "A 词干过去时 = 词干 + -në",
+          "bodyZh": "多数昆雅动词是 A 词干（以 -a 结尾），其过去时通常直接加词尾 -në 构成。ortanë、oranë、hehtanë、ulyanë、sintanë 都是传世例证。",
+          "en": "The past tenses of these verbs are typically formed simply by adding the ending -në.",
+          "zh": "这些动词的过去时通常直接加词尾 -në 构成。",
+          "exampleZh": "orta- → ortanë；ulya- → ulyanë；sinta- → sintanë"
+        }
+      ],
+      "table": {
+        "captionZh": "A 词干过去时例证",
+        "headers": [
+          "动词",
+          "释义",
+          "过去时",
+          "出处"
+        ],
+        "rows": [
+          [
+            "orta-",
+            "举起",
+            "ortanë",
+            "《Namárië》；RGEO:67"
+          ],
+          [
+            "ora-",
+            "催促",
+            "oranë",
+            "VT41:13、18"
+          ],
+          [
+            "hehta-",
+            "排除",
+            "hehtanë",
+            "WJ:365"
+          ],
+          [
+            "ulya-",
+            "倾倒",
+            "ulyanë",
+            "《词源》ULU"
+          ],
+          [
+            "sinta-",
+            "褪去",
+            "sintanë",
+            "《词源》THIN"
+          ],
+          [
+            "ahya-",
+            "改变",
+            "ahyanë",
+            "PM:395"
+          ]
+        ]
+      },
+      "pitfalls": [
+        {
+          "wrong": "ortnë（按基本动词作鼻音插入）",
+          "right": "ortanë",
+          "whyZh": "A 词干直接加 -në，不作鼻音插入；正文以 orta- → ortanë 为典型例。"
+        }
+      ],
+      "recapZh": "A 词干过去时直接加 -në：ortanë、oranë、hehtanë、ulyanë、sintanë。",
+      "selfCheckZh": [
+        {
+          "qZh": "写出 orta-、ulya-、sinta- 的过去时。",
+          "aZh": "ortanë、ulyanë、sintanë。"
+        },
+        {
+          "qZh": "ortanë 在《魔戒》里被译成什么？",
+          "aZh": "《Namárië》中译作「has uplifted」；RGEO:67 逐词对译作「lifted up」，即「raised」的另一种说法。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "weak-past",
+      "sourceSectionId": "_preamble",
+      "titleZh": "03 · 「弱」过去时：avanë 的启示",
+      "leadZh": "托尔金把 avanë 称为「弱」过去时，并说它表明 ava- 原本不是基本动词。",
+      "objectives": [
+        "能说明「弱过去时」的含义",
+        "能举出 avanë 这个例子"
+      ],
+      "rules": [
+        {
+          "id": "rule-weak-past",
+          "headZh": "「弱」过去时 = 加词尾型",
+          "bodyZh": "托尔金指出 ava-（「拒绝、禁止」）的过去时 avanë 表明它原本并不是「强」或基本的动词词干。他把 avanë 称为「弱」过去时形式（WJ:370），这大概适用于迄今讨论的所有过去时。至于「强」过去时指什么，并不很清楚——也许指鼻音插入型。",
+          "en": "He called avanë a \"weak\" past tense form (WJ:370).",
+          "zh": "他把 avanë 称为「弱」过去时形式（WJ:370）。",
+          "exampleZh": "ava- → avanë"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "以为「强／弱」是两条并列的构形规则",
+          "right": "「弱」指加词尾型；「强」大概指鼻音插入型，但作者也不确定",
+          "whyZh": "正文：What Tolkien would call a \"strong\" past tense is not quite clear；也许指鼻音插入。"
+        }
+      ],
+      "recapZh": "「弱」过去时＝加词尾型（avanë）；「强」大概指鼻音插入型，术语本身不确定。",
+      "selfCheckZh": [
+        {
+          "qZh": "托尔金为什么说 ava- 不是基本动词？",
+          "aZh": "因为它的过去时 avanë 是「弱」形式（加词尾），而基本动词通常走鼻音插入型。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          8
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "primary-n",
+      "sourceSectionId": "_preamble",
+      "titleZh": "04 · 基本动词也能加 -në（限 r / m / n）",
+      "leadZh": "tirnë、tamnë 证明末辅音是 r 或 m 时可直接加 -në；双写 nn 也允许，所以 cen- → cennë。",
+      "objectives": [
+        "能判断哪些基本动词可直接加 -në",
+        "能写出 tir-、tam-、cen- 的过去时"
+      ],
+      "rules": [
+        {
+          "id": "rule-primary-n",
+          "headZh": "末辅音 r / m / n → 直接加 -në",
+          "bodyZh": "词尾 -në 也可用于某些基本动词。tirnë（tir-「看」）、tamnë（tam-「轻敲」）都是传世例证，因为 rn、mn 都是昆雅允许的辅音丛。双写 nn 也完全可接受，所以 cen-「看见」的过去时大概是 cennë（无传世例证）。",
+          "en": "It seems that the ending -në can be used to form the past tense of some primary verbs as well.",
+          "zh": "看来词尾 -në 也可用于某些基本动词构成过去时。",
+          "exampleZh": "tir- → tirnë；tam- → tamnë；cen- → cennë"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "centë（把 cen- 当 p/t/c 类作鼻音插入）",
+          "right": "cennë",
+          "whyZh": "正文：双写 nn 在昆雅完全可接受，故 cen- 的过去时大概是 cennë。"
+        }
+      ],
+      "recapZh": "末辅音为 r / m / n 的基本动词直接加 -në：tirnë、tamnë、cennë。",
+      "selfCheckZh": [
+        {
+          "qZh": "tir- 与 tam- 的过去时是什么？",
+          "aZh": "tirnë、tamnë。"
+        },
+        {
+          "qZh": "cen- 的过去时大概是什么？为什么？",
+          "aZh": "cennë；因为双写 nn 是昆雅可接受的组合。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          9,
+          10
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "cluster-problem",
+      "sourceSectionId": "_preamble",
+      "titleZh": "05 · 难题：tn / pn / cn 不存在",
+      "leadZh": "mat-、top-、tac- 若直接加 -në 会得到 **matnë、**topnë、**tacnë——这些辅音丛昆雅不允许。",
+      "objectives": [
+        "能说明哪些辅音丛不被允许",
+        "能指出问题出在「末辅音不是 r/m/n」"
+      ],
+      "rules": [
+        {
+          "id": "rule-cluster-problem",
+          "headZh": "末辅音不是 r / m / n 时不能直接加 -në",
+          "bodyZh": "每当基本动词词干以 -m、-n、-r 之外的辅音结尾，单纯加 -në 就会产生昆雅不能有的辅音丛。mat-、top-、tac- 的过去时不可能是 **matnë、**topnë、**tacnë，因为 tn、pn、cn 在语言中不存在。",
+          "en": "But whenever the stem of a basic verb ends in any consonant other than just -m, -n, or -r, simply adding the ending -në would produce consonant clusters that Quenya cannot have.",
+          "zh": "但每当基本动词的词干以 -m、-n、-r 之外的任何辅音结尾，单纯加词尾 -në 就会产生昆雅不能有的辅音丛。",
+          "exampleZh": "**matnë、**topnë、**tacnë（都不允许）"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "**matnë",
+          "right": "mantë",
+          "whyZh": "tn 在昆雅中不存在；须走鼻音插入（见下一步）。"
+        }
+      ],
+      "recapZh": "末辅音不是 r/m/n 时，直接加 -në 会产生不允许的辅音丛，须改用鼻音插入。",
+      "selfCheckZh": [
+        {
+          "qZh": "为什么不能写 **matnë？",
+          "aZh": "tn 这一辅音丛在昆雅中不存在。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          11
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "nasal-infix",
+      "sourceSectionId": "_preamble",
+      "titleZh": "06 · 鼻音插入：mantë、tompë、tancë",
+      "leadZh": "n 插到词干最后一个辅音之前；p 前变 m，c 前写作 nc（实为 ñc）。",
+      "objectives": [
+        "能说明「插入」与前后缀的区别",
+        "能写出 mat-、top-、tac-、hat- 的过去时"
+      ],
+      "rules": [
+        {
+          "id": "rule-nasal-infix",
+          "headZh": "鼻音插入：把 n 塞进词里",
+          "bodyZh": "词尾 -në 的 n 被「鼻音插入」取代，插在动词词干最后一个辅音之前。mat- 的过去时是 mantë（VT39:7），hat-「劈开」是 hantë。所谓插入，是指既不前缀也不后缀，而把成分塞进词内部。",
+          "en": "the verb mat- \"to eat\" has the past tense mantë \"ate\" (VT39:7)",
+          "zh": "动词 mat-「吃」的过去时是 mantë「吃了」（VT39:7）。",
+          "exampleZh": "mat- → mantë；hat- → hantë"
+        },
+        {
+          "id": "rule-infix-m",
+          "headZh": "p 前用 m，c 前写作 nc",
+          "bodyZh": "在辅音 p 之前，插入音取 m 而非 n，所以 top-「覆盖」的过去时是 tompë（《词源》TOP 条）。在 c 之前插入音表现为 n（实为 ñ），所以 tac-「系紧」的过去时是 tancë。n、m、ñ 都是鼻音，故称鼻音插入。",
+          "en": "Before the consonant p, the infix takes the form m rather than n, so that the past tense of top- \"to cover\" is tompë (Etym, entry TOP).",
+          "zh": "在辅音 p 之前，插入音取 m 而非 n，所以 top-「覆盖」的过去时是 tompë（《词源》TOP 条）。",
+          "exampleZh": "top- → tompë；tac- → tancë"
+        }
+      ],
+      "table": {
+        "captionZh": "插入音按末辅音变形",
+        "headers": [
+          "末辅音",
+          "插入音",
+          "过去时",
+          "例"
+        ],
+        "rows": [
+          [
+            "t",
+            "n",
+            "-ntë",
+            "mat- → mantë、hat- → hantë"
+          ],
+          [
+            "p",
+            "m",
+            "-mpë",
+            "top- → tompë"
+          ],
+          [
+            "c",
+            "n（实为 ñ）",
+            "-ncë",
+            "tac- → tancë"
+          ],
+          [
+            "r / m / n",
+            "—（直接加 -në）",
+            "-rnë / -mnë / -nnë",
+            "tirnë、tamnë、cennë"
+          ]
+        ]
+      },
+      "pitfalls": [
+        {
+          "wrong": "**topnë",
+          "right": "tompë",
+          "whyZh": "p 前插入音取 m，故为 tompë；**topnë 的 pn 不允许。"
+        },
+        {
+          "wrong": "**tacnë",
+          "right": "tancë",
+          "whyZh": "cn 不允许；插入后为 tancë。"
+        }
+      ],
+      "recapZh": "鼻音插入：n 插在末辅音前；p 前变 m（tompë），c 前作 nc（tancë）。",
+      "selfCheckZh": [
+        {
+          "qZh": "写出 mat-、top-、tac-、hat- 的过去时。",
+          "aZh": "mantë、tompë、tancë、hantë。"
+        },
+        {
+          "qZh": "为什么 p 前插入的是 m 而不是 n？",
+          "aZh": "因为 p 是唇音，同化为 m 更便于发音；正文说插入音在 p 前取 m。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          12,
+          13
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "simple-rule",
+      "sourceSectionId": "_preamble",
+      "titleZh": "07 · 简化说法：n 与前一辅音换位",
+      "leadZh": "别管术语，只记操作：tn→nt、cn→nc、np→mp。mat- → mantë、top- → tompë、tac- → tancë。",
+      "objectives": [
+        "能用「换位」的说法推出过去时",
+        "能写出三组变换"
+      ],
+      "rules": [
+        {
+          "id": "rule-swap",
+          "headZh": "换位操作：tn→nt、cn→nc、np→mp",
+          "bodyZh": "说得简单些：若加 -në 会产生 tn、cn、pn 这类不可能的辅音丛，则 n 与它前面的辅音交换位置。tn 与 cn 变成 nt 与 nc；本应是 np 的变为 mp 以便发音（本应是 nc 的实为 ñc，按本书拼写惯例写作 nc）。",
+          "en": "Put more simply: if adding the past tense ending -në to a primary verb would result in any of the impossible clusters tn, cn, pn, the n and the consonant before it switch places.",
+          "zh": "说得简单些：若加过去时词尾 -në 会产生 tn、cn、pn 这类不可能的辅音丛，则 n 与它前面的辅音交换位置。",
+          "exampleZh": "mat- → mantë；top- → tompë；tac- → tancë"
+        }
+      ],
+      "table": {
+        "captionZh": "三组变换（含中间形式）",
+        "headers": [
+          "动词",
+          "不可能形式",
+          "变换",
+          "过去时"
+        ],
+        "rows": [
+          [
+            "mat-「吃」",
+            "**matnë",
+            "tn → nt",
+            "mantë"
+          ],
+          [
+            "top-「覆盖」",
+            "**topnë",
+            "pn → np → mp",
+            "tompë"
+          ],
+          [
+            "tac-「系紧」",
+            "**tacnë",
+            "cn → nc",
+            "tancë"
+          ]
+        ]
+      },
+      "recapZh": "操作口诀：tn→nt、cn→nc、np→mp。三例：mantë、tancë、tompë。",
+      "selfCheckZh": [
+        {
+          "qZh": "用「换位」的说法解释 mantë 怎么来。",
+          "aZh": "mat- + -në 会得 **matnë，tn 不允许，n 与 t 换位得 nt，即 mantë。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          14,
+          15,
+          16,
+          17
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "metathesis",
+      "sourceSectionId": "_preamble",
+      "titleZh": "08 · 换位还是真插入：一个学术问题",
+      "leadZh": "语言学术语叫 metathesis。托尔金大概设想的是原始精灵语中就已发生的真插入，但这不影响你怎么写。",
+      "objectives": [
+        "能说出 metathesis 的含义",
+        "能指出这条争议对学习者的实际影响"
+      ],
+      "rules": [
+        {
+          "id": "rule-metathesis",
+          "headZh": "metathesis = 两个音换位",
+          "bodyZh": "两个音这样换位的术语是 metathesis，托尔金诸语言的想象演变中还有别的换位例子（如《词源》KEL- 条）。但有些线索表明他设想这些过去时反映的是原始精灵语中已发生的「真正」鼻音插入——他让笔下人物说「鼻音插入在阿瓦隆语中相当重要」（SD:433）。不过这属于学术问题。",
+          "en": "The linguistic term for such transposing of two sounds is metathesis",
+          "zh": "两个音这样换位的语言学术语是 metathesis（换位）。",
+          "exampleZh": "matnë → mantë（换位说）"
+        }
+      ],
+      "closeReadingZh": [
+        {
+          "headZh": "为什么作者要说「这是学术问题」",
+          "bodyZh": "因为对写作者而言，两种解释给出同一个答案：mantë。作者把「换位」当作教学捷径，同时如实交代托尔金可能设想的是更早阶段的真插入。这是本课程的一贯分层：先给可操作的规则，再说明规则背后的历史争议，避免让学习者把教学简化当成史实。"
+        }
+      ],
+      "recapZh": "metathesis 是「换位」；托尔金大概设想真插入。对写作者无差别：结果都是 mantë。",
+      "selfCheckZh": [
+        {
+          "qZh": "「换位」的术语是什么？",
+          "aZh": "metathesis。"
+        },
+        {
+          "qZh": "两种解释对写作者有区别吗？",
+          "aZh": "没有；都得 mantë，区别只在语言学史的解释。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          18
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "l-final",
+      "sourceSectionId": "_preamble",
+      "titleZh": "09 · -l 结尾：-në 变 -lë（villë）",
+      "leadZh": "vil- 的过去时是 villë，不是 vilnë。以 -l 结尾的基本动词通过加 -lë 构成过去时。",
+      "objectives": [
+        "能写出 -l 结尾动词的过去时",
+        "能说明 villë 的两种可能来历"
+      ],
+      "rules": [
+        {
+          "id": "rule-l-final",
+          "headZh": "-l 结尾 → 加 -lë",
+          "bodyZh": "vil-「飞」的过去时是 villë（《词源》WIL 条）。这个双写 ll 大概是 l 与 n 某种组合的结果：也许是较早的 wilnë（ln → ll），也许是较早的 winlë（nl → ll，如 nellë 来自 nen-le）。不论哪种，以 -l 为末辅音的基本动词看来都通过加 -lë 构成过去时。",
+          "en": "Whatever development Tolkien may have imagined, primary verbs with l as their final consonant seem to form their past tense form by adding -lë.",
+          "zh": "不论托尔金设想的是哪种演变，以 l 为末辅音的基本动词看来都通过加 -lë 构成过去时。",
+          "exampleZh": "vil- → villë；mel- → mellë（keys 第 6 课 L 题）"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "vilnë",
+          "right": "villë",
+          "whyZh": "正文：以 -l 结尾的基本动词通过加 -lë 构成过去时，得双写 ll。"
+        },
+        {
+          "wrong": "melnë",
+          "right": "mellë",
+          "whyZh": "mel- 也以 -l 结尾，同一规则；keys 第 6 课 L 题作 mellë。"
+        }
+      ],
+      "recapZh": "-l 结尾加 -lë：vil- → villë、mel- → mellë。",
+      "selfCheckZh": [
+        {
+          "qZh": "vil- 与 mel- 的过去时怎么写？",
+          "aZh": "villë、mellë。"
+        },
+        {
+          "qZh": "villë 的双写 ll 可能怎么来？",
+          "aZh": "可能是较早的 wilnë（ln → ll）或 winlë（nl → ll）；两种解释都说得通。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          19
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "regular-scope",
+      "sourceSectionId": "_preamble",
+      "titleZh": "10 · 「规则」的边界：本课练习只考这套",
+      "leadZh": "只要动词符合上面这套系统，教材就不另行标注过去时；练习中的过去时全部按此构成。",
+      "objectives": [
+        "能说明本课程对「规则过去时」的约定",
+        "能判断某个形式是否属于本课考查范围"
+      ],
+      "rules": [
+        {
+          "id": "rule-regular-scope",
+          "headZh": "符合系统即不再标注",
+          "bodyZh": "上面列出的系统就是昆雅构成过去时的「规则」方式：只要动词符合它，教材在第一次提到该动词时不会明确列出过去时。下面练习中所有过去时都按此系统构成。后面会讨论一些不规则形式，也会浏览某些「替代」构形，但不要求背下这份巡览。",
+          "en": "The system set out above is what I shall consider the \"regular\" way of forming the past tense of a verb in Quenya.",
+          "zh": "上面列出的系统，就是我所说的昆雅动词构成过去时的「规则」方式。",
+          "exampleZh": "练习 A–P 全部按规则系统"
+        }
+      ],
+      "recapZh": "符合系统的过去时不另行标注；练习只考这套；替代构形只作浏览。",
+      "selfCheckZh": [
+        {
+          "qZh": "本课练习中的过去时按哪套系统构成？",
+          "aZh": "按正文列出的「规则」系统；替代构形不在考查范围。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          20
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "r-final",
+      "sourceSectionId": "_preamble",
+      "titleZh": "11 · -r 结尾：rer- → rendë 的来历",
+      "leadZh": "rer- 的过去时是 rendë 不是 **rernë，因为词根是 RED：red- 的 d 在元音后变 r，而 nd 里的 d 保留。",
+      "objectives": [
+        "能解释 rendë 为什么算规则形式",
+        "能说明 d 在昆雅中的去留条件"
+      ],
+      "rules": [
+        {
+          "id": "rule-r-final",
+          "headZh": "rer- → rendë：看似不规则，其实有来历",
+          "bodyZh": "以 -r 结尾的基本动词通常加 -në（carnë、tirnë、turnë）。但 rer-「播种」的过去时是 rendë 而非 **rernë，因为原始词根是 RED。red- 经鼻音插入 + -ë 得 rendë；而昆雅中原有的 d 只在 ld、nd、rd 中保留，元音后通常变 r，所以 red- 变成 rer-，rendë 未受影响。",
+          "en": "The past tense of the verb rer- \"sow\" is not **rernë as we might expect, but rendë",
+          "zh": "动词 rer-「播种」的过去时不是我们可能预期的 **rernë，而是 rendë。",
+          "exampleZh": "car- → carnë；tir- → tirnë；tur- → turnë；rer- → rendë"
+        },
+        {
+          "id": "rule-growth",
+          "headZh": "「不规则」多半是历史的痕迹",
+          "bodyZh": "严格说来 rer- 根本不「不规则」；它只是有特殊历史。昆雅的许多「不规则」都如此：正如小托尔金所观察，托尔金的语言创造「把语言想象成生长、在时间之中，而不是没有『之前』与『之后』的『纯结构』」（LR:342）。",
+          "en": "Tolkien's linguistic creations \"imagine language not as 'pure structure', without 'before' or 'after', but as growth, in time\" (LR:342)",
+          "zh": "托尔金的语言创造「把语言想象成生长、在时间之中，而不是没有『之前』与『之后』的『纯结构』」（LR:342）。",
+          "exampleZh": "hyar- → hyandë?、ser- → sendë?、nir- → nindë?"
+        }
+      ],
+      "table": {
+        "captionZh": "因词根含 D 而作 -ndë 的动词",
+        "headers": [
+          "动词",
+          "词根",
+          "过去时",
+          "证据强度"
+        ],
+        "rows": [
+          [
+            "rer-「播种」",
+            "RED",
+            "rendë",
+            "传世（《词源》RED）"
+          ],
+          [
+            "hyar-「劈开」",
+            "SYAD",
+            "hyandë",
+            "推测，托尔金未提"
+          ],
+          [
+            "ser-「休息」",
+            "SED",
+            "sendë",
+            "推测，托尔金未提"
+          ],
+          [
+            "nir-「压、推」",
+            "NID",
+            "nindë",
+            "推测（VT41:17）"
+          ],
+          [
+            "nyar-「讲述」",
+            "NAR（后期）",
+            "nyarnë",
+            "后期材料改归 NAR，故规则"
+          ]
+        ]
+      },
+      "pitfalls": [
+        {
+          "wrong": "**rernë",
+          "right": "rendë",
+          "whyZh": "正文直接给出对照：rer- 的过去时不是 **rernë，而是 rendë。"
+        },
+        {
+          "wrong": "把 nyar- 的过去时写成 nyandë",
+          "right": "nyarnë",
+          "whyZh": "后期材料把这个动词追溯到 NAR 而非 NAD，所以过去时变得规则。"
+        }
+      ],
+      "recapZh": "rer- → rendë（词根 RED）；d 只在 ld/nd/rd 中保留。「不规则」多是历史痕迹。",
+      "selfCheckZh": [
+        {
+          "qZh": "为什么 rer- 的过去时是 rendë？",
+          "aZh": "词根是 RED；red- 经鼻音插入 + -ë 得 rendë，而独立形 red- 在元音后变 rer-。"
+        },
+        {
+          "qZh": "hyandë、sendë 有传世例证吗？",
+          "aZh": "没有；是作者按词根 SYAD、SED 推出来的，托尔金未提。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          21,
+          22
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "lengthened",
+      "sourceSectionId": "_preamble",
+      "titleZh": "12 · 拉长元音型：lávë、cárë、úmë",
+      "leadZh": "另一条路：不加鼻音，改为拉长词干元音再加 -ë。lav- → lávë、um- → úmë、car- → cárë（早期）。",
+      "objectives": [
+        "能写出拉长元音型过去时",
+        "能说明本课程为何取 carnë 而非 cárë"
+      ],
+      "rules": [
+        {
+          "id": "rule-lengthened",
+          "headZh": "拉长词干元音 + -ë",
+          "bodyZh": "有些基本动词的过去时不用鼻音，而是拉长词干元音再加 -ë：lav-「舔」→ lávë（见于《Namárië》的 undulávë）、um- → úmë。这种构形在早期《Qenya 词汇表》中相当常见，也出现在《魔戒》之前的晚近材料中（如 car- → cárë）。",
+          "en": "the stem-vowel of the verb is lengthened",
+          "zh": "动词的词干元音被拉长。",
+          "exampleZh": "lav- → lávë；um- → úmë；car- → cárë（早期）"
+        }
+      ],
+      "exceptions": [
+        {
+          "titleZh": "为什么本课程用 carnë 而不用 cárë",
+          "bodyZh": "《Fíriel 之歌》（约 1936）与 1915 年词汇表一致作 cárë，但《词源》KAR 条作 carnë，而《词源》至少部分略晚于《Fíriel 之歌》。本课程采用 carnë。同理，tul- 的过去时可能是 túlë（早期），也可能是 tullë（按 villë 的模式，代表较早的 tulne 或 tunle）。",
+          "sourceEn": "However, according to the Etymologies (entry KAR), the past tense is carnë – and that is the form we will use here",
+          "anchor": "#unit-_preamble-23"
+        },
+        {
+          "titleZh": "lávë 而不是 **lambë：可能与名词冲突",
+          "bodyZh": "按词根 LAB 作鼻音插入本应得 **lambë，但它会与名词 lambë「舌、语言」冲突；也许这就是托尔金改用 lávë 的原因。是否该从 lav- 推广到所有 -v 结尾动词，材料不足以判断。",
+          "sourceEn": "However, **lambë as the past tense of lav- would clash with the noun lambë \"tongue, language\"; perhaps this is why Tolkien decided to go for the irregular formation lávë instead.",
+          "anchor": "#unit-_preamble-24"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "**lambë（把 lav- 按 LAB 作鼻音插入）",
+          "right": "lávë",
+          "whyZh": "**lambë 会与名词 lambë「舌、语言」冲突；实际传世形式是 lávë。"
+        },
+        {
+          "wrong": "把 cárë 当作现代昆雅的标准形式",
+          "right": "本课程用 carnë",
+          "whyZh": "《词源》作 carnë，且《词源》至少部分晚于《Fíriel 之歌》；本课程取 carnë。"
+        }
+      ],
+      "recapZh": "拉长型：lávë、úmë、cárë（早期）；本课程 car- 取 carnë。",
+      "selfCheckZh": [
+        {
+          "qZh": "lav- 的过去时是什么？为什么不作 **lambë？",
+          "aZh": "lávë；**lambë 会与名词 lambë「舌、语言」冲突。"
+        },
+        {
+          "qZh": "car- 的过去时本课程取哪个形式？",
+          "aZh": "carnë（据《词源》），而非早期的 cárë。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          23,
+          24,
+          25
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "a-drop",
+      "sourceSectionId": "_preamble",
+      "titleZh": "13 · 连 A 词干也会丢词尾：sérë、ónë、ornë",
+      "leadZh": "serta- → sérë、onta- → ónë、ora- → ornë。丢掉 -a 之后，它们在过去时里「伪装成」基本动词。",
+      "objectives": [
+        "能举出 A 词干丢词尾的例子",
+        "能说明 mapa- 的两种可能过去时"
+      ],
+      "rules": [
+        {
+          "id": "rule-a-drop",
+          "headZh": "A 词干丢词尾，按基本动词处理",
+          "bodyZh": "更长的派生动词（A 词干）有时也丢掉词尾，直接由无词尾词根构成 lávë 式过去时：serta-「系」→ sérë（QL:83）、onta-「生育、创造」→ ónë（与规则形式 ontanë 并存）。最简单的 A 词干（只加短 -a）也一样：ora- → ornë（托尔金在 oranë 后立即以括号补出）、papa- → pampë、pata- → pantë。",
+          "en": "immediately after writing oranë, Tolkien actually added ornë as a parenthetic alternative (VT41:13)",
+          "zh": "写完 oranë 之后，托尔金其实立刻在括号里补了 ornë 作为替代（VT41:13）。",
+          "exampleZh": "serta- → sérë；onta- → ónë；ora- → ornë / oranë"
+        }
+      ],
+      "table": {
+        "captionZh": "A 词干丢词尾的例子",
+        "headers": [
+          "动词",
+          "规则过去时",
+          "丢词尾型",
+          "出处"
+        ],
+        "rows": [
+          [
+            "serta-「系」",
+            "**sertanë",
+            "sérë",
+            "QL:83"
+          ],
+          [
+            "onta-「生育」",
+            "ontanë",
+            "ónë",
+            "《词源》ONO"
+          ],
+          [
+            "ora-「催促」",
+            "oranë",
+            "ornë",
+            "VT41:13（括号补出）"
+          ],
+          [
+            "papa-「颤抖」",
+            "**papanë",
+            "pampë",
+            "QL:72"
+          ],
+          [
+            "pata-「轻敲」",
+            "**patanë",
+            "pantë",
+            "QL:72"
+          ],
+          [
+            "mapa-「抓」",
+            "mapanë",
+            "mampë",
+            "两者都有人用"
+          ]
+        ]
+      },
+      "pitfalls": [
+        {
+          "wrong": "断言 mapa- 的过去时只能是 mapanë",
+          "right": "mapanë 与 mampë 都可能",
+          "whyZh": "正文：我们无法确定 mapa- 的过去时该是 mapanë 还是 mampë；写作者两者都用过。"
+        }
+      ],
+      "recapZh": "A 词干可丢词尾：sérë、ónë、ornë、pampë、pantë；mapa- 两可。",
+      "selfCheckZh": [
+        {
+          "qZh": "ora- 的过去时有哪两种形式？",
+          "aZh": "oranë 与 ornë（托尔金在括号中补出后者）。"
+        },
+        {
+          "qZh": "mapa- 的过去时该怎么写？",
+          "aZh": "mapanë 或 mampë 都可能；材料无法判定。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          26,
+          27
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "lala-past",
+      "sourceSectionId": "_preamble",
+      "titleZh": "14 · lala-：lalanë 还是 landë",
+      "leadZh": "lala- 来自较早的 g-lada-，元音后的 d 受词中 l 影响变成 l。所以「短」过去时该是 landë 而非 lallë。",
+      "objectives": [
+        "能说明 lala- 的词源与过去时的关系",
+        "能区分两个不同的 lala-"
+      ],
+      "rules": [
+        {
+          "id": "rule-lala",
+          "headZh": "lala-「笑」的过去时：landë",
+          "bodyZh": "lala- 可能作 lalanë，也可能在过去时表现得像基本动词。但 lala- 应来自较早的 g-lada-（PM:359），而元音后的原有 d 受词中较早的 l 影响变成 l 而非 r。所以若它有「短」过去时，大概不该是 lallë，而应是 landë。",
+          "en": "So if lala- has a \"short\" past tense, it should probably not be lallë, but rather landë",
+          "zh": "所以若 lala- 有「短」过去时，大概不该是 lallë，而应是 landë。",
+          "exampleZh": "lala-（笑）→ lalanë / landë"
+        }
+      ],
+      "exceptions": [
+        {
+          "titleZh": "另一个 lala-：「否认」",
+          "bodyZh": "《词源》中相似但不同的动词 lala-「否认」（LR:367）从不含 d，所以其过去时完全可能是 lallë（除非是 lalanë，作者倾向后者）。两个 lala- 词源不同，过去时也不同。",
+          "sourceEn": "On the other hand, the similar but distinct verb lala- \"deny\" found in the Etymologies (LR:367) never contained a d, so its past tense may well be lallë",
+          "anchor": "#unit-_preamble-28"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "把 lala-「笑」的过去时写成 lallë",
+          "right": "landë（或 lalanë）",
+          "whyZh": "lala- 来自 g-lada-，d 变 l；短过去时须保留 d 的痕迹，故为 landë。"
+        },
+        {
+          "wrong": "把「笑」与「否认」两个 lala- 混为一谈",
+          "right": "词源不同，过去时也不同",
+          "whyZh": "「否认」的 lala- 从不含 d，过去时可能是 lallë；「笑」的 lala- 来自 g-lada-。"
+        }
+      ],
+      "recapZh": "lala-「笑」→ lalanë 或 landë；「否认」的 lala- → lallë 或 lalanë。",
+      "selfCheckZh": [
+        {
+          "qZh": "为什么 lala-「笑」的短过去时是 landë 而不是 lallë？",
+          "aZh": "它来自较早的 g-lada-，d 在词中 l 的影响下变成 l；短过去时保留 d 的痕迹，故为 landë。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          28
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "ya-drop",
+      "sourceSectionId": "_preamble",
+      "titleZh": "15 · -ya 脱落：farya- → farnë、ulya- → ullë",
+      "leadZh": "有些 -ya 动词丢掉整个词尾，按基本动词构成过去时。但 ullë 与 ulyanë 含义不同，不可互换。",
+      "objectives": [
+        "能说明 -ya 脱落的机制",
+        "能指出 ullë 与 ulyanë 不可互换"
+      ],
+      "rules": [
+        {
+          "id": "rule-ya-drop",
+          "headZh": "整个 -ya 词尾脱落",
+          "bodyZh": "farya-「足够」的过去时是 farnë（《词源》PHAR 条）：整个 -ya 脱落，构形仿佛基本动词 **fer-。ulya- 也有替代过去时 ullë（《词源》ULU 条），而托尔金指出 ulyanë 与 ullë 并不可互换，含义略有不同。作者认为多数 -ya 动词加 -në 时会保留词尾。",
+          "en": "The verb farya- \"to suffice\" is said to have the past tense farnë (Etym, entry PHAR)",
+          "zh": "动词 farya-「足够」据说过去时是 farnë（《词源》PHAR 条）。",
+          "exampleZh": "farya- → farnë；ulya- → ulyanë / ullë"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "以为 ulyanë 与 ullë 可以随意互换",
+          "right": "两者含义略有不同",
+          "whyZh": "正文：托尔金指出两个过去时并不可互换，含义略有不同（第十课详论）。"
+        }
+      ],
+      "recapZh": "-ya 可整体脱落：farnë、ullë；但 ullë ≠ ulyanë。多数 -ya 动词保留词尾。",
+      "selfCheckZh": [
+        {
+          "qZh": "farya- 的过去时是什么？怎么构成？",
+          "aZh": "farnë；整个 -ya 脱落，按基本动词 **fer- 构成。"
+        },
+        {
+          "qZh": "ulyanë 与 ullë 能互换吗？",
+          "aZh": "不能；两者含义略有不同。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          29
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "ta-class",
+      "sourceSectionId": "_preamble",
+      "titleZh": "16 · -ta 类：lahantë、orontë",
+      "leadZh": "lahta- 被改造成 lahat-（重复词干元音拆开辅音丛），再作鼻音插入得 lahantë。orta- 也有 orontë 这种形式。",
+      "objectives": [
+        "能说明 lahta- → lahantë 的两步操作",
+        "能举出 orontë 的出处"
+      ],
+      "rules": [
+        {
+          "id": "rule-ta-class",
+          "headZh": "重复词干元音，再作鼻音插入",
+          "bodyZh": "lahta- 的过去时不是 **lahtanë，而是 lahantë：动词先被改造为 lahat-（词干元音在第二与第三个辅音之间重复，拆开辅音丛，词尾 -a 脱落），再由 lahat- 经鼻音插入 + -ë 构成过去时。托尔金把这样一个过去时描述为「对这类 -ta 动词而言是规则的」（WJ:366）。",
+          "en": "its past tense is not **lahtanë as we might expect: Instead we find lahantë.",
+          "zh": "它的过去时不是我们可能预期的 **lahtanë：我们看到的是 lahantë。",
+          "exampleZh": "lahta- → lahat- → lahantë"
+        },
+        {
+          "id": "rule-oronte",
+          "headZh": "orta- 也曾作 orontë",
+          "bodyZh": "《词源》给 orta- 的过去时作 orontë（ORO 条），尽管该形式在《词源》中并未明确呈现为昆雅。在托尔金为《Namárië》所作的一些较早草稿中，orta- 的过去时确实作 orontë，而非最终版的 ortanë。",
+          "en": "in some of Tolkien's earlier drafts for Namárië, the past tense of orta- did appear as orontë",
+          "zh": "在托尔金为《Namárië》所作的一些较早草稿中，orta- 的过去时确实作 orontë。",
+          "exampleZh": "orta- → orontë（早期草稿）→ ortanë（最终版）"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "**lahtanë",
+          "right": "lahantë",
+          "whyZh": "正文直接给出对照：lahta- 的过去时不是 **lahtanë，而是 lahantë。"
+        }
+      ],
+      "recapZh": "-ta 类可先重复词干元音再插入：lahta- → lahantë；orta- 早期作 orontë。",
+      "selfCheckZh": [
+        {
+          "qZh": "lahta- 的过去时怎么构成？",
+          "aZh": "先改造为 lahat-（重复词干元音、词尾 -a 脱落），再鼻音插入 + -ë 得 lahantë。"
+        },
+        {
+          "qZh": "orontë 有传世例证吗？",
+          "aZh": "有：《词源》ORO 条，以及《Namárië》的较早草稿。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          30,
+          31
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "oante",
+      "sourceSectionId": "_preamble",
+      "titleZh": "17 · oantë：唯一「必须」用特殊构形的动词",
+      "leadZh": "auta- → oantë 而非 **autanë。原始形式 awatâ 的过去时是鼻音插入的 awantê，awa → oa 后得 oantë。",
+      "objectives": [
+        "能说明 oantë 的演变链",
+        "能解释为什么 auta- 是特例"
+      ],
+      "rules": [
+        {
+          "id": "rule-oante",
+          "headZh": "awatâ → awantê → oantë",
+          "bodyZh": "托尔金把 auta- 追溯到词根 AWA，原始形式大概是 awatâ。相邻音节中两个相同短元音中的第二个常丢失，故 awatâ → aw'tâ = autâ。但 awatâ 的过去时由鼻音插入构成，托尔金明确给出 awantê（WJ:366）。awantê 中「丢第二个元音」的规则不能适用（没有 **aw'ntê），因为丢失不发生在辅音丛前；awa 后来变 oa，于是得到 oantë。",
+          "en": "Tolkien explicitly gave the past tense of the primitive verb as awantê",
+          "zh": "托尔金明确给出该原始动词的过去时为 awantê。",
+          "exampleZh": "awatâ → autâ / awantê → oantë"
+        },
+        {
+          "id": "rule-oronte-chain",
+          "headZh": "同一机制解释 orontë",
+          "bodyZh": "《词源》给词根 ORO，故 orta- 大概来自较早的 orotâ-（第二个元音规则丢失）；其过去时是鼻音插入的 orontê，得昆雅 orontë。第二个元音因后随辅音丛 nt 而保留（没人想说 **orntë）。",
+          "en": "this produced Quenya orontë, the second vowel here being preserved because of the following cluster nt",
+          "zh": "这产生昆雅 orontë，其中第二个元音因后随辅音丛 nt 而保留。",
+          "exampleZh": "orotâ → orta-；orontê → orontë"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "**autanë（按常规加 -në）",
+          "right": "oantë",
+          "whyZh": "正文：oantë 而非 **autanë 是唯一「必须」使用这种特殊构形的动词。"
+        }
+      ],
+      "recapZh": "auta- → oantë（awatâ / awantê）；orta- → orontë（orotâ / orontê）。",
+      "selfCheckZh": [
+        {
+          "qZh": "oantë 是怎么来的？",
+          "aZh": "原始 awatâ → autâ；其过去时 awantê（鼻音插入）→ oantë（awa → oa）。"
+        },
+        {
+          "qZh": "为什么 awantê 不丢第二个元音？",
+          "aZh": "因为鼻音插入已产生辅音丛 nt，而元音丢失不发生在辅音丛之前。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          32,
+          33
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "revisions",
+      "sourceSectionId": "_preamble",
+      "titleZh": "18 · 修订：orontë → ortanë、atalantë → ataltanë",
+      "leadZh": "托尔金后来改用规则形式。可能是他改了原始形式的重构，也可能是设想埃尔达用类推简化了复杂构形。",
+      "objectives": [
+        "能复述两处修订",
+        "能给出两种可能的解释"
+      ],
+      "rules": [
+        {
+          "id": "rule-revisions",
+          "headZh": "两处修订与两种解释",
+          "bodyZh": "托尔金把 orta- 的过去时从 orontë 改为 ortanë、把 atalta- 的从 atalantë 改为 ataltanë（LR:47、SD:247）。解释一：他改了原始形式的重构（ortâ-、ataltâ-，过去时用独立词尾 -nê）。解释二：他设想埃尔达用更简单的类推形式取代复杂构形（如与 hehtanë 类比）。",
+          "en": "Yet in Tolkien's later texts the past tense of atalta- becomes ataltanë (LR:47 and SD:247), simply formed by adding the normal ending -në.",
+          "zh": "然而在托尔金较晚的文本中，atalta- 的过去时变成 ataltanë（LR:47、SD:247），只是加常规词尾 -në 构成。",
+          "exampleZh": "orontë → ortanë；atalantë → ataltanë"
+        }
+      ],
+      "closeReadingZh": [
+        {
+          "headZh": "orontë 被标为「诗歌或古体」意味着什么",
+          "bodyZh": "《词源》给 orontë 标了一个表示「诗歌或古体」的符号（参 LR:347）。这与第二种解释吻合：复杂构形在口语中被规则形式取代，只在古体或诗歌里残留。考虑到托尔金后来设想昆雅在第三纪已成为仪式语言、不再是任何人的母语，语法简化、复杂构形被类推形式压制，是相当合理的推断。"
+        },
+        {
+          "headZh": "作者为什么说 auta- 是唯一「必须」的用例",
+          "bodyZh": "因为其他曾用特殊构形的动词后来都有了规则形式（orontë → ortanë、atalantë → ataltanë），只有 auta- 的 oantë 没有规则替代 **autanë——除非毫无保留地接受最早的「Qenya」材料。这条判断把「历史重构」与「可写形式」分开：写 auta- 的过去时，你只能写 oantë。"
+        }
+      ],
+      "recapZh": "两处修订：orontë → ortanë、atalantë → ataltanë；auta- → oantë 是唯一「必须」的特例。",
+      "selfCheckZh": [
+        {
+          "qZh": "atalta- 的过去时后来变成什么？",
+          "aZh": "ataltanë（LR:47、SD:247），即加常规词尾 -në。"
+        },
+        {
+          "qZh": "orontë 在《词源》里被标为什么？",
+          "aZh": "「诗歌或古体」。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          34,
+          35
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "survey-end",
+      "sourceSectionId": "_preamble",
+      "titleZh": "19 · 巡览结束：回到规则系统",
+      "leadZh": "以上都是「替代」构形。练习只考规则系统——这一步是作者给读者的收束。",
+      "objectives": [
+        "能区分「规则系统」与「替代构形」",
+        "知道练习的考查范围"
+      ],
+      "rules": [
+        {
+          "id": "rule-survey-end",
+          "headZh": "练习只考规则系统",
+          "bodyZh": "至此结束对各种奇特或不规则过去时构形的巡览。作者明确：下面的练习意在反映规则系统，而非这些替代构形。",
+          "en": "as I said above, the exercises below are meant to reflect the regular system instead.",
+          "zh": "如我上面所说，下面的练习意在反映规则系统。",
+          "exampleZh": "练习 A–P 只用 -në / 鼻音插入 / -lë / 拉长 四类规则构形"
+        }
+      ],
+      "recapZh": "巡览结束；练习只考规则系统。",
+      "selfCheckZh": [
+        {
+          "qZh": "练习会考 sérë、ónë 这类形式吗？",
+          "aZh": "不会；练习只反映规则系统。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          36
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "plural-past",
+      "sourceSectionId": "_preamble",
+      "titleZh": "20 · 复数过去时：加 -r，两点消失",
+      "leadZh": "lantanë → lantaner。加了 -r 之后 -ë 不再处于词末，所以两点（分音符）消失。",
+      "objectives": [
+        "能写出复数主语的过去时",
+        "能说明分音符为何消失"
+      ],
+      "rules": [
+        {
+          "id": "rule-plural-past",
+          "headZh": "复数主语 → 过去时也加 -r",
+          "bodyZh": "正如现在时动词，过去时形式若有复数主语（或多个主语）也取词尾 -r：lantanë → lantaner（SD:246）。自然，词尾 -ë 上的两点会消失，因为加了 -r 之后该元音已不在词末。",
+          "en": "a past tense form receives the ending -r if it has a plural subject (or multiple subjects)",
+          "zh": "过去时形式若有复数主语（或多个主语）也取词尾 -r。",
+          "exampleZh": "lantanë → lantaner；sillë → siller；mantë → manter"
+        }
+      ],
+      "pitfalls": [
+        {
+          "wrong": "lantanër（保留两点再加 -r）",
+          "right": "lantaner",
+          "whyZh": "正文：加了复数词尾 -r 之后该元音已不在词末，故 -ë 上的两点消失。"
+        }
+      ],
+      "recapZh": "复数过去时加 -r，-ë 的两点消失：lantaner、manter、siller。",
+      "selfCheckZh": [
+        {
+          "qZh": "lantanë 的复数主语形式怎么写？",
+          "aZh": "lantaner（两点消失）。"
+        }
+      ],
+      "bilingual": {
+        "sectionId": "_preamble",
+        "unitIds": [
+          37
+        ],
+        "labelZh": "课文"
+      }
+    },
+    {
+      "sectionId": "summary",
+      "kind": "summary",
+      "sourceSectionId": "_preamble",
+      "titleZh": "21 · 本章小结：原文 Summary 与中文对照",
+      "leadZh": "左侧是 less-b.rtf 第 6 课 Summary 原文（未删节），右侧是等价中文翻译。",
+      "objectives": [
+        "能复述四类规则过去时",
+        "能把小结的每一句对应到前面的步骤"
+      ],
+      "summaryEn": "Summary of Lesson Six: While various irregular formations occur, it would seem that the past tense of Quenya verbs is typically formed according to these rules: A-stem verbs simply receive the ending -në. The \"primary\" or ending-less verbs can also receive this ending if their last consonant is -r or -m, probably also -n (no examples). If added to a primary verb in -l, the ending -në turns into -lë (resulting in a double ll, e.g. villë as the past tense of vil- \"fly\"). Primary verbs ending in one of the consonants p, t, c have past tenses constructed by adding the ending -ë combined with nasal-infixion intruding before the last consonant of the verbal stem; the infix manifests as m before p (hence tompë as the past tense of top- \"cover\"), otherwise as n (hence mantë as the past tense of mat- \"eat\").",
+      "summaryZh": "第六课小结：虽然存在各种不规则构形，昆雅动词的过去时看来通常按这些规则构成：A 词干动词直接加词尾 -në。「基本」或无词尾动词若末辅音是 -r 或 -m（大概还有 -n，无例证）也可加这个词尾。若加到以 -l 结尾的基本动词上，词尾 -në 变成 -lë（产生双写 ll，如 vil-「飞」的过去时 villë）。以 p、t、c 之一结尾的基本动词，其过去时由加词尾 -ë 并结合鼻音插入构成，插入音位于动词词干最后一个辅音之前；插入音在 p 前表现为 m（故 top-「覆盖」的过去时是 tompë），其他情况表现为 n（故 mat-「吃」的过去时是 mantë）。",
+      "formulaZh": [
+        "A 词干：直接加 -në（ortanë、ulyanë、sintanë）。",
+        "基本动词末辅音 r / m / n：直接加 -në（tirnë、tamnë、cennë）。",
+        "基本动词末辅音 l：加 -lë（villë、mellë）。",
+        "基本动词末辅音 p / t / c：鼻音插入 + -ë（tompë、mantë、tancë）。",
+        "拉长型（替代）：lávë、úmë；A 词干可丢词尾（sérë、ónë、ornë）。",
+        "复数主语：过去时也加 -r，-ë 的两点消失（lantaner）。"
+      ],
+      "selfCheckZh": [
+        {
+          "qZh": "不看原文，写出四类规则过去时。",
+          "aZh": "A 词干加 -në；基本动词末辅音 r/m/n 加 -në；l 加 -lë；p/t/c 用鼻音插入 + -ë。"
+        },
+        {
+          "qZh": "为什么 tompë 而不是 **topnë？",
+          "aZh": "pn 不允许；插入音在 p 前取 m，得 tompë。"
+        },
+        {
+          "qZh": "复数主语的过去时怎么变？",
+          "aZh": "加 -r，且 -ë 上的两点消失（lantanë → lantaner）。"
+        }
+      ]
+    },
+    {
+      "sectionId": "vocabulary",
+      "kind": "vocabulary",
+      "sourceSectionId": "vocabulary",
+      "titleZh": "22 · 课末词汇：3 个名词/数词 + 9 个动词",
+      "leadZh": "本课词汇以动词为主，且多数是本课要练过去时的对象。动词带连字符，表示词干到此为止。",
+      "objectives": [
+        "能默写 12 个词并标出词性",
+        "能写出 9 个动词的过去时",
+        "能说明 harya- 与 harma 的关系"
+      ],
+      "table": {
+        "captionZh": "12 词与过去时推演",
+        "headers": [
+          "课末词",
+          "词性 / 释义",
+          "过去时",
+          "依据"
+        ],
+        "rows": [
+          [
+            "lempë",
+            "数词「五」",
+            "—",
+            "不变复数"
+          ],
+          [
+            "elen",
+            "名词「星」",
+            "—",
+            "复数 eleni"
+          ],
+          [
+            "harma",
+            "名词「财宝」",
+            "—",
+            "复数 harmar"
+          ],
+          [
+            "sil-",
+            "动词「照耀」",
+            "sillë",
+            "-l 结尾 → -lë"
+          ],
+          [
+            "hir-",
+            "动词「找到」",
+            "hirnë",
+            "-r 结尾 → -në（keys I 题）"
+          ],
+          [
+            "cap-",
+            "动词「跳」",
+            "campë",
+            "p 前插入 m（keys K 题）"
+          ],
+          [
+            "tec-",
+            "动词「写」",
+            "tencë",
+            "c 前插入 n（keys M 题）"
+          ],
+          [
+            "quet-",
+            "动词「说、讲」",
+            "quentë",
+            "t 前插入 n（keys J 题）"
+          ],
+          [
+            "mel-",
+            "动词「爱」",
+            "mellë",
+            "-l 结尾 → -lë（keys L 题）"
+          ],
+          [
+            "cen-",
+            "动词「看见」",
+            "cennë",
+            "-n 结尾 → 直接加 -në（keys H 题）"
+          ],
+          [
+            "orta-",
+            "动词「升起／举起」",
+            "ortanë",
+            "A 词干加 -në（keys N 题）"
+          ],
+          [
+            "harya-",
+            "动词「拥有」",
+            "haryanë",
+            "A 词干加 -në（keys O 题）"
+          ]
+        ]
+      },
+      "pitfalls": [
+        {
+          "wrong": "把 mel- 的过去时写成 melnë",
+          "right": "mellë",
+          "whyZh": "-l 结尾的基本动词把 -në 变成 -lë，得双写 ll；keys 第 6 课 L 题作 mellë。"
+        },
+        {
+          "wrong": "把 harya- 当成基本动词",
+          "right": "它是 A 词干，直接加 -në",
+          "whyZh": "harya- 以 -a 结尾，属 A 词干；keys O 题作 haryaner（复数主语）。"
+        }
+      ],
+      "closeReadingZh": [
+        {
+          "headZh": "为什么这张表几乎每个动词都能推",
+          "bodyZh": "因为本课的规则是「按末辅音分类」：看到 sil-、hir-、cap-、tec-、quet-、mel-、cen- 的末辅音，就能直接定过去时；看到 orta-、harya- 的 -a，就知道直接加 -në。词表本身就是一份练习题，做完练习后逐词自问「它属于哪一类」，比抄写有效。"
+        }
+      ],
+      "recapZh": "9 个动词按末辅音分类记；sil- → sillë、mel- → mellë、cap- → campë、tec- → tencë、quet- → quentë。",
+      "selfCheckZh": [
+        {
+          "qZh": "写出 sil-、mel-、cap-、tec-、quet-、cen- 的过去时。",
+          "aZh": "sillë、mellë、campë、tencë、quentë、cennë。"
+        },
+        {
+          "qZh": "harya- 与 harma 有什么关系？",
+          "aZh": "同源；harya-「拥有」与名词 harma「财宝」相关，基本指「所有物」。"
+        }
+      ],
+      "showOriginal": true,
+      "bilingual": {
+        "sectionId": "vocabulary",
+        "unitIds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ],
+        "labelZh": "词汇"
+      }
+    },
+    {
+      "sectionId": "exercises",
+      "kind": "exercises",
+      "sourceSectionId": "exercises",
+      "titleZh": "23 · 练习工作台：A–P 与 keys 核对",
+      "leadZh": "A–H 昆雅译英，I–P 英译昆雅。全部只考本课的规则过去时；F 题的 caitaner 还考复数过去时的 -r。",
+      "objectives": [
+        "独立完成 A–P，不先展开答案",
+        "能说出每题动词的过去时依据哪条规则",
+        "核对后能把错题回链到对应规则卡"
+      ],
+      "workflowZh": [
+        "第一遍：遮住答案，先看动词末辅音属哪一类",
+        "再看主语单复数，决定过去时要不要加 -r",
+        "A 词干直接加 -në；基本动词按末辅音分流",
+        "点「核对」比对 keys 原文答案",
+        "错题按「回到本课规则」跳回规则卡",
+        "最后展开 keys 全文与 EXERCISES 原文复核"
+      ],
+      "teachingNoteZh": "keys.rtf 对 F 题注明：昆雅过去时也可能允许译作 was/were ...-ing，但已出版材料无法判断昆雅是否有专门的进行过去形式。",
+      "bilingual": {
+        "sectionId": "exercises",
+        "unitIds": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "labelZh": "练习"
+      }
+    }
+  ]
+}
