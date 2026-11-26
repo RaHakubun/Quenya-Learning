@@ -8,7 +8,7 @@
     "能写出 aldu 而不是 **aldau，并说清 -u 顶掉词尾元音的机制",
     "能举出两个不按语音判据走的化石双数，并说明成对器官的倾向",
     "能写出 hen、talan、oron 等词的词干，并推出复数",
-    "能独立完成练习 A–P，用 keys 核对，并把错题回链到对应规则"
+    "能独立完成练习 A–P，对照答案核对，并把错题归到对应规则"
   ],
   "conceptMap": [
     {
@@ -72,22 +72,22 @@
       "sectionId": "stem-perspective"
     },
     {
-      "labelZh": "本章小结",
+      "labelZh": "本课小结",
       "noteZh": "原文 Summary 中英对照",
       "sectionId": "summary"
     },
     {
       "labelZh": "课末词汇",
-      "noteZh": "12 个新词 + q-vocab 交叉引用",
+      "noteZh": "12 个新词 + 总词汇表对照",
       "sectionId": "vocabulary"
     },
     {
       "labelZh": "练习与答案",
-      "noteZh": "A–P 工作台、考点回链、keys.rtf",
+      "noteZh": "A–P 练习、考点索引、答案核对",
       "sectionId": "exercises"
     }
   ],
-  "pathTitleZh": "本课学习路径",
+  "pathTitleZh": "本课脉络",
   "path": [
     {
       "step": 1,
@@ -151,7 +151,7 @@
     },
     {
       "step": 13,
-      "labelZh": "本章小结",
+      "labelZh": "本课小结",
       "sectionId": "summary"
     },
     {
@@ -161,7 +161,7 @@
     },
     {
       "step": 15,
-      "labelZh": "练习工作台",
+      "labelZh": "练习",
       "sectionId": "exercises"
     }
   ],
@@ -1436,8 +1436,8 @@
       "sectionId": "summary",
       "kind": "summary",
       "sourceSectionId": "stem-variation",
-      "titleZh": "13 · 本章小结：原文 Summary 与中文对照",
-      "leadZh": "左侧是 less-a.rtf 第 3 课 Summary 原文（未删节），右侧是等价中文翻译；下方口诀只作记忆辅助，不替代原文。",
+      "titleZh": "13 · 本课小结：原文 Summary 与中文对照",
+      "leadZh": "左侧是 原著 第 3 课 Summary 原文，右侧是等价中文翻译；下方口诀只作记忆辅助，不替代原文。",
       "objectives": [
         "能复述双数的两个词尾与选用条件",
         "能复述词干变化的三种来源",
@@ -1472,7 +1472,7 @@
       "kind": "vocabulary",
       "sourceSectionId": "vocabulary",
       "titleZh": "14 · 课末词汇：12 个新词",
-      "leadZh": "这 12 个词来自 less-a.rtf 第 3 课课末 VOCABULARY，是本课练习唯一会使用的词。带词干标注的六个词要连词干一起记。",
+      "leadZh": "这 12 个词取自原著第 3 课课末 VOCABULARY，是本课练习唯一会使用的词。带词干标注的六个词要连词干一起记。",
       "objectives": [
         "能默写 12 个词的昆雅形式与中文义",
         "能指出哪六个词带词干，并写出词干",
@@ -1623,23 +1623,23 @@
       "sectionId": "exercises",
       "kind": "exercises",
       "sourceSectionId": "exercises",
-      "titleZh": "15 · 练习工作台：A–P 与 keys 核对",
-      "leadZh": "练习一昆雅译英（A–H，含两道「有什么区别」的追问），练习二英译昆雅（I–P）。每题标注考点、分步提示与规则回链。",
+      "titleZh": "15 · 练习：A–P 与答案核对",
+      "leadZh": "练习一昆雅译英（A–H，含两道「有什么区别」的追问），练习二英译昆雅（I–P）。每题标注考点、分步提示与规则索引。",
       "objectives": [
         "独立完成 A–P，不先展开答案",
         "能说出每题考的是「双数成对」还是「词尾语音判据」",
-        "核对后能把错题回链到对应规则卡",
-        "能展开 keys.rtf 第 3 课全文答案逐题复核"
+        "核对后能把错题归到对应规则",
+        "能展开 第 3 课完整答案逐题复核"
       ],
       "workflowZh": [
         "第一遍：遮住答案，只看题干与考点，写下译文",
         "B、D 两题要额外回答「与上一题的区别」，先用中文写清再译",
         "拿不准时点「分步提示」，不要直接点「显示答案」",
-        "点「核对」：系统比对 keys 原文答案、可接受的替代译文与中文等价答案",
+        "点「核对」：系统比对 答案原文、可接受的替代译文与中文等价答案",
         "错题按「回到本课规则」跳回规则卡，重读后再改",
-        "最后展开 keys.rtf 全文答案与下方 EXERCISES 原文，逐题复核"
+        "最后展开完整答案与下方 EXERCISES 原文，逐题复核"
       ],
-      "teachingNoteZh": "keys.rtf 的篇首说明提醒：课程仍在修订，个别练习与答案可能对不上；若出现不一致，优先以 keys.rtf 原文为准（见全站「练习答案」页）。",
+      "teachingNoteZh": "原著答案的篇首说明提醒：课程仍在修订，个别练习与答案可能对不上；若出现不一致，以原著答案为准（见「练习答案」页）。",
       "bilingual": {
         "sectionId": "exercises",
         "unitIds": [

@@ -10,7 +10,7 @@
   "能用 ya 造各类关系句，并知道 i 不可变格",
   "能判断 i 作关系代词与作冠词的区别",
   "能说明第三人称 -s、-ro／-rë、-ryë 的证据强度",
-  "能独立完成练习 A–P，用 keys 核对，并把错题回链到对应规则"
+  "能独立完成练习 A–P，对照答案核对，并把错题归到对应规则"
  ],
  "conceptMap": [
   {
@@ -295,7 +295,7 @@
   },
   {
    "labelZh": "练习 A–P",
-   "noteZh": "工作台",
+   "noteZh": "练习",
    "sectionId": "exercises"
   },
   {
@@ -309,7 +309,7 @@
    "sectionId": "vocabulary"
   }
  ],
- "pathTitleZh": "学习路径",
+ "pathTitleZh": "本课脉络",
  "path": [
   {
    "step": 1,
@@ -593,7 +593,7 @@
   },
   {
    "step": 57,
-   "labelZh": "练习工作台（A–P）",
+   "labelZh": "练习（A–P）",
    "sectionId": "exercises"
   },
   {
@@ -3733,11 +3733,11 @@
   {
    "sectionId": "exercises",
    "sourceSectionId": "exercises",
-   "titleZh": "57 · 练习工作台（A–P）",
-   "leadZh": "A–H 昆雅译英，I–P 英译昆雅。-s 的英译要看语境。答案逐字取自 keys.rtf。",
+   "titleZh": "57 · 练习（A–P）",
+   "leadZh": "A–H 昆雅译英，I–P 英译昆雅。-s 的英译要看语境。答案逐字取自 原著答案。",
    "objectives": [
     "独立完成 A–P",
-    "用 keys 核对并把错题回链到规则"
+    "对照答案核对并把错题归到规则"
    ],
    "bilingual": {
     "sectionId": "exercises",
@@ -3769,7 +3769,7 @@
     "关系句先找先行词，再决定 ya 的数与格",
     "长元音词（má、pé）注意接词尾时的缩短与否",
     "双数接代词词尾时用 -t（máryat、péryat）",
-    "点「核对」比对 keys 原文答案",
+    "点「核对」比对 答案原文",
     "错题按「回到本课规则」跳回规则卡"
    ],
    "teachingNoteZh": "keys 对多数题给了注释：F 题的 massë 说明 má 在辅音丛前缩短；G 题提醒第二个 i 是关系代词而非冠词，yar 是复数而非「to whom」；H 题说明 ya 回指双数词时用 yat、与格 yant；J 题再次提醒 i 作关系代词；L 题示范动词紧跟 yannar 的词序；M 题指出 sucitarya 也可作 sucierya；O 题讨论 polë cenë 的词序；P 题说明 yo 由 -ao 简化为 -o。",
@@ -3791,10 +3791,10 @@
   {
    "sectionId": "ex-url",
    "sourceSectionId": "exercises",
-   "titleZh": "58 · 原文末尾的下载地址",
-   "leadZh": "原文末尾给出后续课程的下载地址，属原著内容，一并保留。",
+   "titleZh": "58 · 后续课程的出处",
+   "leadZh": "本课末尾提到作者另有一套 Further Lessons，可从 Ardalambion 站点下载；那套课程不在本课程范围内。",
    "objectives": [
-    "知道原文的出处链接"
+    "知道后续课程的出处"
    ],
    "bilingual": {
     "sectionId": "exercises",
@@ -3808,29 +3808,29 @@
     {
      "id": "r-url1",
      "headZh": "出处",
-     "bodyZh": "原文在此给出 Further Lessons 的下载地址，本页原样保留，不改写、不加链接。",
+     "bodyZh": "原著在此给出 Further Lessons 的下载地址。那套课程与本课程分开编写，这里只记出处，不展开。",
      "en": "Further Lessons may be downloaded from this URL",
      "zh": "后续课程可从该网址下载。"
     }
    ],
    "pitfalls": [
     {
-     "wrong": "把它当成本站的链接",
-     "right": "它是原著文本，本站不提供该文件",
-     "whyZh": "本页不含 fetch 或外部脚本，仅为文字保留。"
+     "wrong": "把课末出现的网址当成语法内容",
+     "right": "它只是出版信息，与语法无关",
+     "whyZh": "读原著时可以直接跳过这类出处说明，不影响对规则的理解。"
     }
    ],
    "closeReadingZh": [
     {
-     "headZh": "为什么保留",
-     "bodyZh": "原著未删节是本项目的基本约束。地址虽已过时，仍属原文，故原样呈现而不改写成可点击链接。"
+     "headZh": "为什么只是一个地址",
+     "bodyZh": "原著在此只给出网址，没有说明那套课程的内容与体例。地址早已过时，仍按原文保留；读到此处可以直接跳过，不影响本课任何语法点。"
     }
    ],
-   "recapZh": "原文地址原样保留。",
+   "recapZh": "课末网址是后续课程的出处，与语法无关。",
    "selfCheckZh": [
     {
-     "qZh": "这个地址在本站可点吗？",
-     "aZh": "不，它只是原文文字。"
+     "qZh": "课末那个网址是什么？",
+     "aZh": "作者另一套 Further Lessons 的下载地址，与语法无关。"
     }
    ]
   },

@@ -11,7 +11,7 @@
   "能由主语词尾推出全部所有格代词词尾",
   "能给带所有格词尾的名词继续加数与格词尾（sambelya 全表）",
   "能解释 omentielmo → omentielvo 的三层解释与最终取舍",
-  "能独立完成练习 A–P 及附加练习 a–z，用 keys 核对"
+  "能独立完成练习 A–P 及附加练习 a–z，对照答案核对"
  ],
  "conceptMap": [
   {
@@ -256,7 +256,7 @@
   },
   {
    "labelZh": "练习 A–P",
-   "noteZh": "工作台",
+   "noteZh": "练习",
    "sectionId": "exercises"
   },
   {
@@ -275,7 +275,7 @@
    "sectionId": "vocabulary"
   }
  ],
- "pathTitleZh": "学习路径",
+ "pathTitleZh": "本课脉络",
  "path": [
   {
    "step": 1,
@@ -519,7 +519,7 @@
   },
   {
    "step": 49,
-   "labelZh": "练习工作台（A–P）",
+   "labelZh": "练习（A–P）",
    "sectionId": "exercises"
   },
   {
@@ -2479,7 +2479,7 @@
    "closeReadingZh": [
     {
      "headZh": "为什么这句是本课的终点",
-     "bodyZh": "它同时用到向格（lúmenna）、所有格代词词尾（-lva）与属格（-o）。作者说「到本课我们终于给出了全部语法」——这句就是验收题。"
+     "bodyZh": "它同时用到向格（lúmenna）、所有格代词词尾（-lva）与属格（-o）。作者说「到本课我们终于给出了全部语法」——这句话本身就是检验。"
     }
    ],
    "recapZh": "omentië + -lva + -o → omentielvo。",
@@ -3198,11 +3198,11 @@
   {
    "sectionId": "exercises",
    "sourceSectionId": "exercises",
-   "titleZh": "49 · 练习工作台（A–P）",
-   "leadZh": "A–H 昆雅译英，I–P 英译昆雅。答案逐字取自 keys.rtf。",
+   "titleZh": "49 · 练习（A–P）",
+   "leadZh": "A–H 昆雅译英，I–P 英译昆雅。答案逐字取自原著答案。",
    "objectives": [
     "独立完成 A–P",
-    "用 keys 核对并把错题回链到规则"
+    "对照答案核对并把错题归到规则"
    ],
    "bilingual": {
     "sectionId": "exercises",
@@ -3235,7 +3235,7 @@
     "名词带所有格词尾时，先加代词词尾，再加格词尾",
     "ruc- 的宾语用离格（rucin i ulundollo）",
     "auta- 先判意义：物理离开还是消失逝去",
-    "点「核对」比对 keys 原文答案",
+    "点「核对」比对 答案原文",
     "错题按「回到本课规则」跳回规则卡"
    ],
    "teachingNoteZh": "keys 对多数题给了注释：A 题提醒也可读作 out of／into；G 题的 rávillon 说明 rá (ráv-) 的复数离格需插 -i-；I 题的 et 可省；J 题指出「to our world」在此宜用与格而非向格；K 题的 mólinya 展示 -nya 一律用 -i-，ohtarilyar 展示复数 -i-；M 题的 sambenta 是双数向格、ambollon 是复数离格、quétala 是主动分词；N 题指出 equë 即使多主语也不加 -r；O 题指出普通名词不用 equë；P 题的 torninyan 是 -nya 加与格。",
@@ -3261,7 +3261,7 @@
    "leadZh": "把单个昆雅词一眼读成短语，是熟练的标志。下表给出 keys 的答案。",
    "objectives": [
     "能把带两层词尾的单词拆开",
-    "能用 keys 核对"
+    "能对照答案核对"
    ],
    "bilingual": {
     "sectionId": "exercises",
@@ -3457,7 +3457,7 @@
    "leadZh": "反方向：把英语短语压成一个昆雅词。下表给出 keys 的答案。",
    "objectives": [
     "能按格、数、代词三层组装单词",
-    "能用 keys 核对"
+    "能对照答案核对"
    ],
    "bilingual": {
     "sectionId": "exercises",

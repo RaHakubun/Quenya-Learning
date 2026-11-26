@@ -11,7 +11,7 @@
   "能说明昆雅属格为何不是「所有格」",
   "能正确安排属格词序，不把 -o 放在 of 的位置",
   "能处理属格前的冠词与 ú 带属格",
-  "能独立完成练习 A–P，用 keys 核对，并把错题回链到对应规则"
+  "能独立完成练习 A–P，对照答案核对，并把错题归到对应规则"
  ],
  "conceptMap": [
   {
@@ -235,7 +235,7 @@
    "sectionId": "exercises"
   }
  ],
- "pathTitleZh": "本课学习路径",
+ "pathTitleZh": "本课脉络",
  "path": [
   {
    "step": 1,
@@ -444,7 +444,7 @@
   },
   {
    "step": 42,
-   "labelZh": "本章小结：原文 Summary 与中文对照",
+   "labelZh": "本课小结：原文 Summary 与中文对照",
    "sectionId": "summary"
   },
   {
@@ -454,7 +454,7 @@
   },
   {
    "step": 44,
-   "labelZh": "练习工作台：A–P 与 keys 核对",
+   "labelZh": "练习：A–P 与答案核对",
    "sectionId": "exercises"
   }
  ],
@@ -2593,8 +2593,8 @@
    "sectionId": "summary",
    "kind": "summary",
    "sourceSectionId": "the-genitive",
-   "titleZh": "42 · 本章小结：原文 Summary 与中文对照",
-   "leadZh": "左侧是 less-c.rtf 第 11 课 Summary 原文（未删节），右侧是等价中文翻译。",
+   "titleZh": "42 · 本课小结：原文 Summary 与中文对照",
+   "leadZh": "左侧是 原著 第 11 课 Summary 原文，右侧是等价中文翻译。",
    "objectives": [
     "能复述属格的词尾、复数与双数形式",
     "能列出属格的主要功能",
@@ -2791,12 +2791,12 @@
   {
    "sectionId": "exercises",
    "sourceSectionId": "exercises",
-   "titleZh": "44 · 练习工作台：A–P 与 keys 核对",
+   "titleZh": "44 · 练习：A–P 与答案核对",
    "leadZh": "A–H 昆雅译英，I–P 英译昆雅。本课只考一个格——属格：-o／-on／-to、-a 脱落、-o 结尾隐形、特殊词干、以及 ú 带属格。",
    "objectives": [
     "独立完成 A–P，不先展开答案",
     "能指出每题属格表哪种关系（来源／部分／地点／家庭／统治／关于）",
-    "核对后能把错题回链到对应规则卡"
+    "核对后能把错题归到对应规则"
    ],
    "workflowZh": [
     "第一遍：遮住答案，先找句中的属格短语",
@@ -2804,7 +2804,7 @@
     "核对词尾：-a 结尾是否脱落、-o 结尾是否隐形、复数是否 -on",
     "看到 ú 先想到「后接属格」",
     "ulya- 先判断及物性（ulyanë／ullë）",
-    "点「核对」比对 keys 原文答案",
+    "点「核对」比对 答案原文",
     "错题按「回到本课规则」跳回规则卡",
     "最后展开 keys 全文与 EXERCISES 原文复核"
    ],

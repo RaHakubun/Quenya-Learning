@@ -215,17 +215,33 @@
     });
   });
 
-  // 可检验目标：勾选后即时显示本章完成度。
+  // 学习目标：勾选后即时显示本课完成度，并记住进度。
   var checks = Array.prototype.slice.call(document.querySelectorAll(".cando-check"));
   var countNode = document.getElementById("cando-count");
   var barNode = document.getElementById("cando-bar-fill");
+  var candoKey = "quenya-cando:" + location.pathname;
+  function saveCando() {
+    try {
+      var on = [];
+      checks.forEach(function (c, i) { if (c.checked) on.push(i); });
+      localStorage.setItem(candoKey, JSON.stringify(on));
+    } catch (e) {}
+  }
   function refreshCando() {
     if (!countNode) return;
     var done = checks.filter(function (c) { return c.checked; }).length;
     countNode.textContent = String(done);
     if (barNode) barNode.style.width = (checks.length ? (done / checks.length) * 100 : 0) + "%";
   }
-  checks.forEach(function (c) { c.addEventListener("change", refreshCando); });
+  try {
+    var saved = JSON.parse(localStorage.getItem(candoKey) || "[]");
+    if (Array.isArray(saved)) {
+      saved.forEach(function (i) { if (checks[i]) checks[i].checked = true; });
+    }
+  } catch (e) {}
+  checks.forEach(function (c) {
+    c.addEventListener("change", function () { refreshCando(); saveCando(); });
+  });
   refreshCando();
 
   document.querySelectorAll(".wb-grade").forEach(function (btn) {

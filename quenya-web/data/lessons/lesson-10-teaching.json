@@ -11,7 +11,7 @@
   "能把基本动词不定式改成 -ita- 形式并加宾语词尾",
   "能按及物性判断 -ya 动词的过去时（ulyanë 对 ullë）",
   "能按词尾类型写出被动分词（-ina／-taina／-na／-da）并处理例外",
-  "能独立完成练习 A–P，用 keys 核对，并把错题回链到对应规则"
+  "能独立完成练习 A–P，对照答案核对，并把错题归到对应规则"
  ],
  "conceptMap": [
   {
@@ -220,7 +220,7 @@
    "sectionId": "exercises"
   }
  ],
- "pathTitleZh": "本课学习路径",
+ "pathTitleZh": "本课脉络",
  "path": [
   {
    "step": 1,
@@ -414,7 +414,7 @@
   },
   {
    "step": 39,
-   "labelZh": "本章小结：原文 Summary 与中文对照",
+   "labelZh": "本课小结：原文 Summary 与中文对照",
    "sectionId": "summary"
   },
   {
@@ -424,7 +424,7 @@
   },
   {
    "step": 41,
-   "labelZh": "练习工作台：A–P 与 keys 核对",
+   "labelZh": "练习：A–P 与答案核对",
    "sectionId": "exercises"
   }
  ],
@@ -2826,8 +2826,8 @@
    "sectionId": "summary",
    "kind": "summary",
    "sourceSectionId": "passive-participles",
-   "titleZh": "39 · 本章小结：原文 Summary 与中文对照",
-   "leadZh": "左侧是 less-b.rtf 第 10 课 Summary 原文（未删节），右侧是等价中文翻译。",
+   "titleZh": "39 · 本课小结：原文 Summary 与中文对照",
+   "leadZh": "左侧是 原著 第 10 课 Summary 原文，右侧是等价中文翻译。",
    "objectives": [
     "能复述副词、-ntë／-t、-ita 不定式、-ya 过去时、被动分词五套规则",
     "能把小结每句对应到前面的步骤"
@@ -3038,12 +3038,12 @@
   {
    "sectionId": "exercises",
    "sourceSectionId": "exercises",
-   "titleZh": "41 · 练习工作台：A–P 与 keys 核对",
+   "titleZh": "41 · 练习：A–P 与答案核对",
    "leadZh": "A–H 昆雅译英，I–P 英译昆雅。本课考五样：-vë 副词、-ntë／-t 代词词尾、-ita 不定式、不及物 -ya 过去时、-na／-ina 被动分词。",
    "objectives": [
     "独立完成 A–P，不先展开答案",
     "能指出每题考的是哪条规则",
-    "核对后能把错题回链到对应规则卡"
+    "核对后能把错题归到对应规则"
    ],
    "workflowZh": [
     "第一遍：遮住答案，先找限定动词，再找副词（-vë／基本副词）",
@@ -3051,7 +3051,7 @@
     "不定式后面跟代词词尾时，基本动词一律按 -ita- 处理",
     "以 -ya 结尾的动词先判断及物性，再定过去时",
     "形容词性的 -na／-ina 形式先判断是分词还是独立形容词",
-    "点「核对」比对 keys 原文答案",
+    "点「核对」比对 答案原文",
     "错题按「回到本课规则」跳回规则卡",
     "最后展开 keys 全文与 EXERCISES 原文复核"
    ],

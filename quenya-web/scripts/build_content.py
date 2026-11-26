@@ -263,23 +263,23 @@ PEDAGOGY_ZH = {
     },
     2: {"title": "名词、复数与定冠词", "goal": "理解名词复数 -i/-r、定冠词 i 及无冠词语义。", "mindmap": ["名词", "复数", "定冠词 i", "词序", "练习词汇"]},
     3: {"title": "双数与词干变化", "goal": "区分自然双数与 attá + 复数；掌握 -u/-t 双数词尾。", "mindmap": ["双数", "-u / -t", "成对身体", "词干", "与格 -nt"]},
-    4: {"title": "形容词与系词", "goal": "形容词一致、系词 ná/nar、定语与表语位置。", "mindmap": ["形容词", "一致", "ná", "定语/表语", "数的一致"]},
-    5: {"title": "动词现在时", "goal": "现在时 -ë/-i 及与主语数一致；最高级 an-。", "mindmap": ["现在时", "主宾语", "超级形容词", "-ëa 词干"]},
-    6: {"title": "过去时", "goal": "Elen síla 式过去时；译语到昆雅的变换。", "mindmap": ["过去时", "tengwa 默写", "不规则", "元音变级"]},
-    7: {"title": "将来时与不定式", "goal": "将来时 -uva；Híril 不可分 aorist。", "mindmap": ["将来时", "Aorist", "用法对比", "时间副词"]},
-    8: {"title": "完成时", "goal": "前缀 ai-/au- 与脱元音；人称尾 -nye/-lye/-nye 等。", "mindmap": ["完成体", "音变", "人称尾", "及物/不及物"]},
-    9: {"title": "不定式与分词", "goal": "动词不定式、ú- 否定；主动分词 -la/-da。", "mindmap": ["不定式", "ú-", "分词", "句法位置"]},
-    10: {"title": "副词与人称尾", "goal": "-ntë/-t；副词构成；-ya 不及物过去时。", "mindmap": ["副词", "人称尾", "被动分词", "宾语代词"]},
-    11: {"title": "格变概念与属格", "goal": "步行格体系；属格 -o / -ion。", "mindmap": ["格", "属格", "单复双", "Plotz 信"]},
-    12: {"title": "领属形容词格", "goal": "-va 领属与抽象名词；与属格互动。", "mindmap": ["-va", "抽象名", "属格", "bodhisattva 式分析"]},
-    13: {"title": "与格与动名词", "goal": "与格 -n/-en；-lmë/-lvë/-mmë；不定代词。", "mindmap": ["与格", "动名词", "人称尾", "veru 例"]},
-    14: {"title": "向格与离格", "goal": "-nna/-llo；equë、auta；领属代词尾。", "mindmap": ["向格", "离格", "equë", "auta", "-nya 等"]},
-    15: {"title": "-rya 与方位格", "goal": "-rya 领属；方位 -ssë；关系从句。", "mindmap": ["-rya", "方位格", "关系句", "第三人称"]},
-    16: {"title": "工具格与祈使", "goal": "-nen 工具格；á 祈使；nai 句式。", "mindmap": ["工具格", "-ta 动词", "祈使", "nai"]},
-    17: {"title": "指示词", "goal": "sina/tanya/enta/yana；末词曲折；U 词干名。", "mindmap": ["指示词", "末词", "U 词干", "-ëa 序数"]},
-    18: {"title": "独立代词", "goal": "强调/独立人称；无人称；lá 多种含义。", "mindmap": ["独立代词", "无人称", "U 动词", "lá"]},
-    19: {"title": "疑问词与后置词", "goal": "man/mana/manen；强调代词；祈使短语。", "mindmap": ["疑问", "后置词", "强调代词", "命令式"]},
-    20: {"title": "系词「是」", "goal": "ná/nat 系词；ma 疑问；sa 从句。", "mindmap": ["系词", "ma", "sa 从句", "存在 vs 属格"]},
+    4: {"title": "形容词、系词与数一致", "goal": "形容词一致、系词 ná/nar、定语与表语位置。", "mindmap": ["形容词", "一致", "ná", "定语/表语", "数的一致"]},
+    5: {"title": "动词：现在时与数一致", "goal": "现在时 -ë/-i 及与主语数一致；最高级 an-。", "mindmap": ["现在时", "主宾语", "超级形容词", "-ëa 词干"]},
+    6: {"title": "动词的过去时", "goal": "Elen síla 式过去时；译语到昆雅的变换。", "mindmap": ["过去时", "tengwa 默写", "不规则", "元音变级"]},
+    7: {"title": "将来时与无定时", "goal": "将来时 -uva；Híril 不可分 aorist。", "mindmap": ["将来时", "Aorist", "用法对比", "时间副词"]},
+    8: {"title": "完成时与代词", "goal": "前缀 ai-/au- 与脱元音；人称尾 -nye/-lye/-nye 等。", "mindmap": ["完成体", "音变", "人称尾", "及物/不及物"]},
+    9: {"title": "不定式、否定动词与主动分词", "goal": "动词不定式、ú- 否定；主动分词 -la/-da。", "mindmap": ["不定式", "ú-", "分词", "句法位置"]},
+    10: {"title": "副词、人称尾与被动分词", "goal": "-ntë/-t；副词构成；-ya 不及物过去时。", "mindmap": ["副词", "人称尾", "被动分词", "宾语代词"]},
+    11: {"title": "格系统与属格", "goal": "步行格体系；属格 -o / -ion。", "mindmap": ["格", "属格", "单复双", "Plotz 信"]},
+    12: {"title": "所有格与动名词", "goal": "-va 领属与抽象名词；与属格互动。", "mindmap": ["-va", "抽象名", "属格", "bodhisattva 式分析"]},
+    13: {"title": "与格、动名词与「我们」", "goal": "与格 -n/-en；-lmë/-lvë/-mmë；不定代词。", "mindmap": ["与格", "动名词", "人称尾", "veru 例"]},
+    14: {"title": "向格、离格与领属词尾", "goal": "-nna/-llo；equë、auta；领属代词尾。", "mindmap": ["向格", "离格", "equë", "auta", "-nya 等"]},
+    15: {"title": "-rya、位格与关系句", "goal": "-rya 领属；方位 -ssë；关系从句。", "mindmap": ["-rya", "方位格", "关系句", "第三人称"]},
+    16: {"title": "工具格与命令式", "goal": "-nen 工具格；á 祈使；nai 句式。", "mindmap": ["工具格", "-ta 动词", "祈使", "nai"]},
+    17: {"title": "指示词、末位变格与 U 词干", "goal": "sina/tanya/enta/yana；末词曲折；U 词干名。", "mindmap": ["指示词", "末词", "U 词干", "-ëa 序数"]},
+    18: {"title": "独立代词、无人称动词与 lá", "goal": "强调/独立人称；无人称；lá 多种含义。", "mindmap": ["独立代词", "无人称", "U 动词", "lá"]},
+    19: {"title": "命令句代词、强调代词、疑问词与后置词", "goal": "man/mana/manen；强调代词；祈使短语。", "mindmap": ["疑问", "后置词", "强调代词", "命令式"]},
+    20: {"title": "to be 的诸形式、ma 与 sa 从句", "goal": "ná/nat 系词；ma 疑问；sa 从句。", "mindmap": ["系词", "ma", "sa 从句", "存在 vs 属格"]},
 }
 
 UI_STRINGS = {
@@ -294,7 +294,7 @@ UI_STRINGS = {
         "langToggle": "English UI",
         "progress": "学习进度",
         "original": "原文",
-        "summary": "本章提要",
+        "summary": "本课提要",
         "mindmap": "知识导图",
         "vocabulary": "课末词汇",
         "exercises": "练习",
@@ -471,6 +471,13 @@ def split_html_sections(main_html: str) -> dict[str, str]:
         elif not sections:
             sections["_preamble"] = chunk
     return sections
+
+
+def _section_label(sid: str) -> str:
+    """把内部 section id 换成读者看得懂的标签。"""
+    if sid == "_preamble":
+        return "开篇"
+    return sid.replace("-", " ").upper()
 
 
 def _render_objectives(items: list[str]) -> str:
@@ -684,7 +691,7 @@ def render_self_check(items: list | None) -> str:
             "</details>"
         )
     return (
-        '<div class="teach-block"><h4 class="teach-h4">自查清单（点开看参考回答）</h4>'
+        '<div class="teach-block"><h4 class="teach-h4">自查</h4>'
         f'<div class="self-check">{"".join(rows)}</div></div>'
     )
 
@@ -705,13 +712,13 @@ def render_lesson_overview_v2(teaching: dict, pedagogy: dict | None) -> str:
         for x in cmap
     )
     progress = (
-        f'<p class="cando-progress">已勾选 <strong id="cando-count">0</strong> / {len(can)} 项可检验目标'
+        f'<p class="cando-progress">已掌握 <strong id="cando-count">0</strong> / {len(can)}'
         '<span class="cando-bar"><i id="cando-bar-fill"></i></span></p>'
         if can else ""
     )
     return (
         '<section class="overview-v2">'
-        f'<p class="overview-eyebrow">本章一句话</p><p class="overview-oneline">{_esc(one)}</p>'
+        f'<p class="overview-eyebrow">本课要点</p><p class="overview-oneline">{_esc(one)}</p>'
         '<div class="overview-cols">'
         '<div class="overview-cando"><h2>学完能做什么</h2>'
         f'<ul class="cando-list">{can_rows}</ul>{progress}</div>'
@@ -728,7 +735,7 @@ def render_summary_module(mod: dict, original_html: str) -> str:
     formula_html = "".join(f"<li>{_esc(x)}</li>" for x in formula)
     return (
         '<section class="summary-block">'
-        '<h4 class="teach-h4">本章小结 · 中英对照</h4>'
+        '<h4 class="teach-h4">本课小结</h4>'
         '<div class="summary-cols">'
         f'<div class="summary-en original-body lesson-content font-quenya" lang="en">{en and _esc(en) or original_html}</div>'
         '<div class="summary-zh" lang="zh-CN">'
@@ -768,14 +775,14 @@ def render_lesson_vocabulary(vocab_html: str, glossary: dict | None, qvocab: lis
         )
     return (
         '<section class="vocab-block">'
-        '<h4 class="teach-h4">课末 VOCABULARY · 中文释义（与 q-vocab 总表交叉引用）</h4>'
+        '<h4 class="teach-h4">课末词汇</h4>'
         + (f'<p class="vocab-intro">{_rich(intro)}</p>' if intro else "")
         + f'<div class="vocab-grid">{"".join(cards)}</div>'
         + '<details class="original-panel" open id="original-vocabulary">'
-        + '<summary>VOCABULARY 英文原文（RTF 未删节）</summary>'
+        + '<summary>原著 VOCABULARY 原文</summary>'
         + f'<div class="original-body lesson-content font-quenya" lang="en">{vocab_html}</div>'
         + "</details>"
-        + '<p class="vocab-cross"><a href="../vocabulary.html">→ 打开全课程总词汇表（q-vocab.rtf）</a></p>'
+        + '<p class="vocab-cross"><a href="../vocabulary.html">查看总词汇表 →</a></p>'
         + "</section>"
     )
 
@@ -840,8 +847,7 @@ def render_bilingual_block(
         )
         return (
             f'<section class="bilingual-sheet bilingual-sheet--columns" aria-label="{_esc(label)}中英对照">'
-            f'<header class="bilingual-head"><h4 class="teach-h4">{_esc(label)} · 中英对照（默认展示）</h4>'
-            '<p class="bilingual-note">左侧为中文节译，右侧为英文原著分段（未删节）；本课逐段对照仍在制作中。</p></header>'
+            f'<header class="bilingual-head"><h4 class="teach-h4">{_esc(label)} · 中英对照</h4></header>'
             '<div class="bilingual-columns">'
             f'<div class="bilingual-col bilingual-zh" lang="zh-CN">{zh_html}</div>'
             f'<div class="bilingual-col bilingual-en" lang="en">{en_html}</div>'
@@ -857,14 +863,12 @@ def render_bilingual_block(
         rows.append(
             f'<div class="bilingual-row" data-row="{pos}" id="unit-{_esc(sid)}-{orig_idx}">'
             f'<div class="bilingual-zh" lang="zh-CN">'
-            f'<p class="unit-index">{_esc(sid)} · 段 {orig_idx + 1}</p>{zh_cell}</div>'
+            f'<p class="unit-index">第 {orig_idx + 1} 段</p>{zh_cell}</div>'
             f'<div class="bilingual-en" lang="en">{en_cell}</div></div>'
         )
     return (
         f'<section class="bilingual-sheet" aria-label="{_esc(label)}中英对照">'
-        f'<header class="bilingual-head"><h4 class="teach-h4">{_esc(label)} · 中英对照（逐段对齐，默认展示）</h4>'
-        '<p class="bilingual-note">左中文、右英文，逐段一一对应；英文取自课程 RTF，未删节。'
-        '关键规则另见上方「核心规则」中的逐句对照。</p></header>'
+        f'<header class="bilingual-head"><h4 class="teach-h4">{_esc(label)} · 中英对照</h4></header>'
         f'<div class="bilingual-rows">{"".join(rows)}</div></section>'
     )
 
@@ -920,14 +924,14 @@ def render_translation_workbook(ex: dict, key_html: str, lesson_n: int) -> str:
     if key_html:
         key_fold = (
             f'<details class="key-panel key-panel-full" id="key-box">'
-            f'<summary>keys.rtf 第 {lesson_n} 课完整答案（英文原文）</summary>'
+            f'<summary>第 {lesson_n} 课完整答案</summary>'
             f'<div class="original-body lesson-content">{key_html}</div></details>'
         )
     point_map = ex.get("pointMapZh") or []
     point_map_html = ""
     if point_map:
         point_map_html = (
-            '<div class="wb-point-map"><h5>本题考点 → 规则回链</h5><ul>'
+            '<div class="wb-point-map"><h5>考点对应的规则</h5><ul>'
             + "".join(
                 f'<li><a href="#{_esc(x.get("ruleRef", ""))}">{_esc(x.get("labelZh", ""))}</a>'
                 f'<span>{_esc(x.get("noteZh", ""))}</span></li>'
@@ -938,7 +942,7 @@ def render_translation_workbook(ex: dict, key_html: str, lesson_n: int) -> str:
     p1, p2 = ex.get("part1", {}), ex.get("part2", {})
     return (
         f'<section class="exercise-workbench" id="workbench">'
-        f'<header class="wb-head"><h4 class="teach-h4">练习工作台</h4>'
+        f'<header class="wb-head"><h4 class="teach-h4">练习</h4>'
         f'<p>{_esc(ex.get("introZh", ""))}</p>{point_map_html}</header>'
         f'<section class="wb-part"><h5>{_esc(p1.get("titleZh", "练习一"))}</h5>'
         f'<p class="wb-hint">{_esc(p1.get("hintZh", ""))}</p>'
@@ -951,7 +955,7 @@ def render_translation_workbook(ex: dict, key_html: str, lesson_n: int) -> str:
         f"<th>题号</th><th>题干 / 考点</th><th>作答与核对</th></tr></thead>"
         f'<tbody>{row_part(p2.get("items", []), False)}</tbody></table></div></section>'
         f'<div class="exercise-actions"><button type="button" class="btn btn-primary" id="toggle-key">'
-        f"展开 keys.rtf 全文答案</button>{key_fold}</div></section>"
+        f"展开完整答案</button>{key_fold}</div></section>"
     )
 
 
@@ -982,7 +986,7 @@ def render_exercise_workbook(ex: dict, key_html: str, lesson_n: int = 1) -> str:
     extra_block = (
         f'<section class="wb-extra"><h5>{html.escape(extra.get("titleZh", "附加题"))}</h5>'
         f'<p>{html.escape(extra.get("sceneZh", ""))}</p>'
-        f'<details class="wb-extra-key"><summary>显示分析与参考答案（keys.rtf）</summary>'
+        f'<details class="wb-extra-key"><summary>显示分析与参考答案</summary>'
         f'<p>{html.escape(extra.get("analysisZh", ""))}</p></details></section>'
     )
     p2_opts = "".join(f"<li>{html.escape(x)}</li>" for x in ex["part2"]["optionsZh"])
@@ -1008,12 +1012,12 @@ def render_exercise_workbook(ex: dict, key_html: str, lesson_n: int = 1) -> str:
     if key_html:
         key_fold = (
             f'<details class="key-panel key-panel-full" id="key-box">'
-            f'<summary>keys.rtf 第 {lesson_n} 课完整答案（英文原文）</summary>'
+            f'<summary>第 {lesson_n} 课完整答案</summary>'
             f'<div class="original-body lesson-content">{key_html}</div></details>'
         )
     return (
         f'<section class="exercise-workbench" id="workbench">'
-        f'<header class="wb-head"><h4 class="teach-h4">练习工作台</h4>'
+        f'<header class="wb-head"><h4 class="teach-h4">练习</h4>'
         f'<p>{html.escape(ex.get("introZh", ""))}</p></header>'
         f'<section class="wb-part"><h5>{html.escape(ex["part1"]["titleZh"])}</h5>'
         f'<p class="wb-hint">{html.escape(ex["part1"].get("hintZh", ""))}</p>'
@@ -1030,7 +1034,7 @@ def render_exercise_workbook(ex: dict, key_html: str, lesson_n: int = 1) -> str:
         f"<th>题号</th><th>昆雅词</th><th>词义</th><th>你的选项</th><th>核对</th></tr></thead>"
         f"<tbody>{p2_items}</tbody></table></div></section>"
         f'<div class="exercise-actions"><button type="button" class="btn btn-primary" id="toggle-key">'
-        f"展开 keys.rtf 全文答案</button>{key_fold}</div></section>"
+        f"展开完整答案</button>{key_fold}</div></section>"
     )
 
 
@@ -1057,8 +1061,8 @@ def render_teaching_modules(
         for p in path
     )
     parts.append(
-        f'<nav class="learn-path" aria-label="{_esc(teaching.get("pathTitleZh", "学习路径"))}">'
-        f'<p class="path-title">{_esc(teaching.get("pathTitleZh", "学习路径"))}</p>'
+        f'<nav class="learn-path" aria-label="{_esc(teaching.get("pathTitleZh", "本课脉络"))}">'
+        f'<p class="path-title">{_esc(teaching.get("pathTitleZh", "本课脉络"))}</p>'
         f'<div class="path-steps">{path_html}</div></nav>'
     )
 
@@ -1080,7 +1084,7 @@ def render_teaching_modules(
             orig = sections.get("_preamble", "")
 
         inner = [
-            f'<header class="module-head"><p class="module-kicker">步骤 {path_step.get(sid, "?")}</p>'
+            f'<header class="module-head"><p class="module-kicker">第 {path_step.get(sid, "?")} 节</p>'
             f'<h2 id="module-{_esc(sid)}">{_esc(mod["titleZh"])}</h2>'
             f'<p class="module-lead">{_esc(mod.get("leadZh", ""))}</p></header>',
             _render_objectives(mod.get("objectives", [])),
@@ -1098,7 +1102,7 @@ def render_teaching_modules(
         ]
         if mod.get("teachingNoteZh"):
             inner.append(
-                '<aside class="teach-tip"><strong>教师提示</strong>'
+                '<aside class="teach-tip"><strong>注意</strong>'
                 f'<p>{_rich(mod["teachingNoteZh"])}</p></aside>'
             )
 
@@ -1111,13 +1115,13 @@ def render_teaching_modules(
                 # 兜底：即使某课练习题干尚未结构化，keys.rtf 答案仍须在页上可展开。
                 inner.append(
                     f'<details class="key-panel key-panel-full" id="key-box">'
-                    f'<summary>keys.rtf 第 {lesson_n} 课完整答案（英文原文）</summary>'
+                    f'<summary>第 {lesson_n} 课完整答案</summary>'
                     f'<div class="original-body lesson-content">{key_html}</div></details>'
                 )
             if ex_html:
                 inner.append(
                     '<details class="original-panel" id="original-exercises">'
-                    '<summary>EXERCISES 英文原文（RTF 未删节）</summary>'
+                    '<summary>原著 EXERCISES 原文</summary>'
                     f'<div class="original-body lesson-content font-quenya" lang="en">{ex_html}</div>'
                     "</details>"
                 )
@@ -1150,7 +1154,7 @@ def render_teaching_modules(
             seen_originals.add(src_sid)
             inner.append(
                 f'<details class="original-panel original-panel-full" id="original-{_esc(src_sid)}">'
-                f'<summary>原文全文核对（{_esc(src_sid.replace("-", " ").upper())} · 未删节）</summary>'
+                f'<summary>原著原文 · {_esc(_section_label(src_sid))}</summary>'
                 f'<div class="original-body lesson-content font-quenya" lang="en">{orig}</div></details>'
             )
         parts.append(f'<section class="teach-module" data-section="{_esc(sid)}">{"".join(inner)}</section>')
@@ -1158,8 +1162,8 @@ def render_teaching_modules(
     inner_main = "\n".join(parts)
     return (
         '<div class="lesson-body-grid">'
-        '<aside class="lesson-sidebar" aria-label="本章导航">'
-        f'<p class="sidebar-title">本章导航</p><nav class="sidebar-nav">{sidebar_steps}</nav></aside>'
+        '<aside class="lesson-sidebar" aria-label="本课目录">'
+        f'<p class="sidebar-title">本课目录</p><nav class="sidebar-nav">{sidebar_steps}</nav></aside>'
         f'<div class="lesson-body-main">{inner_main}</div></div>'
     )
 
@@ -1201,7 +1205,7 @@ def render_lesson_page(
     ex_html = inject_section_ids(lesson["html"]["exercises"]) if lesson["html"]["exercises"] else ""
     sections = split_html_sections(main_html)
 
-    title_zh = pedagogy["titleZh"] if pedagogy else catalog_entry.get("titleZh", "")
+    title_zh = catalog_entry.get("titleZh", "")
     is_v2 = bool(teaching and int(teaching.get("schemaVersion", 1)) >= 2)
 
     if teaching:
@@ -1219,38 +1223,25 @@ def render_lesson_page(
             glossary,
             qvocab,
         )
-        if is_v2:
-            layout_note = (
-                "本页按<strong>语法点</strong>分层：目标 → 规则 → 例外 → 例句 → 精读 → 小结 → 自查 → 逐段对照 → 练习。"
-                "英文原著未删节，中文默认可见；练习可核对并可回链到规则。"
-            )
-        else:
-            layout_note = (
-                "本页按<strong>中文教学路径</strong>推进；左侧导航便于跳章；"
-                "各模块<strong>默认中英对照</strong>，练习在工作台完成并对照 keys.rtf。"
-            )
     else:
-        layout_note = "（本课教学模块尚未编写，以下为暂存原文。）"
         body = f'<section class="teach-module"><div class="original-body lesson-content font-quenya">{main_html}</div></section>{ex_html}'
 
     if is_v2:
         overview_block = render_lesson_overview_v2(teaching, pedagogy)
     elif pedagogy and pedagogy.get("summaryZh"):
         overview_block = (
-            '<aside class="lesson-overview"><h2>本章总览</h2>'
+            '<aside class="lesson-overview"><h2>本课总览</h2>'
             f'<p>{_esc(pedagogy["summaryZh"])}</p></aside>'
         )
     else:
         overview_block = ""
-
-    refined_badge = '<span class="refined-badge">精讲课 · 逐段对照</span>' if is_v2 else ""
 
     return f"""<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>第 {n} 课 · {_esc(title_zh)} · 昆雅语教程</title>
+  <title>第 {n} 课 · {_esc(title_zh)} · 昆雅语课程</title>
   <link rel="stylesheet" href="../assets/css/main.css" />
 </head>
 <body>
@@ -1266,10 +1257,9 @@ def render_lesson_page(
   </header>
   <div class="page-wrap page-lesson">
     <header class="lesson-hero lesson-hero--wide">
-      <p class="lesson-eyebrow">LESSON {word} {refined_badge}</p>
+      <p class="lesson-eyebrow">LESSON {word}</p>
       <h1>{_esc(title_zh)}</h1>
       <p class="lesson-subtitle-en">{_esc(lesson["subtitleEn"])}</p>
-      <p class="lesson-note">{layout_note}</p>
     </header>
     {overview_block}
   <main class="lesson-main">
@@ -1287,52 +1277,46 @@ def render_index(catalog: list, refined: set[int] | None = None) -> str:
     for n in range(1, 21):
         entry = next(c for c in catalog if c["number"] == n)
         if n <= RELEASED_LESSON_MAX:
-            badge = '<span class="card-badge">精讲 · 逐段对照</span>' if n in refined else ""
             cards.append(
                 f'<a class="lesson-card{" is-refined" if n in refined else ""}" href="lessons/lesson-{n:02d}.html">'
-                f'<span class="lesson-card-n">第 {n} 课 {badge}</span>'
+                f'<span class="lesson-card-n">第 {n} 课</span>'
                 f'<span class="lesson-card-title">{_esc(entry["titleZh"])}</span>'
                 f'<span class="lesson-card-en">{_esc(entry["subtitleEn"])}</span>'
-                f'<span class="lesson-card-cta">进入学习路径 →</span></a>'
+                f'<span class="lesson-card-cta">开始本课 →</span></a>'
             )
         else:
             cards.append(
                 f'<div class="lesson-card is-locked"><span class="lesson-card-n">第 {n} 课</span>'
                 f'<span class="lesson-card-title">{_esc(entry["titleZh"])}</span>'
-                f'<span class="lesson-card-muted">教学页制作中</span></div>'
+                f'<span class="lesson-card-muted">尚未开放</span></div>'
             )
-    pct = int((RELEASED_LESSON_MAX / 20) * 100)
-    pct_refined = int((len(refined) / 20) * 100)
     nav = "\n".join(cards)
     return f"""<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>昆雅语互动教程</title>
+  <title>昆雅语课程</title>
   <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 <body>
   <header class="site-header">
     <div class="site-header-inner">
       <div class="brand"><span class="brand-title">昆雅语课程</span>
-      <span class="brand-sub">教学引导 + 原文完整收录</span></div>
+      <span class="brand-sub">Helge K. Fauskanger 原著 · 中文讲解</span></div>
       {site_nav("", "index")}
     </div>
   </header>
   <div class="page-wrap page-home">
     <header class="home-intro">
-      <h1>昆雅语课程 · 中文教学站</h1>
-      <p>每一课：<strong>可检验的中文教学目标</strong> + <strong>规则 / 例外 / 精读 / 小结</strong> + <strong>逐段中英对照原文</strong>（默认并排展示）+ <strong>课末词汇</strong> + <strong>练习工作台</strong>（考点、分步提示、规则回链、keys.rtf 答案）。</p>
-      <p class="home-meta">共 <strong>{RELEASED_LESSON_MAX}</strong> 课英文原著已全部烘焙进 HTML · 其中 <strong>{len(refined)}</strong> 课完成中文精讲重构 · 双击 HTML 即可打开</p>
-      <div class="progress-bar" style="--pct:{pct}%"><span></span></div>
-      <p class="home-meta">精讲重构进度 {len(refined)} / 20 · <strong>{len(refined)}</strong> 课逐段对照已验收</p>
-      <div class="progress-bar progress-bar--refined" style="--pct:{pct_refined}%"><span></span></div>
+      <h1>昆雅语二十课</h1>
+      <p>从发音与重音讲到系词「是」。每课按原著段落顺序展开：先立规则，再给例句与精读，最后进练习；英文原文完整保留，与中文逐段对照。</p>
+      <p class="home-meta">共二十课 · 中文讲解与英文原文逐段对照</p>
     </header>
     <section class="home-resources" aria-label="全站资料">
-      <a class="resource-card" href="vocabulary.html"><strong>总词汇表 q-vocab</strong><span>昆雅→英语 / 英语→昆雅双列表，可离线搜索</span></a>
-      <a class="resource-card" href="appendix.html"><strong>附录 qappend</strong><span>6 个专题，中文章节导读 + 英文全文</span></a>
-      <a class="resource-card" href="keys.html"><strong>练习答案 keys</strong><span>篇首说明中英对照 + 20 课答案索引</span></a>
+      <a class="resource-card" href="vocabulary.html"><strong>总词汇表</strong><span>昆雅→英语、英语→昆雅双列，可直接搜索</span></a>
+      <a class="resource-card" href="appendix.html"><strong>附录</strong><span>六个专题，中文导读与英文全文</span></a>
+      <a class="resource-card" href="keys.html"><strong>练习答案</strong><span>作者说明与二十课答案</span></a>
     </section>
     <section class="lesson-grid" aria-label="课程目录">{nav}</section>
   </div>
@@ -1350,15 +1334,15 @@ VOCAB_INTRO_ZH = (
     "因为那些词对做题没有意义。注意：所有词都以最基本形式列出，练习原文里往往用的是"
     "带屈折词尾或派生形式；昆雅→英语表不含屈折词尾，英语→昆雅表则收了人称词尾。"
     "用法建议：做某课练习前先在该课「课末词汇」里记住 12 个新词，"
-    "再用本页按英文或昆雅词反查；搜索框离线可用，不需要联网。"
+    "再按英文或昆雅词反查即可。"
 )
 
 KEYS_PREFACE_ZH = (
     "注意：昆雅课程（含练习）仍在修订中。有些地方修订未彻底，导致练习题与这里的答案对不上。"
     "作者已尽力剔除这类错误；若你怀疑某条答案确实与练习不符，请先下载最新版的 Keys 文件和"
     "对应课文再核对。若最新版里仍然存在出入，请告知作者（helge.fauskanger@nor.uib.no）。"
-    "——中文提示：本页答案以 keys.rtf 为准，逐课原文同时嵌在各课页面的「展开 keys.rtf 全文答案」中；"
-    "若与本页不一致，优先以 keys.rtf 原文为准，并注意作者上述修订说明。"
+    "——中文提示：答案以原著答案为准，各课页面底部也可直接展开完整答案；"
+    "若两处不一致，以原著答案为准，并注意作者上述修订说明。"
 )
 
 APPENDIX_GUIDES_ZH = {
@@ -1407,7 +1391,7 @@ def render_site_page(title: str, body: str, active: str, extra_head: str = "") -
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{_esc(title)} · 昆雅语教程</title>
+  <title>{_esc(title)} · 昆雅语课程</title>
   <link rel="stylesheet" href="assets/css/main.css" />{extra_head}
 </head>
 <body>
@@ -1415,7 +1399,7 @@ def render_site_page(title: str, body: str, active: str, extra_head: str = "") -
     <div class="site-header-inner">
       <a class="brand" href="index.html">
         <span class="brand-title">昆雅语课程</span>
-        <span class="brand-sub">Helge K. Fauskanger · 资料浏览</span>
+        <span class="brand-sub">Helge K. Fauskanger 原著</span>
       </a>
       {site_nav("", active)}
     </div>
@@ -1450,12 +1434,12 @@ def render_vocabulary_page(vocab: dict) -> str:
     qe = vocab.get("quenyaEnglish", [])
     eq = vocab.get("englishQuenya", [])
     body = (
-        '<header class="site-hero"><p class="lesson-eyebrow">Q-VOCAB.RTF</p>'
+        '<header class="site-hero">'
         '<h1>全课程总词汇表</h1>'
-        '<p class="site-lead">第 2–20 课练习用词 · 昆雅→英语 / 英语→昆雅双列表 · 离线可搜索</p></header>'
+        '<p class="site-lead">第 2–20 课练习用词 · 昆雅→英语、英语→昆雅双列，可直接搜索</p></header>'
         '<section class="site-intro"><h2>这张表怎么用</h2>'
         f'<p class="site-intro-zh">{_esc(VOCAB_INTRO_ZH)}</p>'
-        f'<details class="original-panel"><summary>q-vocab.rtf 篇首说明（英文原文）</summary>'
+        f'<details class="original-panel"><summary>原著词汇表篇首说明</summary>'
         f'<div class="original-body lesson-content font-quenya" lang="en">{intro_en}</div></details></section>'
         '<div class="filter-bar"><label for="vocab-search">搜索词汇（英文词义或昆雅词）</label>'
         '<input id="vocab-search" class="site-search" type="search" '
@@ -1469,8 +1453,7 @@ def render_vocabulary_page(vocab: dict) -> str:
         '<div class="table-wrap"><table class="vocab-list-table"><thead><tr>'
         '<th>英语词</th><th>昆雅词 / 说明</th></tr></thead>'
         f'<tbody>{_vocab_rows(eq, "eq")}</tbody></table></div></section>'
-        '<p class="site-foot-note">数据来源：q-vocab.rtf（只读原件）。全部条目在构建时写入本页，'
-        '不依赖网络或本地服务器。</p>'
+        '<p class="site-foot-note">词条来自原著附词汇表，按原顺序排列；中文释义仅作学习提示。</p>'
     )
     return render_site_page("总词汇表", body, "vocabulary")
 
@@ -1497,9 +1480,9 @@ def render_appendix_page(sections: list[dict]) -> str:
             + "</section>"
         )
     body = (
-        '<header class="site-hero"><p class="lesson-eyebrow">QAPPEND.RTF</p>'
+        '<header class="site-hero">'
         '<h1>课程附录</h1>'
-        '<p class="site-lead">6 个专题 · 中文章节导读 + 英文原著全文（未删节）</p></header>'
+        '<p class="site-lead">六个专题 · 中文导读与英文原文</p></header>'
         '<section class="site-intro"><h2>附录在课程里的位置</h2>'
         f'<p class="site-intro-zh">{_esc(APPENDIX_GUIDES_ZH["intro"])}</p>'
         + (
@@ -1511,7 +1494,7 @@ def render_appendix_page(sections: list[dict]) -> str:
         '<div class="site-body-grid">'
         f'<aside class="lesson-sidebar"><p class="sidebar-title">附录章节</p><nav class="sidebar-nav">{nav}</nav></aside>'
         f'<div class="site-body-main">{"".join(blocks)}</div></div>'
-        '<p class="site-foot-note">英文全文来自 qappend.rtf（只读原件），构建时烘焙进本页；中文仅作导读，不改写原著。</p>'
+        '<p class="site-foot-note">英文为原著全文，未作删改；中文只作导读。</p>'
     )
     return render_site_page("附录", body, "appendix")
 
@@ -1524,15 +1507,15 @@ def render_keys_page(keys: dict) -> str:
     )
     folds = "".join(
         f'<details class="key-panel key-panel-full" id="keys-lesson-{n}">'
-        f'<summary>第 {n} 课完整答案（keys.rtf 英文原文）</summary>'
+        f'<summary>第 {n} 课完整答案</summary>'
         f'<div class="original-body lesson-content">{keys[str(n)]["html"]}</div></details>'
         for n in range(1, RELEASED_LESSON_MAX + 1)
         if str(n) in keys
     )
     body = (
-        '<header class="site-hero"><p class="lesson-eyebrow">KEYS.RTF</p>'
+        '<header class="site-hero">'
         '<h1>练习答案与作者说明</h1>'
-        '<p class="site-lead">篇首说明中英对照 · 20 课答案索引 · 答案原文全文</p></header>'
+        '<p class="site-lead">作者说明 · 二十课答案</p></header>'
         '<section class="site-intro"><h2>使用前必读（作者说明）</h2>'
         '<div class="keys-preface-cols">'
         f'<div class="keys-preface-en original-body lesson-content font-quenya" lang="en">{preface}</div>'
@@ -1540,7 +1523,7 @@ def render_keys_page(keys: dict) -> str:
         '</div></section>'
         '<section class="keys-index"><h2>按课跳转</h2>'
         f'<div class="keys-grid">{links}</div>'
-        '<p class="site-foot-note">各课页面底部的「展开 keys.rtf 全文答案」与本页内容同源。</p></section>'
+        '<p class="site-foot-note">各课页面底部也能直接展开该课完整答案。</p></section>'
         '<section class="keys-full"><h2>20 课答案全文（可展开）</h2>'
         f'{folds}</section>'
     )

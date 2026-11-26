@@ -10,7 +10,7 @@
     "能说明元音开头动词的困难与 orórië 的下场",
     "能拆解 utúvienyes，并说出双词尾的顺序规则",
     "能说明 -lyë 的单复数争议与 2003 年补记",
-    "能独立完成练习 A–P，用 keys 核对，并把错题回链到对应规则"
+    "能独立完成练习 A–P，对照答案核对，并把错题归到对应规则"
   ],
   "conceptMap": [
     {
@@ -184,7 +184,7 @@
       "sectionId": "exercises"
     }
   ],
-  "pathTitleZh": "本课学习路径",
+  "pathTitleZh": "本课脉络",
   "path": [
     {
       "step": 1,
@@ -343,7 +343,7 @@
     },
     {
       "step": 32,
-      "labelZh": "本章小结：原文 Summary 与中文对照",
+      "labelZh": "本课小结：原文 Summary 与中文对照",
       "sectionId": "summary"
     },
     {
@@ -353,7 +353,7 @@
     },
     {
       "step": 34,
-      "labelZh": "练习工作台：A–P 与 keys 核对",
+      "labelZh": "练习：A–P 与答案核对",
       "sectionId": "exercises"
     }
   ],
@@ -1583,7 +1583,7 @@
       "sectionId": "pronouns-israeli-note",
       "sourceSectionId": "pronouns",
       "titleZh": "23 · 作者的一段题外注（保留原文）",
-      "leadZh": "这一段与昆雅无关，是作者回应以色列读者来信的注，涉及希伯来语 henna／hen 与 nathan 的读音。原文未删节，此处照译。",
+      "leadZh": "这一段与昆雅无关，是作者回应以色列读者来信的注，涉及希伯来语 henna／hen 与 nathan 的读音。原文，此处照译。",
       "objectives": [
         "知道这段是题外注，不影响昆雅规则",
         "能说出作者预设的是圣经希伯来语音系"
@@ -2094,8 +2094,8 @@
       "sectionId": "summary",
       "kind": "summary",
       "sourceSectionId": "pronouns",
-      "titleZh": "32 · 本章小结：原文 Summary 与中文对照",
-      "leadZh": "左侧是 less-b.rtf 第 8 课 Summary 原文（未删节），右侧是等价中文翻译。",
+      "titleZh": "32 · 本课小结：原文 Summary 与中文对照",
+      "leadZh": "左侧是 原著 第 8 课 Summary 原文，右侧是等价中文翻译。",
       "objectives": [
         "能复述完成时的构成（词尾、拉长、增音）",
         "能复述代词词尾与双词尾顺序"
@@ -2268,19 +2268,19 @@
     {
       "sectionId": "exercises",
       "sourceSectionId": "exercises",
-      "titleZh": "34 · 练习工作台：A–P 与 keys 核对",
+      "titleZh": "34 · 练习：A–P 与答案核对",
       "leadZh": "A–H 昆雅译英，I–P 英译昆雅。本课只考完成时与代词词尾；F、G、H 三题带 -lyë 或 -nyë／-s。",
       "objectives": [
         "独立完成 A–P，不先展开答案",
         "能说出每题完成时的增音与是否拉长",
-        "核对后能把错题回链到对应规则卡"
+        "核对后能把错题归到对应规则"
       ],
       "workflowZh": [
         "第一遍：遮住答案，先找动词并定出词干元音",
         "加增音（短词干元音），拉长词干元音，再加 -ië",
         "检查是否有辅音丛（不拉长）或 -ya（整个脱落）",
         "再看有没有代词词尾：-lyë「你」、-n／-nyë「我」、-s「它」",
-        "点「核对」比对 keys 原文答案",
+        "点「核对」比对 答案原文",
         "错题按「回到本课规则」跳回规则卡",
         "最后展开 keys 全文与 EXERCISES 原文复核"
       ],

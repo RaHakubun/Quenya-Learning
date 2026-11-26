@@ -10,7 +10,7 @@
     "能写出主动分词并判断是否拉长（lálala、tírala、falastala）",
     "能说明分词为何不随数变化",
     "能说明 itila 的两种解释与作者为何不推荐「无定时分词」",
-    "能独立完成练习 A–P，用 keys 核对，并把错题回链到对应规则"
+    "能独立完成练习 A–P，对照答案核对，并把错题归到对应规则"
   ],
   "conceptMap": [
     {
@@ -174,7 +174,7 @@
       "sectionId": "exercises"
     }
   ],
-  "pathTitleZh": "本课学习路径",
+  "pathTitleZh": "本课脉络",
   "path": [
     {
       "step": 1,
@@ -323,7 +323,7 @@
     },
     {
       "step": 30,
-      "labelZh": "本章小结：原文 Summary 与中文对照",
+      "labelZh": "本课小结：原文 Summary 与中文对照",
       "sectionId": "summary"
     },
     {
@@ -333,7 +333,7 @@
     },
     {
       "step": 32,
-      "labelZh": "练习工作台：A–P 与 keys 核对",
+      "labelZh": "练习：A–P 与答案核对",
       "sectionId": "exercises"
     }
   ],
@@ -1667,8 +1667,8 @@
       "sectionId": "summary",
       "kind": "summary",
       "sourceSectionId": "active-participles",
-      "titleZh": "30 · 本章小结：原文 Summary 与中文对照",
-      "leadZh": "左侧是 less-b.rtf 第 9 课 Summary 原文（未删节），右侧是等价中文翻译。",
+      "titleZh": "30 · 本课小结：原文 Summary 与中文对照",
+      "leadZh": "左侧是 原著 第 9 课 Summary 原文，右侧是等价中文翻译。",
       "objectives": [
         "能复述不定式、否定动词、主动分词三套规则",
         "能把小结每句对应到前面的步骤"
@@ -1846,19 +1846,19 @@
     {
       "sectionId": "exercises",
       "sourceSectionId": "exercises",
-      "titleZh": "32 · 练习工作台：A–P 与 keys 核对",
+      "titleZh": "32 · 练习：A–P 与答案核对",
       "leadZh": "A–H 昆雅译英，I–P 英译昆雅。本课考三样：不定式（quetë、matë、linda）、否定动词（um-／úmë／úva）、主动分词（-la）。",
       "objectives": [
         "独立完成 A–P，不先展开答案",
         "能指出每题的分词、不定式或否定动词",
-        "核对后能把错题回链到对应规则卡"
+        "核对后能把错题归到对应规则"
       ],
       "workflowZh": [
         "第一遍：遮住答案，先找限定动词（变位、可带 -r）",
         "其余动词看形式：-la 是分词，词干 + -ë 或裸词干是不定式",
         "否定句先找 um-／úmë／úva，后面的动词一律不定式",
         "分词若带宾语，按「分词 + 宾语」整体理解",
-        "点「核对」比对 keys 原文答案",
+        "点「核对」比对 答案原文",
         "错题按「回到本课规则」跳回规则卡",
         "最后展开 keys 全文与 EXERCISES 原文复核"
       ],

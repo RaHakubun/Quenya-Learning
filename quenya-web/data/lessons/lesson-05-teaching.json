@@ -8,7 +8,7 @@
     "能写出 A 词干的现在时，并解释为什么复杂 A 词干不拉长元音",
     "能判断动词该不该加 -r，并说明宾语为何不影响",
     "能用 an- 构成最高级并处理 p / l / r / s / m 前的同化",
-    "能独立完成练习 A–P，用 keys 核对，并把错题回链到对应规则"
+    "能独立完成练习 A–P，对照答案核对，并把错题归到对应规则"
   ],
   "conceptMap": [
     {
@@ -122,7 +122,7 @@
       "sectionId": "an-assimilation"
     },
     {
-      "labelZh": "本章小结",
+      "labelZh": "本课小结",
       "noteZh": "原文 Summary 中英对照",
       "sectionId": "summary"
     },
@@ -132,12 +132,12 @@
       "sectionId": "vocabulary"
     },
     {
-      "labelZh": "练习工作台",
-      "noteZh": "A–P 工作台、考点回链",
+      "labelZh": "练习",
+      "noteZh": "A–P 练习、考点索引",
       "sectionId": "exercises"
     }
   ],
-  "pathTitleZh": "本课学习路径",
+  "pathTitleZh": "本课脉络",
   "path": [
     {
       "step": 1,
@@ -251,7 +251,7 @@
     },
     {
       "step": 23,
-      "labelZh": "本章小结",
+      "labelZh": "本课小结",
       "sectionId": "summary"
     },
     {
@@ -261,7 +261,7 @@
     },
     {
       "step": 25,
-      "labelZh": "练习工作台",
+      "labelZh": "练习",
       "sectionId": "exercises"
     }
   ],
@@ -1435,8 +1435,8 @@
       "sectionId": "summary",
       "kind": "summary",
       "sourceSectionId": "more-about-adjectives",
-      "titleZh": "23 · 本章小结：原文 Summary 与中文对照",
-      "leadZh": "左侧是 less-a.rtf 第 5 课 Summary 原文（未删节），右侧是等价中文翻译。",
+      "titleZh": "23 · 本课小结：原文 Summary 与中文对照",
+      "leadZh": "左侧是 原著 第 5 课 Summary 原文，右侧是等价中文翻译。",
       "objectives": [
         "能复述两类动词与各自的现在时规则",
         "能复述动词数一致与 an- 最高级"
@@ -1614,22 +1614,22 @@
       "sectionId": "exercises",
       "kind": "exercises",
       "sourceSectionId": "exercises",
-      "titleZh": "25 · 练习工作台：A–P 与 keys 核对",
+      "titleZh": "25 · 练习：A–P 与答案核对",
       "leadZh": "A–H 昆雅译英，I–P 英译昆雅。考点只有两个：现在时怎么构成（-ëa 还是拉长）、动词是否与主语一致。M 题另考 an- 的同化。",
       "objectives": [
         "独立完成 A–P，不先展开答案",
         "能说出每题的现在时形式依据哪类词干",
-        "核对后能把错题回链到对应规则卡"
+        "核对后能把错题归到对应规则"
       ],
       "workflowZh": [
         "第一遍：遮住答案，先判断动词属基本动词还是 A 词干",
         "A 词干再看词干元音后有无辅音丛，决定拉不拉长",
         "然后看主语单复数，决定动词要不要 -r",
-        "点「核对」比对 keys 原文答案",
+        "点「核对」比对 答案原文",
         "错题按「回到本课规则」跳回规则卡",
         "最后展开 keys 全文与 EXERCISES 原文复核"
       ],
-      "teachingNoteZh": "keys.rtf 的篇首说明提醒：课程仍在修订，个别练习与答案可能对不上；若出现不一致，优先以 keys.rtf 原文为准。",
+      "teachingNoteZh": "原著答案 的篇首说明提醒：课程仍在修订，个别练习与答案可能对不上；若出现不一致，优先以 原著答案为准。",
       "bilingual": {
         "sectionId": "exercises",
         "unitIds": [

@@ -8,7 +8,7 @@
     "能按词尾给形容词分类并写出正确复数（-a→-ë、-ëa→-ië、-ë→-i、-in→-i）",
     "能说明形容词在四种位置都要数一致，并指出哪一处证据最弱",
     "能解释 Vanyar 与 vanyë 的区别",
-    "能独立完成练习 A–P，用 keys 核对，并把错题回链到对应规则"
+    "能独立完成练习 A–P，对照答案核对，并把错题归到对应规则"
   ],
   "conceptMap": [
     {
@@ -102,22 +102,22 @@
       "sectionId": "adj-as-noun"
     },
     {
-      "labelZh": "本章小结",
+      "labelZh": "本课小结",
       "noteZh": "原文 Summary 中英对照",
       "sectionId": "summary"
     },
     {
       "labelZh": "课末词汇",
-      "noteZh": "12 个新词 + q-vocab 交叉引用",
+      "noteZh": "12 个新词 + 总词汇表对照",
       "sectionId": "vocabulary"
     },
     {
-      "labelZh": "练习工作台",
-      "noteZh": "A–P 工作台、考点回链",
+      "labelZh": "练习",
+      "noteZh": "A–P 练习、考点索引",
       "sectionId": "exercises"
     }
   ],
-  "pathTitleZh": "本课学习路径",
+  "pathTitleZh": "本课脉络",
   "path": [
     {
       "step": 1,
@@ -211,7 +211,7 @@
     },
     {
       "step": 19,
-      "labelZh": "本章小结",
+      "labelZh": "本课小结",
       "sectionId": "summary"
     },
     {
@@ -221,7 +221,7 @@
     },
     {
       "step": 21,
-      "labelZh": "练习工作台",
+      "labelZh": "练习",
       "sectionId": "exercises"
     }
   ],
@@ -1563,8 +1563,8 @@
       "sectionId": "summary",
       "kind": "summary",
       "sourceSectionId": "_preamble",
-      "titleZh": "19 · 本章小结：原文 Summary 与中文对照",
-      "leadZh": "左侧是 less-a.rtf 第 4 课 Summary 原文（未删节），右侧是等价中文翻译；口诀只作记忆辅助。",
+      "titleZh": "19 · 本课小结：原文 Summary 与中文对照",
+      "leadZh": "左侧是 原著 第 4 课 Summary 原文，右侧是等价中文翻译；口诀只作记忆辅助。",
       "objectives": [
         "能复述定语与谓语两种用法的区别",
         "能复述形容词复数四条规则",
@@ -1752,23 +1752,23 @@
       "sectionId": "exercises",
       "kind": "exercises",
       "sourceSectionId": "exercises",
-      "titleZh": "21 · 练习工作台：A–P 与 keys 核对",
+      "titleZh": "21 · 练习：A–P 与答案核对",
       "leadZh": "A–H 昆雅译英（G 有两种译法），I–P 英译昆雅。本课考点集中在两处：形容词复数词尾、系词 ná/nar 与主语数一致。",
       "objectives": [
         "独立完成 A–P，不先展开答案",
         "能说出每题考的是复数规则还是系词",
-        "核对后能把错题回链到对应规则卡",
-        "能展开 keys.rtf 第 4 课全文答案逐题复核"
+        "核对后能把错题归到对应规则",
+        "能展开 第 4 课完整答案逐题复核"
       ],
       "workflowZh": [
         "第一遍：遮住答案，只看题干与考点，写下译文",
         "A–F、H 先判断形容词该用单数还是复数，再定词尾",
         "G 要写出两种译法并说明依据",
         "I–P 先定主语单复数，再决定用 ná 还是 nar",
-        "点「核对」比对 keys 原文答案与可接受替代",
+        "点「核对」比对 答案原文与可接受替代",
         "错题按「回到本课规则」跳回规则卡，最后展开 keys 全文复核"
       ],
-      "teachingNoteZh": "keys.rtf 的篇首说明提醒：课程仍在修订，个别练习与答案可能对不上；若出现不一致，优先以 keys.rtf 原文为准（见全站「练习答案」页）。",
+      "teachingNoteZh": "原著答案的篇首说明提醒：课程仍在修订，个别练习与答案可能对不上；若出现不一致，以原著答案为准（见「练习答案」页）。",
       "bilingual": {
         "sectionId": "exercises",
         "unitIds": [

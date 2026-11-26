@@ -10,7 +10,7 @@
   "能判断何时用 -o（来源、部分、关于、主语）",
   "能说明宾语属格为何用 -va",
   "能构造并分析动名词短语（Altariello nainië、Nurtalë Valinóreva）",
-  "能独立完成练习 A–P，用 keys 核对，并把错题回链到对应规则"
+  "能独立完成练习 A–P，对照答案核对，并把错题归到对应规则"
  ],
  "conceptMap": [
   {
@@ -219,7 +219,7 @@
    "sectionId": "exercises"
   }
  ],
- "pathTitleZh": "本课学习路径",
+ "pathTitleZh": "本课脉络",
  "path": [
   {
    "step": 1,
@@ -413,7 +413,7 @@
   },
   {
    "step": 39,
-   "labelZh": "本章小结：原文 Summary 与中文对照",
+   "labelZh": "本课小结：原文 Summary 与中文对照",
    "sectionId": "summary"
   },
   {
@@ -423,7 +423,7 @@
   },
   {
    "step": 41,
-   "labelZh": "练习工作台：A–P 与 keys 核对",
+   "labelZh": "练习：A–P 与答案核对",
    "sectionId": "exercises"
   }
  ],
@@ -2343,8 +2343,8 @@
    "sectionId": "summary",
    "kind": "summary",
    "sourceSectionId": "verbal-or-abstract-nouns",
-   "titleZh": "39 · 本章小结：原文 Summary 与中文对照",
-   "leadZh": "左侧是 less-c.rtf 第 12 课 Summary 原文（未删节），右侧是等价中文翻译。",
+   "titleZh": "39 · 本课小结：原文 Summary 与中文对照",
+   "leadZh": "左侧是 原著 第 12 课 Summary 原文，右侧是等价中文翻译。",
    "objectives": [
     "能复述所有格的词尾、复数与双数",
     "能列出所有格的主要功能",
@@ -2541,12 +2541,12 @@
   {
    "sectionId": "exercises",
    "sourceSectionId": "exercises",
-   "titleZh": "41 · 练习工作台：A–P 与 keys 核对",
+   "titleZh": "41 · 练习：A–P 与答案核对",
    "leadZh": "A–H 昆雅译英，I–P 英译昆雅。本课要同时用属格（-o／-on）与所有格（-va／-iva），并判断关系：拥有、来源、材料、特征、主语、宾语。",
    "objectives": [
     "独立完成 A–P，不先展开答案",
     "能说明每题为何用 -o 或 -va",
-    "核对后能把错题回链到对应规则卡"
+    "核对后能把错题归到对应规则"
    ],
    "workflowZh": [
     "第一遍：遮住答案，先圈出每个属格／所有格短语",
@@ -2554,7 +2554,7 @@
     "拥有、材料、特征 → -va；来源、部分、关于、主语 → -o",
     "动名词后：主语用 -o，宾语用 -va",
     "核对词尾：-a 脱落、-o 隐形、复数 -iva、拉长规则",
-    "点「核对」比对 keys 原文答案",
+    "点「核对」比对 答案原文",
     "错题按「回到本课规则」跳回规则卡",
     "最后展开 keys 全文与 EXERCISES 原文复核"
    ],

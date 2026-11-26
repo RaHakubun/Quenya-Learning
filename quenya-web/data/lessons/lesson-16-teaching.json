@@ -264,7 +264,7 @@
    "sectionId": "vocabulary"
   }
  ],
- "pathTitleZh": "学习路径",
+ "pathTitleZh": "本课脉络",
  "path": [
   {
    "step": 1,
@@ -3276,10 +3276,10 @@
    "sectionId": "exercises",
    "sourceSectionId": "exercises",
    "titleZh": "49 · 练习 A–P",
-   "leadZh": "A–H 译成英语，I–P 译成昆雅。答案逐字取自 keys.rtf，可用工作台核对。",
+   "leadZh": "A–H 译成英语，I–P 译成昆雅。答案逐字取自原著答案，可在练习中核对。",
    "objectives": [
     "能独立完成 A–P",
-    "能用 keys 逐题核对"
+    "能对照答案 逐题核对"
    ],
    "rules": [
     {

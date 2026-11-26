@@ -10,7 +10,7 @@
     "能区分无定时与现在时（quetë / quéta），并说明二者在托尔金笔下为何会互换",
     "能写出 A 词干与基本动词的无定时单复数形式（lanta / lantar，matë / matir）",
     "能复述三则 NOTE：ettuler、tápë 与 móta、-ëa 争议的规避法",
-    "能独立完成练习 A–P，用 keys 核对，并把错题回链到对应规则"
+    "能独立完成练习 A–P，对照答案核对，并把错题归到对应规则"
   ],
   "conceptMap": [
     {
@@ -109,7 +109,7 @@
       "sectionId": "exercises"
     }
   ],
-  "pathTitleZh": "本课学习路径",
+  "pathTitleZh": "本课脉络",
   "path": [
     {
       "step": 1,
@@ -1438,8 +1438,8 @@
       "sectionId": "summary",
       "kind": "summary",
       "sourceSectionId": "the-aorist",
-      "titleZh": "17 · 本章小结：原文 Summary 与中文对照",
-      "leadZh": "左侧是 less-b.rtf 第 7 课 Summary 原文（未删节），右侧是等价中文翻译。",
+      "titleZh": "17 · 本课小结：原文 Summary 与中文对照",
+      "leadZh": "左侧是 原著 第 7 课 Summary 原文，右侧是等价中文翻译。",
       "objectives": [
         "能复述将来时的构成与 A 词干的处理",
         "能复述无定时的功能与构成",
@@ -1625,23 +1625,23 @@
       "sectionId": "exercises",
       "kind": "exercises",
       "sourceSectionId": "exercises",
-      "titleZh": "19 · 练习工作台：A–P 与 keys 核对",
+      "titleZh": "19 · 练习：A–P 与答案核对",
       "leadZh": "A–H 昆雅译英，I–P 英译昆雅。本课只考将来时（-uva）与无定时；B、C、M 三题还考将来时复数 -r，P 题考现在时与无定时的对比。",
       "objectives": [
         "独立完成 A–P，不先展开答案",
         "能说出每题用的是将来时还是无定时、依据哪条规则",
-        "核对后能把错题回链到对应规则卡"
+        "核对后能把错题归到对应规则"
       ],
       "workflowZh": [
         "第一遍：遮住答案，先判断动词是将来时还是无定时",
         "将来时：基本动词 + -uva；A 词干丢 -a 再加 -uva",
         "无定时：A 词干＝词干；基本动词加 -i，词末 -ë，接词尾保留 -i",
         "再看主语单复数：将来时加 -r，无定时基本动词用 mati- + -r",
-        "点「核对」比对 keys 原文答案",
+        "点「核对」比对 答案原文",
         "错题按「回到本课规则」跳回规则卡",
         "最后展开 keys 全文与 EXERCISES 原文复核"
       ],
-      "teachingNoteZh": "keys.rtf 对本课有两条重要说明：① A、B、E、F、G 的无定时表「一般真理」，H 的无定时表瞬时的、无持续性的动作；② K 的无定时也是瞬时动作，L、N 的无定时表个人的一般特征或习惯，O 的无定时（matir）与 P 的现在时（mátar）正好构成「一般真理 vs 正在进行」的对照。",
+      "teachingNoteZh": "原著答案对本课有两条重要说明：① A、B、E、F、G 的无定时表「一般真理」，H 的无定时表瞬时的、无持续性的动作；② K 的无定时也是瞬时动作，L、N 的无定时表个人的一般特征或习惯，O 的无定时（matir）与 P 的现在时（mátar）正好构成「一般真理 vs 正在进行」的对照。",
       "bilingual": {
         "sectionId": "exercises",
         "unitIds": [

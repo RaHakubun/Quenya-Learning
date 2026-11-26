@@ -11,7 +11,7 @@
   "能用 in order 测试判断何时该用与格 gerund 表目的",
   "能区分包含式 -lvë 与排除式 -lmë，并解释 omentielmo → omentielvo",
   "能使用不定代词 quen 及其属格、与格形式",
-  "能独立完成练习 A–P，用 keys 核对，并把错题回链到对应规则"
+  "能独立完成练习 A–P，对照答案核对，并把错题归到对应规则"
  ],
  "conceptMap": [
   {
@@ -270,7 +270,7 @@
    "sectionId": "exercises"
   }
  ],
- "pathTitleZh": "学习路径",
+ "pathTitleZh": "本课脉络",
  "path": [
   {
    "step": 1,
@@ -529,7 +529,7 @@
   },
   {
    "step": 52,
-   "labelZh": "练习工作台（A–P）",
+   "labelZh": "练习（A–P）",
    "sectionId": "exercises"
   }
  ],
@@ -3403,11 +3403,11 @@
   {
    "sectionId": "exercises",
    "sourceSectionId": "exercises",
-   "titleZh": "51 · 练习工作台（A–P）",
-   "leadZh": "A–H 昆雅译英，I–P 英译昆雅。答案逐字取自 keys.rtf。",
+   "titleZh": "51 · 练习（A–P）",
+   "leadZh": "A–H 昆雅译英，I–P 英译昆雅。答案逐字取自原著答案。",
    "objectives": [
     "独立完成 A–P",
-    "用 keys 核对并把错题回链到规则"
+    "对照答案核对并把错题归到规则"
    ],
    "bilingual": {
     "sectionId": "exercises",
@@ -3440,7 +3440,7 @@
     "A 词干动词造 gerund：先掉 -a（ortië），-ya 动词整段脱落（harië）",
     "「我们」先判包含还是排除：听话人在内 → -lvë；在外 → -lmë",
     "辅音结尾名词加 -n 前，检查是否需要帮助元音 -e-（aranen、ataren）",
-    "点「核对」比对 keys 原文答案",
+    "点「核对」比对 答案原文",
     "错题按「回到本课规则」跳回对应规则卡"
    ],
    "teachingNoteZh": "keys 对多数题给了注释：I 题的 ohtaren 演示帮助元音 -e-；J 题的 carië 同时带直接宾语 coa 与间接宾语 i seldoin；K 题的 mahtalvë 是包含式、ecénielvë 是完成时；M 题的 lient 是「民族」的双数与格、lelyuvalmë 是排除式；N 题的 arwë 后接属格 limpëo；O 题特意指出 lelya 不能写成 lelien（merilmë lelien 讲不通），而 lerien、antien 才表目的；P 题的 varien 是 varya- 的与格 gerund。",

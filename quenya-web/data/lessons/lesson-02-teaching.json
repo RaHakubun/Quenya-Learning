@@ -7,7 +7,7 @@
     "能解释 tië → tier 与 Quendë → Quendi 为什么走两条不同的路",
     "能说出 -li 部分复数为何本课不练，并知道去附录哪一节查",
     "能写出 i 的用法，并列举三类「不该加 i」的情况",
-    "能独立完成练习 A–P，用 keys 核对，并把错题回链到对应规则",
+    "能独立完成练习 A–P，对照答案核对，并把错题归到对应规则",
     "能默写课末 12 个词，并在总词汇表中反查"
   ],
   "conceptMap": [
@@ -52,22 +52,22 @@
       "sectionId": "article-omission"
     },
     {
-      "labelZh": "本章小结",
+      "labelZh": "本课小结",
       "noteZh": "原文 Summary + 中文口诀",
       "sectionId": "summary"
     },
     {
       "labelZh": "课末词汇",
-      "noteZh": "12 个新词 + q-vocab 交叉引用",
+      "noteZh": "12 个新词 + 总词汇表对照",
       "sectionId": "vocabulary"
     },
     {
       "labelZh": "练习与答案",
-      "noteZh": "A–P 工作台、考点回链、keys.rtf",
+      "noteZh": "A–P 练习、考点索引、答案核对",
       "sectionId": "exercises"
     }
   ],
-  "pathTitleZh": "第 2 课学习路径（按语法点分层）",
+  "pathTitleZh": "本课脉络",
   "path": [
     {
       "step": 1,
@@ -111,7 +111,7 @@
     },
     {
       "step": 9,
-      "labelZh": "本章小结",
+      "labelZh": "本课小结",
       "sectionId": "summary"
     },
     {
@@ -318,7 +318,7 @@
       "closeReadingZh": [
         {
           "headZh": "为什么一门课敢整段跳过一个语法点",
-          "bodyZh": "因为「能造出形式」和「知道什么时候用」是两件事。-li 的形式有据（Plotz Letter、Namárië 等），但功能只有推测；若拿推测出题，学生会把它内化成规则。作者的处理是把证据分级：正文只教可检验的规则，附录收纳证据不足、不宜出题的专题，并明说自己也无法保证托尔金不会在某处用 -li 代替常规复数。读附录时也要保持这个分级意识。"
+          "bodyZh": "因为「能造出形式」和「知道什么时候用」是两件事。-li 的形式有据（Plotz Letter、Namárië 等），但功能只有推测；若拿推测出题，学生会把它内化成规则。作者的处理是把证据分级：正文只教有据可查的规则，附录收纳证据不足、不宜出题的专题，并明说自己也无法保证托尔金不会在某处用 -li 代替常规复数。读附录时也要保持这个分级意识。"
         },
         {
           "headZh": "中文学习者要防的直觉",
@@ -1165,8 +1165,8 @@
       "sectionId": "summary",
       "kind": "summary",
       "sourceSectionId": "the-article",
-      "titleZh": "09 · 本章小结：原文 Summary 与中文等价小结",
-      "leadZh": "左侧是原著 Summary of Lesson Two 英文全文，右侧是中文等价小结与口诀。逐段对照区附在下方。",
+      "titleZh": "09 · 本课小结：原文 Summary 与中文等价小结",
+      "leadZh": "左侧是原著 Summary of Lesson Two 英文全文，右侧是中文等价小结与口诀。原文对照区附在下方。",
       "objectives": [
         "能不看提示复述两条复数规则",
         "能不看提示说出冠词的两条规则与三类省略",
@@ -1318,7 +1318,7 @@
           "bodyZh": "别孤立背 12 个词，按复数规则分组记：-r 组（Elda、rocco、lië）、-i 组（vendë、aran、tasar）、不变组（minë、ar、nu、Anar、Isil）。上表就是按这个思路排的；做完练习 A–P 后回头逐词说出它属于哪组，比抄写有效。"
         }
       ],
-      "recapZh": "12 个词按复数规则分三组记；Anar / Isil 不加 i，tasar 的 -r 是词干。总词汇表可离线反查。",
+      "recapZh": "12 个词按复数规则分三组记；Anar / Isil 不加 i，tasar 的 -r 是词干。生词可随时查总词汇表。",
       "selfCheckZh": [
         {
           "qZh": "默写「马、国王、少女、柳树、族民」五个词及其复数。",
@@ -1333,7 +1333,7 @@
           "aZh": "词末 -r 属于词干本身；并不存在单数 **tasa，其复数另加 -i 作 tasari。"
         }
       ],
-      "teachingNoteZh": "建议先遮住中文列默写 12 词，再打开总词汇表页用搜索框反查英文释义；全程离线可用。",
+      "teachingNoteZh": "建议先遮住中文列默写 12 词，再查总词汇表核对英文释义。",
       "showOriginal": false,
       "bilingual": {
         "sectionId": "vocabulary",
@@ -1359,22 +1359,22 @@
       "sectionId": "exercises",
       "kind": "exercises",
       "sourceSectionId": "exercises",
-      "titleZh": "11 · 练习工作台：A–P 与 keys 核对",
-      "leadZh": "练习一昆雅译英（A–H），练习二英译昆雅（I–P）。每题都标了考点、分步提示与规则回链；核对后显示 keys 原文答案、中文解析。",
+      "titleZh": "11 · 练习：A–P 与答案核对",
+      "leadZh": "练习一昆雅译英（A–H），练习二英译昆雅（I–P）。每题先自己译，再核对答案与解析。",
       "objectives": [
         "独立完成 A–P，不先展开答案",
         "每题能说出考的是哪条规则",
-        "核对后能把错题回链到对应规则卡",
-        "能展开 keys.rtf 第 2 课全文答案逐题复核"
+        "核对后能把错题归到对应规则",
+        "能展开 第 2 课完整答案逐题复核"
       ],
       "workflowZh": [
         "第一遍：遮住答案，只看题干与考点，写下译文",
         "拿不准时点「分步提示」，不要直接点「显示答案」",
-        "点「核对」：系统会比对 keys 原文答案、可接受的替代译文与中文等价答案",
+        "点「核对」：系统会比对 答案原文、可接受的替代译文与中文等价答案",
         "错题按「回到本课规则」链接跳回对应规则卡，重读后再改",
-        "最后展开 keys.rtf 全文答案与下方 EXERCISES 原文，逐题复核"
+        "最后展开完整答案与下方 EXERCISES 原文，逐题复核"
       ],
-      "teachingNoteZh": "keys.rtf 的篇首说明提醒：课程仍在修订，个别练习与答案可能对不上；若出现不一致，优先以 keys.rtf 原文为准（见全站「练习答案」页）。",
+      "teachingNoteZh": "原著答案的篇首说明提醒：课程仍在修订，个别练习与答案可能对不上；若出现不一致，以原著答案为准（见「练习答案」页）。",
       "bilingual": {
         "sectionId": "exercises",
         "unitIds": [

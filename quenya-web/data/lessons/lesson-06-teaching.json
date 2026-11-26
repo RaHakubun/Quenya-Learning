@@ -8,7 +8,7 @@
     "能说明 -l 结尾动词为什么加 -lë 而不是 -në",
     "能指出「不规则」形式（rendë、lávë、ornë）背后的历史原因",
     "能处理复数主语的过去时（加 -r、两点消失）",
-    "能独立完成练习 A–P，用 keys 核对，并把错题回链到对应规则"
+    "能独立完成练习 A–P，对照答案核对，并把错题归到对应规则"
   ],
   "conceptMap": [
     {
@@ -112,7 +112,7 @@
       "sectionId": "plural-past"
     },
     {
-      "labelZh": "本章小结",
+      "labelZh": "本课小结",
       "noteZh": "原文 Summary 中英对照",
       "sectionId": "summary"
     },
@@ -122,12 +122,12 @@
       "sectionId": "vocabulary"
     },
     {
-      "labelZh": "练习工作台",
-      "noteZh": "A–P 工作台、考点回链",
+      "labelZh": "练习",
+      "noteZh": "A–P 练习、考点索引",
       "sectionId": "exercises"
     }
   ],
-  "pathTitleZh": "本课学习路径",
+  "pathTitleZh": "本课脉络",
   "path": [
     {
       "step": 1,
@@ -231,7 +231,7 @@
     },
     {
       "step": 21,
-      "labelZh": "本章小结",
+      "labelZh": "本课小结",
       "sectionId": "summary"
     },
     {
@@ -241,7 +241,7 @@
     },
     {
       "step": 23,
-      "labelZh": "练习工作台",
+      "labelZh": "练习",
       "sectionId": "exercises"
     }
   ],
@@ -1407,8 +1407,8 @@
       "sectionId": "summary",
       "kind": "summary",
       "sourceSectionId": "_preamble",
-      "titleZh": "21 · 本章小结：原文 Summary 与中文对照",
-      "leadZh": "左侧是 less-b.rtf 第 6 课 Summary 原文（未删节），右侧是等价中文翻译。",
+      "titleZh": "21 · 本课小结：原文 Summary 与中文对照",
+      "leadZh": "左侧是 原著 第 6 课 Summary 原文，右侧是等价中文翻译。",
       "objectives": [
         "能复述四类规则过去时",
         "能把小结的每一句对应到前面的步骤"
@@ -1585,22 +1585,22 @@
       "sectionId": "exercises",
       "kind": "exercises",
       "sourceSectionId": "exercises",
-      "titleZh": "23 · 练习工作台：A–P 与 keys 核对",
+      "titleZh": "23 · 练习：A–P 与答案核对",
       "leadZh": "A–H 昆雅译英，I–P 英译昆雅。全部只考本课的规则过去时；F 题的 caitaner 还考复数过去时的 -r。",
       "objectives": [
         "独立完成 A–P，不先展开答案",
         "能说出每题动词的过去时依据哪条规则",
-        "核对后能把错题回链到对应规则卡"
+        "核对后能把错题归到对应规则"
       ],
       "workflowZh": [
         "第一遍：遮住答案，先看动词末辅音属哪一类",
         "再看主语单复数，决定过去时要不要加 -r",
         "A 词干直接加 -në；基本动词按末辅音分流",
-        "点「核对」比对 keys 原文答案",
+        "点「核对」比对 答案原文",
         "错题按「回到本课规则」跳回规则卡",
         "最后展开 keys 全文与 EXERCISES 原文复核"
       ],
-      "teachingNoteZh": "keys.rtf 对 F 题注明：昆雅过去时也可能允许译作 was/were ...-ing，但已出版材料无法判断昆雅是否有专门的进行过去形式。",
+      "teachingNoteZh": "原著答案 对 F 题注明：昆雅过去时也可能允许译作 was/were ...-ing，但已出版材料无法判断昆雅是否有专门的进行过去形式。",
       "bilingual": {
         "sectionId": "exercises",
         "unitIds": [
