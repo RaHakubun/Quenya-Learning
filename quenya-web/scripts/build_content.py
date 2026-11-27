@@ -6,6 +6,7 @@ import json
 import re
 import subprocess
 import html
+import hashlib
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -14,6 +15,24 @@ OUT = WEB / "data"
 
 # Static HTML pages built for lessons 1…RELEASED_LESSON_MAX (all must have zh teaching + bilingual).
 RELEASED_LESSON_MAX = 20
+
+
+def _asset_version(*rel_paths: str) -> str:
+    """内容哈希，拼进 CSS/JS 的 URL 查询串。
+
+    托管方（GitHub Pages / WorkBuddy 沙箱）都不发 Cache-Control，浏览器按
+    Last-Modified 做启发式缓存，改版后旧样式可能被继续用上几小时。把内容哈希
+    写进 URL，样式一改 URL 就变，旧缓存自然失效。
+    """
+    digest = hashlib.sha1()
+    for rel in rel_paths:
+        path = WEB / "assets" / rel
+        if path.exists():
+            digest.update(path.read_bytes())
+    return digest.hexdigest()[:8]
+
+
+ASSET_V = _asset_version("css/main.css", "js/lesson-page.js")
 
 LESSON_WORDS = {
     "ONE": 1, "TWO": 2, "THREE": 3, "FOUR": 4, "FIVE": 5,
@@ -1242,7 +1261,7 @@ def render_lesson_page(
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>第 {n} 课 · {_esc(title_zh)} · 昆雅语课程</title>
-  <link rel="stylesheet" href="../assets/css/main.css" />
+  <link rel="stylesheet" href="../assets/css/main.css?v={ASSET_V}" />
 </head>
 <body>
   <header class="site-header">
@@ -1266,7 +1285,7 @@ def render_lesson_page(
       {body}
   </main>
   </div>
-  <script src="../assets/js/lesson-page.js"></script>
+  <script src="../assets/js/lesson-page.js?v={ASSET_V}"></script>
 </body>
 </html>"""
 
@@ -1297,7 +1316,7 @@ def render_index(catalog: list, refined: set[int] | None = None) -> str:
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>昆雅语课程</title>
-  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="assets/css/main.css?v={ASSET_V}" />
 </head>
 <body>
   <header class="site-header">
@@ -1392,7 +1411,7 @@ def render_site_page(title: str, body: str, active: str, extra_head: str = "") -
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{_esc(title)} · 昆雅语课程</title>
-  <link rel="stylesheet" href="assets/css/main.css" />{extra_head}
+  <link rel="stylesheet" href="assets/css/main.css?v={ASSET_V}" />{extra_head}
 </head>
 <body>
   <header class="site-header">
